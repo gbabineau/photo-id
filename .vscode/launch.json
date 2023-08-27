@@ -5,31 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Photo ID2",
-            "type": "python",
-            "request": "launch",
-            "program": "photo-id/photo-id2.py",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "args" : ["--verbose"]
-        },
-        {
             "name": "Python: Photo ID",
             "type": "python",
             "request": "launch",
-            "program": "photo-id/photo-id.py",
+            "program": "photo_id/photo_id.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args" : ["--verbose"]
+            "args": [
+                "--verbose"
+            ]
         },
         {
-            "name": "tkintertest",
+            "name": "rest read",
             "type": "python",
             "request": "launch",
-            "program": "photo-id/tkintertest.py",
+            "program": "photo_id/processQuiz.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args" : ["--verbose"]
+            "args": [
+                "--verbose"
+            ]
         }
     ]
 }

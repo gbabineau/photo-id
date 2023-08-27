@@ -1,1 +1,1 @@
-# photo-id
+# photo_id
