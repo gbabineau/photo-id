@@ -1,0 +1,11 @@
+{
+    "start_month" : 5,
+    "end_month" : 6,
+    "location" : "",
+    "species" : [
+        {"name" : "Common Chaffinch"},
+        {"name" : "Brambling"},
+        {"name" : "Eurasian Bullfinch"},
+        {"name" : "Ortolan Bunting"},
+        {"name" : "Reed Bunting"}
+    ]}

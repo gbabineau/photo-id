@@ -15,6 +15,14 @@ optional = false
 python-versions = ">=3.7.0"
 
 [[package]]
+name = "ebird-api"
+version = "3.0.6"
+description = "Wrapper for accessing the eBird API"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -69,11 +77,12 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "a4b6bcb2042f16769079c62fcc4cfb24f6ac4745a5a8850e7c86daaa67c7503d"
+content-hash = "a706178c1b940965d801a62957f32948ce28cc0478ca651ada5171745b508cee"
 
 [metadata.files]
 certifi = []
 charset-normalizer = []
+ebird-api = []
 idna = []
 pillow = []
 requests = []
