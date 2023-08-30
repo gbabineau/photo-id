@@ -1,23 +1,14 @@
-from  ebird.api import get_taxonomy
+"""
+    Processes a quiz file
+"""
+
 import json
 import logging
-import os
-import sys
-ebird_api_key_name = 'EBIRDAPIKEY'
 
+def process_quiz_file(name : str, taxonomy : list) -> dict:
+    """Reads a quiz file """
 
-def process_quiz_file(name : str):
     result={}
-    if not os.path.isfile('.cache/taxonomy'):
-        ebird_api_key = os.getenv(ebird_api_key_name)
-        if ebird_api_key == '0':
-            sys.exit("ebird API key must be specified in the "+ebird_api_key_name+" environment variable.")
-        taxonomy=get_taxonomy(ebird_api_key)
-        with open('.cache/taxonomy', encoding ='utf-8', mode='wt') as f:
-            json.dump(taxonomy, f)
-    else:
-        with open('.cache/taxonomy', encoding ='utf-8', mode= 'rt') as f:
-            taxonomy=json.load(f)
     with open(name, encoding ='utf-8', mode= 'rt') as f:
         file_data = json.load(f)
     result['location']=file_data['location']
@@ -34,12 +25,7 @@ def process_quiz_file(name : str):
     return result
 
 
-def get_code (data, common_name):
+def get_code (data, common_name) -> str:
+    """ Returns a species code for a common name """
     species = next((item for item in data['species'] if item["comName"] == common_name), None)
     return species['speciesCode']
-
-def main():
-    quiz_data=process_quiz_file('tests/data/norway_common.json')
-
-if __name__ == "__main__":
-    main()
