@@ -1,0 +1,28 @@
+{
+    "start_month" : 2,
+    "end_month" : 2,
+    "location" : "EC",
+    "species" : [
+        {"name" : "Ecuadorian Hillstar"},
+        {"name" : "Andean Teal"},
+        {"name" : "Andean Lapwing"},
+        {"name" : "Black-faced Ibis"},
+        {"name" : "Giant Hummingbird"},
+        {"name" : "Andean Condor"},
+        {"name" : "Silvery Grebe"},
+        {"name" : "Yellow-billed Pintail"},
+        {"name" : "Carunculated Caracara"},
+        {"name" : "Cinereous Conebill"},
+        {"name" : "Aplomado Falcon"},
+        {"name" : "Lesser Yellowlegs"},
+        {"name" : "White-collared Swift"},
+        {"name" : "Blue-mantled Thornbill"},
+        {"name" : "Stout-billed Cinclodes"},
+        {"name" : "Paramo Pipit"},
+        {"name" : "Plain-capped Ground-Tyrant"},
+        {"name" : "Plumbeous Sierra Finch"},
+        {"name" : "Andean Siskin"},
+        {"name" : "Black-winged Ground Dove"},
+        {"name" : "Rufous-bellied Seedsnipe"}
+    ]
+}

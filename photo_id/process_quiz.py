@@ -16,9 +16,9 @@ def process_quiz_file(name : str, taxonomy : list) -> dict:
     result['end_month']=file_data['end_month']
     result['species']=[]
     for species in file_data['species']:
-        entry = next((item for item in taxonomy if item["comName"] == species['name']), None)
+        entry = next((item for item in taxonomy if item["comName"].upper() == species['name'].upper()), None)
         if entry == None:
-            logging.info(f'Species not found {species} name')
+            logging.info(f'Species not found {species["name"]}')
         else:
             result['species'].append(entry)
     result['species']=  sorted(result['species'], key=lambda x: x['taxonOrder'])
