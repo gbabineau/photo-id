@@ -12,14 +12,16 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "--verbose"
+                "--verbose",
+                "--have_list",
+                "tests/data/guy_ebird_world_life_list_0823.csv"
             ]
         },
         {
             "name": "rest read",
             "type": "python",
             "request": "launch",
-            "program": "photo_id/processQuiz.py",
+            "program": "photo_id/process_quiz.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
