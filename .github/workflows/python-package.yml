@@ -35,6 +35,11 @@ jobs:
         poetry run flake8 . --extend-exclude=.venv --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         poetry run flake8 . --extend-exclude=.venv --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
     - name: Test
-      run: |
-        poetry run python -m unittest discover
+      run: poetry run pytest --cov --cov-report xml:coverage.xml
+    - name: Get Cover
+      uses: orgoro/coverage@v3.1
+      with:
+          coverageFile: cover.xml
+          token: ${{ secrets.GITHUB_TOKEN }}
