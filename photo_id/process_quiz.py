@@ -19,8 +19,11 @@ def process_quiz_file(name : str, taxonomy : list) -> dict:
         entry = next((item for item in taxonomy if item["comName"].upper() == species['name'].upper()), None)
         if entry == None:
             logging.info(f'Species not found {species["name"]}')
+        elif entry in result['species']:
+            logging.info(f'Duplicate species removed {species["name"]}')
         else:
             result['species'].append(entry)
+    # Sort
     result['species']=  sorted(result['species'], key=lambda x: x['taxonOrder'])
     return result
 

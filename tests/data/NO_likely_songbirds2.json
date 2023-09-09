@@ -1,7 +1,7 @@
 {
     "start_month" : 5,
     "end_month" : 6,
-    "location" : "",
+    "location" : "FI",
     "species" : [
         {"name" : "Sedge Warbler"},
         {"name" : "Lesser Whitethroat"},

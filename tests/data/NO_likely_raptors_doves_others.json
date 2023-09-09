@@ -1,7 +1,7 @@
 {
     "start_month" : 5,
     "end_month" : 6,
-    "location" : "",
+    "location" : "FI",
     "species" : [
         {"name" : "White-tailed Eagle"},
         {"name" : "Eurasian Marsh-Harrier"},
@@ -22,6 +22,6 @@
         {"name" : "Ural Owl"},
         {"name" : "Boreal Owl"},
         {"name" : "Eurasian Pygmy-Owl"},
-        {"name" : "Northern Hawk Owl"},
+        {"name" : "Northern Hawk Owl (Eurasian)"},
         {"name" : "Short-eared Owl"}
     ]}

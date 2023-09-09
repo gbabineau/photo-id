@@ -1,7 +1,7 @@
 {
     "start_month" : 5,
     "end_month" : 6,
-    "location" : "",
+    "location" : "NO",
     "species" : [
         {"name" : "Red-throated Loon"},
         {"name" : "Arctic Loon"},
