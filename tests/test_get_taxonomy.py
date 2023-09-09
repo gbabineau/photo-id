@@ -1,5 +1,5 @@
 """
-Tests  photo_id\get_taxonomy.py
+Tests  photo_id/get_taxonomy.py
 """
 import unittest
 import photo_id.get_taxonomy
