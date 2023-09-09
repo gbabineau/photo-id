@@ -49,7 +49,7 @@ class ImageWindow:
                    command=self.reveal_species).grid(row=0, column=2)
 
         # row 1 buttons
-        ttk.Label(self.root, text="What is this bird?").grid(
+        Label(self.root, text="What is this bird?").grid(
             row=1, column=0)  # default value
         self.what_is_it = ttk.Combobox(self.root, textvariable=self.selected_species,
                                        values=self.species_list, height=min(25, len(self.species_list)), width=30)
