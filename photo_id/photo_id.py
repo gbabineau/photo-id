@@ -181,7 +181,7 @@ class MainWindow:
 
         self.taxonomy=get_taxonomy.ebird_taxonomy()
         if default_have_list != '':
-            self.have_list=get_have_list.get_have_list(default_have_list, self.taxonomy)
+            self.have_list=get_have_list.get_have_list(default_have_list)
         self.root = Tk()
         self.root.title('Photo ID quiz')
         menubar = Menu(self.root)
@@ -213,7 +213,7 @@ class MainWindow:
         filename = filedialog.askopenfilename(
             title='Select a Have List File', initialdir='.', filetypes=[('CSV files', '*.csv')])
         if filename != '':
-            self.have_list=get_have_list.get_have_list(filename, self.taxonomy)
+            self.have_list=get_have_list.get_have_list(filename)
 
 
     def donothing(self) -> None:
