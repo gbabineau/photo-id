@@ -6,7 +6,7 @@ import csv
 # the “Download (csv)” link near the upper-right corner of the page.
 
 
-def get_have_list(name : str, taxonomy : list) -> list:
+def get_have_list(name : str) -> list:
     """ Reads a csv of birds that are had already """
     result=[]
     with open(name, encoding ='utf-8', mode= 'rt') as f:

@@ -1,7 +1,7 @@
 {
     "start_month" : 5,
     "end_month" : 6,
-    "location" : "",
+    "location" : "NO",
     "species" : [
         {"name" : "Red-throated Loon"},
         {"name" : "Arctic Loon"},
@@ -94,7 +94,7 @@
         {"name" : "Ural Owl"},
         {"name" : "Boreal Owl"},
         {"name" : "Eurasian Pygmy-Owl"},
-        {"name" : "Northern Hawk Owl"},
+        {"name" : "Northern Hawk Owl (Eurasian)"},
         {"name" : "Common Swift"},
         {"name" : "Great Spotted Woodpecker"},
         {"name" : "Black Woodpecker"},
