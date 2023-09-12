@@ -22,21 +22,22 @@ class TestProcessQuiz(unittest.TestCase):
             ]}
 
         taxonomy = [
-                {"comName" : "Brambling", "taxonOrder" :1 },
-                {"comName" : "Common Chaffinch", "taxonOrder" :2 },
-                {"comName" : "Eurasian Bullfinch", "taxonOrder" :3},
-                {"comName" : "Ortolan Bunting", "taxonOrder" :4},
-                {"comName" : "Reed Bunting", "taxonOrder" :5}
+                {"comName" : "Brambling", "taxonOrder" : 1 },
+                {"comName" : "Common Chaffinch", "taxonOrder" : 2 },
+                {"comName" : "Eurasian Bullfinch", "taxonOrder" : 3},
+                {"comName" : "Ortolan Bunting", "taxonOrder" : 4},
+                {"comName" : "Reed Bunting", "taxonOrder" : 5}
             ]
 
         expected = {
             "start_month" : 5,
             "end_month" : 6,
             "location" : "",
+            "notes" : "",
             "species" : [
-                {"comName" : "Brambling", "taxonOrder" :1 },
-                {"comName" : "Common Chaffinch", "taxonOrder" :2 },
-                {"comName" : "Eurasian Bullfinch", "taxonOrder" :3},
+                {"comName" : "Brambling", "taxonOrder" : 1, "notes" : "" },
+                {"comName" : "Common Chaffinch", "taxonOrder" : 2, "notes" : "" },
+                {"comName" : "Eurasian Bullfinch", "taxonOrder" : 3, "notes" : ""},
             ]
         }
         # Now Test

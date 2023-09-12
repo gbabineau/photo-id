@@ -1,0 +1,26 @@
+{
+    "start_month" : 2,
+    "end_month" : 2,
+    "location" : "EC",
+    "notes" : "High sumaco road and Hummingbird feeders",
+    "basis" : "notes in itinerary (modified because some are wrong) plus this list https://ebird.org/checklist/S124047278",
+    "species" : [
+         {"name" : "Andean Cock-of-the-Rock"},
+         {"name" : "Crested Quetzal"},
+         {"name" : "Bronzy Inca"},
+         {"name" : "White-booted Racket-tail"},
+         {"name" : "Speckled Hummingbird"},
+         {"name" : "Brown Violetear"},
+         {"name" : "Green-backed Hillstar"},
+         {"name" : "Violet-headed Hummingbird"},
+         {"name" : "Napo Sabrewing"},
+         {"name" : "Fork-tailed Woodnymph"},
+         {"name" : "Many-spotted Hummingbird"},
+         {"name" : "Golden-tailed Sapphire"},
+         {"name" : "Andean Motmot"},
+         {"name" : "Torrent Duck"},
+         {"name" : "White-capped Dipper"},
+         {"name" : "Long-tailed Sylph"},
+         {"name" : "Violet-fronted Brilliant"}
+        ]
+}
