@@ -8,6 +8,8 @@ on:
     branches: [ "*" ]
   pull_request:
     branches: [ "*" ]
+    types: [opened, synchronize, reopened]
+
 jobs:
   build:
 
@@ -36,6 +38,13 @@ jobs:
         poetry run flake8 . --extend-exclude=.venv --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test
       run: poetry run pytest
+  sonarcloud:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        # Disabling shallow clone is recommended for improving relevancy of reporting
+        fetch-depth: 0
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       env:
