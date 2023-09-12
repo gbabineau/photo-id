@@ -43,7 +43,8 @@ class MainWindow:
         """ Open and start a new quiz defined by a quiz file. """
         filename = filedialog.askopenfilename(
             title='Select a Quiz File', initialdir='.', filetypes=[('json files', '*.json')])
-        image_window.ImageWindow(filename, self.taxonomy, self.have_list)
+        if filename != '':
+            image_window.ImageWindow(filename, self.taxonomy, self.have_list)
 
 
     def have_list_open(self) -> None:

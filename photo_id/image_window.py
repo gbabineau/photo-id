@@ -105,6 +105,7 @@ class ImageWindow:
     def picked_image(self, unused) -> None:
         """Called when the user asks to see a specific species. The unused parameter is to match the signature used by the caller. """
         del unused
+        self.selected_species.set('')
         self.quiz_species = self.specific_species.get()
         self.update_image()
         self.specific_species.set('')
@@ -179,7 +180,7 @@ class ImageWindow:
         """Gets a new species from the selected list. Tries to avoid getting the same species twice in a row."""
         self.selected_species.set('')
         without_current_species = self.species_list.copy()
-        if self.quiz_species != '':
+        if self.quiz_species != '' and self.quiz_species in self.species_list and len(self.quiz_species_list) > 1:
             without_current_species.remove(self.quiz_species)
         self.quiz_species = str(random.choice(without_current_species))
         self.update_image()
