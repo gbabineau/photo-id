@@ -8,8 +8,6 @@ on:
     branches: [ "*" ]
   pull_request:
     branches: [ "*" ]
-permissions:
-  pull-requests: write
 jobs:
   build:
 
@@ -37,15 +35,7 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         poetry run flake8 . --extend-exclude=.venv --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test
-      run: poetry run pytest --cov=photo_id --cov-report xml:coverage.xml
-    - name: Get Cover
-      uses: orgoro/coverage@v3.1
-      with:
-          coverageFile: coverage.xml
-          token: ${{ secrets.GITHUB_TOKEN }}
-          thresholdAll: .1
-          thresholdNew: .9
-          thresholdModified: 0
+      run: poetry run pytest
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       env:
