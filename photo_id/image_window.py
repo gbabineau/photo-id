@@ -24,7 +24,7 @@ class ImageWindow:
         self.species_list = [d['comName']
                              for d in self.quiz_data['species'] if 'comName' in d]
         self.quiz_species = str(random.choice(self.species_list))
-
+        self.image_number=0
         # Create a photoimage object of the image in the path
         test = ImageTk.PhotoImage(self.get_image(
             self.quiz_species, self.quiz_data['location'], self.quiz_data['start_month'], self.quiz_data['end_month']))
@@ -148,9 +148,11 @@ class ImageWindow:
                 image_list = self.get_image_list(species_code, '', 1, 12)
 
         if len(image_list) > 2:
-            image_number = random.randint(2, len(image_list)-1)
+            self.image_number=self.image_number+2
+            if self.image_number == min(len(image_list), 12): # only use the first 5 (nominally highest rated images)
+                self.image_number=2
             img_bytes = requests.get(
-                image_list[image_number], timeout=10).content
+                image_list[self.image_number], timeout=10).content
             image = Image.open(io.BytesIO(img_bytes))
         else:
             logging.error(f'No images for {species} at any location or time')
@@ -179,6 +181,7 @@ class ImageWindow:
     def get_new_random_species(self) -> None:
         """Gets a new species from the selected list. Tries to avoid getting the same species twice in a row."""
         self.selected_species.set('')
+        self.image_number=0
         without_current_species = self.species_list.copy()
         if self.quiz_species != '' and self.quiz_species in self.species_list and len(self.quiz_species_list) > 1:
             without_current_species.remove(self.quiz_species)
