@@ -26,11 +26,9 @@
         {"name" : "Gray-rumped Swift" , "notes" : "64% frequency at hotspot"},
         {"name" : "Yellow-crowned Parrot" , "notes" : "64% frequency at hotspot"},
         {"name" : "Scarlet Tanager" , "notes" : "64% frequency at hotspot"},
-        {"name" : "Blue-gray Tanager" , "notes" : "64% frequency at hotspot"},
         {"name" : "Blue-throated Piping-Guan" , "notes" : "57% frequency at hotspot"},
         {"name" : "Masked Tityra" , "notes" : "57% frequency at hotspot"},
         {"name" : "Greater Yellow-headed Vulture" , "notes" : "57% frequency at hotspot"},
-        {"name" : "Spot-breasted Woodpecker" , "notes" : "57% frequency at hotspot"},
         {"name" : "Yellow-headed Caracara" , "notes" : "57% frequency at hotspot"},
         {"name" : "Black Caracara" , "notes" : "57% frequency at hotspot"},
         {"name" : "Cobalt-winged Parakeet" , "notes" : "50% frequency at hotspot"},
@@ -38,11 +36,7 @@
         {"name" : "White-eyed Parakeet" , "notes" : "50% frequency at hotspot"},
         {"name" : "Black-crowned Tityra" , "notes" : "50% frequency at hotspot"},
         {"name" : "Great Kiskadee" , "notes" : "50% frequency at hotspot"},
-        {"name" : "Tropical Kingbird" , "notes" : "50% frequency at hotspot"},
-        {"name" : "White-collared Swift" , "notes" : "50% frequency at hotspot"},
         {"name" : "Black Vulture" , "notes" : "50% frequency at hotspot"},
-        {"name" : "Summer Tanager" , "notes" : "50% frequency at hotspot"},
-        {"name" : "Palm Tanager" , "notes" : "50% frequency at hotspot"},
         {"name" : "Chestnut-bellied Seed-Finch" , "notes" : "50% frequency at hotspot"},
         {"name" : "Plumbeous Kite" , "notes" : "50% frequency at hotspot"},
         {"name" : "Hoatzin" , "notes" : "43% frequency at hotspot"},
@@ -58,11 +52,9 @@
         {"name" : "House Wren" , "notes" : "42% frequency at hotspot"},
         {"name" : "Silver-beaked Tanager" , "notes" : "42% frequency at hotspot"},
         {"name" : "Undulated Tinamou" , "notes" : "35% frequency at hotspot"},
-        {"name" : "Swallow-tailed Kite" , "notes" : "35% frequency at hotspot"},
         {"name" : "Many-banded Aracari" , "notes" : "35% frequency at hotspot"},
         {"name" : "Olive-sided Flycatcher" , "notes" : "35% frequency at hotspot"},
         {"name" : "White-banded Swallow" , "notes" : "35% frequency at hotspot"},
-        {"name" : "Southern Lapwing" , "notes" : "35% frequency at hotspot"},
         {"name" : "Roadside Hawk" , "notes" : "35% frequency at hotspot"},
         {"name" : "Green-backed Trogon" , "notes" : "35% frequency at hotspot"},
         {"name" : "Green Kingfisher" , "notes" : "35% frequency at hotspot"},
@@ -83,7 +75,6 @@
         {"name" : "Gray-breasted Martin" , "notes" : "28% frequency at hotspot"},
         {"name" : "Fork-tailed Palm Swift" , "notes" : "28% frequency at hotspot"},
         {"name" : "Black-and-white Hawk-Eagle" , "notes" : "28% frequency at hotspot"},
-        {"name" : "Blue-and-white Swallow" , "notes" : "28% frequency at hotspot"},
         {"name" : "Great Potoo" , "notes" : "21% frequency at hotspot"},
         {"name" : "Black-throated Mango" , "notes" : "21% frequency at hotspot"},
         {"name" : "Striated Heron" , "notes" : "21% frequency at hotspot"},
@@ -110,6 +101,21 @@
         {"name" : "Black-fronted Nunbird" , "notes" : "21% frequency at hotspot"},
         {"name" : "Black-banded Woodcreeper" , "notes" : "21% frequency at hotspot"},
         {"name" : "White-thighed Swallow" , "notes" : "21% frequency at hotspot"},
-        {"name" : "Sungrebe" , "notes" : "Swimming in Lagoon"}
+        {"name" : "Sungrebe" , "notes" : "Swimming in Lagoon"},
+        {"name" : "Fasciated Tiger-Heron", "notes" : "14% frequency at hotspot"}
+        ],
+    "pulled_out_because they were in other lists" : [
+        {"name" : "Summer Tanager" , "notes" : "50% frequency at hotspot"},
+        {"name" : "White-collared Swift" , "notes" : "50% frequency at hotspot"},
+        {"name" : "Swallow-tailed Kite" , "notes" : "35% frequency at hotspot"},
+        {"name" : "Tropical Kingbird" , "notes" : "50% frequency at hotspot"},
+        {"name" : "Southern Lapwing" , "notes" : "35% frequency at hotspot"},
+        {"name" : "Blue-gray Tanager" , "notes" : "64% frequency at hotspot"},
+        {"name" : "Spot-breasted Woodpecker" , "notes" : "57% frequency at hotspot"},
+        {"name" : "Blue-and-white Swallow" , "notes" : "28% frequency at hotspot"},
+
+        {"name" : "Palm Tanager" , "notes" : "50% frequency at hotspot"}
+
         ]
+
     }

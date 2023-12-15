@@ -14,12 +14,10 @@
         {"name" : "Blackburnian Warbler", "notes" : "12% frequency at hotspot"},
         {"name" : "Blackish Tapaculo", "notes" : "24% frequency at hotspot"},
         {"name" : "Blue-and-yellow Tanager", "notes" : "51% frequency at hotspot"},
-        {"name" : "Brown-bellied Swallow", "notes" : "21% frequency at hotspot"},
         {"name" : "Cinereous Conebill", "notes" : "45% frequency at hotspot"},
         {"name" : "Crimson-mantled Woodpecker", "notes" : "25% frequency at hotspot"},
         {"name" : "Eared Dove", "notes" : "74% frequency at hotspot"},
         {"name" : "Golden Grosbeak", "notes" : "62% frequency at hotspot"},
-        {"name" : "Grass Wren", "notes" : "21% frequency at hotspot"},
         {"name" : "Gray-browed Brushfinch", "notes" : "11% frequency at hotspot"},
         {"name" : "Great Thrush", "notes" : "83% frequency at hotspot"},
         {"name" : "Green-tailed Trainbearer", "notes" : "33% frequency at hotspot"},
@@ -43,5 +41,10 @@
         {"name" : "White-crested Elaenia", "notes" : "50% frequency at hotspot"},
         {"name" : "White-throated Tyrannulet", "notes" : "8.8% frequency at hotspot"},
         {"name" : "Yellow-breasted Brushfinch", "notes" : "40% frequency at hotspot"}
+    ],
+    "pulled_out_because they were in other lists" : [
+        {"name" : "Brown-bellied Swallow", "notes" : "21% frequency at hotspot"},
+        {"name" : "Grass Wren", "notes" : "21% frequency at hotspot"}
+
     ]
 }
