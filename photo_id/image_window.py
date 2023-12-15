@@ -16,7 +16,8 @@ class ImageWindow:
 
     quiz_species = {}
     quiz_species_list = []
-
+    cached_species_code = ''
+    cached_species_images = []
     def __init__(self, file: str, taxonomy: dict, have_list: list):
         self.root = Toplevel()
         self.have_list=have_list
@@ -24,7 +25,7 @@ class ImageWindow:
         self.species_list = [d['comName']
                              for d in self.quiz_data['species'] if 'comName' in d]
         self.quiz_species = str(random.choice(self.species_list))
-
+        self.image_number=0
         # Create a photoimage object of the image in the path
         test = ImageTk.PhotoImage(self.get_image(
             self.quiz_species, self.quiz_data['location'], self.quiz_data['start_month'], self.quiz_data['end_month']))
@@ -105,6 +106,7 @@ class ImageWindow:
     def picked_image(self, unused) -> None:
         """Called when the user asks to see a specific species. The unused parameter is to match the signature used by the caller. """
         del unused
+        self.selected_species.set('')
         self.quiz_species = self.specific_species.get()
         self.update_image()
         self.specific_species.set('')
@@ -115,21 +117,22 @@ class ImageWindow:
             title='reveal', message=f'This is a {self.quiz_species}')
 
     def get_image_list(self, species_code : str, location : str, start_month: int, end_month: int) -> list:
-        """Gets list of images."""
-        images = []
-        if len(location) > 0:
-            location=f"&regionCode={location}"
-        if not (start_month==1 and end_month == 12):
-            time=f"&beginMonth={start_month}&endMonth={end_month}"
-        else:
-            time=''
-        get_string=f'https://media.ebird.org/catalog?view=grid&taxonCode={species_code}&sort=rating_rank_desc&mediaType=photo{location}{time}'
-        result = requests.get(get_string, timeout=10)
+        """Gets list of images urls and caches them."""
+        if self.cached_species_code != species_code:
+            self.cached_species_images = []
+            if len(location) > 0:
+                location=f"&regionCode={location}"
+            time = '' if start_month==1 and end_month == 12 else f"&beginMonth={start_month}&endMonth={end_month}"
+            get_string=f'https://media.ebird.org/catalog?view=grid&taxonCode={species_code}&sort=rating_rank_desc&mediaType=photo{location}{time}'
+            result = requests.get(get_string, timeout=10)
 
-        content = str(result.content)
-        images = re.findall(
-            r"https://cdn\.download\.ams\.birds\.cornell\.edu/api/v1/asset/\d+/1200", content)
-        return images
+            content = str(result.content)
+            images = re.findall(
+                r"https://cdn\.download\.ams\.birds\.cornell\.edu/api/v1/asset/\d+/1200", content)
+            if len(images) > 2: # First images are not actual images of the species
+                self.cached_species_images = images[2:]
+                self.cached_species_code = species_code
+        return self.cached_species_images
 
     def get_image(self, species: str, location: str, start_month: int, end_month: int) -> None:
         """Gets a requested image and displays it."""
@@ -137,20 +140,22 @@ class ImageWindow:
         species_code = process_quiz.get_code(self.quiz_data, species)
         image_list = self.get_image_list(species_code, location, start_month, end_month)
 
-        if len(image_list) <= 2:
+        if len(image_list) == 0:
             # Try looking at all locations
             logging.info(f'No images for {species} at given location and time')
             image_list = self.get_image_list(species_code, '', start_month, end_month)
-            if len(image_list) <= 2:
+            if len(image_list) == 0:
                 logging.info(f'No images for {species} at any location at given time')
                 # Try looking at all times
                 image_list = self.get_image_list(species_code, '', 1, 12)
 
-        if len(image_list) > 2:
-            image_number = random.randint(2, len(image_list)-1)
+        if len(image_list) > 0:
+            if self.image_number >= min(len(image_list), 10): # only use the first 5 (nominally highest rated images)
+                self.image_number=0
             img_bytes = requests.get(
-                image_list[image_number], timeout=10).content
+                image_list[self.image_number], timeout=10).content
             image = Image.open(io.BytesIO(img_bytes))
+            self.image_number=self.image_number+2
         else:
             logging.error(f'No images for {species} at any location or time')
             image = Image.open('photo_id/resources/Banner__Under_Construction__version_2.jpg')
@@ -178,8 +183,9 @@ class ImageWindow:
     def get_new_random_species(self) -> None:
         """Gets a new species from the selected list. Tries to avoid getting the same species twice in a row."""
         self.selected_species.set('')
+        self.image_number=0
         without_current_species = self.species_list.copy()
-        if self.quiz_species != '':
+        if self.quiz_species != '' and self.quiz_species in self.species_list and len(self.quiz_species_list) > 1:
             without_current_species.remove(self.quiz_species)
         self.quiz_species = str(random.choice(without_current_species))
         self.update_image()
