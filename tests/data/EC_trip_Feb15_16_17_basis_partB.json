@@ -1,0 +1,1208 @@
+{
+    "start_month": 2,
+    "end_month": 2,
+    "location": "EC",
+    "notes": "San Jorge de Sumaco Bajo lodge, tower, and trails",
+    "basis": "from this hotspot = through 20% reported in month https://ebird.org/targets?region=San+Jorge+de+Sumaco+Bajo&r1=L5781818&bmo=2&emo=2&r2=L5781818&t2=life&mediaType=",
+    "species": [
+        {
+            "sciName": "Melanerpes cruentatus",
+            "comName": "Yellow-tufted Woodpecker",
+            "speciesCode": "yetwoo2",
+            "category": "species",
+            "taxonOrder": 10937.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "YTWO"
+            ],
+            "sciNameCodes": [
+                "MECR"
+            ],
+            "order": "Piciformes",
+            "familyCode": "picida1",
+            "familyComName": "Woodpeckers",
+            "familySciName": "Picidae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Campephilus melanoleucos",
+            "comName": "Crimson-crested Woodpecker",
+            "speciesCode": "crcwoo1",
+            "category": "species",
+            "taxonOrder": 11329.0,
+            "bandingCodes": [
+                "CCRW"
+            ],
+            "comNameCodes": [
+                "CCWO"
+            ],
+            "sciNameCodes": [
+                "CAME"
+            ],
+            "order": "Piciformes",
+            "familyCode": "picida1",
+            "familyComName": "Woodpeckers",
+            "familySciName": "Picidae",
+            "notes": "42% frequency at hotspot"
+        },
+        {
+            "sciName": "Dryocopus lineatus",
+            "comName": "Lineated Woodpecker",
+            "speciesCode": "linwoo1",
+            "category": "species",
+            "taxonOrder": 11519.0,
+            "bandingCodes": [
+                "LIWO"
+            ],
+            "comNameCodes": [
+                "LWWO"
+            ],
+            "sciNameCodes": [
+                "DRLI"
+            ],
+            "order": "Piciformes",
+            "familyCode": "picida1",
+            "familyComName": "Woodpeckers",
+            "familySciName": "Picidae",
+            "notes": "43% frequency at hotspot"
+        },
+        {
+            "sciName": "Celeus flavus",
+            "comName": "Cream-colored Woodpecker",
+            "speciesCode": "crcwoo2",
+            "category": "species",
+            "taxonOrder": 11574.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "CCWO"
+            ],
+            "sciNameCodes": [
+                "CEFL"
+            ],
+            "order": "Piciformes",
+            "familyCode": "picida1",
+            "familyComName": "Woodpeckers",
+            "familySciName": "Picidae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Celeus elegans",
+            "comName": "Chestnut Woodpecker",
+            "speciesCode": "chewoo2",
+            "category": "species",
+            "taxonOrder": 11584.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "CHWO"
+            ],
+            "sciNameCodes": [
+                "CEEL"
+            ],
+            "order": "Piciformes",
+            "familyCode": "picida1",
+            "familyComName": "Woodpeckers",
+            "familySciName": "Picidae",
+            "notes": "42% frequency at hotspot"
+        },
+        {
+            "sciName": "Herpetotheres cachinnans",
+            "comName": "Laughing Falcon",
+            "speciesCode": "laufal1",
+            "category": "species",
+            "taxonOrder": 11704.0,
+            "bandingCodes": [
+                "LAFA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "HECA"
+            ],
+            "order": "Falconiformes",
+            "familyCode": "falcon1",
+            "familyComName": "Falcons and Caracaras",
+            "familySciName": "Falconidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Ibycter americanus",
+            "comName": "Red-throated Caracara",
+            "speciesCode": "retcar2",
+            "category": "species",
+            "taxonOrder": 11730.0,
+            "bandingCodes": [
+                "RTCA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "IBAM"
+            ],
+            "order": "Falconiformes",
+            "familyCode": "falcon1",
+            "familyComName": "Falcons and Caracaras",
+            "familySciName": "Falconidae",
+            "notes": "78% frequency at hotspot"
+        },
+        {
+            "sciName": "Daptrius chimachima",
+            "comName": "Yellow-headed Caracara",
+            "speciesCode": "yehcar1",
+            "category": "species",
+            "taxonOrder": 11731.0,
+            "bandingCodes": [
+                "YHCA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "DACH"
+            ],
+            "order": "Falconiformes",
+            "familyCode": "falcon1",
+            "familyComName": "Falcons and Caracaras",
+            "familySciName": "Falconidae",
+            "notes": "57% frequency at hotspot"
+        },
+        {
+            "sciName": "Daptrius ater",
+            "comName": "Black Caracara",
+            "speciesCode": "blacar1",
+            "category": "species",
+            "taxonOrder": 11734.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "BLCA"
+            ],
+            "sciNameCodes": [
+                "DAAT"
+            ],
+            "order": "Falconiformes",
+            "familyCode": "falcon1",
+            "familyComName": "Falcons and Caracaras",
+            "familySciName": "Falconidae",
+            "notes": "57% frequency at hotspot"
+        },
+        {
+            "sciName": "Brotogeris cyanoptera",
+            "comName": "Cobalt-winged Parakeet",
+            "speciesCode": "cowpar1",
+            "category": "species",
+            "taxonOrder": 12596.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "CWPA"
+            ],
+            "sciNameCodes": [
+                "BRCY"
+            ],
+            "order": "Psittaciformes",
+            "familyCode": "psitta3",
+            "familyComName": "New World and African Parrots",
+            "familySciName": "Psittacidae",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "sciName": "Pionus menstruus",
+            "comName": "Blue-headed Parrot",
+            "speciesCode": "blhpar1",
+            "category": "species",
+            "taxonOrder": 12646.0,
+            "bandingCodes": [
+                "BHEP"
+            ],
+            "comNameCodes": [
+                "BHPA",
+                "BHBP"
+            ],
+            "sciNameCodes": [
+                "PIME"
+            ],
+            "order": "Psittaciformes",
+            "familyCode": "psitta3",
+            "familyComName": "New World and African Parrots",
+            "familySciName": "Psittacidae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Amazona ochrocephala",
+            "comName": "Yellow-crowned Parrot",
+            "speciesCode": "ywcpar",
+            "category": "species",
+            "taxonOrder": 12690.0,
+            "bandingCodes": [
+                "YCRP"
+            ],
+            "comNameCodes": [
+                "YCPA",
+                "YCAM"
+            ],
+            "sciNameCodes": [
+                "AMOC"
+            ],
+            "order": "Psittaciformes",
+            "familyCode": "psitta3",
+            "familyComName": "New World and African Parrots",
+            "familySciName": "Psittacidae",
+            "notes": "64% frequency at hotspot"
+        },
+        {
+            "sciName": "Amazona farinosa",
+            "comName": "Mealy Parrot",
+            "speciesCode": "meapar",
+            "category": "species",
+            "taxonOrder": 12717.0,
+            "bandingCodes": [
+                "MEAP"
+            ],
+            "comNameCodes": [
+                "MEAM",
+                "SMAM",
+                "MEPA",
+                "NMAM"
+            ],
+            "sciNameCodes": [
+                "AMFA"
+            ],
+            "order": "Psittaciformes",
+            "familyCode": "psitta3",
+            "familyComName": "New World and African Parrots",
+            "familySciName": "Psittacidae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Amazona amazonica",
+            "comName": "Orange-winged Parrot",
+            "speciesCode": "orwpar",
+            "category": "species",
+            "taxonOrder": 12727.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "OWPA",
+                "OWAM"
+            ],
+            "sciNameCodes": [
+                "AMAM"
+            ],
+            "order": "Psittaciformes",
+            "familyCode": "psitta3",
+            "familyComName": "New World and African Parrots",
+            "familySciName": "Psittacidae",
+            "notes": "78% frequency at hotspot"
+        },
+        {
+            "sciName": "Aratinga weddellii",
+            "comName": "Dusky-headed Parakeet",
+            "speciesCode": "duhpar",
+            "category": "species",
+            "taxonOrder": 12877.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "DHPA"
+            ],
+            "sciNameCodes": [
+                "ARWE"
+            ],
+            "order": "Psittaciformes",
+            "familyCode": "psitta3",
+            "familyComName": "New World and African Parrots",
+            "familySciName": "Psittacidae",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "sciName": "Ara severus",
+            "comName": "Chestnut-fronted Macaw",
+            "speciesCode": "chfmac1",
+            "category": "species",
+            "taxonOrder": 12892.0,
+            "bandingCodes": [
+                "CFMA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ARSE"
+            ],
+            "order": "Psittaciformes",
+            "familyCode": "psitta3",
+            "familyComName": "New World and African Parrots",
+            "familySciName": "Psittacidae",
+            "notes": "78% frequency at hotspot"
+        },
+        {
+            "sciName": "Psittacara leucophthalmus",
+            "comName": "White-eyed Parakeet",
+            "speciesCode": "whepar2",
+            "category": "species",
+            "taxonOrder": 12955.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "WEPA"
+            ],
+            "sciNameCodes": [
+                "PSLE"
+            ],
+            "order": "Psittaciformes",
+            "familyCode": "psitta3",
+            "familyComName": "New World and African Parrots",
+            "familySciName": "Psittacidae",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "sciName": "Dendrocolaptes picumnus",
+            "comName": "Black-banded Woodcreeper",
+            "speciesCode": "blbwoo1",
+            "category": "species",
+            "taxonOrder": 14440.0,
+            "bandingCodes": [
+                "BBNW"
+            ],
+            "comNameCodes": [
+                "BBWO"
+            ],
+            "sciNameCodes": [
+                "DEPI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "furnar2",
+            "familyComName": "Ovenbirds and Woodcreepers",
+            "familySciName": "Furnariidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Xiphorhynchus ocellatus",
+            "comName": "Ocellated Woodcreeper",
+            "speciesCode": "ocewoo1",
+            "category": "species",
+            "taxonOrder": 14521.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "OCWO"
+            ],
+            "sciNameCodes": [
+                "XIOC"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "furnar2",
+            "familyComName": "Ovenbirds and Woodcreepers",
+            "familySciName": "Furnariidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Tyranneutes stolzmanni",
+            "comName": "Dwarf Tyrant-Manakin",
+            "speciesCode": "dwtman1",
+            "category": "species",
+            "taxonOrder": 15391.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "DTMA",
+                "DWTM"
+            ],
+            "sciNameCodes": [
+                "TYST"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "piprid1",
+            "familyComName": "Manakins",
+            "familySciName": "Pipridae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Lepidothrix coronata",
+            "comName": "Blue-capped Manakin",
+            "speciesCode": "blcman1",
+            "category": "species",
+            "taxonOrder": 15439.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "BCMA"
+            ],
+            "sciNameCodes": [
+                "LECO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "piprid1",
+            "familyComName": "Manakins",
+            "familySciName": "Pipridae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Machaeropterus striolatus",
+            "comName": "Striolated Manakin",
+            "speciesCode": "strman5",
+            "category": "species",
+            "taxonOrder": 15506.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "STMA"
+            ],
+            "sciNameCodes": [
+                "MAST"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "piprid1",
+            "familyComName": "Manakins",
+            "familySciName": "Pipridae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Ceratopipra erythrocephala",
+            "comName": "Golden-headed Manakin",
+            "speciesCode": "gohman1",
+            "category": "species",
+            "taxonOrder": 15541.0,
+            "bandingCodes": [
+                "GHMA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CEER"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "piprid1",
+            "familyComName": "Manakins",
+            "familySciName": "Pipridae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Querula purpurata",
+            "comName": "Purple-throated Fruitcrow",
+            "speciesCode": "putfru1",
+            "category": "species",
+            "taxonOrder": 15612.0,
+            "bandingCodes": [
+                "PTFR"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "QUPU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "coting1",
+            "familyComName": "Cotingas",
+            "familySciName": "Cotingidae",
+            "notes": "43% frequency at hotspot"
+        },
+        {
+            "sciName": "Tityra cayana",
+            "comName": "Black-tailed Tityra",
+            "speciesCode": "blttit1",
+            "category": "species",
+            "taxonOrder": 15660.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "BTTI",
+                "WBTT"
+            ],
+            "sciNameCodes": [
+                "TICA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "tityri1",
+            "familyComName": "Tityras and Allies",
+            "familySciName": "Tityridae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Tityra inquisitor",
+            "comName": "Black-crowned Tityra",
+            "speciesCode": "blctit1",
+            "category": "species",
+            "taxonOrder": 15663.0,
+            "bandingCodes": [
+                "BCRT"
+            ],
+            "comNameCodes": [
+                "BCTI"
+            ],
+            "sciNameCodes": [
+                "TIIN"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "tityri1",
+            "familyComName": "Tityras and Allies",
+            "familySciName": "Tityridae",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "sciName": "Tityra semifasciata",
+            "comName": "Masked Tityra",
+            "speciesCode": "mastit1",
+            "category": "species",
+            "taxonOrder": 15671.0,
+            "bandingCodes": [
+                "MATI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "TISE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "tityri1",
+            "familyComName": "Tityras and Allies",
+            "familySciName": "Tityridae",
+            "notes": "57% frequency at hotspot"
+        },
+        {
+            "sciName": "Contopus cooperi",
+            "comName": "Olive-sided Flycatcher",
+            "speciesCode": "olsfly",
+            "category": "species",
+            "taxonOrder": 16581.0,
+            "bandingCodes": [
+                "OSFL"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "COCO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "tyrann2",
+            "familyComName": "Tyrant Flycatchers",
+            "familySciName": "Tyrannidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Philohydor lictor",
+            "comName": "Lesser Kiskadee",
+            "speciesCode": "leskis1",
+            "category": "species",
+            "taxonOrder": 17052.0,
+            "bandingCodes": [
+                "LEKI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "PHLI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "tyrann2",
+            "familyComName": "Tyrant Flycatchers",
+            "familySciName": "Tyrannidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Pitangus sulphuratus",
+            "comName": "Great Kiskadee",
+            "speciesCode": "grekis",
+            "category": "species",
+            "taxonOrder": 17055.0,
+            "bandingCodes": [
+                "GKIS"
+            ],
+            "comNameCodes": [
+                "GRKI"
+            ],
+            "sciNameCodes": [
+                "PISU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "tyrann2",
+            "familyComName": "Tyrant Flycatchers",
+            "familySciName": "Tyrannidae",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "sciName": "Megarynchus pitangua",
+            "comName": "Boat-billed Flycatcher",
+            "speciesCode": "bobfly1",
+            "category": "species",
+            "taxonOrder": 17066.0,
+            "bandingCodes": [
+                "BOBF"
+            ],
+            "comNameCodes": [
+                "BBFL"
+            ],
+            "sciNameCodes": [
+                "MEPI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "tyrann2",
+            "familyComName": "Tyrant Flycatchers",
+            "familySciName": "Tyrannidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Myiozetetes similis",
+            "comName": "Social Flycatcher",
+            "speciesCode": "socfly1",
+            "category": "species",
+            "taxonOrder": 17079.0,
+            "bandingCodes": [
+                "SOFL"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "MYSI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "tyrann2",
+            "familyComName": "Tyrant Flycatchers",
+            "familySciName": "Tyrannidae",
+            "notes": "43% frequency at hotspot"
+        },
+        {
+            "sciName": "Myiozetetes granadensis",
+            "comName": "Gray-capped Flycatcher",
+            "speciesCode": "grcfly1",
+            "category": "species",
+            "taxonOrder": 17090.0,
+            "bandingCodes": [
+                "GCAF"
+            ],
+            "comNameCodes": [
+                "GCFL"
+            ],
+            "sciNameCodes": [
+                "MYGR"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "tyrann2",
+            "familyComName": "Tyrant Flycatchers",
+            "familySciName": "Tyrannidae",
+            "notes": "43% frequency at hotspot"
+        },
+        {
+            "sciName": "Vireo flavoviridis",
+            "comName": "Yellow-green Vireo",
+            "speciesCode": "yegvir",
+            "category": "species",
+            "taxonOrder": 18928.0,
+            "bandingCodes": [
+                "YGVI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "VIFL"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "vireon1",
+            "familyComName": "Vireos, Shrike-Babblers, and Erpornis",
+            "familySciName": "Vireonidae",
+            "notes": "42% frequency at hotspot"
+        },
+        {
+            "sciName": "Cyanocorax violaceus",
+            "comName": "Violaceous Jay",
+            "speciesCode": "viojay1",
+            "category": "species",
+            "taxonOrder": 20863.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "VIJA"
+            ],
+            "sciNameCodes": [
+                "CYVI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "corvid1",
+            "familyComName": "Crows, Jays, and Magpies",
+            "familySciName": "Corvidae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Donacobius atricapilla",
+            "comName": "Black-capped Donacobius",
+            "speciesCode": "bkcdon",
+            "category": "species",
+            "taxonOrder": 23542.0,
+            "bandingCodes": [
+                "BCDO"
+            ],
+            "comNameCodes": [
+                "DONA"
+            ],
+            "sciNameCodes": [
+                "DOAT"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "donaco1",
+            "familyComName": "Donacobius",
+            "familySciName": "Donacobiidae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Progne chalybea",
+            "comName": "Gray-breasted Martin",
+            "speciesCode": "gybmar",
+            "category": "species",
+            "taxonOrder": 23678.0,
+            "bandingCodes": [
+                "GYBM"
+            ],
+            "comNameCodes": [
+                "GBMA"
+            ],
+            "sciNameCodes": [
+                "PRCH"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "hirund2",
+            "familyComName": "Swallows",
+            "familySciName": "Hirundinidae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Stelgidopteryx ruficollis",
+            "comName": "Southern Rough-winged Swallow",
+            "speciesCode": "srwswa1",
+            "category": "species",
+            "taxonOrder": 23701.0,
+            "bandingCodes": [
+                "SRWS"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "STRU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "hirund2",
+            "familyComName": "Swallows",
+            "familySciName": "Hirundinidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Atticora tibialis",
+            "comName": "White-thighed Swallow",
+            "speciesCode": "whtswa1",
+            "category": "species",
+            "taxonOrder": 23708.0,
+            "bandingCodes": [
+                "WTGS"
+            ],
+            "comNameCodes": [
+                "WTSW"
+            ],
+            "sciNameCodes": [
+                "ATTI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "hirund2",
+            "familyComName": "Swallows",
+            "familySciName": "Hirundinidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Atticora fasciata",
+            "comName": "White-banded Swallow",
+            "speciesCode": "whbswa2",
+            "category": "species",
+            "taxonOrder": 23712.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "WBSW"
+            ],
+            "sciNameCodes": [
+                "ATFA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "hirund2",
+            "familyComName": "Swallows",
+            "familySciName": "Hirundinidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Troglodytes aedon",
+            "comName": "House Wren",
+            "speciesCode": "houwre",
+            "category": "species",
+            "taxonOrder": 26737.0,
+            "bandingCodes": [
+                "HOWR"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "TRAE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "troglo1",
+            "familyComName": "Wrens",
+            "familySciName": "Troglodytidae",
+            "notes": "42% frequency at hotspot"
+        },
+        {
+            "sciName": "Campylorhynchus turdinus",
+            "comName": "Thrush-like Wren",
+            "speciesCode": "thlwre1",
+            "category": "species",
+            "taxonOrder": 26981.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "TLWR"
+            ],
+            "sciNameCodes": [
+                "CATU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "troglo1",
+            "familyComName": "Wrens",
+            "familySciName": "Troglodytidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Turdus ignobilis",
+            "comName": "Black-billed Thrush",
+            "speciesCode": "blbthr1",
+            "category": "species",
+            "taxonOrder": 28124.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "BBTH"
+            ],
+            "sciNameCodes": [
+                "TUIG"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "turdid1",
+            "familyComName": "Thrushes and Allies",
+            "familySciName": "Turdidae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Ammodramus aurifrons",
+            "comName": "Yellow-browed Sparrow",
+            "speciesCode": "yebspa1",
+            "category": "species",
+            "taxonOrder": 32430.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "YBSP"
+            ],
+            "sciNameCodes": [
+                "AMAU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "passer3",
+            "familyComName": "New World Sparrows",
+            "familySciName": "Passerellidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Psarocolius angustifrons",
+            "comName": "Russet-backed Oropendola",
+            "speciesCode": "ruboro1",
+            "category": "species",
+            "taxonOrder": 33087.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "RBOR",
+                "RBBO"
+            ],
+            "sciNameCodes": [
+                "PSAN"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "icteri1",
+            "familyComName": "Troupials and Allies",
+            "familySciName": "Icteridae",
+            "notes": "78% frequency at hotspot"
+        },
+        {
+            "sciName": "Psarocolius viridis",
+            "comName": "Green Oropendola",
+            "speciesCode": "greoro1",
+            "category": "species",
+            "taxonOrder": 33097.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "GROR"
+            ],
+            "sciNameCodes": [
+                "PSVI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "icteri1",
+            "familyComName": "Troupials and Allies",
+            "familySciName": "Icteridae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Psarocolius decumanus",
+            "comName": "Crested Oropendola",
+            "speciesCode": "creoro1",
+            "category": "species",
+            "taxonOrder": 33098.0,
+            "bandingCodes": [
+                "CROR"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "PSDE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "icteri1",
+            "familyComName": "Troupials and Allies",
+            "familySciName": "Icteridae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Cacicus cela",
+            "comName": "Yellow-rumped Cacique",
+            "speciesCode": "yercac1",
+            "category": "species",
+            "taxonOrder": 33123.0,
+            "bandingCodes": [
+                "YRCA"
+            ],
+            "comNameCodes": [
+                "YRTC"
+            ],
+            "sciNameCodes": [
+                "CACE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "icteri1",
+            "familyComName": "Troupials and Allies",
+            "familySciName": "Icteridae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Icterus cayanensis",
+            "comName": "Epaulet Oriole",
+            "speciesCode": "epaori1",
+            "category": "species",
+            "taxonOrder": 33180.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "MOOR",
+                "EPOR"
+            ],
+            "sciNameCodes": [
+                "ICCA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "icteri1",
+            "familyComName": "Troupials and Allies",
+            "familySciName": "Icteridae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Icterus croconotus",
+            "comName": "Orange-backed Troupial",
+            "speciesCode": "orbtro3",
+            "category": "species",
+            "taxonOrder": 33194.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "OBTR"
+            ],
+            "sciNameCodes": [
+                "ICCR"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "icteri1",
+            "familyComName": "Troupials and Allies",
+            "familySciName": "Icteridae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Molothrus bonariensis",
+            "comName": "Shiny Cowbird",
+            "speciesCode": "shicow",
+            "category": "species",
+            "taxonOrder": 33291.0,
+            "bandingCodes": [
+                "SHCO"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "MOBO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "icteri1",
+            "familyComName": "Troupials and Allies",
+            "familySciName": "Icteridae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Molothrus oryzivorus",
+            "comName": "Giant Cowbird",
+            "speciesCode": "giacow",
+            "category": "species",
+            "taxonOrder": 33314.0,
+            "bandingCodes": [
+                "GICO"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "MOOR"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "icteri1",
+            "familyComName": "Troupials and Allies",
+            "familySciName": "Icteridae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Piranga olivacea",
+            "comName": "Scarlet Tanager",
+            "speciesCode": "scatan",
+            "category": "species",
+            "taxonOrder": 33889.0,
+            "bandingCodes": [
+                "SCTA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "PIOL"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "cardin1",
+            "familyComName": "Cardinals and Allies",
+            "familySciName": "Cardinalidae",
+            "notes": "64% frequency at hotspot"
+        },
+        {
+            "sciName": "Cissopis leverianus",
+            "comName": "Magpie Tanager",
+            "speciesCode": "magtan2",
+            "category": "species",
+            "taxonOrder": 34107.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "MATA"
+            ],
+            "sciNameCodes": [
+                "CILE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "thraup2",
+            "familyComName": "Tanagers and Allies",
+            "familySciName": "Thraupidae",
+            "notes": "78% frequency at hotspot"
+        },
+        {
+            "sciName": "Ramphocelus carbo",
+            "comName": "Silver-beaked Tanager",
+            "speciesCode": "sibtan2",
+            "category": "species",
+            "taxonOrder": 34257.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "SBTA"
+            ],
+            "sciNameCodes": [
+                "RACA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "thraup2",
+            "familyComName": "Tanagers and Allies",
+            "familySciName": "Thraupidae",
+            "notes": "42% frequency at hotspot"
+        },
+        {
+            "sciName": "Stilpnia nigrocincta",
+            "comName": "Masked Tanager",
+            "speciesCode": "mastan1",
+            "category": "species",
+            "taxonOrder": 34466.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "MATA"
+            ],
+            "sciNameCodes": [
+                "STNI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "thraup2",
+            "familyComName": "Tanagers and Allies",
+            "familySciName": "Thraupidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Volatinia jacarina",
+            "comName": "Blue-black Grassquit",
+            "speciesCode": "blbgra1",
+            "category": "species",
+            "taxonOrder": 34951.0,
+            "bandingCodes": [
+                "BGRA"
+            ],
+            "comNameCodes": [
+                "BBGR"
+            ],
+            "sciNameCodes": [
+                "VOJA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "thraup2",
+            "familyComName": "Tanagers and Allies",
+            "familySciName": "Thraupidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Sporophila castaneiventris",
+            "comName": "Chestnut-bellied Seedeater",
+            "speciesCode": "chbsee1",
+            "category": "species",
+            "taxonOrder": 34971.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "CBSE"
+            ],
+            "sciNameCodes": [
+                "SPCA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "thraup2",
+            "familyComName": "Tanagers and Allies",
+            "familySciName": "Thraupidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Sporophila angolensis",
+            "comName": "Chestnut-bellied Seed-Finch",
+            "speciesCode": "cbsfin",
+            "category": "species",
+            "taxonOrder": 34988.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "CBSF"
+            ],
+            "sciNameCodes": [
+                "SPAN"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "thraup2",
+            "familyComName": "Tanagers and Allies",
+            "familySciName": "Thraupidae",
+            "notes": "50% frequency at hotspot"
+        }
+    ],
+    "pulled_out_because they were in other lists": [
+        {
+            "comName": "Summer Tanager",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "comName": "White-collared Swift",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "comName": "Swallow-tailed Kite",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "comName": "Tropical Kingbird",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "comName": "Southern Lapwing",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "comName": "Blue-gray Tanager",
+            "notes": "64% frequency at hotspot"
+        },
+        {
+            "comName": "Spot-breasted Woodpecker",
+            "notes": "57% frequency at hotspot"
+        },
+        {
+            "comName": "Blue-and-white Swallow",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "comName": "Palm Tanager",
+            "notes": "50% frequency at hotspot"
+        }
+    ]
+}

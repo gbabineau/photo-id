@@ -9,7 +9,7 @@ from tkinter import messagebox, Tk, Menu, filedialog
 import get_taxonomy
 import get_have_list
 import image_window
-
+import process_quiz
 
 class MainWindow:
     """Creates the main window from which quizzes can be launched."""
@@ -26,6 +26,7 @@ class MainWindow:
         file_menu = Menu(menubar, tearoff=0)
         file_menu.add_command(label="Open Quiz", command=self.file_open)
         file_menu.add_command(label="Open Have List", command=self.have_list_open)
+        file_menu.add_command(label="Taxonomic Sort Quiz", command=self.sort_quiz)
         file_menu.add_command(label="Save", command=self.donothing)
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
@@ -45,6 +46,17 @@ class MainWindow:
             title='Select a Quiz File', initialdir='.', filetypes=[('json files', '*.json')])
         if filename != '':
             image_window.ImageWindow(filename, self.taxonomy, self.have_list)
+
+    def sort_quiz(self) -> None:
+        """ Open aa quiz sort it taxonomincally and write it back. This is not necessary to show
+            sorted quizes during the game but can be useful with a long quiz if you want to break
+            it into two and the species are not sorted taxonomically in the quiz file.
+        """
+        filename = filedialog.askopenfilename(
+            title='Select a Quiz File', initialdir='.', filetypes=[('json files', '*.json')])
+        if filename != '':
+            process_quiz.sort_quiz(filename, self.taxonomy)
+
 
 
     def have_list_open(self) -> None:

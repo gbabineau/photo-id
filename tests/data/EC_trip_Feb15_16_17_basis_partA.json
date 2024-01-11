@@ -1,0 +1,789 @@
+{
+    "start_month": 2,
+    "end_month": 2,
+    "location": "EC",
+    "notes": "San Jorge de Sumaco Bajo lodge, tower, and trails",
+    "basis": "from this hotspot = through 20% reported in month https://ebird.org/targets?region=San+Jorge+de+Sumaco+Bajo&r1=L5781818&bmo=2&emo=2&r2=L5781818&t2=life&mediaType=",
+    "species": [
+        {
+            "sciName": "Crypturellus undulatus",
+            "comName": "Undulated Tinamou",
+            "speciesCode": "undtin1",
+            "category": "species",
+            "taxonOrder": 86.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "UNTI"
+            ],
+            "sciNameCodes": [
+                "CRUN"
+            ],
+            "order": "Tinamiformes",
+            "familyCode": "tinami1",
+            "familyComName": "Tinamous",
+            "familySciName": "Tinamidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Ortalis guttata",
+            "comName": "Speckled Chachalaca",
+            "speciesCode": "specha3",
+            "category": "species",
+            "taxonOrder": 829.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "SPCH"
+            ],
+            "sciNameCodes": [
+                "ORGU"
+            ],
+            "order": "Galliformes",
+            "familyCode": "cracid2",
+            "familyComName": "Guans, Chachalacas, and Curassows",
+            "familySciName": "Cracidae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Penelope jacquacu",
+            "comName": "Spix's Guan",
+            "speciesCode": "spigua1",
+            "category": "species",
+            "taxonOrder": 860.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "SPGU"
+            ],
+            "sciNameCodes": [
+                "PEJA"
+            ],
+            "order": "Galliformes",
+            "familyCode": "cracid2",
+            "familyComName": "Guans, Chachalacas, and Curassows",
+            "familySciName": "Cracidae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Pipile cumanensis",
+            "comName": "Blue-throated Piping-Guan",
+            "speciesCode": "butpig1",
+            "category": "species",
+            "taxonOrder": 883.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "BTPG"
+            ],
+            "sciNameCodes": [
+                "PICU"
+            ],
+            "order": "Galliformes",
+            "familyCode": "cracid2",
+            "familyComName": "Guans, Chachalacas, and Curassows",
+            "familySciName": "Cracidae",
+            "notes": "57% frequency at hotspot"
+        },
+        {
+            "sciName": "Columbina talpacoti",
+            "comName": "Ruddy Ground Dove",
+            "speciesCode": "rugdov",
+            "category": "species",
+            "taxonOrder": 2286.0,
+            "bandingCodes": [
+                "RGDO"
+            ],
+            "comNameCodes": [
+                "RUGD"
+            ],
+            "sciNameCodes": [
+                "COTA"
+            ],
+            "order": "Columbiformes",
+            "familyCode": "columb2",
+            "familyComName": "Pigeons and Doves",
+            "familySciName": "Columbidae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Claravis pretiosa",
+            "comName": "Blue Ground Dove",
+            "speciesCode": "blgdov1",
+            "category": "species",
+            "taxonOrder": 2304.0,
+            "bandingCodes": [
+                "BGDO"
+            ],
+            "comNameCodes": [
+                "BLGD"
+            ],
+            "sciNameCodes": [
+                "CLPR"
+            ],
+            "order": "Columbiformes",
+            "familyCode": "columb2",
+            "familyComName": "Pigeons and Doves",
+            "familySciName": "Columbidae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Crotophaga major",
+            "comName": "Greater Ani",
+            "speciesCode": "greani1",
+            "category": "species",
+            "taxonOrder": 3024.0,
+            "bandingCodes": [
+                "GRTA"
+            ],
+            "comNameCodes": [
+                "GRAN"
+            ],
+            "sciNameCodes": [
+                "CRMA"
+            ],
+            "order": "Cuculiformes",
+            "familyCode": "cuculi1",
+            "familyComName": "Cuckoos",
+            "familySciName": "Cuculidae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Crotophaga ani",
+            "comName": "Smooth-billed Ani",
+            "speciesCode": "smbani",
+            "category": "species",
+            "taxonOrder": 3025.0,
+            "bandingCodes": [
+                "SBAN"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CRAN"
+            ],
+            "order": "Cuculiformes",
+            "familyCode": "cuculi1",
+            "familyComName": "Cuckoos",
+            "familySciName": "Cuculidae",
+            "notes": "64% frequency at hotspot"
+        },
+        {
+            "sciName": "Nyctibius grandis",
+            "comName": "Great Potoo",
+            "speciesCode": "grepot1",
+            "category": "species",
+            "taxonOrder": 3762.0,
+            "bandingCodes": [
+                "GRPO"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "NYGR"
+            ],
+            "order": "Caprimulgiformes",
+            "familyCode": "nyctib1",
+            "familyComName": "Potoos",
+            "familySciName": "Nyctibiidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Chaetura cinereiventris",
+            "comName": "Gray-rumped Swift",
+            "speciesCode": "grrswi1",
+            "category": "species",
+            "taxonOrder": 3858.0,
+            "bandingCodes": [
+                "GRSW"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CHCI"
+            ],
+            "order": "Caprimulgiformes",
+            "familyCode": "apodid1",
+            "familyComName": "Swifts",
+            "familySciName": "Apodidae",
+            "notes": "64% frequency at hotspot"
+        },
+        {
+            "sciName": "Chaetura brachyura",
+            "comName": "Short-tailed Swift",
+            "speciesCode": "shtswi1",
+            "category": "species",
+            "taxonOrder": 3889.0,
+            "bandingCodes": [
+                "STSW"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CHBR"
+            ],
+            "order": "Caprimulgiformes",
+            "familyCode": "apodid1",
+            "familyComName": "Swifts",
+            "familySciName": "Apodidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Tachornis squamata",
+            "comName": "Fork-tailed Palm Swift",
+            "speciesCode": "ftpswi1",
+            "category": "species",
+            "taxonOrder": 4170.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "FTPS"
+            ],
+            "sciNameCodes": [
+                "TASQ"
+            ],
+            "order": "Caprimulgiformes",
+            "familyCode": "apodid1",
+            "familyComName": "Swifts",
+            "familySciName": "Apodidae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Anthracothorax nigricollis",
+            "comName": "Black-throated Mango",
+            "speciesCode": "bltman1",
+            "category": "species",
+            "taxonOrder": 4359.0,
+            "bandingCodes": [
+                "BTMA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ANNI"
+            ],
+            "order": "Caprimulgiformes",
+            "familyCode": "trochi1",
+            "familyComName": "Hummingbirds",
+            "familySciName": "Trochilidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Opisthocomus hoazin",
+            "comName": "Hoatzin",
+            "speciesCode": "hoatzi1",
+            "category": "species",
+            "taxonOrder": 5184.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "HOAT"
+            ],
+            "sciNameCodes": [
+                "OPHO"
+            ],
+            "order": "Opisthocomiformes",
+            "familyCode": "opisth1",
+            "familyComName": "Hoatzin",
+            "familySciName": "Opisthocomidae",
+            "notes": "43% frequency at hotspot"
+        },
+        {
+            "sciName": "Porphyrio martinica",
+            "comName": "Purple Gallinule",
+            "speciesCode": "purgal2",
+            "category": "species",
+            "taxonOrder": 5489.0,
+            "bandingCodes": [
+                "PUGA"
+            ],
+            "comNameCodes": [
+                "APGA"
+            ],
+            "sciNameCodes": [
+                "POMA"
+            ],
+            "order": "Gruiformes",
+            "familyCode": "rallid1",
+            "familyComName": "Rails, Gallinules, and Coots",
+            "familySciName": "Rallidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Heliornis fulica",
+            "comName": "Sungrebe",
+            "speciesCode": "sungre1",
+            "category": "species",
+            "taxonOrder": 5640.0,
+            "bandingCodes": [
+                "SUNG"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "HEFU"
+            ],
+            "order": "Gruiformes",
+            "familyCode": "helior1",
+            "familyComName": "Finfoots",
+            "familySciName": "Heliornithidae",
+            "notes": "Swimming in Lagoon"
+        },
+        {
+            "sciName": "Anhinga anhinga",
+            "comName": "Anhinga",
+            "speciesCode": "anhing",
+            "category": "species",
+            "taxonOrder": 7195.0,
+            "bandingCodes": [
+                "ANHI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ANAN"
+            ],
+            "order": "Suliformes",
+            "familyCode": "anhing3",
+            "familyComName": "Anhingas",
+            "familySciName": "Anhingidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Tigrisoma fasciatum",
+            "comName": "Fasciated Tiger-Heron",
+            "speciesCode": "father1",
+            "category": "species",
+            "taxonOrder": 7316.0,
+            "bandingCodes": [
+                "FTHE"
+            ],
+            "comNameCodes": [
+                "FATH"
+            ],
+            "sciNameCodes": [
+                "TIFA"
+            ],
+            "order": "Pelecaniformes",
+            "familyCode": "ardeid1",
+            "familyComName": "Herons, Egrets, and Bitterns",
+            "familySciName": "Ardeidae",
+            "notes": "14% frequency at hotspot"
+        },
+        {
+            "sciName": "Butorides striata",
+            "comName": "Striated Heron",
+            "speciesCode": "strher",
+            "category": "species",
+            "taxonOrder": 7439.0,
+            "bandingCodes": [
+                "STRH"
+            ],
+            "comNameCodes": [
+                "STHE",
+                "GBHE"
+            ],
+            "sciNameCodes": [
+                "BUST"
+            ],
+            "order": "Pelecaniformes",
+            "familyCode": "ardeid1",
+            "familyComName": "Herons, Egrets, and Bitterns",
+            "familySciName": "Ardeidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Coragyps atratus",
+            "comName": "Black Vulture",
+            "speciesCode": "blkvul",
+            "category": "species",
+            "taxonOrder": 7620.0,
+            "bandingCodes": [
+                "BLVU"
+            ],
+            "comNameCodes": [
+                "ABVU"
+            ],
+            "sciNameCodes": [
+                "COAT"
+            ],
+            "order": "Cathartiformes",
+            "familyCode": "cathar2",
+            "familyComName": "New World Vultures",
+            "familySciName": "Cathartidae",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "sciName": "Cathartes aura",
+            "comName": "Turkey Vulture",
+            "speciesCode": "turvul",
+            "category": "species",
+            "taxonOrder": 7624.0,
+            "bandingCodes": [
+                "TUVU"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CAAU"
+            ],
+            "order": "Cathartiformes",
+            "familyCode": "cathar2",
+            "familyComName": "New World Vultures",
+            "familySciName": "Cathartidae",
+            "notes": "71% frequency at hotspot"
+        },
+        {
+            "sciName": "Cathartes melambrotus",
+            "comName": "Greater Yellow-headed Vulture",
+            "speciesCode": "gyhvul1",
+            "category": "species",
+            "taxonOrder": 7634.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "GYHV"
+            ],
+            "sciNameCodes": [
+                "CAME"
+            ],
+            "order": "Cathartiformes",
+            "familyCode": "cathar2",
+            "familyComName": "New World Vultures",
+            "familySciName": "Cathartidae",
+            "notes": "57% frequency at hotspot"
+        },
+        {
+            "sciName": "Spizaetus melanoleucus",
+            "comName": "Black-and-white Hawk-Eagle",
+            "speciesCode": "bawhae1",
+            "category": "species",
+            "taxonOrder": 7846.0,
+            "bandingCodes": [
+                "BAWH"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "SPME"
+            ],
+            "order": "Accipitriformes",
+            "familyCode": "accipi1",
+            "familyComName": "Hawks, Eagles, and Kites",
+            "familySciName": "Accipitridae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Ictinia plumbea",
+            "comName": "Plumbeous Kite",
+            "speciesCode": "plukit1",
+            "category": "species",
+            "taxonOrder": 7927.0,
+            "bandingCodes": [
+                "PLKI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ICPL"
+            ],
+            "order": "Accipitriformes",
+            "familyCode": "accipi1",
+            "familyComName": "Hawks, Eagles, and Kites",
+            "familySciName": "Accipitridae",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "sciName": "Rupornis magnirostris",
+            "comName": "Roadside Hawk",
+            "speciesCode": "roahaw",
+            "category": "species",
+            "taxonOrder": 8235.0,
+            "bandingCodes": [
+                "ROHA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "RUMA"
+            ],
+            "order": "Accipitriformes",
+            "familyCode": "accipi1",
+            "familyComName": "Hawks, Eagles, and Kites",
+            "familySciName": "Accipitridae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Glaucidium brasilianum",
+            "comName": "Ferruginous Pygmy-Owl",
+            "speciesCode": "fepowl",
+            "category": "species",
+            "taxonOrder": 8830.0,
+            "bandingCodes": [
+                "FEPO"
+            ],
+            "comNameCodes": [
+                "FPOW"
+            ],
+            "sciNameCodes": [
+                "GLBR"
+            ],
+            "order": "Strigiformes",
+            "familyCode": "strigi1",
+            "familyComName": "Owls",
+            "familySciName": "Strigidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Trogon viridis",
+            "comName": "Green-backed Trogon",
+            "speciesCode": "gnbtro1",
+            "category": "species",
+            "taxonOrder": 9331.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "GBTR"
+            ],
+            "sciNameCodes": [
+                "TRVI"
+            ],
+            "order": "Trogoniformes",
+            "familyCode": "trogon1",
+            "familyComName": "Trogons",
+            "familySciName": "Trogonidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Momotus momota",
+            "comName": "Amazonian Motmot",
+            "speciesCode": "bucmot4",
+            "category": "species",
+            "taxonOrder": 9588.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "AMMO"
+            ],
+            "sciNameCodes": [
+                "MOMO"
+            ],
+            "order": "Coraciiformes",
+            "familyCode": "momoti1",
+            "familyComName": "Motmots",
+            "familySciName": "Momotidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Megaceryle torquata",
+            "comName": "Ringed Kingfisher",
+            "speciesCode": "rinkin1",
+            "category": "species",
+            "taxonOrder": 10017.0,
+            "bandingCodes": [
+                "RIKI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "METO"
+            ],
+            "order": "Coraciiformes",
+            "familyCode": "alcedi1",
+            "familyComName": "Kingfishers",
+            "familySciName": "Alcedinidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Chloroceryle amazona",
+            "comName": "Amazon Kingfisher",
+            "speciesCode": "amakin1",
+            "category": "species",
+            "taxonOrder": 10028.0,
+            "bandingCodes": [
+                "AMKI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CHAM"
+            ],
+            "order": "Coraciiformes",
+            "familyCode": "alcedi1",
+            "familyComName": "Kingfishers",
+            "familySciName": "Alcedinidae",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "sciName": "Chloroceryle americana",
+            "comName": "Green Kingfisher",
+            "speciesCode": "grnkin",
+            "category": "species",
+            "taxonOrder": 10032.0,
+            "bandingCodes": [
+                "GKIN"
+            ],
+            "comNameCodes": [
+                "GRKI"
+            ],
+            "sciNameCodes": [
+                "CHAM"
+            ],
+            "order": "Coraciiformes",
+            "familyCode": "alcedi1",
+            "familyComName": "Kingfishers",
+            "familySciName": "Alcedinidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Monasa nigrifrons",
+            "comName": "Black-fronted Nunbird",
+            "speciesCode": "blfnun1",
+            "category": "species",
+            "taxonOrder": 10245.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "BFNU"
+            ],
+            "sciNameCodes": [
+                "MONI"
+            ],
+            "order": "Galbuliformes",
+            "familyCode": "buccon2",
+            "familyComName": "Puffbirds",
+            "familySciName": "Bucconidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Monasa morphoeus",
+            "comName": "White-fronted Nunbird",
+            "speciesCode": "whfnun1",
+            "category": "species",
+            "taxonOrder": 10248.0,
+            "bandingCodes": [
+                "WFNU"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "MOMO"
+            ],
+            "order": "Galbuliformes",
+            "familyCode": "buccon2",
+            "familyComName": "Puffbirds",
+            "familySciName": "Bucconidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Capito auratus",
+            "comName": "Gilded Barbet",
+            "speciesCode": "gilbar1",
+            "category": "species",
+            "taxonOrder": 10584.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "GIBA"
+            ],
+            "sciNameCodes": [
+                "CAAU"
+            ],
+            "order": "Piciformes",
+            "familyCode": "capito2",
+            "familyComName": "New World Barbets",
+            "familySciName": "Capitonidae",
+            "notes": "42% frequency at hotspot"
+        },
+        {
+            "sciName": "Pteroglossus inscriptus",
+            "comName": "Lettered Aracari",
+            "speciesCode": "letara1",
+            "category": "species",
+            "taxonOrder": 10666.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "LEAR"
+            ],
+            "sciNameCodes": [
+                "PTIN"
+            ],
+            "order": "Piciformes",
+            "familyCode": "rampha1",
+            "familyComName": "Toucans",
+            "familySciName": "Ramphastidae",
+            "notes": "21% frequency at hotspot"
+        },
+        {
+            "sciName": "Pteroglossus castanotis",
+            "comName": "Chestnut-eared Aracari",
+            "speciesCode": "cheara1",
+            "category": "species",
+            "taxonOrder": 10681.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "CEAR"
+            ],
+            "sciNameCodes": [
+                "PTCA"
+            ],
+            "order": "Piciformes",
+            "familyCode": "rampha1",
+            "familyComName": "Toucans",
+            "familySciName": "Ramphastidae",
+            "notes": "85% frequency at hotspot"
+        },
+        {
+            "sciName": "Pteroglossus pluricinctus",
+            "comName": "Many-banded Aracari",
+            "speciesCode": "mabara1",
+            "category": "species",
+            "taxonOrder": 10684.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "MBAR"
+            ],
+            "sciNameCodes": [
+                "PTPL"
+            ],
+            "order": "Piciformes",
+            "familyCode": "rampha1",
+            "familyComName": "Toucans",
+            "familySciName": "Ramphastidae",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "sciName": "Ramphastos tucanus",
+            "comName": "White-throated Toucan",
+            "speciesCode": "whttou1",
+            "category": "species",
+            "taxonOrder": 10713.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "WTTO",
+                "RBTO"
+            ],
+            "sciNameCodes": [
+                "RATU"
+            ],
+            "order": "Piciformes",
+            "familyCode": "rampha1",
+            "familyComName": "Toucans",
+            "familySciName": "Ramphastidae",
+            "notes": "71% frequency at hotspot"
+        }
+     ],
+    "pulled_out_because they were in other lists": [
+        {
+            "comName": "Summer Tanager",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "comName": "White-collared Swift",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "comName": "Swallow-tailed Kite",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "comName": "Tropical Kingbird",
+            "notes": "50% frequency at hotspot"
+        },
+        {
+            "comName": "Southern Lapwing",
+            "notes": "35% frequency at hotspot"
+        },
+        {
+            "comName": "Blue-gray Tanager",
+            "notes": "64% frequency at hotspot"
+        },
+        {
+            "comName": "Spot-breasted Woodpecker",
+            "notes": "57% frequency at hotspot"
+        },
+        {
+            "comName": "Blue-and-white Swallow",
+            "notes": "28% frequency at hotspot"
+        },
+        {
+            "comName": "Palm Tanager",
+            "notes": "50% frequency at hotspot"
+        }
+    ]
+}

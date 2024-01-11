@@ -3,8 +3,8 @@
     "end_month" : 6,
     "location" : "",
     "species" : [
-        {"name" : "Common Chaffinch"},
-        {"name" : "Brambling"},
-        {"name" : "Ortolan Bunting"},
-        {"name" : "Reed Bunting"}
+        {"comName" : "Common Chaffinch"},
+        {"comName" : "Brambling"},
+        {"comName" : "Ortolan Bunting"},
+        {"comName" : "Reed Bunting"}
     ]}
