@@ -39,6 +39,8 @@ class ImageWindow:
         self.selected_species.set('')
         self.specific_species = StringVar(self.root)
         self.specific_species.set('')
+        self.root.title(self.root.title()+' :'+file)
+
         Label(self.root, text='Notes:'+self.quiz_data['notes']).grid(
             row=0, column=0)  # default value
 

@@ -876,26 +876,6 @@
             "notes": "21% frequency at hotspot"
         },
         {
-            "sciName": "Psarocolius angustifrons",
-            "comName": "Russet-backed Oropendola",
-            "speciesCode": "ruboro1",
-            "category": "species",
-            "taxonOrder": 33087.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "RBOR",
-                "RBBO"
-            ],
-            "sciNameCodes": [
-                "PSAN"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "icteri1",
-            "familyComName": "Troupials and Allies",
-            "familySciName": "Icteridae",
-            "notes": "78% frequency at hotspot"
-        },
-        {
             "sciName": "Psarocolius viridis",
             "comName": "Green Oropendola",
             "speciesCode": "greoro1",
