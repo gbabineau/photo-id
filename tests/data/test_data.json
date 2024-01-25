@@ -1,0 +1,9 @@
+{
+    "start_month" : 2,
+    "end_month" : 2,
+    "location" : "EC",
+    "species" : [
+        {"comName" : "Giant Cowbird"},
+        {"comName" : "White-rumped Swift"},
+        {"comName" : "Ortolan Bunting"}
+    ]}
