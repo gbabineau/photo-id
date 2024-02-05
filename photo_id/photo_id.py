@@ -9,6 +9,7 @@ from tkinter import messagebox, Tk, Menu, filedialog
 import get_taxonomy
 import get_have_list
 import image_window
+import match_window
 import process_quiz
 
 class MainWindow:
@@ -27,6 +28,7 @@ class MainWindow:
         file_menu.add_command(label="Open Quiz", command=self.file_open)
         file_menu.add_command(label="Open Have List", command=self.have_list_open)
         file_menu.add_command(label="Taxonomic Sort Quiz", command=self.sort_quiz)
+        file_menu.add_command(label="Open Group", command=self.match_open)
         file_menu.add_command(label="Save", command=self.donothing)
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
@@ -46,6 +48,13 @@ class MainWindow:
             title='Select a Quiz File', initialdir='.', filetypes=[('json files', '*.json')])
         if filename != '':
             image_window.ImageWindow(filename, self.taxonomy, self.have_list)
+
+    def match_open(self) -> None:
+        """ Open and start a new matching game defined by a quiz file. """
+        filename = filedialog.askopenfilename(
+            title='Select a Quiz File', initialdir='.', filetypes=[('json files', '*.json')])
+        if filename != '':
+            match_window.MatchWindow(filename, self.taxonomy, self.have_list)
 
     def sort_quiz(self) -> None:
         """ Open aa quiz sort it taxonomincally and write it back. This is not necessary to show
