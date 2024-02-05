@@ -15,8 +15,8 @@ import process_quiz
 import sys
 
 
-REQUIRED_IMAGES = 2*2
-IMAGES_TO_USE = 12*2
+REQUIRED_IMAGES = 2
+IMAGES_TO_USE = 12
 
 
 class VerticalScrolledFrame(ttk.Frame):
@@ -67,8 +67,8 @@ def scale_image(image):
     """
     Scales an image to a max size while preserving aspect ratio
     """
-    MAX_X=420  # Make these parameters
-    MAX_Y=320
+    MAX_X=480  # Make these parameters
+    MAX_Y=360
     width, height = image.size
     if height >= width and height > MAX_Y:
         new_height= MAX_Y
@@ -110,16 +110,21 @@ class SpeciesFrame(ttk.Frame):
                    command=self.prior_image).grid(row=0, column=1)
     def update_image(self) -> None:
         position_in_list = self.full_species_list.index(self.species_name)
-        choices = 6
+        choices = 7
         choices = min(len(self.full_species_list), choices)
         choice=random.randrange(choices)
-        if position_in_list >= choice:
+        if position_in_list+choices >= len(self.full_species_list):
+            first = max(0, position_in_list-choices+1)
+        elif position_in_list >= choice:
             first = position_in_list - choice
         elif position_in_list == 0:
             first = 0
         else:
             first = random.randrange(position_in_list)
         self.species_list = self.full_species_list[first:first+choices]
+        # Doing this rather than shuffling the whole thing...because it is kind of nice to have the images taxonomically but then
+        # if the choices are ordered taxonomically it is too easy
+        random.shuffle(self.species_list)
         image = self.get_image(self.species_code, self.location, self.start_month, self.end_month)
         image = scale_image(image)
         tk_image = ImageTk.PhotoImage(image)
@@ -249,4 +254,6 @@ class MatchWindow:
             if species_number >= len(self.species_list):
                 break
         logging.info(f'Finished processing images')
+        self.root.state('zoomed')
+
 
