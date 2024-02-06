@@ -63,19 +63,15 @@ class VerticalScrolledFrame(ttk.Frame):
                 canvas.itemconfigure(interior_id, width=canvas.winfo_width())
         canvas.bind('<Configure>', _configure_canvas)
 
-def scale_image(image):
+def scale_image_width(image):
     """
-    Scales an image to a max size while preserving aspect ratio
+    Scales an image to a max size while preserving aspect ratio. Only the width matters.
     """
-    MAX_X=480  # Make these parameters
-    MAX_Y=360
+    MAX_X=460  # Make these parameters
     width, height = image.size
-    if height >= width and height > MAX_Y:
-        new_height= MAX_Y
-        new_width= int((MAX_Y/height) * width)
-    elif width > height and width > MAX_X:
-        new_width = MAX_X
-        new_height = int((MAX_X/ width) * height)
+    new_width = MAX_X
+    new_height = int((MAX_X/ width) * height)
+
     return image.resize(
         (new_width, new_height), Image.Resampling.LANCZOS)
 
@@ -126,7 +122,7 @@ class SpeciesFrame(ttk.Frame):
         # if the choices are ordered taxonomically it is too easy
         random.shuffle(self.species_list)
         image = self.get_image(self.species_code, self.location, self.start_month, self.end_month)
-        image = scale_image(image)
+        image = scale_image_width(image)
         tk_image = ImageTk.PhotoImage(image)
         self.image_display.configure(image=tk_image)
         self.image_display.image = tk_image
