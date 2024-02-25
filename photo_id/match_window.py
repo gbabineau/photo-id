@@ -146,7 +146,7 @@ class SpeciesFrame(ttk.Frame):
         if self.image_number == 0:
             self.image_number = min(len(self.cached_image_list), IMAGES_TO_USE)
         else:
-            self.image_number = image_number -1
+            self.image_number = self.image_number -1
         self.update_image()
 
     def get_image_list(self, species_code: str, location: str, start_month: int, end_month: int) -> list:
@@ -223,7 +223,7 @@ class MatchWindow:
         ROWS = int(len(self.species_list) / COLUMNS) +1
         # COLUMNS =1
         # ROWS = 3
-        logging.error("lines above for testing fast")
+        logging.debug("lines above for testing fast")
 
         # Create a photoimage object of the image in the path
 
