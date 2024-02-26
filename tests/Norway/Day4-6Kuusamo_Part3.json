@@ -5,6 +5,25 @@
   "notes": "",
   "species": [
     {
+      "sciName": "Sterna paradisaea",
+      "comName": "Arctic Tern",
+      "speciesCode": "arcter",
+      "category": "species",
+      "taxonOrder": 6672.0,
+      "bandingCodes": [
+        "ARTE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STPA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "May be seen in location."
+    },
+    {
       "sciName": "Sterna hirundo",
       "comName": "Common Tern",
       "speciesCode": "comter",

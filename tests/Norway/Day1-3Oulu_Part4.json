@@ -5,25 +5,6 @@
   "notes": "",
   "species": [
     {
-      "sciName": "Sterna hirundo",
-      "comName": "Common Tern",
-      "speciesCode": "comter",
-      "category": "species",
-      "taxonOrder": 6686.0,
-      "bandingCodes": [
-        "COTE"
-      ],
-      "comNameCodes": [],
-      "sciNameCodes": [
-        "STHI"
-      ],
-      "order": "Charadriiformes",
-      "familyCode": "larida1",
-      "familyComName": "Gulls, Terns, and Skimmers",
-      "familySciName": "Laridae",
-      "notes": "Should be seen in location."
-    },
-    {
       "sciName": "Gavia stellata",
       "comName": "Red-throated Loon",
       "speciesCode": "retloo",
@@ -448,64 +429,6 @@
       "familyComName": "Owls",
       "familySciName": "Strigidae",
       "notes": "May be seen in location."
-    },
-    {
-      "sciName": "Jynx torquilla",
-      "comName": "Eurasian Wryneck",
-      "speciesCode": "eurwry",
-      "category": "species",
-      "taxonOrder": 10785.0,
-      "bandingCodes": [
-        "EUWR"
-      ],
-      "comNameCodes": [],
-      "sciNameCodes": [
-        "JYTO"
-      ],
-      "order": "Piciformes",
-      "familyCode": "picida1",
-      "familyComName": "Woodpeckers",
-      "familySciName": "Picidae",
-      "notes": "May be seen in location."
-    },
-    {
-      "sciName": "Picoides tridactylus",
-      "comName": "Eurasian Three-toed Woodpecker",
-      "speciesCode": "ettwoo1",
-      "category": "species",
-      "taxonOrder": 10989.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "ETTW",
-        "TTBW"
-      ],
-      "sciNameCodes": [
-        "PITR"
-      ],
-      "order": "Piciformes",
-      "familyCode": "picida1",
-      "familyComName": "Woodpeckers",
-      "familySciName": "Picidae",
-      "notes": "May be seen in location."
-    },
-    {
-      "sciName": "Dendrocopos major",
-      "comName": "Great Spotted Woodpecker",
-      "speciesCode": "grswoo",
-      "category": "species",
-      "taxonOrder": 11125.0,
-      "bandingCodes": [
-        "GSWO"
-      ],
-      "comNameCodes": [],
-      "sciNameCodes": [
-        "DEMA"
-      ],
-      "order": "Piciformes",
-      "familyCode": "picida1",
-      "familyComName": "Woodpeckers",
-      "familySciName": "Picidae",
-      "notes": "Should be seen in location."
     }
   ]
 }

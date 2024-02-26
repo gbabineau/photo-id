@@ -4,6 +4,25 @@
   "end_month": 5,
   "notes": "",
   "species": [
+        {
+      "sciName": "Tetrastes bonasia",
+      "comName": "Hazel Grouse",
+      "speciesCode": "hazgro1",
+      "category": "species",
+      "taxonOrder": 1246.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HAGR"
+      ],
+      "sciNameCodes": [
+        "TEBO"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "Should be seen in location."
+    },
     {
       "sciName": "Tetrao urogallus",
       "comName": "Western Capercaillie",

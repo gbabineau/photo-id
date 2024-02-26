@@ -496,6 +496,25 @@
       "familyComName": "Old World Buntings",
       "familySciName": "Emberizidae",
       "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Emberiza rustica",
+      "comName": "Rustic Bunting",
+      "speciesCode": "rusbun",
+      "category": "species",
+      "taxonOrder": 32302.0,
+      "bandingCodes": [
+        "RUBU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "EMRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "May be seen in location."
     }
   ]
 }

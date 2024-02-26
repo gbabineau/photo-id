@@ -5,6 +5,25 @@
   "notes": "",
   "species": [
     {
+      "sciName": "Passer domesticus",
+      "comName": "House Sparrow",
+      "speciesCode": "houspa",
+      "category": "species",
+      "taxonOrder": 31018.0,
+      "bandingCodes": [
+        "HOSP"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PADO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer4",
+      "familyComName": "Old World Sparrows",
+      "familySciName": "Passeridae",
+      "notes": "Should be seen in location."
+    },
+    {
       "sciName": "Passer montanus",
       "comName": "Eurasian Tree Sparrow",
       "speciesCode": "eutspa",
