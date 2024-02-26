@@ -499,45 +499,6 @@
             "familyComName": "Crows, Jays, and Magpies",
             "familySciName": "Corvidae",
             "notes": "frequency at location 51"
-        },
-        {
-            "sciName": "Cyanistes caeruleus",
-            "comName": "Eurasian Blue Tit",
-            "speciesCode": "blutit",
-            "category": "species",
-            "taxonOrder": 21725.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "EBTI"
-            ],
-            "sciNameCodes": [
-                "CYCA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "parida1",
-            "familyComName": "Tits, Chickadees, and Titmice",
-            "familySciName": "Paridae",
-            "notes": "frequency at location 42"
-        },
-        {
-            "sciName": "Parus major",
-            "comName": "Great Tit",
-            "speciesCode": "gretit1",
-            "category": "species",
-            "taxonOrder": 21786.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "GRTI",
-                "EGTI"
-            ],
-            "sciNameCodes": [
-                "PAMA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "parida1",
-            "familyComName": "Tits, Chickadees, and Titmice",
-            "familySciName": "Paridae",
-            "notes": "frequency at location 45"
         }
     ]
 }

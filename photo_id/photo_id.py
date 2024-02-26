@@ -33,6 +33,7 @@ class MainWindow:
         file_menu.add_command(label="Taxonomic Sort Quiz", command=self.sort_quiz)
         file_menu.add_command(label="Create Quiz List from Target Species",
                               command=self.create_quiz)
+        file_menu.add_command(label="Break Quiz into Parts", command=self.break_quiz_into_parts)
         file_menu.add_command(label="Save", command=self.donothing)
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
@@ -103,6 +104,12 @@ class MainWindow:
         if filename != '':
             self.have_list = get_have_list.get_have_list(filename)
 
+    def break_quiz_into_parts(self) -> None:
+        """ Open and start a new quiz defined by a quiz file. """
+        filename = filedialog.askopenfilename(
+            title='Select a Quiz File to break into parts', initialdir='.', filetypes=[('json files', '*.json')])
+        if filename != '':
+            process_quiz.split_quiz(filename, 25, self.taxonomy)
 
     def donothing(self) -> None:
         """ Placeholder for functions not yet implemented. """

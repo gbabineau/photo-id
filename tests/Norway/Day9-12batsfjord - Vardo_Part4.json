@@ -1,0 +1,427 @@
+{
+  "location": "FI",
+  "start_month": 6,
+  "end_month": 6,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Hirundo rustica",
+      "comName": "Barn Swallow",
+      "speciesCode": "barswa",
+      "category": "species",
+      "taxonOrder": 23772.0,
+      "bandingCodes": [
+        "BARS"
+      ],
+      "comNameCodes": [
+        "BASW"
+      ],
+      "sciNameCodes": [
+        "HIRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Phylloscopus trochilus",
+      "comName": "Willow Warbler",
+      "speciesCode": "wlwwar",
+      "category": "species",
+      "taxonOrder": 24422.0,
+      "bandingCodes": [
+        "WILW"
+      ],
+      "comNameCodes": [
+        "WIWA"
+      ],
+      "sciNameCodes": [
+        "PHTR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Phylloscopus collybita",
+      "comName": "Common Chiffchaff",
+      "speciesCode": "comchi1",
+      "category": "species",
+      "taxonOrder": 24432.0,
+      "bandingCodes": [
+        "CCHI"
+      ],
+      "comNameCodes": [
+        "COCH"
+      ],
+      "sciNameCodes": [
+        "PHCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Cinclus cinclus",
+      "comName": "White-throated Dipper",
+      "speciesCode": "whtdip1",
+      "category": "species",
+      "taxonOrder": 27196.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WTDI"
+      ],
+      "sciNameCodes": [
+        "CICI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cincli1",
+      "familyComName": "Dippers",
+      "familySciName": "Cinclidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Turdus iliacus",
+      "comName": "Redwing",
+      "speciesCode": "redwin",
+      "category": "species",
+      "taxonOrder": 27981.0,
+      "bandingCodes": [
+        "REDW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TUIL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Turdus pilaris",
+      "comName": "Fieldfare",
+      "speciesCode": "fieldf",
+      "category": "species",
+      "taxonOrder": 28272.0,
+      "bandingCodes": [
+        "FIEL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TUPI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Turdus torquatus",
+      "comName": "Ring Ouzel",
+      "speciesCode": "rinouz1",
+      "category": "species",
+      "taxonOrder": 28277.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RIOU"
+      ],
+      "sciNameCodes": [
+        "TUTO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Luscinia svecica",
+      "comName": "Bluethroat",
+      "speciesCode": "blueth",
+      "category": "species",
+      "taxonOrder": 28907.0,
+      "bandingCodes": [
+        "BLUE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LUSV"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Phoenicurus phoenicurus",
+      "comName": "Common Redstart",
+      "speciesCode": "comred2",
+      "category": "species",
+      "taxonOrder": 29109.0,
+      "bandingCodes": [
+        "CRET"
+      ],
+      "comNameCodes": [
+        "CORE"
+      ],
+      "sciNameCodes": [
+        "PHPH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Oenanthe oenanthe",
+      "comName": "Northern Wheatear",
+      "speciesCode": "norwhe",
+      "category": "species",
+      "taxonOrder": 29281.0,
+      "bandingCodes": [
+        "NOWH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "OEOE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Motacilla alba",
+      "comName": "White Wagtail",
+      "speciesCode": "whiwag",
+      "category": "species",
+      "taxonOrder": 31202.0,
+      "bandingCodes": [
+        "WHWA"
+      ],
+      "comNameCodes": [
+        "PWWA"
+      ],
+      "sciNameCodes": [
+        "MOAL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Anthus pratensis",
+      "comName": "Meadow Pipit",
+      "speciesCode": "meapip1",
+      "category": "species",
+      "taxonOrder": 31332.0,
+      "bandingCodes": [
+        "MEPI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ANPR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Anthus cervinus",
+      "comName": "Red-throated Pipit",
+      "speciesCode": "retpip",
+      "category": "species",
+      "taxonOrder": 31349.0,
+      "bandingCodes": [
+        "RTPI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ANCE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Anthus petrosus",
+      "comName": "Rock Pipit",
+      "speciesCode": "rocpip1",
+      "category": "species",
+      "taxonOrder": 31355.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ROPI",
+        "ERPI"
+      ],
+      "sciNameCodes": [
+        "ANPE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Fringilla montifringilla",
+      "comName": "Brambling",
+      "speciesCode": "brambl",
+      "category": "species",
+      "taxonOrder": 31453.0,
+      "bandingCodes": [
+        "BRAM"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "FRMO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Linaria flavirostris",
+      "comName": "Twite",
+      "speciesCode": "twite1",
+      "category": "species",
+      "taxonOrder": 31942.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "TWIT"
+      ],
+      "sciNameCodes": [
+        "LIFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Acanthis flammea",
+      "comName": "Common Redpoll",
+      "speciesCode": "comred",
+      "category": "species",
+      "taxonOrder": 31962.0,
+      "bandingCodes": [
+        "CORE"
+      ],
+      "comNameCodes": [
+        "REDP"
+      ],
+      "sciNameCodes": [
+        "ACFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Acanthis hornemanni",
+      "comName": "Hoary Redpoll",
+      "speciesCode": "hoared",
+      "category": "species",
+      "taxonOrder": 31969.0,
+      "bandingCodes": [
+        "HORE"
+      ],
+      "comNameCodes": [
+        "REDP",
+        "ARRE"
+      ],
+      "sciNameCodes": [
+        "ACHO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Calcarius lapponicus",
+      "comName": "Lapland Longspur",
+      "speciesCode": "laplon",
+      "category": "species",
+      "taxonOrder": 32138.0,
+      "bandingCodes": [
+        "LALO"
+      ],
+      "comNameCodes": [
+        "LABU"
+      ],
+      "sciNameCodes": [
+        "CALA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "calcar1",
+      "familyComName": "Longspurs and Snow Buntings",
+      "familySciName": "Calcariidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Plectrophenax nivalis",
+      "comName": "Snow Bunting",
+      "speciesCode": "snobun",
+      "category": "species",
+      "taxonOrder": 32146.0,
+      "bandingCodes": [
+        "SNBU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PLNI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "calcar1",
+      "familyComName": "Longspurs and Snow Buntings",
+      "familySciName": "Calcariidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Emberiza schoeniclus",
+      "comName": "Reed Bunting",
+      "speciesCode": "reebun",
+      "category": "species",
+      "taxonOrder": 32277.0,
+      "bandingCodes": [
+        "REBU"
+      ],
+      "comNameCodes": [
+        "CRBU"
+      ],
+      "sciNameCodes": [
+        "EMSC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "May be seen in location."
+    }
+  ]
+}

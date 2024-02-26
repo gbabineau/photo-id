@@ -4,6 +4,7 @@
 
 import json
 import logging
+import pathlib
 import re
 
 def sorted_species(initial_list: list, taxonomy: list) -> list:
@@ -41,8 +42,15 @@ def process_quiz_file(name: str, taxonomy: list) -> dict:
 def get_code(data, common_name) -> str:
     """ Returns a species code for a common name """
     species = next(
-        (item for item in data['species'] if item["comName"] == common_name), None)
-    return species['speciesCode']
+        (item for item in data['species'] if item["comName"] == common_name), {})
+    return species.get('speciesCode', '')
+
+
+def get_notes(data, common_name) -> str:
+    """ Returns species notes for a common name """
+    species = next(
+        (item for item in data['species'] if item["comName"] == common_name), {})
+    return species.get('notes', '')
 
 
 def sort_quiz(name: str, taxonomy: list) -> dict:
@@ -110,4 +118,24 @@ def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file
         with open(output_file, "wt", encoding='utf-8') as outfile:
             outfile.write(json.dumps(result, indent=2))
 
+
+def split_quiz(in_file: str, max_size : int, taxonomy) -> None:
+    quiz = process_quiz_file(name = in_file, taxonomy = taxonomy)
+    length = len(quiz['species'])
+    part = 1
+    start = 0
+    end = 0
+    quiz['species'] = sorted_species(quiz['species'], taxonomy)
+    while end < length:
+        end = min(length, start + max_size)
+        split = {}
+        for key, value in quiz.items():
+            if key != 'species':
+                split[key] = value
+        split['species'] = quiz['species'][start:end]
+        file_name = f"{pathlib.Path(in_file).parent.resolve()}/{pathlib.Path(in_file).stem}_Part{part}{pathlib.Path(in_file).suffix}"
+        start = end
+        with open(file_name, "wt", encoding='utf-8') as outfile:
+            outfile.write(json.dumps(split, indent=2))
+        part = part + 1
 
