@@ -7,7 +7,7 @@ import random
 import re
 
 from tkinter import ttk, messagebox, Label, StringVar, Toplevel, Canvas
-from tkinter.constants import VERTICAL, FALSE, RIGHT, LEFT, BOTH, TRUE, Y, NW
+from tkinter.constants import VERTICAL, FALSE, RIGHT, LEFT, BOTH, TRUE, Y, NW, RIDGE
 
 import requests
 from PIL import Image, ImageTk
@@ -77,8 +77,8 @@ def scale_image_width(image):
 
 class SpeciesFrame(ttk.Frame):
 
-    def __init__(self, base, species_number : int, species_name : str, species_code : str, large_species_list : list, location : str, start_month : str, end_month : str):
-        ttk.Frame.__init__(self, base)
+    def __init__(self, base, species_number : int, species_name : str, species_code : str, species_notes : str, large_species_list : list, location : str, start_month : str, end_month : str):
+        ttk.Frame.__init__(self, base, borderwidth=2, relief=RIDGE)
         self.species_number = species_number
         self.species_code = species_code
         self.species_name = species_name
@@ -94,7 +94,6 @@ class SpeciesFrame(ttk.Frame):
 
         self.update_image()
 
-        self.image_display.grid(row=1, column=0, columnspan=3)
         self.what_is_it = ttk.Combobox(self, textvariable=self.selected_species,
                                        values=self.species_list, height=min(25, len(self.species_list)), width=30)
         self.what_is_it.bind('<<ComboboxSelected>>', self.check_selection)
@@ -104,6 +103,10 @@ class SpeciesFrame(ttk.Frame):
                    command=self.next_image).grid(row=0, column=2)
         ttk.Button(self, text="Prior",
                    command=self.prior_image).grid(row=0, column=1)
+        self.bird_notes = ttk.Label(self, text=species_notes)
+        self.bird_notes.grid(row=1, column=0)
+        self.image_display.grid(row=2, column=0, columnspan=3)
+
     def update_image(self) -> None:
         position_in_list = self.full_species_list.index(self.species_name)
         choices = 7
@@ -234,15 +237,20 @@ class MatchWindow:
 
         self.root.title(self.root.title()+' :'+file)
         species_number=0
+        # progressbar = ttk.Progressbar(self.root, maximum=len(self.species_list))
+        # progressbar.pack()
         for row in range(1,ROWS+1):
             for column in range(COLUMNS):
+                # progressbar.step(species_number)
                 logging.info(f'Processing image {species_number} of {len(self.species_list)}')
                 if species_number >= len(self.species_list):
                     break
                 species_name=self.species_list[species_number]
                 species_code=process_quiz.get_code(self.quiz_data, species_name)
+                species_notes = process_quiz.get_notes(
+                    self.quiz_data, species_name)
                 self.image_display[row][column] = SpeciesFrame(
-                    self.frame.interior, species_number, species_name, species_code, self.species_list, self.quiz_data['location'], self.quiz_data['start_month'], self.quiz_data['end_month'])
+                    self.frame.interior, species_number, species_name, species_code, species_notes, self.species_list, self.quiz_data['location'], self.quiz_data['start_month'], self.quiz_data['end_month'])
                 self.image_display[row][column].grid(
                     row=row, column=column)
                 species_number = species_number + 1
