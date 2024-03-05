@@ -3,6 +3,7 @@
     "end_month": 5,
     "location": "FI",
     "species" : [
+        {"comName" : "Little Bunting", "notes" : "Not on list."},
         {"comName" : "Arctic Loon", "notes" : "Should be seen in location."},
         {"comName" : "Mallard", "notes" : "Should be seen in location."},
         {"comName" : "Tufted Duck", "notes" : "Should be seen in location."},

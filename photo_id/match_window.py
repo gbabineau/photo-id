@@ -139,7 +139,7 @@ class SpeciesFrame(ttk.Frame):
 
 
     def next_image(self):
-        if self.image_number < min(len(self.cached_image_list), IMAGES_TO_USE):
+        if self.image_number < min(len(self.cached_image_list), IMAGES_TO_USE) -1:
             self.image_number = self.image_number+1
         else:
             self.image_number = 0
@@ -174,6 +174,7 @@ class SpeciesFrame(ttk.Frame):
             # First images are not actual images of the species.
             if len(images) > 2 + REQUIRED_IMAGES:
                 self.cached_image_list = images[2::2]
+                del self.cached_image_list[IMAGES_TO_USE:]
         return self.cached_image_list
 
     def get_image(self, species_code: str, location: str, start_month: int, end_month: int) -> None:

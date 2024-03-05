@@ -287,6 +287,10 @@
       "notes": "Should be seen in location."
     },
     {
+      "comName": "Gyrfalcon",
+      "notes" : "Not on list from company"
+    },
+    {
       "sciName": "Surnia ulula",
       "comName": "Northern Hawk Owl",
       "speciesCode": "nohowl",
