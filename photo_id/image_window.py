@@ -99,7 +99,6 @@ class ImageWindow:
         """Called when a selection is made to see if it is the right species. The unused parameter is to match the signature used by the caller. """
         del unused
         if self.selected_species.get() == self.quiz_species:
-            messagebox.showinfo(title='correct', message='Correct!')
             if len(self.species_list) > 1:
                 self.species_list.remove(self.quiz_species)
                 self.what_is_it.config(values=self.species_list)
@@ -142,6 +141,8 @@ class ImageWindow:
             if len(images) > 2 + REQUIRED_IMAGES:  # First images are not actual images of the species.
                 self.cached_species_images = images[2:]
                 self.cached_species_code = species_code
+                del self.cached_species_images[2*IMAGES_TO_USE:]
+
         return self.cached_species_images
 
     def get_image(self, species: str, location: str, start_month: int, end_month: int) -> None:

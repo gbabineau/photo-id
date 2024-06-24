@@ -1,0 +1,509 @@
+{
+  "location": "FI",
+  "start_month": 6,
+  "end_month": 6,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Anser fabalis",
+      "comName": "Taiga Bean-Goose",
+      "speciesCode": "taibeg1",
+      "category": "species",
+      "taxonOrder": 284.0,
+      "bandingCodes": [
+        "TABG"
+      ],
+      "comNameCodes": [
+        "BEGO",
+        "TBGO"
+      ],
+      "sciNameCodes": [
+        "ANFA"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Cygnus cygnus",
+      "comName": "Whooper Swan",
+      "speciesCode": "whoswa",
+      "category": "species",
+      "taxonOrder": 371.0,
+      "bandingCodes": [
+        "WHOS"
+      ],
+      "comNameCodes": [
+        "WHSW"
+      ],
+      "sciNameCodes": [
+        "CYCY"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Spatula clypeata",
+      "comName": "Northern Shoveler",
+      "speciesCode": "norsho",
+      "category": "species",
+      "taxonOrder": 474.0,
+      "bandingCodes": [
+        "NSHO"
+      ],
+      "comNameCodes": [
+        "NOSH"
+      ],
+      "sciNameCodes": [
+        "SPCL"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Anas platyrhynchos",
+      "comName": "Mallard",
+      "speciesCode": "mallar3",
+      "category": "species",
+      "taxonOrder": 515.0,
+      "bandingCodes": [
+        "MALL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ANPL"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Anas acuta",
+      "comName": "Northern Pintail",
+      "speciesCode": "norpin",
+      "category": "species",
+      "taxonOrder": 558.0,
+      "bandingCodes": [
+        "NOPI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ANAC"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Anas crecca",
+      "comName": "Green-winged Teal",
+      "speciesCode": "gnwtea",
+      "category": "species",
+      "taxonOrder": 574.0,
+      "bandingCodes": [
+        "GWTE"
+      ],
+      "comNameCodes": [
+        "EUTE",
+        "CWTE",
+        "EWTE"
+      ],
+      "sciNameCodes": [
+        "ANCR"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Aythya fuligula",
+      "comName": "Tufted Duck",
+      "speciesCode": "tufduc",
+      "category": "species",
+      "taxonOrder": 648.0,
+      "bandingCodes": [
+        "TUDU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "AYFU"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Melanitta nigra",
+      "comName": "Common Scoter",
+      "speciesCode": "blksco1",
+      "category": "species",
+      "taxonOrder": 695.0,
+      "bandingCodes": [
+        "COSC"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "MENI"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Clangula hyemalis",
+      "comName": "Long-tailed Duck",
+      "speciesCode": "lotduc",
+      "category": "species",
+      "taxonOrder": 700.0,
+      "bandingCodes": [
+        "LTDU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CLHY"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Bucephala clangula",
+      "comName": "Common Goldeneye",
+      "speciesCode": "comgol",
+      "category": "species",
+      "taxonOrder": 702.0,
+      "bandingCodes": [
+        "COGO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "BUCL"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Mergellus albellus",
+      "comName": "Smew",
+      "speciesCode": "smew",
+      "category": "species",
+      "taxonOrder": 710.0,
+      "bandingCodes": [
+        "SMEW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "MEAL"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Mergus merganser",
+      "comName": "Common Merganser",
+      "speciesCode": "commer",
+      "category": "species",
+      "taxonOrder": 720.0,
+      "bandingCodes": [
+        "COME"
+      ],
+      "comNameCodes": [
+        "GOOS"
+      ],
+      "sciNameCodes": [
+        "MEME"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Tetrastes bonasia",
+      "comName": "Hazel Grouse",
+      "speciesCode": "hazgro1",
+      "category": "species",
+      "taxonOrder": 1246.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HAGR"
+      ],
+      "sciNameCodes": [
+        "TEBO"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Lagopus lagopus",
+      "comName": "Willow Ptarmigan",
+      "speciesCode": "wilpta",
+      "category": "species",
+      "taxonOrder": 1297.0,
+      "bandingCodes": [
+        "WIPT"
+      ],
+      "comNameCodes": [
+        "WIGR",
+        "RGGR"
+      ],
+      "sciNameCodes": [
+        "LALA"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Lagopus muta",
+      "comName": "Rock Ptarmigan",
+      "speciesCode": "rocpta1",
+      "category": "species",
+      "taxonOrder": 1318.0,
+      "bandingCodes": [
+        "ROPT"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LAMU"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Columba livia",
+      "comName": "Rock Pigeon",
+      "speciesCode": "rocpig",
+      "category": "species",
+      "taxonOrder": 1874.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ROPI",
+        "RODO"
+      ],
+      "sciNameCodes": [
+        "COLI"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Columba palumbus",
+      "comName": "Common Wood-Pigeon",
+      "speciesCode": "cowpig1",
+      "category": "species",
+      "taxonOrder": 1906.0,
+      "bandingCodes": [
+        "CWPI"
+      ],
+      "comNameCodes": [
+        "COWP",
+        "COWO"
+      ],
+      "sciNameCodes": [
+        "COPA"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Cuculus canorus",
+      "comName": "Common Cuckoo",
+      "speciesCode": "comcuc",
+      "category": "species",
+      "taxonOrder": 3421.0,
+      "bandingCodes": [
+        "COCU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CUCA"
+      ],
+      "order": "Cuculiformes",
+      "familyCode": "cuculi1",
+      "familyComName": "Cuckoos",
+      "familySciName": "Cuculidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Grus grus",
+      "comName": "Common Crane",
+      "speciesCode": "comcra",
+      "category": "species",
+      "taxonOrder": 5686.0,
+      "bandingCodes": [
+        "CCRA"
+      ],
+      "comNameCodes": [
+        "COCR"
+      ],
+      "sciNameCodes": [
+        "GRGR"
+      ],
+      "order": "Gruiformes",
+      "familyCode": "gruida1",
+      "familyComName": "Cranes",
+      "familySciName": "Gruidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Pluvialis apricaria",
+      "comName": "European Golden-Plover",
+      "speciesCode": "eugplo",
+      "category": "species",
+      "taxonOrder": 5783.0,
+      "bandingCodes": [
+        "EUGP"
+      ],
+      "comNameCodes": [
+        "EGPL"
+      ],
+      "sciNameCodes": [
+        "PLAP"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Eudromias morinellus",
+      "comName": "Eurasian Dotterel",
+      "speciesCode": "eurdot",
+      "category": "species",
+      "taxonOrder": 5797.0,
+      "bandingCodes": [
+        "EUDO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "EUMO"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Numenius phaeopus",
+      "comName": "Whimbrel",
+      "speciesCode": "whimbr",
+      "category": "species",
+      "taxonOrder": 5978.0,
+      "bandingCodes": [
+        "WHIM"
+      ],
+      "comNameCodes": [
+        "EUWH"
+      ],
+      "sciNameCodes": [
+        "NUPH"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Numenius arquata",
+      "comName": "Eurasian Curlew",
+      "speciesCode": "eurcur",
+      "category": "species",
+      "taxonOrder": 5993.0,
+      "bandingCodes": [
+        "EUCU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "NUAR"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Scolopax rusticola",
+      "comName": "Eurasian Woodcock",
+      "speciesCode": "eurwoo",
+      "category": "species",
+      "taxonOrder": 6032.0,
+      "bandingCodes": [
+        "EUWO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "SCRU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Gallinago gallinago",
+      "comName": "Common Snipe",
+      "speciesCode": "comsni",
+      "category": "species",
+      "taxonOrder": 6064.0,
+      "bandingCodes": [
+        "COSN"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "GAGA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    }
+  ]
+}

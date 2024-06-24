@@ -1,0 +1,1 @@
+C:\Users\Guy\GitProjects\photo-id\.venv\Scripts\python.exe photo_id/photo_id.py --verbose --have_list  C:\Users\Guy\GitProjects\photo-id\tests\data\guy_ebird_world_life_list_0823.csv

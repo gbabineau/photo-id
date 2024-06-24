@@ -1,0 +1,528 @@
+{
+  "location": "FI",
+  "start_month": 5,
+  "end_month": 5,
+  "notes": "",
+  "species": [
+        {
+      "sciName": "Tetrastes bonasia",
+      "comName": "Hazel Grouse",
+      "speciesCode": "hazgro1",
+      "category": "species",
+      "taxonOrder": 1246.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HAGR"
+      ],
+      "sciNameCodes": [
+        "TEBO"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Tetrao urogallus",
+      "comName": "Western Capercaillie",
+      "speciesCode": "wescap1",
+      "category": "species",
+      "taxonOrder": 1367.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WECA"
+      ],
+      "sciNameCodes": [
+        "TEUR"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Lyrurus tetrix",
+      "comName": "Black Grouse",
+      "speciesCode": "blagro1",
+      "category": "species",
+      "taxonOrder": 1376.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BLGR"
+      ],
+      "sciNameCodes": [
+        "LYTE"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Perdix perdix",
+      "comName": "Gray Partridge",
+      "speciesCode": "grypar",
+      "category": "species",
+      "taxonOrder": 1393.0,
+      "bandingCodes": [
+        "GRAP"
+      ],
+      "comNameCodes": [
+        "GRPA"
+      ],
+      "sciNameCodes": [
+        "PEPE"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Phasianus colchicus",
+      "comName": "Ring-necked Pheasant",
+      "speciesCode": "rinphe1",
+      "category": "species",
+      "taxonOrder": 1420.0,
+      "bandingCodes": [
+        "RNEP"
+      ],
+      "comNameCodes": [
+        "RNPH",
+        "COPH"
+      ],
+      "sciNameCodes": [
+        "PHCO"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Podiceps auritus",
+      "comName": "Horned Grebe",
+      "speciesCode": "horgre",
+      "category": "species",
+      "taxonOrder": 1842.0,
+      "bandingCodes": [
+        "HOGR"
+      ],
+      "comNameCodes": [
+        "SLGR"
+      ],
+      "sciNameCodes": [
+        "POAU"
+      ],
+      "order": "Podicipediformes",
+      "familyCode": "podici1",
+      "familyComName": "Grebes",
+      "familySciName": "Podicipedidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Podiceps grisegena",
+      "comName": "Red-necked Grebe",
+      "speciesCode": "rengre",
+      "category": "species",
+      "taxonOrder": 1845.0,
+      "bandingCodes": [
+        "RNGR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "POGR"
+      ],
+      "order": "Podicipediformes",
+      "familyCode": "podici1",
+      "familyComName": "Grebes",
+      "familySciName": "Podicipedidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Podiceps cristatus",
+      "comName": "Great Crested Grebe",
+      "speciesCode": "grcgre1",
+      "category": "species",
+      "taxonOrder": 1848.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GCGR"
+      ],
+      "sciNameCodes": [
+        "POCR"
+      ],
+      "order": "Podicipediformes",
+      "familyCode": "podici1",
+      "familyComName": "Grebes",
+      "familySciName": "Podicipedidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Columba livia",
+      "comName": "Rock Pigeon",
+      "speciesCode": "rocpig",
+      "category": "species",
+      "taxonOrder": 1874.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ROPI",
+        "RODO"
+      ],
+      "sciNameCodes": [
+        "COLI"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Columba oenas",
+      "comName": "Stock Dove",
+      "speciesCode": "stodov1",
+      "category": "species",
+      "taxonOrder": 1901.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "STDO"
+      ],
+      "sciNameCodes": [
+        "COOE"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Columba palumbus",
+      "comName": "Common Wood-Pigeon",
+      "speciesCode": "cowpig1",
+      "category": "species",
+      "taxonOrder": 1906.0,
+      "bandingCodes": [
+        "CWPI"
+      ],
+      "comNameCodes": [
+        "COWP",
+        "COWO"
+      ],
+      "sciNameCodes": [
+        "COPA"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Streptopelia decaocto",
+      "comName": "Eurasian Collared-Dove",
+      "speciesCode": "eucdov",
+      "category": "species",
+      "taxonOrder": 2051.0,
+      "bandingCodes": [
+        "EUCD"
+      ],
+      "comNameCodes": [
+        "CODO",
+        "ECDO"
+      ],
+      "sciNameCodes": [
+        "STDE"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Cuculus canorus",
+      "comName": "Common Cuckoo",
+      "speciesCode": "comcuc",
+      "category": "species",
+      "taxonOrder": 3421.0,
+      "bandingCodes": [
+        "COCU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CUCA"
+      ],
+      "order": "Cuculiformes",
+      "familyCode": "cuculi1",
+      "familyComName": "Cuckoos",
+      "familySciName": "Cuculidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Apus apus",
+      "comName": "Common Swift",
+      "speciesCode": "comswi",
+      "category": "species",
+      "taxonOrder": 4070.0,
+      "bandingCodes": [
+        "COSW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "APAP"
+      ],
+      "order": "Caprimulgiformes",
+      "familyCode": "apodid1",
+      "familyComName": "Swifts",
+      "familySciName": "Apodidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Porzana porzana",
+      "comName": "Spotted Crake",
+      "speciesCode": "spocra1",
+      "category": "species",
+      "taxonOrder": 5429.0,
+      "bandingCodes": [
+        "SPCR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "POPO"
+      ],
+      "order": "Gruiformes",
+      "familyCode": "rallid1",
+      "familyComName": "Rails, Gallinules, and Coots",
+      "familySciName": "Rallidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Fulica atra",
+      "comName": "Eurasian Coot",
+      "speciesCode": "eurcoo",
+      "category": "species",
+      "taxonOrder": 5461.0,
+      "bandingCodes": [
+        "EUCO"
+      ],
+      "comNameCodes": [
+        "COCO"
+      ],
+      "sciNameCodes": [
+        "FUAT"
+      ],
+      "order": "Gruiformes",
+      "familyCode": "rallid1",
+      "familyComName": "Rails, Gallinules, and Coots",
+      "familySciName": "Rallidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Grus grus",
+      "comName": "Common Crane",
+      "speciesCode": "comcra",
+      "category": "species",
+      "taxonOrder": 5686.0,
+      "bandingCodes": [
+        "CCRA"
+      ],
+      "comNameCodes": [
+        "COCR"
+      ],
+      "sciNameCodes": [
+        "GRGR"
+      ],
+      "order": "Gruiformes",
+      "familyCode": "gruida1",
+      "familyComName": "Cranes",
+      "familySciName": "Gruidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Haematopus ostralegus",
+      "comName": "Eurasian Oystercatcher",
+      "speciesCode": "euroys1",
+      "category": "species",
+      "taxonOrder": 5757.0,
+      "bandingCodes": [
+        "EUOY"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "HAOS"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "haemat1",
+      "familyComName": "Oystercatchers",
+      "familySciName": "Haematopodidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Pluvialis apricaria",
+      "comName": "European Golden-Plover",
+      "speciesCode": "eugplo",
+      "category": "species",
+      "taxonOrder": 5783.0,
+      "bandingCodes": [
+        "EUGP"
+      ],
+      "comNameCodes": [
+        "EGPL"
+      ],
+      "sciNameCodes": [
+        "PLAP"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Charadrius hiaticula",
+      "comName": "Common Ringed Plover",
+      "speciesCode": "corplo",
+      "category": "species",
+      "taxonOrder": 5802.0,
+      "bandingCodes": [
+        "CRPL"
+      ],
+      "comNameCodes": [
+        "RIPL"
+      ],
+      "sciNameCodes": [
+        "CHHI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Charadrius dubius",
+      "comName": "Little Ringed Plover",
+      "speciesCode": "lirplo",
+      "category": "species",
+      "taxonOrder": 5815.0,
+      "bandingCodes": [
+        "LRPL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CHDU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Vanellus vanellus",
+      "comName": "Northern Lapwing",
+      "speciesCode": "norlap",
+      "category": "species",
+      "taxonOrder": 5823.0,
+      "bandingCodes": [
+        "NOLA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "VAVA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Numenius phaeopus",
+      "comName": "Whimbrel",
+      "speciesCode": "whimbr",
+      "category": "species",
+      "taxonOrder": 5978.0,
+      "bandingCodes": [
+        "WHIM"
+      ],
+      "comNameCodes": [
+        "EUWH"
+      ],
+      "sciNameCodes": [
+        "NUPH"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Numenius arquata",
+      "comName": "Eurasian Curlew",
+      "speciesCode": "eurcur",
+      "category": "species",
+      "taxonOrder": 5993.0,
+      "bandingCodes": [
+        "EUCU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "NUAR"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Limosa lapponica",
+      "comName": "Bar-tailed Godwit",
+      "speciesCode": "batgod",
+      "category": "species",
+      "taxonOrder": 6000.0,
+      "bandingCodes": [
+        "BTGO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LILA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Limosa limosa",
+      "comName": "Black-tailed Godwit",
+      "speciesCode": "bktgod",
+      "category": "species",
+      "taxonOrder": 6009.0,
+      "bandingCodes": [
+        "BLTG"
+      ],
+      "comNameCodes": [
+        "BTGO"
+      ],
+      "sciNameCodes": [
+        "LILI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    }
+  ]
+}

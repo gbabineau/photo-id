@@ -1050,25 +1050,6 @@
             "notes": "78% frequency at hotspot"
         },
         {
-            "sciName": "Ramphocelus carbo",
-            "comName": "Silver-beaked Tanager",
-            "speciesCode": "sibtan2",
-            "category": "species",
-            "taxonOrder": 34257.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "SBTA"
-            ],
-            "sciNameCodes": [
-                "RACA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "thraup2",
-            "familyComName": "Tanagers and Allies",
-            "familySciName": "Thraupidae",
-            "notes": "42% frequency at hotspot"
-        },
-        {
             "sciName": "Stilpnia nigrocincta",
             "comName": "Masked Tanager",
             "speciesCode": "mastan1",

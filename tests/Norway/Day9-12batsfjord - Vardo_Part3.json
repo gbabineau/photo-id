@@ -1,0 +1,520 @@
+{
+  "location": "FI",
+  "start_month": 6,
+  "end_month": 6,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Larus hyperboreus",
+      "comName": "Glaucous Gull",
+      "speciesCode": "glagul",
+      "category": "species",
+      "taxonOrder": 6519.0,
+      "bandingCodes": [
+        "GLGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LAHY"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Sterna paradisaea",
+      "comName": "Arctic Tern",
+      "speciesCode": "arcter",
+      "category": "species",
+      "taxonOrder": 6672.0,
+      "bandingCodes": [
+        "ARTE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STPA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Sterna hirundo",
+      "comName": "Common Tern",
+      "speciesCode": "comter",
+      "category": "species",
+      "taxonOrder": 6686.0,
+      "bandingCodes": [
+        "COTE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STHI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Gavia stellata",
+      "comName": "Red-throated Loon",
+      "speciesCode": "retloo",
+      "category": "species",
+      "taxonOrder": 6768.0,
+      "bandingCodes": [
+        "RTLO"
+      ],
+      "comNameCodes": [
+        "RTDI"
+      ],
+      "sciNameCodes": [
+        "GAST"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Gavia arctica",
+      "comName": "Arctic Loon",
+      "speciesCode": "arcloo",
+      "category": "species",
+      "taxonOrder": 6769.0,
+      "bandingCodes": [
+        "ARLO"
+      ],
+      "comNameCodes": [
+        "BTDI",
+        "BTLO"
+      ],
+      "sciNameCodes": [
+        "GAAR"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Gavia immer",
+      "comName": "Common Loon",
+      "speciesCode": "comloo",
+      "category": "species",
+      "taxonOrder": 6774.0,
+      "bandingCodes": [
+        "COLO"
+      ],
+      "comNameCodes": [
+        "GNDI"
+      ],
+      "sciNameCodes": [
+        "GAIM"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Gavia adamsii",
+      "comName": "Yellow-billed Loon",
+      "speciesCode": "yebloo",
+      "category": "species",
+      "taxonOrder": 6775.0,
+      "bandingCodes": [
+        "YBLO"
+      ],
+      "comNameCodes": [
+        "WBDI"
+      ],
+      "sciNameCodes": [
+        "GAAD"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Fulmarus glacialis",
+      "comName": "Northern Fulmar",
+      "speciesCode": "norful",
+      "category": "species",
+      "taxonOrder": 6928.0,
+      "bandingCodes": [
+        "NOFU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "FUGL"
+      ],
+      "order": "Procellariiformes",
+      "familyCode": "procel3",
+      "familyComName": "Shearwaters and Petrels",
+      "familySciName": "Procellariidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Morus bassanus",
+      "comName": "Northern Gannet",
+      "speciesCode": "norgan",
+      "category": "species",
+      "taxonOrder": 7165.0,
+      "bandingCodes": [
+        "NOGA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "MOBA"
+      ],
+      "order": "Suliformes",
+      "familyCode": "sulida1",
+      "familyComName": "Boobies and Gannets",
+      "familySciName": "Sulidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Phalacrocorax carbo",
+      "comName": "Great Cormorant",
+      "speciesCode": "grecor",
+      "category": "species",
+      "taxonOrder": 7224.0,
+      "bandingCodes": [
+        "GRCO"
+      ],
+      "comNameCodes": [
+        "BLSH",
+        "GBCO"
+      ],
+      "sciNameCodes": [
+        "PHCA"
+      ],
+      "order": "Suliformes",
+      "familyCode": "phalac1",
+      "familyComName": "Cormorants and Shags",
+      "familySciName": "Phalacrocoracidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Gulosus aristotelis",
+      "comName": "European Shag",
+      "speciesCode": "eursha1",
+      "category": "species",
+      "taxonOrder": 7247.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EUSH"
+      ],
+      "sciNameCodes": [
+        "GUAR"
+      ],
+      "order": "Suliformes",
+      "familyCode": "phalac1",
+      "familyComName": "Cormorants and Shags",
+      "familySciName": "Phalacrocoracidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Aquila chrysaetos",
+      "comName": "Golden Eagle",
+      "speciesCode": "goleag",
+      "category": "species",
+      "taxonOrder": 7875.0,
+      "bandingCodes": [
+        "GOEA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "AQCH"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Haliaeetus albicilla",
+      "comName": "White-tailed Eagle",
+      "speciesCode": "whteag",
+      "category": "species",
+      "taxonOrder": 8186.0,
+      "bandingCodes": [
+        "WTEA"
+      ],
+      "comNameCodes": [
+        "WTSE"
+      ],
+      "sciNameCodes": [
+        "HAAL"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Buteo lagopus",
+      "comName": "Rough-legged Hawk",
+      "speciesCode": "rolhaw",
+      "category": "species",
+      "taxonOrder": 8332.0,
+      "bandingCodes": [
+        "RLHA"
+      ],
+      "comNameCodes": [
+        "RLBU"
+      ],
+      "sciNameCodes": [
+        "BULA"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "comName": "Gyrfalcon",
+      "notes" : "Not on list from company"
+    },
+    {
+      "sciName": "Surnia ulula",
+      "comName": "Northern Hawk Owl",
+      "speciesCode": "nohowl",
+      "category": "species",
+      "taxonOrder": 8792.0,
+      "bandingCodes": [
+        "NHOW"
+      ],
+      "comNameCodes": [
+        "NOHO"
+      ],
+      "sciNameCodes": [
+        "SUUL"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Asio flammeus",
+      "comName": "Short-eared Owl",
+      "speciesCode": "sheowl",
+      "category": "species",
+      "taxonOrder": 9068.0,
+      "bandingCodes": [
+        "SEOW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ASFL"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Falco tinnunculus",
+      "comName": "Eurasian Kestrel",
+      "speciesCode": "eurkes",
+      "category": "species",
+      "taxonOrder": 11757.0,
+      "bandingCodes": [
+        "EUKE"
+      ],
+      "comNameCodes": [
+        "COKE"
+      ],
+      "sciNameCodes": [
+        "FATI"
+      ],
+      "order": "Falconiformes",
+      "familyCode": "falcon1",
+      "familyComName": "Falcons and Caracaras",
+      "familySciName": "Falconidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Falco columbarius",
+      "comName": "Merlin",
+      "speciesCode": "merlin",
+      "category": "species",
+      "taxonOrder": 11825.0,
+      "bandingCodes": [
+        "MERL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "FACO"
+      ],
+      "order": "Falconiformes",
+      "familyCode": "falcon1",
+      "familyComName": "Falcons and Caracaras",
+      "familySciName": "Falconidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Falco peregrinus",
+      "comName": "Peregrine Falcon",
+      "speciesCode": "perfal",
+      "category": "species",
+      "taxonOrder": 11875.0,
+      "bandingCodes": [
+        "PEFA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "FAPE"
+      ],
+      "order": "Falconiformes",
+      "familyCode": "falcon1",
+      "familyComName": "Falcons and Caracaras",
+      "familySciName": "Falconidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Pica pica",
+      "comName": "Eurasian Magpie",
+      "speciesCode": "eurmag1",
+      "category": "species",
+      "taxonOrder": 21076.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EUMA",
+        "COMA"
+      ],
+      "sciNameCodes": [
+        "PIPI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Corvus cornix",
+      "comName": "Hooded Crow",
+      "speciesCode": "hoocro1",
+      "category": "species",
+      "taxonOrder": 21189.0,
+      "bandingCodes": [
+        "HCRW"
+      ],
+      "comNameCodes": [
+        "CACR",
+        "HOCR"
+      ],
+      "sciNameCodes": [
+        "COCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Corvus corax",
+      "comName": "Common Raven",
+      "speciesCode": "comrav",
+      "category": "species",
+      "taxonOrder": 21235.0,
+      "bandingCodes": [
+        "CORA"
+      ],
+      "comNameCodes": [
+        "NORA"
+      ],
+      "sciNameCodes": [
+        "COCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Parus major",
+      "comName": "Great Tit",
+      "speciesCode": "gretit1",
+      "category": "species",
+      "taxonOrder": 21786.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRTI",
+        "EGTI"
+      ],
+      "sciNameCodes": [
+        "PAMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Eremophila alpestris",
+      "comName": "Horned Lark",
+      "speciesCode": "horlar",
+      "category": "species",
+      "taxonOrder": 22182.0,
+      "bandingCodes": [
+        "HOLA"
+      ],
+      "comNameCodes": [
+        "SHLA"
+      ],
+      "sciNameCodes": [
+        "ERAL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "alaudi1",
+      "familyComName": "Larks",
+      "familySciName": "Alaudidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Riparia riparia",
+      "comName": "Bank Swallow",
+      "speciesCode": "banswa",
+      "category": "species",
+      "taxonOrder": 23636.0,
+      "bandingCodes": [
+        "BANS"
+      ],
+      "comNameCodes": [
+        "SAMA",
+        "BASW",
+        "CSMA"
+      ],
+      "sciNameCodes": [
+        "RIRI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "notes": "May be seen in location."
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+    "start_month": 5,
+    "end_month": 6,
+    "location": "NO",
+    "species": [
+        {
+            "sciName": "Cyanistes caeruleus",
+            "comName": "Eurasian Blue Tit",
+            "speciesCode": "blutit",
+            "category": "species",
+            "taxonOrder": 21725.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "EBTI"
+            ],
+            "sciNameCodes": [
+                "CYCA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "parida1",
+            "familyComName": "Tits, Chickadees, and Titmice",
+            "familySciName": "Paridae",
+            "notes": "frequency at location 42"
+        },
+        {
+            "sciName": "Parus major",
+            "comName": "Great Tit",
+            "speciesCode": "gretit1",
+            "category": "species",
+            "taxonOrder": 21786.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "GRTI",
+                "EGTI"
+            ],
+            "sciNameCodes": [
+                "PAMA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "parida1",
+            "familyComName": "Tits, Chickadees, and Titmice",
+            "familySciName": "Paridae",
+            "notes": "frequency at location 45"
+        },
+        {
+            "sciName": "Hirundo rustica",
+            "comName": "Barn Swallow",
+            "speciesCode": "barswa",
+            "category": "species",
+            "taxonOrder": 23772.0,
+            "bandingCodes": [
+                "BARS"
+            ],
+            "comNameCodes": [
+                "BASW"
+            ],
+            "sciNameCodes": [
+                "HIRU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "hirund2",
+            "familyComName": "Swallows",
+            "familySciName": "Hirundinidae",
+            "notes": "frequency at location 27"
+        },
+        {
+            "sciName": "Delichon urbicum",
+            "comName": "Western House-Martin",
+            "speciesCode": "comhom1",
+            "category": "species",
+            "taxonOrder": 23798.0,
+            "bandingCodes": [
+                "WEHM"
+            ],
+            "comNameCodes": [
+                "WHMA",
+                "NHMA",
+                "CHMA"
+            ],
+            "sciNameCodes": [
+                "DEUR"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "hirund2",
+            "familyComName": "Swallows",
+            "familySciName": "Hirundinidae",
+            "notes": "frequency at location 12"
+        },
+        {
+            "sciName": "Phylloscopus trochilus",
+            "comName": "Willow Warbler",
+            "speciesCode": "wlwwar",
+            "category": "species",
+            "taxonOrder": 24422.0,
+            "bandingCodes": [
+                "WILW"
+            ],
+            "comNameCodes": [
+                "WIWA"
+            ],
+            "sciNameCodes": [
+                "PHTR"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "phyllo4",
+            "familyComName": "Leaf Warblers",
+            "familySciName": "Phylloscopidae",
+            "notes": "frequency at location 39"
+        },
+        {
+            "sciName": "Phylloscopus collybita",
+            "comName": "Common Chiffchaff",
+            "speciesCode": "comchi1",
+            "category": "species",
+            "taxonOrder": 24432.0,
+            "bandingCodes": [
+                "CCHI"
+            ],
+            "comNameCodes": [
+                "COCH"
+            ],
+            "sciNameCodes": [
+                "PHCO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "phyllo4",
+            "familyComName": "Leaf Warblers",
+            "familySciName": "Phylloscopidae",
+            "notes": "frequency at location 16"
+        },
+        {
+            "sciName": "Sylvia atricapilla",
+            "comName": "Eurasian Blackcap",
+            "speciesCode": "blackc1",
+            "category": "species",
+            "taxonOrder": 24843.0,
+            "bandingCodes": [
+                "EUBC"
+            ],
+            "comNameCodes": [
+                "EUBL",
+                "BLAC"
+            ],
+            "sciNameCodes": [
+                "SYAT"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "sylvii1",
+            "familyComName": "Sylviid Warblers and Allies",
+            "familySciName": "Sylviidae",
+            "notes": "frequency at location 28"
+        },
+        {
+            "sciName": "Regulus regulus",
+            "comName": "Goldcrest",
+            "speciesCode": "goldcr1",
+            "category": "species",
+            "taxonOrder": 26403.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "GOLD"
+            ],
+            "sciNameCodes": [
+                "RERE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "reguli1",
+            "familyComName": "Kinglets",
+            "familySciName": "Regulidae",
+            "notes": "frequency at location 11"
+        },
+        {
+            "sciName": "Sitta europaea",
+            "comName": "Eurasian Nuthatch",
+            "speciesCode": "eurnut2",
+            "category": "species",
+            "taxonOrder": 26513.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "EUNU"
+            ],
+            "sciNameCodes": [
+                "SIEU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "sittid1",
+            "familyComName": "Nuthatches",
+            "familySciName": "Sittidae",
+            "notes": "frequency at location 16"
+        },
+        {
+            "sciName": "Troglodytes troglodytes",
+            "comName": "Eurasian Wren",
+            "speciesCode": "winwre4",
+            "category": "species",
+            "taxonOrder": 26798.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "NOWR",
+                "EUWR"
+            ],
+            "sciNameCodes": [
+                "TRTR"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "troglo1",
+            "familyComName": "Wrens",
+            "familySciName": "Troglodytidae",
+            "notes": "frequency at location 12"
+        },
+        {
+            "sciName": "Sturnus vulgaris",
+            "comName": "European Starling",
+            "speciesCode": "eursta",
+            "category": "species",
+            "taxonOrder": 27356.0,
+            "bandingCodes": [
+                "EUST"
+            ],
+            "comNameCodes": [
+                "COST"
+            ],
+            "sciNameCodes": [
+                "STVU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "sturni1",
+            "familyComName": "European starlings",
+            "familySciName": "Sturnidae",
+            "notes": "frequency at location 33"
+        },
+        {
+            "sciName": "Turdus philomelos",
+            "comName": "Song Thrush",
+            "speciesCode": "sonthr1",
+            "category": "species",
+            "taxonOrder": 27966.0,
+            "bandingCodes": [
+                "SOTH"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "TUPH"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "turdid1",
+            "familyComName": "Thrushes and Allies",
+            "familySciName": "Turdidae",
+            "notes": "frequency at location 14"
+        },
+        {
+            "sciName": "Turdus iliacus",
+            "comName": "Redwing",
+            "speciesCode": "redwin",
+            "category": "species",
+            "taxonOrder": 27981.0,
+            "bandingCodes": [
+                "REDW"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "TUIL"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "turdid1",
+            "familyComName": "Thrushes and Allies",
+            "familySciName": "Turdidae",
+            "notes": "frequency at location 23"
+        },
+        {
+            "sciName": "Turdus merula",
+            "comName": "Eurasian Blackbird",
+            "speciesCode": "eurbla",
+            "category": "species",
+            "taxonOrder": 27987.0,
+            "bandingCodes": [
+                "EUBB"
+            ],
+            "comNameCodes": [
+                "COBL",
+                "EUBL"
+            ],
+            "sciNameCodes": [
+                "TUME"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "turdid1",
+            "familyComName": "Thrushes and Allies",
+            "familySciName": "Turdidae",
+            "notes": "frequency at location 54"
+        },
+        {
+            "sciName": "Turdus pilaris",
+            "comName": "Fieldfare",
+            "speciesCode": "fieldf",
+            "category": "species",
+            "taxonOrder": 28272.0,
+            "bandingCodes": [
+                "FIEL"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "TUPI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "turdid1",
+            "familyComName": "Thrushes and Allies",
+            "familySciName": "Turdidae",
+            "notes": "frequency at location 58"
+        },
+        {
+            "sciName": "Erithacus rubecula",
+            "comName": "European Robin",
+            "speciesCode": "eurrob1",
+            "category": "species",
+            "taxonOrder": 28756.0,
+            "bandingCodes": [
+                "EURO"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ERRU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "muscic3",
+            "familyComName": "Old World Flycatchers",
+            "familySciName": "Muscicapidae",
+            "notes": "frequency at location 33"
+        },
+        {
+            "sciName": "Ficedula hypoleuca",
+            "comName": "European Pied Flycatcher",
+            "speciesCode": "eupfly1",
+            "category": "species",
+            "taxonOrder": 29058.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "EPFL",
+                "PIFL"
+            ],
+            "sciNameCodes": [
+                "FIHY"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "muscic3",
+            "familyComName": "Old World Flycatchers",
+            "familySciName": "Muscicapidae",
+            "notes": "frequency at location 13"
+        },
+        {
+            "sciName": "Oenanthe oenanthe",
+            "comName": "Northern Wheatear",
+            "speciesCode": "norwhe",
+            "category": "species",
+            "taxonOrder": 29281.0,
+            "bandingCodes": [
+                "NOWH"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "OEOE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "muscic3",
+            "familyComName": "Old World Flycatchers",
+            "familySciName": "Muscicapidae",
+            "notes": "frequency at location 11"
+        },
+        {
+            "sciName": "Passer domesticus",
+            "comName": "House Sparrow",
+            "speciesCode": "houspa",
+            "category": "species",
+            "taxonOrder": 31018.0,
+            "bandingCodes": [
+                "HOSP"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "PADO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "passer4",
+            "familyComName": "Old World Sparrows",
+            "familySciName": "Passeridae",
+            "notes": "frequency at location 37"
+        },
+        {
+            "sciName": "Passer montanus",
+            "comName": "Eurasian Tree Sparrow",
+            "speciesCode": "eutspa",
+            "category": "species",
+            "taxonOrder": 31086.0,
+            "bandingCodes": [
+                "ETSP"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "PAMO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "passer4",
+            "familyComName": "Old World Sparrows",
+            "familySciName": "Passeridae",
+            "notes": "frequency at location 23"
+        },
+        {
+            "sciName": "Motacilla alba",
+            "comName": "White Wagtail",
+            "speciesCode": "whiwag",
+            "category": "species",
+            "taxonOrder": 31202.0,
+            "bandingCodes": [
+                "WHWA"
+            ],
+            "comNameCodes": [
+                "PWWA"
+            ],
+            "sciNameCodes": [
+                "MOAL"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "motaci1",
+            "familyComName": "Wagtails and Pipits",
+            "familySciName": "Motacillidae",
+            "notes": "frequency at location 54"
+        },
+        {
+            "sciName": "Fringilla coelebs",
+            "comName": "Common Chaffinch",
+            "speciesCode": "comcha",
+            "category": "species",
+            "taxonOrder": 31427.0,
+            "bandingCodes": [
+                "CCHA"
+            ],
+            "comNameCodes": [
+                "CHAF",
+                "EUCH",
+                "COCH"
+            ],
+            "sciNameCodes": [
+                "FRCO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "fringi1",
+            "familyComName": "Finches, Euphonias, and Allies",
+            "familySciName": "Fringillidae",
+            "notes": "frequency at location 52"
+        },
+        {
+            "sciName": "Chloris chloris",
+            "comName": "European Greenfinch",
+            "speciesCode": "eurgre1",
+            "category": "species",
+            "taxonOrder": 31816.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "EUGR"
+            ],
+            "sciNameCodes": [
+                "CHCH"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "fringi1",
+            "familyComName": "Finches, Euphonias, and Allies",
+            "familySciName": "Fringillidae",
+            "notes": "frequency at location 36"
+        },
+        {
+            "sciName": "Carduelis carduelis",
+            "comName": "European Goldfinch",
+            "speciesCode": "eurgol",
+            "category": "species",
+            "taxonOrder": 32031.0,
+            "bandingCodes": [
+                "EGOL"
+            ],
+            "comNameCodes": [
+                "EUGO"
+            ],
+            "sciNameCodes": [
+                "CACA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "fringi1",
+            "familyComName": "Finches, Euphonias, and Allies",
+            "familySciName": "Fringillidae",
+            "notes": "frequency at location 26"
+        },
+        {
+            "sciName": "Spinus spinus",
+            "comName": "Eurasian Siskin",
+            "speciesCode": "eursis",
+            "category": "species",
+            "taxonOrder": 32072.0,
+            "bandingCodes": [
+                "EUSI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "SPSP"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "fringi1",
+            "familyComName": "Finches, Euphonias, and Allies",
+            "familySciName": "Fringillidae",
+            "notes": "frequency at location 18"
+        },
+        {
+            "sciName": "Emberiza citrinella",
+            "comName": "Yellowhammer",
+            "speciesCode": "yellow2",
+            "category": "species",
+            "taxonOrder": 32204.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "YELL"
+            ],
+            "sciNameCodes": [
+                "EMCI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "emberi2",
+            "familyComName": "Old World Buntings",
+            "familySciName": "Emberizidae",
+            "notes": "frequency at location 12"
+        },
+        {
+            "sciName": "Emberiza schoeniclus",
+            "comName": "Reed Bunting",
+            "speciesCode": "reebun",
+            "category": "species",
+            "taxonOrder": 32277.0,
+            "bandingCodes": [
+                "REBU"
+            ],
+            "comNameCodes": [
+                "CRBU"
+            ],
+            "sciNameCodes": [
+                "EMSC"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "emberi2",
+            "familyComName": "Old World Buntings",
+            "familySciName": "Emberizidae",
+            "notes": "frequency at location 13"
+        }
+    ]
+}

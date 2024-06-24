@@ -4,7 +4,8 @@
 
 import json
 import logging
-
+import pathlib
+import re
 
 def sorted_species(initial_list: list, taxonomy: list) -> list:
     result = []
@@ -41,8 +42,15 @@ def process_quiz_file(name: str, taxonomy: list) -> dict:
 def get_code(data, common_name) -> str:
     """ Returns a species code for a common name """
     species = next(
-        (item for item in data['species'] if item["comName"] == common_name), None)
-    return species['speciesCode']
+        (item for item in data['species'] if item["comName"] == common_name), {})
+    return species.get('speciesCode', '')
+
+
+def get_notes(data, common_name) -> str:
+    """ Returns species notes for a common name """
+    species = next(
+        (item for item in data['species'] if item["comName"] == common_name), {})
+    return species.get('notes', '')
 
 
 def sort_quiz(name: str, taxonomy: list) -> dict:
@@ -57,3 +65,77 @@ def sort_quiz(name: str, taxonomy: list) -> dict:
 
     with open(name+'.sorted', encoding='utf-8', mode='wt') as file:
         json.dump(result, file, ensure_ascii=False, indent=4)
+
+
+def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file: str) -> None:
+    """
+        Accepts a target species url from eBird, sorted by frequency (descending)
+
+        url : like https://ebird.org/targets?region=Oslo%2C+Norway+%28NO%29&r1=NO-03&bmo=5&emo=6&r2=NO-03&t2=day&mediaType=
+        min_frequency : minimum frequency seen to be included in list
+    """
+
+    result =     {"start_month" : 5,
+                "end_month" : 6,
+                "location" : "NO",
+                "species" : []
+                }
+    line_number = 0
+    with open(in_file, 'rt', encoding='utf-8') as target_file:
+        end_of_file = False
+        while not end_of_file:
+            while not end_of_file:
+                line = target_file.readline()
+                line_number = line_number + 1
+                if line == '':
+                    end_of_file = True
+                    break
+                elif re.match("[0-9]+.", line) is not None:
+                    break
+            else:
+                break
+            if not end_of_file:
+                species = target_file.readline()[:-1]
+                line_number = line_number + 1
+                while not end_of_file:
+                    frequency_text = target_file.readline()[:-1]
+                    line_number = line_number + 1
+                    if frequency_text == '':
+                        end_of_file = True # should never go here.
+                        logging.error(
+                            f"Incorrectly formatted file {in_file} line {line_number}")
+                        break
+                    elif re.match("[0-9]+.", frequency_text) is not None:
+                        frequency = int(re.match('[0-9]+',frequency_text).group(0))
+                        if frequency < min_frequency:
+                            end_of_file = True
+                        break
+                else:
+                    break
+                if not end_of_file:
+                    result['species'].append({'comName' : species, 'notes': f"frequency at location {frequency}"})
+
+        with open(output_file, "wt", encoding='utf-8') as outfile:
+            outfile.write(json.dumps(result, indent=2))
+
+
+def split_quiz(in_file: str, max_size : int, taxonomy) -> None:
+    quiz = process_quiz_file(name = in_file, taxonomy = taxonomy)
+    length = len(quiz['species'])
+    part = 1
+    start = 0
+    end = 0
+    quiz['species'] = sorted_species(quiz['species'], taxonomy)
+    while end < length:
+        end = min(length, start + max_size)
+        split = {}
+        for key, value in quiz.items():
+            if key != 'species':
+                split[key] = value
+        split['species'] = quiz['species'][start:end]
+        file_name = f"{pathlib.Path(in_file).parent.resolve()}/{pathlib.Path(in_file).stem}_Part{part}{pathlib.Path(in_file).suffix}"
+        start = end
+        with open(file_name, "wt", encoding='utf-8') as outfile:
+            outfile.write(json.dumps(split, indent=2))
+        part = part + 1
+

@@ -5,5 +5,5 @@
     "species" : [
         {"comName" : "Giant Cowbird"},
         {"comName" : "White-rumped Swift"},
-        {"comName" : "Ortolan Bunting"}
+        {"comName" : "Ortolan Bunting", "notes" : "some notes"}
     ]}
