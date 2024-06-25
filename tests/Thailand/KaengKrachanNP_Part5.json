@@ -1,0 +1,519 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 1,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Pericrocotus speciosus",
+      "comName": "Scarlet Minivet",
+      "speciesCode": "scamin1",
+      "category": "species",
+      "taxonOrder": 18271.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SCMI"
+      ],
+      "sciNameCodes": [
+        "PESP"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 25
+    },
+    {
+      "sciName": "Pericrocotus divaricatus",
+      "comName": "Ashy Minivet",
+      "speciesCode": "ashmin1",
+      "category": "species",
+      "taxonOrder": 18295.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASMI"
+      ],
+      "sciNameCodes": [
+        "PEDI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Pericrocotus cantonensis",
+      "comName": "Brown-rumped Minivet",
+      "speciesCode": "brrmin1",
+      "category": "species",
+      "taxonOrder": 18297.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SWMI",
+        "BRMI"
+      ],
+      "sciNameCodes": [
+        "PECA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Pericrocotus roseus",
+      "comName": "Rosy Minivet",
+      "speciesCode": "rosmin1",
+      "category": "species",
+      "taxonOrder": 18299.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ROMI"
+      ],
+      "sciNameCodes": [
+        "PERO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 7
+    },
+    {
+      "sciName": "Lalage melaschistos",
+      "comName": "Black-winged Cuckooshrike",
+      "speciesCode": "bkwcus1",
+      "category": "species",
+      "taxonOrder": 18497.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BWCU",
+        "BWCS"
+      ],
+      "sciNameCodes": [
+        "LAME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 28
+    },
+    {
+      "sciName": "Pteruthius aeralatus",
+      "comName": "White-browed Shrike-Babbler",
+      "speciesCode": "whbshb1",
+      "category": "species",
+      "taxonOrder": 18670.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WBSB"
+      ],
+      "sciNameCodes": [
+        "PTAE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "vireon1",
+      "familyComName": "Vireos, Shrike-Babblers, and Erpornis",
+      "familySciName": "Vireonidae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Erpornis zantholeuca",
+      "comName": "White-bellied Erpornis",
+      "speciesCode": "whbyuh1",
+      "category": "species",
+      "taxonOrder": 18695.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WBER"
+      ],
+      "sciNameCodes": [
+        "ERZA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "vireon1",
+      "familyComName": "Vireos, Shrike-Babblers, and Erpornis",
+      "familySciName": "Vireonidae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Oriolus chinensis",
+      "comName": "Black-naped Oriole",
+      "speciesCode": "blnori1",
+      "category": "species",
+      "taxonOrder": 19260.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BNOR"
+      ],
+      "sciNameCodes": [
+        "ORCH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "orioli1",
+      "familyComName": "Old World Orioles",
+      "familySciName": "Oriolidae",
+      "notes": "",
+      "frequency": 37
+    },
+    {
+      "sciName": "Artamus fuscus",
+      "comName": "Ashy Woodswallow",
+      "speciesCode": "ashwoo2",
+      "category": "species",
+      "taxonOrder": 19355.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASWO"
+      ],
+      "sciNameCodes": [
+        "ARFU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "artami1",
+      "familyComName": "Woodswallows, Bellmagpies, and Allies",
+      "familySciName": "Artamidae",
+      "notes": "",
+      "frequency": 28
+    },
+    {
+      "sciName": "Tephrodornis virgatus",
+      "comName": "Large Woodshrike",
+      "speciesCode": "larwoo1",
+      "category": "species",
+      "taxonOrder": 19559.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LAWO"
+      ],
+      "sciNameCodes": [
+        "TEVI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "vangid2",
+      "familyComName": "Vangas, Helmetshrikes, and Allies",
+      "familySciName": "Vangidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Hemipus picatus",
+      "comName": "Bar-winged Flycatcher-shrike",
+      "speciesCode": "bwfshr1",
+      "category": "species",
+      "taxonOrder": 19577.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BWFS"
+      ],
+      "sciNameCodes": [
+        "HEPI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "vangid2",
+      "familyComName": "Vangas, Helmetshrikes, and Allies",
+      "familySciName": "Vangidae",
+      "notes": "",
+      "frequency": 27
+    },
+    {
+      "sciName": "Aegithina tiphia",
+      "comName": "Common Iora",
+      "speciesCode": "comior1",
+      "category": "species",
+      "taxonOrder": 19632.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COIO"
+      ],
+      "sciNameCodes": [
+        "AETI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "aegith1",
+      "familyComName": "Ioras",
+      "familySciName": "Aegithinidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Aegithina lafresnayei",
+      "comName": "Great Iora",
+      "speciesCode": "greior1",
+      "category": "species",
+      "taxonOrder": 19649.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRIO"
+      ],
+      "sciNameCodes": [
+        "AELA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "aegith1",
+      "familyComName": "Ioras",
+      "familySciName": "Aegithinidae",
+      "notes": "",
+      "frequency": 24
+    },
+    {
+      "sciName": "Rhipidura javanica",
+      "comName": "Malaysian Pied-Fantail",
+      "speciesCode": "piefan1",
+      "category": "species",
+      "taxonOrder": 19896.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MAPF",
+        "MPFA",
+        "SPFA"
+      ],
+      "sciNameCodes": [
+        "RHJA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "rhipid1",
+      "familyComName": "Fantails",
+      "familySciName": "Rhipiduridae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Rhipidura albicollis",
+      "comName": "White-throated Fantail",
+      "speciesCode": "whtfan1",
+      "category": "species",
+      "taxonOrder": 19900.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WTFA"
+      ],
+      "sciNameCodes": [
+        "RHAL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "rhipid1",
+      "familyComName": "Fantails",
+      "familySciName": "Rhipiduridae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Dicrurus macrocercus",
+      "comName": "Black Drongo",
+      "speciesCode": "bladro1",
+      "category": "species",
+      "taxonOrder": 20051.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BLDR"
+      ],
+      "sciNameCodes": [
+        "DIMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 21
+    },
+    {
+      "sciName": "Dicrurus leucophaeus",
+      "comName": "Ashy Drongo",
+      "speciesCode": "ashdro1",
+      "category": "species",
+      "taxonOrder": 20059.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASDR"
+      ],
+      "sciNameCodes": [
+        "DILE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 60
+    },
+    {
+      "sciName": "Dicrurus aeneus",
+      "comName": "Bronzed Drongo",
+      "speciesCode": "brodro1",
+      "category": "species",
+      "taxonOrder": 20086.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BRDR"
+      ],
+      "sciNameCodes": [
+        "DIAE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 43
+    },
+    {
+      "sciName": "Dicrurus remifer",
+      "comName": "Lesser Racket-tailed Drongo",
+      "speciesCode": "lrtdro1",
+      "category": "species",
+      "taxonOrder": 20090.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LRTD"
+      ],
+      "sciNameCodes": [
+        "DIRE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Dicrurus hottentottus",
+      "comName": "Hair-crested Drongo",
+      "speciesCode": "hacdro1",
+      "category": "species",
+      "taxonOrder": 20095.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BCDR",
+        "HCDR",
+        "HCTD"
+      ],
+      "sciNameCodes": [
+        "DIHO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 53
+    },
+    {
+      "sciName": "Dicrurus paradiseus",
+      "comName": "Greater Racket-tailed Drongo",
+      "speciesCode": "grtdro1",
+      "category": "species",
+      "taxonOrder": 20149.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRTD"
+      ],
+      "sciNameCodes": [
+        "DIPA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 51
+    },
+    {
+      "sciName": "Hypothymis azurea",
+      "comName": "Black-naped Monarch",
+      "speciesCode": "blnmon1",
+      "category": "species",
+      "taxonOrder": 20297.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BNMO"
+      ],
+      "sciNameCodes": [
+        "HYAZ"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "monarc2",
+      "familyComName": "Monarch Flycatchers",
+      "familySciName": "Monarchidae",
+      "notes": "",
+      "frequency": 44
+    },
+    {
+      "sciName": "Terpsiphone affinis",
+      "comName": "Blyth's Paradise-Flycatcher",
+      "speciesCode": "blypaf1",
+      "category": "species",
+      "taxonOrder": 20338.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "OTPF",
+        "BPFL",
+        "BLPF"
+      ],
+      "sciNameCodes": [
+        "TEAF"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "monarc2",
+      "familyComName": "Monarch Flycatchers",
+      "familySciName": "Monarchidae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Lanius cristatus",
+      "comName": "Brown Shrike",
+      "speciesCode": "brnshr",
+      "category": "species",
+      "taxonOrder": 20647.0,
+      "bandingCodes": [
+        "BROS"
+      ],
+      "comNameCodes": [
+        "BRSH"
+      ],
+      "sciNameCodes": [
+        "LACR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "laniid1",
+      "familyComName": "Shrikes",
+      "familySciName": "Laniidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Cissa chinensis",
+      "comName": "Common Green-Magpie",
+      "speciesCode": "gremag1",
+      "category": "species",
+      "taxonOrder": 21027.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COGM",
+        "CGMA"
+      ],
+      "sciNameCodes": [
+        "CICH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 23
+    }
+  ]
+}

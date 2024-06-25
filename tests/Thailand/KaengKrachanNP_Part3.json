@@ -1,0 +1,520 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 1,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Ninox scutulata",
+      "comName": "Brown Boobook",
+      "speciesCode": "brnhao1",
+      "category": "species",
+      "taxonOrder": 9143.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BRHO",
+        "BHOW",
+        "BRBO"
+      ],
+      "sciNameCodes": [
+        "NISC"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Harpactes oreskios",
+      "comName": "Orange-breasted Trogon",
+      "speciesCode": "orbtro2",
+      "category": "species",
+      "taxonOrder": 9253.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "OBTR"
+      ],
+      "sciNameCodes": [
+        "HAOR"
+      ],
+      "order": "Trogoniformes",
+      "familyCode": "trogon1",
+      "familyComName": "Trogons",
+      "familySciName": "Trogonidae",
+      "notes": "",
+      "frequency": 41
+    },
+    {
+      "sciName": "Harpactes erythrocephalus",
+      "comName": "Red-headed Trogon",
+      "speciesCode": "rehtro1",
+      "category": "species",
+      "taxonOrder": 9281.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RHTR"
+      ],
+      "sciNameCodes": [
+        "HAER"
+      ],
+      "order": "Trogoniformes",
+      "familyCode": "trogon1",
+      "familyComName": "Trogons",
+      "familySciName": "Trogonidae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Upupa epops",
+      "comName": "Eurasian Hoopoe",
+      "speciesCode": "hoopoe",
+      "category": "species",
+      "taxonOrder": 9394.0,
+      "bandingCodes": [
+        "EHOO"
+      ],
+      "comNameCodes": [
+        "COHO",
+        "HOOP",
+        "EUHO"
+      ],
+      "sciNameCodes": [
+        "UPEP"
+      ],
+      "order": "Bucerotiformes",
+      "familyCode": "upupid1",
+      "familyComName": "Hoopoes",
+      "familySciName": "Upupidae",
+      "notes": "",
+      "frequency": 7
+    },
+    {
+      "sciName": "Buceros bicornis",
+      "comName": "Great Hornbill",
+      "speciesCode": "grehor1",
+      "category": "species",
+      "taxonOrder": 9509.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRHO"
+      ],
+      "sciNameCodes": [
+        "BUBI"
+      ],
+      "order": "Bucerotiformes",
+      "familyCode": "bucero1",
+      "familyComName": "Hornbills",
+      "familySciName": "Bucerotidae",
+      "notes": "",
+      "frequency": 49
+    },
+    {
+      "sciName": "Anorrhinus tickelli",
+      "comName": "Rusty-cheeked Hornbill",
+      "speciesCode": "ruchor1",
+      "category": "species",
+      "taxonOrder": 9513.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RCHO",
+        "TBHO"
+      ],
+      "sciNameCodes": [
+        "ANTI"
+      ],
+      "order": "Bucerotiformes",
+      "familyCode": "bucero1",
+      "familyComName": "Hornbills",
+      "familySciName": "Bucerotidae",
+      "notes": "",
+      "frequency": 21
+    },
+    {
+      "sciName": "Anthracoceros albirostris",
+      "comName": "Oriental Pied-Hornbill",
+      "speciesCode": "orphor1",
+      "category": "species",
+      "taxonOrder": 9521.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "OPHO",
+        "ORPH"
+      ],
+      "sciNameCodes": [
+        "ANAL"
+      ],
+      "order": "Bucerotiformes",
+      "familyCode": "bucero1",
+      "familyComName": "Hornbills",
+      "familySciName": "Bucerotidae",
+      "notes": "",
+      "frequency": 67
+    },
+    {
+      "sciName": "Rhyticeros undulatus",
+      "comName": "Wreathed Hornbill",
+      "speciesCode": "wrehor1",
+      "category": "species",
+      "taxonOrder": 9529.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WRHO"
+      ],
+      "sciNameCodes": [
+        "RHUN"
+      ],
+      "order": "Bucerotiformes",
+      "familyCode": "bucero1",
+      "familyComName": "Hornbills",
+      "familySciName": "Bucerotidae",
+      "notes": "",
+      "frequency": 15
+    },
+    {
+      "sciName": "Alcedo atthis",
+      "comName": "Common Kingfisher",
+      "speciesCode": "comkin1",
+      "category": "species",
+      "taxonOrder": 9629.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COKI"
+      ],
+      "sciNameCodes": [
+        "ALAT"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "alcedi1",
+      "familyComName": "Kingfishers",
+      "familySciName": "Alcedinidae",
+      "notes": "",
+      "frequency": 8
+    },
+    {
+      "sciName": "Ceyx erithaca",
+      "comName": "Black-backed Dwarf-Kingfisher",
+      "speciesCode": "bkbkin1",
+      "category": "species",
+      "taxonOrder": 9681.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBDK",
+        "ODKI"
+      ],
+      "sciNameCodes": [
+        "CEER"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "alcedi1",
+      "familyComName": "Kingfishers",
+      "familySciName": "Alcedinidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Lacedo pulchella",
+      "comName": "Banded Kingfisher",
+      "speciesCode": "bankin1",
+      "category": "species",
+      "taxonOrder": 9739.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BFKI",
+        "BAKI"
+      ],
+      "sciNameCodes": [
+        "LAPU"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "alcedi1",
+      "familyComName": "Kingfishers",
+      "familySciName": "Alcedinidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Halcyon smyrnensis",
+      "comName": "White-throated Kingfisher",
+      "speciesCode": "whtkin2",
+      "category": "species",
+      "taxonOrder": 9795.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WBKI",
+        "WTKI"
+      ],
+      "sciNameCodes": [
+        "HASM"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "alcedi1",
+      "familyComName": "Kingfishers",
+      "familySciName": "Alcedinidae",
+      "notes": "",
+      "frequency": 30
+    },
+    {
+      "sciName": "Halcyon pileata",
+      "comName": "Black-capped Kingfisher",
+      "speciesCode": "blckin1",
+      "category": "species",
+      "taxonOrder": 9808.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BCKI"
+      ],
+      "sciNameCodes": [
+        "HAPI"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "alcedi1",
+      "familyComName": "Kingfishers",
+      "familySciName": "Alcedinidae",
+      "notes": "",
+      "frequency": 14
+    },
+    {
+      "sciName": "Nyctyornis amictus",
+      "comName": "Red-bearded Bee-eater",
+      "speciesCode": "rbbeat1",
+      "category": "species",
+      "taxonOrder": 10044.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RBBE"
+      ],
+      "sciNameCodes": [
+        "NYAM"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "meropi1",
+      "familyComName": "Bee-eaters",
+      "familySciName": "Meropidae",
+      "notes": "",
+      "frequency": 14
+    },
+    {
+      "sciName": "Nyctyornis athertoni",
+      "comName": "Blue-bearded Bee-eater",
+      "speciesCode": "bbbeat1",
+      "category": "species",
+      "taxonOrder": 10045.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBBE"
+      ],
+      "sciNameCodes": [
+        "NYAT"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "meropi1",
+      "familyComName": "Bee-eaters",
+      "familySciName": "Meropidae",
+      "notes": "",
+      "frequency": 23
+    },
+    {
+      "sciName": "Merops orientalis",
+      "comName": "Asian Green Bee-eater",
+      "speciesCode": "grnbee3",
+      "category": "species",
+      "taxonOrder": 10088.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "AGBE"
+      ],
+      "sciNameCodes": [
+        "MEOR"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "meropi1",
+      "familyComName": "Bee-eaters",
+      "familySciName": "Meropidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Merops leschenaulti",
+      "comName": "Chestnut-headed Bee-eater",
+      "speciesCode": "chbeat1",
+      "category": "species",
+      "taxonOrder": 10107.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CHBE"
+      ],
+      "sciNameCodes": [
+        "MELE"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "meropi1",
+      "familyComName": "Bee-eaters",
+      "familySciName": "Meropidae",
+      "notes": "",
+      "frequency": 25
+    },
+    {
+      "sciName": "Coracias affinis",
+      "comName": "Indochinese Roller",
+      "speciesCode": "indrol3",
+      "category": "species",
+      "taxonOrder": 10131.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "INRO"
+      ],
+      "sciNameCodes": [
+        "COAF"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "coraci1",
+      "familyComName": "Rollers",
+      "familySciName": "Coraciidae",
+      "notes": "",
+      "frequency": 44
+    },
+    {
+      "sciName": "Eurystomus orientalis",
+      "comName": "Dollarbird",
+      "speciesCode": "dollar1",
+      "category": "species",
+      "taxonOrder": 10146.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "DOLL",
+        "ORDO"
+      ],
+      "sciNameCodes": [
+        "EUOR"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "coraci1",
+      "familyComName": "Rollers",
+      "familySciName": "Coraciidae",
+      "notes": "",
+      "frequency": 36
+    },
+    {
+      "sciName": "Psilopogon haemacephalus",
+      "comName": "Coppersmith Barbet",
+      "speciesCode": "copbar1",
+      "category": "species",
+      "taxonOrder": 10478.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COBA"
+      ],
+      "sciNameCodes": [
+        "PSHA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 33
+    },
+    {
+      "sciName": "Psilopogon cyanotis",
+      "comName": "Blue-eared Barbet",
+      "speciesCode": "buebar1",
+      "category": "species",
+      "taxonOrder": 10492.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BEBA"
+      ],
+      "sciNameCodes": [
+        "PSCY"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 48
+    },
+    {
+      "sciName": "Psilopogon virens",
+      "comName": "Great Barbet",
+      "speciesCode": "grebar1",
+      "category": "species",
+      "taxonOrder": 10506.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRBA"
+      ],
+      "sciNameCodes": [
+        "PSVI"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Psilopogon mystacophanos",
+      "comName": "Red-throated Barbet",
+      "speciesCode": "retbar1",
+      "category": "species",
+      "taxonOrder": 10515.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RTBA"
+      ],
+      "sciNameCodes": [
+        "PSMY"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Psilopogon faiostrictus",
+      "comName": "Green-eared Barbet",
+      "speciesCode": "grebar3",
+      "category": "species",
+      "taxonOrder": 10526.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GEBA"
+      ],
+      "sciNameCodes": [
+        "PSFA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 46
+    },
+    {
+      "sciName": "Psilopogon lineatus",
+      "comName": "Lineated Barbet",
+      "speciesCode": "linbar1",
+      "category": "species",
+      "taxonOrder": 10529.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LIBA"
+      ],
+      "sciNameCodes": [
+        "PSLI"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 8
+    }
+  ]
+}

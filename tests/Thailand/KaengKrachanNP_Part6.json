@@ -1,0 +1,515 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 1,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Dendrocitta formosae",
+      "comName": "Gray Treepie",
+      "speciesCode": "grytre1",
+      "category": "species",
+      "taxonOrder": 21053.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRTR"
+      ],
+      "sciNameCodes": [
+        "DEFO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Crypsirina temia",
+      "comName": "Racket-tailed Treepie",
+      "speciesCode": "rattre1",
+      "category": "species",
+      "taxonOrder": 21068.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RTTR"
+      ],
+      "sciNameCodes": [
+        "CRTE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Temnurus temnurus",
+      "comName": "Ratchet-tailed Treepie",
+      "speciesCode": "rattre2",
+      "category": "species",
+      "taxonOrder": 21070.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RTTR"
+      ],
+      "sciNameCodes": [
+        "TETE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 14
+    },
+    {
+      "sciName": "Corvus macrorhynchos",
+      "comName": "Large-billed Crow",
+      "speciesCode": "labcro1",
+      "category": "species",
+      "taxonOrder": 21197.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LBJJ",
+        "LBCR"
+      ],
+      "sciNameCodes": [
+        "COMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Culicicapa ceylonensis",
+      "comName": "Gray-headed Canary-Flycatcher",
+      "speciesCode": "gyhcaf1",
+      "category": "species",
+      "taxonOrder": 21536.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GHCF"
+      ],
+      "sciNameCodes": [
+        "CUCE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "stenos1",
+      "familyComName": "Fairy Flycatchers",
+      "familySciName": "Stenostiridae",
+      "notes": "",
+      "frequency": 36
+    },
+    {
+      "sciName": "Melanochlora sultanea",
+      "comName": "Sultan Tit",
+      "speciesCode": "sultit1",
+      "category": "species",
+      "taxonOrder": 21556.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SUTI"
+      ],
+      "sciNameCodes": [
+        "MESU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "",
+      "frequency": 40
+    },
+    {
+      "sciName": "Orthotomus sutorius",
+      "comName": "Common Tailorbird",
+      "speciesCode": "comtai1",
+      "category": "species",
+      "taxonOrder": 22738.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COTA"
+      ],
+      "sciNameCodes": [
+        "ORSU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cistic2",
+      "familyComName": "Cisticolas and Allies",
+      "familySciName": "Cisticolidae",
+      "notes": "",
+      "frequency": 30
+    },
+    {
+      "sciName": "Orthotomus atrogularis",
+      "comName": "Dark-necked Tailorbird",
+      "speciesCode": "dantai1",
+      "category": "species",
+      "taxonOrder": 22751.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "DNTA"
+      ],
+      "sciNameCodes": [
+        "ORAT"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cistic2",
+      "familyComName": "Cisticolas and Allies",
+      "familySciName": "Cisticolidae",
+      "notes": "",
+      "frequency": 44
+    },
+    {
+      "sciName": "Hirundo rustica",
+      "comName": "Barn Swallow",
+      "speciesCode": "barswa",
+      "category": "species",
+      "taxonOrder": 23772.0,
+      "bandingCodes": [
+        "BARS"
+      ],
+      "comNameCodes": [
+        "BASW"
+      ],
+      "sciNameCodes": [
+        "HIRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "notes": "",
+      "frequency": 37
+    },
+    {
+      "sciName": "Delichon dasypus",
+      "comName": "Asian House-Martin",
+      "speciesCode": "ashmar1",
+      "category": "species",
+      "taxonOrder": 23804.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASHM",
+        "AHMA"
+      ],
+      "sciNameCodes": [
+        "DEDA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Cecropis daurica",
+      "comName": "Red-rumped Swallow",
+      "speciesCode": "rerswa1",
+      "category": "species",
+      "taxonOrder": 23814.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RRAS",
+        "RRSW"
+      ],
+      "sciNameCodes": [
+        "CEDA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Alophoixus ochraceus",
+      "comName": "Ochraceous Bulbul",
+      "speciesCode": "ochbul2",
+      "category": "species",
+      "taxonOrder": 24055.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "OCBU"
+      ],
+      "sciNameCodes": [
+        "ALOC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 56
+    },
+    {
+      "sciName": "Iole viridescens",
+      "comName": "Olive Bulbul",
+      "speciesCode": "olibul1",
+      "category": "species",
+      "taxonOrder": 24077.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "OLBU",
+        "OEBU"
+      ],
+      "sciNameCodes": [
+        "IOVI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 31
+    },
+    {
+      "sciName": "Hemixos flavala",
+      "comName": "Ashy Bulbul",
+      "speciesCode": "ashbul1",
+      "category": "species",
+      "taxonOrder": 24094.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASBU"
+      ],
+      "sciNameCodes": [
+        "HEFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 15
+    },
+    {
+      "sciName": "Ixos mcclellandii",
+      "comName": "Mountain Bulbul",
+      "speciesCode": "moubul2",
+      "category": "species",
+      "taxonOrder": 24115.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MOBU"
+      ],
+      "sciNameCodes": [
+        "IXMC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 14
+    },
+    {
+      "sciName": "Microtarsus melanocephalos",
+      "comName": "Black-headed Bulbul",
+      "speciesCode": "blhbul1",
+      "category": "species",
+      "taxonOrder": 24202.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BHBU"
+      ],
+      "sciNameCodes": [
+        "MIME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 39
+    },
+    {
+      "sciName": "Rubigula flaviventris",
+      "comName": "Black-crested Bulbul",
+      "speciesCode": "blcbul2",
+      "category": "species",
+      "taxonOrder": 24221.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BCBU"
+      ],
+      "sciNameCodes": [
+        "RUFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 72
+    },
+    {
+      "sciName": "Pycnonotus conradi",
+      "comName": "Streak-eared Bulbul",
+      "speciesCode": "stebul2",
+      "category": "species",
+      "taxonOrder": 24271.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SEBU"
+      ],
+      "sciNameCodes": [
+        "PYCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 40
+    },
+    {
+      "sciName": "Pycnonotus finlaysoni",
+      "comName": "Stripe-throated Bulbul",
+      "speciesCode": "sttbul3",
+      "category": "species",
+      "taxonOrder": 24273.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "STBU"
+      ],
+      "sciNameCodes": [
+        "PYFI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 44
+    },
+    {
+      "sciName": "Pycnonotus flavescens",
+      "comName": "Flavescent Bulbul",
+      "speciesCode": "flabul1",
+      "category": "species",
+      "taxonOrder": 24278.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "FLBU",
+        "FFBU"
+      ],
+      "sciNameCodes": [
+        "PYFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 21
+    },
+    {
+      "sciName": "Pycnonotus aurigaster",
+      "comName": "Sooty-headed Bulbul",
+      "speciesCode": "sohbul1",
+      "category": "species",
+      "taxonOrder": 24346.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SHBU"
+      ],
+      "sciNameCodes": [
+        "PYAU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Phylloscopus inornatus",
+      "comName": "Yellow-browed Warbler",
+      "speciesCode": "yebwar3",
+      "category": "species",
+      "taxonOrder": 24383.0,
+      "bandingCodes": [
+        "YBWA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PHIN"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "",
+      "frequency": 31
+    },
+    {
+      "sciName": "Phylloscopus schwarzi",
+      "comName": "Radde's Warbler",
+      "speciesCode": "radwar1",
+      "category": "species",
+      "taxonOrder": 24399.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RAWA"
+      ],
+      "sciNameCodes": [
+        "PHSC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "",
+      "frequency": 15
+    },
+    {
+      "sciName": "Phylloscopus coronatus",
+      "comName": "Eastern Crowned Warbler",
+      "speciesCode": "eacwar1",
+      "category": "species",
+      "taxonOrder": 24453.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ECWA"
+      ],
+      "sciNameCodes": [
+        "PHCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "",
+      "frequency": 8
+    },
+    {
+      "sciName": "Phylloscopus soror",
+      "comName": "Alstr\u00f6m's Warbler",
+      "speciesCode": "pltwar1",
+      "category": "species",
+      "taxonOrder": 24499.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ALWA"
+      ],
+      "sciNameCodes": [
+        "PHSO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "",
+      "frequency": 6
+    }
+  ]
+}

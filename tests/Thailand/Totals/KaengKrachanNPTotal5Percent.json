@@ -1,0 +1,1032 @@
+{
+  "start_month": 1,
+  "end_month": 1,
+  "location": "TH",
+  "species": [
+    {
+      "comName": "Black-crested Bulbul",
+      "frequency": 72,
+      "notes": ""
+    },
+    {
+      "comName": "Oriental Pied-Hornbill",
+      "frequency": 67,
+      "notes": ""
+    },
+    {
+      "comName": "Ashy Drongo",
+      "frequency": 60,
+      "notes": ""
+    },
+    {
+      "comName": "Red-wattled Lapwing",
+      "frequency": 58,
+      "notes": ""
+    },
+    {
+      "comName": "White-rumped Shama",
+      "frequency": 57,
+      "notes": ""
+    },
+    {
+      "comName": "Ochraceous Bulbul",
+      "frequency": 56,
+      "notes": ""
+    },
+    {
+      "comName": "Asian Fairy-bluebird",
+      "frequency": 54,
+      "notes": ""
+    },
+    {
+      "comName": "Hair-crested Drongo",
+      "frequency": 53,
+      "notes": ""
+    },
+    {
+      "comName": "Greater Racket-tailed Drongo",
+      "frequency": 51,
+      "notes": ""
+    },
+    {
+      "comName": "Pin-striped Tit-Babbler",
+      "frequency": 49,
+      "notes": ""
+    },
+    {
+      "comName": "Great Hornbill",
+      "frequency": 49,
+      "notes": ""
+    },
+    {
+      "comName": "Blue-eared Barbet",
+      "frequency": 48,
+      "notes": ""
+    },
+    {
+      "comName": "Red Junglefowl",
+      "frequency": 47,
+      "notes": ""
+    },
+    {
+      "comName": "Green-eared Barbet",
+      "frequency": 46,
+      "notes": ""
+    },
+    {
+      "comName": "Blue-winged Leafbird",
+      "frequency": 46,
+      "notes": ""
+    },
+    {
+      "comName": "Asian Emerald Dove",
+      "frequency": 45,
+      "notes": ""
+    },
+    {
+      "comName": "Stripe-throated Bulbul",
+      "frequency": 44,
+      "notes": ""
+    },
+    {
+      "comName": "Black-naped Monarch",
+      "frequency": 44,
+      "notes": ""
+    },
+    {
+      "comName": "Dark-necked Tailorbird",
+      "frequency": 44,
+      "notes": ""
+    },
+    {
+      "comName": "Indochinese Roller",
+      "frequency": 44,
+      "notes": ""
+    },
+    {
+      "comName": "Bronzed Drongo",
+      "frequency": 43,
+      "notes": ""
+    },
+    {
+      "comName": "Greater Flameback",
+      "frequency": 42,
+      "notes": ""
+    },
+    {
+      "comName": "Orange-breasted Trogon",
+      "frequency": 41,
+      "notes": ""
+    },
+    {
+      "comName": "Greater Coucal",
+      "frequency": 40,
+      "notes": ""
+    },
+    {
+      "comName": "Taiga Flycatcher",
+      "frequency": 40,
+      "notes": ""
+    },
+    {
+      "comName": "Sultan Tit",
+      "frequency": 40,
+      "notes": ""
+    },
+    {
+      "comName": "Crested Serpent-Eagle",
+      "frequency": 40,
+      "notes": ""
+    },
+    {
+      "comName": "Green-billed Malkoha",
+      "frequency": 40,
+      "notes": ""
+    },
+    {
+      "comName": "Thick-billed Green-Pigeon",
+      "frequency": 40,
+      "notes": ""
+    },
+    {
+      "comName": "Streak-eared Bulbul",
+      "frequency": 40,
+      "notes": ""
+    },
+    {
+      "comName": "Black-headed Bulbul",
+      "frequency": 39,
+      "notes": ""
+    },
+    {
+      "comName": "Chinese Pond-Heron",
+      "frequency": 37,
+      "notes": ""
+    },
+    {
+      "comName": "Black-naped Oriole",
+      "frequency": 37,
+      "notes": ""
+    },
+    {
+      "comName": "Barn Swallow",
+      "frequency": 37,
+      "notes": ""
+    },
+    {
+      "comName": "Dollarbird",
+      "frequency": 36,
+      "notes": ""
+    },
+    {
+      "comName": "Common Flameback",
+      "frequency": 36,
+      "notes": ""
+    },
+    {
+      "comName": "Gray-headed Canary-Flycatcher",
+      "frequency": 36,
+      "notes": ""
+    },
+    {
+      "comName": "Spotted Dove",
+      "frequency": 36,
+      "notes": ""
+    },
+    {
+      "comName": "Little Egret",
+      "frequency": 35,
+      "notes": ""
+    },
+    {
+      "comName": "Coppersmith Barbet",
+      "frequency": 33,
+      "notes": ""
+    },
+    {
+      "comName": "Ornate Sunbird",
+      "frequency": 33,
+      "notes": ""
+    },
+    {
+      "comName": "Puff-throated Babbler",
+      "frequency": 32,
+      "notes": ""
+    },
+    {
+      "comName": "Vernal Hanging-Parrot",
+      "frequency": 32,
+      "notes": ""
+    },
+    {
+      "comName": "Olive Bulbul",
+      "frequency": 31,
+      "notes": ""
+    },
+    {
+      "comName": "Yellow-browed Warbler",
+      "frequency": 31,
+      "notes": ""
+    },
+    {
+      "comName": "Common Tailorbird",
+      "frequency": 30,
+      "notes": ""
+    },
+    {
+      "comName": "White-throated Kingfisher",
+      "frequency": 30,
+      "notes": ""
+    },
+    {
+      "comName": "Asian Brown Flycatcher",
+      "frequency": 30,
+      "notes": ""
+    },
+    {
+      "comName": "Asian Palm Swift",
+      "frequency": 29,
+      "notes": ""
+    },
+    {
+      "comName": "Blue-throated Barbet",
+      "frequency": 29,
+      "notes": ""
+    },
+    {
+      "comName": "Ashy Woodswallow",
+      "frequency": 28,
+      "notes": ""
+    },
+    {
+      "comName": "Gray Wagtail",
+      "frequency": 28,
+      "notes": ""
+    },
+    {
+      "comName": "Silver-breasted Broadbill",
+      "frequency": 28,
+      "notes": ""
+    },
+    {
+      "comName": "Black-winged Cuckooshrike",
+      "frequency": 28,
+      "notes": ""
+    },
+    {
+      "comName": "Bar-winged Flycatcher-shrike",
+      "frequency": 27,
+      "notes": ""
+    },
+    {
+      "comName": "Verditer Flycatcher",
+      "frequency": 26,
+      "notes": ""
+    },
+    {
+      "comName": "Ruby-cheeked Sunbird",
+      "frequency": 26,
+      "notes": ""
+    },
+    {
+      "comName": "Chestnut-headed Bee-eater",
+      "frequency": 25,
+      "notes": ""
+    },
+    {
+      "comName": "Greater Yellownape",
+      "frequency": 25,
+      "notes": ""
+    },
+    {
+      "comName": "Scarlet Minivet",
+      "frequency": 25,
+      "notes": ""
+    },
+    {
+      "comName": "Rufous-fronted Babbler",
+      "frequency": 25,
+      "notes": ""
+    },
+    {
+      "comName": "Asian Barred Owlet",
+      "frequency": 25,
+      "notes": ""
+    },
+    {
+      "comName": "Large-tailed Nightjar",
+      "frequency": 25,
+      "notes": ""
+    },
+    {
+      "comName": "Black-thighed Falconet",
+      "frequency": 25,
+      "notes": ""
+    },
+    {
+      "comName": "White-browed Scimitar-Babbler",
+      "frequency": 24,
+      "notes": ""
+    },
+    {
+      "comName": "Great Iora",
+      "frequency": 24,
+      "notes": ""
+    },
+    {
+      "comName": "White-breasted Waterhen",
+      "frequency": 24,
+      "notes": ""
+    },
+    {
+      "comName": "Asian Koel",
+      "frequency": 23,
+      "notes": ""
+    },
+    {
+      "comName": "Blue-bearded Bee-eater",
+      "frequency": 23,
+      "notes": ""
+    },
+    {
+      "comName": "Common Green-Magpie",
+      "frequency": 23,
+      "notes": ""
+    },
+    {
+      "comName": "Scarlet-backed Flowerpecker",
+      "frequency": 22,
+      "notes": ""
+    },
+    {
+      "comName": "Banded Broadbill",
+      "frequency": 22,
+      "notes": ""
+    },
+    {
+      "comName": "Rusty-cheeked Hornbill",
+      "frequency": 21,
+      "notes": ""
+    },
+    {
+      "comName": "Little Cormorant",
+      "frequency": 21,
+      "notes": ""
+    },
+    {
+      "comName": "Flavescent Bulbul",
+      "frequency": 21,
+      "notes": ""
+    },
+    {
+      "comName": "Brown-cheeked Fulvetta",
+      "frequency": 21,
+      "notes": ""
+    },
+    {
+      "comName": "Gray-rumped Treeswift",
+      "frequency": 21,
+      "notes": ""
+    },
+    {
+      "comName": "Black Drongo",
+      "frequency": 21,
+      "notes": ""
+    },
+    {
+      "comName": "Eastern Cattle Egret",
+      "frequency": 20,
+      "notes": ""
+    },
+    {
+      "comName": "Scaly-breasted Partridge",
+      "frequency": 20,
+      "notes": ""
+    },
+    {
+      "comName": "Oriental Honey-buzzard",
+      "frequency": 19,
+      "notes": ""
+    },
+    {
+      "comName": "Yellow-bellied Warbler",
+      "frequency": 19,
+      "notes": ""
+    },
+    {
+      "comName": "Common Myna",
+      "frequency": 19,
+      "notes": ""
+    },
+    {
+      "comName": "Gray Peacock-Pheasant",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "comName": "Oriental Magpie-Robin",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "comName": "Racket-tailed Treepie",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "comName": "Black-and-yellow Broadbill",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "comName": "Banded Bay Cuckoo",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "comName": "Crested Goshawk",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "comName": "Mountain Imperial-Pigeon",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "comName": "Dark-sided Flycatcher",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "comName": "Great Barbet",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "comName": "Hill Blue Flycatcher",
+      "frequency": 17,
+      "notes": ""
+    },
+    {
+      "comName": "Crimson Sunbird",
+      "frequency": 17,
+      "notes": ""
+    },
+    {
+      "comName": "Black-and-red Broadbill",
+      "frequency": 17,
+      "notes": ""
+    },
+    {
+      "comName": "Great Myna",
+      "frequency": 16,
+      "notes": ""
+    },
+    {
+      "comName": "Brown-rumped Minivet",
+      "frequency": 16,
+      "notes": ""
+    },
+    {
+      "comName": "Banded Kingfisher",
+      "frequency": 16,
+      "notes": ""
+    },
+    {
+      "comName": "Velvet-fronted Nuthatch",
+      "frequency": 16,
+      "notes": ""
+    },
+    {
+      "comName": "Streaked Spiderhunter",
+      "frequency": 16,
+      "notes": ""
+    },
+    {
+      "comName": "Common Iora",
+      "frequency": 16,
+      "notes": ""
+    },
+    {
+      "comName": "Greater Necklaced Laughingthrush",
+      "frequency": 16,
+      "notes": ""
+    },
+    {
+      "comName": "Square-tailed Drongo-Cuckoo",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "comName": "Lesser Necklaced Laughingthrush",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "comName": "Two-barred Warbler",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "comName": "Radde's Warbler",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "comName": "Germain's Swiftlet",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "comName": "Collared Owlet",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "comName": "Wreathed Hornbill",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "comName": "Ashy Bulbul",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "comName": "Black-capped Kingfisher",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "comName": "Red-bearded Bee-eater",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "comName": "Ratchet-tailed Treepie",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "comName": "Abbott's Babbler",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "comName": "Black-throated Sunbird",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "comName": "Long-tailed Broadbill",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "comName": "Mountain Bulbul",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "comName": "Brown Shrike",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "comName": "Hainan Blue Flycatcher",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "comName": "Large Woodshrike",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "comName": "Collared Babbler",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "comName": "Gray-headed Woodpecker",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "comName": "Dusky Broadbill",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "comName": "Indochinese Blue Flycatcher",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "comName": "Lesser Racket-tailed Drongo",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "comName": "Golden Babbler",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "comName": "White-crested Laughingthrush",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "comName": "Red-rumped Swallow",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "comName": "Sulphur-breasted Warbler",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "comName": "White-browed Piculet",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "comName": "Ashy Minivet",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "comName": "Great Slaty Woodpecker",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "comName": "Asian Openbill",
+      "frequency": 11,
+      "notes": ""
+    },
+    {
+      "comName": "Heart-spotted Woodpecker",
+      "frequency": 11,
+      "notes": ""
+    },
+    {
+      "comName": "Forest Wagtail",
+      "frequency": 11,
+      "notes": ""
+    },
+    {
+      "comName": "Brown-backed Needletail",
+      "frequency": 11,
+      "notes": ""
+    },
+    {
+      "comName": "Kalij Pheasant",
+      "frequency": 11,
+      "notes": ""
+    },
+    {
+      "comName": "Himalayan Swiftlet",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "Shikra",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "White-browed Shrike-Babbler",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "Pale-legged Leaf Warbler",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "Blyth's Paradise-Flycatcher",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "Blue Pitta",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "Red-headed Trogon",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "White-bellied Erpornis",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "Golden-crested Myna",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "Golden-fronted Leafbird",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "comName": "Sooty-headed Bulbul",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "comName": "Brown Boobook",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "comName": "Streak-breasted Woodpecker",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "comName": "Collared Scops-Owl",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "comName": "Chinese Blue Flycatcher",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "comName": "Malaysian Pied-Fantail",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "comName": "Hume's White-eye",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "comName": "White-fronted Scops-Owl",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "comName": "Yellow-vented Flowerpecker",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "comName": "Chestnut-breasted Malkoha",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Violet Cuckoo",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Little Spiderhunter",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Moustached Barbet",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Eastern Crowned Warbler",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Pacific Swift",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Siberian Blue Robin",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Lineated Barbet",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Zebra Dove",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Common Kingfisher",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "comName": "Large Scimitar-Babbler",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "comName": "Rock Pigeon",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "comName": "Little Grebe",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "comName": "Bar-backed Partridge",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "comName": "Spot-necked Babbler",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "comName": "Rufous-browed Flycatcher",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "comName": "Little Cuckoo-Dove",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "comName": "Eurasian Hoopoe",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "comName": "Rosy Minivet",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "comName": "Eyebrowed Thrush",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Red Collared-Dove",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Siamese Pied Starling",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Mountain Hawk-Eagle",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Speckled Piculet",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Bay Woodpecker",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Large-billed Crow",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Bamboo Woodpecker",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Asian Green Bee-eater",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "White-throated Fantail",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Blue-winged Pitta",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Gray Treepie",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Red-throated Barbet",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Alstr\u00f6m's Warbler",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "comName": "Orange-bellied Leafbird",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Buff-breasted Babbler",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Gray-chinned Minivet",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Thick-billed Flowerpecker",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Asian Emerald Cuckoo",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Orange-headed Thrush",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Great Eared-Nightjar",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Plaintive Cuckoo",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Raffles's Malkoha",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Blue Rock-Thrush",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Black-backed Dwarf-Kingfisher",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Asian House-Martin",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Yellow-vented Green-Pigeon",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Arctic Warbler",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Buff-rumped Woodpecker",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "comName": "Great Egret",
+      "frequency": 5,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 1,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Geokichla citrina",
+      "comName": "Orange-headed Thrush",
+      "speciesCode": "orhthr1",
+      "category": "species",
+      "taxonOrder": 27939.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "OHTH"
+      ],
+      "sciNameCodes": [
+        "GECI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Turdus obscurus",
+      "comName": "Eyebrowed Thrush",
+      "speciesCode": "eyethr",
+      "category": "species",
+      "taxonOrder": 28204.0,
+      "bandingCodes": [
+        "EYTH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TUOB"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Muscicapa sibirica",
+      "comName": "Dark-sided Flycatcher",
+      "speciesCode": "dasfly",
+      "category": "species",
+      "taxonOrder": 28293.0,
+      "bandingCodes": [
+        "DSFL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "MUSI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Muscicapa dauurica",
+      "comName": "Asian Brown Flycatcher",
+      "speciesCode": "asbfly",
+      "category": "species",
+      "taxonOrder": 28301.0,
+      "bandingCodes": [
+        "ABFL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "MUDA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 30
+    },
+    {
+      "sciName": "Copsychus saularis",
+      "comName": "Oriental Magpie-Robin",
+      "speciesCode": "magrob",
+      "category": "species",
+      "taxonOrder": 28501.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ORMR",
+        "OMRO"
+      ],
+      "sciNameCodes": [
+        "COSA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Copsychus malabaricus",
+      "comName": "White-rumped Shama",
+      "speciesCode": "whrsha",
+      "category": "species",
+      "taxonOrder": 28518.0,
+      "bandingCodes": [
+        "WRSH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "COMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 57
+    },
+    {
+      "sciName": "Eumyias thalassinus",
+      "comName": "Verditer Flycatcher",
+      "speciesCode": "verfly4",
+      "category": "species",
+      "taxonOrder": 28590.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "VEFL"
+      ],
+      "sciNameCodes": [
+        "EUTH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 26
+    },
+    {
+      "sciName": "Anthipes solitaris",
+      "comName": "Rufous-browed Flycatcher",
+      "speciesCode": "rubfly3",
+      "category": "species",
+      "taxonOrder": 28607.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RBFL"
+      ],
+      "sciNameCodes": [
+        "ANSO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 7
+    },
+    {
+      "sciName": "Cyornis hainanus",
+      "comName": "Hainan Blue Flycatcher",
+      "speciesCode": "habfly1",
+      "category": "species",
+      "taxonOrder": 28615.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HABF",
+        "HBFL"
+      ],
+      "sciNameCodes": [
+        "CYHA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Cyornis glaucicomans",
+      "comName": "Chinese Blue Flycatcher",
+      "speciesCode": "butfly2",
+      "category": "species",
+      "taxonOrder": 28633.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CBFL",
+        "CHBF"
+      ],
+      "sciNameCodes": [
+        "CYGL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Cyornis whitei",
+      "comName": "Hill Blue Flycatcher",
+      "speciesCode": "hibfly1",
+      "category": "species",
+      "taxonOrder": 28636.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HIBF",
+        "HBFL"
+      ],
+      "sciNameCodes": [
+        "CYWH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 17
+    },
+    {
+      "sciName": "Cyornis sumatrensis",
+      "comName": "Indochinese Blue Flycatcher",
+      "speciesCode": "tibfly4",
+      "category": "species",
+      "taxonOrder": 28659.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "IBFL",
+        "INBF"
+      ],
+      "sciNameCodes": [
+        "CYSU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Larvivora cyane",
+      "comName": "Siberian Blue Robin",
+      "speciesCode": "sibrob",
+      "category": "species",
+      "taxonOrder": 28892.0,
+      "bandingCodes": [
+        "SBRO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LACY"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 8
+    },
+    {
+      "sciName": "Ficedula albicilla",
+      "comName": "Taiga Flycatcher",
+      "speciesCode": "taifly1",
+      "category": "species",
+      "taxonOrder": 29053.0,
+      "bandingCodes": [
+        "TAFL"
+      ],
+      "comNameCodes": [
+        "RTFL"
+      ],
+      "sciNameCodes": [
+        "FIAL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 40
+    },
+    {
+      "sciName": "Monticola solitarius",
+      "comName": "Blue Rock-Thrush",
+      "speciesCode": "burthr",
+      "category": "species",
+      "taxonOrder": 29151.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BLRT",
+        "BRTH"
+      ],
+      "sciNameCodes": [
+        "MOSO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Dicaeum agile",
+      "comName": "Thick-billed Flowerpecker",
+      "speciesCode": "thbflo1",
+      "category": "species",
+      "taxonOrder": 29455.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "STFL",
+        "TBFL"
+      ],
+      "sciNameCodes": [
+        "DIAG"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicaei1",
+      "familyComName": "Flowerpeckers",
+      "familySciName": "Dicaeidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Dicaeum chrysorrheum",
+      "comName": "Yellow-vented Flowerpecker",
+      "speciesCode": "yevflo1",
+      "category": "species",
+      "taxonOrder": 29474.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "YVFL"
+      ],
+      "sciNameCodes": [
+        "DICH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicaei1",
+      "familyComName": "Flowerpeckers",
+      "familySciName": "Dicaeidae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Dicaeum cruentatum",
+      "comName": "Scarlet-backed Flowerpecker",
+      "speciesCode": "scbflo1",
+      "category": "species",
+      "taxonOrder": 29611.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBFL"
+      ],
+      "sciNameCodes": [
+        "DICR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicaei1",
+      "familyComName": "Flowerpeckers",
+      "familySciName": "Dicaeidae",
+      "notes": "",
+      "frequency": 22
+    },
+    {
+      "sciName": "Chalcoparia singalensis",
+      "comName": "Ruby-cheeked Sunbird",
+      "speciesCode": "rucsun2",
+      "category": "species",
+      "taxonOrder": 29625.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RCSU"
+      ],
+      "sciNameCodes": [
+        "CHSI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 26
+    },
+    {
+      "sciName": "Cinnyris ornatus",
+      "comName": "Ornate Sunbird",
+      "speciesCode": "olbsun4",
+      "category": "species",
+      "taxonOrder": 29940.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ORSU",
+        "OBSU"
+      ],
+      "sciNameCodes": [
+        "CIOR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 33
+    },
+    {
+      "sciName": "Aethopyga saturata",
+      "comName": "Black-throated Sunbird",
+      "speciesCode": "bltsun1",
+      "category": "species",
+      "taxonOrder": 29995.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BTSU"
+      ],
+      "sciNameCodes": [
+        "AESA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 14
+    },
+    {
+      "sciName": "Aethopyga siparaja",
+      "comName": "Crimson Sunbird",
+      "speciesCode": "eacsun1",
+      "category": "species",
+      "taxonOrder": 30028.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CRSU"
+      ],
+      "sciNameCodes": [
+        "AESI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 17
+    },
+    {
+      "sciName": "Arachnothera longirostra",
+      "comName": "Little Spiderhunter",
+      "speciesCode": "litspi1",
+      "category": "species",
+      "taxonOrder": 30095.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LISP"
+      ],
+      "sciNameCodes": [
+        "ARLO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 8
+    },
+    {
+      "sciName": "Arachnothera magna",
+      "comName": "Streaked Spiderhunter",
+      "speciesCode": "strspi1",
+      "category": "species",
+      "taxonOrder": 30115.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "STSP"
+      ],
+      "sciNameCodes": [
+        "ARMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Irena puella",
+      "comName": "Asian Fairy-bluebird",
+      "speciesCode": "asfblu1",
+      "category": "species",
+      "taxonOrder": 30129.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASFB",
+        "AFBL"
+      ],
+      "sciNameCodes": [
+        "IRPU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "irenid1",
+      "familyComName": "Fairy-bluebirds",
+      "familySciName": "Irenidae",
+      "notes": "",
+      "frequency": 54
+    }
+  ]
+}
