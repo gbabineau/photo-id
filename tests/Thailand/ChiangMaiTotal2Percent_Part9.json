@@ -1,0 +1,335 @@
+{
+  "location": "TH",
+  "start_month": 2,
+  "end_month": 2,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Chloropsis hardwickii",
+      "comName": "Orange-bellied Leafbird",
+      "speciesCode": "orblea1",
+      "category": "species",
+      "taxonOrder": 30171.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "OBCL",
+        "OBLE"
+      ],
+      "sciNameCodes": [
+        "CHHA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "chloro5",
+      "familyComName": "Leafbirds",
+      "familySciName": "Chloropseidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Lonchura punctulata",
+      "comName": "Scaly-breasted Munia",
+      "speciesCode": "nutman",
+      "category": "species",
+      "taxonOrder": 30559.0,
+      "bandingCodes": [
+        "SBMU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LOPU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "estril1",
+      "familyComName": "Waxbills and Allies",
+      "familySciName": "Estrildidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Lonchura striata",
+      "comName": "White-rumped Munia",
+      "speciesCode": "whrmun",
+      "category": "species",
+      "taxonOrder": 30578.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WRMU"
+      ],
+      "sciNameCodes": [
+        "LOST"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "estril1",
+      "familyComName": "Waxbills and Allies",
+      "familySciName": "Estrildidae",
+      "notes": "Doi Suthep.",
+      "frequency": 4
+    },
+    {
+      "sciName": "Amandava amandava",
+      "comName": "Red Avadavat",
+      "speciesCode": "redava",
+      "category": "species",
+      "taxonOrder": 30837.0,
+      "bandingCodes": [
+        "REAV"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "AMAM"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "estril1",
+      "familyComName": "Waxbills and Allies",
+      "familySciName": "Estrildidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Passer montanus",
+      "comName": "Eurasian Tree Sparrow",
+      "speciesCode": "eutspa",
+      "category": "species",
+      "taxonOrder": 31086.0,
+      "bandingCodes": [
+        "ETSP"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PAMO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer4",
+      "familyComName": "Old World Sparrows",
+      "familySciName": "Passeridae",
+      "notes": "",
+      "frequency": 15
+    },
+    {
+      "sciName": "Motacilla cinerea",
+      "comName": "Gray Wagtail",
+      "speciesCode": "grywag",
+      "category": "species",
+      "taxonOrder": 31160.0,
+      "bandingCodes": [
+        "GRAW"
+      ],
+      "comNameCodes": [
+        "GRWA"
+      ],
+      "sciNameCodes": [
+        "MOCI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 15
+    },
+    {
+      "sciName": "Motacilla tschutschensis",
+      "comName": "Eastern Yellow Wagtail",
+      "speciesCode": "eaywag",
+      "category": "species",
+      "taxonOrder": 31182.0,
+      "bandingCodes": [
+        "EYWA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "MOTS"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Motacilla alba",
+      "comName": "White Wagtail",
+      "speciesCode": "whiwag",
+      "category": "species",
+      "taxonOrder": 31202.0,
+      "bandingCodes": [
+        "WHWA"
+      ],
+      "comNameCodes": [
+        "PWWA"
+      ],
+      "sciNameCodes": [
+        "MOAL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 13
+    },
+    {
+      "sciName": "Anthus rufulus",
+      "comName": "Paddyfield Pipit",
+      "speciesCode": "oripip1",
+      "category": "species",
+      "taxonOrder": 31237.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PAPI"
+      ],
+      "sciNameCodes": [
+        "ANRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Anthus hodgsoni",
+      "comName": "Olive-backed Pipit",
+      "speciesCode": "olbpip",
+      "category": "species",
+      "taxonOrder": 31340.0,
+      "bandingCodes": [
+        "OBPI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ANHO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Mycerobas melanozanthos",
+      "comName": "Spot-winged Grosbeak",
+      "speciesCode": "spwgro1",
+      "category": "species",
+      "taxonOrder": 31553.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SWGR"
+      ],
+      "sciNameCodes": [
+        "MYME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Doi Sanju and Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Carpodacus sipahi",
+      "comName": "Scarlet Finch",
+      "speciesCode": "scafin1",
+      "category": "species",
+      "taxonOrder": 31633.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SCFI"
+      ],
+      "sciNameCodes": [
+        "CASI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Doi Pha Ham Pok.",
+      "frequency": 0
+    },
+    {
+      "sciName": "Emberiza fucata",
+      "comName": "Chestnut-eared Bunting",
+      "speciesCode": "chebun2",
+      "category": "species",
+      "taxonOrder": 32176.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CEBU"
+      ],
+      "sciNameCodes": [
+        "EMFU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Emberiza aureola",
+      "comName": "Yellow-breasted Bunting",
+      "speciesCode": "yebbun",
+      "category": "species",
+      "taxonOrder": 32298.0,
+      "bandingCodes": [
+        "YBSB"
+      ],
+      "comNameCodes": [
+        "YBBU"
+      ],
+      "sciNameCodes": [
+        "EMAU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Emberiza pusilla",
+      "comName": "Little Bunting",
+      "speciesCode": "litbun",
+      "category": "species",
+      "taxonOrder": 32301.0,
+      "bandingCodes": [
+        "LIBU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "EMPU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Emberiza rutila",
+      "comName": "Chestnut Bunting",
+      "speciesCode": "chebun1",
+      "category": "species",
+      "taxonOrder": 32311.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CHBU"
+      ],
+      "sciNameCodes": [
+        "EMRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 2
+    }
+  ]
+}

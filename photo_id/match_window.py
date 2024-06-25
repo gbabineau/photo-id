@@ -77,7 +77,7 @@ def scale_image_width(image):
 
 class SpeciesFrame(ttk.Frame):
 
-    def __init__(self, base, species_number : int, species_name : str, species_code : str, species_notes : str, large_species_list : list, location : str, start_month : str, end_month : str):
+    def __init__(self, base, species_number : int, species_name : str, species_code : str, species_notes : str, species_frequency : int, large_species_list : list, location : str, start_month : str, end_month : str):
         ttk.Frame.__init__(self, base, borderwidth=2, relief=RIDGE)
         self.species_number = species_number
         self.species_code = species_code
@@ -97,15 +97,24 @@ class SpeciesFrame(ttk.Frame):
         self.what_is_it = ttk.Combobox(self, textvariable=self.selected_species,
                                        values=self.species_list, height=min(25, len(self.species_list)), width=30)
         self.what_is_it.bind('<<ComboboxSelected>>', self.check_selection)
-
-        self.what_is_it.grid(row=0, column=0)
+        current_row = 0
+        self.what_is_it.grid(row=current_row, column=0)
         ttk.Button(self, text="Next",
-                   command=self.next_image).grid(row=0, column=2)
+                   command=self.next_image).grid(row=current_row, column=2)
         ttk.Button(self, text="Prior",
-                   command=self.prior_image).grid(row=0, column=1)
-        self.bird_notes = ttk.Label(self, text=species_notes)
-        self.bird_notes.grid(row=1, column=0)
-        self.image_display.grid(row=2, column=0, columnspan=3)
+                   command=self.prior_image).grid(row=current_row, column=1)
+        current_row = current_row + 1
+        if species_frequency > 0:
+            self.bird_frequency = ttk.Label(
+                self, text=f"Frequency: {species_frequency}%")
+            self.bird_frequency.grid(row=current_row, column=0)
+        current_row = current_row + 1
+        if species_notes != '':
+            self.bird_notes = ttk.Label(self, text=f"Notes: {species_notes}")
+            self.bird_notes.grid(row=current_row, column=0)
+        current_row = current_row + 1
+
+        self.image_display.grid(row=current_row, column=0, columnspan=3)
 
     def update_image(self) -> None:
         position_in_list = self.full_species_list.index(self.species_name)
@@ -171,7 +180,7 @@ class SpeciesFrame(ttk.Frame):
 
             content = str(result.content)
             images = re.findall(
-                r"https://cdn\.download\.ams\.birds\.cornell\.edu/api/v1/asset/\d+/1200", content)
+                r"https://cdn\.download\.ams\.birds\.cornell\.edu/api/v\d/asset/\d+/1200", content)
             # First images are not actual images of the species.
             if len(images) > 2 + REQUIRED_IMAGES:
                 self.cached_image_list = images[2::2]
@@ -256,8 +265,10 @@ class MatchWindow:
                 species_code=process_quiz.get_code(self.quiz_data, species_name)
                 species_notes = process_quiz.get_notes(
                     self.quiz_data, species_name)
+                species_frequency = process_quiz.get_frequency(
+                    self.quiz_data, species_name)
                 self.image_display[row][column] = SpeciesFrame(
-                    self.frame.interior, species_number, species_name, species_code, species_notes, self.species_list, self.quiz_data['location'], self.quiz_data['start_month'], self.quiz_data['end_month'])
+                    self.frame.interior, species_number, species_name, species_code, species_notes, species_frequency, self.species_list, self.quiz_data['location'], self.quiz_data['start_month'], self.quiz_data['end_month'])
                 self.image_display[row][column].grid(
                     row=row, column=column)
                 species_number = species_number + 1

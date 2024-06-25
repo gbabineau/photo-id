@@ -5,7 +5,7 @@
 import argparse
 import logging
 
-from tkinter import messagebox, Tk, Menu, filedialog
+from tkinter import messagebox, Tk, Menu, filedialog, simpledialog
 import get_taxonomy
 import get_have_list
 import image_window
@@ -79,22 +79,23 @@ class MainWindow:
         .
         """
 
-        # in_file = filedialog.askopenfilename(
-        #     title='Select target file', initialdir='.', filetypes=[('text files', '*.txt')])
-        in_file = 'temp/oslo.txt'
+        in_file = filedialog.askopenfilename(
+            title='Select target file', initialdir='.', filetypes=[('text files', '*.txt')])
         if in_file is not None:
-            # min_percent = simpledialog.askinteger(
-            #     'min_percent', 'Enter minimum percentage observed to include in quiz')
-            # filename = filedialog.asksaveasfilename(
-            #     title='Create Quiz as', initialdir='.', filetypes=[('json files', '*.json')], defaultextension='.json')
-            filename = 'tests/data/Norway/test.json'
-            target_url = 'https://ebird.org/targets?r1=NO-03&r2=NO-03&t2=day&bmo=5&emo=6&print=true'
-            min_percent = 10
-
-            # ensure print = true
+            min_percent = simpledialog.askinteger(
+                'min_percent', 'Enter minimum percentage observed to include in quiz')
+            filename = filedialog.asksaveasfilename(
+                title='Create Quiz as', initialdir='.', filetypes=[('json files', '*.json')], defaultextension='.json')
+            # target_url = 'https://ebird.org/targets?r1=NO-03&r2=NO-03&t2=day&bmo=5&emo=6&print=true'
+            start_month = simpledialog.askinteger(
+                'Starting Month', 'Enter starting month 1-12', minvalue=1, maxvalue=12)
+            end_month = simpledialog.askinteger(
+                'Ending Month', 'Enter ending month 1-12', minvalue=1, maxvalue=12)
+            location_code = simpledialog.askstring(
+                '2 letter location code', 'Enter 2 letter location code')
             if filename is not  None:
                 process_quiz.build_quiz_from_target_species(
-                    in_file, min_percent, filename)
+                    in_file, min_percent, filename, start_month, end_month, location_code)
 
 
     def have_list_open(self) -> None:

@@ -1,0 +1,1087 @@
+{
+  "start_month": 2,
+  "end_month": 2,
+  "location": "TH",
+  "species": [
+    {
+      "comName": "Spotted Dove",
+      "notes": "",
+	    "frequency": 34
+    },
+    {
+      "comName": "Sooty-headed Bulbul",
+      "notes": "",
+	    "frequency": 29
+    },
+    {
+      "comName": "Red-whiskered Bulbul",
+      "notes": "",
+	    "frequency": 26
+    },
+    {
+      "comName": "Blue Whistling-Thrush",
+      "notes": "Doi Inthanon(Waterfall area).",
+	    "frequency": 23
+    },
+    {
+      "comName": "Oriental Magpie-Robin",
+      "notes": "",
+	    "frequency": 23
+    },
+    {
+      "comName": "Yellow-browed Warbler",
+      "notes": "",
+	    "frequency": 21
+    },
+    {
+      "comName": "Black-backed Sibia",
+      "notes": "Doi Inthanon.",
+	    "frequency": 21
+    },
+    {
+      "comName": "Ashy Drongo",
+      "notes": "",
+	    "frequency": 21
+    },
+    {
+      "comName": "Black-crested Bulbul",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 21
+    },
+    {
+      "comName": "Barn Swallow",
+      "notes": "",
+	    "frequency": 21
+    },
+    {
+      "comName": "Flavescent Bulbul",
+      "notes": "",
+	    "frequency": 20
+    },
+    {
+      "comName": "Common Myna",
+      "notes": "",
+	    "frequency": 19
+    },
+    {
+      "comName": "Davison's Leaf Warbler",
+      "notes": "Doi Inthanon. (Called white-tailed leaf warbler)",
+	    "frequency": 19
+    },
+    {
+      "comName": "Golden-throated Barbet",
+      "notes": "",
+	    "frequency": 17
+    },
+    {
+      "comName": "Asian Koel",
+      "notes": "",
+	    "frequency": 16
+    },
+    {
+      "comName": "Great Myna",
+      "notes": "",
+	    "frequency": 16
+    },
+    {
+      "comName": "Greater Coucal",
+      "notes": "",
+	    "frequency": 16
+    },
+    {
+      "comName": "Mountain Bulbul",
+      "notes": "Doi Suthep.",
+	    "frequency": 16
+    },
+    {
+      "comName": "Blue-throated Barbet",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 16
+    },
+    {
+      "comName": "Mrs. Gould's Sunbird",
+      "notes": "",
+	    "frequency": 16
+    },
+    {
+      "comName": "Taiga Flycatcher",
+      "notes": "",
+	    "frequency": 16
+    },
+    {
+      "comName": "Gray Wagtail",
+      "notes": "Doi Inthanon.",
+	    "frequency": 15
+    },
+    {
+      "comName": "Yunnan Fulvetta",
+      "notes": "Doi Inthanon.",
+	    "frequency": 15
+    },
+    {
+      "comName": "Eurasian Tree Sparrow",
+      "notes": "",
+	    "frequency": 15
+    },
+    {
+      "comName": "White-browed Shrike-Babbler",
+      "notes": "",
+	    "frequency": 14
+    },
+    {
+      "comName": "Gray Bushchat",
+      "notes": "",
+	    "frequency": 14
+    },
+    {
+      "comName": "Ashy Woodswallow",
+      "notes": "",
+	    "frequency": 14
+    },
+    {
+      "comName": "Black Drongo",
+      "notes": "",
+	    "frequency": 13
+    },
+    {
+      "comName": "Chinese Pond-Heron",
+      "notes": "",
+	    "frequency": 13
+    },
+    {
+      "comName": "Silver-eared Laughingthrush",
+      "notes": "",
+	    "frequency": 13
+    },
+    {
+      "comName": "Yellow-cheeked Tit",
+      "notes": "Doi Inthanon.",
+	    "frequency": 13
+    },
+    {
+      "comName": "Indochinese Bushlark",
+      "notes": "Doi Inthanon.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Common Tailorbird",
+      "notes": "",
+	    "frequency": 13
+    },
+    {
+      "comName": "White Wagtail",
+      "notes": "Doi Inthanon.",
+	    "frequency": 13
+    },
+    {
+      "comName": "Olive-backed Pipit",
+      "notes": "",
+	    "frequency": 12
+    },
+    {
+      "comName": "Black-throated Sunbird",
+      "notes": "",
+	    "frequency": 12
+    },
+    {
+      "comName": "Verditer Flycatcher",
+      "notes": "",
+	    "frequency": 12
+    },
+    {
+      "comName": "Chestnut-vented Nuthatch",
+      "notes": "",
+	    "frequency": 12
+    },
+    {
+      "comName": "Bronzed Drongo",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 12
+    },
+    {
+      "comName": "Coppersmith Barbet",
+      "notes": "",
+	    "frequency": 12
+    },
+    {
+      "comName": "Rock Pigeon",
+      "notes": "",
+	    "frequency": 12
+    },
+    {
+      "comName": "Scarlet Minivet",
+      "notes": "",
+	    "frequency": 12
+    },
+    {
+      "comName": "Lesser Racket-tailed Drongo",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Pied Bushchat",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Japanese Tit",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Brown Shrike",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Scaly-breasted Munia",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Streak-eared Bulbul",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Black-collared Starling",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Little Pied Flycatcher",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Zebra Dove",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Hill Blue Flycatcher",
+      "notes": "Doi Suthep.",
+	    "frequency": 11
+    },
+    {
+      "comName": "Streaked Spiderhunter",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Rufous-winged Fulvetta",
+      "notes": "",
+	    "frequency": 11
+    },
+    {
+      "comName": "Long-tailed Shrike",
+      "notes": "",
+	    "frequency": 10
+    },
+    {
+      "comName": "Maroon Oriole",
+      "notes": "Doi Suthep.",
+	    "frequency": 10
+    },
+    {
+      "comName": "Amur Stonechat",
+      "notes": "Doi Inthanon.",
+	    "frequency": 10
+    },
+    {
+      "comName": "Great Barbet",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 10
+    },
+    {
+      "comName": "Cook's Swift",
+      "notes": "",
+	    "frequency": 10
+    },
+    {
+      "comName": "Gray-headed Canary-Flycatcher",
+      "notes": "",
+	    "frequency": 10
+    },
+    {
+      "comName": "Asian Palm Swift",
+      "notes": "",
+	    "frequency": 10
+    },
+    {
+      "comName": "Lineated Barbet",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Asian Barred Owlet",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Hill Prinia",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Asian Green Bee-eater",
+      "notes": "Doi Inthanon.",
+	    "frequency": 9
+    },
+    {
+      "comName": "Large-billed Crow",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Silver-eared Mesia",
+      "notes": "Doi Suthep & Doi Inthanon.",
+	    "frequency": 9
+    },
+    {
+      "comName": "Slaty-backed Flycatcher",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Greater Racket-tailed Drongo",
+      "notes": "Doi Inthanon. Foothills.",
+	    "frequency": 9
+    },
+    {
+      "comName": "Long-tailed Minivet",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Hume's Warbler",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Blue-winged Minla",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Velvet-fronted Nuthatch",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Large Niltava",
+      "notes": "Doi Sanju.",
+	    "frequency": 9
+    },
+    {
+      "comName": "Ornate Sunbird",
+      "notes": "",
+	    "frequency": 9
+    },
+    {
+      "comName": "Green-tailed Sunbird",
+      "notes": "Doi Inthanon. Mountaintop",
+	    "frequency": 9
+    },
+    {
+      "comName": "Black Bulbul",
+      "notes": "",
+	    "frequency": 8
+    },
+    {
+      "comName": "Banded Bay Cuckoo",
+      "notes": "",
+	    "frequency": 8
+    },
+    {
+      "comName": "Yellow-bellied Fairy-Fantail",
+      "notes": "",
+	    "frequency": 8
+    },
+    {
+      "comName": "Chestnut-tailed Minla",
+      "notes": "Doi Inthanon. Mountaintop",
+	    "frequency": 8
+    },
+    {
+      "comName": "Gray-backed Shrike",
+      "notes": "Doi Angkhang.",
+	    "frequency": 8
+    },
+    {
+      "comName": "Little Egret",
+      "notes": "",
+	    "frequency": 8
+    },
+    {
+      "comName": "Stripe-breasted Woodpecker",
+      "notes": "Doi Inthanon.",
+	    "frequency": 8
+    },
+    {
+      "comName": "Scarlet-backed Flowerpecker",
+      "notes": "Doi Inthanon. Foothills.",
+	    "frequency": 8
+    },
+    {
+      "comName": "Gray-chinned Minivet",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Purple Sunbird",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Crimson Sunbird",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 7
+    },
+    {
+      "comName": "White-breasted Waterhen",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Pygmy Cupwing",
+      "notes": "Doi Inthanon. Mountaintop. (Called Pygmy Wren-Babbler)",
+	    "frequency": 7
+    },
+    {
+      "comName": "White-throated Kingfisher",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Mountain Tailorbird",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Swinhoe's White-eye",
+      "notes": "Doi Angkhang.",
+	    "frequency": 7
+    },
+    {
+      "comName": "Common Iora",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Great Iora",
+      "notes": "Chiang Dao.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Eastern Cattle Egret",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Eyebrowed Thrush",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Green-billed Malkoha",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Rufous-backed Sibia",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Hair-crested Drongo",
+      "notes": "Doi Inthanon. Foothills.",
+	    "frequency": 7
+    },
+    {
+      "comName": "Mountain Imperial-Pigeon",
+      "notes": "Doi Sanju.",
+	    "frequency": 7
+    },
+    {
+      "comName": "Plain Prinia",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 7
+    },
+    {
+      "comName": "White-rumped Shama",
+      "notes": "",
+	    "frequency": 7
+    },
+    {
+      "comName": "Spectacled Barwing",
+      "notes": "Doi Inthanon & Doi Ham Pok.",
+	    "frequency": 7
+    },
+    {
+      "comName": "Red-wattled Lapwing",
+      "notes": "Doi Inthanon.",
+	    "frequency": 7
+    },
+    {
+      "comName": "Ashy-throated Warbler",
+      "notes": "Doi Inthanon. Mountaintop",
+	    "frequency": 6
+    },
+    {
+      "comName": "Slaty-bellied Tesia",
+      "notes": "Doi Inthanon. Mountaintop.",
+	    "frequency": 6
+    },
+    {
+      "comName": "Gray-capped Pygmy Woodpecker",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Himalayan Swiftlet",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Puff-throated Bulbul",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Striated Swallow",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Gray-sided Thrush",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Oriental Honey-buzzard",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Black-naped Monarch",
+      "notes": "Doi Inthanon(Waterfall area).",
+	    "frequency": 6
+    },
+    {
+      "comName": "Blyth's Paradise-Flycatcher",
+      "notes": "Doi Inthanon (Waterfall area) & Chiang Dao(called asian paradise-flycatcher)",
+	    "frequency": 1
+    },
+    {
+      "comName": "Blyth's Leaf Warbler",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "House Swift",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Hume's Treecreeper",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Golden Babbler",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Short-billed Minivet",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Indian White-eye",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Golden-fronted Leafbird",
+      "notes": "Doi Suthep & Doi Inthanon. Foothills.",
+	    "frequency": 6
+    },
+    {
+      "comName": "Gray Treepie",
+      "notes": "Doi Inthanon. Foothills.",
+	    "frequency": 6
+    },
+    {
+      "comName": "Striated Bulbul",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Rufous-bellied Niltava",
+      "notes": "Doi Inthanon.",
+	    "frequency": 6
+    },
+    {
+      "comName": "Pin-striped Tit-Babbler",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Orange-bellied Leafbird",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Shikra",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Chestnut-flanked White-eye",
+      "notes": "",
+	    "frequency": 6
+    },
+    {
+      "comName": "Black-headed Bulbul",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Rusty-cheeked Scimitar-Babbler",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "White-throated Fantail",
+      "notes": "Doi Inthanon.",
+	    "frequency": 5
+    },
+    {
+      "comName": "Blue Rock-Thrush",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Dusky Warbler",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Snowy-browed Flycatcher",
+      "notes": "Doi Inthanon. Mountaintop",
+	    "frequency": 5
+    },
+    {
+      "comName": "Gray-eyed Bulbul",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Indochinese Roller",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Bar-winged Flycatcher-shrike",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Chestnut-tailed Starling",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Paddyfield Pipit",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Rufous-gorgeted Flycatcher",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Giant Nuthatch",
+      "notes": "Doi Angkhang.",
+	    "frequency": 5
+    },
+    {
+      "comName": "Red Collared-Dove",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "White-browed Scimitar-Babbler",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Himalayan Shortwing",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Eurasian Jay",
+      "notes": "Doi Inthanon. Dipterocarp forest.",
+	    "frequency": 5
+    },
+    {
+      "comName": "Eurasian Hoopoe",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Crested Finchbill",
+      "notes": "Doi Ham Pok &  Doi Angkhang.",
+	    "frequency": 5
+    },
+    {
+      "comName": "Buff-barred Warbler",
+      "notes": "",
+	    "frequency": 5
+    },
+    {
+      "comName": "Rufous-throated Partridge",
+      "notes": "Doi Inthanon. Mountaintop.",
+	    "frequency": 5
+    },
+    {
+      "comName": "White-capped Redstart",
+      "notes": "Doi Inthanon(Waterfall area). (called white-capped water-redstart)",
+	    "frequency": 4
+    },
+     {
+      "comName": "Scarlet Finch",
+      "notes": "Doi Pha Ham Pok.",
+	    "frequency": 0
+    },
+    {
+      "comName": "White-gorgeted Flycatcher",
+      "notes": "Doi Inathon & Doi Sanju.",
+	    "frequency": 4
+    },
+    {
+      "comName": "Brown-breasted Bulbul",
+      "notes": "Doi Angkhang.",
+	    "frequency": 4
+    },
+    {
+      "comName": "White-rumped Munia",
+      "notes": "Doi Suthep.",
+	    "frequency": 4
+    },
+    {
+      "comName": "Black-hooded Oriole",
+      "notes": "Chiang Dao.",
+	    "frequency": 4
+    },
+    {
+      "comName": "Black-headed Woodpecker",
+      "notes": "Doi Inthanon. Dipterocarp forest.",
+	    "frequency": 1
+    },
+    {
+      "comName": "White-bellied Woodpecker",
+      "notes": "Doi Inthanon. Dipterocarp forest.",
+	    "frequency": 0
+    },
+    {
+      "comName": "Purple-naped Spiderhunter",
+      "notes": "Chiang Dao.",
+	    "frequency": 0
+    },
+    {
+      "comName": "Spotted Owlet",
+      "notes": "Doi Inthanon.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Burmese Shrike",
+      "notes": "Doi Inthanon. Foothills.",
+	    "frequency": 4
+    },
+    {
+      "comName": "Plumbeous Redstart",
+      "notes": "Doi Inthanon(Waterfall area).",
+	    "frequency": 3
+    },
+    {
+      "comName": "Large Cuckooshrike",
+      "notes": "Doi Sanju.",
+	    "frequency": 3
+    },
+    {
+      "comName": "Chestnut-crowned Warbler",
+      "notes": "Doi Sanju.",
+	    "frequency": 3
+    },
+    {
+      "comName": "White-browed Laughingthrush",
+      "notes": "Doi Angkhang.",
+	    "frequency": 3
+    },
+    {
+      "comName": "White-necked Laughingthrush",
+      "notes": "Doi Angkhang.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Siamese Pied Starling",
+      "notes": "Doi Inathon. (called asian pied starling)",
+	    "frequency": 3
+    },
+    {
+      "comName": "European Starling",
+      "notes": "Doi Inthanon.",
+	    "frequency": 0
+    },
+    {
+      "comName": "White-tailed Robin",
+      "notes": "Doi Angkhang.",
+	    "frequency": 3
+    },
+    {
+      "comName": "Scarlet-faced Liocichla",
+      "notes": "Doi Ham Pok.",
+	    "frequency": 3
+    },
+    {
+      "comName": "Mountain Bamboo-Partridge",
+      "notes": "Doi Sanju & Doi Angkhang.",
+	    "frequency": 3
+    },
+     {
+      "comName": "Long-tailed Broadbill",
+      "notes": "Doi Suthep",
+	    "frequency": 3
+    },
+    {
+      "comName": "Silver-breasted Broadbill",
+      "notes": "Doi Suthep & Doi Inthanon(Waterfall area).",
+	    "frequency": 1
+    },
+    {
+      "comName": "Red Avadavat",
+      "notes": "Doi Inthanon.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Red-billed Blue-Magpie",
+      "notes": "Doi Inthanon. Dipterocarp forest.",
+	    "frequency": 3
+    },
+    {
+      "comName": "Spot-breasted Parrotbill",
+      "notes": "Doi Angkhang.",
+	    "frequency": 3
+    },
+    {
+      "comName": "Slaty-backed Forktail",
+      "notes": "Doi Inthanon(Waterfall area).",
+	    "frequency": 3
+    },
+    {
+      "comName": "Black-backed Forktail",
+      "notes": "Doi Inthanon(Waterfall area).",
+	    "frequency": 1
+    },
+    {
+      "comName": "Wood Sandpiper",
+      "notes": "Doi Inthanon.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Spot-winged Grosbeak",
+      "notes": "Doi Sanju and Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 3
+    },
+    {
+      "comName": "Mrs. Hume's Pheasant",
+      "notes": "Doi Sanju.",
+	    "frequency": 3
+    },
+    {
+      "comName": "Small Niltava",
+      "notes": "Doi Inathon.",
+	    "frequency": 3
+    },
+    {
+      "comName": "Asian Emerald Cuckoo",
+      "notes": "Doi Inthanon.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Himalayan Cutia",
+      "notes": "Doi Sanju.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Spot-breasted Laughingthrush",
+      "notes": "Doi Sanju. (Sensitive Species)",
+	    "frequency": 0
+    },
+    {
+      "comName": "Blue-bearded Bee-eater",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Plain Flowerpecker",
+      "notes": "Doi Inthanon. Foothills.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Ruddy Shelduck",
+      "notes": "Doi Inthanon.",
+	    "frequency": 0
+    },
+    {
+      "comName": "Striated Yuhina",
+      "notes": "Doi Suthep.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Eastern Yellow Wagtail",
+      "notes": "Doi Inthanon.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Striated Heron",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Collared Falconet",
+      "notes": "Doi Inthanon. Dipterocarp forest.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Small Minivet",
+      "notes": "Doi Inthanon. Foothills.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Gray-headed Lapwing",
+      "notes": "Doi Inthanon.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Black-throated Tit",
+      "notes": "Doi Sanju.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Pin-tailed Green-Pigeon",
+      "notes": "Chiang Dao.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Thick-billed Green-Pigeon",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Pied Harrier",
+      "notes": "Doi Inthanon.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Eastern Marsh Harrier",
+      "notes": "Doi Inthanon.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Black Kite",
+      "notes": "Doi Inthanon.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Black Baza",
+      "notes": "Doi Suthep.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Streaked Wren-Babbler",
+      "notes": "Chiang Dao.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Eurasian Kestrel",
+      "notes": "Doi Imthanon.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Peregrine Falcon",
+      "notes": "Doi Inthanon.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Small Pratincole",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Mountain Hawk-Eagle",
+      "notes": "Doi Sanju.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Short-toed Snake-Eagle",
+      "notes": "Doi Inthanon.",
+	    "frequency": 0
+    },
+    {
+      "comName": "Imperial Eagle",
+      "notes": "Doi Inthanon.",
+	    "frequency": 0
+    },
+    {
+      "comName": "Greater Spotted Eagle",
+      "notes": "Doi Inthanon.",
+	    "frequency": 0
+    },
+    {
+      "comName": "Little Bunting",
+      "notes": "Doi Angkhang.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Chestnut Bunting",
+      "notes": "Doi Angkhang.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Yellow-Breasted Bunting",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Chestnut-eared Bunting",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+	    "frequency": 1
+    },
+    {
+      "comName": "Blossom-headed Parakeet",
+      "notes": "Doi Inthanon. Foothills.",
+	    "frequency": 2
+    },
+    {
+      "comName": "Gray-headed Parakeet",
+      "notes": "Doi Sanju.",
+	    "frequency": 0
+    },
+    {
+      "comName": "Long-tailed Sibia",
+      "notes": "Doi Sanju.",
+	    "frequency": 0
+    },
+    {
+      "comName": "Daurian Redstart",
+      "notes": "Doi Angkhang.",
+	    "frequency": 2
+    }
+  ]
+}

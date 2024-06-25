@@ -1,0 +1,519 @@
+{
+  "location": "TH",
+  "start_month": 2,
+  "end_month": 2,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Rhipidura albicollis",
+      "comName": "White-throated Fantail",
+      "speciesCode": "whtfan1",
+      "category": "species",
+      "taxonOrder": 19900.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WTFA"
+      ],
+      "sciNameCodes": [
+        "RHAL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "rhipid1",
+      "familyComName": "Fantails",
+      "familySciName": "Rhipiduridae",
+      "notes": "Doi Inthanon.",
+      "frequency": 5
+    },
+    {
+      "sciName": "Dicrurus macrocercus",
+      "comName": "Black Drongo",
+      "speciesCode": "bladro1",
+      "category": "species",
+      "taxonOrder": 20051.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BLDR"
+      ],
+      "sciNameCodes": [
+        "DIMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Dicrurus leucophaeus",
+      "comName": "Ashy Drongo",
+      "speciesCode": "ashdro1",
+      "category": "species",
+      "taxonOrder": 20059.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASDR"
+      ],
+      "sciNameCodes": [
+        "DILE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 21
+    },
+    {
+      "sciName": "Dicrurus aeneus",
+      "comName": "Bronzed Drongo",
+      "speciesCode": "brodro1",
+      "category": "species",
+      "taxonOrder": 20086.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BRDR"
+      ],
+      "sciNameCodes": [
+        "DIAE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 12
+    },
+    {
+      "sciName": "Dicrurus remifer",
+      "comName": "Lesser Racket-tailed Drongo",
+      "speciesCode": "lrtdro1",
+      "category": "species",
+      "taxonOrder": 20090.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LRTD"
+      ],
+      "sciNameCodes": [
+        "DIRE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Dicrurus hottentottus",
+      "comName": "Hair-crested Drongo",
+      "speciesCode": "hacdro1",
+      "category": "species",
+      "taxonOrder": 20095.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BCDR",
+        "HCDR",
+        "HCTD"
+      ],
+      "sciNameCodes": [
+        "DIHO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "Doi Inthanon. Foothills.",
+      "frequency": 7
+    },
+    {
+      "sciName": "Dicrurus paradiseus",
+      "comName": "Greater Racket-tailed Drongo",
+      "speciesCode": "grtdro1",
+      "category": "species",
+      "taxonOrder": 20149.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRTD"
+      ],
+      "sciNameCodes": [
+        "DIPA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "Doi Inthanon. Foothills.",
+      "frequency": 9
+    },
+    {
+      "sciName": "Hypothymis azurea",
+      "comName": "Black-naped Monarch",
+      "speciesCode": "blnmon1",
+      "category": "species",
+      "taxonOrder": 20297.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BNMO"
+      ],
+      "sciNameCodes": [
+        "HYAZ"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "monarc2",
+      "familyComName": "Monarch Flycatchers",
+      "familySciName": "Monarchidae",
+      "notes": "Doi Inthanon(Waterfall area).",
+      "frequency": 6
+    },
+    {
+      "sciName": "Terpsiphone affinis",
+      "comName": "Blyth's Paradise-Flycatcher",
+      "speciesCode": "blypaf1",
+      "category": "species",
+      "taxonOrder": 20338.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "OTPF",
+        "BPFL",
+        "BLPF"
+      ],
+      "sciNameCodes": [
+        "TEAF"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "monarc2",
+      "familyComName": "Monarch Flycatchers",
+      "familySciName": "Monarchidae",
+      "notes": "Doi Inthanon (Waterfall area) & Chiang Dao(called asian paradise-flycatcher)",
+      "frequency": 1
+    },
+    {
+      "sciName": "Lanius cristatus",
+      "comName": "Brown Shrike",
+      "speciesCode": "brnshr",
+      "category": "species",
+      "taxonOrder": 20647.0,
+      "bandingCodes": [
+        "BROS"
+      ],
+      "comNameCodes": [
+        "BRSH"
+      ],
+      "sciNameCodes": [
+        "LACR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "laniid1",
+      "familyComName": "Shrikes",
+      "familySciName": "Laniidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Lanius collurioides",
+      "comName": "Burmese Shrike",
+      "speciesCode": "burshr1",
+      "category": "species",
+      "taxonOrder": 20655.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BUSH"
+      ],
+      "sciNameCodes": [
+        "LACO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "laniid1",
+      "familyComName": "Shrikes",
+      "familySciName": "Laniidae",
+      "notes": "Doi Inthanon. Foothills.",
+      "frequency": 4
+    },
+    {
+      "sciName": "Lanius schach",
+      "comName": "Long-tailed Shrike",
+      "speciesCode": "lotshr1",
+      "category": "species",
+      "taxonOrder": 20662.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LTSH"
+      ],
+      "sciNameCodes": [
+        "LASC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "laniid1",
+      "familyComName": "Shrikes",
+      "familySciName": "Laniidae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Lanius tephronotus",
+      "comName": "Gray-backed Shrike",
+      "speciesCode": "gybshr1",
+      "category": "species",
+      "taxonOrder": 20677.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GBSH"
+      ],
+      "sciNameCodes": [
+        "LATE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "laniid1",
+      "familyComName": "Shrikes",
+      "familySciName": "Laniidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 8
+    },
+    {
+      "sciName": "Garrulus glandarius",
+      "comName": "Eurasian Jay",
+      "speciesCode": "eurjay1",
+      "category": "species",
+      "taxonOrder": 20948.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ECFJ",
+        "EUJA"
+      ],
+      "sciNameCodes": [
+        "GAGL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Doi Inthanon. Dipterocarp forest.",
+      "frequency": 5
+    },
+    {
+      "sciName": "Urocissa erythroryncha",
+      "comName": "Red-billed Blue-Magpie",
+      "speciesCode": "rbbmag",
+      "category": "species",
+      "taxonOrder": 21017.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RBBM"
+      ],
+      "sciNameCodes": [
+        "URER"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Doi Inthanon. Dipterocarp forest.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Dendrocitta formosae",
+      "comName": "Gray Treepie",
+      "speciesCode": "grytre1",
+      "category": "species",
+      "taxonOrder": 21053.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRTR"
+      ],
+      "sciNameCodes": [
+        "DEFO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Doi Inthanon. Foothills.",
+      "frequency": 6
+    },
+    {
+      "sciName": "Corvus macrorhynchos",
+      "comName": "Large-billed Crow",
+      "speciesCode": "labcro1",
+      "category": "species",
+      "taxonOrder": 21197.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LBJJ",
+        "LBCR"
+      ],
+      "sciNameCodes": [
+        "COMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Chelidorhynx hypoxanthus",
+      "comName": "Yellow-bellied Fairy-Fantail",
+      "speciesCode": "yebfan1",
+      "category": "species",
+      "taxonOrder": 21521.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "YBFF",
+        "YBFA"
+      ],
+      "sciNameCodes": [
+        "CHHY"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "stenos1",
+      "familyComName": "Fairy Flycatchers",
+      "familySciName": "Stenostiridae",
+      "notes": "",
+      "frequency": 8
+    },
+    {
+      "sciName": "Culicicapa ceylonensis",
+      "comName": "Gray-headed Canary-Flycatcher",
+      "speciesCode": "gyhcaf1",
+      "category": "species",
+      "taxonOrder": 21536.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GHCF"
+      ],
+      "sciNameCodes": [
+        "CUCE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "stenos1",
+      "familyComName": "Fairy Flycatchers",
+      "familySciName": "Stenostiridae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Parus minor",
+      "comName": "Japanese Tit",
+      "speciesCode": "gretit4",
+      "category": "species",
+      "taxonOrder": 21817.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRTI",
+        "JATI"
+      ],
+      "sciNameCodes": [
+        "PAMI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Machlolophus spilonotus",
+      "comName": "Yellow-cheeked Tit",
+      "speciesCode": "yectit1",
+      "category": "species",
+      "taxonOrder": 21835.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "YCTI"
+      ],
+      "sciNameCodes": [
+        "MASP"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "Doi Inthanon.",
+      "frequency": 13
+    },
+    {
+      "sciName": "Mirafra erythrocephala",
+      "comName": "Indochinese Bushlark",
+      "speciesCode": "indbus3",
+      "category": "species",
+      "taxonOrder": 22169.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "IBLA",
+        "INBU"
+      ],
+      "sciNameCodes": [
+        "MIER"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "alaudi1",
+      "familyComName": "Larks",
+      "familySciName": "Alaudidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Orthotomus sutorius",
+      "comName": "Common Tailorbird",
+      "speciesCode": "comtai1",
+      "category": "species",
+      "taxonOrder": 22738.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COTA"
+      ],
+      "sciNameCodes": [
+        "ORSU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cistic2",
+      "familyComName": "Cisticolas and Allies",
+      "familySciName": "Cisticolidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Prinia superciliaris",
+      "comName": "Hill Prinia",
+      "speciesCode": "hilpri2",
+      "category": "species",
+      "taxonOrder": 22808.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HIPR"
+      ],
+      "sciNameCodes": [
+        "PRSU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cistic2",
+      "familyComName": "Cisticolas and Allies",
+      "familySciName": "Cisticolidae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Prinia inornata",
+      "comName": "Plain Prinia",
+      "speciesCode": "plapri1",
+      "category": "species",
+      "taxonOrder": 22879.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PLPR"
+      ],
+      "sciNameCodes": [
+        "PRIN"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cistic2",
+      "familyComName": "Cisticolas and Allies",
+      "familySciName": "Cisticolidae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 7
+    }
+  ]
+}

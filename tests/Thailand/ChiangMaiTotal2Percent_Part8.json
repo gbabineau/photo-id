@@ -1,0 +1,523 @@
+{
+  "location": "TH",
+  "start_month": 2,
+  "end_month": 2,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Enicurus schistaceus",
+      "comName": "Slaty-backed Forktail",
+      "speciesCode": "slbfor1",
+      "category": "species",
+      "taxonOrder": 28962.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBFO"
+      ],
+      "sciNameCodes": [
+        "ENSC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inthanon(Waterfall area).",
+      "frequency": 3
+    },
+    {
+      "sciName": "Myiomela leucura",
+      "comName": "White-tailed Robin",
+      "speciesCode": "whtrob2",
+      "category": "species",
+      "taxonOrder": 28973.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WTBR",
+        "WTRO"
+      ],
+      "sciNameCodes": [
+        "MYLE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Ficedula erithacus",
+      "comName": "Slaty-backed Flycatcher",
+      "speciesCode": "slbfly1",
+      "category": "species",
+      "taxonOrder": 29008.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBFL"
+      ],
+      "sciNameCodes": [
+        "FIER"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Ficedula hyperythra",
+      "comName": "Snowy-browed Flycatcher",
+      "speciesCode": "snbfly1",
+      "category": "species",
+      "taxonOrder": 29015.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBFL"
+      ],
+      "sciNameCodes": [
+        "FIHY"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inthanon. Mountaintop",
+      "frequency": 5
+    },
+    {
+      "sciName": "Ficedula strophiata",
+      "comName": "Rufous-gorgeted Flycatcher",
+      "speciesCode": "rugfly1",
+      "category": "species",
+      "taxonOrder": 29033.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RGFL"
+      ],
+      "sciNameCodes": [
+        "FIST"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Ficedula westermanni",
+      "comName": "Little Pied Flycatcher",
+      "speciesCode": "lipfly1",
+      "category": "species",
+      "taxonOrder": 29040.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LPFL"
+      ],
+      "sciNameCodes": [
+        "FIWE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Ficedula albicilla",
+      "comName": "Taiga Flycatcher",
+      "speciesCode": "taifly1",
+      "category": "species",
+      "taxonOrder": 29053.0,
+      "bandingCodes": [
+        "TAFL"
+      ],
+      "comNameCodes": [
+        "RTFL"
+      ],
+      "sciNameCodes": [
+        "FIAL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Phoenicurus fuliginosus",
+      "comName": "Plumbeous Redstart",
+      "speciesCode": "plured1",
+      "category": "species",
+      "taxonOrder": 29100.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PLRE",
+        "PLWR",
+        "PWRE"
+      ],
+      "sciNameCodes": [
+        "PHFU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inthanon(Waterfall area).",
+      "frequency": 3
+    },
+    {
+      "sciName": "Phoenicurus leucocephalus",
+      "comName": "White-capped Redstart",
+      "speciesCode": "whcred1",
+      "category": "species",
+      "taxonOrder": 29105.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WCWR",
+        "WCRE"
+      ],
+      "sciNameCodes": [
+        "PHLE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inthanon(Waterfall area). (called white-capped water-redstart)",
+      "frequency": 4
+    },
+    {
+      "sciName": "Phoenicurus auroreus",
+      "comName": "Daurian Redstart",
+      "speciesCode": "daured1",
+      "category": "species",
+      "taxonOrder": 29129.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "DARE"
+      ],
+      "sciNameCodes": [
+        "PHAU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Monticola solitarius",
+      "comName": "Blue Rock-Thrush",
+      "speciesCode": "burthr",
+      "category": "species",
+      "taxonOrder": 29151.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BLRT",
+        "BRTH"
+      ],
+      "sciNameCodes": [
+        "MOSO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Saxicola stejnegeri",
+      "comName": "Amur Stonechat",
+      "speciesCode": "stonec7",
+      "category": "species",
+      "taxonOrder": 29186.0,
+      "bandingCodes": [
+        "ASST"
+      ],
+      "comNameCodes": [
+        "COST",
+        "AMST"
+      ],
+      "sciNameCodes": [
+        "SAST"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 10
+    },
+    {
+      "sciName": "Saxicola caprata",
+      "comName": "Pied Bushchat",
+      "speciesCode": "piebus1",
+      "category": "species",
+      "taxonOrder": 29209.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PIBU",
+        "PBCH"
+      ],
+      "sciNameCodes": [
+        "SACA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Saxicola ferreus",
+      "comName": "Gray Bushchat",
+      "speciesCode": "grybus1",
+      "category": "species",
+      "taxonOrder": 29227.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GBCH",
+        "GRBU"
+      ],
+      "sciNameCodes": [
+        "SAFE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 14
+    },
+    {
+      "sciName": "Dicaeum minullum",
+      "comName": "Plain Flowerpecker",
+      "speciesCode": "plaflo2",
+      "category": "species",
+      "taxonOrder": 29530.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PLFL"
+      ],
+      "sciNameCodes": [
+        "DIMI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicaei1",
+      "familyComName": "Flowerpeckers",
+      "familySciName": "Dicaeidae",
+      "notes": "Doi Inthanon. Foothills.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Dicaeum cruentatum",
+      "comName": "Scarlet-backed Flowerpecker",
+      "speciesCode": "scbflo1",
+      "category": "species",
+      "taxonOrder": 29611.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBFL"
+      ],
+      "sciNameCodes": [
+        "DICR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicaei1",
+      "familyComName": "Flowerpeckers",
+      "familySciName": "Dicaeidae",
+      "notes": "Doi Inthanon. Foothills.",
+      "frequency": 8
+    },
+    {
+      "sciName": "Cinnyris asiaticus",
+      "comName": "Purple Sunbird",
+      "speciesCode": "pursun4",
+      "category": "species",
+      "taxonOrder": 29936.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PUSU"
+      ],
+      "sciNameCodes": [
+        "CIAS"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 7
+    },
+    {
+      "sciName": "Cinnyris ornatus",
+      "comName": "Ornate Sunbird",
+      "speciesCode": "olbsun4",
+      "category": "species",
+      "taxonOrder": 29940.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ORSU",
+        "OBSU"
+      ],
+      "sciNameCodes": [
+        "CIOR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Aethopyga saturata",
+      "comName": "Black-throated Sunbird",
+      "speciesCode": "bltsun1",
+      "category": "species",
+      "taxonOrder": 29995.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BTSU"
+      ],
+      "sciNameCodes": [
+        "AESA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Aethopyga gouldiae",
+      "comName": "Mrs. Gould's Sunbird",
+      "speciesCode": "gousun1",
+      "category": "species",
+      "taxonOrder": 30007.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MGSU",
+        "GOSU"
+      ],
+      "sciNameCodes": [
+        "AEGO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Aethopyga nipalensis",
+      "comName": "Green-tailed Sunbird",
+      "speciesCode": "grtsun1",
+      "category": "species",
+      "taxonOrder": 30013.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GTSU"
+      ],
+      "sciNameCodes": [
+        "AENI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "Doi Inthanon. Mountaintop",
+      "frequency": 9
+    },
+    {
+      "sciName": "Aethopyga siparaja",
+      "comName": "Crimson Sunbird",
+      "speciesCode": "eacsun1",
+      "category": "species",
+      "taxonOrder": 30028.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CRSU"
+      ],
+      "sciNameCodes": [
+        "AESI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 7
+    },
+    {
+      "sciName": "Kurochkinegramma hypogrammicum",
+      "comName": "Purple-naped Spiderhunter",
+      "speciesCode": "punsun1",
+      "category": "species",
+      "taxonOrder": 30081.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PNSU",
+        "PNSP"
+      ],
+      "sciNameCodes": [
+        "KUHY"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "Chiang Dao.",
+      "frequency": 0
+    },
+    {
+      "sciName": "Arachnothera magna",
+      "comName": "Streaked Spiderhunter",
+      "speciesCode": "strspi1",
+      "category": "species",
+      "taxonOrder": 30115.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "STSP"
+      ],
+      "sciNameCodes": [
+        "ARMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "nectar1",
+      "familyComName": "Sunbirds and Spiderhunters",
+      "familySciName": "Nectariniidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Chloropsis aurifrons",
+      "comName": "Golden-fronted Leafbird",
+      "speciesCode": "goflea1",
+      "category": "species",
+      "taxonOrder": 30162.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GFLE"
+      ],
+      "sciNameCodes": [
+        "CHAU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "chloro5",
+      "familyComName": "Leafbirds",
+      "familySciName": "Chloropseidae",
+      "notes": "Doi Suthep & Doi Inthanon. Foothills.",
+      "frequency": 6
+    }
+  ]
+}

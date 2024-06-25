@@ -137,7 +137,7 @@ class ImageWindow:
 
             content = str(result.content)
             images = re.findall(
-                r"https://cdn\.download\.ams\.birds\.cornell\.edu/api/v1/asset/\d+/1200", content)
+                r"https://cdn\.download\.ams\.birds\.cornell\.edu/api/v\d/asset/\d+/1200", content)
             if len(images) > 2 + REQUIRED_IMAGES:  # First images are not actual images of the species.
                 self.cached_species_images = images[2:]
                 self.cached_species_code = species_code

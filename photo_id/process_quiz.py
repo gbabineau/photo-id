@@ -19,6 +19,8 @@ def sorted_species(initial_list: list, taxonomy: list) -> list:
         else:
             entry['notes'] = '' if 'notes' not in species.keys(
             ) else species['notes']
+            entry['frequency'] = -1 if 'frequency' not in species.keys(
+            ) else species['frequency']
             result.append(entry)
     # Sort
     result = sorted(result, key=lambda x: x['taxonOrder'])
@@ -53,6 +55,12 @@ def get_notes(data, common_name) -> str:
     return species.get('notes', '')
 
 
+def get_frequency(data, common_name) -> str:
+    """ Returns frequency for a common name or -1 if not found"""
+    species = next(
+        (item for item in data['species'] if item["comName"] == common_name), {})
+    return species.get('frequency', -1)
+
 def sort_quiz(name: str, taxonomy: list) -> dict:
     """ Sorts a quiz taxonomically. This is not necessary to use an unsorted quiz file in the game
        because it is sorted dynamically. However, it can be a useful utility for breaking up a
@@ -67,7 +75,7 @@ def sort_quiz(name: str, taxonomy: list) -> dict:
         json.dump(result, file, ensure_ascii=False, indent=4)
 
 
-def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file: str) -> None:
+def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file: str, start_month : int, end_month : int, location_code : str) -> None:
     """
         Accepts a target species url from eBird, sorted by frequency (descending)
 
@@ -75,9 +83,9 @@ def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file
         min_frequency : minimum frequency seen to be included in list
     """
 
-    result =     {"start_month" : 5,
-                "end_month" : 6,
-                "location" : "NO",
+    result =     {"start_month" : start_month,
+                "end_month" : end_month,
+                  "location": location_code,
                 "species" : []
                 }
     line_number = 0
@@ -113,7 +121,8 @@ def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file
                 else:
                     break
                 if not end_of_file:
-                    result['species'].append({'comName' : species, 'notes': f"frequency at location {frequency}"})
+                    result['species'].append({'comName' : species, 'frequency': frequency,
+                                              'notes': ''})
 
         with open(output_file, "wt", encoding='utf-8') as outfile:
             outfile.write(json.dumps(result, indent=2))

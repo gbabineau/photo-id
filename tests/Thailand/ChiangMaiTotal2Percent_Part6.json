@@ -1,0 +1,517 @@
+{
+  "location": "TH",
+  "start_month": 2,
+  "end_month": 2,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Phyllergates cucullatus",
+      "comName": "Mountain Tailorbird",
+      "speciesCode": "moutai2",
+      "category": "species",
+      "taxonOrder": 24708.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MOTA"
+      ],
+      "sciNameCodes": [
+        "PHCU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "scotoc1",
+      "familyComName": "Bush Warblers and Allies",
+      "familySciName": "Scotocercidae",
+      "notes": "",
+      "frequency": 7
+    },
+    {
+      "sciName": "Aegithalos concinnus",
+      "comName": "Black-throated Tit",
+      "speciesCode": "blttit2",
+      "category": "species",
+      "taxonOrder": 24811.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BTTI",
+        "BTBU",
+        "BTHC"
+      ],
+      "sciNameCodes": [
+        "AECO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "aegith2",
+      "familyComName": "Long-tailed Tits",
+      "familySciName": "Aegithalidae",
+      "notes": "Doi Sanju.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Paradoxornis guttaticollis",
+      "comName": "Spot-breasted Parrotbill",
+      "speciesCode": "spbpar1",
+      "category": "species",
+      "taxonOrder": 25014.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBPA"
+      ],
+      "sciNameCodes": [
+        "PAGU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parado1",
+      "familyComName": "Parrotbills",
+      "familySciName": "Paradoxornithidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Staphida castaniceps",
+      "comName": "Striated Yuhina",
+      "speciesCode": "stryuh1",
+      "category": "species",
+      "taxonOrder": 25090.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "STYU"
+      ],
+      "sciNameCodes": [
+        "STCA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "zoster2",
+      "familyComName": "White-eyes, Yuhinas, and Allies",
+      "familySciName": "Zosteropidae",
+      "notes": "Doi Suthep.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Zosterops erythropleurus",
+      "comName": "Chestnut-flanked White-eye",
+      "speciesCode": "cfweye1",
+      "category": "species",
+      "taxonOrder": 25188.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CFWE"
+      ],
+      "sciNameCodes": [
+        "ZOER"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "zoster2",
+      "familyComName": "White-eyes, Yuhinas, and Allies",
+      "familySciName": "Zosteropidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Zosterops simplex",
+      "comName": "Swinhoe's White-eye",
+      "speciesCode": "swiwhe1",
+      "category": "species",
+      "taxonOrder": 25189.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SWWE",
+        "SWEY"
+      ],
+      "sciNameCodes": [
+        "ZOSI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "zoster2",
+      "familyComName": "White-eyes, Yuhinas, and Allies",
+      "familySciName": "Zosteropidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 7
+    },
+    {
+      "sciName": "Zosterops palpebrosus",
+      "comName": "Indian White-eye",
+      "speciesCode": "indwhe1",
+      "category": "species",
+      "taxonOrder": 25217.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "IWEY",
+        "INWE"
+      ],
+      "sciNameCodes": [
+        "ZOPA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "zoster2",
+      "familyComName": "White-eyes, Yuhinas, and Allies",
+      "familySciName": "Zosteropidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Mixornis gularis",
+      "comName": "Pin-striped Tit-Babbler",
+      "speciesCode": "sttbab1",
+      "category": "species",
+      "taxonOrder": 25467.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PSTB"
+      ],
+      "sciNameCodes": [
+        "MIGU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "timali1",
+      "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
+      "familySciName": "Timaliidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Cyanoderma chrysaeum",
+      "comName": "Golden Babbler",
+      "speciesCode": "golbab1",
+      "category": "species",
+      "taxonOrder": 25504.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GOBA"
+      ],
+      "sciNameCodes": [
+        "CYCH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "timali1",
+      "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
+      "familySciName": "Timaliidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Pomatorhinus schisticeps",
+      "comName": "White-browed Scimitar-Babbler",
+      "speciesCode": "wbsbab1",
+      "category": "species",
+      "taxonOrder": 25599.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WBSB"
+      ],
+      "sciNameCodes": [
+        "POSC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "timali1",
+      "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
+      "familySciName": "Timaliidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Erythrogenys erythrogenys",
+      "comName": "Rusty-cheeked Scimitar-Babbler",
+      "speciesCode": "rcsbab1",
+      "category": "species",
+      "taxonOrder": 25635.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RCSB"
+      ],
+      "sciNameCodes": [
+        "ERER"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "timali1",
+      "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
+      "familySciName": "Timaliidae",
+      "notes": "",
+      "frequency": 5
+    },
+    {
+      "sciName": "Schoeniparus castaneceps",
+      "comName": "Rufous-winged Fulvetta",
+      "speciesCode": "ruwful1",
+      "category": "species",
+      "taxonOrder": 25735.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RWFU"
+      ],
+      "sciNameCodes": [
+        "SCCA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pellor2",
+      "familyComName": "Ground Babblers and Allies",
+      "familySciName": "Pellorneidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Gypsophila brevicaudata",
+      "comName": "Streaked Wren-Babbler",
+      "speciesCode": "stwbab1",
+      "category": "species",
+      "taxonOrder": 25891.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SWBA",
+        "STWB"
+      ],
+      "sciNameCodes": [
+        "GYBR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pellor2",
+      "familyComName": "Ground Babblers and Allies",
+      "familySciName": "Pellorneidae",
+      "notes": "Chiang Dao.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Alcippe fratercula",
+      "comName": "Yunnan Fulvetta",
+      "speciesCode": "gycful4",
+      "category": "species",
+      "taxonOrder": 25964.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "YUFU",
+        "GCFU"
+      ],
+      "sciNameCodes": [
+        "ALFR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 15
+    },
+    {
+      "sciName": "Cutia nipalensis",
+      "comName": "Himalayan Cutia",
+      "speciesCode": "cutia1",
+      "category": "species",
+      "taxonOrder": 25977.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HICU"
+      ],
+      "sciNameCodes": [
+        "CUNI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Sanju.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Trochalopteron melanostigma",
+      "comName": "Silver-eared Laughingthrush",
+      "speciesCode": "sielau1",
+      "category": "species",
+      "taxonOrder": 26036.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SELA"
+      ],
+      "sciNameCodes": [
+        "TRME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Heterophasia picaoides",
+      "comName": "Long-tailed Sibia",
+      "speciesCode": "lotsib1",
+      "category": "species",
+      "taxonOrder": 26049.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LTSI"
+      ],
+      "sciNameCodes": [
+        "HEPI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Sanju.",
+      "frequency": 0
+    },
+    {
+      "sciName": "Heterophasia melanoleuca",
+      "comName": "Black-backed Sibia",
+      "speciesCode": "blbsib1",
+      "category": "species",
+      "taxonOrder": 26063.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBSI",
+        "DBSI"
+      ],
+      "sciNameCodes": [
+        "HEME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 21
+    },
+    {
+      "sciName": "Actinodura cyanouroptera",
+      "comName": "Blue-winged Minla",
+      "speciesCode": "blwmin1",
+      "category": "species",
+      "taxonOrder": 26086.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BWMI"
+      ],
+      "sciNameCodes": [
+        "ACCY"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "",
+      "frequency": 9
+    },
+    {
+      "sciName": "Actinodura strigula",
+      "comName": "Chestnut-tailed Minla",
+      "speciesCode": "chtmin1",
+      "category": "species",
+      "taxonOrder": 26095.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BTMI",
+        "CTMI"
+      ],
+      "sciNameCodes": [
+        "ACST"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon. Mountaintop",
+      "frequency": 8
+    },
+    {
+      "sciName": "Actinodura ramsayi",
+      "comName": "Spectacled Barwing",
+      "speciesCode": "spebar1",
+      "category": "species",
+      "taxonOrder": 26107.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SPBA",
+        "WSBA"
+      ],
+      "sciNameCodes": [
+        "ACRA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon & Doi Ham Pok.",
+      "frequency": 7
+    },
+    {
+      "sciName": "Leiothrix argentauris",
+      "comName": "Silver-eared Mesia",
+      "speciesCode": "siemes1",
+      "category": "species",
+      "taxonOrder": 26119.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SEME"
+      ],
+      "sciNameCodes": [
+        "LEAR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Suthep & Doi Inthanon.",
+      "frequency": 9
+    },
+    {
+      "sciName": "Leioptila annectens",
+      "comName": "Rufous-backed Sibia",
+      "speciesCode": "rubsib1",
+      "category": "species",
+      "taxonOrder": 26137.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RBSI"
+      ],
+      "sciNameCodes": [
+        "LEAN"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "",
+      "frequency": 7
+    },
+    {
+      "sciName": "Liocichla ripponi",
+      "comName": "Scarlet-faced Liocichla",
+      "speciesCode": "reflio3",
+      "category": "species",
+      "taxonOrder": 26150.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SFLI"
+      ],
+      "sciNameCodes": [
+        "LIRI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Ham Pok.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Garrulax merulinus",
+      "comName": "Spot-breasted Laughingthrush",
+      "speciesCode": "spblau1",
+      "category": "species",
+      "taxonOrder": 26255.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBLA"
+      ],
+      "sciNameCodes": [
+        "GAME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Sanju. (Sensitive Species)",
+      "frequency": 0
+    }
+  ]
+}
