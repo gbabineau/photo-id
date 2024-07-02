@@ -148,7 +148,7 @@ class SpeciesFrame(ttk.Frame):
 
 
     def next_image(self):
-        if self.image_number < min(len(self.cached_image_list), IMAGES_TO_USE) -1:
+        if self.image_number < min(len(self.cached_image_list), IMAGES_TO_USE) - 1:
             self.image_number = self.image_number+1
         else:
             self.image_number = 0
@@ -156,7 +156,7 @@ class SpeciesFrame(ttk.Frame):
 
     def prior_image(self):
         if self.image_number == 0:
-            self.image_number = min(len(self.cached_image_list), IMAGES_TO_USE)
+            self.image_number = min(len(self.cached_image_list), IMAGES_TO_USE) - 1
         else:
             self.image_number = self.image_number -1
         self.update_image()

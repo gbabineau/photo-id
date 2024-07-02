@@ -5,6 +5,149 @@
   "notes": "",
   "species": [
     {
+      "sciName": "Heterophasia picaoides",
+      "comName": "Long-tailed Sibia",
+      "speciesCode": "lotsib1",
+      "category": "species",
+      "taxonOrder": 26049.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LTSI"
+      ],
+      "sciNameCodes": [
+        "HEPI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Sanju.",
+      "frequency": 0
+    },
+    {
+      "sciName": "Heterophasia melanoleuca",
+      "comName": "Black-backed Sibia",
+      "speciesCode": "blbsib1",
+      "category": "species",
+      "taxonOrder": 26063.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBSI",
+        "DBSI"
+      ],
+      "sciNameCodes": [
+        "HEME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 21
+    },
+    {
+      "sciName": "Actinodura strigula",
+      "comName": "Chestnut-tailed Minla",
+      "speciesCode": "chtmin1",
+      "category": "species",
+      "taxonOrder": 26095.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BTMI",
+        "CTMI"
+      ],
+      "sciNameCodes": [
+        "ACST"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon. Mountaintop",
+      "frequency": 8
+    },
+    {
+      "sciName": "Actinodura ramsayi",
+      "comName": "Spectacled Barwing",
+      "speciesCode": "spebar1",
+      "category": "species",
+      "taxonOrder": 26107.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SPBA",
+        "WSBA"
+      ],
+      "sciNameCodes": [
+        "ACRA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon & Doi Ham Pok.",
+      "frequency": 7
+    },
+    {
+      "sciName": "Leiothrix argentauris",
+      "comName": "Silver-eared Mesia",
+      "speciesCode": "siemes1",
+      "category": "species",
+      "taxonOrder": 26119.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SEME"
+      ],
+      "sciNameCodes": [
+        "LEAR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Suthep & Doi Inthanon.",
+      "frequency": 9
+    },
+    {
+      "sciName": "Liocichla ripponi",
+      "comName": "Scarlet-faced Liocichla",
+      "speciesCode": "reflio3",
+      "category": "species",
+      "taxonOrder": 26150.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SFLI"
+      ],
+      "sciNameCodes": [
+        "LIRI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Ham Pok.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Garrulax merulinus",
+      "comName": "Spot-breasted Laughingthrush",
+      "speciesCode": "spblau1",
+      "category": "species",
+      "taxonOrder": 26255.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBLA"
+      ],
+      "sciNameCodes": [
+        "GAME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Sanju. (Sensitive Species)",
+      "frequency": 0
+    },
+    {
       "sciName": "Garrulax strepitans",
       "comName": "White-necked Laughingthrush",
       "speciesCode": "whnlau1",
@@ -65,26 +208,6 @@
       "frequency": 5
     },
     {
-      "sciName": "Sitta frontalis",
-      "comName": "Velvet-fronted Nuthatch",
-      "speciesCode": "vefnut1",
-      "category": "species",
-      "taxonOrder": 26453.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "VFNU"
-      ],
-      "sciNameCodes": [
-        "SIFR"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "sittid1",
-      "familyComName": "Nuthatches",
-      "familySciName": "Sittidae",
-      "notes": "",
-      "frequency": 9
-    },
-    {
       "sciName": "Sitta nagaensis",
       "comName": "Chestnut-vented Nuthatch",
       "speciesCode": "chvnut1",
@@ -103,27 +226,6 @@
       "familySciName": "Sittidae",
       "notes": "",
       "frequency": 12
-    },
-    {
-      "sciName": "Certhia manipurensis",
-      "comName": "Hume's Treecreeper",
-      "speciesCode": "bnttre2",
-      "category": "species",
-      "taxonOrder": 26596.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "HUTR",
-        "MATR"
-      ],
-      "sciNameCodes": [
-        "CEMA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "certhi2",
-      "familyComName": "Treecreepers",
-      "familySciName": "Certhiidae",
-      "notes": "",
-      "frequency": 6
     },
     {
       "sciName": "Sturnus vulgaris",
@@ -190,26 +292,6 @@
       "frequency": 3
     },
     {
-      "sciName": "Sturnia malabarica",
-      "comName": "Chestnut-tailed Starling",
-      "speciesCode": "chtsta2",
-      "category": "species",
-      "taxonOrder": 27390.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "CTST"
-      ],
-      "sciNameCodes": [
-        "STMA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "sturni1",
-      "familyComName": "Starlings",
-      "familySciName": "Sturnidae",
-      "notes": "",
-      "frequency": 5
-    },
-    {
       "sciName": "Acridotheres tristis",
       "comName": "Common Myna",
       "speciesCode": "commyn",
@@ -250,46 +332,6 @@
       "frequency": 16
     },
     {
-      "sciName": "Turdus feae",
-      "comName": "Gray-sided Thrush",
-      "speciesCode": "gysthr1",
-      "category": "species",
-      "taxonOrder": 28203.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "GSTH"
-      ],
-      "sciNameCodes": [
-        "TUFE"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "turdid1",
-      "familyComName": "Thrushes and Allies",
-      "familySciName": "Turdidae",
-      "notes": "",
-      "frequency": 6
-    },
-    {
-      "sciName": "Turdus obscurus",
-      "comName": "Eyebrowed Thrush",
-      "speciesCode": "eyethr",
-      "category": "species",
-      "taxonOrder": 28204.0,
-      "bandingCodes": [
-        "EYTH"
-      ],
-      "comNameCodes": [],
-      "sciNameCodes": [
-        "TUOB"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "turdid1",
-      "familyComName": "Thrushes and Allies",
-      "familySciName": "Turdidae",
-      "notes": "",
-      "frequency": 7
-    },
-    {
       "sciName": "Copsychus saularis",
       "comName": "Oriental Magpie-Robin",
       "speciesCode": "magrob",
@@ -309,26 +351,6 @@
       "familySciName": "Muscicapidae",
       "notes": "",
       "frequency": 23
-    },
-    {
-      "sciName": "Copsychus malabaricus",
-      "comName": "White-rumped Shama",
-      "speciesCode": "whrsha",
-      "category": "species",
-      "taxonOrder": 28518.0,
-      "bandingCodes": [
-        "WRSH"
-      ],
-      "comNameCodes": [],
-      "sciNameCodes": [
-        "COMA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "muscic3",
-      "familyComName": "Old World Flycatchers",
-      "familySciName": "Muscicapidae",
-      "notes": "",
-      "frequency": 7
     },
     {
       "sciName": "Niltava grandis",
@@ -450,26 +472,6 @@
       "familySciName": "Muscicapidae",
       "notes": "Doi Suthep.",
       "frequency": 11
-    },
-    {
-      "sciName": "Brachypteryx cruralis",
-      "comName": "Himalayan Shortwing",
-      "speciesCode": "whbsho4",
-      "category": "species",
-      "taxonOrder": 28860.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "HISH"
-      ],
-      "sciNameCodes": [
-        "BRCR"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "muscic3",
-      "familyComName": "Old World Flycatchers",
-      "familySciName": "Muscicapidae",
-      "notes": "",
-      "frequency": 5
     },
     {
       "sciName": "Myophonus caeruleus",

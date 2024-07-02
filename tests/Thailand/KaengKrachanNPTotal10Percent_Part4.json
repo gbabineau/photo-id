@@ -5,87 +5,6 @@
   "notes": "",
   "species": [
     {
-      "sciName": "Pericrocotus speciosus",
-      "comName": "Scarlet Minivet",
-      "speciesCode": "scamin1",
-      "category": "species",
-      "taxonOrder": 18271.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "SCMI"
-      ],
-      "sciNameCodes": [
-        "PESP"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "campep2",
-      "familyComName": "Cuckooshrikes",
-      "familySciName": "Campephagidae",
-      "notes": "",
-      "frequency": 25
-    },
-    {
-      "sciName": "Pericrocotus divaricatus",
-      "comName": "Ashy Minivet",
-      "speciesCode": "ashmin1",
-      "category": "species",
-      "taxonOrder": 18295.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "ASMI"
-      ],
-      "sciNameCodes": [
-        "PEDI"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "campep2",
-      "familyComName": "Cuckooshrikes",
-      "familySciName": "Campephagidae",
-      "notes": "",
-      "frequency": 12
-    },
-    {
-      "sciName": "Pericrocotus cantonensis",
-      "comName": "Brown-rumped Minivet",
-      "speciesCode": "brrmin1",
-      "category": "species",
-      "taxonOrder": 18297.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "SWMI",
-        "BRMI"
-      ],
-      "sciNameCodes": [
-        "PECA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "campep2",
-      "familyComName": "Cuckooshrikes",
-      "familySciName": "Campephagidae",
-      "notes": "",
-      "frequency": 16
-    },
-    {
-      "sciName": "Pericrocotus roseus",
-      "comName": "Rosy Minivet",
-      "speciesCode": "rosmin1",
-      "category": "species",
-      "taxonOrder": 18299.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "ROMI"
-      ],
-      "sciNameCodes": [
-        "PERO"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "campep2",
-      "familyComName": "Cuckooshrikes",
-      "familySciName": "Campephagidae",
-      "notes": "",
-      "frequency": 7
-    },
-    {
       "sciName": "Lalage melaschistos",
       "comName": "Black-winged Cuckooshrike",
       "speciesCode": "bkwcus1",
@@ -265,48 +184,6 @@
       "familySciName": "Aegithinidae",
       "notes": "",
       "frequency": 24
-    },
-    {
-      "sciName": "Rhipidura javanica",
-      "comName": "Malaysian Pied-Fantail",
-      "speciesCode": "piefan1",
-      "category": "species",
-      "taxonOrder": 19896.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "MAPF",
-        "MPFA",
-        "SPFA"
-      ],
-      "sciNameCodes": [
-        "RHJA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "rhipid1",
-      "familyComName": "Fantails",
-      "familySciName": "Rhipiduridae",
-      "notes": "",
-      "frequency": 9
-    },
-    {
-      "sciName": "Rhipidura albicollis",
-      "comName": "White-throated Fantail",
-      "speciesCode": "whtfan1",
-      "category": "species",
-      "taxonOrder": 19900.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "WTFA"
-      ],
-      "sciNameCodes": [
-        "RHAL"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "rhipid1",
-      "familyComName": "Fantails",
-      "familySciName": "Rhipiduridae",
-      "notes": "",
-      "frequency": 6
     },
     {
       "sciName": "Dicrurus macrocercus",
@@ -514,6 +391,126 @@
       "familySciName": "Corvidae",
       "notes": "",
       "frequency": 23
+    },
+    {
+      "sciName": "Crypsirina temia",
+      "comName": "Racket-tailed Treepie",
+      "speciesCode": "rattre1",
+      "category": "species",
+      "taxonOrder": 21068.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RTTR"
+      ],
+      "sciNameCodes": [
+        "CRTE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Temnurus temnurus",
+      "comName": "Ratchet-tailed Treepie",
+      "speciesCode": "rattre2",
+      "category": "species",
+      "taxonOrder": 21070.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RTTR"
+      ],
+      "sciNameCodes": [
+        "TETE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 14
+    },
+    {
+      "sciName": "Culicicapa ceylonensis",
+      "comName": "Gray-headed Canary-Flycatcher",
+      "speciesCode": "gyhcaf1",
+      "category": "species",
+      "taxonOrder": 21536.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GHCF"
+      ],
+      "sciNameCodes": [
+        "CUCE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "stenos1",
+      "familyComName": "Fairy Flycatchers",
+      "familySciName": "Stenostiridae",
+      "notes": "",
+      "frequency": 36
+    },
+    {
+      "sciName": "Melanochlora sultanea",
+      "comName": "Sultan Tit",
+      "speciesCode": "sultit1",
+      "category": "species",
+      "taxonOrder": 21556.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SUTI"
+      ],
+      "sciNameCodes": [
+        "MESU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "",
+      "frequency": 40
+    },
+    {
+      "sciName": "Orthotomus sutorius",
+      "comName": "Common Tailorbird",
+      "speciesCode": "comtai1",
+      "category": "species",
+      "taxonOrder": 22738.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COTA"
+      ],
+      "sciNameCodes": [
+        "ORSU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cistic2",
+      "familyComName": "Cisticolas and Allies",
+      "familySciName": "Cisticolidae",
+      "notes": "",
+      "frequency": 30
+    },
+    {
+      "sciName": "Orthotomus atrogularis",
+      "comName": "Dark-necked Tailorbird",
+      "speciesCode": "dantai1",
+      "category": "species",
+      "taxonOrder": 22751.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "DNTA"
+      ],
+      "sciNameCodes": [
+        "ORAT"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cistic2",
+      "familyComName": "Cisticolas and Allies",
+      "familySciName": "Cisticolidae",
+      "notes": "",
+      "frequency": 44
     }
   ]
 }

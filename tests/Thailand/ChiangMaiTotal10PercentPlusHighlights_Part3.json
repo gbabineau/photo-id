@@ -5,6 +5,86 @@
   "notes": "",
   "species": [
     {
+      "sciName": "Oriolus xanthornus",
+      "comName": "Black-hooded Oriole",
+      "speciesCode": "blhori1",
+      "category": "species",
+      "taxonOrder": 19308.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BHOR"
+      ],
+      "sciNameCodes": [
+        "ORXA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "orioli1",
+      "familyComName": "Old World Orioles",
+      "familySciName": "Oriolidae",
+      "notes": "Chiang Dao.",
+      "frequency": 4
+    },
+    {
+      "sciName": "Oriolus traillii",
+      "comName": "Maroon Oriole",
+      "speciesCode": "marori2",
+      "category": "species",
+      "taxonOrder": 19320.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MAOR"
+      ],
+      "sciNameCodes": [
+        "ORTR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "orioli1",
+      "familyComName": "Old World Orioles",
+      "familySciName": "Oriolidae",
+      "notes": "Doi Suthep.",
+      "frequency": 10
+    },
+    {
+      "sciName": "Artamus fuscus",
+      "comName": "Ashy Woodswallow",
+      "speciesCode": "ashwoo2",
+      "category": "species",
+      "taxonOrder": 19355.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASWO"
+      ],
+      "sciNameCodes": [
+        "ARFU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "artami1",
+      "familyComName": "Woodswallows, Bellmagpies, and Allies",
+      "familySciName": "Artamidae",
+      "notes": "",
+      "frequency": 14
+    },
+    {
+      "sciName": "Aegithina lafresnayei",
+      "comName": "Great Iora",
+      "speciesCode": "greior1",
+      "category": "species",
+      "taxonOrder": 19649.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRIO"
+      ],
+      "sciNameCodes": [
+        "AELA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "aegith1",
+      "familyComName": "Ioras",
+      "familySciName": "Aegithinidae",
+      "notes": "Chiang Dao.",
+      "frequency": 1
+    },
+    {
       "sciName": "Rhipidura albicollis",
       "comName": "White-throated Fantail",
       "speciesCode": "whtfan1",
@@ -332,48 +412,6 @@
       "frequency": 6
     },
     {
-      "sciName": "Corvus macrorhynchos",
-      "comName": "Large-billed Crow",
-      "speciesCode": "labcro1",
-      "category": "species",
-      "taxonOrder": 21197.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "LBJJ",
-        "LBCR"
-      ],
-      "sciNameCodes": [
-        "COMA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "corvid1",
-      "familyComName": "Crows, Jays, and Magpies",
-      "familySciName": "Corvidae",
-      "notes": "",
-      "frequency": 9
-    },
-    {
-      "sciName": "Chelidorhynx hypoxanthus",
-      "comName": "Yellow-bellied Fairy-Fantail",
-      "speciesCode": "yebfan1",
-      "category": "species",
-      "taxonOrder": 21521.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "YBFF",
-        "YBFA"
-      ],
-      "sciNameCodes": [
-        "CHHY"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "stenos1",
-      "familyComName": "Fairy Flycatchers",
-      "familySciName": "Stenostiridae",
-      "notes": "",
-      "frequency": 8
-    },
-    {
       "sciName": "Culicicapa ceylonensis",
       "comName": "Gray-headed Canary-Flycatcher",
       "speciesCode": "gyhcaf1",
@@ -474,46 +512,6 @@
       "familySciName": "Cisticolidae",
       "notes": "",
       "frequency": 13
-    },
-    {
-      "sciName": "Prinia superciliaris",
-      "comName": "Hill Prinia",
-      "speciesCode": "hilpri2",
-      "category": "species",
-      "taxonOrder": 22808.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "HIPR"
-      ],
-      "sciNameCodes": [
-        "PRSU"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "cistic2",
-      "familyComName": "Cisticolas and Allies",
-      "familySciName": "Cisticolidae",
-      "notes": "",
-      "frequency": 9
-    },
-    {
-      "sciName": "Prinia inornata",
-      "comName": "Plain Prinia",
-      "speciesCode": "plapri1",
-      "category": "species",
-      "taxonOrder": 22879.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "PLPR"
-      ],
-      "sciNameCodes": [
-        "PRIN"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "cistic2",
-      "familyComName": "Cisticolas and Allies",
-      "familySciName": "Cisticolidae",
-      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 7
     }
   ]
 }

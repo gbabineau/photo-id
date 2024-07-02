@@ -46,26 +46,6 @@
       "frequency": 3
     },
     {
-      "sciName": "Ficedula erithacus",
-      "comName": "Slaty-backed Flycatcher",
-      "speciesCode": "slbfly1",
-      "category": "species",
-      "taxonOrder": 29008.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "SBFL"
-      ],
-      "sciNameCodes": [
-        "FIER"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "muscic3",
-      "familyComName": "Old World Flycatchers",
-      "familySciName": "Muscicapidae",
-      "notes": "",
-      "frequency": 9
-    },
-    {
       "sciName": "Ficedula hyperythra",
       "comName": "Snowy-browed Flycatcher",
       "speciesCode": "snbfly1",
@@ -83,26 +63,6 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inthanon. Mountaintop",
-      "frequency": 5
-    },
-    {
-      "sciName": "Ficedula strophiata",
-      "comName": "Rufous-gorgeted Flycatcher",
-      "speciesCode": "rugfly1",
-      "category": "species",
-      "taxonOrder": 29033.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "RGFL"
-      ],
-      "sciNameCodes": [
-        "FIST"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "muscic3",
-      "familyComName": "Old World Flycatchers",
-      "familySciName": "Muscicapidae",
-      "notes": "",
       "frequency": 5
     },
     {
@@ -211,27 +171,6 @@
       "frequency": 2
     },
     {
-      "sciName": "Monticola solitarius",
-      "comName": "Blue Rock-Thrush",
-      "speciesCode": "burthr",
-      "category": "species",
-      "taxonOrder": 29151.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "BLRT",
-        "BRTH"
-      ],
-      "sciNameCodes": [
-        "MOSO"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "muscic3",
-      "familyComName": "Old World Flycatchers",
-      "familySciName": "Muscicapidae",
-      "notes": "",
-      "frequency": 5
-    },
-    {
       "sciName": "Saxicola stejnegeri",
       "comName": "Amur Stonechat",
       "speciesCode": "stonec7",
@@ -335,47 +274,6 @@
       "familySciName": "Dicaeidae",
       "notes": "Doi Inthanon. Foothills.",
       "frequency": 8
-    },
-    {
-      "sciName": "Cinnyris asiaticus",
-      "comName": "Purple Sunbird",
-      "speciesCode": "pursun4",
-      "category": "species",
-      "taxonOrder": 29936.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "PUSU"
-      ],
-      "sciNameCodes": [
-        "CIAS"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "nectar1",
-      "familyComName": "Sunbirds and Spiderhunters",
-      "familySciName": "Nectariniidae",
-      "notes": "",
-      "frequency": 7
-    },
-    {
-      "sciName": "Cinnyris ornatus",
-      "comName": "Ornate Sunbird",
-      "speciesCode": "olbsun4",
-      "category": "species",
-      "taxonOrder": 29940.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "ORSU",
-        "OBSU"
-      ],
-      "sciNameCodes": [
-        "CIOR"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "nectar1",
-      "familyComName": "Sunbirds and Spiderhunters",
-      "familySciName": "Nectariniidae",
-      "notes": "",
-      "frequency": 9
     },
     {
       "sciName": "Aethopyga saturata",
@@ -518,6 +416,108 @@
       "familySciName": "Chloropseidae",
       "notes": "Doi Suthep & Doi Inthanon. Foothills.",
       "frequency": 6
+    },
+    {
+      "sciName": "Lonchura punctulata",
+      "comName": "Scaly-breasted Munia",
+      "speciesCode": "nutman",
+      "category": "species",
+      "taxonOrder": 30559.0,
+      "bandingCodes": [
+        "SBMU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LOPU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "estril1",
+      "familyComName": "Waxbills and Allies",
+      "familySciName": "Estrildidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Lonchura striata",
+      "comName": "White-rumped Munia",
+      "speciesCode": "whrmun",
+      "category": "species",
+      "taxonOrder": 30578.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WRMU"
+      ],
+      "sciNameCodes": [
+        "LOST"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "estril1",
+      "familyComName": "Waxbills and Allies",
+      "familySciName": "Estrildidae",
+      "notes": "Doi Suthep.",
+      "frequency": 4
+    },
+    {
+      "sciName": "Amandava amandava",
+      "comName": "Red Avadavat",
+      "speciesCode": "redava",
+      "category": "species",
+      "taxonOrder": 30837.0,
+      "bandingCodes": [
+        "REAV"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "AMAM"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "estril1",
+      "familyComName": "Waxbills and Allies",
+      "familySciName": "Estrildidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Passer montanus",
+      "comName": "Eurasian Tree Sparrow",
+      "speciesCode": "eutspa",
+      "category": "species",
+      "taxonOrder": 31086.0,
+      "bandingCodes": [
+        "ETSP"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PAMO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer4",
+      "familyComName": "Old World Sparrows",
+      "familySciName": "Passeridae",
+      "notes": "",
+      "frequency": 15
+    },
+    {
+      "sciName": "Motacilla cinerea",
+      "comName": "Gray Wagtail",
+      "speciesCode": "grywag",
+      "category": "species",
+      "taxonOrder": 31160.0,
+      "bandingCodes": [
+        "GRAW"
+      ],
+      "comNameCodes": [
+        "GRWA"
+      ],
+      "sciNameCodes": [
+        "MOCI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 15
     }
   ]
 }

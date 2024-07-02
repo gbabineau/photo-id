@@ -5,44 +5,144 @@
   "notes": "",
   "species": [
     {
-      "sciName": "Geokichla citrina",
-      "comName": "Orange-headed Thrush",
-      "speciesCode": "orhthr1",
+      "sciName": "Garrulax monileger",
+      "comName": "Lesser Necklaced Laughingthrush",
+      "speciesCode": "lenlau1",
       "category": "species",
-      "taxonOrder": 27939.0,
+      "taxonOrder": 26265.0,
       "bandingCodes": [],
       "comNameCodes": [
-        "OHTH"
+        "LNLA"
       ],
       "sciNameCodes": [
-        "GECI"
+        "GAMO"
       ],
       "order": "Passeriformes",
-      "familyCode": "turdid1",
-      "familyComName": "Thrushes and Allies",
-      "familySciName": "Turdidae",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 15
     },
     {
-      "sciName": "Turdus obscurus",
-      "comName": "Eyebrowed Thrush",
-      "speciesCode": "eyethr",
+      "sciName": "Garrulax leucolophus",
+      "comName": "White-crested Laughingthrush",
+      "speciesCode": "whclau2",
       "category": "species",
-      "taxonOrder": 28204.0,
+      "taxonOrder": 26282.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WCLA"
+      ],
+      "sciNameCodes": [
+        "GALE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Pterorhinus pectoralis",
+      "comName": "Greater Necklaced Laughingthrush",
+      "speciesCode": "gnlthr",
+      "category": "species",
+      "taxonOrder": 26351.0,
       "bandingCodes": [
-        "EYTH"
+        "GNLA"
       ],
       "comNameCodes": [],
       "sciNameCodes": [
-        "TUOB"
+        "PTPE"
       ],
       "order": "Passeriformes",
-      "familyCode": "turdid1",
-      "familyComName": "Thrushes and Allies",
-      "familySciName": "Turdidae",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 16
+    },
+    {
+      "sciName": "Sitta frontalis",
+      "comName": "Velvet-fronted Nuthatch",
+      "speciesCode": "vefnut1",
+      "category": "species",
+      "taxonOrder": 26453.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "VFNU"
+      ],
+      "sciNameCodes": [
+        "SIFR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sittid1",
+      "familyComName": "Nuthatches",
+      "familySciName": "Sittidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Ampeliceps coronatus",
+      "comName": "Golden-crested Myna",
+      "speciesCode": "gocmyn1",
+      "category": "species",
+      "taxonOrder": 27341.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GCMY"
+      ],
+      "sciNameCodes": [
+        "AMCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Acridotheres tristis",
+      "comName": "Common Myna",
+      "speciesCode": "commyn",
+      "category": "species",
+      "taxonOrder": 27402.0,
+      "bandingCodes": [
+        "COMY"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ACTR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "",
+      "frequency": 19
+    },
+    {
+      "sciName": "Acridotheres grandis",
+      "comName": "Great Myna",
+      "speciesCode": "whvmyn1",
+      "category": "species",
+      "taxonOrder": 27424.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRMY"
+      ],
+      "sciNameCodes": [
+        "ACGR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "",
+      "frequency": 16
     },
     {
       "sciName": "Muscicapa sibirica",
@@ -146,26 +246,6 @@
       "frequency": 26
     },
     {
-      "sciName": "Anthipes solitaris",
-      "comName": "Rufous-browed Flycatcher",
-      "speciesCode": "rubfly3",
-      "category": "species",
-      "taxonOrder": 28607.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "RBFL"
-      ],
-      "sciNameCodes": [
-        "ANSO"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "muscic3",
-      "familyComName": "Old World Flycatchers",
-      "familySciName": "Muscicapidae",
-      "notes": "",
-      "frequency": 7
-    },
-    {
       "sciName": "Cyornis hainanus",
       "comName": "Hainan Blue Flycatcher",
       "speciesCode": "habfly1",
@@ -185,27 +265,6 @@
       "familySciName": "Muscicapidae",
       "notes": "",
       "frequency": 13
-    },
-    {
-      "sciName": "Cyornis glaucicomans",
-      "comName": "Chinese Blue Flycatcher",
-      "speciesCode": "butfly2",
-      "category": "species",
-      "taxonOrder": 28633.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "CBFL",
-        "CHBF"
-      ],
-      "sciNameCodes": [
-        "CYGL"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "muscic3",
-      "familyComName": "Old World Flycatchers",
-      "familySciName": "Muscicapidae",
-      "notes": "",
-      "frequency": 9
     },
     {
       "sciName": "Cyornis whitei",
@@ -250,26 +309,6 @@
       "frequency": 13
     },
     {
-      "sciName": "Larvivora cyane",
-      "comName": "Siberian Blue Robin",
-      "speciesCode": "sibrob",
-      "category": "species",
-      "taxonOrder": 28892.0,
-      "bandingCodes": [
-        "SBRO"
-      ],
-      "comNameCodes": [],
-      "sciNameCodes": [
-        "LACY"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "muscic3",
-      "familyComName": "Old World Flycatchers",
-      "familySciName": "Muscicapidae",
-      "notes": "",
-      "frequency": 8
-    },
-    {
       "sciName": "Ficedula albicilla",
       "comName": "Taiga Flycatcher",
       "speciesCode": "taifly1",
@@ -290,68 +329,6 @@
       "familySciName": "Muscicapidae",
       "notes": "",
       "frequency": 40
-    },
-    {
-      "sciName": "Monticola solitarius",
-      "comName": "Blue Rock-Thrush",
-      "speciesCode": "burthr",
-      "category": "species",
-      "taxonOrder": 29151.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "BLRT",
-        "BRTH"
-      ],
-      "sciNameCodes": [
-        "MOSO"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "muscic3",
-      "familyComName": "Old World Flycatchers",
-      "familySciName": "Muscicapidae",
-      "notes": "",
-      "frequency": 5
-    },
-    {
-      "sciName": "Dicaeum agile",
-      "comName": "Thick-billed Flowerpecker",
-      "speciesCode": "thbflo1",
-      "category": "species",
-      "taxonOrder": 29455.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "STFL",
-        "TBFL"
-      ],
-      "sciNameCodes": [
-        "DIAG"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "dicaei1",
-      "familyComName": "Flowerpeckers",
-      "familySciName": "Dicaeidae",
-      "notes": "",
-      "frequency": 5
-    },
-    {
-      "sciName": "Dicaeum chrysorrheum",
-      "comName": "Yellow-vented Flowerpecker",
-      "speciesCode": "yevflo1",
-      "category": "species",
-      "taxonOrder": 29474.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "YVFL"
-      ],
-      "sciNameCodes": [
-        "DICH"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "dicaei1",
-      "familyComName": "Flowerpeckers",
-      "familySciName": "Dicaeidae",
-      "notes": "",
-      "frequency": 9
     },
     {
       "sciName": "Dicaeum cruentatum",
@@ -455,26 +432,6 @@
       "frequency": 17
     },
     {
-      "sciName": "Arachnothera longirostra",
-      "comName": "Little Spiderhunter",
-      "speciesCode": "litspi1",
-      "category": "species",
-      "taxonOrder": 30095.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "LISP"
-      ],
-      "sciNameCodes": [
-        "ARLO"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "nectar1",
-      "familyComName": "Sunbirds and Spiderhunters",
-      "familySciName": "Nectariniidae",
-      "notes": "",
-      "frequency": 8
-    },
-    {
       "sciName": "Arachnothera magna",
       "comName": "Streaked Spiderhunter",
       "speciesCode": "strspi1",
@@ -514,6 +471,46 @@
       "familySciName": "Irenidae",
       "notes": "",
       "frequency": 54
+    },
+    {
+      "sciName": "Chloropsis moluccensis",
+      "comName": "Blue-winged Leafbird",
+      "speciesCode": "blwlea1",
+      "category": "species",
+      "taxonOrder": 30152.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BWLE"
+      ],
+      "sciNameCodes": [
+        "CHMO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "chloro5",
+      "familyComName": "Leafbirds",
+      "familySciName": "Chloropseidae",
+      "notes": "",
+      "frequency": 46
+    },
+    {
+      "sciName": "Chloropsis aurifrons",
+      "comName": "Golden-fronted Leafbird",
+      "speciesCode": "goflea1",
+      "category": "species",
+      "taxonOrder": 30162.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GFLE"
+      ],
+      "sciNameCodes": [
+        "CHAU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "chloro5",
+      "familyComName": "Leafbirds",
+      "familySciName": "Chloropseidae",
+      "notes": "",
+      "frequency": 10
     }
   ]
 }

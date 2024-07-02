@@ -309,28 +309,8 @@
 	    "frequency": 10
     },
     {
-      "comName": "Lineated Barbet",
-      "notes": "",
-	    "frequency": 9
-    },
-    {
-      "comName": "Asian Barred Owlet",
-      "notes": "",
-	    "frequency": 9
-    },
-    {
-      "comName": "Hill Prinia",
-      "notes": "",
-	    "frequency": 9
-    },
-    {
       "comName": "Asian Green Bee-eater",
       "notes": "Doi Inthanon.",
-	    "frequency": 9
-    },
-    {
-      "comName": "Large-billed Crow",
-      "notes": "",
 	    "frequency": 9
     },
     {
@@ -339,33 +319,8 @@
 	    "frequency": 9
     },
     {
-      "comName": "Slaty-backed Flycatcher",
-      "notes": "",
-	    "frequency": 9
-    },
-    {
       "comName": "Greater Racket-tailed Drongo",
       "notes": "Doi Inthanon. Foothills.",
-	    "frequency": 9
-    },
-    {
-      "comName": "Long-tailed Minivet",
-      "notes": "",
-	    "frequency": 9
-    },
-    {
-      "comName": "Hume's Warbler",
-      "notes": "",
-	    "frequency": 9
-    },
-    {
-      "comName": "Blue-winged Minla",
-      "notes": "",
-	    "frequency": 9
-    },
-    {
-      "comName": "Velvet-fronted Nuthatch",
-      "notes": "",
 	    "frequency": 9
     },
     {
@@ -374,29 +329,9 @@
 	    "frequency": 9
     },
     {
-      "comName": "Ornate Sunbird",
-      "notes": "",
-	    "frequency": 9
-    },
-    {
       "comName": "Green-tailed Sunbird",
       "notes": "Doi Inthanon. Mountaintop",
 	    "frequency": 9
-    },
-    {
-      "comName": "Black Bulbul",
-      "notes": "",
-	    "frequency": 8
-    },
-    {
-      "comName": "Banded Bay Cuckoo",
-      "notes": "",
-	    "frequency": 8
-    },
-    {
-      "comName": "Yellow-bellied Fairy-Fantail",
-      "notes": "",
-	    "frequency": 8
     },
     {
       "comName": "Chestnut-tailed Minla",
@@ -406,11 +341,6 @@
     {
       "comName": "Gray-backed Shrike",
       "notes": "Doi Angkhang.",
-	    "frequency": 8
-    },
-    {
-      "comName": "Little Egret",
-      "notes": "",
 	    "frequency": 8
     },
     {
@@ -424,23 +354,8 @@
 	    "frequency": 8
     },
     {
-      "comName": "Gray-chinned Minivet",
-      "notes": "",
-	    "frequency": 7
-    },
-    {
-      "comName": "Purple Sunbird",
-      "notes": "",
-	    "frequency": 7
-    },
-    {
       "comName": "Crimson Sunbird",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-	    "frequency": 7
-    },
-    {
-      "comName": "White-breasted Waterhen",
-      "notes": "",
 	    "frequency": 7
     },
     {
@@ -449,49 +364,14 @@
 	    "frequency": 7
     },
     {
-      "comName": "White-throated Kingfisher",
-      "notes": "",
-	    "frequency": 7
-    },
-    {
-      "comName": "Mountain Tailorbird",
-      "notes": "",
-	    "frequency": 7
-    },
-    {
       "comName": "Swinhoe's White-eye",
       "notes": "Doi Angkhang.",
-	    "frequency": 7
-    },
-    {
-      "comName": "Common Iora",
-      "notes": "",
 	    "frequency": 7
     },
     {
       "comName": "Great Iora",
       "notes": "Chiang Dao.",
 	    "frequency": 1
-    },
-    {
-      "comName": "Eastern Cattle Egret",
-      "notes": "",
-	    "frequency": 7
-    },
-    {
-      "comName": "Eyebrowed Thrush",
-      "notes": "",
-	    "frequency": 7
-    },
-    {
-      "comName": "Green-billed Malkoha",
-      "notes": "",
-	    "frequency": 7
-    },
-    {
-      "comName": "Rufous-backed Sibia",
-      "notes": "",
-	    "frequency": 7
     },
     {
       "comName": "Hair-crested Drongo",
@@ -506,11 +386,6 @@
     {
       "comName": "Plain Prinia",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-	    "frequency": 7
-    },
-    {
-      "comName": "White-rumped Shama",
-      "notes": "",
 	    "frequency": 7
     },
     {
@@ -534,36 +409,6 @@
 	    "frequency": 6
     },
     {
-      "comName": "Gray-capped Pygmy Woodpecker",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Himalayan Swiftlet",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Puff-throated Bulbul",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Striated Swallow",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Gray-sided Thrush",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Oriental Honey-buzzard",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
       "comName": "Black-naped Monarch",
       "notes": "Doi Inthanon(Waterfall area).",
 	    "frequency": 6
@@ -572,36 +417,6 @@
       "comName": "Blyth's Paradise-Flycatcher",
       "notes": "Doi Inthanon (Waterfall area) & Chiang Dao(called asian paradise-flycatcher)",
 	    "frequency": 1
-    },
-    {
-      "comName": "Blyth's Leaf Warbler",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "House Swift",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Hume's Treecreeper",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Golden Babbler",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Short-billed Minivet",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Indian White-eye",
-      "notes": "",
-	    "frequency": 6
     },
     {
       "comName": "Golden-fronted Leafbird",
@@ -614,58 +429,13 @@
 	    "frequency": 6
     },
     {
-      "comName": "Striated Bulbul",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
       "comName": "Rufous-bellied Niltava",
       "notes": "Doi Inthanon.",
 	    "frequency": 6
     },
     {
-      "comName": "Pin-striped Tit-Babbler",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Orange-bellied Leafbird",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Shikra",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Chestnut-flanked White-eye",
-      "notes": "",
-	    "frequency": 6
-    },
-    {
-      "comName": "Black-headed Bulbul",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
-      "comName": "Rusty-cheeked Scimitar-Babbler",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
       "comName": "White-throated Fantail",
       "notes": "Doi Inthanon.",
-	    "frequency": 5
-    },
-    {
-      "comName": "Blue Rock-Thrush",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
-      "comName": "Dusky Warbler",
-      "notes": "",
 	    "frequency": 5
     },
     {
@@ -674,53 +444,8 @@
 	    "frequency": 5
     },
     {
-      "comName": "Gray-eyed Bulbul",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
-      "comName": "Indochinese Roller",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
-      "comName": "Bar-winged Flycatcher-shrike",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
-      "comName": "Chestnut-tailed Starling",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
-      "comName": "Paddyfield Pipit",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
-      "comName": "Rufous-gorgeted Flycatcher",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
       "comName": "Giant Nuthatch",
       "notes": "Doi Angkhang.",
-	    "frequency": 5
-    },
-    {
-      "comName": "Red Collared-Dove",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
-      "comName": "White-browed Scimitar-Babbler",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
-      "comName": "Himalayan Shortwing",
-      "notes": "",
 	    "frequency": 5
     },
     {
@@ -729,18 +454,8 @@
 	    "frequency": 5
     },
     {
-      "comName": "Eurasian Hoopoe",
-      "notes": "",
-	    "frequency": 5
-    },
-    {
       "comName": "Crested Finchbill",
       "notes": "Doi Ham Pok &  Doi Angkhang.",
-	    "frequency": 5
-    },
-    {
-      "comName": "Buff-barred Warbler",
-      "notes": "",
 	    "frequency": 5
     },
     {

@@ -5,6 +5,211 @@
   "notes": "",
   "species": [
     {
+      "sciName": "Aquila heliaca",
+      "comName": "Imperial Eagle",
+      "speciesCode": "impeag1",
+      "category": "species",
+      "taxonOrder": 7873.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EIEA",
+        "IMEA"
+      ],
+      "sciNameCodes": [
+        "AQHE"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Doi Inthanon.",
+      "frequency": 0
+    },
+    {
+      "sciName": "Circus spilonotus",
+      "comName": "Eastern Marsh Harrier",
+      "speciesCode": "easmah1",
+      "category": "species",
+      "taxonOrder": 7937.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EMHA",
+        "EAMH"
+      ],
+      "sciNameCodes": [
+        "CISP"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Doi Inthanon.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Circus melanoleucos",
+      "comName": "Pied Harrier",
+      "speciesCode": "piehar1",
+      "category": "species",
+      "taxonOrder": 7954.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PIHA"
+      ],
+      "sciNameCodes": [
+        "CIME"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Doi Inthanon.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Milvus migrans",
+      "comName": "Black Kite",
+      "speciesCode": "blakit1",
+      "category": "species",
+      "taxonOrder": 8165.0,
+      "bandingCodes": [
+        "BLAK"
+      ],
+      "comNameCodes": [
+        "BBKI",
+        "BLKI"
+      ],
+      "sciNameCodes": [
+        "MIMI"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Doi Inthanon.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Athene brama",
+      "comName": "Spotted Owlet",
+      "speciesCode": "spoowl1",
+      "category": "species",
+      "taxonOrder": 8894.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SPOW"
+      ],
+      "sciNameCodes": [
+        "ATBR"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Nyctyornis athertoni",
+      "comName": "Blue-bearded Bee-eater",
+      "speciesCode": "bbbeat1",
+      "category": "species",
+      "taxonOrder": 10045.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBBE"
+      ],
+      "sciNameCodes": [
+        "NYAT"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "meropi1",
+      "familyComName": "Bee-eaters",
+      "familySciName": "Meropidae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Merops orientalis",
+      "comName": "Asian Green Bee-eater",
+      "speciesCode": "grnbee3",
+      "category": "species",
+      "taxonOrder": 10088.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "AGBE"
+      ],
+      "sciNameCodes": [
+        "MEOR"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "meropi1",
+      "familyComName": "Bee-eaters",
+      "familySciName": "Meropidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 9
+    },
+    {
+      "sciName": "Psilopogon haemacephalus",
+      "comName": "Coppersmith Barbet",
+      "speciesCode": "copbar1",
+      "category": "species",
+      "taxonOrder": 10478.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COBA"
+      ],
+      "sciNameCodes": [
+        "PSHA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Psilopogon virens",
+      "comName": "Great Barbet",
+      "speciesCode": "grebar1",
+      "category": "species",
+      "taxonOrder": 10506.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRBA"
+      ],
+      "sciNameCodes": [
+        "PSVI"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 10
+    },
+    {
+      "sciName": "Psilopogon franklinii",
+      "comName": "Golden-throated Barbet",
+      "speciesCode": "gotbar2",
+      "category": "species",
+      "taxonOrder": 10541.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GTBA"
+      ],
+      "sciNameCodes": [
+        "PSFR"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 17
+    },
+    {
       "sciName": "Psilopogon asiaticus",
       "comName": "Blue-throated Barbet",
       "speciesCode": "bltbar2",
@@ -23,27 +228,6 @@
       "familySciName": "Megalaimidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
       "frequency": 16
-    },
-    {
-      "sciName": "Yungipicus canicapillus",
-      "comName": "Gray-capped Pygmy Woodpecker",
-      "speciesCode": "gycwoo1",
-      "category": "species",
-      "taxonOrder": 11016.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "GCWO",
-        "GCPW"
-      ],
-      "sciNameCodes": [
-        "YUCA"
-      ],
-      "order": "Piciformes",
-      "familyCode": "picida1",
-      "familyComName": "Woodpeckers",
-      "familySciName": "Picidae",
-      "notes": "",
-      "frequency": 6
     },
     {
       "sciName": "Dendrocopos atratus",
@@ -268,67 +452,6 @@
       "frequency": 1
     },
     {
-      "sciName": "Pericrocotus solaris",
-      "comName": "Gray-chinned Minivet",
-      "speciesCode": "gycmin1",
-      "category": "species",
-      "taxonOrder": 18244.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "GCTM",
-        "GCMI"
-      ],
-      "sciNameCodes": [
-        "PESO"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "campep2",
-      "familyComName": "Cuckooshrikes",
-      "familySciName": "Campephagidae",
-      "notes": "",
-      "frequency": 7
-    },
-    {
-      "sciName": "Pericrocotus brevirostris",
-      "comName": "Short-billed Minivet",
-      "speciesCode": "shbmin2",
-      "category": "species",
-      "taxonOrder": 18256.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "SBMI"
-      ],
-      "sciNameCodes": [
-        "PEBR"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "campep2",
-      "familyComName": "Cuckooshrikes",
-      "familySciName": "Campephagidae",
-      "notes": "",
-      "frequency": 6
-    },
-    {
-      "sciName": "Pericrocotus ethologus",
-      "comName": "Long-tailed Minivet",
-      "speciesCode": "lotmin1",
-      "category": "species",
-      "taxonOrder": 18262.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "LTMI"
-      ],
-      "sciNameCodes": [
-        "PEET"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "campep2",
-      "familyComName": "Cuckooshrikes",
-      "familySciName": "Campephagidae",
-      "notes": "",
-      "frequency": 9
-    },
-    {
       "sciName": "Pericrocotus speciosus",
       "comName": "Scarlet Minivet",
       "speciesCode": "scamin1",
@@ -389,126 +512,6 @@
       "familySciName": "Vireonidae",
       "notes": "",
       "frequency": 14
-    },
-    {
-      "sciName": "Oriolus xanthornus",
-      "comName": "Black-hooded Oriole",
-      "speciesCode": "blhori1",
-      "category": "species",
-      "taxonOrder": 19308.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "BHOR"
-      ],
-      "sciNameCodes": [
-        "ORXA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "orioli1",
-      "familyComName": "Old World Orioles",
-      "familySciName": "Oriolidae",
-      "notes": "Chiang Dao.",
-      "frequency": 4
-    },
-    {
-      "sciName": "Oriolus traillii",
-      "comName": "Maroon Oriole",
-      "speciesCode": "marori2",
-      "category": "species",
-      "taxonOrder": 19320.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "MAOR"
-      ],
-      "sciNameCodes": [
-        "ORTR"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "orioli1",
-      "familyComName": "Old World Orioles",
-      "familySciName": "Oriolidae",
-      "notes": "Doi Suthep.",
-      "frequency": 10
-    },
-    {
-      "sciName": "Artamus fuscus",
-      "comName": "Ashy Woodswallow",
-      "speciesCode": "ashwoo2",
-      "category": "species",
-      "taxonOrder": 19355.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "ASWO"
-      ],
-      "sciNameCodes": [
-        "ARFU"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "artami1",
-      "familyComName": "Woodswallows, Bellmagpies, and Allies",
-      "familySciName": "Artamidae",
-      "notes": "",
-      "frequency": 14
-    },
-    {
-      "sciName": "Hemipus picatus",
-      "comName": "Bar-winged Flycatcher-shrike",
-      "speciesCode": "bwfshr1",
-      "category": "species",
-      "taxonOrder": 19577.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "BWFS"
-      ],
-      "sciNameCodes": [
-        "HEPI"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "vangid2",
-      "familyComName": "Vangas, Helmetshrikes, and Allies",
-      "familySciName": "Vangidae",
-      "notes": "",
-      "frequency": 5
-    },
-    {
-      "sciName": "Aegithina tiphia",
-      "comName": "Common Iora",
-      "speciesCode": "comior1",
-      "category": "species",
-      "taxonOrder": 19632.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "COIO"
-      ],
-      "sciNameCodes": [
-        "AETI"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "aegith1",
-      "familyComName": "Ioras",
-      "familySciName": "Aegithinidae",
-      "notes": "",
-      "frequency": 7
-    },
-    {
-      "sciName": "Aegithina lafresnayei",
-      "comName": "Great Iora",
-      "speciesCode": "greior1",
-      "category": "species",
-      "taxonOrder": 19649.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "GRIO"
-      ],
-      "sciNameCodes": [
-        "AELA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "aegith1",
-      "familyComName": "Ioras",
-      "familySciName": "Aegithinidae",
-      "notes": "Chiang Dao.",
-      "frequency": 1
     }
   ]
 }

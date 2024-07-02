@@ -5,26 +5,151 @@
   "notes": "",
   "species": [
     {
-      "sciName": "Ninox scutulata",
-      "comName": "Brown Boobook",
-      "speciesCode": "brnhao1",
+      "sciName": "Bubulcus coromandus",
+      "comName": "Eastern Cattle Egret",
+      "speciesCode": "categr2",
       "category": "species",
-      "taxonOrder": 9143.0,
-      "bandingCodes": [],
+      "taxonOrder": 7488.0,
+      "bandingCodes": [
+        "CAEG"
+      ],
       "comNameCodes": [
-        "BRHO",
-        "BHOW",
-        "BRBO"
+        "ECEG"
       ],
       "sciNameCodes": [
-        "NISC"
+        "BUCO"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 20
+    },
+    {
+      "sciName": "Pernis ptilorhynchus",
+      "comName": "Oriental Honey-buzzard",
+      "speciesCode": "orihob2",
+      "category": "species",
+      "taxonOrder": 7688.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "OHBU",
+        "ORHB",
+        "CRHB",
+        "CHBU"
+      ],
+      "sciNameCodes": [
+        "PEPT"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "",
+      "frequency": 19
+    },
+    {
+      "sciName": "Spilornis cheela",
+      "comName": "Crested Serpent-Eagle",
+      "speciesCode": "crseag1",
+      "category": "species",
+      "taxonOrder": 7767.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CRSE",
+        "CSEA"
+      ],
+      "sciNameCodes": [
+        "SPCH"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "",
+      "frequency": 40
+    },
+    {
+      "sciName": "Accipiter trivirgatus",
+      "comName": "Crested Goshawk",
+      "speciesCode": "cregos1",
+      "category": "species",
+      "taxonOrder": 7961.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CRGO"
+      ],
+      "sciNameCodes": [
+        "ACTR"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Accipiter badius",
+      "comName": "Shikra",
+      "speciesCode": "shikra1",
+      "category": "species",
+      "taxonOrder": 7987.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LBGO",
+        "SHIK"
+      ],
+      "sciNameCodes": [
+        "ACBA"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Glaucidium cuculoides",
+      "comName": "Asian Barred Owlet",
+      "speciesCode": "asbowl1",
+      "category": "species",
+      "taxonOrder": 8858.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ABOW"
+      ],
+      "sciNameCodes": [
+        "GLCU"
       ],
       "order": "Strigiformes",
       "familyCode": "strigi1",
       "familyComName": "Owls",
       "familySciName": "Strigidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 25
+    },
+    {
+      "sciName": "Taenioptynx brodiei",
+      "comName": "Collared Owlet",
+      "speciesCode": "colowl1",
+      "category": "species",
+      "taxonOrder": 8882.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COOW"
+      ],
+      "sciNameCodes": [
+        "TABR"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "",
+      "frequency": 15
     },
     {
       "sciName": "Harpactes oreskios",
@@ -395,126 +520,6 @@
       "familySciName": "Coraciidae",
       "notes": "",
       "frequency": 36
-    },
-    {
-      "sciName": "Psilopogon haemacephalus",
-      "comName": "Coppersmith Barbet",
-      "speciesCode": "copbar1",
-      "category": "species",
-      "taxonOrder": 10478.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "COBA"
-      ],
-      "sciNameCodes": [
-        "PSHA"
-      ],
-      "order": "Piciformes",
-      "familyCode": "megala2",
-      "familyComName": "Asian Barbets",
-      "familySciName": "Megalaimidae",
-      "notes": "",
-      "frequency": 33
-    },
-    {
-      "sciName": "Psilopogon cyanotis",
-      "comName": "Blue-eared Barbet",
-      "speciesCode": "buebar1",
-      "category": "species",
-      "taxonOrder": 10492.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "BEBA"
-      ],
-      "sciNameCodes": [
-        "PSCY"
-      ],
-      "order": "Piciformes",
-      "familyCode": "megala2",
-      "familyComName": "Asian Barbets",
-      "familySciName": "Megalaimidae",
-      "notes": "",
-      "frequency": 48
-    },
-    {
-      "sciName": "Psilopogon virens",
-      "comName": "Great Barbet",
-      "speciesCode": "grebar1",
-      "category": "species",
-      "taxonOrder": 10506.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "GRBA"
-      ],
-      "sciNameCodes": [
-        "PSVI"
-      ],
-      "order": "Piciformes",
-      "familyCode": "megala2",
-      "familyComName": "Asian Barbets",
-      "familySciName": "Megalaimidae",
-      "notes": "",
-      "frequency": 18
-    },
-    {
-      "sciName": "Psilopogon mystacophanos",
-      "comName": "Red-throated Barbet",
-      "speciesCode": "retbar1",
-      "category": "species",
-      "taxonOrder": 10515.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "RTBA"
-      ],
-      "sciNameCodes": [
-        "PSMY"
-      ],
-      "order": "Piciformes",
-      "familyCode": "megala2",
-      "familyComName": "Asian Barbets",
-      "familySciName": "Megalaimidae",
-      "notes": "",
-      "frequency": 6
-    },
-    {
-      "sciName": "Psilopogon faiostrictus",
-      "comName": "Green-eared Barbet",
-      "speciesCode": "grebar3",
-      "category": "species",
-      "taxonOrder": 10526.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "GEBA"
-      ],
-      "sciNameCodes": [
-        "PSFA"
-      ],
-      "order": "Piciformes",
-      "familyCode": "megala2",
-      "familyComName": "Asian Barbets",
-      "familySciName": "Megalaimidae",
-      "notes": "",
-      "frequency": 46
-    },
-    {
-      "sciName": "Psilopogon lineatus",
-      "comName": "Lineated Barbet",
-      "speciesCode": "linbar1",
-      "category": "species",
-      "taxonOrder": 10529.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "LIBA"
-      ],
-      "sciNameCodes": [
-        "PSLI"
-      ],
-      "order": "Piciformes",
-      "familyCode": "megala2",
-      "familyComName": "Asian Barbets",
-      "familySciName": "Megalaimidae",
-      "notes": "",
-      "frequency": 8
     }
   ]
 }

@@ -5,24 +5,84 @@
   "notes": "",
   "species": [
     {
-      "sciName": "Psilopogon incognitus",
-      "comName": "Moustached Barbet",
-      "speciesCode": "moubar2",
+      "sciName": "Psilopogon haemacephalus",
+      "comName": "Coppersmith Barbet",
+      "speciesCode": "copbar1",
       "category": "species",
-      "taxonOrder": 10552.0,
+      "taxonOrder": 10478.0,
       "bandingCodes": [],
       "comNameCodes": [
-        "MOBA"
+        "COBA"
       ],
       "sciNameCodes": [
-        "PSIN"
+        "PSHA"
       ],
       "order": "Piciformes",
       "familyCode": "megala2",
       "familyComName": "Asian Barbets",
       "familySciName": "Megalaimidae",
       "notes": "",
-      "frequency": 8
+      "frequency": 33
+    },
+    {
+      "sciName": "Psilopogon cyanotis",
+      "comName": "Blue-eared Barbet",
+      "speciesCode": "buebar1",
+      "category": "species",
+      "taxonOrder": 10492.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BEBA"
+      ],
+      "sciNameCodes": [
+        "PSCY"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 48
+    },
+    {
+      "sciName": "Psilopogon virens",
+      "comName": "Great Barbet",
+      "speciesCode": "grebar1",
+      "category": "species",
+      "taxonOrder": 10506.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRBA"
+      ],
+      "sciNameCodes": [
+        "PSVI"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Psilopogon faiostrictus",
+      "comName": "Green-eared Barbet",
+      "speciesCode": "grebar3",
+      "category": "species",
+      "taxonOrder": 10526.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GEBA"
+      ],
+      "sciNameCodes": [
+        "PSFA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 46
     },
     {
       "sciName": "Psilopogon asiaticus",
@@ -43,26 +103,6 @@
       "familySciName": "Megalaimidae",
       "notes": "",
       "frequency": 29
-    },
-    {
-      "sciName": "Picumnus innominatus",
-      "comName": "Speckled Piculet",
-      "speciesCode": "spepic1",
-      "category": "species",
-      "taxonOrder": 10796.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "SPPI"
-      ],
-      "sciNameCodes": [
-        "PIIN"
-      ],
-      "order": "Piciformes",
-      "familyCode": "picida1",
-      "familyComName": "Woodpeckers",
-      "familySciName": "Picidae",
-      "notes": "",
-      "frequency": 6
     },
     {
       "sciName": "Sasia ochracea",
@@ -105,26 +145,6 @@
       "frequency": 11
     },
     {
-      "sciName": "Blythipicus pyrrhotis",
-      "comName": "Bay Woodpecker",
-      "speciesCode": "baywoo1",
-      "category": "species",
-      "taxonOrder": 11288.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "BAWO"
-      ],
-      "sciNameCodes": [
-        "BLPY"
-      ],
-      "order": "Piciformes",
-      "familyCode": "picida1",
-      "familyComName": "Woodpeckers",
-      "familySciName": "Picidae",
-      "notes": "",
-      "frequency": 6
-    },
-    {
       "sciName": "Chrysocolaptes guttacristatus",
       "comName": "Greater Flameback",
       "speciesCode": "grefla1",
@@ -145,47 +165,6 @@
       "frequency": 42
     },
     {
-      "sciName": "Meiglyptes grammithorax",
-      "comName": "Buff-rumped Woodpecker",
-      "speciesCode": "burwoo1",
-      "category": "species",
-      "taxonOrder": 11363.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "WRRW",
-        "BRWO"
-      ],
-      "sciNameCodes": [
-        "MEGR"
-      ],
-      "order": "Piciformes",
-      "familyCode": "picida1",
-      "familyComName": "Woodpeckers",
-      "familySciName": "Picidae",
-      "notes": "",
-      "frequency": 5
-    },
-    {
-      "sciName": "Gecinulus viridis",
-      "comName": "Bamboo Woodpecker",
-      "speciesCode": "bamwoo1",
-      "category": "species",
-      "taxonOrder": 11370.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "BAWO"
-      ],
-      "sciNameCodes": [
-        "GEVI"
-      ],
-      "order": "Piciformes",
-      "familyCode": "picida1",
-      "familyComName": "Woodpeckers",
-      "familySciName": "Picidae",
-      "notes": "",
-      "frequency": 6
-    },
-    {
       "sciName": "Dinopium javanense",
       "comName": "Common Flameback",
       "speciesCode": "comfla1",
@@ -204,26 +183,6 @@
       "familySciName": "Picidae",
       "notes": "",
       "frequency": 36
-    },
-    {
-      "sciName": "Picus viridanus",
-      "comName": "Streak-breasted Woodpecker",
-      "speciesCode": "stbwoo3",
-      "category": "species",
-      "taxonOrder": 11417.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "SBWO"
-      ],
-      "sciNameCodes": [
-        "PIVI"
-      ],
-      "order": "Piciformes",
-      "familyCode": "picida1",
-      "familyComName": "Woodpeckers",
-      "familySciName": "Picidae",
-      "notes": "",
-      "frequency": 9
     },
     {
       "sciName": "Picus canus",
@@ -469,45 +428,85 @@
       "frequency": 10
     },
     {
-      "sciName": "Pitta moluccensis",
-      "comName": "Blue-winged Pitta",
-      "speciesCode": "blwpit1",
+      "sciName": "Pericrocotus speciosus",
+      "comName": "Scarlet Minivet",
+      "speciesCode": "scamin1",
       "category": "species",
-      "taxonOrder": 13132.0,
+      "taxonOrder": 18271.0,
       "bandingCodes": [],
       "comNameCodes": [
-        "BWPI"
+        "SCMI"
       ],
       "sciNameCodes": [
-        "PIMO"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "pittid1",
-      "familyComName": "Pittas",
-      "familySciName": "Pittidae",
-      "notes": "",
-      "frequency": 6
-    },
-    {
-      "sciName": "Pericrocotus solaris",
-      "comName": "Gray-chinned Minivet",
-      "speciesCode": "gycmin1",
-      "category": "species",
-      "taxonOrder": 18244.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "GCTM",
-        "GCMI"
-      ],
-      "sciNameCodes": [
-        "PESO"
+        "PESP"
       ],
       "order": "Passeriformes",
       "familyCode": "campep2",
       "familyComName": "Cuckooshrikes",
       "familySciName": "Campephagidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 25
+    },
+    {
+      "sciName": "Pericrocotus divaricatus",
+      "comName": "Ashy Minivet",
+      "speciesCode": "ashmin1",
+      "category": "species",
+      "taxonOrder": 18295.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASMI"
+      ],
+      "sciNameCodes": [
+        "PEDI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Pericrocotus cantonensis",
+      "comName": "Brown-rumped Minivet",
+      "speciesCode": "brrmin1",
+      "category": "species",
+      "taxonOrder": 18297.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SWMI",
+        "BRMI"
+      ],
+      "sciNameCodes": [
+        "PECA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Pericrocotus roseus",
+      "comName": "Rosy Minivet",
+      "speciesCode": "rosmin1",
+      "category": "species",
+      "taxonOrder": 18299.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ROMI"
+      ],
+      "sciNameCodes": [
+        "PERO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 7
     }
   ]
 }

@@ -108,29 +108,6 @@
       "frequency": 12
     },
     {
-      "sciName": "Streptopelia tranquebarica",
-      "comName": "Red Collared-Dove",
-      "speciesCode": "recdov1",
-      "category": "species",
-      "taxonOrder": 2079.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "RCDO",
-        "RECD",
-        "RTDO",
-        "RETD"
-      ],
-      "sciNameCodes": [
-        "STTR"
-      ],
-      "order": "Columbiformes",
-      "familyCode": "columb2",
-      "familyComName": "Pigeons and Doves",
-      "familySciName": "Columbidae",
-      "notes": "",
-      "frequency": 5
-    },
-    {
       "sciName": "Spilopelia chinensis",
       "comName": "Spotted Dove",
       "speciesCode": "spodov",
@@ -256,26 +233,6 @@
       "frequency": 16
     },
     {
-      "sciName": "Phaenicophaeus tristis",
-      "comName": "Green-billed Malkoha",
-      "speciesCode": "grbmal1",
-      "category": "species",
-      "taxonOrder": 3180.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "GBMA"
-      ],
-      "sciNameCodes": [
-        "PHTR"
-      ],
-      "order": "Cuculiformes",
-      "familyCode": "cuculi1",
-      "familyComName": "Cuckoos",
-      "familySciName": "Cuculidae",
-      "notes": "",
-      "frequency": 7
-    },
-    {
       "sciName": "Eudynamys scolopaceus",
       "comName": "Asian Koel",
       "speciesCode": "asikoe2",
@@ -317,46 +274,6 @@
       "frequency": 2
     },
     {
-      "sciName": "Cacomantis sonneratii",
-      "comName": "Banded Bay Cuckoo",
-      "speciesCode": "babcuc2",
-      "category": "species",
-      "taxonOrder": 3343.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "BBCU"
-      ],
-      "sciNameCodes": [
-        "CASO"
-      ],
-      "order": "Cuculiformes",
-      "familyCode": "cuculi1",
-      "familyComName": "Cuckoos",
-      "familySciName": "Cuculidae",
-      "notes": "",
-      "frequency": 8
-    },
-    {
-      "sciName": "Aerodramus brevirostris",
-      "comName": "Himalayan Swiftlet",
-      "speciesCode": "himswi2",
-      "category": "species",
-      "taxonOrder": 3986.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "HISW"
-      ],
-      "sciNameCodes": [
-        "AEBR"
-      ],
-      "order": "Caprimulgiformes",
-      "familyCode": "apodid1",
-      "familyComName": "Swifts",
-      "familySciName": "Apodidae",
-      "notes": "",
-      "frequency": 6
-    },
-    {
       "sciName": "Apus cooki",
       "comName": "Cook's Swift",
       "speciesCode": "cooswi1",
@@ -378,26 +295,6 @@
       "frequency": 10
     },
     {
-      "sciName": "Apus nipalensis",
-      "comName": "House Swift",
-      "speciesCode": "houswi1",
-      "category": "species",
-      "taxonOrder": 4120.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "HOSW"
-      ],
-      "sciNameCodes": [
-        "APNI"
-      ],
-      "order": "Caprimulgiformes",
-      "familyCode": "apodid1",
-      "familyComName": "Swifts",
-      "familySciName": "Apodidae",
-      "notes": "",
-      "frequency": 6
-    },
-    {
       "sciName": "Cypsiurus balasiensis",
       "comName": "Asian Palm Swift",
       "speciesCode": "aspswi1",
@@ -417,26 +314,6 @@
       "familySciName": "Apodidae",
       "notes": "",
       "frequency": 10
-    },
-    {
-      "sciName": "Amaurornis phoenicurus",
-      "comName": "White-breasted Waterhen",
-      "speciesCode": "whbwat1",
-      "category": "species",
-      "taxonOrder": 5526.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "WBWA"
-      ],
-      "sciNameCodes": [
-        "AMPH"
-      ],
-      "order": "Gruiformes",
-      "familyCode": "rallid1",
-      "familyComName": "Rails, Gallinules, and Coots",
-      "familySciName": "Rallidae",
-      "notes": "",
-      "frequency": 7
     },
     {
       "sciName": "Vanellus cinereus",
@@ -518,6 +395,133 @@
       "familySciName": "Glareolidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
       "frequency": 2
+    },
+    {
+      "sciName": "Butorides striata",
+      "comName": "Striated Heron",
+      "speciesCode": "strher",
+      "category": "species",
+      "taxonOrder": 7439.0,
+      "bandingCodes": [
+        "STRH"
+      ],
+      "comNameCodes": [
+        "STHE",
+        "GBHE"
+      ],
+      "sciNameCodes": [
+        "BUST"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Ardeola bacchus",
+      "comName": "Chinese Pond-Heron",
+      "speciesCode": "chpher1",
+      "category": "species",
+      "taxonOrder": 7482.0,
+      "bandingCodes": [
+        "CHPH"
+      ],
+      "comNameCodes": [
+        "CPHE"
+      ],
+      "sciNameCodes": [
+        "ARBA"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Aviceda leuphotes",
+      "comName": "Black Baza",
+      "speciesCode": "blabaz1",
+      "category": "species",
+      "taxonOrder": 7731.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BLBA"
+      ],
+      "sciNameCodes": [
+        "AVLE"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Doi Suthep.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Circaetus gallicus",
+      "comName": "Short-toed Snake-Eagle",
+      "speciesCode": "shteag1",
+      "category": "species",
+      "taxonOrder": 7797.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "STSE",
+        "STEA"
+      ],
+      "sciNameCodes": [
+        "CIGA"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Doi Inthanon.",
+      "frequency": 0
+    },
+    {
+      "sciName": "Nisaetus nipalensis",
+      "comName": "Mountain Hawk-Eagle",
+      "speciesCode": "mouhae1",
+      "category": "species",
+      "taxonOrder": 7818.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MOHE",
+        "MHEA"
+      ],
+      "sciNameCodes": [
+        "NINI"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Doi Sanju.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Clanga clanga",
+      "comName": "Greater Spotted Eagle",
+      "speciesCode": "grseag1",
+      "category": "species",
+      "taxonOrder": 7855.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GSEA"
+      ],
+      "sciNameCodes": [
+        "CLCL"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Doi Inthanon.",
+      "frequency": 0
     }
   ]
 }

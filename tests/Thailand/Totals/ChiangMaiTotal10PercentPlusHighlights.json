@@ -107,29 +107,6 @@
             "frequency": 12
         },
         {
-            "sciName": "Streptopelia tranquebarica",
-            "comName": "Red Collared-Dove",
-            "speciesCode": "recdov1",
-            "category": "species",
-            "taxonOrder": 2079.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "RCDO",
-                "RECD",
-                "RTDO",
-                "RETD"
-            ],
-            "sciNameCodes": [
-                "STTR"
-            ],
-            "order": "Columbiformes",
-            "familyCode": "columb2",
-            "familyComName": "Pigeons and Doves",
-            "familySciName": "Columbidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
             "sciName": "Spilopelia chinensis",
             "comName": "Spotted Dove",
             "speciesCode": "spodov",
@@ -255,26 +232,6 @@
             "frequency": 16
         },
         {
-            "sciName": "Phaenicophaeus tristis",
-            "comName": "Green-billed Malkoha",
-            "speciesCode": "grbmal1",
-            "category": "species",
-            "taxonOrder": 3180.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "GBMA"
-            ],
-            "sciNameCodes": [
-                "PHTR"
-            ],
-            "order": "Cuculiformes",
-            "familyCode": "cuculi1",
-            "familyComName": "Cuckoos",
-            "familySciName": "Cuculidae",
-            "notes": "",
-            "frequency": 7
-        },
-        {
             "sciName": "Eudynamys scolopaceus",
             "comName": "Asian Koel",
             "speciesCode": "asikoe2",
@@ -316,46 +273,6 @@
             "frequency": 2
         },
         {
-            "sciName": "Cacomantis sonneratii",
-            "comName": "Banded Bay Cuckoo",
-            "speciesCode": "babcuc2",
-            "category": "species",
-            "taxonOrder": 3343.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "BBCU"
-            ],
-            "sciNameCodes": [
-                "CASO"
-            ],
-            "order": "Cuculiformes",
-            "familyCode": "cuculi1",
-            "familyComName": "Cuckoos",
-            "familySciName": "Cuculidae",
-            "notes": "",
-            "frequency": 8
-        },
-        {
-            "sciName": "Aerodramus brevirostris",
-            "comName": "Himalayan Swiftlet",
-            "speciesCode": "himswi2",
-            "category": "species",
-            "taxonOrder": 3986.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "HISW"
-            ],
-            "sciNameCodes": [
-                "AEBR"
-            ],
-            "order": "Caprimulgiformes",
-            "familyCode": "apodid1",
-            "familyComName": "Swifts",
-            "familySciName": "Apodidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
             "sciName": "Apus cooki",
             "comName": "Cook's Swift",
             "speciesCode": "cooswi1",
@@ -377,26 +294,6 @@
             "frequency": 10
         },
         {
-            "sciName": "Apus nipalensis",
-            "comName": "House Swift",
-            "speciesCode": "houswi1",
-            "category": "species",
-            "taxonOrder": 4120.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "HOSW"
-            ],
-            "sciNameCodes": [
-                "APNI"
-            ],
-            "order": "Caprimulgiformes",
-            "familyCode": "apodid1",
-            "familyComName": "Swifts",
-            "familySciName": "Apodidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
             "sciName": "Cypsiurus balasiensis",
             "comName": "Asian Palm Swift",
             "speciesCode": "aspswi1",
@@ -416,26 +313,6 @@
             "familySciName": "Apodidae",
             "notes": "",
             "frequency": 10
-        },
-        {
-            "sciName": "Amaurornis phoenicurus",
-            "comName": "White-breasted Waterhen",
-            "speciesCode": "whbwat1",
-            "category": "species",
-            "taxonOrder": 5526.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "WBWA"
-            ],
-            "sciNameCodes": [
-                "AMPH"
-            ],
-            "order": "Gruiformes",
-            "familyCode": "rallid1",
-            "familyComName": "Rails, Gallinules, and Coots",
-            "familySciName": "Rallidae",
-            "notes": "",
-            "frequency": 7
         },
         {
             "sciName": "Vanellus cinereus",
@@ -519,28 +396,6 @@
             "frequency": 2
         },
         {
-            "sciName": "Egretta garzetta",
-            "comName": "Little Egret",
-            "speciesCode": "litegr",
-            "category": "species",
-            "taxonOrder": 7421.0,
-            "bandingCodes": [
-                "LIEG"
-            ],
-            "comNameCodes": [
-                "LEWR"
-            ],
-            "sciNameCodes": [
-                "EGGA"
-            ],
-            "order": "Pelecaniformes",
-            "familyCode": "ardeid1",
-            "familyComName": "Herons, Egrets, and Bitterns",
-            "familySciName": "Ardeidae",
-            "notes": "",
-            "frequency": 8
-        },
-        {
             "sciName": "Butorides striata",
             "comName": "Striated Heron",
             "speciesCode": "strher",
@@ -584,51 +439,6 @@
             "familySciName": "Ardeidae",
             "notes": "",
             "frequency": 13
-        },
-        {
-            "sciName": "Bubulcus coromandus",
-            "comName": "Eastern Cattle Egret",
-            "speciesCode": "categr2",
-            "category": "species",
-            "taxonOrder": 7488.0,
-            "bandingCodes": [
-                "CAEG"
-            ],
-            "comNameCodes": [
-                "ECEG"
-            ],
-            "sciNameCodes": [
-                "BUCO"
-            ],
-            "order": "Pelecaniformes",
-            "familyCode": "ardeid1",
-            "familyComName": "Herons, Egrets, and Bitterns",
-            "familySciName": "Ardeidae",
-            "notes": "",
-            "frequency": 7
-        },
-        {
-            "sciName": "Pernis ptilorhynchus",
-            "comName": "Oriental Honey-buzzard",
-            "speciesCode": "orihob2",
-            "category": "species",
-            "taxonOrder": 7688.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "OHBU",
-                "ORHB",
-                "CRHB",
-                "CHBU"
-            ],
-            "sciNameCodes": [
-                "PEPT"
-            ],
-            "order": "Accipitriformes",
-            "familyCode": "accipi1",
-            "familyComName": "Hawks, Eagles, and Kites",
-            "familySciName": "Accipitridae",
-            "notes": "",
-            "frequency": 6
         },
         {
             "sciName": "Aviceda leuphotes",
@@ -775,27 +585,6 @@
             "frequency": 2
         },
         {
-            "sciName": "Accipiter badius",
-            "comName": "Shikra",
-            "speciesCode": "shikra1",
-            "category": "species",
-            "taxonOrder": 7987.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "LBGO",
-                "SHIK"
-            ],
-            "sciNameCodes": [
-                "ACBA"
-            ],
-            "order": "Accipitriformes",
-            "familyCode": "accipi1",
-            "familyComName": "Hawks, Eagles, and Kites",
-            "familySciName": "Accipitridae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
             "sciName": "Milvus migrans",
             "comName": "Black Kite",
             "speciesCode": "blakit1",
@@ -819,26 +608,6 @@
             "frequency": 1
         },
         {
-            "sciName": "Glaucidium cuculoides",
-            "comName": "Asian Barred Owlet",
-            "speciesCode": "asbowl1",
-            "category": "species",
-            "taxonOrder": 8858.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "ABOW"
-            ],
-            "sciNameCodes": [
-                "GLCU"
-            ],
-            "order": "Strigiformes",
-            "familyCode": "strigi1",
-            "familyComName": "Owls",
-            "familySciName": "Strigidae",
-            "notes": "",
-            "frequency": 9
-        },
-        {
             "sciName": "Athene brama",
             "comName": "Spotted Owlet",
             "speciesCode": "spoowl1",
@@ -857,51 +626,6 @@
             "familySciName": "Strigidae",
             "notes": "Doi Inthanon.",
             "frequency": 1
-        },
-        {
-            "sciName": "Upupa epops",
-            "comName": "Eurasian Hoopoe",
-            "speciesCode": "hoopoe",
-            "category": "species",
-            "taxonOrder": 9394.0,
-            "bandingCodes": [
-                "EHOO"
-            ],
-            "comNameCodes": [
-                "COHO",
-                "HOOP",
-                "EUHO"
-            ],
-            "sciNameCodes": [
-                "UPEP"
-            ],
-            "order": "Bucerotiformes",
-            "familyCode": "upupid1",
-            "familyComName": "Hoopoes",
-            "familySciName": "Upupidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
-            "sciName": "Halcyon smyrnensis",
-            "comName": "White-throated Kingfisher",
-            "speciesCode": "whtkin2",
-            "category": "species",
-            "taxonOrder": 9795.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "WBKI",
-                "WTKI"
-            ],
-            "sciNameCodes": [
-                "HASM"
-            ],
-            "order": "Coraciiformes",
-            "familyCode": "alcedi1",
-            "familyComName": "Kingfishers",
-            "familySciName": "Alcedinidae",
-            "notes": "",
-            "frequency": 7
         },
         {
             "sciName": "Nyctyornis athertoni",
@@ -944,26 +668,6 @@
             "frequency": 9
         },
         {
-            "sciName": "Coracias affinis",
-            "comName": "Indochinese Roller",
-            "speciesCode": "indrol3",
-            "category": "species",
-            "taxonOrder": 10131.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "INRO"
-            ],
-            "sciNameCodes": [
-                "COAF"
-            ],
-            "order": "Coraciiformes",
-            "familyCode": "coraci1",
-            "familyComName": "Rollers",
-            "familySciName": "Coraciidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
             "sciName": "Psilopogon haemacephalus",
             "comName": "Coppersmith Barbet",
             "speciesCode": "copbar1",
@@ -1004,26 +708,6 @@
             "frequency": 10
         },
         {
-            "sciName": "Psilopogon lineatus",
-            "comName": "Lineated Barbet",
-            "speciesCode": "linbar1",
-            "category": "species",
-            "taxonOrder": 10529.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "LIBA"
-            ],
-            "sciNameCodes": [
-                "PSLI"
-            ],
-            "order": "Piciformes",
-            "familyCode": "megala2",
-            "familyComName": "Asian Barbets",
-            "familySciName": "Megalaimidae",
-            "notes": "",
-            "frequency": 9
-        },
-        {
             "sciName": "Psilopogon franklinii",
             "comName": "Golden-throated Barbet",
             "speciesCode": "gotbar2",
@@ -1062,27 +746,6 @@
             "familySciName": "Megalaimidae",
             "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
             "frequency": 16
-        },
-        {
-            "sciName": "Yungipicus canicapillus",
-            "comName": "Gray-capped Pygmy Woodpecker",
-            "speciesCode": "gycwoo1",
-            "category": "species",
-            "taxonOrder": 11016.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "GCWO",
-                "GCPW"
-            ],
-            "sciNameCodes": [
-                "YUCA"
-            ],
-            "order": "Piciformes",
-            "familyCode": "picida1",
-            "familyComName": "Woodpeckers",
-            "familySciName": "Picidae",
-            "notes": "",
-            "frequency": 6
         },
         {
             "sciName": "Dendrocopos atratus",
@@ -1307,67 +970,6 @@
             "frequency": 1
         },
         {
-            "sciName": "Pericrocotus solaris",
-            "comName": "Gray-chinned Minivet",
-            "speciesCode": "gycmin1",
-            "category": "species",
-            "taxonOrder": 18244.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "GCTM",
-                "GCMI"
-            ],
-            "sciNameCodes": [
-                "PESO"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "campep2",
-            "familyComName": "Cuckooshrikes",
-            "familySciName": "Campephagidae",
-            "notes": "",
-            "frequency": 7
-        },
-        {
-            "sciName": "Pericrocotus brevirostris",
-            "comName": "Short-billed Minivet",
-            "speciesCode": "shbmin2",
-            "category": "species",
-            "taxonOrder": 18256.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "SBMI"
-            ],
-            "sciNameCodes": [
-                "PEBR"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "campep2",
-            "familyComName": "Cuckooshrikes",
-            "familySciName": "Campephagidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
-            "sciName": "Pericrocotus ethologus",
-            "comName": "Long-tailed Minivet",
-            "speciesCode": "lotmin1",
-            "category": "species",
-            "taxonOrder": 18262.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "LTMI"
-            ],
-            "sciNameCodes": [
-                "PEET"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "campep2",
-            "familyComName": "Cuckooshrikes",
-            "familySciName": "Campephagidae",
-            "notes": "",
-            "frequency": 9
-        },
-        {
             "sciName": "Pericrocotus speciosus",
             "comName": "Scarlet Minivet",
             "speciesCode": "scamin1",
@@ -1488,46 +1090,6 @@
             "familySciName": "Artamidae",
             "notes": "",
             "frequency": 14
-        },
-        {
-            "sciName": "Hemipus picatus",
-            "comName": "Bar-winged Flycatcher-shrike",
-            "speciesCode": "bwfshr1",
-            "category": "species",
-            "taxonOrder": 19577.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "BWFS"
-            ],
-            "sciNameCodes": [
-                "HEPI"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "vangid2",
-            "familyComName": "Vangas, Helmetshrikes, and Allies",
-            "familySciName": "Vangidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
-            "sciName": "Aegithina tiphia",
-            "comName": "Common Iora",
-            "speciesCode": "comior1",
-            "category": "species",
-            "taxonOrder": 19632.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "COIO"
-            ],
-            "sciNameCodes": [
-                "AETI"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "aegith1",
-            "familyComName": "Ioras",
-            "familySciName": "Aegithinidae",
-            "notes": "",
-            "frequency": 7
         },
         {
             "sciName": "Aegithina lafresnayei",
@@ -1877,48 +1439,6 @@
             "frequency": 6
         },
         {
-            "sciName": "Corvus macrorhynchos",
-            "comName": "Large-billed Crow",
-            "speciesCode": "labcro1",
-            "category": "species",
-            "taxonOrder": 21197.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "LBJJ",
-                "LBCR"
-            ],
-            "sciNameCodes": [
-                "COMA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "corvid1",
-            "familyComName": "Crows, Jays, and Magpies",
-            "familySciName": "Corvidae",
-            "notes": "",
-            "frequency": 9
-        },
-        {
-            "sciName": "Chelidorhynx hypoxanthus",
-            "comName": "Yellow-bellied Fairy-Fantail",
-            "speciesCode": "yebfan1",
-            "category": "species",
-            "taxonOrder": 21521.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "YBFF",
-                "YBFA"
-            ],
-            "sciNameCodes": [
-                "CHHY"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "stenos1",
-            "familyComName": "Fairy Flycatchers",
-            "familySciName": "Stenostiridae",
-            "notes": "",
-            "frequency": 8
-        },
-        {
             "sciName": "Culicicapa ceylonensis",
             "comName": "Gray-headed Canary-Flycatcher",
             "speciesCode": "gyhcaf1",
@@ -2021,26 +1541,6 @@
             "frequency": 13
         },
         {
-            "sciName": "Prinia superciliaris",
-            "comName": "Hill Prinia",
-            "speciesCode": "hilpri2",
-            "category": "species",
-            "taxonOrder": 22808.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "HIPR"
-            ],
-            "sciNameCodes": [
-                "PRSU"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "cistic2",
-            "familyComName": "Cisticolas and Allies",
-            "familySciName": "Cisticolidae",
-            "notes": "",
-            "frequency": 9
-        },
-        {
             "sciName": "Prinia inornata",
             "comName": "Plain Prinia",
             "speciesCode": "plapri1",
@@ -2103,88 +1603,6 @@
             "frequency": 21
         },
         {
-            "sciName": "Cecropis striolata",
-            "comName": "Striated Swallow",
-            "speciesCode": "strswa2",
-            "category": "species",
-            "taxonOrder": 23827.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "RRSW",
-                "STSW"
-            ],
-            "sciNameCodes": [
-                "CEST"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "hirund2",
-            "familyComName": "Swallows",
-            "familySciName": "Hirundinidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
-            "sciName": "Alophoixus pallidus",
-            "comName": "Puff-throated Bulbul",
-            "speciesCode": "putbul1",
-            "category": "species",
-            "taxonOrder": 24062.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "PTCB",
-                "PTBU"
-            ],
-            "sciNameCodes": [
-                "ALPA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "pycnon4",
-            "familyComName": "Bulbuls",
-            "familySciName": "Pycnonotidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
-            "sciName": "Alcurus striatus",
-            "comName": "Striated Bulbul",
-            "speciesCode": "strbul2",
-            "category": "species",
-            "taxonOrder": 24071.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "STBU"
-            ],
-            "sciNameCodes": [
-                "ALST"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "pycnon4",
-            "familyComName": "Bulbuls",
-            "familySciName": "Pycnonotidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
-            "sciName": "Iole propinqua",
-            "comName": "Gray-eyed Bulbul",
-            "speciesCode": "gyebul1",
-            "category": "species",
-            "taxonOrder": 24086.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "GEBU"
-            ],
-            "sciNameCodes": [
-                "IOPR"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "pycnon4",
-            "familyComName": "Bulbuls",
-            "familySciName": "Pycnonotidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
             "sciName": "Ixos mcclellandii",
             "comName": "Mountain Bulbul",
             "speciesCode": "moubul2",
@@ -2203,47 +1621,6 @@
             "familySciName": "Pycnonotidae",
             "notes": "Doi Suthep.",
             "frequency": 16
-        },
-        {
-            "sciName": "Hypsipetes leucocephalus",
-            "comName": "Black Bulbul",
-            "speciesCode": "blabul1",
-            "category": "species",
-            "taxonOrder": 24173.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "HBBU",
-                "BLBU"
-            ],
-            "sciNameCodes": [
-                "HYLE"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "pycnon4",
-            "familyComName": "Bulbuls",
-            "familySciName": "Pycnonotidae",
-            "notes": "",
-            "frequency": 8
-        },
-        {
-            "sciName": "Microtarsus melanocephalos",
-            "comName": "Black-headed Bulbul",
-            "speciesCode": "blhbul1",
-            "category": "species",
-            "taxonOrder": 24202.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "BHBU"
-            ],
-            "sciNameCodes": [
-                "MIME"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "pycnon4",
-            "familyComName": "Bulbuls",
-            "familySciName": "Pycnonotidae",
-            "notes": "",
-            "frequency": 5
         },
         {
             "sciName": "Rubigula flaviventris",
@@ -2407,26 +1784,6 @@
             "frequency": 6
         },
         {
-            "sciName": "Phylloscopus pulcher",
-            "comName": "Buff-barred Warbler",
-            "speciesCode": "bubwar1",
-            "category": "species",
-            "taxonOrder": 24380.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "BBWA"
-            ],
-            "sciNameCodes": [
-                "PHPU"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "phyllo4",
-            "familyComName": "Leaf Warblers",
-            "familySciName": "Phylloscopidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
             "sciName": "Phylloscopus inornatus",
             "comName": "Yellow-browed Warbler",
             "speciesCode": "yebwar3",
@@ -2447,48 +1804,6 @@
             "frequency": 21
         },
         {
-            "sciName": "Phylloscopus humei",
-            "comName": "Hume's Warbler",
-            "speciesCode": "humwar1",
-            "category": "species",
-            "taxonOrder": 24384.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "HUWA",
-                "HULW",
-                "HLWA"
-            ],
-            "sciNameCodes": [
-                "PHHU"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "phyllo4",
-            "familyComName": "Leaf Warblers",
-            "familySciName": "Phylloscopidae",
-            "notes": "",
-            "frequency": 9
-        },
-        {
-            "sciName": "Phylloscopus fuscatus",
-            "comName": "Dusky Warbler",
-            "speciesCode": "duswar",
-            "category": "species",
-            "taxonOrder": 24410.0,
-            "bandingCodes": [
-                "DUWA"
-            ],
-            "comNameCodes": [],
-            "sciNameCodes": [
-                "PHFU"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "phyllo4",
-            "familyComName": "Leaf Warblers",
-            "familySciName": "Phylloscopidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
             "sciName": "Phylloscopus castaniceps",
             "comName": "Chestnut-crowned Warbler",
             "speciesCode": "chcwar2",
@@ -2507,27 +1822,6 @@
             "familySciName": "Phylloscopidae",
             "notes": "Doi Sanju.",
             "frequency": 3
-        },
-        {
-            "sciName": "Phylloscopus reguloides",
-            "comName": "Blyth's Leaf Warbler",
-            "speciesCode": "blylew1",
-            "category": "species",
-            "taxonOrder": 24551.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "BLLW",
-                "BLWA"
-            ],
-            "sciNameCodes": [
-                "PHRE"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "phyllo4",
-            "familyComName": "Leaf Warblers",
-            "familySciName": "Phylloscopidae",
-            "notes": "",
-            "frequency": 6
         },
         {
             "sciName": "Phylloscopus intensior",
@@ -2569,26 +1863,6 @@
             "familySciName": "Scotocercidae",
             "notes": "Doi Inthanon. Mountaintop.",
             "frequency": 6
-        },
-        {
-            "sciName": "Phyllergates cucullatus",
-            "comName": "Mountain Tailorbird",
-            "speciesCode": "moutai2",
-            "category": "species",
-            "taxonOrder": 24708.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "MOTA"
-            ],
-            "sciNameCodes": [
-                "PHCU"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "scotoc1",
-            "familyComName": "Bush Warblers and Allies",
-            "familySciName": "Scotocercidae",
-            "notes": "",
-            "frequency": 7
         },
         {
             "sciName": "Aegithalos concinnus",
@@ -2653,26 +1927,6 @@
             "frequency": 2
         },
         {
-            "sciName": "Zosterops erythropleurus",
-            "comName": "Chestnut-flanked White-eye",
-            "speciesCode": "cfweye1",
-            "category": "species",
-            "taxonOrder": 25188.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "CFWE"
-            ],
-            "sciNameCodes": [
-                "ZOER"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "zoster2",
-            "familyComName": "White-eyes, Yuhinas, and Allies",
-            "familySciName": "Zosteropidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
             "sciName": "Zosterops simplex",
             "comName": "Swinhoe's White-eye",
             "speciesCode": "swiwhe1",
@@ -2692,107 +1946,6 @@
             "familySciName": "Zosteropidae",
             "notes": "Doi Angkhang.",
             "frequency": 7
-        },
-        {
-            "sciName": "Zosterops palpebrosus",
-            "comName": "Indian White-eye",
-            "speciesCode": "indwhe1",
-            "category": "species",
-            "taxonOrder": 25217.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "IWEY",
-                "INWE"
-            ],
-            "sciNameCodes": [
-                "ZOPA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "zoster2",
-            "familyComName": "White-eyes, Yuhinas, and Allies",
-            "familySciName": "Zosteropidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
-            "sciName": "Mixornis gularis",
-            "comName": "Pin-striped Tit-Babbler",
-            "speciesCode": "sttbab1",
-            "category": "species",
-            "taxonOrder": 25467.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "PSTB"
-            ],
-            "sciNameCodes": [
-                "MIGU"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "timali1",
-            "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
-            "familySciName": "Timaliidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
-            "sciName": "Cyanoderma chrysaeum",
-            "comName": "Golden Babbler",
-            "speciesCode": "golbab1",
-            "category": "species",
-            "taxonOrder": 25504.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "GOBA"
-            ],
-            "sciNameCodes": [
-                "CYCH"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "timali1",
-            "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
-            "familySciName": "Timaliidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
-            "sciName": "Pomatorhinus schisticeps",
-            "comName": "White-browed Scimitar-Babbler",
-            "speciesCode": "wbsbab1",
-            "category": "species",
-            "taxonOrder": 25599.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "WBSB"
-            ],
-            "sciNameCodes": [
-                "POSC"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "timali1",
-            "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
-            "familySciName": "Timaliidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
-            "sciName": "Erythrogenys erythrogenys",
-            "comName": "Rusty-cheeked Scimitar-Babbler",
-            "speciesCode": "rcsbab1",
-            "category": "species",
-            "taxonOrder": 25635.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "RCSB"
-            ],
-            "sciNameCodes": [
-                "ERER"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "timali1",
-            "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
-            "familySciName": "Timaliidae",
-            "notes": "",
-            "frequency": 5
         },
         {
             "sciName": "Schoeniparus castaneceps",
@@ -2938,26 +2091,6 @@
             "frequency": 21
         },
         {
-            "sciName": "Actinodura cyanouroptera",
-            "comName": "Blue-winged Minla",
-            "speciesCode": "blwmin1",
-            "category": "species",
-            "taxonOrder": 26086.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "BWMI"
-            ],
-            "sciNameCodes": [
-                "ACCY"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "leioth1",
-            "familyComName": "Laughingthrushes and Allies",
-            "familySciName": "Leiothrichidae",
-            "notes": "",
-            "frequency": 9
-        },
-        {
             "sciName": "Actinodura strigula",
             "comName": "Chestnut-tailed Minla",
             "speciesCode": "chtmin1",
@@ -3018,26 +2151,6 @@
             "familySciName": "Leiothrichidae",
             "notes": "Doi Suthep & Doi Inthanon.",
             "frequency": 9
-        },
-        {
-            "sciName": "Leioptila annectens",
-            "comName": "Rufous-backed Sibia",
-            "speciesCode": "rubsib1",
-            "category": "species",
-            "taxonOrder": 26137.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "RBSI"
-            ],
-            "sciNameCodes": [
-                "LEAN"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "leioth1",
-            "familyComName": "Laughingthrushes and Allies",
-            "familySciName": "Leiothrichidae",
-            "notes": "",
-            "frequency": 7
         },
         {
             "sciName": "Liocichla ripponi",
@@ -3140,26 +2253,6 @@
             "frequency": 5
         },
         {
-            "sciName": "Sitta frontalis",
-            "comName": "Velvet-fronted Nuthatch",
-            "speciesCode": "vefnut1",
-            "category": "species",
-            "taxonOrder": 26453.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "VFNU"
-            ],
-            "sciNameCodes": [
-                "SIFR"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "sittid1",
-            "familyComName": "Nuthatches",
-            "familySciName": "Sittidae",
-            "notes": "",
-            "frequency": 9
-        },
-        {
             "sciName": "Sitta nagaensis",
             "comName": "Chestnut-vented Nuthatch",
             "speciesCode": "chvnut1",
@@ -3178,27 +2271,6 @@
             "familySciName": "Sittidae",
             "notes": "",
             "frequency": 12
-        },
-        {
-            "sciName": "Certhia manipurensis",
-            "comName": "Hume's Treecreeper",
-            "speciesCode": "bnttre2",
-            "category": "species",
-            "taxonOrder": 26596.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "HUTR",
-                "MATR"
-            ],
-            "sciNameCodes": [
-                "CEMA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "certhi2",
-            "familyComName": "Treecreepers",
-            "familySciName": "Certhiidae",
-            "notes": "",
-            "frequency": 6
         },
         {
             "sciName": "Sturnus vulgaris",
@@ -3265,26 +2337,6 @@
             "frequency": 3
         },
         {
-            "sciName": "Sturnia malabarica",
-            "comName": "Chestnut-tailed Starling",
-            "speciesCode": "chtsta2",
-            "category": "species",
-            "taxonOrder": 27390.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "CTST"
-            ],
-            "sciNameCodes": [
-                "STMA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "sturni1",
-            "familyComName": "Starlings",
-            "familySciName": "Sturnidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
             "sciName": "Acridotheres tristis",
             "comName": "Common Myna",
             "speciesCode": "commyn",
@@ -3325,46 +2377,6 @@
             "frequency": 16
         },
         {
-            "sciName": "Turdus feae",
-            "comName": "Gray-sided Thrush",
-            "speciesCode": "gysthr1",
-            "category": "species",
-            "taxonOrder": 28203.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "GSTH"
-            ],
-            "sciNameCodes": [
-                "TUFE"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "turdid1",
-            "familyComName": "Thrushes and Allies",
-            "familySciName": "Turdidae",
-            "notes": "",
-            "frequency": 6
-        },
-        {
-            "sciName": "Turdus obscurus",
-            "comName": "Eyebrowed Thrush",
-            "speciesCode": "eyethr",
-            "category": "species",
-            "taxonOrder": 28204.0,
-            "bandingCodes": [
-                "EYTH"
-            ],
-            "comNameCodes": [],
-            "sciNameCodes": [
-                "TUOB"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "turdid1",
-            "familyComName": "Thrushes and Allies",
-            "familySciName": "Turdidae",
-            "notes": "",
-            "frequency": 7
-        },
-        {
             "sciName": "Copsychus saularis",
             "comName": "Oriental Magpie-Robin",
             "speciesCode": "magrob",
@@ -3384,26 +2396,6 @@
             "familySciName": "Muscicapidae",
             "notes": "",
             "frequency": 23
-        },
-        {
-            "sciName": "Copsychus malabaricus",
-            "comName": "White-rumped Shama",
-            "speciesCode": "whrsha",
-            "category": "species",
-            "taxonOrder": 28518.0,
-            "bandingCodes": [
-                "WRSH"
-            ],
-            "comNameCodes": [],
-            "sciNameCodes": [
-                "COMA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "muscic3",
-            "familyComName": "Old World Flycatchers",
-            "familySciName": "Muscicapidae",
-            "notes": "",
-            "frequency": 7
         },
         {
             "sciName": "Niltava grandis",
@@ -3527,26 +2519,6 @@
             "frequency": 11
         },
         {
-            "sciName": "Brachypteryx cruralis",
-            "comName": "Himalayan Shortwing",
-            "speciesCode": "whbsho4",
-            "category": "species",
-            "taxonOrder": 28860.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "HISH"
-            ],
-            "sciNameCodes": [
-                "BRCR"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "muscic3",
-            "familyComName": "Old World Flycatchers",
-            "familySciName": "Muscicapidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
             "sciName": "Myophonus caeruleus",
             "comName": "Blue Whistling-Thrush",
             "speciesCode": "blwthr1",
@@ -3629,26 +2601,6 @@
             "frequency": 3
         },
         {
-            "sciName": "Ficedula erithacus",
-            "comName": "Slaty-backed Flycatcher",
-            "speciesCode": "slbfly1",
-            "category": "species",
-            "taxonOrder": 29008.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "SBFL"
-            ],
-            "sciNameCodes": [
-                "FIER"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "muscic3",
-            "familyComName": "Old World Flycatchers",
-            "familySciName": "Muscicapidae",
-            "notes": "",
-            "frequency": 9
-        },
-        {
             "sciName": "Ficedula hyperythra",
             "comName": "Snowy-browed Flycatcher",
             "speciesCode": "snbfly1",
@@ -3666,26 +2618,6 @@
             "familyComName": "Old World Flycatchers",
             "familySciName": "Muscicapidae",
             "notes": "Doi Inthanon. Mountaintop",
-            "frequency": 5
-        },
-        {
-            "sciName": "Ficedula strophiata",
-            "comName": "Rufous-gorgeted Flycatcher",
-            "speciesCode": "rugfly1",
-            "category": "species",
-            "taxonOrder": 29033.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "RGFL"
-            ],
-            "sciNameCodes": [
-                "FIST"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "muscic3",
-            "familyComName": "Old World Flycatchers",
-            "familySciName": "Muscicapidae",
-            "notes": "",
             "frequency": 5
         },
         {
@@ -3794,27 +2726,6 @@
             "frequency": 2
         },
         {
-            "sciName": "Monticola solitarius",
-            "comName": "Blue Rock-Thrush",
-            "speciesCode": "burthr",
-            "category": "species",
-            "taxonOrder": 29151.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "BLRT",
-                "BRTH"
-            ],
-            "sciNameCodes": [
-                "MOSO"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "muscic3",
-            "familyComName": "Old World Flycatchers",
-            "familySciName": "Muscicapidae",
-            "notes": "",
-            "frequency": 5
-        },
-        {
             "sciName": "Saxicola stejnegeri",
             "comName": "Amur Stonechat",
             "speciesCode": "stonec7",
@@ -3918,47 +2829,6 @@
             "familySciName": "Dicaeidae",
             "notes": "Doi Inthanon. Foothills.",
             "frequency": 8
-        },
-        {
-            "sciName": "Cinnyris asiaticus",
-            "comName": "Purple Sunbird",
-            "speciesCode": "pursun4",
-            "category": "species",
-            "taxonOrder": 29936.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "PUSU"
-            ],
-            "sciNameCodes": [
-                "CIAS"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "nectar1",
-            "familyComName": "Sunbirds and Spiderhunters",
-            "familySciName": "Nectariniidae",
-            "notes": "",
-            "frequency": 7
-        },
-        {
-            "sciName": "Cinnyris ornatus",
-            "comName": "Ornate Sunbird",
-            "speciesCode": "olbsun4",
-            "category": "species",
-            "taxonOrder": 29940.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "ORSU",
-                "OBSU"
-            ],
-            "sciNameCodes": [
-                "CIOR"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "nectar1",
-            "familyComName": "Sunbirds and Spiderhunters",
-            "familySciName": "Nectariniidae",
-            "notes": "",
-            "frequency": 9
         },
         {
             "sciName": "Aethopyga saturata",
@@ -4100,27 +2970,6 @@
             "familyComName": "Leafbirds",
             "familySciName": "Chloropseidae",
             "notes": "Doi Suthep & Doi Inthanon. Foothills.",
-            "frequency": 6
-        },
-        {
-            "sciName": "Chloropsis hardwickii",
-            "comName": "Orange-bellied Leafbird",
-            "speciesCode": "orblea1",
-            "category": "species",
-            "taxonOrder": 30171.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "OBCL",
-                "OBLE"
-            ],
-            "sciNameCodes": [
-                "CHHA"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "chloro5",
-            "familyComName": "Leafbirds",
-            "familySciName": "Chloropseidae",
-            "notes": "",
             "frequency": 6
         },
         {
@@ -4266,26 +3115,6 @@
             "familySciName": "Motacillidae",
             "notes": "Doi Inthanon.",
             "frequency": 13
-        },
-        {
-            "sciName": "Anthus rufulus",
-            "comName": "Paddyfield Pipit",
-            "speciesCode": "oripip1",
-            "category": "species",
-            "taxonOrder": 31237.0,
-            "bandingCodes": [],
-            "comNameCodes": [
-                "PAPI"
-            ],
-            "sciNameCodes": [
-                "ANRU"
-            ],
-            "order": "Passeriformes",
-            "familyCode": "motaci1",
-            "familyComName": "Wagtails and Pipits",
-            "familySciName": "Motacillidae",
-            "notes": "",
-            "frequency": 5
         },
         {
             "sciName": "Anthus hodgsoni",
