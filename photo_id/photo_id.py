@@ -8,7 +8,6 @@ import logging
 from tkinter import messagebox, Tk, Menu, filedialog, simpledialog
 import get_taxonomy
 import get_have_list
-import image_window
 import match_window
 import process_quiz
 
@@ -26,7 +25,6 @@ class MainWindow:
         self.root.title('Photo ID quiz')
         menubar = Menu(self.root)
         file_menu = Menu(menubar, tearoff=0)
-        file_menu.add_command(label="Open Single Photo Quiz", command=self.file_open)
         file_menu.add_command(label="Open Group Photos Quiz", command=self.match_open)
         file_menu.add_command(label="Open Have List",
                               command=self.have_list_open)
@@ -46,14 +44,6 @@ class MainWindow:
 
         self.root.config(menu=menubar)
         self.root.mainloop()
-
-    def file_open(self) -> None:
-        """ Open and start a new quiz defined by a quiz file. """
-        filename = filedialog.askopenfilename(
-            title='Select a Quiz File', initialdir='.', filetypes=[('json files', '*.json')])
-        if filename != '':
-            image_window.ImageWindow(
-                filename, self.taxonomy, self.have_list)
 
     def match_open(self) -> None:
         """ Open and start a new matching game defined by a quiz file. """

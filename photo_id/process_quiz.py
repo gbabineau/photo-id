@@ -19,8 +19,8 @@ def sorted_species(initial_list: list, taxonomy: list) -> list:
         else:
             entry['notes'] = '' if 'notes' not in species.keys(
             ) else species['notes']
-            entry['frequency'] = -1 if 'frequency' not in species.keys(
-            ) else species['frequency']
+            if 'frequency' in species.keys():
+                entry['frequency'] = species['frequency']
             result.append(entry)
     # Sort
     result = sorted(result, key=lambda x: x['taxonOrder'])

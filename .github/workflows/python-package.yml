@@ -6,7 +6,7 @@ name: Python package
 on:
   push:
     branches:
-    
+
   pull_request:
     types: [opened, synchronize, reopened]
 
@@ -37,7 +37,7 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         poetry run flake8 . --extend-exclude=.venv --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test
-      run: poetry run pytest
+      run: poetry run pytest --cov=photo_id --cov-report xml:coverage.xml
   sonarcloud:
     runs-on: ubuntu-latest
     steps:

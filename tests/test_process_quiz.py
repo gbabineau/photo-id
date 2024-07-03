@@ -32,9 +32,9 @@ class TestProcessQuiz(unittest.TestCase):
         ]
 
         expected = {
+            "location": "",
             "start_month": 5,
             "end_month": 6,
-            "location": "",
             "notes": "",
             "species": [
                 {"comName": "Brambling", "taxonOrder": 1, "notes": ""},
