@@ -1,0 +1,382 @@
+{
+  "location": "FI",
+  "start_month": 5,
+  "end_month": 5,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Passer domesticus",
+      "comName": "House Sparrow",
+      "speciesCode": "houspa",
+      "category": "species",
+      "taxonOrder": 31018.0,
+      "bandingCodes": [
+        "HOSP"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PADO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer4",
+      "familyComName": "Old World Sparrows",
+      "familySciName": "Passeridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Passer montanus",
+      "comName": "Eurasian Tree Sparrow",
+      "speciesCode": "eutspa",
+      "category": "species",
+      "taxonOrder": 31086.0,
+      "bandingCodes": [
+        "ETSP"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PAMO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer4",
+      "familyComName": "Old World Sparrows",
+      "familySciName": "Passeridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Motacilla flava",
+      "comName": "Western Yellow Wagtail",
+      "speciesCode": "eaywag1",
+      "category": "species",
+      "taxonOrder": 31164.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WYWA"
+      ],
+      "sciNameCodes": [
+        "MOFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Motacilla alba",
+      "comName": "White Wagtail",
+      "speciesCode": "whiwag",
+      "category": "species",
+      "taxonOrder": 31202.0,
+      "bandingCodes": [
+        "WHWA"
+      ],
+      "comNameCodes": [
+        "PWWA"
+      ],
+      "sciNameCodes": [
+        "MOAL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Anthus pratensis",
+      "comName": "Meadow Pipit",
+      "speciesCode": "meapip1",
+      "category": "species",
+      "taxonOrder": 31332.0,
+      "bandingCodes": [
+        "MEPI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ANPR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Anthus trivialis",
+      "comName": "Tree Pipit",
+      "speciesCode": "trepip",
+      "category": "species",
+      "taxonOrder": 31336.0,
+      "bandingCodes": [
+        "TRPI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ANTR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Fringilla coelebs",
+      "comName": "Common Chaffinch",
+      "speciesCode": "comcha",
+      "category": "species",
+      "taxonOrder": 31427.0,
+      "bandingCodes": [
+        "CCHA"
+      ],
+      "comNameCodes": [
+        "CHAF",
+        "EUCH",
+        "COCH"
+      ],
+      "sciNameCodes": [
+        "FRCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Fringilla montifringilla",
+      "comName": "Brambling",
+      "speciesCode": "brambl",
+      "category": "species",
+      "taxonOrder": 31453.0,
+      "bandingCodes": [
+        "BRAM"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "FRMO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Carpodacus erythrinus",
+      "comName": "Common Rosefinch",
+      "speciesCode": "comros",
+      "category": "species",
+      "taxonOrder": 31627.0,
+      "bandingCodes": [
+        "CORO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAER"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Pyrrhula pyrrhula",
+      "comName": "Eurasian Bullfinch",
+      "speciesCode": "eurbul",
+      "category": "species",
+      "taxonOrder": 31731.0,
+      "bandingCodes": [
+        "EUBU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PYPY"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Chloris chloris",
+      "comName": "European Greenfinch",
+      "speciesCode": "eurgre1",
+      "category": "species",
+      "taxonOrder": 31816.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EUGR"
+      ],
+      "sciNameCodes": [
+        "CHCH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Linaria cannabina",
+      "comName": "Eurasian Linnet",
+      "speciesCode": "eurlin1",
+      "category": "species",
+      "taxonOrder": 31951.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EULI",
+        "COLI"
+      ],
+      "sciNameCodes": [
+        "LICA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Acanthis flammea",
+      "comName": "Common Redpoll",
+      "speciesCode": "comred",
+      "category": "species",
+      "taxonOrder": 31962.0,
+      "bandingCodes": [
+        "CORE"
+      ],
+      "comNameCodes": [
+        "REDP"
+      ],
+      "sciNameCodes": [
+        "ACFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Loxia curvirostra",
+      "comName": "Red Crossbill",
+      "speciesCode": "redcro",
+      "category": "species",
+      "taxonOrder": 31977.0,
+      "bandingCodes": [
+        "RECR"
+      ],
+      "comNameCodes": [
+        "COCR"
+      ],
+      "sciNameCodes": [
+        "LOCU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Spinus spinus",
+      "comName": "Eurasian Siskin",
+      "speciesCode": "eursis",
+      "category": "species",
+      "taxonOrder": 32072.0,
+      "bandingCodes": [
+        "EUSI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "SPSP"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Emberiza citrinella",
+      "comName": "Yellowhammer",
+      "speciesCode": "yellow2",
+      "category": "species",
+      "taxonOrder": 32204.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "YELL"
+      ],
+      "sciNameCodes": [
+        "EMCI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Emberiza hortulana",
+      "comName": "Ortolan Bunting",
+      "speciesCode": "ortbun1",
+      "category": "species",
+      "taxonOrder": 32220.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ORBU"
+      ],
+      "sciNameCodes": [
+        "EMHO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Emberiza schoeniclus",
+      "comName": "Reed Bunting",
+      "speciesCode": "reebun",
+      "category": "species",
+      "taxonOrder": 32277.0,
+      "bandingCodes": [
+        "REBU"
+      ],
+      "comNameCodes": [
+        "CRBU"
+      ],
+      "sciNameCodes": [
+        "EMSC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Emberiza rustica",
+      "comName": "Rustic Bunting",
+      "speciesCode": "rusbun",
+      "category": "species",
+      "taxonOrder": 32302.0,
+      "bandingCodes": [
+        "RUBU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "EMRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "emberi2",
+      "familyComName": "Old World Buntings",
+      "familySciName": "Emberizidae",
+      "notes": "May be seen in location."
+    }
+  ]
+}

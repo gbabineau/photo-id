@@ -1,0 +1,507 @@
+{
+  "location": "FI",
+  "start_month": 6,
+  "end_month": 6,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Falco tinnunculus",
+      "comName": "Eurasian Kestrel",
+      "speciesCode": "eurkes",
+      "category": "species",
+      "taxonOrder": 11757.0,
+      "bandingCodes": [
+        "EUKE"
+      ],
+      "comNameCodes": [
+        "COKE"
+      ],
+      "sciNameCodes": [
+        "FATI"
+      ],
+      "order": "Falconiformes",
+      "familyCode": "falcon1",
+      "familyComName": "Falcons and Caracaras",
+      "familySciName": "Falconidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Falco columbarius",
+      "comName": "Merlin",
+      "speciesCode": "merlin",
+      "category": "species",
+      "taxonOrder": 11825.0,
+      "bandingCodes": [
+        "MERL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "FACO"
+      ],
+      "order": "Falconiformes",
+      "familyCode": "falcon1",
+      "familyComName": "Falcons and Caracaras",
+      "familySciName": "Falconidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Falco peregrinus",
+      "comName": "Peregrine Falcon",
+      "speciesCode": "perfal",
+      "category": "species",
+      "taxonOrder": 11875.0,
+      "bandingCodes": [
+        "PEFA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "FAPE"
+      ],
+      "order": "Falconiformes",
+      "familyCode": "falcon1",
+      "familyComName": "Falcons and Caracaras",
+      "familySciName": "Falconidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Lanius excubitor",
+      "comName": "Great Gray Shrike",
+      "speciesCode": "norshr1",
+      "category": "species",
+      "taxonOrder": 20705.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GGSH"
+      ],
+      "sciNameCodes": [
+        "LAEX"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "laniid1",
+      "familyComName": "Shrikes",
+      "familySciName": "Laniidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Perisoreus infaustus",
+      "comName": "Siberian Jay",
+      "speciesCode": "sibjay1",
+      "category": "species",
+      "taxonOrder": 20776.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SIJA"
+      ],
+      "sciNameCodes": [
+        "PEIN"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Garrulus glandarius",
+      "comName": "Eurasian Jay",
+      "speciesCode": "eurjay1",
+      "category": "species",
+      "taxonOrder": 20948.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ECFJ",
+        "EUJA"
+      ],
+      "sciNameCodes": [
+        "GAGL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Pica pica",
+      "comName": "Eurasian Magpie",
+      "speciesCode": "eurmag1",
+      "category": "species",
+      "taxonOrder": 21076.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EUMA",
+        "COMA"
+      ],
+      "sciNameCodes": [
+        "PIPI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Corvus cornix",
+      "comName": "Hooded Crow",
+      "speciesCode": "hoocro1",
+      "category": "species",
+      "taxonOrder": 21189.0,
+      "bandingCodes": [
+        "HCRW"
+      ],
+      "comNameCodes": [
+        "CACR",
+        "HOCR"
+      ],
+      "sciNameCodes": [
+        "COCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Corvus corax",
+      "comName": "Common Raven",
+      "speciesCode": "comrav",
+      "category": "species",
+      "taxonOrder": 21235.0,
+      "bandingCodes": [
+        "CORA"
+      ],
+      "comNameCodes": [
+        "NORA"
+      ],
+      "sciNameCodes": [
+        "COCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Lophophanes cristatus",
+      "comName": "Crested Tit",
+      "speciesCode": "cretit2",
+      "category": "species",
+      "taxonOrder": 21607.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CRTI"
+      ],
+      "sciNameCodes": [
+        "LOCR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Poecile montanus",
+      "comName": "Willow Tit",
+      "speciesCode": "wiltit1",
+      "category": "species",
+      "taxonOrder": 21652.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WITI"
+      ],
+      "sciNameCodes": [
+        "POMO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Poecile cinctus",
+      "comName": "Gray-headed Chickadee",
+      "speciesCode": "gyhchi",
+      "category": "species",
+      "taxonOrder": 21718.0,
+      "bandingCodes": [
+        "GHCH"
+      ],
+      "comNameCodes": [
+        "SITI"
+      ],
+      "sciNameCodes": [
+        "POCI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Cyanistes caeruleus",
+      "comName": "Eurasian Blue Tit",
+      "speciesCode": "blutit",
+      "category": "species",
+      "taxonOrder": 21725.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EBTI"
+      ],
+      "sciNameCodes": [
+        "CYCA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Parus major",
+      "comName": "Great Tit",
+      "speciesCode": "gretit1",
+      "category": "species",
+      "taxonOrder": 21786.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRTI",
+        "EGTI"
+      ],
+      "sciNameCodes": [
+        "PAMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Alauda arvensis",
+      "comName": "Eurasian Skylark",
+      "speciesCode": "skylar",
+      "category": "species",
+      "taxonOrder": 22332.0,
+      "bandingCodes": [
+        "EUSK"
+      ],
+      "comNameCodes": [
+        "SKYL"
+      ],
+      "sciNameCodes": [
+        "ALAR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "alaudi1",
+      "familyComName": "Larks",
+      "familySciName": "Alaudidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Acrocephalus schoenobaenus",
+      "comName": "Sedge Warbler",
+      "speciesCode": "sedwar1",
+      "category": "species",
+      "taxonOrder": 23248.0,
+      "bandingCodes": [
+        "SEWA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ACSC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "acroce2",
+      "familyComName": "Reed Warblers and Allies",
+      "familySciName": "Acrocephalidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Riparia riparia",
+      "comName": "Bank Swallow",
+      "speciesCode": "banswa",
+      "category": "species",
+      "taxonOrder": 23636.0,
+      "bandingCodes": [
+        "BANS"
+      ],
+      "comNameCodes": [
+        "SAMA",
+        "BASW",
+        "CSMA"
+      ],
+      "sciNameCodes": [
+        "RIRI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Hirundo rustica",
+      "comName": "Barn Swallow",
+      "speciesCode": "barswa",
+      "category": "species",
+      "taxonOrder": 23772.0,
+      "bandingCodes": [
+        "BARS"
+      ],
+      "comNameCodes": [
+        "BASW"
+      ],
+      "sciNameCodes": [
+        "HIRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Phylloscopus trochilus",
+      "comName": "Willow Warbler",
+      "speciesCode": "wlwwar",
+      "category": "species",
+      "taxonOrder": 24422.0,
+      "bandingCodes": [
+        "WILW"
+      ],
+      "comNameCodes": [
+        "WIWA"
+      ],
+      "sciNameCodes": [
+        "PHTR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Phylloscopus collybita",
+      "comName": "Common Chiffchaff",
+      "speciesCode": "comchi1",
+      "category": "species",
+      "taxonOrder": 24432.0,
+      "bandingCodes": [
+        "CCHI"
+      ],
+      "comNameCodes": [
+        "COCH"
+      ],
+      "sciNameCodes": [
+        "PHCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Regulus regulus",
+      "comName": "Goldcrest",
+      "speciesCode": "goldcr1",
+      "category": "species",
+      "taxonOrder": 26403.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GOLD"
+      ],
+      "sciNameCodes": [
+        "RERE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "reguli1",
+      "familyComName": "Kinglets",
+      "familySciName": "Regulidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Cinclus cinclus",
+      "comName": "White-throated Dipper",
+      "speciesCode": "whtdip1",
+      "category": "species",
+      "taxonOrder": 27196.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WTDI"
+      ],
+      "sciNameCodes": [
+        "CICI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cincli1",
+      "familyComName": "Dippers",
+      "familySciName": "Cinclidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Turdus viscivorus",
+      "comName": "Mistle Thrush",
+      "speciesCode": "misthr1",
+      "category": "species",
+      "taxonOrder": 27962.0,
+      "bandingCodes": [
+        "MITH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TUVI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Turdus philomelos",
+      "comName": "Song Thrush",
+      "speciesCode": "sonthr1",
+      "category": "species",
+      "taxonOrder": 27966.0,
+      "bandingCodes": [
+        "SOTH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TUPH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Turdus iliacus",
+      "comName": "Redwing",
+      "speciesCode": "redwin",
+      "category": "species",
+      "taxonOrder": 27981.0,
+      "bandingCodes": [
+        "REDW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TUIL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "notes": "Should be seen in location."
+    }
+  ]
+}

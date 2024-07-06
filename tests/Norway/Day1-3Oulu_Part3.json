@@ -1,0 +1,517 @@
+{
+  "location": "FI",
+  "start_month": 5,
+  "end_month": 5,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Scolopax rusticola",
+      "comName": "Eurasian Woodcock",
+      "speciesCode": "eurwoo",
+      "category": "species",
+      "taxonOrder": 6032.0,
+      "bandingCodes": [
+        "EUWO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "SCRU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Gallinago gallinago",
+      "comName": "Common Snipe",
+      "speciesCode": "comsni",
+      "category": "species",
+      "taxonOrder": 6064.0,
+      "bandingCodes": [
+        "COSN"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "GAGA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Xenus cinereus",
+      "comName": "Terek Sandpiper",
+      "speciesCode": "tersan",
+      "category": "species",
+      "taxonOrder": 6089.0,
+      "bandingCodes": [
+        "TESA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "XECI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Actitis hypoleucos",
+      "comName": "Common Sandpiper",
+      "speciesCode": "comsan",
+      "category": "species",
+      "taxonOrder": 6090.0,
+      "bandingCodes": [
+        "COSA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ACHY"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Tringa ochropus",
+      "comName": "Green Sandpiper",
+      "speciesCode": "grnsan",
+      "category": "species",
+      "taxonOrder": 6093.0,
+      "bandingCodes": [
+        "GRSA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TROC"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Tringa glareola",
+      "comName": "Wood Sandpiper",
+      "speciesCode": "woosan",
+      "category": "species",
+      "taxonOrder": 6101.0,
+      "bandingCodes": [
+        "WOSA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TRGL"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Tringa totanus",
+      "comName": "Common Redshank",
+      "speciesCode": "comred1",
+      "category": "species",
+      "taxonOrder": 6102.0,
+      "bandingCodes": [
+        "CREH"
+      ],
+      "comNameCodes": [
+        "CORE"
+      ],
+      "sciNameCodes": [
+        "TRTO"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Tringa erythropus",
+      "comName": "Spotted Redshank",
+      "speciesCode": "spored",
+      "category": "species",
+      "taxonOrder": 6114.0,
+      "bandingCodes": [
+        "SPRE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TRER"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Tringa nebularia",
+      "comName": "Common Greenshank",
+      "speciesCode": "comgre",
+      "category": "species",
+      "taxonOrder": 6116.0,
+      "bandingCodes": [
+        "COMG"
+      ],
+      "comNameCodes": [
+        "COGR"
+      ],
+      "sciNameCodes": [
+        "TRNE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Arenaria interpres",
+      "comName": "Ruddy Turnstone",
+      "speciesCode": "rudtur",
+      "category": "species",
+      "taxonOrder": 6125.0,
+      "bandingCodes": [
+        "RUTU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ARIN"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Calidris canutus",
+      "comName": "Red Knot",
+      "speciesCode": "redkno",
+      "category": "species",
+      "taxonOrder": 6130.0,
+      "bandingCodes": [
+        "REKN"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CACA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Calidris pugnax",
+      "comName": "Ruff",
+      "speciesCode": "ruff",
+      "category": "species",
+      "taxonOrder": 6141.0,
+      "bandingCodes": [
+        "RUFF"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAPU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Calidris falcinellus",
+      "comName": "Broad-billed Sandpiper",
+      "speciesCode": "brbsan",
+      "category": "species",
+      "taxonOrder": 6142.0,
+      "bandingCodes": [
+        "BBIS"
+      ],
+      "comNameCodes": [
+        "BBSA"
+      ],
+      "sciNameCodes": [
+        "CAFA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Calidris temminckii",
+      "comName": "Temminck's Stint",
+      "speciesCode": "temsti",
+      "category": "species",
+      "taxonOrder": 6148.0,
+      "bandingCodes": [
+        "TEST"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CATE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Calidris alpina",
+      "comName": "Dunlin",
+      "speciesCode": "dunlin",
+      "category": "species",
+      "taxonOrder": 6156.0,
+      "bandingCodes": [
+        "DUNL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAAL"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Stercorarius parasiticus",
+      "comName": "Parasitic Jaeger",
+      "speciesCode": "parjae",
+      "category": "species",
+      "taxonOrder": 6321.0,
+      "bandingCodes": [
+        "PAJA"
+      ],
+      "comNameCodes": [
+        "ARJA",
+        "ARSK"
+      ],
+      "sciNameCodes": [
+        "STPA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "sterco1",
+      "familyComName": "Skuas and Jaegers",
+      "familySciName": "Stercorariidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Hydrocoloeus minutus",
+      "comName": "Little Gull",
+      "speciesCode": "litgul",
+      "category": "species",
+      "taxonOrder": 6407.0,
+      "bandingCodes": [
+        "LIGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "HYMI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Chroicocephalus ridibundus",
+      "comName": "Black-headed Gull",
+      "speciesCode": "bkhgul",
+      "category": "species",
+      "taxonOrder": 6434.0,
+      "bandingCodes": [
+        "BHGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CHRI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Larus canus",
+      "comName": "Common Gull",
+      "speciesCode": "mewgul",
+      "category": "species",
+      "taxonOrder": 6471.0,
+      "bandingCodes": [
+        "COGU"
+      ],
+      "comNameCodes": [
+        "MEGU"
+      ],
+      "sciNameCodes": [
+        "LACA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Larus argentatus",
+      "comName": "Herring Gull",
+      "speciesCode": "hergul",
+      "category": "species",
+      "taxonOrder": 6496.0,
+      "bandingCodes": [
+        "HERG"
+      ],
+      "comNameCodes": [
+        "AHHG",
+        "EHGU",
+        "HEGU"
+      ],
+      "sciNameCodes": [
+        "LAAR"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Larus marinus",
+      "comName": "Great Black-backed Gull",
+      "speciesCode": "gbbgul",
+      "category": "species",
+      "taxonOrder": 6516.0,
+      "bandingCodes": [
+        "GBBG"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LAMA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Larus fuscus",
+      "comName": "Lesser Black-backed Gull",
+      "speciesCode": "lbbgul",
+      "category": "species",
+      "taxonOrder": 6526.0,
+      "bandingCodes": [
+        "LBBG"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LAFU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Sternula albifrons",
+      "comName": "Little Tern",
+      "speciesCode": "litter1",
+      "category": "species",
+      "taxonOrder": 6622.0,
+      "bandingCodes": [
+        "LITE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STAL"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Hydroprogne caspia",
+      "comName": "Caspian Tern",
+      "speciesCode": "caster1",
+      "category": "species",
+      "taxonOrder": 6657.0,
+      "bandingCodes": [
+        "CATE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "HYCA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Sterna paradisaea",
+      "comName": "Arctic Tern",
+      "speciesCode": "arcter",
+      "category": "species",
+      "taxonOrder": 6672.0,
+      "bandingCodes": [
+        "ARTE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STPA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Sterna hirundo",
+      "comName": "Common Tern",
+      "speciesCode": "comter",
+      "category": "species",
+      "taxonOrder": 6686.0,
+      "bandingCodes": [
+        "COTE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STHI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    }
+  ]
+}

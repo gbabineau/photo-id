@@ -1,0 +1,434 @@
+{
+  "location": "FI",
+  "start_month": 5,
+  "end_month": 5,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Gavia stellata",
+      "comName": "Red-throated Loon",
+      "speciesCode": "retloo",
+      "category": "species",
+      "taxonOrder": 6768.0,
+      "bandingCodes": [
+        "RTLO"
+      ],
+      "comNameCodes": [
+        "RTDI"
+      ],
+      "sciNameCodes": [
+        "GAST"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Gavia arctica",
+      "comName": "Arctic Loon",
+      "speciesCode": "arcloo",
+      "category": "species",
+      "taxonOrder": 6769.0,
+      "bandingCodes": [
+        "ARLO"
+      ],
+      "comNameCodes": [
+        "BTDI",
+        "BTLO"
+      ],
+      "sciNameCodes": [
+        "GAAR"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Phalacrocorax carbo",
+      "comName": "Great Cormorant",
+      "speciesCode": "grecor",
+      "category": "species",
+      "taxonOrder": 7224.0,
+      "bandingCodes": [
+        "GRCO"
+      ],
+      "comNameCodes": [
+        "BLSH",
+        "GBCO"
+      ],
+      "sciNameCodes": [
+        "PHCA"
+      ],
+      "order": "Suliformes",
+      "familyCode": "phalac1",
+      "familyComName": "Cormorants and Shags",
+      "familySciName": "Phalacrocoracidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Botaurus stellaris",
+      "comName": "Great Bittern",
+      "speciesCode": "grebit1",
+      "category": "species",
+      "taxonOrder": 7331.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRBI",
+        "EUBI"
+      ],
+      "sciNameCodes": [
+        "BOST"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Pandion haliaetus",
+      "comName": "Osprey",
+      "speciesCode": "osprey",
+      "category": "species",
+      "taxonOrder": 7640.0,
+      "bandingCodes": [
+        "OSPR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PAHA"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "pandio1",
+      "familyComName": "Osprey",
+      "familySciName": "Pandionidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Pernis apivorus",
+      "comName": "European Honey-buzzard",
+      "speciesCode": "euhbuz1",
+      "category": "species",
+      "taxonOrder": 7683.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EUHB",
+        "EHBU"
+      ],
+      "sciNameCodes": [
+        "PEAP"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Circus aeruginosus",
+      "comName": "Western Marsh Harrier",
+      "speciesCode": "wemhar1",
+      "category": "species",
+      "taxonOrder": 7933.0,
+      "bandingCodes": [
+        "WMHA"
+      ],
+      "comNameCodes": [
+        "WEMH",
+        "EMHA",
+        "EUMH"
+      ],
+      "sciNameCodes": [
+        "CIAE"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Circus cyaneus",
+      "comName": "Hen Harrier",
+      "speciesCode": "norhar1",
+      "category": "species",
+      "taxonOrder": 7949.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HEHA"
+      ],
+      "sciNameCodes": [
+        "CICY"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Circus macrourus",
+      "comName": "Pallid Harrier",
+      "speciesCode": "palhar1",
+      "category": "species",
+      "taxonOrder": 7952.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PAHA"
+      ],
+      "sciNameCodes": [
+        "CIMA"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Circus pygargus",
+      "comName": "Montagu's Harrier",
+      "speciesCode": "monhar1",
+      "category": "species",
+      "taxonOrder": 7955.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MOHA"
+      ],
+      "sciNameCodes": [
+        "CIPY"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Accipiter nisus",
+      "comName": "Eurasian Sparrowhawk",
+      "speciesCode": "eurspa1",
+      "category": "species",
+      "taxonOrder": 8098.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EUSP"
+      ],
+      "sciNameCodes": [
+        "ACNI"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Accipiter gentilis",
+      "comName": "Eurasian Goshawk",
+      "speciesCode": "norgos1",
+      "category": "species",
+      "taxonOrder": 8140.0,
+      "bandingCodes": [
+        "EUGO"
+      ],
+      "comNameCodes": [
+        "NOGO"
+      ],
+      "sciNameCodes": [
+        "ACGE"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Haliaeetus albicilla",
+      "comName": "White-tailed Eagle",
+      "speciesCode": "whteag",
+      "category": "species",
+      "taxonOrder": 8186.0,
+      "bandingCodes": [
+        "WTEA"
+      ],
+      "comNameCodes": [
+        "WTSE"
+      ],
+      "sciNameCodes": [
+        "HAAL"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Buteo lagopus",
+      "comName": "Rough-legged Hawk",
+      "speciesCode": "rolhaw",
+      "category": "species",
+      "taxonOrder": 8332.0,
+      "bandingCodes": [
+        "RLHA"
+      ],
+      "comNameCodes": [
+        "RLBU"
+      ],
+      "sciNameCodes": [
+        "BULA"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Buteo buteo",
+      "comName": "Common Buzzard",
+      "speciesCode": "combuz1",
+      "category": "species",
+      "taxonOrder": 8341.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COBU",
+        "STBU",
+        "EUBU"
+      ],
+      "sciNameCodes": [
+        "BUBU"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Surnia ulula",
+      "comName": "Northern Hawk Owl",
+      "speciesCode": "nohowl",
+      "category": "species",
+      "taxonOrder": 8792.0,
+      "bandingCodes": [
+        "NHOW"
+      ],
+      "comNameCodes": [
+        "NOHO"
+      ],
+      "sciNameCodes": [
+        "SUUL"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Glaucidium passerinum",
+      "comName": "Eurasian Pygmy-Owl",
+      "speciesCode": "eupowl1",
+      "category": "species",
+      "taxonOrder": 8797.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EPOW",
+        "EUPO"
+      ],
+      "sciNameCodes": [
+        "GLPA"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Strix uralensis",
+      "comName": "Ural Owl",
+      "speciesCode": "uraowl1",
+      "category": "species",
+      "taxonOrder": 9024.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "UROW"
+      ],
+      "sciNameCodes": [
+        "STUR"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Strix nebulosa",
+      "comName": "Great Gray Owl",
+      "speciesCode": "grgowl",
+      "category": "species",
+      "taxonOrder": 9035.0,
+      "bandingCodes": [
+        "GGOW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STNE"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Asio flammeus",
+      "comName": "Short-eared Owl",
+      "speciesCode": "sheowl",
+      "category": "species",
+      "taxonOrder": 9068.0,
+      "bandingCodes": [
+        "SEOW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ASFL"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Aegolius funereus",
+      "comName": "Boreal Owl",
+      "speciesCode": "borowl",
+      "category": "species",
+      "taxonOrder": 9088.0,
+      "bandingCodes": [
+        "BOOW"
+      ],
+      "comNameCodes": [
+        "TEOW"
+      ],
+      "sciNameCodes": [
+        "AEFU"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "May be seen in location."
+    }
+  ]
+}

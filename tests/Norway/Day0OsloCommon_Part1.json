@@ -1,0 +1,504 @@
+{
+    "start_month": 5,
+    "end_month": 6,
+    "location": "NO",
+    "species": [
+        {
+            "sciName": "Anser anser",
+            "comName": "Graylag Goose",
+            "speciesCode": "gragoo",
+            "category": "species",
+            "taxonOrder": 263.0,
+            "bandingCodes": [
+                "GRGO"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ANAN"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "frequency at location 33"
+        },
+        {
+            "sciName": "Branta leucopsis",
+            "comName": "Barnacle Goose",
+            "speciesCode": "bargoo",
+            "category": "species",
+            "taxonOrder": 304.0,
+            "bandingCodes": [
+                "BARG"
+            ],
+            "comNameCodes": [
+                "BAGO"
+            ],
+            "sciNameCodes": [
+                "BRLE"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "frequency at location 19"
+        },
+        {
+            "sciName": "Branta canadensis",
+            "comName": "Canada Goose",
+            "speciesCode": "cangoo",
+            "category": "species",
+            "taxonOrder": 324.0,
+            "bandingCodes": [
+                "CANG"
+            ],
+            "comNameCodes": [
+                "CAGO"
+            ],
+            "sciNameCodes": [
+                "BRCA"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "frequency at location 15"
+        },
+        {
+            "sciName": "Cygnus olor",
+            "comName": "Mute Swan",
+            "speciesCode": "mutswa",
+            "category": "species",
+            "taxonOrder": 358.0,
+            "bandingCodes": [
+                "MUSW"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CYOL"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "frequency at location 19"
+        },
+        {
+            "sciName": "Anas platyrhynchos",
+            "comName": "Mallard",
+            "speciesCode": "mallar3",
+            "category": "species",
+            "taxonOrder": 515.0,
+            "bandingCodes": [
+                "MALL"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ANPL"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "frequency at location 45"
+        },
+        {
+            "sciName": "Aythya fuligula",
+            "comName": "Tufted Duck",
+            "speciesCode": "tufduc",
+            "category": "species",
+            "taxonOrder": 648.0,
+            "bandingCodes": [
+                "TUDU"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "AYFU"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "frequency at location 14"
+        },
+        {
+            "sciName": "Somateria mollissima",
+            "comName": "Common Eider",
+            "speciesCode": "comeid",
+            "category": "species",
+            "taxonOrder": 676.0,
+            "bandingCodes": [
+                "COEI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "SOMO"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "frequency at location 16"
+        },
+        {
+            "sciName": "Bucephala clangula",
+            "comName": "Common Goldeneye",
+            "speciesCode": "comgol",
+            "category": "species",
+            "taxonOrder": 702.0,
+            "bandingCodes": [
+                "COGO"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "BUCL"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "frequency at location 22"
+        },
+        {
+            "sciName": "Mergus serrator",
+            "comName": "Red-breasted Merganser",
+            "speciesCode": "rebmer",
+            "category": "species",
+            "taxonOrder": 728.0,
+            "bandingCodes": [
+                "RBME"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "MESE"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "frequency at location 13"
+        },
+        {
+            "sciName": "Columba livia",
+            "comName": "Rock Pigeon",
+            "speciesCode": "rocpig",
+            "category": "species",
+            "taxonOrder": 1874.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "ROPI",
+                "RODO"
+            ],
+            "sciNameCodes": [
+                "COLI"
+            ],
+            "order": "Columbiformes",
+            "familyCode": "columb2",
+            "familyComName": "Pigeons and Doves",
+            "familySciName": "Columbidae",
+            "notes": "frequency at location 25"
+        },
+        {
+            "sciName": "Columba palumbus",
+            "comName": "Common Wood-Pigeon",
+            "speciesCode": "cowpig1",
+            "category": "species",
+            "taxonOrder": 1906.0,
+            "bandingCodes": [
+                "CWPI"
+            ],
+            "comNameCodes": [
+                "COWP",
+                "COWO"
+            ],
+            "sciNameCodes": [
+                "COPA"
+            ],
+            "order": "Columbiformes",
+            "familyCode": "columb2",
+            "familyComName": "Pigeons and Doves",
+            "familySciName": "Columbidae",
+            "notes": "frequency at location 52"
+        },
+        {
+            "sciName": "Apus apus",
+            "comName": "Common Swift",
+            "speciesCode": "comswi",
+            "category": "species",
+            "taxonOrder": 4070.0,
+            "bandingCodes": [
+                "COSW"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "APAP"
+            ],
+            "order": "Caprimulgiformes",
+            "familyCode": "apodid1",
+            "familyComName": "Swifts",
+            "familySciName": "Apodidae",
+            "notes": "frequency at location 24"
+        },
+        {
+            "sciName": "Fulica atra",
+            "comName": "Eurasian Coot",
+            "speciesCode": "eurcoo",
+            "category": "species",
+            "taxonOrder": 5461.0,
+            "bandingCodes": [
+                "EUCO"
+            ],
+            "comNameCodes": [
+                "COCO"
+            ],
+            "sciNameCodes": [
+                "FUAT"
+            ],
+            "order": "Gruiformes",
+            "familyCode": "rallid1",
+            "familyComName": "Rails, Gallinules, and Coots",
+            "familySciName": "Rallidae",
+            "notes": "frequency at location 10"
+        },
+        {
+            "sciName": "Haematopus ostralegus",
+            "comName": "Eurasian Oystercatcher",
+            "speciesCode": "euroys1",
+            "category": "species",
+            "taxonOrder": 5757.0,
+            "bandingCodes": [
+                "EUOY"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "HAOS"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "haemat1",
+            "familyComName": "Oystercatchers",
+            "familySciName": "Haematopodidae",
+            "notes": "frequency at location 17"
+        },
+        {
+            "sciName": "Actitis hypoleucos",
+            "comName": "Common Sandpiper",
+            "speciesCode": "comsan",
+            "category": "species",
+            "taxonOrder": 6090.0,
+            "bandingCodes": [
+                "COSA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ACHY"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "frequency at location 16"
+        },
+        {
+            "sciName": "Chroicocephalus ridibundus",
+            "comName": "Black-headed Gull",
+            "speciesCode": "bkhgul",
+            "category": "species",
+            "taxonOrder": 6434.0,
+            "bandingCodes": [
+                "BHGU"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CHRI"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "frequency at location 51"
+        },
+        {
+            "sciName": "Larus canus",
+            "comName": "Common Gull",
+            "speciesCode": "mewgul",
+            "category": "species",
+            "taxonOrder": 6471.0,
+            "bandingCodes": [
+                "COGU"
+            ],
+            "comNameCodes": [
+                "MEGU"
+            ],
+            "sciNameCodes": [
+                "LACA"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "frequency at location 42"
+        },
+        {
+            "sciName": "Larus argentatus",
+            "comName": "Herring Gull",
+            "speciesCode": "hergul",
+            "category": "species",
+            "taxonOrder": 6496.0,
+            "bandingCodes": [
+                "HERG"
+            ],
+            "comNameCodes": [
+                "AHHG",
+                "EHGU",
+                "HEGU"
+            ],
+            "sciNameCodes": [
+                "LAAR"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "frequency at location 38"
+        },
+        {
+            "sciName": "Larus marinus",
+            "comName": "Great Black-backed Gull",
+            "speciesCode": "gbbgul",
+            "category": "species",
+            "taxonOrder": 6516.0,
+            "bandingCodes": [
+                "GBBG"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "LAMA"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "frequency at location 10"
+        },
+        {
+            "sciName": "Larus fuscus",
+            "comName": "Lesser Black-backed Gull",
+            "speciesCode": "lbbgul",
+            "category": "species",
+            "taxonOrder": 6526.0,
+            "bandingCodes": [
+                "LBBG"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "LAFU"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "frequency at location 35"
+        },
+        {
+            "sciName": "Sterna hirundo",
+            "comName": "Common Tern",
+            "speciesCode": "comter",
+            "category": "species",
+            "taxonOrder": 6686.0,
+            "bandingCodes": [
+                "COTE"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "STHI"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "frequency at location 12"
+        },
+        {
+            "sciName": "Dendrocopos major",
+            "comName": "Great Spotted Woodpecker",
+            "speciesCode": "grswoo",
+            "category": "species",
+            "taxonOrder": 11125.0,
+            "bandingCodes": [
+                "GSWO"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "DEMA"
+            ],
+            "order": "Piciformes",
+            "familyCode": "picida1",
+            "familyComName": "Woodpeckers",
+            "familySciName": "Picidae",
+            "notes": "frequency at location 16"
+        },
+        {
+            "sciName": "Pica pica",
+            "comName": "Eurasian Magpie",
+            "speciesCode": "eurmag1",
+            "category": "species",
+            "taxonOrder": 21076.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "EUMA",
+                "COMA"
+            ],
+            "sciNameCodes": [
+                "PIPI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "corvid1",
+            "familyComName": "Crows, Jays, and Magpies",
+            "familySciName": "Corvidae",
+            "notes": "frequency at location 44"
+        },
+        {
+            "sciName": "Corvus monedula",
+            "comName": "Eurasian Jackdaw",
+            "speciesCode": "eurjac",
+            "category": "species",
+            "taxonOrder": 21123.0,
+            "bandingCodes": [
+                "EUJA"
+            ],
+            "comNameCodes": [
+                "WEJA"
+            ],
+            "sciNameCodes": [
+                "COMO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "corvid1",
+            "familyComName": "Crows, Jays, and Magpies",
+            "familySciName": "Corvidae",
+            "notes": "frequency at location 12"
+        },
+        {
+            "sciName": "Corvus cornix",
+            "comName": "Hooded Crow",
+            "speciesCode": "hoocro1",
+            "category": "species",
+            "taxonOrder": 21189.0,
+            "bandingCodes": [
+                "HCRW"
+            ],
+            "comNameCodes": [
+                "CACR",
+                "HOCR"
+            ],
+            "sciNameCodes": [
+                "COCO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "corvid1",
+            "familyComName": "Crows, Jays, and Magpies",
+            "familySciName": "Corvidae",
+            "notes": "frequency at location 51"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "start_month" : 2,
+    "end_month" : 2,
+    "location" : "EC",
+    "notes" : "San Jorge de Guacamayos Bird Paradise (EASTERN SUB-TROPICAL CLOUD FOREST). Observation deck, birding trails",
+    "source" : "From this target list https://ebird.org/targets?region=San+Jorge+de+Guacamayos&r1=L10744652&bmo=2&emo=2&r2=L10744652&t2=life&mediaType=",
+    "species" : [
+
+
+        {"comName" : "Russet-backed Oropendola" , "notes" : "86% frequency at hotspot"},
+        {"comName" : "Summer Tanager" , "notes" : "80% frequency at hotspot"},
+        {"comName" : "Blue-winged Mountain Tanager" , "notes" : "73% frequency at hotspot"},
+        {"comName" : "Saffron-crowned Tanager" , "notes" : "73% frequency at hotspot"},
+        {"comName" : "Slate-throated Redstart" , "notes" : "66% frequency at hotspot"},
+        {"comName" : "Vermilion Tanager" , "notes" : "60% frequency at hotspot"},
+        {"comName" : "Blue-gray Tanager" , "notes" : "60% frequency at hotspot"},
+        {"comName" : "Golden Tanager" , "notes" : "60% frequency at hotspot"},
+        {"comName" : "Common Chlorospingus" , "notes" : "46% frequency at hotspot"},
+        {"comName" : "Beryl-spangled Tanager" , "notes" : "46% frequency at hotspot"},
+        {"comName" : "Bluish Flowerpiercer" , "notes" : "46% frequency at hotspot"},
+        {"comName" : "Three-striped Warbler" , "notes" : "40% frequency at hotspot"},
+        {"comName" : "Canada Warbler" , "notes" : "40% frequency at hotspot"},
+        {"comName" : "Rufous-crested Tanager" , "notes" : "40% frequency at hotspot"},
+        {"comName" : "Yellow-throated Tanager" , "notes" : "40% frequency at hotspot"},
+        {"comName" : "Fawn-breasted Tanager" , "notes" : "40% frequency at hotspot"},
+        {"comName" : "Blue-necked Tanager" , "notes" : "40% frequency at hotspot"},
+        {"comName" : "Flame-faced Tanager" , "notes" : "40% frequency at hotspot"},
+
+        {"comName" : "Yellow-throated Chlorospingus" , "notes" : "33% frequency at hotspot"},
+        {"comName" : "Blue-browed Tanager" , "notes" : "33% frequency at hotspot"},
+        {"comName" : "Deep-blue Flowerpiercer" , "notes" : "33% frequency at hotspot"},
+        {"comName" : "Bananaquit" , "notes" : "33% frequency at hotspot"},
+        {"comName" : "Orange-eared Tanager" , "notes" : "26% frequency at hotspot"},
+
+        {"comName" : "Russet-crowned Warbler" , "notes" : "20% frequency at hotspot"},
+        {"comName" : "Oleaginous Hemispingus" , "notes" : "20% frequency at hotspot"},
+        {"comName" : "Silver-beaked Tanager" , "notes" : "20% frequency at hotspot"},
+        {"comName" : "Palm Tanager" , "notes" : "20% frequency at hotspot"},
+        {"comName" : "Black-capped Tanager" , "notes" : "20% frequency at hotspot"},
+        {"comName" : "Paradise Tanager" , "notes" : "20% frequency at hotspot"},
+
+
+        {"comName" : "Ashy-throated Chlorospingus" , "notes" : "13% frequency at hotspot"},
+        {"comName" : "Chestnut-capped Brushfinch" , "notes" : "13% frequency at hotspot"},
+        {"comName" : "Black-eared Hemispingus" , "notes" : "13% frequency at hotspot"},
+        {"comName" : "Golden-naped Tanager" , "notes" : "13% frequency at hotspot"},
+        {"comName" : "Golden-eared Tanager" , "notes" : "13% frequency at hotspot"},
+        {"comName" : "White-sided Flowerpiercer" , "notes" : "13% frequency at hotspot"},
+        {"comName" : "Slaty Finch" , "notes" : "13% frequency at hotspot"},
+        {"comName" : "Black-and-white Seedeater" , "notes" : "13% frequency at hotspot"}
+    ]
+}

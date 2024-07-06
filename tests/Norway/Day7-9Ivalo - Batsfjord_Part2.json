@@ -1,0 +1,504 @@
+{
+  "location": "FI",
+  "start_month": 6,
+  "end_month": 6,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Actitis hypoleucos",
+      "comName": "Common Sandpiper",
+      "speciesCode": "comsan",
+      "category": "species",
+      "taxonOrder": 6090.0,
+      "bandingCodes": [
+        "COSA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ACHY"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Tringa glareola",
+      "comName": "Wood Sandpiper",
+      "speciesCode": "woosan",
+      "category": "species",
+      "taxonOrder": 6101.0,
+      "bandingCodes": [
+        "WOSA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TRGL"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Tringa erythropus",
+      "comName": "Spotted Redshank",
+      "speciesCode": "spored",
+      "category": "species",
+      "taxonOrder": 6114.0,
+      "bandingCodes": [
+        "SPRE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TRER"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Tringa nebularia",
+      "comName": "Common Greenshank",
+      "speciesCode": "comgre",
+      "category": "species",
+      "taxonOrder": 6116.0,
+      "bandingCodes": [
+        "COMG"
+      ],
+      "comNameCodes": [
+        "COGR"
+      ],
+      "sciNameCodes": [
+        "TRNE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Calidris pugnax",
+      "comName": "Ruff",
+      "speciesCode": "ruff",
+      "category": "species",
+      "taxonOrder": 6141.0,
+      "bandingCodes": [
+        "RUFF"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAPU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Calidris falcinellus",
+      "comName": "Broad-billed Sandpiper",
+      "speciesCode": "brbsan",
+      "category": "species",
+      "taxonOrder": 6142.0,
+      "bandingCodes": [
+        "BBIS"
+      ],
+      "comNameCodes": [
+        "BBSA"
+      ],
+      "sciNameCodes": [
+        "CAFA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Calidris temminckii",
+      "comName": "Temminck's Stint",
+      "speciesCode": "temsti",
+      "category": "species",
+      "taxonOrder": 6148.0,
+      "bandingCodes": [
+        "TEST"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CATE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Hydrocoloeus minutus",
+      "comName": "Little Gull",
+      "speciesCode": "litgul",
+      "category": "species",
+      "taxonOrder": 6407.0,
+      "bandingCodes": [
+        "LIGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "HYMI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Chroicocephalus ridibundus",
+      "comName": "Black-headed Gull",
+      "speciesCode": "bkhgul",
+      "category": "species",
+      "taxonOrder": 6434.0,
+      "bandingCodes": [
+        "BHGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CHRI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Larus canus",
+      "comName": "Common Gull",
+      "speciesCode": "mewgul",
+      "category": "species",
+      "taxonOrder": 6471.0,
+      "bandingCodes": [
+        "COGU"
+      ],
+      "comNameCodes": [
+        "MEGU"
+      ],
+      "sciNameCodes": [
+        "LACA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Larus argentatus",
+      "comName": "Herring Gull",
+      "speciesCode": "hergul",
+      "category": "species",
+      "taxonOrder": 6496.0,
+      "bandingCodes": [
+        "HERG"
+      ],
+      "comNameCodes": [
+        "AHHG",
+        "EHGU",
+        "HEGU"
+      ],
+      "sciNameCodes": [
+        "LAAR"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Sterna paradisaea",
+      "comName": "Arctic Tern",
+      "speciesCode": "arcter",
+      "category": "species",
+      "taxonOrder": 6672.0,
+      "bandingCodes": [
+        "ARTE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STPA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Sterna hirundo",
+      "comName": "Common Tern",
+      "speciesCode": "comter",
+      "category": "species",
+      "taxonOrder": 6686.0,
+      "bandingCodes": [
+        "COTE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STHI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Gavia stellata",
+      "comName": "Red-throated Loon",
+      "speciesCode": "retloo",
+      "category": "species",
+      "taxonOrder": 6768.0,
+      "bandingCodes": [
+        "RTLO"
+      ],
+      "comNameCodes": [
+        "RTDI"
+      ],
+      "sciNameCodes": [
+        "GAST"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Gavia arctica",
+      "comName": "Arctic Loon",
+      "speciesCode": "arcloo",
+      "category": "species",
+      "taxonOrder": 6769.0,
+      "bandingCodes": [
+        "ARLO"
+      ],
+      "comNameCodes": [
+        "BTDI",
+        "BTLO"
+      ],
+      "sciNameCodes": [
+        "GAAR"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Pandion haliaetus",
+      "comName": "Osprey",
+      "speciesCode": "osprey",
+      "category": "species",
+      "taxonOrder": 7640.0,
+      "bandingCodes": [
+        "OSPR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PAHA"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "pandio1",
+      "familyComName": "Osprey",
+      "familySciName": "Pandionidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Circus cyaneus",
+      "comName": "Hen Harrier",
+      "speciesCode": "norhar1",
+      "category": "species",
+      "taxonOrder": 7949.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HEHA"
+      ],
+      "sciNameCodes": [
+        "CICY"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Accipiter nisus",
+      "comName": "Eurasian Sparrowhawk",
+      "speciesCode": "eurspa1",
+      "category": "species",
+      "taxonOrder": 8098.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "EUSP"
+      ],
+      "sciNameCodes": [
+        "ACNI"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Haliaeetus albicilla",
+      "comName": "White-tailed Eagle",
+      "speciesCode": "whteag",
+      "category": "species",
+      "taxonOrder": 8186.0,
+      "bandingCodes": [
+        "WTEA"
+      ],
+      "comNameCodes": [
+        "WTSE"
+      ],
+      "sciNameCodes": [
+        "HAAL"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Buteo lagopus",
+      "comName": "Rough-legged Hawk",
+      "speciesCode": "rolhaw",
+      "category": "species",
+      "taxonOrder": 8332.0,
+      "bandingCodes": [
+        "RLHA"
+      ],
+      "comNameCodes": [
+        "RLBU"
+      ],
+      "sciNameCodes": [
+        "BULA"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Surnia ulula",
+      "comName": "Northern Hawk Owl",
+      "speciesCode": "nohowl",
+      "category": "species",
+      "taxonOrder": 8792.0,
+      "bandingCodes": [
+        "NHOW"
+      ],
+      "comNameCodes": [
+        "NOHO"
+      ],
+      "sciNameCodes": [
+        "SUUL"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Asio flammeus",
+      "comName": "Short-eared Owl",
+      "speciesCode": "sheowl",
+      "category": "species",
+      "taxonOrder": 9068.0,
+      "bandingCodes": [
+        "SEOW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ASFL"
+      ],
+      "order": "Strigiformes",
+      "familyCode": "strigi1",
+      "familyComName": "Owls",
+      "familySciName": "Strigidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Jynx torquilla",
+      "comName": "Eurasian Wryneck",
+      "speciesCode": "eurwry",
+      "category": "species",
+      "taxonOrder": 10785.0,
+      "bandingCodes": [
+        "EUWR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "JYTO"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "May be seen in location."
+    },
+    {
+      "sciName": "Dendrocopos major",
+      "comName": "Great Spotted Woodpecker",
+      "speciesCode": "grswoo",
+      "category": "species",
+      "taxonOrder": 11125.0,
+      "bandingCodes": [
+        "GSWO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "DEMA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "Should be seen in location."
+    },
+    {
+      "sciName": "Dryobates minor",
+      "comName": "Lesser Spotted Woodpecker",
+      "speciesCode": "leswoo1",
+      "category": "species",
+      "taxonOrder": 11153.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LSWO"
+      ],
+      "sciNameCodes": [
+        "DRMI"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "May be seen in location."
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 1,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Lophura leucomelanos",
+      "comName": "Kalij Pheasant",
+      "speciesCode": "kalphe",
+      "category": "species",
+      "taxonOrder": 1472.0,
+      "bandingCodes": [
+        "KAPH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LOLE"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Tropicoperdix chloropus",
+      "comName": "Scaly-breasted Partridge",
+      "speciesCode": "scbpar1",
+      "category": "species",
+      "taxonOrder": 1522.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBPA",
+        "GLPA"
+      ],
+      "sciNameCodes": [
+        "TRCH"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "",
+      "frequency": 20
+    },
+    {
+      "sciName": "Polyplectron bicalcaratum",
+      "comName": "Gray Peacock-Pheasant",
+      "speciesCode": "grypep2",
+      "category": "species",
+      "taxonOrder": 1549.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GPPH",
+        "GRPP"
+      ],
+      "sciNameCodes": [
+        "POBI"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Gallus gallus",
+      "comName": "Red Junglefowl",
+      "speciesCode": "redjun",
+      "category": "species",
+      "taxonOrder": 1562.0,
+      "bandingCodes": [
+        "REJU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "GAGA"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "notes": "",
+      "frequency": 47
+    },
+    {
+      "sciName": "Spilopelia chinensis",
+      "comName": "Spotted Dove",
+      "speciesCode": "spodov",
+      "category": "species",
+      "taxonOrder": 2084.0,
+      "bandingCodes": [
+        "SPDO"
+      ],
+      "comNameCodes": [
+        "ESDO"
+      ],
+      "sciNameCodes": [
+        "SPCH"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "",
+      "frequency": 36
+    },
+    {
+      "sciName": "Chalcophaps indica",
+      "comName": "Asian Emerald Dove",
+      "speciesCode": "emedov2",
+      "category": "species",
+      "taxonOrder": 2181.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "AEDO",
+        "GCED",
+        "CEDO"
+      ],
+      "sciNameCodes": [
+        "CHIN"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "",
+      "frequency": 45
+    },
+    {
+      "sciName": "Treron curvirostra",
+      "comName": "Thick-billed Green-Pigeon",
+      "speciesCode": "thbpig1",
+      "category": "species",
+      "taxonOrder": 2521.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "TBGP"
+      ],
+      "sciNameCodes": [
+        "TRCU"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "",
+      "frequency": 40
+    },
+    {
+      "sciName": "Ducula badia",
+      "comName": "Mountain Imperial-Pigeon",
+      "speciesCode": "moipig1",
+      "category": "species",
+      "taxonOrder": 2825.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MOIP",
+        "MIPI"
+      ],
+      "sciNameCodes": [
+        "DUBA"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Centropus sinensis",
+      "comName": "Greater Coucal",
+      "speciesCode": "grecou1",
+      "category": "species",
+      "taxonOrder": 3116.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRCO"
+      ],
+      "sciNameCodes": [
+        "CESI"
+      ],
+      "order": "Cuculiformes",
+      "familyCode": "cuculi1",
+      "familyComName": "Cuckoos",
+      "familySciName": "Cuculidae",
+      "notes": "",
+      "frequency": 40
+    },
+    {
+      "sciName": "Phaenicophaeus tristis",
+      "comName": "Green-billed Malkoha",
+      "speciesCode": "grbmal1",
+      "category": "species",
+      "taxonOrder": 3180.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GBMA"
+      ],
+      "sciNameCodes": [
+        "PHTR"
+      ],
+      "order": "Cuculiformes",
+      "familyCode": "cuculi1",
+      "familyComName": "Cuckoos",
+      "familySciName": "Cuculidae",
+      "notes": "",
+      "frequency": 40
+    },
+    {
+      "sciName": "Eudynamys scolopaceus",
+      "comName": "Asian Koel",
+      "speciesCode": "asikoe2",
+      "category": "species",
+      "taxonOrder": 3261.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASKO",
+        "WEKO"
+      ],
+      "sciNameCodes": [
+        "EUSC"
+      ],
+      "order": "Cuculiformes",
+      "familyCode": "cuculi1",
+      "familyComName": "Cuckoos",
+      "familySciName": "Cuculidae",
+      "notes": "",
+      "frequency": 23
+    },
+    {
+      "sciName": "Cacomantis sonneratii",
+      "comName": "Banded Bay Cuckoo",
+      "speciesCode": "babcuc2",
+      "category": "species",
+      "taxonOrder": 3343.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBCU"
+      ],
+      "sciNameCodes": [
+        "CASO"
+      ],
+      "order": "Cuculiformes",
+      "familyCode": "cuculi1",
+      "familyComName": "Cuckoos",
+      "familySciName": "Cuculidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Surniculus lugubris",
+      "comName": "Square-tailed Drongo-Cuckoo",
+      "speciesCode": "asidrc3",
+      "category": "species",
+      "taxonOrder": 3388.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "STDC"
+      ],
+      "sciNameCodes": [
+        "SULU"
+      ],
+      "order": "Cuculiformes",
+      "familyCode": "cuculi1",
+      "familyComName": "Cuckoos",
+      "familySciName": "Cuculidae",
+      "notes": "",
+      "frequency": 15
+    },
+    {
+      "sciName": "Caprimulgus macrurus",
+      "comName": "Large-tailed Nightjar",
+      "speciesCode": "latnig2",
+      "category": "species",
+      "taxonOrder": 3680.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LTNI"
+      ],
+      "sciNameCodes": [
+        "CAMA"
+      ],
+      "order": "Caprimulgiformes",
+      "familyCode": "caprim2",
+      "familyComName": "Nightjars and Allies",
+      "familySciName": "Caprimulgidae",
+      "notes": "",
+      "frequency": 25
+    },
+    {
+      "sciName": "Hirundapus giganteus",
+      "comName": "Brown-backed Needletail",
+      "speciesCode": "brbnee1",
+      "category": "species",
+      "taxonOrder": 3903.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBNE"
+      ],
+      "sciNameCodes": [
+        "HIGI"
+      ],
+      "order": "Caprimulgiformes",
+      "familyCode": "apodid1",
+      "familyComName": "Swifts",
+      "familySciName": "Apodidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Aerodramus brevirostris",
+      "comName": "Himalayan Swiftlet",
+      "speciesCode": "himswi2",
+      "category": "species",
+      "taxonOrder": 3986.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HISW"
+      ],
+      "sciNameCodes": [
+        "AEBR"
+      ],
+      "order": "Caprimulgiformes",
+      "familyCode": "apodid1",
+      "familyComName": "Swifts",
+      "familySciName": "Apodidae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Aerodramus germani",
+      "comName": "Germain's Swiftlet",
+      "speciesCode": "gerswi1",
+      "category": "species",
+      "taxonOrder": 4042.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ENSW",
+        "GESW"
+      ],
+      "sciNameCodes": [
+        "AEGE"
+      ],
+      "order": "Caprimulgiformes",
+      "familyCode": "apodid1",
+      "familyComName": "Swifts",
+      "familySciName": "Apodidae",
+      "notes": "",
+      "frequency": 15
+    },
+    {
+      "sciName": "Cypsiurus balasiensis",
+      "comName": "Asian Palm Swift",
+      "speciesCode": "aspswi1",
+      "category": "species",
+      "taxonOrder": 4149.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "APSW",
+        "ASPS"
+      ],
+      "sciNameCodes": [
+        "CYBA"
+      ],
+      "order": "Caprimulgiformes",
+      "familyCode": "apodid1",
+      "familyComName": "Swifts",
+      "familySciName": "Apodidae",
+      "notes": "",
+      "frequency": 29
+    },
+    {
+      "sciName": "Hemiprocne longipennis",
+      "comName": "Gray-rumped Treeswift",
+      "speciesCode": "gyrtre1",
+      "category": "species",
+      "taxonOrder": 4178.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRTR"
+      ],
+      "sciNameCodes": [
+        "HELO"
+      ],
+      "order": "Caprimulgiformes",
+      "familyCode": "hemipr1",
+      "familyComName": "Treeswifts",
+      "familySciName": "Hemiprocnidae",
+      "notes": "",
+      "frequency": 21
+    },
+    {
+      "sciName": "Amaurornis phoenicurus",
+      "comName": "White-breasted Waterhen",
+      "speciesCode": "whbwat1",
+      "category": "species",
+      "taxonOrder": 5526.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WBWA"
+      ],
+      "sciNameCodes": [
+        "AMPH"
+      ],
+      "order": "Gruiformes",
+      "familyCode": "rallid1",
+      "familyComName": "Rails, Gallinules, and Coots",
+      "familySciName": "Rallidae",
+      "notes": "",
+      "frequency": 24
+    },
+    {
+      "sciName": "Vanellus indicus",
+      "comName": "Red-wattled Lapwing",
+      "speciesCode": "rewlap1",
+      "category": "species",
+      "taxonOrder": 5850.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RWLA"
+      ],
+      "sciNameCodes": [
+        "VAIN"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "",
+      "frequency": 58
+    },
+    {
+      "sciName": "Anastomus oscitans",
+      "comName": "Asian Openbill",
+      "speciesCode": "asiope1",
+      "category": "species",
+      "taxonOrder": 7111.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "AOBS",
+        "ASOP"
+      ],
+      "sciNameCodes": [
+        "ANOS"
+      ],
+      "order": "Ciconiiformes",
+      "familyCode": "ciconi2",
+      "familyComName": "Storks",
+      "familySciName": "Ciconiidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Microcarbo niger",
+      "comName": "Little Cormorant",
+      "speciesCode": "litcor1",
+      "category": "species",
+      "taxonOrder": 7213.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LICO"
+      ],
+      "sciNameCodes": [
+        "MINI"
+      ],
+      "order": "Suliformes",
+      "familyCode": "phalac1",
+      "familyComName": "Cormorants and Shags",
+      "familySciName": "Phalacrocoracidae",
+      "notes": "",
+      "frequency": 21
+    },
+    {
+      "sciName": "Egretta garzetta",
+      "comName": "Little Egret",
+      "speciesCode": "litegr",
+      "category": "species",
+      "taxonOrder": 7421.0,
+      "bandingCodes": [
+        "LIEG"
+      ],
+      "comNameCodes": [
+        "LEWR"
+      ],
+      "sciNameCodes": [
+        "EGGA"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 35
+    },
+    {
+      "sciName": "Ardeola bacchus",
+      "comName": "Chinese Pond-Heron",
+      "speciesCode": "chpher1",
+      "category": "species",
+      "taxonOrder": 7482.0,
+      "bandingCodes": [
+        "CHPH"
+      ],
+      "comNameCodes": [
+        "CPHE"
+      ],
+      "sciNameCodes": [
+        "ARBA"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 37
+    }
+  ]
+}
