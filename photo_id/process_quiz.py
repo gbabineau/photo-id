@@ -215,6 +215,3 @@ def split_quiz(in_file: str, max_size: int, taxonomy) -> None:
             json.dump(split, outfile, indent=2)
         part += 1
 
-
-def jUst_for_testING():
-        return 0
