@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "photo_id"
-version = "0.3.0"
+version = "0.3.1"
 description = "Present a photo quiz based on a list of birds, and a location, and a time period"
 authors = ["gbabineau <guy.babineau@gmail.com>"]
 license = "MIT"
