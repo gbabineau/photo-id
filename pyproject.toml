@@ -24,7 +24,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.coverage.run]
-source=["photo_id"]
+source=["."]
 relative_files = true
 branch = true
 command_line = "-m pytest"
