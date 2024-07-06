@@ -27,7 +27,7 @@ build-backend = "poetry.core.masonry.api"
 source=["."]
 branch = true
 command_line = "-m pytest"
-relative_files = True
+relative_files = true
 
 [tool.coverage.report]
 show_missing = true
