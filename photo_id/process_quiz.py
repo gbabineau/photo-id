@@ -107,6 +107,7 @@ def get_frequency(data, common_name) -> str:
         (item for item in data.get('species', []) if item["comName"].lower() == common_name.lower()), {})
     return species.get('frequency', -1)
 
+
 def sort_quiz(name: str, taxonomy: list) -> dict:
     """
     Sorts the species in a quiz file based on a given taxonomy and saves the result to a new file.
@@ -124,7 +125,7 @@ def sort_quiz(name: str, taxonomy: list) -> dict:
         json.dump(result, file, ensure_ascii=False, indent=4)
 
 
-def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file: str, start_month : int, end_month : int, location_code : str) -> None:
+def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file: str, start_month: int, end_month: int, location_code: str) -> None:
     """
         Accepts a target species url from eBird, sorted by frequency (descending)
         Get this from an url
@@ -139,11 +140,11 @@ def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file
         location_code : 2 letter location code
     """
 
-    result =     {"start_month" : start_month,
-                "end_month" : end_month,
-                  "location": location_code,
-                "species" : []
-                }
+    result = {"start_month": start_month,
+              "end_month": end_month,
+              "location": location_code,
+              "species": []
+              }
     line_number = 0
     with open(in_file, 'rt', encoding='utf-8') as target_file:
         end_of_file = False
@@ -165,18 +166,20 @@ def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file
                     frequency_text = target_file.readline()[:-1]
                     line_number = line_number + 1
                     if frequency_text == '':
-                        end_of_file = True # should never go here.
-                        logging.error("Incorrectly formatted file %s line %d", in_file, line_number)
+                        end_of_file = True  # should never go here.
+                        logging.error(
+                            "Incorrectly formatted file %s line %d", in_file, line_number)
                         break
                     elif re.match("[0-9]+.", frequency_text) is not None:
-                        frequency = int(re.match('[0-9]+',frequency_text).group(0))
+                        frequency = int(
+                            re.match('[0-9]+', frequency_text).group(0))
                         if frequency < min_frequency:
                             end_of_file = True
                         break
                 else:
                     break
                 if not end_of_file:
-                    result['species'].append({'comName' : species, 'frequency': frequency,
+                    result['species'].append({'comName': species, 'frequency': frequency,
                                               'notes': ''})
 
         with open(output_file, "wt", encoding='utf-8') as outfile:

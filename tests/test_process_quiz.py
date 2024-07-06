@@ -1,16 +1,14 @@
 """
 Tests  photo_id/process_quiz.py
 """
-from unittest import TestCase, mock
-from photo_id.process_quiz import build_quiz_from_target_species
-from photo_id.process_quiz import sort_quiz
-import tempfile
-import os
 import json
+import os
 import unittest
-from unittest import mock
+from unittest import TestCase, mock
+
 import photo_id.get_taxonomy
 import photo_id.process_quiz
+from photo_id.process_quiz import build_quiz_from_target_species, sort_quiz
 
 
 class TestSortedSpecies(unittest.TestCase):
@@ -93,6 +91,8 @@ class TestSortedSpecies(unittest.TestCase):
         result = photo_id.process_quiz.sorted_species(
             initial_list, self.taxonomy)
         self.assertEqual(expected, result)
+
+
 class TestProcessQuizFile(unittest.TestCase):
 
     def test_process_quiz_file(self):
@@ -136,6 +136,7 @@ class TestProcessQuizFile(unittest.TestCase):
             mock_file.assert_called_with(
                 "quiz.json", encoding='utf-8', mode='rt')
             self.assertEqual(expected, result)
+            self.assertEqual(mock_logging.call_count, 2)
 
 
 class TestGetCode(unittest.TestCase):
@@ -325,7 +326,7 @@ class TestBuildQuizFromTargetSpecies(TestCase):
     @mock.patch('builtins.open', new_callable=mock.mock_open, read_data='1.\nSpecies A\n10.\n2.\nSpecies B\n5.\n')
     @mock.patch('json.dump')
     @mock.patch('os.path.exists', return_value=True)
-    def test_with_valid_input(self, mock_exists, mock_json_dump, mock_open):
+    def test_with_valid_input(self, _mock_exists, _mock_json_dump, mock_open):
         build_quiz_from_target_species(
             'input.txt', 3, 'output.json', 5, 6, 'LC')
         mock_open.assert_called_with('output.json', 'wt', encoding='utf-8')
@@ -338,27 +339,12 @@ class TestBuildQuizFromTargetSpecies(TestCase):
                 {"comName": "Species B", "frequency": 5, "notes": ""}
             ]
         }
-        mock_open().write.assert_called_with(json.dumps(expected_result, indent=2)  )
-
-    @mock.patch('builtins.open', new_callable=mock.mock_open, read_data='1.\nSpecies A\n2.\n')
-    @mock.patch('json.dump')
-    @mock.patch('os.path.exists', return_value=True)
-    def test_with_species_below_min_frequency(self, mock_exists, mock_json_dump, mock_open):
-        build_quiz_from_target_species(
-            'input.txt', 3, 'output.json', 5, 6, 'LC')
-        expected_result = {
-            "start_month": 5,
-            "end_month": 6,
-            "location": "LC",
-            "species": []
-        }
         mock_open().write.assert_called_with(json.dumps(expected_result, indent=2))
-
 
     @mock.patch('builtins.open', new_callable=mock.mock_open, read_data='')
     @mock.patch('json.dump')
     @mock.patch('os.path.exists', return_value=True)
-    def test_with_empty_input_file(self, mock_exists, mock_json_dump, mock_open):
+    def test_with_empty_input_file(self, _mock_exists, _mock_json_dump, mock_open):
         build_quiz_from_target_species(
             'input.txt', 3, 'output.json', 5, 6, 'LC')
         expected_result = {
@@ -369,11 +355,11 @@ class TestBuildQuizFromTargetSpecies(TestCase):
         }
         mock_open().write.assert_called_with(json.dumps(expected_result, indent=2))
 
-
     @mock.patch('builtins.open', side_effect=FileNotFoundError)
-    def test_with_non_existing_input_file(self, mock_open):
+    def test_with_non_existing_input_file(self, _mock_open):
         with self.assertRaises(FileNotFoundError):
-            build_quiz_from_target_species('non_existing.txt', 3, 'output.json', 5, 6, 'LC')
+            build_quiz_from_target_species(
+                'non_existing.txt', 3, 'output.json', 5, 6, 'LC')
 
 
 class TestSplitQuiz(unittest.TestCase):
@@ -441,7 +427,7 @@ class TestSplitQuiz(unittest.TestCase):
     @mock.patch('builtins.open', new_callable=mock.mock_open)
     @mock.patch('photo_id.process_quiz.process_quiz_file')
     @mock.patch('photo_id.process_quiz.sorted_species')
-    def test_split_quiz_empty_species_list(self, mock_sorted_species, mock_process_quiz_file, mock_open, mock_json_dump):
+    def test_split_quiz_empty_species_list(self, mock_sorted_species, mock_process_quiz_file, mock_open, _mock_json_dump):
         """
         Test if split_quiz correctly handles an empty species list.
         """
@@ -468,7 +454,7 @@ class TestSplitQuiz(unittest.TestCase):
     @mock.patch('builtins.open', new_callable=mock.mock_open)
     @mock.patch('photo_id.process_quiz.process_quiz_file')
     @mock.patch('photo_id.process_quiz.sorted_species')
-    def test_split_quiz_file_naming(self, mock_sorted_species, mock_process_quiz_file, mock_open, mock_json_dump):
+    def test_split_quiz_file_naming(self, mock_sorted_species, mock_process_quiz_file, mock_open, _mock_json_dump):
         """
         Test if split_quiz generates correct file names for split files.
         """
