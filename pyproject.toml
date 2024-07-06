@@ -25,7 +25,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.coverage.run]
 source=["."]
-relative_files = true
 branch = true
 command_line = "-m pytest"
 
