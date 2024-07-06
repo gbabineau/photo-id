@@ -43,6 +43,7 @@ jobs:
     - name: Override Coverage Source Path for Sonar
       run: |
         pwd
+        ls -R photo_id
         sed -i 's/<source>\/home\/runner\/work\/photo_id<\/source>/<source>\/github\/workspace<\/source>/g' coverage.xml
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
