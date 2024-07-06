@@ -40,14 +40,14 @@ jobs:
       run: |
         poetry run coverage run
         poetry run coverage xml
-    - name: Override Coverage Source Path for Sonar
-      run: |
-        pwd
-        ls -R photo_id
-        grep "<source>" coverage.xml
-        sed -i 's/<source>.*</<source>\/github\/workspace</g' coverage.xml
-        grep "<source>" coverage.xml
-        grep filename coverage.xml
+    # - name: Override Coverage Source Path for Sonar
+    #   run: |
+    #     pwd
+    #     ls -R photo_id
+    #     grep "<source>" coverage.xml
+    #     sed -i 's/<source>.*</<source>\/github\/workspace</g' coverage.xml
+    #     grep "<source>" coverage.xml
+    #     grep filename coverage.xml
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       env:
