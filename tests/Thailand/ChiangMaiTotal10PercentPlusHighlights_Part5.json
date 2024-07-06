@@ -1,0 +1,518 @@
+{
+  "location": "TH",
+  "start_month": 2,
+  "end_month": 2,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Heterophasia picaoides",
+      "comName": "Long-tailed Sibia",
+      "speciesCode": "lotsib1",
+      "category": "species",
+      "taxonOrder": 26049.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LTSI"
+      ],
+      "sciNameCodes": [
+        "HEPI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Sanju.",
+      "frequency": 0
+    },
+    {
+      "sciName": "Heterophasia melanoleuca",
+      "comName": "Black-backed Sibia",
+      "speciesCode": "blbsib1",
+      "category": "species",
+      "taxonOrder": 26063.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBSI",
+        "DBSI"
+      ],
+      "sciNameCodes": [
+        "HEME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 21
+    },
+    {
+      "sciName": "Actinodura strigula",
+      "comName": "Chestnut-tailed Minla",
+      "speciesCode": "chtmin1",
+      "category": "species",
+      "taxonOrder": 26095.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BTMI",
+        "CTMI"
+      ],
+      "sciNameCodes": [
+        "ACST"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon. Mountaintop",
+      "frequency": 8
+    },
+    {
+      "sciName": "Actinodura ramsayi",
+      "comName": "Spectacled Barwing",
+      "speciesCode": "spebar1",
+      "category": "species",
+      "taxonOrder": 26107.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SPBA",
+        "WSBA"
+      ],
+      "sciNameCodes": [
+        "ACRA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon & Doi Ham Pok.",
+      "frequency": 7
+    },
+    {
+      "sciName": "Leiothrix argentauris",
+      "comName": "Silver-eared Mesia",
+      "speciesCode": "siemes1",
+      "category": "species",
+      "taxonOrder": 26119.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SEME"
+      ],
+      "sciNameCodes": [
+        "LEAR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Suthep & Doi Inthanon.",
+      "frequency": 9
+    },
+    {
+      "sciName": "Liocichla ripponi",
+      "comName": "Scarlet-faced Liocichla",
+      "speciesCode": "reflio3",
+      "category": "species",
+      "taxonOrder": 26150.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SFLI"
+      ],
+      "sciNameCodes": [
+        "LIRI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Ham Pok.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Garrulax merulinus",
+      "comName": "Spot-breasted Laughingthrush",
+      "speciesCode": "spblau1",
+      "category": "species",
+      "taxonOrder": 26255.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBLA"
+      ],
+      "sciNameCodes": [
+        "GAME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Sanju. (Sensitive Species)",
+      "frequency": 0
+    },
+    {
+      "sciName": "Garrulax strepitans",
+      "comName": "White-necked Laughingthrush",
+      "speciesCode": "whnlau1",
+      "category": "species",
+      "taxonOrder": 26291.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WNLA"
+      ],
+      "sciNameCodes": [
+        "GAST"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 1
+    },
+    {
+      "sciName": "Pterorhinus sannio",
+      "comName": "White-browed Laughingthrush",
+      "speciesCode": "whblau1",
+      "category": "species",
+      "taxonOrder": 26345.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WBLA"
+      ],
+      "sciNameCodes": [
+        "PTSA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Sitta magna",
+      "comName": "Giant Nuthatch",
+      "speciesCode": "gianut1",
+      "category": "species",
+      "taxonOrder": 26433.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GINU"
+      ],
+      "sciNameCodes": [
+        "SIMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sittid1",
+      "familyComName": "Nuthatches",
+      "familySciName": "Sittidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 5
+    },
+    {
+      "sciName": "Sitta nagaensis",
+      "comName": "Chestnut-vented Nuthatch",
+      "speciesCode": "chvnut1",
+      "category": "species",
+      "taxonOrder": 26541.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CVNU"
+      ],
+      "sciNameCodes": [
+        "SINA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sittid1",
+      "familyComName": "Nuthatches",
+      "familySciName": "Sittidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Sturnus vulgaris",
+      "comName": "European Starling",
+      "speciesCode": "eursta",
+      "category": "species",
+      "taxonOrder": 27356.0,
+      "bandingCodes": [
+        "EUST"
+      ],
+      "comNameCodes": [
+        "COST"
+      ],
+      "sciNameCodes": [
+        "STVU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 0
+    },
+    {
+      "sciName": "Gracupica nigricollis",
+      "comName": "Black-collared Starling",
+      "speciesCode": "bkcsta1",
+      "category": "species",
+      "taxonOrder": 27376.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BCST"
+      ],
+      "sciNameCodes": [
+        "GRNI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Gracupica floweri",
+      "comName": "Siamese Pied Starling",
+      "speciesCode": "aspsta7",
+      "category": "species",
+      "taxonOrder": 27381.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SPST",
+        "APST",
+        "SPMY"
+      ],
+      "sciNameCodes": [
+        "GRFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "Doi Inathon. (called asian pied starling)",
+      "frequency": 3
+    },
+    {
+      "sciName": "Acridotheres tristis",
+      "comName": "Common Myna",
+      "speciesCode": "commyn",
+      "category": "species",
+      "taxonOrder": 27402.0,
+      "bandingCodes": [
+        "COMY"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ACTR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "",
+      "frequency": 19
+    },
+    {
+      "sciName": "Acridotheres grandis",
+      "comName": "Great Myna",
+      "speciesCode": "whvmyn1",
+      "category": "species",
+      "taxonOrder": 27424.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRMY"
+      ],
+      "sciNameCodes": [
+        "ACGR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Copsychus saularis",
+      "comName": "Oriental Magpie-Robin",
+      "speciesCode": "magrob",
+      "category": "species",
+      "taxonOrder": 28501.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ORMR",
+        "OMRO"
+      ],
+      "sciNameCodes": [
+        "COSA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 23
+    },
+    {
+      "sciName": "Niltava grandis",
+      "comName": "Large Niltava",
+      "speciesCode": "larnil1",
+      "category": "species",
+      "taxonOrder": 28553.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LANI"
+      ],
+      "sciNameCodes": [
+        "NIGR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Sanju.",
+      "frequency": 9
+    },
+    {
+      "sciName": "Niltava macgrigoriae",
+      "comName": "Small Niltava",
+      "speciesCode": "smanil1",
+      "category": "species",
+      "taxonOrder": 28559.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SMNI"
+      ],
+      "sciNameCodes": [
+        "NIMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inathon.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Niltava sundara",
+      "comName": "Rufous-bellied Niltava",
+      "speciesCode": "rubnil1",
+      "category": "species",
+      "taxonOrder": 28563.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RBNI"
+      ],
+      "sciNameCodes": [
+        "NISU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 6
+    },
+    {
+      "sciName": "Eumyias thalassinus",
+      "comName": "Verditer Flycatcher",
+      "speciesCode": "verfly4",
+      "category": "species",
+      "taxonOrder": 28590.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "VEFL"
+      ],
+      "sciNameCodes": [
+        "EUTH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Anthipes monileger",
+      "comName": "White-gorgeted Flycatcher",
+      "speciesCode": "whgfly1",
+      "category": "species",
+      "taxonOrder": 28603.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WGFL"
+      ],
+      "sciNameCodes": [
+        "ANMO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inathon & Doi Sanju.",
+      "frequency": 4
+    },
+    {
+      "sciName": "Cyornis whitei",
+      "comName": "Hill Blue Flycatcher",
+      "speciesCode": "hibfly1",
+      "category": "species",
+      "taxonOrder": 28636.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HIBF",
+        "HBFL"
+      ],
+      "sciNameCodes": [
+        "CYWH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Suthep.",
+      "frequency": 11
+    },
+    {
+      "sciName": "Myophonus caeruleus",
+      "comName": "Blue Whistling-Thrush",
+      "speciesCode": "blwthr1",
+      "category": "species",
+      "taxonOrder": 28930.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BLWT",
+        "BWTH"
+      ],
+      "sciNameCodes": [
+        "MYCA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inthanon(Waterfall area).",
+      "frequency": 23
+    },
+    {
+      "sciName": "Enicurus immaculatus",
+      "comName": "Black-backed Forktail",
+      "speciesCode": "blbfor1",
+      "category": "species",
+      "taxonOrder": 28961.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBFO"
+      ],
+      "sciNameCodes": [
+        "ENIM"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "Doi Inthanon(Waterfall area).",
+      "frequency": 1
+    }
+  ]
+}

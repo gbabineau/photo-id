@@ -1,0 +1,517 @@
+{
+  "location": "TH",
+  "start_month": 2,
+  "end_month": 2,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Prinia inornata",
+      "comName": "Plain Prinia",
+      "speciesCode": "plapri1",
+      "category": "species",
+      "taxonOrder": 22879.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PLPR"
+      ],
+      "sciNameCodes": [
+        "PRIN"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cistic2",
+      "familyComName": "Cisticolas and Allies",
+      "familySciName": "Cisticolidae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 7
+    },
+    {
+      "sciName": "Pnoepyga pusilla",
+      "comName": "Pygmy Cupwing",
+      "speciesCode": "pywbab1",
+      "category": "species",
+      "taxonOrder": 23574.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PYCU"
+      ],
+      "sciNameCodes": [
+        "PNPU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pnoepy1",
+      "familyComName": "Cupwings",
+      "familySciName": "Pnoepygidae",
+      "notes": "Doi Inthanon. Mountaintop. (Called Pygmy Wren-Babbler)",
+      "frequency": 7
+    },
+    {
+      "sciName": "Hirundo rustica",
+      "comName": "Barn Swallow",
+      "speciesCode": "barswa",
+      "category": "species",
+      "taxonOrder": 23772.0,
+      "bandingCodes": [
+        "BARS"
+      ],
+      "comNameCodes": [
+        "BASW"
+      ],
+      "sciNameCodes": [
+        "HIRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "notes": "",
+      "frequency": 21
+    },
+    {
+      "sciName": "Ixos mcclellandii",
+      "comName": "Mountain Bulbul",
+      "speciesCode": "moubul2",
+      "category": "species",
+      "taxonOrder": 24115.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MOBU"
+      ],
+      "sciNameCodes": [
+        "IXMC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "Doi Suthep.",
+      "frequency": 16
+    },
+    {
+      "sciName": "Rubigula flaviventris",
+      "comName": "Black-crested Bulbul",
+      "speciesCode": "blcbul2",
+      "category": "species",
+      "taxonOrder": 24221.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BCBU"
+      ],
+      "sciNameCodes": [
+        "RUFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
+      "frequency": 21
+    },
+    {
+      "sciName": "Spizixos canifrons",
+      "comName": "Crested Finchbill",
+      "speciesCode": "crefin1",
+      "category": "species",
+      "taxonOrder": 24237.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CRFI"
+      ],
+      "sciNameCodes": [
+        "SPCA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "Doi Ham Pok &  Doi Angkhang.",
+      "frequency": 5
+    },
+    {
+      "sciName": "Pycnonotus conradi",
+      "comName": "Streak-eared Bulbul",
+      "speciesCode": "stebul2",
+      "category": "species",
+      "taxonOrder": 24271.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SEBU"
+      ],
+      "sciNameCodes": [
+        "PYCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Pycnonotus flavescens",
+      "comName": "Flavescent Bulbul",
+      "speciesCode": "flabul1",
+      "category": "species",
+      "taxonOrder": 24278.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "FLBU",
+        "FFBU"
+      ],
+      "sciNameCodes": [
+        "PYFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 20
+    },
+    {
+      "sciName": "Pycnonotus xanthorrhous",
+      "comName": "Brown-breasted Bulbul",
+      "speciesCode": "brbbul1",
+      "category": "species",
+      "taxonOrder": 24290.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BBBU"
+      ],
+      "sciNameCodes": [
+        "PYXA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 4
+    },
+    {
+      "sciName": "Pycnonotus jocosus",
+      "comName": "Red-whiskered Bulbul",
+      "speciesCode": "rewbul",
+      "category": "species",
+      "taxonOrder": 24315.0,
+      "bandingCodes": [
+        "RWBU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PYJO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 26
+    },
+    {
+      "sciName": "Pycnonotus aurigaster",
+      "comName": "Sooty-headed Bulbul",
+      "speciesCode": "sohbul1",
+      "category": "species",
+      "taxonOrder": 24346.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SHBU"
+      ],
+      "sciNameCodes": [
+        "PYAU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 29
+    },
+    {
+      "sciName": "Phylloscopus maculipennis",
+      "comName": "Ashy-throated Warbler",
+      "speciesCode": "astwar2",
+      "category": "species",
+      "taxonOrder": 24377.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ATWA"
+      ],
+      "sciNameCodes": [
+        "PHMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "Doi Inthanon. Mountaintop",
+      "frequency": 6
+    },
+    {
+      "sciName": "Phylloscopus inornatus",
+      "comName": "Yellow-browed Warbler",
+      "speciesCode": "yebwar3",
+      "category": "species",
+      "taxonOrder": 24383.0,
+      "bandingCodes": [
+        "YBWA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PHIN"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "",
+      "frequency": 21
+    },
+    {
+      "sciName": "Phylloscopus castaniceps",
+      "comName": "Chestnut-crowned Warbler",
+      "speciesCode": "chcwar2",
+      "category": "species",
+      "taxonOrder": 24524.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "CCWA"
+      ],
+      "sciNameCodes": [
+        "PHCA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "Doi Sanju.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Phylloscopus intensior",
+      "comName": "Davison's Leaf Warbler",
+      "speciesCode": "davlew1",
+      "category": "species",
+      "taxonOrder": 24567.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WTLW",
+        "DLWA"
+      ],
+      "sciNameCodes": [
+        "PHIN"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "Doi Inthanon. (Called white-tailed leaf warbler)",
+      "frequency": 19
+    },
+    {
+      "sciName": "Tesia olivea",
+      "comName": "Slaty-bellied Tesia",
+      "speciesCode": "slbtes1",
+      "category": "species",
+      "taxonOrder": 24664.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBTE"
+      ],
+      "sciNameCodes": [
+        "TEOL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "scotoc1",
+      "familyComName": "Bush Warblers and Allies",
+      "familySciName": "Scotocercidae",
+      "notes": "Doi Inthanon. Mountaintop.",
+      "frequency": 6
+    },
+    {
+      "sciName": "Aegithalos concinnus",
+      "comName": "Black-throated Tit",
+      "speciesCode": "blttit2",
+      "category": "species",
+      "taxonOrder": 24811.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BTTI",
+        "BTBU",
+        "BTHC"
+      ],
+      "sciNameCodes": [
+        "AECO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "aegith2",
+      "familyComName": "Long-tailed Tits",
+      "familySciName": "Aegithalidae",
+      "notes": "Doi Sanju.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Paradoxornis guttaticollis",
+      "comName": "Spot-breasted Parrotbill",
+      "speciesCode": "spbpar1",
+      "category": "species",
+      "taxonOrder": 25014.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBPA"
+      ],
+      "sciNameCodes": [
+        "PAGU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parado1",
+      "familyComName": "Parrotbills",
+      "familySciName": "Paradoxornithidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 3
+    },
+    {
+      "sciName": "Staphida castaniceps",
+      "comName": "Striated Yuhina",
+      "speciesCode": "stryuh1",
+      "category": "species",
+      "taxonOrder": 25090.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "STYU"
+      ],
+      "sciNameCodes": [
+        "STCA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "zoster2",
+      "familyComName": "White-eyes, Yuhinas, and Allies",
+      "familySciName": "Zosteropidae",
+      "notes": "Doi Suthep.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Zosterops simplex",
+      "comName": "Swinhoe's White-eye",
+      "speciesCode": "swiwhe1",
+      "category": "species",
+      "taxonOrder": 25189.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SWWE",
+        "SWEY"
+      ],
+      "sciNameCodes": [
+        "ZOSI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "zoster2",
+      "familyComName": "White-eyes, Yuhinas, and Allies",
+      "familySciName": "Zosteropidae",
+      "notes": "Doi Angkhang.",
+      "frequency": 7
+    },
+    {
+      "sciName": "Schoeniparus castaneceps",
+      "comName": "Rufous-winged Fulvetta",
+      "speciesCode": "ruwful1",
+      "category": "species",
+      "taxonOrder": 25735.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RWFU"
+      ],
+      "sciNameCodes": [
+        "SCCA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pellor2",
+      "familyComName": "Ground Babblers and Allies",
+      "familySciName": "Pellorneidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Gypsophila brevicaudata",
+      "comName": "Streaked Wren-Babbler",
+      "speciesCode": "stwbab1",
+      "category": "species",
+      "taxonOrder": 25891.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SWBA",
+        "STWB"
+      ],
+      "sciNameCodes": [
+        "GYBR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pellor2",
+      "familyComName": "Ground Babblers and Allies",
+      "familySciName": "Pellorneidae",
+      "notes": "Chiang Dao.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Alcippe fratercula",
+      "comName": "Yunnan Fulvetta",
+      "speciesCode": "gycful4",
+      "category": "species",
+      "taxonOrder": 25964.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "YUFU",
+        "GCFU"
+      ],
+      "sciNameCodes": [
+        "ALFR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Inthanon.",
+      "frequency": 15
+    },
+    {
+      "sciName": "Cutia nipalensis",
+      "comName": "Himalayan Cutia",
+      "speciesCode": "cutia1",
+      "category": "species",
+      "taxonOrder": 25977.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HICU"
+      ],
+      "sciNameCodes": [
+        "CUNI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "Doi Sanju.",
+      "frequency": 2
+    },
+    {
+      "sciName": "Trochalopteron melanostigma",
+      "comName": "Silver-eared Laughingthrush",
+      "speciesCode": "sielau1",
+      "category": "species",
+      "taxonOrder": 26036.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SELA"
+      ],
+      "sciNameCodes": [
+        "TRME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "leioth1",
+      "familyComName": "Laughingthrushes and Allies",
+      "familySciName": "Leiothrichidae",
+      "notes": "",
+      "frequency": 13
+    }
+  ]
+}

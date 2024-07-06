@@ -1,0 +1,512 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 1,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Psilopogon haemacephalus",
+      "comName": "Coppersmith Barbet",
+      "speciesCode": "copbar1",
+      "category": "species",
+      "taxonOrder": 10478.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COBA"
+      ],
+      "sciNameCodes": [
+        "PSHA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 33
+    },
+    {
+      "sciName": "Psilopogon cyanotis",
+      "comName": "Blue-eared Barbet",
+      "speciesCode": "buebar1",
+      "category": "species",
+      "taxonOrder": 10492.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BEBA"
+      ],
+      "sciNameCodes": [
+        "PSCY"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 48
+    },
+    {
+      "sciName": "Psilopogon virens",
+      "comName": "Great Barbet",
+      "speciesCode": "grebar1",
+      "category": "species",
+      "taxonOrder": 10506.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRBA"
+      ],
+      "sciNameCodes": [
+        "PSVI"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Psilopogon faiostrictus",
+      "comName": "Green-eared Barbet",
+      "speciesCode": "grebar3",
+      "category": "species",
+      "taxonOrder": 10526.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GEBA"
+      ],
+      "sciNameCodes": [
+        "PSFA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 46
+    },
+    {
+      "sciName": "Psilopogon asiaticus",
+      "comName": "Blue-throated Barbet",
+      "speciesCode": "bltbar2",
+      "category": "species",
+      "taxonOrder": 10560.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BTBA"
+      ],
+      "sciNameCodes": [
+        "PSAS"
+      ],
+      "order": "Piciformes",
+      "familyCode": "megala2",
+      "familyComName": "Asian Barbets",
+      "familySciName": "Megalaimidae",
+      "notes": "",
+      "frequency": 29
+    },
+    {
+      "sciName": "Sasia ochracea",
+      "comName": "White-browed Piculet",
+      "speciesCode": "whbpic3",
+      "category": "species",
+      "taxonOrder": 10892.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WBPI"
+      ],
+      "sciNameCodes": [
+        "SAOC"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Hemicircus canente",
+      "comName": "Heart-spotted Woodpecker",
+      "speciesCode": "heswoo1",
+      "category": "species",
+      "taxonOrder": 10903.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "HSWO"
+      ],
+      "sciNameCodes": [
+        "HECA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Chrysocolaptes guttacristatus",
+      "comName": "Greater Flameback",
+      "speciesCode": "grefla1",
+      "category": "species",
+      "taxonOrder": 11297.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRFL"
+      ],
+      "sciNameCodes": [
+        "CHGU"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "",
+      "frequency": 42
+    },
+    {
+      "sciName": "Dinopium javanense",
+      "comName": "Common Flameback",
+      "speciesCode": "comfla1",
+      "category": "species",
+      "taxonOrder": 11378.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COFL"
+      ],
+      "sciNameCodes": [
+        "DIJA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "",
+      "frequency": 36
+    },
+    {
+      "sciName": "Picus canus",
+      "comName": "Gray-headed Woodpecker",
+      "speciesCode": "gyfwoo1",
+      "category": "species",
+      "taxonOrder": 11421.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GHWO",
+        "GFNW"
+      ],
+      "sciNameCodes": [
+        "PICA"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Chrysophlegma flavinucha",
+      "comName": "Greater Yellownape",
+      "speciesCode": "greyel1",
+      "category": "species",
+      "taxonOrder": 11455.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRYE"
+      ],
+      "sciNameCodes": [
+        "CHFL"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "",
+      "frequency": 25
+    },
+    {
+      "sciName": "Mulleripicus pulverulentus",
+      "comName": "Great Slaty Woodpecker",
+      "speciesCode": "grswoo1",
+      "category": "species",
+      "taxonOrder": 11516.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GSWO"
+      ],
+      "sciNameCodes": [
+        "MUPU"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Microhierax fringillarius",
+      "comName": "Black-thighed Falconet",
+      "speciesCode": "bltfal1",
+      "category": "species",
+      "taxonOrder": 11750.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BTFA"
+      ],
+      "sciNameCodes": [
+        "MIFR"
+      ],
+      "order": "Falconiformes",
+      "familyCode": "falcon1",
+      "familyComName": "Falcons and Caracaras",
+      "familySciName": "Falconidae",
+      "notes": "",
+      "frequency": 25
+    },
+    {
+      "sciName": "Loriculus vernalis",
+      "comName": "Vernal Hanging-Parrot",
+      "speciesCode": "vehpar1",
+      "category": "species",
+      "taxonOrder": 12461.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "VHPA",
+        "VEHP"
+      ],
+      "sciNameCodes": [
+        "LOVE"
+      ],
+      "order": "Psittaciformes",
+      "familyCode": "psitta4",
+      "familyComName": "Old World Parrots",
+      "familySciName": "Psittaculidae",
+      "notes": "",
+      "frequency": 32
+    },
+    {
+      "sciName": "Psarisomus dalhousiae",
+      "comName": "Long-tailed Broadbill",
+      "speciesCode": "lotbro1",
+      "category": "species",
+      "taxonOrder": 13004.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LTBR"
+      ],
+      "sciNameCodes": [
+        "PSDA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "euryla1",
+      "familyComName": "Asian and Grauer's Broadbills",
+      "familySciName": "Eurylaimidae",
+      "notes": "",
+      "frequency": 14
+    },
+    {
+      "sciName": "Corydon sumatranus",
+      "comName": "Dusky Broadbill",
+      "speciesCode": "dusbro1",
+      "category": "species",
+      "taxonOrder": 13010.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "DUBR"
+      ],
+      "sciNameCodes": [
+        "COSU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "euryla1",
+      "familyComName": "Asian and Grauer's Broadbills",
+      "familySciName": "Eurylaimidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Serilophus lunatus",
+      "comName": "Silver-breasted Broadbill",
+      "speciesCode": "sibbro3",
+      "category": "species",
+      "taxonOrder": 13019.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SBBR"
+      ],
+      "sciNameCodes": [
+        "SELU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "euryla1",
+      "familyComName": "Asian and Grauer's Broadbills",
+      "familySciName": "Eurylaimidae",
+      "notes": "",
+      "frequency": 28
+    },
+    {
+      "sciName": "Cymbirhynchus macrorhynchos",
+      "comName": "Black-and-red Broadbill",
+      "speciesCode": "barbro1",
+      "category": "species",
+      "taxonOrder": 13031.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BARB"
+      ],
+      "sciNameCodes": [
+        "CYMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "euryla1",
+      "familyComName": "Asian and Grauer's Broadbills",
+      "familySciName": "Eurylaimidae",
+      "notes": "",
+      "frequency": 17
+    },
+    {
+      "sciName": "Eurylaimus javanicus",
+      "comName": "Banded Broadbill",
+      "speciesCode": "banbro1",
+      "category": "species",
+      "taxonOrder": 13037.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BABR",
+        "JABR"
+      ],
+      "sciNameCodes": [
+        "EUJA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "euryla1",
+      "familyComName": "Asian and Grauer's Broadbills",
+      "familySciName": "Eurylaimidae",
+      "notes": "",
+      "frequency": 22
+    },
+    {
+      "sciName": "Eurylaimus ochromalus",
+      "comName": "Black-and-yellow Broadbill",
+      "speciesCode": "baybro1",
+      "category": "species",
+      "taxonOrder": 13044.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BAYB"
+      ],
+      "sciNameCodes": [
+        "EUOC"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "euryla1",
+      "familyComName": "Asian and Grauer's Broadbills",
+      "familySciName": "Eurylaimidae",
+      "notes": "",
+      "frequency": 18
+    },
+    {
+      "sciName": "Hydrornis cyaneus",
+      "comName": "Blue Pitta",
+      "speciesCode": "blupit1",
+      "category": "species",
+      "taxonOrder": 13119.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BLPI"
+      ],
+      "sciNameCodes": [
+        "HYCY"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pittid1",
+      "familyComName": "Pittas",
+      "familySciName": "Pittidae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Pericrocotus speciosus",
+      "comName": "Scarlet Minivet",
+      "speciesCode": "scamin1",
+      "category": "species",
+      "taxonOrder": 18271.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SCMI"
+      ],
+      "sciNameCodes": [
+        "PESP"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 25
+    },
+    {
+      "sciName": "Pericrocotus divaricatus",
+      "comName": "Ashy Minivet",
+      "speciesCode": "ashmin1",
+      "category": "species",
+      "taxonOrder": 18295.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASMI"
+      ],
+      "sciNameCodes": [
+        "PEDI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 12
+    },
+    {
+      "sciName": "Pericrocotus cantonensis",
+      "comName": "Brown-rumped Minivet",
+      "speciesCode": "brrmin1",
+      "category": "species",
+      "taxonOrder": 18297.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SWMI",
+        "BRMI"
+      ],
+      "sciNameCodes": [
+        "PECA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 16
+    },
+    {
+      "sciName": "Pericrocotus roseus",
+      "comName": "Rosy Minivet",
+      "speciesCode": "rosmin1",
+      "category": "species",
+      "taxonOrder": 18299.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ROMI"
+      ],
+      "sciNameCodes": [
+        "PERO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "campep2",
+      "familyComName": "Cuckooshrikes",
+      "familySciName": "Campephagidae",
+      "notes": "",
+      "frequency": 7
+    }
+  ]
+}

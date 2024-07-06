@@ -5,20 +5,21 @@
 import argparse
 import logging
 
-from tkinter import messagebox, Tk, Menu, filedialog
+from tkinter import messagebox, Tk, Menu, filedialog, simpledialog
 import get_taxonomy
 import get_have_list
-import image_window
 import match_window
 import process_quiz
 
+
 class MainWindow:
     """Creates the main window from which quizzes can be launched."""
+    json_files = ('json files', '*.json')
 
-    def __init__(self, default_have_list : str):
-        self.have_list=[]
+    def __init__(self, default_have_list: str):
+        self.have_list = []
 
-        self.taxonomy=get_taxonomy.ebird_taxonomy()
+        self.taxonomy = get_taxonomy.ebird_taxonomy()
         if default_have_list != '':
             self.have_list = get_have_list.get_have_list(
                 default_have_list)
@@ -26,14 +27,16 @@ class MainWindow:
         self.root.title('Photo ID quiz')
         menubar = Menu(self.root)
         file_menu = Menu(menubar, tearoff=0)
-        file_menu.add_command(label="Open Single Photo Quiz", command=self.file_open)
-        file_menu.add_command(label="Open Group Photos Quiz", command=self.match_open)
+        file_menu.add_command(
+            label="Open Group Photos Quiz", command=self.match_open)
         file_menu.add_command(label="Open Have List",
                               command=self.have_list_open)
-        file_menu.add_command(label="Taxonomic Sort Quiz", command=self.sort_quiz)
+        file_menu.add_command(label="Taxonomic Sort Quiz",
+                              command=self.sort_quiz)
         file_menu.add_command(label="Create Quiz List from Target Species",
                               command=self.create_quiz)
-        file_menu.add_command(label="Break Quiz into Parts", command=self.break_quiz_into_parts)
+        file_menu.add_command(label="Break Quiz into Parts",
+                              command=self.break_quiz_into_parts)
         file_menu.add_command(label="Save", command=self.donothing)
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
@@ -47,18 +50,10 @@ class MainWindow:
         self.root.config(menu=menubar)
         self.root.mainloop()
 
-    def file_open(self) -> None:
-        """ Open and start a new quiz defined by a quiz file. """
-        filename = filedialog.askopenfilename(
-            title='Select a Quiz File', initialdir='.', filetypes=[('json files', '*.json')])
-        if filename != '':
-            image_window.ImageWindow(
-                filename, self.taxonomy, self.have_list)
-
     def match_open(self) -> None:
         """ Open and start a new matching game defined by a quiz file. """
         filename = filedialog.askopenfilename(
-            title='Select a Quiz File', initialdir='.', filetypes=[('json files', '*.json')])
+            title='Select a Quiz File', initialdir='.', filetypes=[self.json_files])
         if filename != '':
             match_window.MatchWindow(
                 filename, self.taxonomy, self.have_list)
@@ -69,7 +64,7 @@ class MainWindow:
             it into two and the species are not sorted taxonomically in the quiz file.
         """
         filename = filedialog.askopenfilename(
-            title='Select a Quiz File', initialdir='.', filetypes=[('json files', '*.json')])
+            title='Select a Quiz File', initialdir='.', filetypes=[self.json_files])
         if filename != '':
             process_quiz.sort_quiz(filename, self.taxonomy)
 
@@ -79,23 +74,22 @@ class MainWindow:
         .
         """
 
-        # in_file = filedialog.askopenfilename(
-        #     title='Select target file', initialdir='.', filetypes=[('text files', '*.txt')])
-        in_file = 'temp/oslo.txt'
+        in_file = filedialog.askopenfilename(
+            title='Select target file', initialdir='.', filetypes=[self.json_files])
         if in_file is not None:
-            # min_percent = simpledialog.askinteger(
-            #     'min_percent', 'Enter minimum percentage observed to include in quiz')
-            # filename = filedialog.asksaveasfilename(
-            #     title='Create Quiz as', initialdir='.', filetypes=[('json files', '*.json')], defaultextension='.json')
-            filename = 'tests/data/Norway/test.json'
-            target_url = 'https://ebird.org/targets?r1=NO-03&r2=NO-03&t2=day&bmo=5&emo=6&print=true'
-            min_percent = 10
-
-            # ensure print = true
-            if filename is not  None:
+            min_percent = simpledialog.askinteger(
+                'min_percent', 'Enter minimum percentage observed to include in quiz')
+            filename = filedialog.asksaveasfilename(
+                title='Create Quiz as', initialdir='.', filetypes=[self.json_files], defaultextension='.json')
+            start_month = simpledialog.askinteger(
+                'Starting Month', 'Enter starting month 1-12', minvalue=1, maxvalue=12)
+            end_month = simpledialog.askinteger(
+                'Ending Month', 'Enter ending month 1-12', minvalue=1, maxvalue=12)
+            location_code = simpledialog.askstring(
+                '2 letter location code', 'Enter 2 letter location code')
+            if filename is not None:
                 process_quiz.build_quiz_from_target_species(
-                    in_file, min_percent, filename)
-
+                    in_file, min_percent, filename, start_month, end_month, location_code)
 
     def have_list_open(self) -> None:
         """ Open and start a new quiz defined by a quiz file. """
@@ -107,7 +101,7 @@ class MainWindow:
     def break_quiz_into_parts(self) -> None:
         """ Open and start a new quiz defined by a quiz file. """
         filename = filedialog.askopenfilename(
-            title='Select a Quiz File to break into parts', initialdir='.', filetypes=[('json files', '*.json')])
+            title='Select a Quiz File to break into parts', initialdir='.', filetypes=[self.json_files])
         if filename != '':
             process_quiz.split_quiz(filename, 25, self.taxonomy)
 
@@ -115,6 +109,7 @@ class MainWindow:
         """ Placeholder for functions not yet implemented. """
         messagebox.showinfo(title='not implemented',
                             message='not implemented yet')
+
 
 def main():
     """ Main function for the app. """

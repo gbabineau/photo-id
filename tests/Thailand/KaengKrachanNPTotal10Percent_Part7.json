@@ -1,0 +1,50 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 1,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Dendronanthus indicus",
+      "comName": "Forest Wagtail",
+      "speciesCode": "forwag1",
+      "category": "species",
+      "taxonOrder": 31149.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "FOWA"
+      ],
+      "sciNameCodes": [
+        "DEIN"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "",
+      "frequency": 11
+    },
+    {
+      "sciName": "Motacilla cinerea",
+      "comName": "Gray Wagtail",
+      "speciesCode": "grywag",
+      "category": "species",
+      "taxonOrder": 31160.0,
+      "bandingCodes": [
+        "GRAW"
+      ],
+      "comNameCodes": [
+        "GRWA"
+      ],
+      "sciNameCodes": [
+        "MOCI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "notes": "",
+      "frequency": 28
+    }
+  ]
+}
