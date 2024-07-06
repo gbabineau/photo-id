@@ -45,7 +45,7 @@ jobs:
         pwd
         ls -R photo_id
         grep "<source>" coverage.xml
-        sed -i 's/<source>\/home\/runner\/work\/photo_id/photo_id<\/source>/<source>\/github\/workspace<\/source>/g' coverage.xml
+        sed -i 's/<source>\/home\/runner\/work\/photo_id\/photo_id<\/source>/<source>\/github\/workspace<\/source>/g' coverage.xml
         grep "<source>" coverage.xml
         grep filename coverage.xml
     - name: SonarCloud Scan
