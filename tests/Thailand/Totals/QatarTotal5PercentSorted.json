@@ -1,0 +1,1301 @@
+{
+    "start_month": 2,
+    "end_month": 2,
+    "location": "QA",
+    "species": [
+        {
+            "sciName": "Anas platyrhynchos",
+            "comName": "Mallard",
+            "speciesCode": "mallar3",
+            "category": "species",
+            "taxonOrder": 515.0,
+            "bandingCodes": [
+                "MALL"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ANPL"
+            ],
+            "order": "Anseriformes",
+            "familyCode": "anatid1",
+            "familyComName": "Ducks, Geese, and Waterfowl",
+            "familySciName": "Anatidae",
+            "notes": "",
+            "frequency": 5
+        },
+        {
+            "sciName": "Ortygornis pondicerianus",
+            "comName": "Gray Francolin",
+            "speciesCode": "gryfra",
+            "category": "species",
+            "taxonOrder": 1581.0,
+            "bandingCodes": [
+                "GRAF"
+            ],
+            "comNameCodes": [
+                "GRFR"
+            ],
+            "sciNameCodes": [
+                "ORPO"
+            ],
+            "order": "Galliformes",
+            "familyCode": "phasia1",
+            "familyComName": "Pheasants, Grouse, and Allies",
+            "familySciName": "Phasianidae",
+            "notes": "",
+            "frequency": 14
+        },
+        {
+            "sciName": "Phoenicopterus roseus",
+            "comName": "Greater Flamingo",
+            "speciesCode": "grefla3",
+            "category": "species",
+            "taxonOrder": 1789.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "GRFL"
+            ],
+            "sciNameCodes": [
+                "PHRO"
+            ],
+            "order": "Phoenicopteriformes",
+            "familyCode": "phoeni1",
+            "familyComName": "Flamingos",
+            "familySciName": "Phoenicopteridae",
+            "notes": "",
+            "frequency": 8
+        },
+        {
+            "sciName": "Tachybaptus ruficollis",
+            "comName": "Little Grebe",
+            "speciesCode": "litgre1",
+            "category": "species",
+            "taxonOrder": 1804.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "DABC",
+                "LIGR"
+            ],
+            "sciNameCodes": [
+                "TARU"
+            ],
+            "order": "Podicipediformes",
+            "familyCode": "podici1",
+            "familyComName": "Grebes",
+            "familySciName": "Podicipedidae",
+            "notes": "",
+            "frequency": 9
+        },
+        {
+            "sciName": "Columba livia",
+            "comName": "Rock Pigeon",
+            "speciesCode": "rocpig",
+            "category": "species",
+            "taxonOrder": 1874.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "ROPI",
+                "RODO"
+            ],
+            "sciNameCodes": [
+                "COLI"
+            ],
+            "order": "Columbiformes",
+            "familyCode": "columb2",
+            "familyComName": "Pigeons and Doves",
+            "familySciName": "Columbidae",
+            "notes": "",
+            "frequency": 43
+        },
+        {
+            "sciName": "Streptopelia decaocto",
+            "comName": "Eurasian Collared-Dove",
+            "speciesCode": "eucdov",
+            "category": "species",
+            "taxonOrder": 2051.0,
+            "bandingCodes": [
+                "EUCD"
+            ],
+            "comNameCodes": [
+                "CODO",
+                "ECDO"
+            ],
+            "sciNameCodes": [
+                "STDE"
+            ],
+            "order": "Columbiformes",
+            "familyCode": "columb2",
+            "familyComName": "Pigeons and Doves",
+            "familySciName": "Columbidae",
+            "notes": "",
+            "frequency": 59
+        },
+        {
+            "sciName": "Spilopelia senegalensis",
+            "comName": "Laughing Dove",
+            "speciesCode": "laudov1",
+            "category": "species",
+            "taxonOrder": 2091.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "LADO"
+            ],
+            "sciNameCodes": [
+                "SPSE"
+            ],
+            "order": "Columbiformes",
+            "familyCode": "columb2",
+            "familyComName": "Pigeons and Doves",
+            "familySciName": "Columbidae",
+            "notes": "",
+            "frequency": 64
+        },
+        {
+            "sciName": "Oena capensis",
+            "comName": "Namaqua Dove",
+            "speciesCode": "namdov1",
+            "category": "species",
+            "taxonOrder": 2178.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "NADO"
+            ],
+            "sciNameCodes": [
+                "OECA"
+            ],
+            "order": "Columbiformes",
+            "familyCode": "columb2",
+            "familyComName": "Pigeons and Doves",
+            "familySciName": "Columbidae",
+            "notes": "",
+            "frequency": 8
+        },
+        {
+            "sciName": "Apus pallidus",
+            "comName": "Pallid Swift",
+            "speciesCode": "palswi3",
+            "category": "species",
+            "taxonOrder": 4078.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "PASW"
+            ],
+            "sciNameCodes": [
+                "APPA"
+            ],
+            "order": "Caprimulgiformes",
+            "familyCode": "apodid1",
+            "familyComName": "Swifts",
+            "familySciName": "Apodidae",
+            "notes": "",
+            "frequency": 15
+        },
+        {
+            "sciName": "Gallinula chloropus",
+            "comName": "Eurasian Moorhen",
+            "speciesCode": "commoo3",
+            "category": "species",
+            "taxonOrder": 5436.0,
+            "bandingCodes": [
+                "COMO"
+            ],
+            "comNameCodes": [
+                "EUMO"
+            ],
+            "sciNameCodes": [
+                "GACH"
+            ],
+            "order": "Gruiformes",
+            "familyCode": "rallid1",
+            "familyComName": "Rails, Gallinules, and Coots",
+            "familySciName": "Rallidae",
+            "notes": "",
+            "frequency": 7
+        },
+        {
+            "sciName": "Fulica atra",
+            "comName": "Eurasian Coot",
+            "speciesCode": "eurcoo",
+            "category": "species",
+            "taxonOrder": 5461.0,
+            "bandingCodes": [
+                "EUCO"
+            ],
+            "comNameCodes": [
+                "COCO"
+            ],
+            "sciNameCodes": [
+                "FUAT"
+            ],
+            "order": "Gruiformes",
+            "familyCode": "rallid1",
+            "familyComName": "Rails, Gallinules, and Coots",
+            "familySciName": "Rallidae",
+            "notes": "",
+            "frequency": 6
+        },
+        {
+            "sciName": "Himantopus himantopus",
+            "comName": "Black-winged Stilt",
+            "speciesCode": "bkwsti",
+            "category": "species",
+            "taxonOrder": 5734.0,
+            "bandingCodes": [
+                "BWST"
+            ],
+            "comNameCodes": [
+                "EBWS"
+            ],
+            "sciNameCodes": [
+                "HIHI"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "recurv1",
+            "familyComName": "Stilts and Avocets",
+            "familySciName": "Recurvirostridae",
+            "notes": "",
+            "frequency": 10
+        },
+        {
+            "sciName": "Pluvialis squatarola",
+            "comName": "Black-bellied Plover",
+            "speciesCode": "bkbplo",
+            "category": "species",
+            "taxonOrder": 5782.0,
+            "bandingCodes": [
+                "BBPL"
+            ],
+            "comNameCodes": [
+                "GRPL"
+            ],
+            "sciNameCodes": [
+                "PLSQ"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "charad1",
+            "familyComName": "Plovers and Lapwings",
+            "familySciName": "Charadriidae",
+            "notes": "",
+            "frequency": 5
+        },
+        {
+            "sciName": "Charadrius hiaticula",
+            "comName": "Common Ringed Plover",
+            "speciesCode": "corplo",
+            "category": "species",
+            "taxonOrder": 5802.0,
+            "bandingCodes": [
+                "CRPL"
+            ],
+            "comNameCodes": [
+                "RIPL"
+            ],
+            "sciNameCodes": [
+                "CHHI"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "charad1",
+            "familyComName": "Plovers and Lapwings",
+            "familySciName": "Charadriidae",
+            "notes": "",
+            "frequency": 7
+        },
+        {
+            "sciName": "Vanellus indicus",
+            "comName": "Red-wattled Lapwing",
+            "speciesCode": "rewlap1",
+            "category": "species",
+            "taxonOrder": 5850.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "RWLA"
+            ],
+            "sciNameCodes": [
+                "VAIN"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "charad1",
+            "familyComName": "Plovers and Lapwings",
+            "familySciName": "Charadriidae",
+            "notes": "",
+            "frequency": 6
+        },
+        {
+            "sciName": "Anarhynchus alexandrinus",
+            "comName": "Kentish Plover",
+            "speciesCode": "kenplo1",
+            "category": "species",
+            "taxonOrder": 5920.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "KEPL"
+            ],
+            "sciNameCodes": [
+                "ANAL"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "charad1",
+            "familyComName": "Plovers and Lapwings",
+            "familySciName": "Charadriidae",
+            "notes": "",
+            "frequency": 10
+        },
+        {
+            "sciName": "Numenius phaeopus",
+            "comName": "Whimbrel",
+            "speciesCode": "whimbr",
+            "category": "species",
+            "taxonOrder": 5978.0,
+            "bandingCodes": [
+                "WHIM"
+            ],
+            "comNameCodes": [
+                "EUWH"
+            ],
+            "sciNameCodes": [
+                "NUPH"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 5
+        },
+        {
+            "sciName": "Numenius arquata",
+            "comName": "Eurasian Curlew",
+            "speciesCode": "eurcur",
+            "category": "species",
+            "taxonOrder": 5993.0,
+            "bandingCodes": [
+                "EUCU"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "NUAR"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 5
+        },
+        {
+            "sciName": "Gallinago gallinago",
+            "comName": "Common Snipe",
+            "speciesCode": "comsni",
+            "category": "species",
+            "taxonOrder": 6064.0,
+            "bandingCodes": [
+                "COSN"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "GAGA"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 6
+        },
+        {
+            "sciName": "Actitis hypoleucos",
+            "comName": "Common Sandpiper",
+            "speciesCode": "comsan",
+            "category": "species",
+            "taxonOrder": 6090.0,
+            "bandingCodes": [
+                "COSA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ACHY"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 11
+        },
+        {
+            "sciName": "Tringa ochropus",
+            "comName": "Green Sandpiper",
+            "speciesCode": "grnsan",
+            "category": "species",
+            "taxonOrder": 6093.0,
+            "bandingCodes": [
+                "GRSA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "TROC"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 5
+        },
+        {
+            "sciName": "Tringa glareola",
+            "comName": "Wood Sandpiper",
+            "speciesCode": "woosan",
+            "category": "species",
+            "taxonOrder": 6101.0,
+            "bandingCodes": [
+                "WOSA"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "TRGL"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 7
+        },
+        {
+            "sciName": "Tringa totanus",
+            "comName": "Common Redshank",
+            "speciesCode": "comred1",
+            "category": "species",
+            "taxonOrder": 6102.0,
+            "bandingCodes": [
+                "CREH"
+            ],
+            "comNameCodes": [
+                "CORE"
+            ],
+            "sciNameCodes": [
+                "TRTO"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 9
+        },
+        {
+            "sciName": "Tringa nebularia",
+            "comName": "Common Greenshank",
+            "speciesCode": "comgre",
+            "category": "species",
+            "taxonOrder": 6116.0,
+            "bandingCodes": [
+                "COMG"
+            ],
+            "comNameCodes": [
+                "COGR"
+            ],
+            "sciNameCodes": [
+                "TRNE"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 6
+        },
+        {
+            "sciName": "Calidris alpina",
+            "comName": "Dunlin",
+            "speciesCode": "dunlin",
+            "category": "species",
+            "taxonOrder": 6156.0,
+            "bandingCodes": [
+                "DUNL"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CAAL"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 7
+        },
+        {
+            "sciName": "Calidris minuta",
+            "comName": "Little Stint",
+            "speciesCode": "litsti",
+            "category": "species",
+            "taxonOrder": 6181.0,
+            "bandingCodes": [
+                "LIST"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CAMI"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "scolop2",
+            "familyComName": "Sandpipers and Allies",
+            "familySciName": "Scolopacidae",
+            "notes": "",
+            "frequency": 9
+        },
+        {
+            "sciName": "Chroicocephalus genei",
+            "comName": "Slender-billed Gull",
+            "speciesCode": "slbgul1",
+            "category": "species",
+            "taxonOrder": 6421.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "SBGU"
+            ],
+            "sciNameCodes": [
+                "CHGE"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "",
+            "frequency": 11
+        },
+        {
+            "sciName": "Chroicocephalus ridibundus",
+            "comName": "Black-headed Gull",
+            "speciesCode": "bkhgul",
+            "category": "species",
+            "taxonOrder": 6434.0,
+            "bandingCodes": [
+                "BHGU"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "CHRI"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "",
+            "frequency": 11
+        },
+        {
+            "sciName": "Larus fuscus",
+            "comName": "Lesser Black-backed Gull",
+            "speciesCode": "lbbgul",
+            "category": "species",
+            "taxonOrder": 6526.0,
+            "bandingCodes": [
+                "LBBG"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "LAFU"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "",
+            "frequency": 7
+        },
+        {
+            "sciName": "Hydroprogne caspia",
+            "comName": "Caspian Tern",
+            "speciesCode": "caster1",
+            "category": "species",
+            "taxonOrder": 6657.0,
+            "bandingCodes": [
+                "CATE"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "HYCA"
+            ],
+            "order": "Charadriiformes",
+            "familyCode": "larida1",
+            "familyComName": "Gulls, Terns, and Skimmers",
+            "familySciName": "Laridae",
+            "notes": "",
+            "frequency": 5
+        },
+        {
+            "sciName": "Phalacrocorax carbo",
+            "comName": "Great Cormorant",
+            "speciesCode": "grecor",
+            "category": "species",
+            "taxonOrder": 7224.0,
+            "bandingCodes": [
+                "GRCO"
+            ],
+            "comNameCodes": [
+                "BLSH",
+                "GBCO"
+            ],
+            "sciNameCodes": [
+                "PHCA"
+            ],
+            "order": "Suliformes",
+            "familyCode": "phalac1",
+            "familyComName": "Cormorants and Shags",
+            "familySciName": "Phalacrocoracidae",
+            "notes": "",
+            "frequency": 13
+        },
+        {
+            "sciName": "Egretta garzetta",
+            "comName": "Little Egret",
+            "speciesCode": "litegr",
+            "category": "species",
+            "taxonOrder": 7421.0,
+            "bandingCodes": [
+                "LIEG"
+            ],
+            "comNameCodes": [
+                "LEWR"
+            ],
+            "sciNameCodes": [
+                "EGGA"
+            ],
+            "order": "Pelecaniformes",
+            "familyCode": "ardeid1",
+            "familyComName": "Herons, Egrets, and Bitterns",
+            "familySciName": "Ardeidae",
+            "notes": "",
+            "frequency": 5
+        },
+        {
+            "sciName": "Egretta gularis",
+            "comName": "Western Reef-Heron",
+            "speciesCode": "werher",
+            "category": "species",
+            "taxonOrder": 7426.0,
+            "bandingCodes": [
+                "WERH"
+            ],
+            "comNameCodes": [
+                "WRHE",
+                "WREG"
+            ],
+            "sciNameCodes": [
+                "EGGU"
+            ],
+            "order": "Pelecaniformes",
+            "familyCode": "ardeid1",
+            "familyComName": "Herons, Egrets, and Bitterns",
+            "familySciName": "Ardeidae",
+            "notes": "",
+            "frequency": 8
+        },
+        {
+            "sciName": "Ardea cinerea",
+            "comName": "Gray Heron",
+            "speciesCode": "graher1",
+            "category": "species",
+            "taxonOrder": 7507.0,
+            "bandingCodes": [
+                "GRAH"
+            ],
+            "comNameCodes": [
+                "GRHE"
+            ],
+            "sciNameCodes": [
+                "ARCI"
+            ],
+            "order": "Pelecaniformes",
+            "familyCode": "ardeid1",
+            "familyComName": "Herons, Egrets, and Bitterns",
+            "familySciName": "Ardeidae",
+            "notes": "",
+            "frequency": 10
+        },
+        {
+            "sciName": "Circus aeruginosus",
+            "comName": "Western Marsh Harrier",
+            "speciesCode": "wemhar1",
+            "category": "species",
+            "taxonOrder": 7933.0,
+            "bandingCodes": [
+                "WMHA"
+            ],
+            "comNameCodes": [
+                "WEMH",
+                "EMHA",
+                "EUMH"
+            ],
+            "sciNameCodes": [
+                "CIAE"
+            ],
+            "order": "Accipitriformes",
+            "familyCode": "accipi1",
+            "familyComName": "Hawks, Eagles, and Kites",
+            "familySciName": "Accipitridae",
+            "notes": "",
+            "frequency": 12
+        },
+        {
+            "sciName": "Circus macrourus",
+            "comName": "Pallid Harrier",
+            "speciesCode": "palhar1",
+            "category": "species",
+            "taxonOrder": 7952.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "PAHA"
+            ],
+            "sciNameCodes": [
+                "CIMA"
+            ],
+            "order": "Accipitriformes",
+            "familyCode": "accipi1",
+            "familyComName": "Hawks, Eagles, and Kites",
+            "familySciName": "Accipitridae",
+            "notes": "",
+            "frequency": 5
+        },
+        {
+            "sciName": "Upupa epops",
+            "comName": "Eurasian Hoopoe",
+            "speciesCode": "hoopoe",
+            "category": "species",
+            "taxonOrder": 9394.0,
+            "bandingCodes": [
+                "EHOO"
+            ],
+            "comNameCodes": [
+                "COHO",
+                "HOOP",
+                "EUHO"
+            ],
+            "sciNameCodes": [
+                "UPEP"
+            ],
+            "order": "Bucerotiformes",
+            "familyCode": "upupid1",
+            "familyComName": "Hoopoes",
+            "familySciName": "Upupidae",
+            "notes": "",
+            "frequency": 14
+        },
+        {
+            "sciName": "Falco tinnunculus",
+            "comName": "Eurasian Kestrel",
+            "speciesCode": "eurkes",
+            "category": "species",
+            "taxonOrder": 11757.0,
+            "bandingCodes": [
+                "EUKE"
+            ],
+            "comNameCodes": [
+                "COKE"
+            ],
+            "sciNameCodes": [
+                "FATI"
+            ],
+            "order": "Falconiformes",
+            "familyCode": "falcon1",
+            "familyComName": "Falcons and Caracaras",
+            "familySciName": "Falconidae",
+            "notes": "",
+            "frequency": 12
+        },
+        {
+            "sciName": "Psittacula krameri",
+            "comName": "Rose-ringed Parakeet",
+            "speciesCode": "rorpar",
+            "category": "species",
+            "taxonOrder": 12111.0,
+            "bandingCodes": [
+                "RRPA"
+            ],
+            "comNameCodes": [
+                "RNPA"
+            ],
+            "sciNameCodes": [
+                "PSKR"
+            ],
+            "order": "Psittaciformes",
+            "familyCode": "psitta4",
+            "familyComName": "Old World Parrots",
+            "familySciName": "Psittaculidae",
+            "notes": "",
+            "frequency": 9
+        },
+        {
+            "sciName": "Lanius isabellinus",
+            "comName": "Isabelline Shrike",
+            "speciesCode": "isashr1",
+            "category": "species",
+            "taxonOrder": 20641.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "ISSH"
+            ],
+            "sciNameCodes": [
+                "LAIS"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "laniid1",
+            "familyComName": "Shrikes",
+            "familySciName": "Laniidae",
+            "notes": "",
+            "frequency": 17
+        },
+        {
+            "sciName": "Lanius excubitor",
+            "comName": "Great Gray Shrike",
+            "speciesCode": "norshr1",
+            "category": "species",
+            "taxonOrder": 20705.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "GGSH"
+            ],
+            "sciNameCodes": [
+                "LAEX"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "laniid1",
+            "familyComName": "Shrikes",
+            "familySciName": "Laniidae",
+            "notes": "",
+            "frequency": 11
+        },
+        {
+            "sciName": "Lanius nubicus",
+            "comName": "Masked Shrike",
+            "speciesCode": "masshr1",
+            "category": "species",
+            "taxonOrder": 20761.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "MASH"
+            ],
+            "sciNameCodes": [
+                "LANU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "laniid1",
+            "familyComName": "Shrikes",
+            "familySciName": "Laniidae",
+            "notes": "",
+            "frequency": 8
+        },
+        {
+            "sciName": "Galerida cristata",
+            "comName": "Crested Lark",
+            "speciesCode": "crelar1",
+            "category": "species",
+            "taxonOrder": 22382.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "CRLA"
+            ],
+            "sciNameCodes": [
+                "GACR"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "alaudi1",
+            "familyComName": "Larks",
+            "familySciName": "Alaudidae",
+            "notes": "",
+            "frequency": 21
+        },
+        {
+            "sciName": "Prinia lepida",
+            "comName": "Delicate Prinia",
+            "speciesCode": "delpri1",
+            "category": "species",
+            "taxonOrder": 22841.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "DEPR",
+                "DELI"
+            ],
+            "sciNameCodes": [
+                "PRLE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "cistic2",
+            "familyComName": "Cisticolas and Allies",
+            "familySciName": "Cisticolidae",
+            "notes": "",
+            "frequency": 10
+        },
+        {
+            "sciName": "Acrocephalus stentoreus",
+            "comName": "Clamorous Reed Warbler",
+            "speciesCode": "clrwar1",
+            "category": "species",
+            "taxonOrder": 23300.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "CLRW",
+                "CRWA"
+            ],
+            "sciNameCodes": [
+                "ACST"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "acroce2",
+            "familyComName": "Reed Warblers and Allies",
+            "familySciName": "Acrocephalidae",
+            "notes": "",
+            "frequency": 10
+        },
+        {
+            "sciName": "Hirundo rustica",
+            "comName": "Barn Swallow",
+            "speciesCode": "barswa",
+            "category": "species",
+            "taxonOrder": 23772.0,
+            "bandingCodes": [
+                "BARS"
+            ],
+            "comNameCodes": [
+                "BASW"
+            ],
+            "sciNameCodes": [
+                "HIRU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "hirund2",
+            "familyComName": "Swallows",
+            "familySciName": "Hirundinidae",
+            "notes": "",
+            "frequency": 7
+        },
+        {
+            "sciName": "Pycnonotus cafer",
+            "comName": "Red-vented Bulbul",
+            "speciesCode": "revbul",
+            "category": "species",
+            "taxonOrder": 24335.0,
+            "bandingCodes": [
+                "RVBU"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "PYCA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "pycnon4",
+            "familyComName": "Bulbuls",
+            "familySciName": "Pycnonotidae",
+            "notes": "",
+            "frequency": 15
+        },
+        {
+            "sciName": "Pycnonotus leucotis",
+            "comName": "White-eared Bulbul",
+            "speciesCode": "whebul1",
+            "category": "species",
+            "taxonOrder": 24357.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "WEBU"
+            ],
+            "sciNameCodes": [
+                "PYLE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "pycnon4",
+            "familyComName": "Bulbuls",
+            "familySciName": "Pycnonotidae",
+            "notes": "",
+            "frequency": 55
+        },
+        {
+            "sciName": "Phylloscopus collybita",
+            "comName": "Common Chiffchaff",
+            "speciesCode": "comchi1",
+            "category": "species",
+            "taxonOrder": 24432.0,
+            "bandingCodes": [
+                "CCHI"
+            ],
+            "comNameCodes": [
+                "COCH"
+            ],
+            "sciNameCodes": [
+                "PHCO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "phyllo4",
+            "familyComName": "Leaf Warblers",
+            "familySciName": "Phylloscopidae",
+            "notes": "",
+            "frequency": 7
+        },
+        {
+            "sciName": "Acridotheres tristis",
+            "comName": "Common Myna",
+            "speciesCode": "commyn",
+            "category": "species",
+            "taxonOrder": 27402.0,
+            "bandingCodes": [
+                "COMY"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "ACTR"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "sturni1",
+            "familyComName": "Starlings",
+            "familySciName": "Sturnidae",
+            "notes": "",
+            "frequency": 48
+        },
+        {
+            "sciName": "Turdus philomelos",
+            "comName": "Song Thrush",
+            "speciesCode": "sonthr1",
+            "category": "species",
+            "taxonOrder": 27966.0,
+            "bandingCodes": [
+                "SOTH"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "TUPH"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "turdid1",
+            "familyComName": "Thrushes and Allies",
+            "familySciName": "Turdidae",
+            "notes": "",
+            "frequency": 5
+        },
+        {
+            "sciName": "Luscinia svecica",
+            "comName": "Bluethroat",
+            "speciesCode": "blueth",
+            "category": "species",
+            "taxonOrder": 28907.0,
+            "bandingCodes": [
+                "BLUE"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "LUSV"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "muscic3",
+            "familyComName": "Old World Flycatchers",
+            "familySciName": "Muscicapidae",
+            "notes": "",
+            "frequency": 6
+        },
+        {
+            "sciName": "Saxicola rubicola",
+            "comName": "European Stonechat",
+            "speciesCode": "stonec4",
+            "category": "species",
+            "taxonOrder": 29172.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "EUST",
+                "COST"
+            ],
+            "sciNameCodes": [
+                "SARU"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "muscic3",
+            "familyComName": "Old World Flycatchers",
+            "familySciName": "Muscicapidae",
+            "notes": "",
+            "frequency": 6
+        },
+        {
+            "sciName": "Oenanthe isabellina",
+            "comName": "Isabelline Wheatear",
+            "speciesCode": "isawhe1",
+            "category": "species",
+            "taxonOrder": 29294.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "ISWH"
+            ],
+            "sciNameCodes": [
+                "OEIS"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "muscic3",
+            "familyComName": "Old World Flycatchers",
+            "familySciName": "Muscicapidae",
+            "notes": "",
+            "frequency": 11
+        },
+        {
+            "sciName": "Oenanthe deserti",
+            "comName": "Desert Wheatear",
+            "speciesCode": "deswhe1",
+            "category": "species",
+            "taxonOrder": 29297.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "DEWH"
+            ],
+            "sciNameCodes": [
+                "OEDE"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "muscic3",
+            "familyComName": "Old World Flycatchers",
+            "familySciName": "Muscicapidae",
+            "notes": "",
+            "frequency": 10
+        },
+        {
+            "sciName": "Oenanthe pleschanka",
+            "comName": "Pied Wheatear",
+            "speciesCode": "piewhe1",
+            "category": "species",
+            "taxonOrder": 29306.0,
+            "bandingCodes": [
+                "PIWH"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "OEPL"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "muscic3",
+            "familyComName": "Old World Flycatchers",
+            "familySciName": "Muscicapidae",
+            "notes": "",
+            "frequency": 6
+        },
+        {
+            "sciName": "Euodice malabarica",
+            "comName": "Indian Silverbill",
+            "speciesCode": "indsil",
+            "category": "species",
+            "taxonOrder": 30548.0,
+            "bandingCodes": [
+                "INSI"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "EUMA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "estril1",
+            "familyComName": "Waxbills and Allies",
+            "familySciName": "Estrildidae",
+            "notes": "",
+            "frequency": 27
+        },
+        {
+            "sciName": "Passer domesticus",
+            "comName": "House Sparrow",
+            "speciesCode": "houspa",
+            "category": "species",
+            "taxonOrder": 31018.0,
+            "bandingCodes": [
+                "HOSP"
+            ],
+            "comNameCodes": [],
+            "sciNameCodes": [
+                "PADO"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "passer4",
+            "familyComName": "Old World Sparrows",
+            "familySciName": "Passeridae",
+            "notes": "",
+            "frequency": 57
+        },
+        {
+            "sciName": "Passer hispaniolensis",
+            "comName": "Spanish Sparrow",
+            "speciesCode": "spaspa1",
+            "category": "species",
+            "taxonOrder": 31036.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "SPSP"
+            ],
+            "sciNameCodes": [
+                "PAHI"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "passer4",
+            "familyComName": "Old World Sparrows",
+            "familySciName": "Passeridae",
+            "notes": "",
+            "frequency": 6
+        },
+        {
+            "sciName": "Motacilla alba",
+            "comName": "White Wagtail",
+            "speciesCode": "whiwag",
+            "category": "species",
+            "taxonOrder": 31202.0,
+            "bandingCodes": [
+                "WHWA"
+            ],
+            "comNameCodes": [
+                "PWWA"
+            ],
+            "sciNameCodes": [
+                "MOAL"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "motaci1",
+            "familyComName": "Wagtails and Pipits",
+            "familySciName": "Motacillidae",
+            "notes": "",
+            "frequency": 29
+        },
+        {
+            "sciName": "Anthus campestris",
+            "comName": "Tawny Pipit",
+            "speciesCode": "tawpip1",
+            "category": "species",
+            "taxonOrder": 31294.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "TAPI"
+            ],
+            "sciNameCodes": [
+                "ANCA"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "motaci1",
+            "familyComName": "Wagtails and Pipits",
+            "familySciName": "Motacillidae",
+            "notes": "",
+            "frequency": 7
+        },
+        {
+            "sciName": "Anthus spinoletta",
+            "comName": "Water Pipit",
+            "speciesCode": "watpip1",
+            "category": "species",
+            "taxonOrder": 31350.0,
+            "bandingCodes": [],
+            "comNameCodes": [
+                "WAPI"
+            ],
+            "sciNameCodes": [
+                "ANSP"
+            ],
+            "order": "Passeriformes",
+            "familyCode": "motaci1",
+            "familyComName": "Wagtails and Pipits",
+            "familySciName": "Motacillidae",
+            "notes": "",
+            "frequency": 6
+        }
+    ]
+}

@@ -1,0 +1,521 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 2,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Tringa erythropus",
+      "comName": "Spotted Redshank",
+      "speciesCode": "spored",
+      "category": "species",
+      "taxonOrder": 6114.0,
+      "bandingCodes": [
+        "SPRE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TRER"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 10
+    },
+    {
+      "sciName": "Tringa nebularia",
+      "comName": "Common Greenshank",
+      "speciesCode": "comgre",
+      "category": "species",
+      "taxonOrder": 6116.0,
+      "bandingCodes": [
+        "COMG"
+      ],
+      "comNameCodes": [
+        "COGR"
+      ],
+      "sciNameCodes": [
+        "TRNE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 48
+    },
+    {
+      "sciName": "Arenaria interpres",
+      "comName": "Ruddy Turnstone",
+      "speciesCode": "rudtur",
+      "category": "species",
+      "taxonOrder": 6125.0,
+      "bandingCodes": [
+        "RUTU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ARIN"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 20
+    },
+    {
+      "sciName": "Calidris tenuirostris",
+      "comName": "Great Knot",
+      "speciesCode": "grekno",
+      "category": "species",
+      "taxonOrder": 6129.0,
+      "bandingCodes": [
+        "GRKN"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CATE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 30
+    },
+    {
+      "sciName": "Calidris canutus",
+      "comName": "Red Knot",
+      "speciesCode": "redkno",
+      "category": "species",
+      "taxonOrder": 6130.0,
+      "bandingCodes": [
+        "REKN"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CACA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Calidris falcinellus",
+      "comName": "Broad-billed Sandpiper",
+      "speciesCode": "brbsan",
+      "category": "species",
+      "taxonOrder": 6142.0,
+      "bandingCodes": [
+        "BBIS"
+      ],
+      "comNameCodes": [
+        "BBSA"
+      ],
+      "sciNameCodes": [
+        "CAFA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Calidris ferruginea",
+      "comName": "Curlew Sandpiper",
+      "speciesCode": "cursan",
+      "category": "species",
+      "taxonOrder": 6146.0,
+      "bandingCodes": [
+        "CUSA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAFE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 15
+    },
+    {
+      "sciName": "Calidris ruficollis",
+      "comName": "Red-necked Stint",
+      "speciesCode": "rensti",
+      "category": "species",
+      "taxonOrder": 6150.0,
+      "bandingCodes": [
+        "RNST"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CARU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 33
+    },
+    {
+      "sciName": "Calidris pygmaea",
+      "comName": "Spoon-billed Sandpiper",
+      "speciesCode": "spbsan1",
+      "category": "species",
+      "taxonOrder": 6151.0,
+      "bandingCodes": [
+        "SBSA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAPY"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 0
+    },
+    {
+      "sciName": "Calidris alba",
+      "comName": "Sanderling",
+      "speciesCode": "sander",
+      "category": "species",
+      "taxonOrder": 6153.0,
+      "bandingCodes": [
+        "SAND"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAAL"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 78
+    },
+    {
+      "sciName": "Chroicocephalus ridibundus",
+      "comName": "Black-headed Gull",
+      "speciesCode": "bkhgul",
+      "category": "species",
+      "taxonOrder": 6434.0,
+      "bandingCodes": [
+        "BHGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CHRI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 6
+    },
+    {
+      "sciName": "Chroicocephalus brunnicephalus",
+      "comName": "Brown-headed Gull",
+      "speciesCode": "bnhgul1",
+      "category": "species",
+      "taxonOrder": 6437.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BHGU"
+      ],
+      "sciNameCodes": [
+        "CHBR"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 85
+    },
+    {
+      "sciName": "Ichthyaetus ichthyaetus",
+      "comName": "Pallas's Gull",
+      "speciesCode": "gbhgul2",
+      "category": "species",
+      "taxonOrder": 6456.0,
+      "bandingCodes": [
+        "PAGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ICIC"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 19
+    },
+    {
+      "sciName": "Larus fuscus",
+      "comName": "Lesser Black-backed Gull",
+      "speciesCode": "lbbgul",
+      "category": "species",
+      "taxonOrder": 6526.0,
+      "bandingCodes": [
+        "LBBG"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LAFU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 13
+    },
+    {
+      "sciName": "Sternula albifrons",
+      "comName": "Little Tern",
+      "speciesCode": "litter1",
+      "category": "species",
+      "taxonOrder": 6622.0,
+      "bandingCodes": [
+        "LITE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STAL"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 73
+    },
+    {
+      "sciName": "Gelochelidon nilotica",
+      "comName": "Gull-billed Tern",
+      "speciesCode": "gubter2",
+      "category": "species",
+      "taxonOrder": 6649.0,
+      "bandingCodes": [
+        "GBTE"
+      ],
+      "comNameCodes": [
+        "CGBT"
+      ],
+      "sciNameCodes": [
+        "GENI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 29
+    },
+    {
+      "sciName": "Hydroprogne caspia",
+      "comName": "Caspian Tern",
+      "speciesCode": "caster1",
+      "category": "species",
+      "taxonOrder": 6657.0,
+      "bandingCodes": [
+        "CATE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "HYCA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 76
+    },
+    {
+      "sciName": "Chlidonias hybrida",
+      "comName": "Whiskered Tern",
+      "speciesCode": "whiter2",
+      "category": "species",
+      "taxonOrder": 6659.0,
+      "bandingCodes": [
+        "WHST"
+      ],
+      "comNameCodes": [
+        "WHTE"
+      ],
+      "sciNameCodes": [
+        "CHHY"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 67
+    },
+    {
+      "sciName": "Chlidonias leucopterus",
+      "comName": "White-winged Tern",
+      "speciesCode": "whwter",
+      "category": "species",
+      "taxonOrder": 6667.0,
+      "bandingCodes": [
+        "WWTE"
+      ],
+      "comNameCodes": [
+        "WWBT"
+      ],
+      "sciNameCodes": [
+        "CHLE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 36
+    },
+    {
+      "sciName": "Sterna hirundo",
+      "comName": "Common Tern",
+      "speciesCode": "comter",
+      "category": "species",
+      "taxonOrder": 6686.0,
+      "bandingCodes": [
+        "COTE"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "STHI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 75
+    },
+    {
+      "sciName": "Thalasseus bengalensis",
+      "comName": "Lesser Crested Tern",
+      "speciesCode": "lecter2",
+      "category": "species",
+      "taxonOrder": 6720.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LCTE"
+      ],
+      "sciNameCodes": [
+        "THBE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 33
+    },
+    {
+      "sciName": "Thalasseus bergii",
+      "comName": "Great Crested Tern",
+      "speciesCode": "grcter1",
+      "category": "species",
+      "taxonOrder": 6728.0,
+      "bandingCodes": [
+        "GCTE"
+      ],
+      "comNameCodes": [
+        "SWTE",
+        "CRTE"
+      ],
+      "sciNameCodes": [
+        "THBE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "notes": "",
+      "frequency": 79
+    },
+    {
+      "sciName": "Mycteria leucocephala",
+      "comName": "Painted Stork",
+      "speciesCode": "paisto1",
+      "category": "species",
+      "taxonOrder": 7141.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PAST"
+      ],
+      "sciNameCodes": [
+        "MYLE"
+      ],
+      "order": "Ciconiiformes",
+      "familyCode": "ciconi2",
+      "familyComName": "Storks",
+      "familySciName": "Ciconiidae",
+      "notes": "",
+      "frequency": 4
+    },
+    {
+      "sciName": "Microcarbo niger",
+      "comName": "Little Cormorant",
+      "speciesCode": "litcor1",
+      "category": "species",
+      "taxonOrder": 7213.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LICO"
+      ],
+      "sciNameCodes": [
+        "MINI"
+      ],
+      "order": "Suliformes",
+      "familyCode": "phalac1",
+      "familyComName": "Cormorants and Shags",
+      "familySciName": "Phalacrocoracidae",
+      "notes": "",
+      "frequency": 76
+    },
+    {
+      "sciName": "Phalacrocorax fuscicollis",
+      "comName": "Indian Cormorant",
+      "speciesCode": "indcor1",
+      "category": "species",
+      "taxonOrder": 7240.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "INCO"
+      ],
+      "sciNameCodes": [
+        "PHFU"
+      ],
+      "order": "Suliformes",
+      "familyCode": "phalac1",
+      "familyComName": "Cormorants and Shags",
+      "familySciName": "Phalacrocoracidae",
+      "notes": "",
+      "frequency": 20
+    }
+  ]
+}

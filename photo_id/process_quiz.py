@@ -6,6 +6,7 @@ import json
 import logging
 import pathlib
 import re
+import typing
 
 
 def sorted_species(initial_list: list, taxonomy: list) -> list:
@@ -60,54 +61,6 @@ def process_quiz_file(name: str, taxonomy: list) -> dict:
     return result
 
 
-def get_code(data, common_name) -> str:
-    """
-    Retrieves the species code for a given common name from the provided data.
-
-    Parameters:
-    data (dict): The data containing species information.
-    common_name (str): The common name of the species to find the code for.
-
-    Returns:
-    str: The species code if found, otherwise an empty string.
-    """
-    species = next(
-        (item for item in data.get('species', []) if item["comName"].lower() == common_name.lower()), {})
-    return species.get('speciesCode', '')
-
-
-def get_notes(data, common_name) -> str:
-    """
-    Retrieves the notes for a given common name from the provided data.
-
-    Parameters:
-    data (dict): The data containing species information.
-    common_name (str): The common name of the species to find notes for.
-
-    Returns:
-    str: The notes if found, otherwise an empty string.
-    """
-    species = next(
-        (item for item in data.get('species', []) if item["comName"].lower() == common_name.lower()), {})
-    return species.get('notes', '')
-
-
-def get_frequency(data, common_name) -> str:
-    """
-    Retrieves the frequency for a given common name from the provided data.
-
-    Parameters:
-    data (dict): The data containing species information.
-    common_name (str): The common name of the species to find the frequency for.
-
-    Returns:
-    int: The frequency if found, otherwise -1.
-    """
-    species = next(
-        (item for item in data.get('species', []) if item["comName"].lower() == common_name.lower()), {})
-    return species.get('frequency', -1)
-
-
 def sort_quiz(name: str, taxonomy: list) -> dict:
     """
     Sorts the species in a quiz file based on a given taxonomy and saves the result to a new file.
@@ -125,65 +78,71 @@ def sort_quiz(name: str, taxonomy: list) -> dict:
         json.dump(result, file, ensure_ascii=False, indent=4)
 
 
-def build_quiz_from_target_species(in_file: str, min_frequency: int, output_file: str, start_month: int, end_month: int, location_code: str) -> None:
+def build_quiz_from_target_species(
+    in_file: str,
+    min_frequency: int,
+    output_file: str,
+    start_month: int,
+    end_month: int,
+    location_code: str,
+) -> None:
     """
-        Accepts a target species url from eBird, sorted by frequency (descending)
-        Get this from an url
-        like https://ebird.org/targets?region=Oslo%2C+Norway+%28NO%29&r1=NO-03&bmo=5&emo=6&r2=NO-03&t2=day&mediaType=
-        then cut and paste the list of species and frequencies into a text file.
+    Accepts a target species url from eBird, sorted by frequency (descending)
+    Get this from an url
+    like https://ebird.org/targets?region=Oslo%2C+Norway+%28NO%29&r1=NO-03&bmo=5&emo=6&r2=NO-03&t2=day&mediaType=
+    then cut and paste the list of species and frequencies into a text file.
 
-        in_file : input file
-        min_frequency : minimum frequency seen to be included in list
-        output_file : output file
-        start_month : starting month
-        end_month : ending month
-        location_code : 2 letter location code
+    in_file : input file
+    min_frequency : minimum frequency seen to be included in list
+    output_file : output file
+    start_month : starting month
+    end_month : ending month
+    location_code : 2 letter location code
     """
 
-    result = {"start_month": start_month,
-              "end_month": end_month,
-              "location": location_code,
-              "species": []
-              }
-    line_number = 0
-    with open(in_file, 'rt', encoding='utf-8') as target_file:
-        end_of_file = False
-        while not end_of_file:
-            while not end_of_file:
-                line = target_file.readline()
-                line_number = line_number + 1
-                if line == '':
-                    end_of_file = True
-                    break
-                elif re.match("[0-9]+.", line) is not None:
-                    break
-            else:
+    def parse_line(line: str) -> bool:
+        return re.match(r"\d+\.", line) is not None
+
+    def parse_frequency(frequency_text: str) -> int:
+        match = re.match(r"^\d+", frequency_text)
+        if match:
+            return int(match.group(0))
+        return -1
+
+    def read_species_and_frequency(file) ->typing.Dict[str, typing.Any]:
+        species = file.readline().strip()
+        while True:
+            frequency_text = file.readline().strip()
+            if not frequency_text:
+                logging.error("Incorrectly formatted file %s", in_file)
+                raise ValueError("Incorrectly formatted file")
+            frequency = parse_frequency(frequency_text)
+            if frequency >= 0:
                 break
-            if not end_of_file:
-                species = target_file.readline()[:-1]
-                line_number = line_number + 1
-                while not end_of_file:
-                    frequency_text = target_file.readline()[:-1]
-                    line_number = line_number + 1
-                    if frequency_text == '':
-                        end_of_file = True  # should never go here.
-                        logging.error(
-                            "Incorrectly formatted file %s line %d", in_file, line_number)
-                        break
-                    elif re.match("[0-9]+.", frequency_text) is not None:
-                        frequency = int(
-                            re.match('[0-9]+', frequency_text).group(0))
-                        if frequency < min_frequency:
-                            end_of_file = True
-                        break
-                else:
-                    break
-                if not end_of_file:
-                    result['species'].append({'comName': species, 'frequency': frequency,
-                                              'notes': ''})
+        return {"comName": species, "frequency": frequency, "notes": ""}
 
-        with open(output_file, "wt", encoding='utf-8') as outfile:
-            outfile.write(json.dumps(result, indent=2))
+    result = {
+        "start_month": start_month,
+        "end_month": end_month,
+        "location": location_code,
+        "species": [],
+    }
+
+    with open(in_file, "rt", encoding="utf-8") as target_file:
+        while True:
+            line = target_file.readline()
+            if not line:
+                break
+            if parse_line(line):
+                try:
+                    species_info = read_species_and_frequency(target_file)
+                    if species_info["frequency"] >= min_frequency:
+                        result["species"].append(species_info)
+                except ValueError:
+                    break
+
+    with open(output_file, "wt", encoding="utf-8") as outfile:
+        outfile.write(json.dumps(result, indent=2))
 
 
 def split_quiz(in_file: str, max_size: int, taxonomy) -> None:
@@ -214,4 +173,3 @@ def split_quiz(in_file: str, max_size: int, taxonomy) -> None:
         with open(file_name, "wt", encoding='utf-8') as outfile:
             json.dump(split, outfile, indent=2)
         part += 1
-

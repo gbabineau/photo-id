@@ -6,7 +6,7 @@ authors = ["gbabineau <guy.babineau@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.12"
 requests = "^2.31.0"
 tk = "^0.1.0"
 Pillow = "^10.2.0"

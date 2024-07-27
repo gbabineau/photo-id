@@ -7,18 +7,26 @@ import csv
 
 
 def get_have_list(name: str) -> list:
-    """ Reads a csv of birds that are had already """
+    """
+    Reads a CSV file and extracts a list of dictionaries with 'comName' and 'taxonOrder' keys.
+
+    Parameters:
+    name (str): The name of the CSV file to read.
+
+    Returns:
+    list: A list of dictionaries, each containing 'comName' and 'taxonOrder'.
+    """
     result = []
     with open(name, encoding='utf-8', mode='rt') as f:
         reader = csv.reader(f)
-        header = next(reader, None)
-        if header[1] != 'Taxon Order' or header[3] != 'Common Name':
+        header = next(reader, [])
+        if len(header) < 4 or header[1] != 'Taxon Order' or header[3] != 'Common Name':
             logging.error(
-                'Expecting have list to be a csv with a header row as follows [Row #,Taxon Order,Category,Common Name,Scientific Name,Count,Location,S/P,Date,LocID,SubID,Exotic,Countable]')
+                'Expecting have list to be a csv with a header row as follows: '
+                '[Row #, Taxon Order, Category, Common Name, Scientific Name, '
+                'Count, Location, S/P, Date, LocID, SubID, Exotic, Countable]')
         for species in reader:
-            entry = {}
-            entry['comName'] = species[3]
-            entry['taxonOrder'] = int(species[1])
+            entry = {'comName': species[3], 'taxonOrder': int(species[1])}
             result.append(entry)
     result = sorted(result, key=lambda x: x['taxonOrder'])
     return result
