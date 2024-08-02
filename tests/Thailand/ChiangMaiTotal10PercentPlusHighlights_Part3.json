@@ -22,7 +22,10 @@
       "familyComName": "Old World Orioles",
       "familySciName": "Oriolidae",
       "notes": "Chiang Dao.",
-      "frequency": 4
+      "frequency": 4,
+      "Wing.Length": 133.6,
+      "Habitat": "Forest",
+      "Mass": 56.3
     },
     {
       "sciName": "Oriolus traillii",
@@ -42,7 +45,10 @@
       "familyComName": "Old World Orioles",
       "familySciName": "Oriolidae",
       "notes": "Doi Suthep.",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 142.9,
+      "Habitat": "Forest",
+      "Mass": 73.7
     },
     {
       "sciName": "Artamus fuscus",
@@ -62,7 +68,10 @@
       "familyComName": "Woodswallows, Bellmagpies, and Allies",
       "familySciName": "Artamidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 131.9,
+      "Habitat": "Woodland",
+      "Mass": 39.8
     },
     {
       "sciName": "Aegithina lafresnayei",
@@ -82,7 +91,10 @@
       "familyComName": "Ioras",
       "familySciName": "Aegithinidae",
       "notes": "Chiang Dao.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 70.5,
+      "Habitat": "Forest",
+      "Mass": 12
     },
     {
       "sciName": "Rhipidura albicollis",
@@ -102,7 +114,10 @@
       "familyComName": "Fantails",
       "familySciName": "Rhipiduridae",
       "notes": "Doi Inthanon.",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 78.4,
+      "Habitat": "Forest",
+      "Mass": 12.9
     },
     {
       "sciName": "Dicrurus macrocercus",
@@ -122,7 +137,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 141,
+      "Habitat": "Shrubland",
+      "Mass": 48.3
     },
     {
       "sciName": "Dicrurus leucophaeus",
@@ -142,7 +160,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 134.8,
+      "Habitat": "Forest",
+      "Mass": 37.6
     },
     {
       "sciName": "Dicrurus aeneus",
@@ -162,7 +183,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 116.9,
+      "Habitat": "Forest",
+      "Mass": 26
     },
     {
       "sciName": "Dicrurus remifer",
@@ -182,7 +206,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 132.7,
+      "Habitat": "Forest",
+      "Mass": 43.1
     },
     {
       "sciName": "Dicrurus hottentottus",
@@ -204,7 +231,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "Doi Inthanon. Foothills.",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 152.8,
+      "Habitat": "Forest",
+      "Mass": 79.2
     },
     {
       "sciName": "Dicrurus paradiseus",
@@ -224,7 +254,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "Doi Inthanon. Foothills.",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 142.9,
+      "Habitat": "Forest",
+      "Mass": 85.8
     },
     {
       "sciName": "Hypothymis azurea",
@@ -244,7 +277,10 @@
       "familyComName": "Monarch Flycatchers",
       "familySciName": "Monarchidae",
       "notes": "Doi Inthanon(Waterfall area).",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 69.8,
+      "Habitat": "Forest",
+      "Mass": 11.1
     },
     {
       "sciName": "Terpsiphone affinis",
@@ -266,7 +302,10 @@
       "familyComName": "Monarch Flycatchers",
       "familySciName": "Monarchidae",
       "notes": "Doi Inthanon (Waterfall area) & Chiang Dao(called asian paradise-flycatcher)",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 91.3,
+      "Habitat": "Woodland",
+      "Mass": 19.2
     },
     {
       "sciName": "Lanius cristatus",
@@ -288,7 +327,10 @@
       "familyComName": "Shrikes",
       "familySciName": "Laniidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 85,
+      "Habitat": "Shrubland",
+      "Mass": 32.2
     },
     {
       "sciName": "Lanius collurioides",
@@ -308,7 +350,10 @@
       "familyComName": "Shrikes",
       "familySciName": "Laniidae",
       "notes": "Doi Inthanon. Foothills.",
-      "frequency": 4
+      "frequency": 4,
+      "Wing.Length": 89.4,
+      "Habitat": "Shrubland",
+      "Mass": 26
     },
     {
       "sciName": "Lanius schach",
@@ -328,7 +373,10 @@
       "familyComName": "Shrikes",
       "familySciName": "Laniidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 92.4,
+      "Habitat": "Shrubland",
+      "Mass": 51.5
     },
     {
       "sciName": "Lanius tephronotus",
@@ -348,7 +396,10 @@
       "familyComName": "Shrikes",
       "familySciName": "Laniidae",
       "notes": "Doi Angkhang.",
-      "frequency": 8
+      "frequency": 8,
+      "Wing.Length": 98.6,
+      "Habitat": "Grassland",
+      "Mass": 46.4
     },
     {
       "sciName": "Garrulus glandarius",
@@ -369,7 +420,10 @@
       "familyComName": "Crows, Jays, and Magpies",
       "familySciName": "Corvidae",
       "notes": "Doi Inthanon. Dipterocarp forest.",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 181.4,
+      "Habitat": "Forest",
+      "Mass": 159.5
     },
     {
       "sciName": "Urocissa erythroryncha",
@@ -389,7 +443,10 @@
       "familyComName": "Crows, Jays, and Magpies",
       "familySciName": "Corvidae",
       "notes": "Doi Inthanon. Dipterocarp forest.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 181.3,
+      "Habitat": "Forest",
+      "Mass": 151.5
     },
     {
       "sciName": "Dendrocitta formosae",
@@ -409,7 +466,10 @@
       "familyComName": "Crows, Jays, and Magpies",
       "familySciName": "Corvidae",
       "notes": "Doi Inthanon. Foothills.",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 141.1,
+      "Habitat": "Forest",
+      "Mass": 102.7
     },
     {
       "sciName": "Culicicapa ceylonensis",
@@ -429,7 +489,10 @@
       "familyComName": "Fairy Flycatchers",
       "familySciName": "Stenostiridae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 58.4,
+      "Habitat": "Woodland",
+      "Mass": 7.7
     },
     {
       "sciName": "Parus minor",
@@ -450,7 +513,10 @@
       "familyComName": "Tits, Chickadees, and Titmice",
       "familySciName": "Paridae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 66,
+      "Habitat": "Woodland",
+      "Mass": 15.5
     },
     {
       "sciName": "Machlolophus spilonotus",
@@ -470,7 +536,10 @@
       "familyComName": "Tits, Chickadees, and Titmice",
       "familySciName": "Paridae",
       "notes": "Doi Inthanon.",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 76.5,
+      "Habitat": "Forest",
+      "Mass": 18.8
     },
     {
       "sciName": "Mirafra erythrocephala",
@@ -491,7 +560,10 @@
       "familyComName": "Larks",
       "familySciName": "Alaudidae",
       "notes": "Doi Inthanon.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 76.6,
+      "Habitat": "Grassland",
+      "Mass": 26.2
     },
     {
       "sciName": "Orthotomus sutorius",
@@ -511,7 +583,10 @@
       "familyComName": "Cisticolas and Allies",
       "familySciName": "Cisticolidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 45.5,
+      "Habitat": "Shrubland",
+      "Mass": 7.5
     }
   ]
 }

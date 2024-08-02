@@ -22,7 +22,10 @@
       "familyComName": "Wagtails and Pipits",
       "familySciName": "Motacillidae",
       "notes": "Doi Inthanon.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 78.8,
+      "Habitat": "Grassland",
+      "Mass": 18.5
     },
     {
       "sciName": "Motacilla alba",
@@ -44,7 +47,10 @@
       "familyComName": "Wagtails and Pipits",
       "familySciName": "Motacillidae",
       "notes": "Doi Inthanon.",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 87,
+      "Habitat": "Human Modified",
+      "Mass": 23.9
     },
     {
       "sciName": "Anthus hodgsoni",
@@ -64,7 +70,10 @@
       "familyComName": "Wagtails and Pipits",
       "familySciName": "Motacillidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 81,
+      "Habitat": "Grassland",
+      "Mass": 21.3
     },
     {
       "sciName": "Mycerobas melanozanthos",
@@ -84,7 +93,10 @@
       "familyComName": "Finches, Euphonias, and Allies",
       "familySciName": "Fringillidae",
       "notes": "Doi Sanju and Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 120.6,
+      "Habitat": "Forest",
+      "Mass": 62
     },
     {
       "sciName": "Carpodacus sipahi",
@@ -104,7 +116,10 @@
       "familyComName": "Finches, Euphonias, and Allies",
       "familySciName": "Fringillidae",
       "notes": "Doi Pha Ham Pok.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 100.3,
+      "Habitat": "Forest",
+      "Mass": 39.5
     },
     {
       "sciName": "Emberiza fucata",
@@ -124,7 +139,10 @@
       "familyComName": "Old World Buntings",
       "familySciName": "Emberizidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 73.6,
+      "Habitat": "Shrubland",
+      "Mass": 19.8
     },
     {
       "sciName": "Emberiza aureola",
@@ -146,7 +164,10 @@
       "familyComName": "Old World Buntings",
       "familySciName": "Emberizidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 75.3,
+      "Habitat": "Shrubland",
+      "Mass": 19.6
     },
     {
       "sciName": "Emberiza pusilla",
@@ -166,7 +187,10 @@
       "familyComName": "Old World Buntings",
       "familySciName": "Emberizidae",
       "notes": "Doi Angkhang.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 70.3,
+      "Habitat": "Forest",
+      "Mass": 14.6
     },
     {
       "sciName": "Emberiza rutila",
@@ -186,7 +210,10 @@
       "familyComName": "Old World Buntings",
       "familySciName": "Emberizidae",
       "notes": "Doi Angkhang.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 74.8,
+      "Habitat": "Forest",
+      "Mass": 17.5
     }
   ]
 }

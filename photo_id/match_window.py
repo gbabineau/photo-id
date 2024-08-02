@@ -153,13 +153,20 @@ class SpeciesFrame(ttk.Frame):
             self.bird_frequency = Label(
                 self, text=f"Frequency: {species_frequency}%", justify="left")
             self.bird_frequency.grid(row=current_row, column=0)
-        current_row = current_row + 1
+            current_row = current_row + 1
         if species_notes != '':
             self.bird_notes = Label(
                 self, text=f"Notes: {species_notes}", wraplength=int(self.image_width*.6), justify="left")
             self.bird_notes.grid(row=current_row, column=0)
+            current_row = current_row + 1
+        if species_data.get('Habitat', '') != '':
+            self.habitat= Label(
+                self, text=f"Habitat: {species_data['Habitat']}")
+            self.habitat.grid(row=current_row, column=0)
+        if species_data.get("Wing.Length", "") != "":
+            self.habitat = Label(self, text=f"Wing Length: {species_data['Wing.Length']} mm")
+            self.habitat.grid(row=current_row, column=1)
         current_row = current_row + 1
-
         link1 = Label(self, text="Species Description on eBird", fg="blue", cursor="hand2")
         link1.grid(row=current_row, column=0)
         link1.bind(
@@ -283,7 +290,6 @@ class SpeciesFrame(ttk.Frame):
         if len(images) > 2 + REQUIRED_IMAGES:
             return images[2::2][:IMAGES_TO_USE]
         return []
-
 
     def get_image(
         self, species_code: str, location: str, start_month: int, end_month: int

@@ -10,6 +10,7 @@ import logging
 from tkinter import messagebox, Tk, Menu, filedialog, simpledialog
 from photo_id import get_taxonomy
 from photo_id import get_have_list
+from photo_id import get_size_data
 from photo_id import match_window
 from photo_id import process_quiz
 
@@ -21,7 +22,7 @@ class MainWindow:
 
     def __init__(self, default_have_list: str):
         self.have_list = []
-
+        self.avonet_data = {}
         self.taxonomy = get_taxonomy.ebird_taxonomy()
         if default_have_list != "":
             self.have_list = get_have_list.get_have_list(default_have_list)
@@ -30,7 +31,9 @@ class MainWindow:
         menubar = Menu(self.root)
         file_menu = Menu(menubar, tearoff=0)
         file_menu.add_command(label="Open Group Photos Quiz", command=self.match_open)
+        file_menu.add_separator()
         file_menu.add_command(label="Open Have List", command=self.have_list_open)
+        file_menu.add_separator()
         file_menu.add_command(label="Taxonomic Sort Quiz", command=self.sort_quiz)
         file_menu.add_command(
             label="Create Quiz List from Target Species", command=self.create_quiz
@@ -38,7 +41,18 @@ class MainWindow:
         file_menu.add_command(
             label="Break Quiz into Parts", command=self.break_quiz_into_parts
         )
-        file_menu.add_command(label="Save", command=self.donothing)
+        file_menu.add_separator()
+        file_menu.add_command(
+            label="Refresh Avonet data", command=get_size_data.get_new_avonet_data
+        )
+        file_menu.add_command(
+            label="Process Avonet data", command=get_size_data.process_avonet_data
+        )
+        file_menu.add_command(
+            label="Read Cached Avonet data", command=self.read_avonet_data
+        )
+        file_menu.add_command(label="Add Avonet data to quiz(s)",
+                              command=self.apply_avonet_data_to_quizzes)
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
         menubar.add_cascade(label="File", menu=file_menu)
@@ -68,6 +82,10 @@ class MainWindow:
         )
         if filename != "":
             process_quiz.sort_quiz(filename, self.taxonomy)
+
+    def read_avonet_data(self) -> None:
+        """  Read the avonet data from the cache file."""
+        self.avonet_data = get_size_data.read_cached_avonet_data()
 
     def create_quiz(self) -> None:
         """Create a quiz from a cut and paste of the target species list like
@@ -128,6 +146,19 @@ class MainWindow:
         )
         if filename != "":
             process_quiz.split_quiz(filename, 25, self.taxonomy)
+
+    def apply_avonet_data_to_quizzes(self) -> None:
+        """Apply avonet data to quizzes."""
+        if self.avonet_data == {}:
+            self.avonet_data = get_size_data.read_cached_avonet_data()
+
+        filenames = filedialog.askopenfilenames(
+            title="Select Quiz File (s) to apply avonet data",
+            initialdir=".",
+            filetypes=[self.json_files],
+        )
+        for filename in filenames:
+            process_quiz.apply_avonet_data(filename, self.avonet_data)
 
     def donothing(self) -> None:
         """Placeholder for functions not yet implemented."""

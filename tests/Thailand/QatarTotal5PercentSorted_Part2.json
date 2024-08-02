@@ -26,7 +26,10 @@
       "familyComName": "Hoopoes",
       "familySciName": "Upupidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 142.3,
+      "Habitat": "Grassland",
+      "Mass": 66.9
     },
     {
       "sciName": "Falco tinnunculus",
@@ -48,7 +51,10 @@
       "familyComName": "Falcons and Caracaras",
       "familySciName": "Falconidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 241.8,
+      "Habitat": "Shrubland",
+      "Mass": 183.2
     },
     {
       "sciName": "Psittacula krameri",
@@ -70,7 +76,10 @@
       "familyComName": "Old World Parrots",
       "familySciName": "Psittaculidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 155.8,
+      "Habitat": "Forest",
+      "Mass": 116.1
     },
     {
       "sciName": "Lanius isabellinus",
@@ -90,7 +99,10 @@
       "familyComName": "Shrikes",
       "familySciName": "Laniidae",
       "notes": "",
-      "frequency": 17
+      "frequency": 17,
+      "Wing.Length": 90.9,
+      "Habitat": "Shrubland",
+      "Mass": 25.2
     },
     {
       "sciName": "Lanius excubitor",
@@ -110,7 +122,10 @@
       "familyComName": "Shrikes",
       "familySciName": "Laniidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 109.2,
+      "Habitat": "Shrubland",
+      "Mass": 63.4
     },
     {
       "sciName": "Lanius nubicus",
@@ -130,7 +145,10 @@
       "familyComName": "Shrikes",
       "familySciName": "Laniidae",
       "notes": "",
-      "frequency": 8
+      "frequency": 8,
+      "Wing.Length": 89.5,
+      "Habitat": "Woodland",
+      "Mass": 19.7
     },
     {
       "sciName": "Galerida cristata",
@@ -150,7 +168,10 @@
       "familyComName": "Larks",
       "familySciName": "Alaudidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 103.4,
+      "Habitat": "Grassland",
+      "Mass": 42.7
     },
     {
       "sciName": "Prinia lepida",
@@ -171,7 +192,10 @@
       "familyComName": "Cisticolas and Allies",
       "familySciName": "Cisticolidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 45,
+      "Habitat": "Shrubland",
+      "Mass": 7.1
     },
     {
       "sciName": "Acrocephalus stentoreus",
@@ -192,7 +216,10 @@
       "familyComName": "Reed Warblers and Allies",
       "familySciName": "Acrocephalidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 80.1,
+      "Habitat": "Wetland",
+      "Mass": 24.2
     },
     {
       "sciName": "Hirundo rustica",
@@ -214,7 +241,10 @@
       "familyComName": "Swallows",
       "familySciName": "Hirundinidae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 115.8,
+      "Habitat": "Human Modified",
+      "Mass": 17.9
     },
     {
       "sciName": "Pycnonotus cafer",
@@ -234,7 +264,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 94.5,
+      "Habitat": "Shrubland",
+      "Mass": 42.9
     },
     {
       "sciName": "Pycnonotus leucotis",
@@ -254,7 +287,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 55
+      "frequency": 55,
+      "Wing.Length": 84.6,
+      "Habitat": "Shrubland",
+      "Mass": 27.1
     },
     {
       "sciName": "Phylloscopus collybita",
@@ -276,7 +312,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 58.8,
+      "Habitat": "Forest",
+      "Mass": 8.3
     },
     {
       "sciName": "Acridotheres tristis",
@@ -296,7 +335,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "",
-      "frequency": 48
+      "frequency": 48,
+      "Wing.Length": 139.8,
+      "Habitat": "Human Modified",
+      "Mass": 116.4
     },
     {
       "sciName": "Turdus philomelos",
@@ -316,7 +358,10 @@
       "familyComName": "Thrushes and Allies",
       "familySciName": "Turdidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 116,
+      "Habitat": "Forest",
+      "Mass": 67.7
     },
     {
       "sciName": "Luscinia svecica",
@@ -336,7 +381,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 73.1,
+      "Habitat": "Grassland",
+      "Mass": 17.2
     },
     {
       "sciName": "Saxicola rubicola",
@@ -357,7 +405,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 64.6,
+      "Habitat": "Shrubland",
+      "Mass": 15.3
     },
     {
       "sciName": "Oenanthe isabellina",
@@ -377,7 +428,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 96.9,
+      "Habitat": "Shrubland",
+      "Mass": 29.4
     },
     {
       "sciName": "Oenanthe deserti",
@@ -397,7 +451,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 92.9,
+      "Habitat": "Grassland",
+      "Mass": 19.8
     },
     {
       "sciName": "Oenanthe pleschanka",
@@ -417,7 +474,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 92.8,
+      "Habitat": "Rock",
+      "Mass": 19.4
     },
     {
       "sciName": "Euodice malabarica",
@@ -437,7 +497,10 @@
       "familyComName": "Waxbills and Allies",
       "familySciName": "Estrildidae",
       "notes": "",
-      "frequency": 27
+      "frequency": 27,
+      "Wing.Length": 54.3,
+      "Habitat": "Grassland",
+      "Mass": 12
     },
     {
       "sciName": "Passer domesticus",
@@ -457,7 +520,10 @@
       "familyComName": "Old World Sparrows",
       "familySciName": "Passeridae",
       "notes": "",
-      "frequency": 57
+      "frequency": 57,
+      "Wing.Length": 74.9,
+      "Habitat": "Human Modified",
+      "Mass": 26.5
     },
     {
       "sciName": "Passer hispaniolensis",
@@ -477,7 +543,10 @@
       "familyComName": "Old World Sparrows",
       "familySciName": "Passeridae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 76.3,
+      "Habitat": "Shrubland",
+      "Mass": 24.2
     },
     {
       "sciName": "Motacilla alba",
@@ -499,7 +568,10 @@
       "familyComName": "Wagtails and Pipits",
       "familySciName": "Motacillidae",
       "notes": "",
-      "frequency": 29
+      "frequency": 29,
+      "Wing.Length": 87,
+      "Habitat": "Human Modified",
+      "Mass": 23.9
     },
     {
       "sciName": "Anthus campestris",
@@ -519,7 +591,10 @@
       "familyComName": "Wagtails and Pipits",
       "familySciName": "Motacillidae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 91.2,
+      "Habitat": "Grassland",
+      "Mass": 23
     },
     {
       "sciName": "Anthus spinoletta",
@@ -539,7 +614,10 @@
       "familyComName": "Wagtails and Pipits",
       "familySciName": "Motacillidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 86.9,
+      "Habitat": "Grassland",
+      "Mass": 23.9
     }
   ]
 }

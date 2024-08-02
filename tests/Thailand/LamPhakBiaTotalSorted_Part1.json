@@ -23,7 +23,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 22
+      "frequency": 22,
+      "Wing.Length": 219.6,
+      "Habitat": "Human Modified",
+      "Mass": 354.2
     },
     {
       "sciName": "Streptopelia tranquebarica",
@@ -46,7 +49,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 24
+      "frequency": 24,
+      "Wing.Length": 134.8,
+      "Habitat": "Woodland",
+      "Mass": 103
     },
     {
       "sciName": "Spilopelia chinensis",
@@ -90,7 +96,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 97,
+      "Habitat": "Woodland",
+      "Mass": 56.6
     },
     {
       "sciName": "Centropus sinensis",
@@ -110,7 +119,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 212.4,
+      "Habitat": "Woodland",
+      "Mass": 280.7
     },
     {
       "sciName": "Eudynamys scolopaceus",
@@ -131,7 +143,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 196.4,
+      "Habitat": "Woodland",
+      "Mass": 194.9
     },
     {
       "sciName": "Aerodramus germani",
@@ -152,7 +167,10 @@
       "familyComName": "Swifts",
       "familySciName": "Apodidae",
       "notes": "",
-      "frequency": 30
+      "frequency": 30,
+      "Wing.Length": 116.5,
+      "Habitat": "Forest",
+      "Mass": 10.7
     },
     {
       "sciName": "Himantopus himantopus",
@@ -174,7 +192,10 @@
       "familyComName": "Stilts and Avocets",
       "familySciName": "Recurvirostridae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 225.6,
+      "Habitat": "Wetland",
+      "Mass": 176.8
     },
     {
       "sciName": "Pluvialis squatarola",
@@ -196,7 +217,10 @@
       "familyComName": "Plovers and Lapwings",
       "familySciName": "Charadriidae",
       "notes": "",
-      "frequency": 31
+      "frequency": 31,
+      "Wing.Length": 184.4,
+      "Habitat": "Grassland",
+      "Mass": 250
     },
     {
       "sciName": "Pluvialis fulva",
@@ -218,7 +242,10 @@
       "familyComName": "Plovers and Lapwings",
       "familySciName": "Charadriidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 159,
+      "Habitat": "Grassland",
+      "Mass": 134.9
     },
     {
       "sciName": "Charadrius dubius",
@@ -238,7 +265,10 @@
       "familyComName": "Plovers and Lapwings",
       "familySciName": "Charadriidae",
       "notes": "",
-      "frequency": 4
+      "frequency": 4,
+      "Wing.Length": 114.8,
+      "Habitat": "Wetland",
+      "Mass": 38.7
     },
     {
       "sciName": "Anarhynchus atrifrons",
@@ -374,7 +404,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 42
+      "frequency": 42,
+      "Wing.Length": 233,
+      "Habitat": "Grassland",
+      "Mass": 364.6
     },
     {
       "sciName": "Numenius arquata",
@@ -394,7 +427,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 17
+      "frequency": 17,
+      "Wing.Length": 292.2,
+      "Habitat": "Grassland",
+      "Mass": 803
     },
     {
       "sciName": "Limosa lapponica",
@@ -414,7 +450,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 210.1,
+      "Habitat": "Wetland",
+      "Mass": 291.7
     },
     {
       "sciName": "Limosa limosa",
@@ -436,7 +475,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 215.6,
+      "Habitat": "Wetland",
+      "Mass": 288.4
     },
     {
       "sciName": "Xenus cinereus",
@@ -456,7 +498,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 20
+      "frequency": 20,
+      "Wing.Length": 127.4,
+      "Habitat": "Grassland",
+      "Mass": 78.8
     },
     {
       "sciName": "Actitis hypoleucos",
@@ -476,7 +521,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 57
+      "frequency": 57,
+      "Wing.Length": 109.9,
+      "Habitat": "Wetland",
+      "Mass": 48
     },
     {
       "sciName": "Tringa brevipes",
@@ -496,7 +544,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 4
+      "frequency": 4,
+      "Wing.Length": 157.8,
+      "Habitat": "Wetland",
+      "Mass": 127
     },
     {
       "sciName": "Tringa stagnatilis",
@@ -516,7 +567,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 133.4,
+      "Habitat": "Wetland",
+      "Mass": 77.5
     },
     {
       "sciName": "Tringa totanus",
@@ -538,7 +592,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 156.9,
+      "Habitat": "Wetland",
+      "Mass": 129
     }
   ]
 }

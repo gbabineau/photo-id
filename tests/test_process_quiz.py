@@ -31,9 +31,9 @@ class TestSortedSpecies(unittest.TestCase):
             {"comName": "Common Chaffinch"}
         ]
         expected = [
-            {"comName": "Brambling", "taxonOrder": 1, "notes": ""},
-            {"comName": "Common Chaffinch", "taxonOrder": 2, "notes": ""},
-            {"comName": "Eurasian Bullfinch", "taxonOrder": 3, "notes": ""}
+            {"comName": "Brambling", "taxonOrder": 1},
+            {"comName": "Common Chaffinch", "taxonOrder": 2},
+            {"comName": "Eurasian Bullfinch", "taxonOrder": 3}
         ]
         result = photo_id.process_quiz.sorted_species(
             initial_list, self.taxonomy)
@@ -47,8 +47,8 @@ class TestSortedSpecies(unittest.TestCase):
             {"comName": "Eurasian Bullfinch"}
         ]
         expected = [
-            {"comName": "Brambling", "taxonOrder": 1, "notes": ""},
-            {"comName": "Eurasian Bullfinch", "taxonOrder": 3, "notes": ""}
+            {"comName": "Brambling", "taxonOrder": 1},
+            {"comName": "Eurasian Bullfinch", "taxonOrder": 3}
         ]
         result = photo_id.process_quiz.sorted_species(
             initial_list, self.taxonomy)
@@ -62,8 +62,8 @@ class TestSortedSpecies(unittest.TestCase):
             {"comName": "Unknown Species"}
         ]
         expected = [
-            {"comName": "Brambling", "taxonOrder": 1, "notes": ""},
-            {"comName": "Eurasian Bullfinch", "taxonOrder": 3, "notes": ""}
+            {"comName": "Brambling", "taxonOrder": 1},
+            {"comName": "Eurasian Bullfinch", "taxonOrder": 3}
         ]
         result = photo_id.process_quiz.sorted_species(
             initial_list, self.taxonomy)
@@ -123,9 +123,9 @@ class TestProcessQuizFile(unittest.TestCase):
             "end_month": 6,
             "notes": "",
             "species": [
-                {"comName": "Brambling", "taxonOrder": 1, "notes": ""},
-                {"comName": "Common Chaffinch", "taxonOrder": 2, "notes": ""},
-                {"comName": "Eurasian Bullfinch", "taxonOrder": 3, "notes": ""},
+                {"comName": "Brambling", "taxonOrder": 1},
+                {"comName": "Common Chaffinch", "taxonOrder": 2},
+                {"comName": "Eurasian Bullfinch", "taxonOrder": 3},
             ]
         }
         # Now Test
@@ -330,3 +330,98 @@ class TestSplitQuiz(unittest.TestCase):
         ), f"{os.getcwd()}/input_file_Part2.json".lower())
         self.assertEqual(mock_open.mock_calls[6][1][0].lower(
         ), f"{os.getcwd()}/input_file_Part3.json".lower())
+
+
+class TestApplyAvonetData(unittest.TestCase):
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": []}',
+    )
+    @mock.patch("photo_id.process_quiz.json.load", side_effect=FileNotFoundError)
+    def test_apply_avonet_data_file_not_found(self, mock_json_load, mock_open):
+        with self.assertRaises(SystemExit):
+            photo_id.process_quiz.apply_avonet_data("nonexistent_file.json", {})
+        mock_open.assert_called_once_with(
+            "nonexistent_file.json", encoding="utf-8", mode="rt"
+        )
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": []}',
+    )
+    @mock.patch("photo_id.process_quiz.json.load", side_effect=IOError)
+    def test_apply_avonet_data_io_error(self, mock_json_load, mock_open):
+        with self.assertRaises(SystemExit):
+            photo_id.process_quiz.apply_avonet_data("file_with_io_error.json", {})
+        mock_open.assert_called_once_with(
+            "file_with_io_error.json", encoding="utf-8", mode="rt"
+        )
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": []}',
+    )
+    @mock.patch(
+        "photo_id.process_quiz.json.load",
+        side_effect=json.JSONDecodeError("Expecting value", "", 0),
+    )
+    def test_apply_avonet_data_invalid_json(self, mock_json_load, mock_open):
+        with self.assertRaises(SystemExit):
+            photo_id.process_quiz.apply_avonet_data("invalid_json_file.json", {})
+        mock_open.assert_called_once_with(
+            "invalid_json_file.json", encoding="utf-8", mode="rt"
+        )
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": [{"comName": "Brambling", "sciName": "Fringilla montifringilla"}]}',
+    )
+    @mock.patch("photo_id.process_quiz.json.load")
+    @mock.patch("photo_id.process_quiz.json.dump")
+    def test_apply_avonet_data_successful_application(
+        self, mock_json_dump, mock_json_load, mock_open
+    ):
+        mock_json_load.return_value = {
+            "species": [{"comName": "Brambling", "sciName": "Fringilla montifringilla"}]
+        }
+        avonet_data = {"Fringilla montifringilla": {"wingSpan": "25cm"}}
+        photo_id.process_quiz.apply_avonet_data("valid_file.json", avonet_data)
+        mock_open.assert_any_call("valid_file.json", encoding="utf-8", mode="rt")
+        mock_open.assert_any_call("valid_file.json", encoding="utf-8", mode="wt")
+        mock_json_dump.assert_called_once_with(
+            {
+                "species": [
+                    {
+                        "comName": "Brambling",
+                        "sciName": "Fringilla montifringilla",
+                        "wingSpan": "25cm",
+                    }
+                ]
+            },
+            mock.ANY,
+            indent=2,
+        )
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": [{"comName": "Unknown Bird"}]}',
+    )
+    @mock.patch("photo_id.process_quiz.json.load")
+    @mock.patch("photo_id.process_quiz.logging.warning")
+    def test_apply_avonet_data_missing_sci_name(
+        self, mock_logging_warning, mock_json_load, mock_open
+    ):
+        mock_json_load.return_value = {"species": [{"comName": "Unknown Bird"}]}
+        avonet_data = {}
+        photo_id.process_quiz.apply_avonet_data(
+            "file_with_missing_sci_name.json", avonet_data
+        )
+        mock_logging_warning.assert_called_once_with(
+            "The species %s does not have a scientific name.", "Unknown Bird"
+        )

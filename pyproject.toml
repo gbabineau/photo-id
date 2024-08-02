@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "photo_id"
-version = "0.3.1"
+version = "0.4.0"
 description = "Present a photo quiz based on a list of birds, and a location, and a time period"
 authors = ["gbabineau <guy.babineau@gmail.com>"]
 license = "MIT"
@@ -11,6 +11,7 @@ requests = "^2.31.0"
 tk = "^0.1.0"
 Pillow = "^10.2.0"
 ebird-api = "^3.0.6"
+openpyxl = "^3.1.5"
 
 [tool.poetry.dev-dependencies]
 

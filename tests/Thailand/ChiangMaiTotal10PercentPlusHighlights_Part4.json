@@ -22,7 +22,10 @@
       "familyComName": "Cisticolas and Allies",
       "familySciName": "Cisticolidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 50.4,
+      "Habitat": "Shrubland",
+      "Mass": 7
     },
     {
       "sciName": "Pnoepyga pusilla",
@@ -42,7 +45,10 @@
       "familyComName": "Cupwings",
       "familySciName": "Pnoepygidae",
       "notes": "Doi Inthanon. Mountaintop. (Called Pygmy Wren-Babbler)",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 50,
+      "Habitat": "Forest",
+      "Mass": 12
     },
     {
       "sciName": "Hirundo rustica",
@@ -64,7 +70,10 @@
       "familyComName": "Swallows",
       "familySciName": "Hirundinidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 115.8,
+      "Habitat": "Human Modified",
+      "Mass": 17.9
     },
     {
       "sciName": "Ixos mcclellandii",
@@ -84,7 +93,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "Doi Suthep.",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 106,
+      "Habitat": "Woodland",
+      "Mass": 32.5
     },
     {
       "sciName": "Rubigula flaviventris",
@@ -104,7 +116,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 88.2,
+      "Habitat": "Forest",
+      "Mass": 29.3
     },
     {
       "sciName": "Spizixos canifrons",
@@ -124,7 +139,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "Doi Ham Pok &  Doi Angkhang.",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 95,
+      "Habitat": "Shrubland",
+      "Mass": 44
     },
     {
       "sciName": "Pycnonotus conradi",
@@ -144,7 +162,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 83.1,
+      "Habitat": "Shrubland",
+      "Mass": 34.9
     },
     {
       "sciName": "Pycnonotus flavescens",
@@ -165,7 +186,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 20
+      "frequency": 20,
+      "Wing.Length": 85.4,
+      "Habitat": "Forest",
+      "Mass": 28.9
     },
     {
       "sciName": "Pycnonotus xanthorrhous",
@@ -185,7 +209,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "Doi Angkhang.",
-      "frequency": 4
+      "frequency": 4,
+      "Wing.Length": 90.6,
+      "Habitat": "Shrubland",
+      "Mass": 26.9
     },
     {
       "sciName": "Pycnonotus jocosus",
@@ -205,7 +232,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 26
+      "frequency": 26,
+      "Wing.Length": 86.8,
+      "Habitat": "Shrubland",
+      "Mass": 29.5
     },
     {
       "sciName": "Pycnonotus aurigaster",
@@ -225,7 +255,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 29
+      "frequency": 29,
+      "Wing.Length": 91.8,
+      "Habitat": "Shrubland",
+      "Mass": 44.3
     },
     {
       "sciName": "Phylloscopus maculipennis",
@@ -245,7 +278,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "Doi Inthanon. Mountaintop",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 46.8,
+      "Habitat": "Forest",
+      "Mass": 5.1
     },
     {
       "sciName": "Phylloscopus inornatus",
@@ -265,7 +301,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 58.4,
+      "Habitat": "Woodland",
+      "Mass": 6.6
     },
     {
       "sciName": "Phylloscopus castaniceps",
@@ -285,7 +324,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "Doi Sanju.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 48.8,
+      "Habitat": "Forest",
+      "Mass": 5.3
     },
     {
       "sciName": "Phylloscopus intensior",
@@ -306,7 +348,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "Doi Inthanon. (Called white-tailed leaf warbler)",
-      "frequency": 19
+      "frequency": 19,
+      "Wing.Length": 52,
+      "Habitat": "Forest",
+      "Mass": 6.4
     },
     {
       "sciName": "Tesia olivea",
@@ -326,7 +371,10 @@
       "familyComName": "Bush Warblers and Allies",
       "familySciName": "Scotocercidae",
       "notes": "Doi Inthanon. Mountaintop.",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 47.6,
+      "Habitat": "Forest",
+      "Mass": 7
     },
     {
       "sciName": "Aegithalos concinnus",
@@ -348,7 +396,10 @@
       "familyComName": "Long-tailed Tits",
       "familySciName": "Aegithalidae",
       "notes": "Doi Sanju.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 48.6,
+      "Habitat": "Forest",
+      "Mass": 6.1
     },
     {
       "sciName": "Paradoxornis guttaticollis",
@@ -368,7 +419,10 @@
       "familyComName": "Parrotbills",
       "familySciName": "Paradoxornithidae",
       "notes": "Doi Angkhang.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 85.2,
+      "Habitat": "Shrubland",
+      "Mass": 26
     },
     {
       "sciName": "Staphida castaniceps",
@@ -388,7 +442,10 @@
       "familyComName": "White-eyes, Yuhinas, and Allies",
       "familySciName": "Zosteropidae",
       "notes": "Doi Suthep.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 58.7,
+      "Habitat": "Forest",
+      "Mass": 11.8
     },
     {
       "sciName": "Zosterops simplex",
@@ -409,7 +466,10 @@
       "familyComName": "White-eyes, Yuhinas, and Allies",
       "familySciName": "Zosteropidae",
       "notes": "Doi Angkhang.",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 53.5,
+      "Habitat": "Forest",
+      "Mass": 11.3
     },
     {
       "sciName": "Schoeniparus castaneceps",
@@ -429,7 +489,10 @@
       "familyComName": "Ground Babblers and Allies",
       "familySciName": "Pellorneidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 53.7,
+      "Habitat": "Forest",
+      "Mass": 12.5
     },
     {
       "sciName": "Gypsophila brevicaudata",
@@ -450,7 +513,10 @@
       "familyComName": "Ground Babblers and Allies",
       "familySciName": "Pellorneidae",
       "notes": "Chiang Dao.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 60.8,
+      "Habitat": "Forest",
+      "Mass": 19.5
     },
     {
       "sciName": "Alcippe fratercula",
@@ -471,7 +537,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Inthanon.",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 60.9,
+      "Habitat": "Forest",
+      "Mass": 14.8
     },
     {
       "sciName": "Cutia nipalensis",
@@ -491,7 +560,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Sanju.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 88,
+      "Habitat": "Forest",
+      "Mass": 47.2
     },
     {
       "sciName": "Trochalopteron melanostigma",
@@ -511,7 +583,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 97.8,
+      "Habitat": "Woodland",
+      "Mass": 71.7
     }
   ]
 }

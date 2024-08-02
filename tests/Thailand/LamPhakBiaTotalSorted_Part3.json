@@ -22,7 +22,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 285.7,
+      "Habitat": "Wetland",
+      "Mass": 810
     },
     {
       "sciName": "Egretta sacra",
@@ -47,7 +50,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 84
+      "frequency": 84,
+      "Wing.Length": 262.6,
+      "Habitat": "Coastal",
+      "Mass": 502
     },
     {
       "sciName": "Egretta eulophotes",
@@ -67,7 +73,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 60
+      "frequency": 60,
+      "Wing.Length": 250.6,
+      "Habitat": "Coastal",
+      "Mass": 461.8
     },
     {
       "sciName": "Egretta garzetta",
@@ -89,7 +98,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 72
+      "frequency": 72,
+      "Wing.Length": 252.5,
+      "Habitat": "Wetland",
+      "Mass": 312
     },
     {
       "sciName": "Butorides striata",
@@ -112,7 +124,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 44
+      "frequency": 44,
+      "Wing.Length": 173.9,
+      "Habitat": "Wetland",
+      "Mass": 201.5
     },
     {
       "sciName": "Ardeola bacchus",
@@ -134,7 +149,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 213,
+      "Habitat": "Wetland",
+      "Mass": 304.9
     },
     {
       "sciName": "Ardeola speciosa",
@@ -155,7 +173,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 19
+      "frequency": 19,
+      "Wing.Length": 190.2,
+      "Habitat": "Wetland",
+      "Mass": 253
     },
     {
       "sciName": "Ardea alba",
@@ -178,7 +199,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 82
+      "frequency": 82,
+      "Wing.Length": 378.8,
+      "Habitat": "Wetland",
+      "Mass": 871.3
     },
     {
       "sciName": "Ardea intermedia",
@@ -201,7 +225,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 298.8,
+      "Habitat": "Wetland",
+      "Mass": 458.8
     },
     {
       "sciName": "Ardea cinerea",
@@ -223,7 +250,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 17
+      "frequency": 17,
+      "Wing.Length": 441,
+      "Habitat": "Wetland",
+      "Mass": 1443
     },
     {
       "sciName": "Haliastur indus",
@@ -243,7 +273,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "",
-      "frequency": 56
+      "frequency": 56,
+      "Wing.Length": 399.8,
+      "Habitat": "Coastal",
+      "Mass": 529
     },
     {
       "sciName": "Alcedo atthis",
@@ -263,7 +296,10 @@
       "familyComName": "Kingfishers",
       "familySciName": "Alcedinidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 73.3,
+      "Habitat": "Riverine",
+      "Mass": 31.1
     },
     {
       "sciName": "Halcyon smyrnensis",
@@ -284,7 +320,10 @@
       "familyComName": "Kingfishers",
       "familySciName": "Alcedinidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 113.2,
+      "Habitat": "Human Modified",
+      "Mass": 91.4
     },
     {
       "sciName": "Halcyon pileata",
@@ -304,7 +343,10 @@
       "familyComName": "Kingfishers",
       "familySciName": "Alcedinidae",
       "notes": "",
-      "frequency": 32
+      "frequency": 32,
+      "Wing.Length": 124,
+      "Habitat": "Riverine",
+      "Mass": 84
     },
     {
       "sciName": "Todiramphus chloris",
@@ -324,7 +366,10 @@
       "familyComName": "Kingfishers",
       "familySciName": "Alcedinidae",
       "notes": "",
-      "frequency": 64
+      "frequency": 64,
+      "Wing.Length": 107.3,
+      "Habitat": "Woodland",
+      "Mass": 66.1
     },
     {
       "sciName": "Merops orientalis",
@@ -344,7 +389,10 @@
       "familyComName": "Bee-eaters",
       "familySciName": "Meropidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 91,
+      "Habitat": "Shrubland",
+      "Mass": 14.8
     },
     {
       "sciName": "Gerygone sulphurea",
@@ -364,7 +412,10 @@
       "familyComName": "Thornbills and Allies",
       "familySciName": "Acanthizidae",
       "notes": "",
-      "frequency": 27
+      "frequency": 27,
+      "Wing.Length": 54.4,
+      "Habitat": "Woodland",
+      "Mass": 5.6
     },
     {
       "sciName": "Rhipidura javanica",
@@ -386,7 +437,10 @@
       "familyComName": "Fantails",
       "familySciName": "Rhipiduridae",
       "notes": "",
-      "frequency": 29
+      "frequency": 29,
+      "Wing.Length": 68,
+      "Habitat": "Woodland",
+      "Mass": 12.5
     },
     {
       "sciName": "Dicrurus macrocercus",
@@ -406,7 +460,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 141,
+      "Habitat": "Shrubland",
+      "Mass": 48.3
     },
     {
       "sciName": "Crypsirina temia",
@@ -426,7 +483,10 @@
       "familyComName": "Crows, Jays, and Magpies",
       "familySciName": "Corvidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 117.5,
+      "Habitat": "Forest",
+      "Mass": 129.5
     },
     {
       "sciName": "Corvus macrorhynchos",
@@ -447,7 +507,10 @@
       "familyComName": "Crows, Jays, and Magpies",
       "familySciName": "Corvidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 318.6,
+      "Habitat": "Woodland",
+      "Mass": 513.1
     },
     {
       "sciName": "Hirundo rustica",
@@ -469,7 +532,10 @@
       "familyComName": "Swallows",
       "familySciName": "Hirundinidae",
       "notes": "",
-      "frequency": 45
+      "frequency": 45,
+      "Wing.Length": 115.8,
+      "Habitat": "Human Modified",
+      "Mass": 17.9
     },
     {
       "sciName": "Pycnonotus conradi",
@@ -489,7 +555,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 83.1,
+      "Habitat": "Shrubland",
+      "Mass": 34.9
     },
     {
       "sciName": "Phylloscopus fuscatus",
@@ -509,7 +578,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 62.3,
+      "Habitat": "Wetland",
+      "Mass": 8.7
     },
     {
       "sciName": "Gracupica floweri",
@@ -551,7 +623,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 139.8,
+      "Habitat": "Human Modified",
+      "Mass": 116.4
     },
     {
       "sciName": "Acridotheres grandis",
@@ -571,7 +646,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 134.6,
+      "Habitat": "Grassland",
+      "Mass": 98.9
     },
     {
       "sciName": "Copsychus saularis",
@@ -592,7 +670,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 97.5,
+      "Habitat": "Woodland",
+      "Mass": 36
     },
     {
       "sciName": "Passer montanus",
@@ -612,7 +693,10 @@
       "familyComName": "Old World Sparrows",
       "familySciName": "Passeridae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 67.9,
+      "Habitat": "Woodland",
+      "Mass": 21.4
     }
   ]
 }

@@ -22,7 +22,10 @@
       "familyComName": "Ducks, Geese, and Waterfowl",
       "familySciName": "Anatidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 263.4,
+      "Habitat": "Wetland",
+      "Mass": 843.4
     },
     {
       "sciName": "Ortygornis pondicerianus",
@@ -44,7 +47,10 @@
       "familyComName": "Pheasants, Grouse, and Allies",
       "familySciName": "Phasianidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 136.5,
+      "Habitat": "Grassland",
+      "Mass": 249.9
     },
     {
       "sciName": "Phoenicopterus roseus",
@@ -64,7 +70,10 @@
       "familyComName": "Flamingos",
       "familySciName": "Phoenicopteridae",
       "notes": "",
-      "frequency": 8
+      "frequency": 8,
+      "Wing.Length": 399,
+      "Habitat": "Wetland",
+      "Mass": 3031.6
     },
     {
       "sciName": "Tachybaptus ruficollis",
@@ -85,7 +94,10 @@
       "familyComName": "Grebes",
       "familySciName": "Podicipedidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 100,
+      "Habitat": "Wetland",
+      "Mass": 169.4
     },
     {
       "sciName": "Columba livia",
@@ -106,7 +118,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 43
+      "frequency": 43,
+      "Wing.Length": 219.6,
+      "Habitat": "Human Modified",
+      "Mass": 354.2
     },
     {
       "sciName": "Streptopelia decaocto",
@@ -129,7 +144,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 59
+      "frequency": 59,
+      "Wing.Length": 174.6,
+      "Habitat": "Human Modified",
+      "Mass": 149
     },
     {
       "sciName": "Spilopelia senegalensis",
@@ -169,7 +187,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 8
+      "frequency": 8,
+      "Wing.Length": 102.5,
+      "Habitat": "Shrubland",
+      "Mass": 40.6
     },
     {
       "sciName": "Apus pallidus",
@@ -189,7 +210,10 @@
       "familyComName": "Swifts",
       "familySciName": "Apodidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 166.8,
+      "Habitat": "Rock",
+      "Mass": 41.9
     },
     {
       "sciName": "Gallinula chloropus",
@@ -211,7 +235,10 @@
       "familyComName": "Rails, Gallinules, and Coots",
       "familySciName": "Rallidae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 165.5,
+      "Habitat": "Wetland",
+      "Mass": 339.6
     },
     {
       "sciName": "Fulica atra",
@@ -233,7 +260,10 @@
       "familyComName": "Rails, Gallinules, and Coots",
       "familySciName": "Rallidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 198.2,
+      "Habitat": "Wetland",
+      "Mass": 717.1
     },
     {
       "sciName": "Himantopus himantopus",
@@ -255,7 +285,10 @@
       "familyComName": "Stilts and Avocets",
       "familySciName": "Recurvirostridae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 225.6,
+      "Habitat": "Wetland",
+      "Mass": 176.8
     },
     {
       "sciName": "Pluvialis squatarola",
@@ -277,7 +310,10 @@
       "familyComName": "Plovers and Lapwings",
       "familySciName": "Charadriidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 184.4,
+      "Habitat": "Grassland",
+      "Mass": 250
     },
     {
       "sciName": "Charadrius hiaticula",
@@ -299,7 +335,10 @@
       "familyComName": "Plovers and Lapwings",
       "familySciName": "Charadriidae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 126,
+      "Habitat": "Coastal",
+      "Mass": 64
     },
     {
       "sciName": "Vanellus indicus",
@@ -319,7 +358,10 @@
       "familyComName": "Plovers and Lapwings",
       "familySciName": "Charadriidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 208.8,
+      "Habitat": "Wetland",
+      "Mass": 181
     },
     {
       "sciName": "Anarhynchus alexandrinus",
@@ -361,7 +403,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 233,
+      "Habitat": "Grassland",
+      "Mass": 364.6
     },
     {
       "sciName": "Numenius arquata",
@@ -381,7 +426,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 292.2,
+      "Habitat": "Grassland",
+      "Mass": 803
     },
     {
       "sciName": "Gallinago gallinago",
@@ -401,7 +449,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 127.9,
+      "Habitat": "Wetland",
+      "Mass": 112.9
     },
     {
       "sciName": "Actitis hypoleucos",
@@ -421,7 +472,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 109.9,
+      "Habitat": "Wetland",
+      "Mass": 48
     },
     {
       "sciName": "Tringa ochropus",
@@ -441,7 +495,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 137.8,
+      "Habitat": "Wetland",
+      "Mass": 71.4
     },
     {
       "sciName": "Tringa glareola",
@@ -461,7 +518,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 124,
+      "Habitat": "Wetland",
+      "Mass": 62.1
     },
     {
       "sciName": "Tringa totanus",
@@ -483,7 +543,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 156.9,
+      "Habitat": "Wetland",
+      "Mass": 129
     },
     {
       "sciName": "Tringa nebularia",
@@ -505,7 +568,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 185.4,
+      "Habitat": "Wetland",
+      "Mass": 187
     },
     {
       "sciName": "Calidris alpina",
@@ -525,7 +591,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 115.1,
+      "Habitat": "Wetland",
+      "Mass": 51.9
     },
     {
       "sciName": "Calidris minuta",
@@ -545,7 +614,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 93.2,
+      "Habitat": "Grassland",
+      "Mass": 21.1
     },
     {
       "sciName": "Chroicocephalus genei",
@@ -565,7 +637,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 300.8,
+      "Habitat": "Coastal",
+      "Mass": 281
     },
     {
       "sciName": "Chroicocephalus ridibundus",
@@ -585,7 +660,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 291.2,
+      "Habitat": "Wetland",
+      "Mass": 284
     },
     {
       "sciName": "Larus fuscus",
@@ -605,7 +683,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 412.2,
+      "Habitat": "Coastal",
+      "Mass": 762.4
     },
     {
       "sciName": "Hydroprogne caspia",
@@ -625,7 +706,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 410.7,
+      "Habitat": "Wetland",
+      "Mass": 655
     },
     {
       "sciName": "Phalacrocorax carbo",
@@ -648,7 +732,10 @@
       "familyComName": "Cormorants and Shags",
       "familySciName": "Phalacrocoracidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 340.2,
+      "Habitat": "Wetland",
+      "Mass": 2529
     },
     {
       "sciName": "Egretta garzetta",
@@ -670,7 +757,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 252.5,
+      "Habitat": "Wetland",
+      "Mass": 312
     },
     {
       "sciName": "Egretta gularis",
@@ -693,7 +783,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 8
+      "frequency": 8,
+      "Wing.Length": 261,
+      "Habitat": "Coastal",
+      "Mass": 312
     },
     {
       "sciName": "Ardea cinerea",
@@ -715,7 +808,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 441,
+      "Habitat": "Wetland",
+      "Mass": 1443
     },
     {
       "sciName": "Circus aeruginosus",
@@ -739,7 +835,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 405.7,
+      "Habitat": "Wetland",
+      "Mass": 704.1
     },
     {
       "sciName": "Circus macrourus",
@@ -759,7 +858,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 351.2,
+      "Habitat": "Grassland",
+      "Mass": 384.4
     }
   ]
 }

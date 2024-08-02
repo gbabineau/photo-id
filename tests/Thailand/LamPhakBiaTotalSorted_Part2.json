@@ -22,7 +22,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 163.4,
+      "Habitat": "Grassland",
+      "Mass": 158
     },
     {
       "sciName": "Tringa nebularia",
@@ -44,7 +47,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 48
+      "frequency": 48,
+      "Wing.Length": 185.4,
+      "Habitat": "Wetland",
+      "Mass": 187
     },
     {
       "sciName": "Arenaria interpres",
@@ -64,7 +70,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 20
+      "frequency": 20,
+      "Wing.Length": 148.8,
+      "Habitat": "Coastal",
+      "Mass": 136
     },
     {
       "sciName": "Calidris tenuirostris",
@@ -84,7 +93,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 30
+      "frequency": 30,
+      "Wing.Length": 175.6,
+      "Habitat": "Grassland",
+      "Mass": 192
     },
     {
       "sciName": "Calidris canutus",
@@ -104,7 +116,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 164.4,
+      "Habitat": "Coastal",
+      "Mass": 141.9
     },
     {
       "sciName": "Calidris falcinellus",
@@ -126,7 +141,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 99.2,
+      "Habitat": "Wetland",
+      "Mass": 37.1
     },
     {
       "sciName": "Calidris ferruginea",
@@ -146,7 +164,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 129,
+      "Habitat": "Coastal",
+      "Mass": 58.1
     },
     {
       "sciName": "Calidris ruficollis",
@@ -166,7 +187,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 33
+      "frequency": 33,
+      "Wing.Length": 99.5,
+      "Habitat": "Grassland",
+      "Mass": 26.8
     },
     {
       "sciName": "Calidris pygmaea",
@@ -186,7 +210,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 99.4,
+      "Habitat": "Coastal",
+      "Mass": 31.7
     },
     {
       "sciName": "Calidris alba",
@@ -206,7 +233,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "",
-      "frequency": 78
+      "frequency": 78,
+      "Wing.Length": 119.6,
+      "Habitat": "Coastal",
+      "Mass": 51.7
     },
     {
       "sciName": "Chroicocephalus ridibundus",
@@ -226,7 +256,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 291.2,
+      "Habitat": "Wetland",
+      "Mass": 284
     },
     {
       "sciName": "Chroicocephalus brunnicephalus",
@@ -246,7 +279,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 85
+      "frequency": 85,
+      "Wing.Length": 333.9,
+      "Habitat": "Wetland",
+      "Mass": 569.3
     },
     {
       "sciName": "Ichthyaetus ichthyaetus",
@@ -266,7 +302,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 19
+      "frequency": 19,
+      "Wing.Length": 470.8,
+      "Habitat": "Coastal",
+      "Mass": 1378.8
     },
     {
       "sciName": "Larus fuscus",
@@ -286,7 +325,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 412.2,
+      "Habitat": "Coastal",
+      "Mass": 762.4
     },
     {
       "sciName": "Sternula albifrons",
@@ -306,7 +348,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 73
+      "frequency": 73,
+      "Wing.Length": 169.6,
+      "Habitat": "Coastal",
+      "Mass": 57
     },
     {
       "sciName": "Gelochelidon nilotica",
@@ -328,7 +373,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 29
+      "frequency": 29,
+      "Wing.Length": 307.7,
+      "Habitat": "Coastal",
+      "Mass": 218.3
     },
     {
       "sciName": "Hydroprogne caspia",
@@ -348,7 +396,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 76
+      "frequency": 76,
+      "Wing.Length": 410.7,
+      "Habitat": "Wetland",
+      "Mass": 655
     },
     {
       "sciName": "Chlidonias hybrida",
@@ -370,7 +421,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 67
+      "frequency": 67,
+      "Wing.Length": 231.8,
+      "Habitat": "Wetland",
+      "Mass": 83.7
     },
     {
       "sciName": "Chlidonias leucopterus",
@@ -392,7 +446,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 36
+      "frequency": 36,
+      "Wing.Length": 208.2,
+      "Habitat": "Wetland",
+      "Mass": 54.2
     },
     {
       "sciName": "Sterna hirundo",
@@ -412,7 +469,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 75
+      "frequency": 75,
+      "Wing.Length": 253.3,
+      "Habitat": "Marine",
+      "Mass": 129.2
     },
     {
       "sciName": "Thalasseus bengalensis",
@@ -432,7 +492,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 33
+      "frequency": 33,
+      "Wing.Length": 293.2,
+      "Habitat": "Coastal",
+      "Mass": 209
     },
     {
       "sciName": "Thalasseus bergii",
@@ -455,7 +518,10 @@
       "familyComName": "Gulls, Terns, and Skimmers",
       "familySciName": "Laridae",
       "notes": "",
-      "frequency": 79
+      "frequency": 79,
+      "Wing.Length": 357.8,
+      "Habitat": "Coastal",
+      "Mass": 328
     },
     {
       "sciName": "Mycteria leucocephala",
@@ -475,7 +541,10 @@
       "familyComName": "Storks",
       "familySciName": "Ciconiidae",
       "notes": "",
-      "frequency": 4
+      "frequency": 4,
+      "Wing.Length": 474.2,
+      "Habitat": "Wetland",
+      "Mass": 3180
     },
     {
       "sciName": "Microcarbo niger",
@@ -495,7 +564,10 @@
       "familyComName": "Cormorants and Shags",
       "familySciName": "Phalacrocoracidae",
       "notes": "",
-      "frequency": 76
+      "frequency": 76,
+      "Wing.Length": 196.4,
+      "Habitat": "Wetland",
+      "Mass": 427
     },
     {
       "sciName": "Phalacrocorax fuscicollis",
@@ -515,7 +587,10 @@
       "familyComName": "Cormorants and Shags",
       "familySciName": "Phalacrocoracidae",
       "notes": "",
-      "frequency": 20
+      "frequency": 20,
+      "Wing.Length": 263.2,
+      "Habitat": "Wetland",
+      "Mass": 706
     }
   ]
 }

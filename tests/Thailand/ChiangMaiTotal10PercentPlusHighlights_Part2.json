@@ -23,7 +23,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "Doi Inthanon.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 582.2,
+      "Habitat": "Woodland",
+      "Mass": 3125.2
     },
     {
       "sciName": "Circus spilonotus",
@@ -44,7 +47,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "Doi Inthanon.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 407.2,
+      "Habitat": "Wetland",
+      "Mass": 558.8
     },
     {
       "sciName": "Circus melanoleucos",
@@ -64,7 +70,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "Doi Inthanon.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 352.6,
+      "Habitat": "Grassland",
+      "Mass": 336.3
     },
     {
       "sciName": "Milvus migrans",
@@ -87,7 +96,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "Doi Inthanon.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 457.4,
+      "Habitat": "Woodland",
+      "Mass": 734.1
     },
     {
       "sciName": "Athene brama",
@@ -107,7 +119,10 @@
       "familyComName": "Owls",
       "familySciName": "Strigidae",
       "notes": "Doi Inthanon.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 153,
+      "Habitat": "Human Modified",
+      "Mass": 112
     },
     {
       "sciName": "Nyctyornis athertoni",
@@ -127,7 +142,10 @@
       "familyComName": "Bee-eaters",
       "familySciName": "Meropidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 135,
+      "Habitat": "Forest",
+      "Mass": 84.2
     },
     {
       "sciName": "Merops orientalis",
@@ -147,7 +165,10 @@
       "familyComName": "Bee-eaters",
       "familySciName": "Meropidae",
       "notes": "Doi Inthanon.",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 91,
+      "Habitat": "Shrubland",
+      "Mass": 14.8
     },
     {
       "sciName": "Psilopogon haemacephalus",
@@ -167,7 +188,10 @@
       "familyComName": "Asian Barbets",
       "familySciName": "Megalaimidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 80.6,
+      "Habitat": "Woodland",
+      "Mass": 44.5
     },
     {
       "sciName": "Psilopogon virens",
@@ -187,7 +211,10 @@
       "familyComName": "Asian Barbets",
       "familySciName": "Megalaimidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 138.4,
+      "Habitat": "Forest",
+      "Mass": 202
     },
     {
       "sciName": "Psilopogon franklinii",
@@ -207,7 +234,10 @@
       "familyComName": "Asian Barbets",
       "familySciName": "Megalaimidae",
       "notes": "",
-      "frequency": 17
+      "frequency": 17,
+      "Wing.Length": 98.8,
+      "Habitat": "Forest",
+      "Mass": 63.5
     },
     {
       "sciName": "Psilopogon asiaticus",
@@ -227,7 +257,10 @@
       "familyComName": "Asian Barbets",
       "familySciName": "Megalaimidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 103.6,
+      "Habitat": "Forest",
+      "Mass": 90.5
     },
     {
       "sciName": "Dendrocopos atratus",
@@ -247,7 +280,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "Doi Inthanon.",
-      "frequency": 8
+      "frequency": 8,
+      "Wing.Length": 113.3,
+      "Habitat": "Woodland",
+      "Mass": 46.7
     },
     {
       "sciName": "Picus erythropygius",
@@ -267,7 +303,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "Doi Inthanon. Dipterocarp forest.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 156.8,
+      "Habitat": "Woodland",
+      "Mass": 116.2
     },
     {
       "sciName": "Dryocopus javensis",
@@ -287,7 +326,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "Doi Inthanon. Dipterocarp forest.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 219.4,
+      "Habitat": "Forest",
+      "Mass": 271.4
     },
     {
       "sciName": "Microhierax caerulescens",
@@ -307,7 +349,10 @@
       "familyComName": "Falcons and Caracaras",
       "familySciName": "Falconidae",
       "notes": "Doi Inthanon. Dipterocarp forest.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 102,
+      "Habitat": "Forest",
+      "Mass": 38.7
     },
     {
       "sciName": "Falco tinnunculus",
@@ -329,7 +374,10 @@
       "familyComName": "Falcons and Caracaras",
       "familySciName": "Falconidae",
       "notes": "Doi Imthanon.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 241.8,
+      "Habitat": "Shrubland",
+      "Mass": 183.2
     },
     {
       "sciName": "Falco peregrinus",
@@ -349,7 +397,10 @@
       "familyComName": "Falcons and Caracaras",
       "familySciName": "Falconidae",
       "notes": "Doi Inthanon.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 314.7,
+      "Habitat": "Grassland",
+      "Mass": 760
     },
     {
       "sciName": "Psittacula finschii",
@@ -369,7 +420,10 @@
       "familyComName": "Old World Parrots",
       "familySciName": "Psittaculidae",
       "notes": "Doi Sanju.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 150.4,
+      "Habitat": "Forest",
+      "Mass": 89.6
     },
     {
       "sciName": "Psittacula roseata",
@@ -389,7 +443,10 @@
       "familyComName": "Old World Parrots",
       "familySciName": "Psittaculidae",
       "notes": "Doi Inthanon. Foothills.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 137.8,
+      "Habitat": "Forest",
+      "Mass": 66
     },
     {
       "sciName": "Psarisomus dalhousiae",
@@ -409,7 +466,10 @@
       "familyComName": "Asian and Grauer's Broadbills",
       "familySciName": "Eurylaimidae",
       "notes": "Doi Suthep",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 101.3,
+      "Habitat": "Forest",
+      "Mass": 67
     },
     {
       "sciName": "Serilophus lunatus",
@@ -429,7 +489,10 @@
       "familyComName": "Asian and Grauer's Broadbills",
       "familySciName": "Eurylaimidae",
       "notes": "Doi Suthep & Doi Inthanon(Waterfall area).",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 83.4,
+      "Habitat": "Forest",
+      "Mass": 34
     },
     {
       "sciName": "Pericrocotus cinnamomeus",
@@ -449,7 +512,10 @@
       "familyComName": "Cuckooshrikes",
       "familySciName": "Campephagidae",
       "notes": "Doi Inthanon. Foothills.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 67.2,
+      "Habitat": "Shrubland",
+      "Mass": 8.6
     },
     {
       "sciName": "Pericrocotus speciosus",
@@ -469,7 +535,10 @@
       "familyComName": "Cuckooshrikes",
       "familySciName": "Campephagidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 94.2,
+      "Habitat": "Forest",
+      "Mass": 23.3
     },
     {
       "sciName": "Coracina macei",
@@ -491,7 +560,10 @@
       "familyComName": "Cuckooshrikes",
       "familySciName": "Campephagidae",
       "notes": "Doi Sanju.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 166.7,
+      "Habitat": "Forest",
+      "Mass": 105
     },
     {
       "sciName": "Pteruthius aeralatus",
@@ -511,7 +583,10 @@
       "familyComName": "Vireos, Shrike-Babblers, and Erpornis",
       "familySciName": "Vireonidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 70.1,
+      "Habitat": "Forest",
+      "Mass": 38.7
     }
   ]
 }

@@ -7,6 +7,7 @@ import logging
 import pathlib
 import re
 import typing
+import sys
 
 
 def sorted_species(initial_list: list, taxonomy: list) -> list:
@@ -30,9 +31,9 @@ def sorted_species(initial_list: list, taxonomy: list) -> list:
             logging.info('Duplicate species removed %s', species["comName"])
         else:
             entry = entry.copy()
-            entry['notes'] = species.get('notes', '')
-            if 'frequency' in species:
-                entry['frequency'] = species['frequency']
+            for key, value in species.items():
+                if key not in entry.keys():
+                    entry[key] = value
             result.append(entry)
     # Sort
     result = sorted(result, key=lambda x: x['taxonOrder'])
@@ -173,3 +174,37 @@ def split_quiz(in_file: str, max_size: int, taxonomy) -> None:
         with open(file_name, "wt", encoding='utf-8') as outfile:
             json.dump(split, outfile, indent=2)
         part += 1
+
+def apply_avonet_data(filename, avonet_data):
+    """
+    Apply Avonet data to quizzes
+    """
+    try:
+        with open(filename, encoding='utf-8', mode='rt') as file:
+            quiz = json.load(file)
+    except FileNotFoundError:
+        logging.error("The file %s was not found.", filename)
+        sys.exit(1)
+    except IOError:
+        logging.error("An I/O error occurred while reading the file %s.", filename)
+        sys.exit(1)
+
+    except json.JSONDecodeError:
+        logging.error("The file %s contains invalid JSON.", filename)
+        sys.exit(1)
+
+
+    for species in quiz['species']:
+        if 'sciName' not in species:
+            logging.warning("The species %s does not have a scientific name.", species['comName'])
+            continue
+        species_name = species['sciName']
+        avonet_info = avonet_data.get(species_name, {})
+        species.update(avonet_info)
+
+    try:
+        with open(filename, encoding='utf-8', mode='wt') as file:
+            json.dump(quiz, file, indent=2)
+    except IOError:
+        logging.error("An I/O error occurred while writing to the file %s", filename)
+        sys.exit(1)
