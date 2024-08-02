@@ -22,7 +22,10 @@
       "familyComName": "Pheasants, Grouse, and Allies",
       "familySciName": "Phasianidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 212.2,
+      "Habitat": "Forest",
+      "Mass": 868
     },
     {
       "sciName": "Tropicoperdix chloropus",
@@ -43,7 +46,10 @@
       "familyComName": "Pheasants, Grouse, and Allies",
       "familySciName": "Phasianidae",
       "notes": "",
-      "frequency": 20
+      "frequency": 20,
+      "Wing.Length": 145.7,
+      "Habitat": "Forest",
+      "Mass": 250
     },
     {
       "sciName": "Polyplectron bicalcaratum",
@@ -64,7 +70,10 @@
       "familyComName": "Pheasants, Grouse, and Allies",
       "familySciName": "Phasianidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 201,
+      "Habitat": "Forest",
+      "Mass": 467.8
     },
     {
       "sciName": "Gallus gallus",
@@ -84,7 +93,10 @@
       "familyComName": "Pheasants, Grouse, and Allies",
       "familySciName": "Phasianidae",
       "notes": "",
-      "frequency": 47
+      "frequency": 47,
+      "Wing.Length": 218.2,
+      "Habitat": "Forest",
+      "Mass": 751.7
     },
     {
       "sciName": "Spilopelia chinensis",
@@ -128,7 +140,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 45
+      "frequency": 45,
+      "Wing.Length": 143.9,
+      "Habitat": "Forest",
+      "Mass": 136.5
     },
     {
       "sciName": "Treron curvirostra",
@@ -148,7 +163,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 40
+      "frequency": 40,
+      "Wing.Length": 135.9,
+      "Habitat": "Forest",
+      "Mass": 134.5
     },
     {
       "sciName": "Ducula badia",
@@ -169,7 +187,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 231.1,
+      "Habitat": "Forest",
+      "Mass": 486
     },
     {
       "sciName": "Centropus sinensis",
@@ -189,7 +210,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "",
-      "frequency": 40
+      "frequency": 40,
+      "Wing.Length": 212.4,
+      "Habitat": "Woodland",
+      "Mass": 280.7
     },
     {
       "sciName": "Phaenicophaeus tristis",
@@ -209,7 +233,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "",
-      "frequency": 40
+      "frequency": 40,
+      "Wing.Length": 165.7,
+      "Habitat": "Forest",
+      "Mass": 117
     },
     {
       "sciName": "Eudynamys scolopaceus",
@@ -230,7 +257,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "",
-      "frequency": 23
+      "frequency": 23,
+      "Wing.Length": 196.4,
+      "Habitat": "Woodland",
+      "Mass": 194.9
     },
     {
       "sciName": "Cacomantis sonneratii",
@@ -250,7 +280,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 107.4,
+      "Habitat": "Forest",
+      "Mass": 33.8
     },
     {
       "sciName": "Surniculus lugubris",
@@ -270,7 +303,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 119,
+      "Habitat": "Forest",
+      "Mass": 29.7
     },
     {
       "sciName": "Caprimulgus macrurus",
@@ -290,7 +326,10 @@
       "familyComName": "Nightjars and Allies",
       "familySciName": "Caprimulgidae",
       "notes": "",
-      "frequency": 25
+      "frequency": 25,
+      "Wing.Length": 179.2,
+      "Habitat": "Woodland",
+      "Mass": 66.2
     },
     {
       "sciName": "Hirundapus giganteus",
@@ -310,7 +349,10 @@
       "familyComName": "Swifts",
       "familySciName": "Apodidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 203.1,
+      "Habitat": "Forest",
+      "Mass": 127
     },
     {
       "sciName": "Aerodramus brevirostris",
@@ -330,7 +372,10 @@
       "familyComName": "Swifts",
       "familySciName": "Apodidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 122.9,
+      "Habitat": "Rock",
+      "Mass": 13.4
     },
     {
       "sciName": "Aerodramus germani",
@@ -351,7 +396,10 @@
       "familyComName": "Swifts",
       "familySciName": "Apodidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 116.5,
+      "Habitat": "Forest",
+      "Mass": 10.7
     },
     {
       "sciName": "Cypsiurus balasiensis",
@@ -372,7 +420,10 @@
       "familyComName": "Swifts",
       "familySciName": "Apodidae",
       "notes": "",
-      "frequency": 29
+      "frequency": 29,
+      "Wing.Length": 114.7,
+      "Habitat": "Human Modified",
+      "Mass": 9.1
     },
     {
       "sciName": "Hemiprocne longipennis",
@@ -392,7 +443,10 @@
       "familyComName": "Treeswifts",
       "familySciName": "Hemiprocnidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 167.6,
+      "Habitat": "Forest",
+      "Mass": 42.8
     },
     {
       "sciName": "Amaurornis phoenicurus",
@@ -412,7 +466,10 @@
       "familyComName": "Rails, Gallinules, and Coots",
       "familySciName": "Rallidae",
       "notes": "",
-      "frequency": 24
+      "frequency": 24,
+      "Wing.Length": 147,
+      "Habitat": "Wetland",
+      "Mass": 180
     },
     {
       "sciName": "Vanellus indicus",
@@ -432,7 +489,10 @@
       "familyComName": "Plovers and Lapwings",
       "familySciName": "Charadriidae",
       "notes": "",
-      "frequency": 58
+      "frequency": 58,
+      "Wing.Length": 208.8,
+      "Habitat": "Wetland",
+      "Mass": 181
     },
     {
       "sciName": "Anastomus oscitans",
@@ -453,7 +513,10 @@
       "familyComName": "Storks",
       "familySciName": "Ciconiidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 397,
+      "Habitat": "Wetland",
+      "Mass": 1590
     },
     {
       "sciName": "Microcarbo niger",
@@ -473,7 +536,10 @@
       "familyComName": "Cormorants and Shags",
       "familySciName": "Phalacrocoracidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 196.4,
+      "Habitat": "Wetland",
+      "Mass": 427
     },
     {
       "sciName": "Egretta garzetta",
@@ -495,7 +561,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 35
+      "frequency": 35,
+      "Wing.Length": 252.5,
+      "Habitat": "Wetland",
+      "Mass": 312
     },
     {
       "sciName": "Ardeola bacchus",
@@ -517,7 +586,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 37
+      "frequency": 37,
+      "Wing.Length": 213,
+      "Habitat": "Wetland",
+      "Mass": 304.9
     }
   ]
 }

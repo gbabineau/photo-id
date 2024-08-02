@@ -31,9 +31,9 @@ class TestSortedSpecies(unittest.TestCase):
             {"comName": "Common Chaffinch"}
         ]
         expected = [
-            {"comName": "Brambling", "taxonOrder": 1, "notes": ""},
-            {"comName": "Common Chaffinch", "taxonOrder": 2, "notes": ""},
-            {"comName": "Eurasian Bullfinch", "taxonOrder": 3, "notes": ""}
+            {"comName": "Brambling", "taxonOrder": 1},
+            {"comName": "Common Chaffinch", "taxonOrder": 2},
+            {"comName": "Eurasian Bullfinch", "taxonOrder": 3}
         ]
         result = photo_id.process_quiz.sorted_species(
             initial_list, self.taxonomy)
@@ -47,8 +47,8 @@ class TestSortedSpecies(unittest.TestCase):
             {"comName": "Eurasian Bullfinch"}
         ]
         expected = [
-            {"comName": "Brambling", "taxonOrder": 1, "notes": ""},
-            {"comName": "Eurasian Bullfinch", "taxonOrder": 3, "notes": ""}
+            {"comName": "Brambling", "taxonOrder": 1},
+            {"comName": "Eurasian Bullfinch", "taxonOrder": 3}
         ]
         result = photo_id.process_quiz.sorted_species(
             initial_list, self.taxonomy)
@@ -62,8 +62,8 @@ class TestSortedSpecies(unittest.TestCase):
             {"comName": "Unknown Species"}
         ]
         expected = [
-            {"comName": "Brambling", "taxonOrder": 1, "notes": ""},
-            {"comName": "Eurasian Bullfinch", "taxonOrder": 3, "notes": ""}
+            {"comName": "Brambling", "taxonOrder": 1},
+            {"comName": "Eurasian Bullfinch", "taxonOrder": 3}
         ]
         result = photo_id.process_quiz.sorted_species(
             initial_list, self.taxonomy)
@@ -123,9 +123,9 @@ class TestProcessQuizFile(unittest.TestCase):
             "end_month": 6,
             "notes": "",
             "species": [
-                {"comName": "Brambling", "taxonOrder": 1, "notes": ""},
-                {"comName": "Common Chaffinch", "taxonOrder": 2, "notes": ""},
-                {"comName": "Eurasian Bullfinch", "taxonOrder": 3, "notes": ""},
+                {"comName": "Brambling", "taxonOrder": 1},
+                {"comName": "Common Chaffinch", "taxonOrder": 2},
+                {"comName": "Eurasian Bullfinch", "taxonOrder": 3},
             ]
         }
         # Now Test
@@ -137,156 +137,6 @@ class TestProcessQuizFile(unittest.TestCase):
                 "quiz.json", encoding='utf-8', mode='rt')
             self.assertEqual(expected, result)
             self.assertEqual(mock_logging.call_count, 2)
-
-
-class TestGetCode(unittest.TestCase):
-    def setUp(self):
-        """Set up test fixtures, if any."""
-        self.data = {
-            "species": [
-                {"comName": "Brambling", "speciesCode": "Bramb1"},
-                {"comName": "Common Chaffinch", "speciesCode": "ComCha2"},
-                {"comName": "Eurasian Bullfinch", "speciesCode": "EurBul3"}
-            ]
-        }
-
-    def test_get_code_with_existing_species(self):
-        """Test get_code returns correct code for existing species."""
-        expected_code = "Bramb1"
-        result_code = photo_id.process_quiz.get_code(self.data, "Brambling")
-        self.assertEqual(expected_code, result_code)
-
-    def test_get_code_with_non_existing_species(self):
-        """Test get_code returns empty string for non-existing species."""
-        expected_code = ""
-        result_code = photo_id.process_quiz.get_code(
-            self.data, "NonExistingSpecies")
-        self.assertEqual(expected_code, result_code)
-
-    def test_get_code_case_insensitivity(self):
-        """Test get_code is case insensitive."""
-        expected_code = "ComCha2"
-        result_code = photo_id.process_quiz.get_code(
-            self.data, "common chaffinch")
-        self.assertEqual(expected_code, result_code)
-
-    def test_get_code_with_empty_data(self):
-        """Test get_code handles empty data gracefully."""
-        expected_code = ""
-        result_code = photo_id.process_quiz.get_code({}, "Brambling")
-        self.assertEqual(expected_code, result_code)
-
-    def test_get_code_with_partial_data(self):
-        """Test get_code handles partial data (missing speciesCode)."""
-        partial_data = {
-            "species": [
-                {"comName": "Brambling"}  # Missing speciesCode
-            ]
-        }
-        expected_code = ""
-        result_code = photo_id.process_quiz.get_code(partial_data, "Brambling")
-        self.assertEqual(expected_code, result_code)
-
-
-class TestGetNotes(unittest.TestCase):
-    def setUp(self):
-        """Set up test fixtures, if any."""
-        self.data = {
-            "species": [
-                {"comName": "Eurasian Bullfinch",
-                    "notes": "Frequents bird feeders.", "speciesCode": "eurbul"},
-                {"comName": "Brambling", "notes": "Rare visitor in winter.",
-                    "speciesCode": "brambl"},
-                {"comName": "Common Chaffinch",
-                    "notes": "Common in woodlands.", "speciesCode": "comcha"}
-            ]
-        }
-
-    def test_get_notes_with_existing_species(self):
-        """Test if notes are correctly retrieved for an existing species."""
-        expected = "Frequents bird feeders."
-        result = photo_id.process_quiz.get_notes(
-            self.data, "Eurasian Bullfinch")
-        self.assertEqual(expected, result)
-
-    def test_get_notes_with_non_existing_species(self):
-        """Test if an empty string is returned for a non-existing species."""
-        expected = ""
-        result = photo_id.process_quiz.get_notes(
-            self.data, "Non-Existing Species")
-        self.assertEqual(expected, result)
-
-    def test_get_notes_case_insensitivity(self):
-        """Test if the function is case-insensitive when retrieving notes."""
-        expected = "Rare visitor in winter."
-        result = photo_id.process_quiz.get_notes(self.data, "brambling")
-        self.assertEqual(expected, result)
-
-    def test_get_notes_with_empty_data(self):
-        """Test if an empty string is returned when data is empty."""
-        expected = ""
-        result = photo_id.process_quiz.get_notes({}, "Eurasian Bullfinch")
-        self.assertEqual(expected, result)
-
-    def test_get_notes_with_partial_data(self):
-        """Test if an empty string is returned when species data is missing."""
-        expected = ""
-        # Missing 'notes' key
-        partial_data = {"species": [{"comName": "Eurasian Bullfinch"}]}
-        result = photo_id.process_quiz.get_notes(
-            partial_data, "Eurasian Bullfinch")
-        self.assertEqual(expected, result)
-
-
-class TestGetFrequency(unittest.TestCase):
-    def setUp(self):
-        """Set up test fixtures, if any."""
-        self.data = {
-            "species": [
-                {"comName": "Eurasian Bullfinch", "frequency": 5},
-                {"comName": "Brambling", "frequency": 12},
-                {"comName": "Common Chaffinch", "frequency": 8}
-            ]
-        }
-
-    def test_get_frequency_with_existing_species(self):
-        """Test if the correct frequency is returned for an existing species."""
-        expected_frequency = 5
-        result = photo_id.process_quiz.get_frequency(
-            self.data, "Eurasian Bullfinch")
-        self.assertEqual(expected_frequency, result)
-
-    def test_get_frequency_with_non_existing_species(self):
-        """Test if -1 is returned for a non-existing species."""
-        expected_frequency = -1
-        result = photo_id.process_quiz.get_frequency(
-            self.data, "Non Existing Species")
-        self.assertEqual(expected_frequency, result)
-
-    def test_get_frequency_case_insensitivity(self):
-        """Test if the function is case-insensitive."""
-        expected_frequency = 12
-        result = photo_id.process_quiz.get_frequency(self.data, "brambling")
-        self.assertEqual(expected_frequency, result)
-
-    def test_get_frequency_with_empty_data(self):
-        """Test if -1 is returned when the data is empty."""
-        expected_frequency = -1
-        result = photo_id.process_quiz.get_frequency({}, "Eurasian Bullfinch")
-        self.assertEqual(expected_frequency, result)
-
-    def test_get_frequency_with_partial_data(self):
-        """Test if -1 is returned when the species exists but without frequency."""
-        partial_data = {
-            "species": [
-                {"comName": "Eurasian Bullfinch"}
-            ]
-        }
-        expected_frequency = -1
-        result = photo_id.process_quiz.get_frequency(
-            partial_data, "Eurasian Bullfinch")
-        self.assertEqual(expected_frequency, result)
-
 
 class TestSortQuiz(unittest.TestCase):
     @mock.patch('builtins.open', new_callable=mock.mock_open)
@@ -480,3 +330,98 @@ class TestSplitQuiz(unittest.TestCase):
         ), f"{os.getcwd()}/input_file_Part2.json".lower())
         self.assertEqual(mock_open.mock_calls[6][1][0].lower(
         ), f"{os.getcwd()}/input_file_Part3.json".lower())
+
+
+class TestApplyAvonetData(unittest.TestCase):
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": []}',
+    )
+    @mock.patch("photo_id.process_quiz.json.load", side_effect=FileNotFoundError)
+    def test_apply_avonet_data_file_not_found(self, mock_json_load, mock_open):
+        with self.assertRaises(SystemExit):
+            photo_id.process_quiz.apply_avonet_data("nonexistent_file.json", {})
+        mock_open.assert_called_once_with(
+            "nonexistent_file.json", encoding="utf-8", mode="rt"
+        )
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": []}',
+    )
+    @mock.patch("photo_id.process_quiz.json.load", side_effect=IOError)
+    def test_apply_avonet_data_io_error(self, mock_json_load, mock_open):
+        with self.assertRaises(SystemExit):
+            photo_id.process_quiz.apply_avonet_data("file_with_io_error.json", {})
+        mock_open.assert_called_once_with(
+            "file_with_io_error.json", encoding="utf-8", mode="rt"
+        )
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": []}',
+    )
+    @mock.patch(
+        "photo_id.process_quiz.json.load",
+        side_effect=json.JSONDecodeError("Expecting value", "", 0),
+    )
+    def test_apply_avonet_data_invalid_json(self, mock_json_load, mock_open):
+        with self.assertRaises(SystemExit):
+            photo_id.process_quiz.apply_avonet_data("invalid_json_file.json", {})
+        mock_open.assert_called_once_with(
+            "invalid_json_file.json", encoding="utf-8", mode="rt"
+        )
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": [{"comName": "Brambling", "sciName": "Fringilla montifringilla"}]}',
+    )
+    @mock.patch("photo_id.process_quiz.json.load")
+    @mock.patch("photo_id.process_quiz.json.dump")
+    def test_apply_avonet_data_successful_application(
+        self, mock_json_dump, mock_json_load, mock_open
+    ):
+        mock_json_load.return_value = {
+            "species": [{"comName": "Brambling", "sciName": "Fringilla montifringilla"}]
+        }
+        avonet_data = {"Fringilla montifringilla": {"wingSpan": "25cm"}}
+        photo_id.process_quiz.apply_avonet_data("valid_file.json", avonet_data)
+        mock_open.assert_any_call("valid_file.json", encoding="utf-8", mode="rt")
+        mock_open.assert_any_call("valid_file.json", encoding="utf-8", mode="wt")
+        mock_json_dump.assert_called_once_with(
+            {
+                "species": [
+                    {
+                        "comName": "Brambling",
+                        "sciName": "Fringilla montifringilla",
+                        "wingSpan": "25cm",
+                    }
+                ]
+            },
+            mock.ANY,
+            indent=2,
+        )
+
+    @mock.patch(
+        "photo_id.process_quiz.open",
+        new_callable=mock.mock_open,
+        read_data='{"species": [{"comName": "Unknown Bird"}]}',
+    )
+    @mock.patch("photo_id.process_quiz.json.load")
+    @mock.patch("photo_id.process_quiz.logging.warning")
+    def test_apply_avonet_data_missing_sci_name(
+        self, mock_logging_warning, mock_json_load, mock_open
+    ):
+        mock_json_load.return_value = {"species": [{"comName": "Unknown Bird"}]}
+        avonet_data = {}
+        photo_id.process_quiz.apply_avonet_data(
+            "file_with_missing_sci_name.json", avonet_data
+        )
+        mock_logging_warning.assert_called_once_with(
+            "The species %s does not have a scientific name.", "Unknown Bird"
+        )

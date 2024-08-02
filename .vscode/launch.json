@@ -8,7 +8,7 @@
             "name": "Python: Photo ID",
             "type": "python",
             "request": "launch",
-            "program": "photo_id/photo_id.py",
+            "module": "photo_id.photo_id",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [

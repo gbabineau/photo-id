@@ -47,7 +47,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "",
-      "frequency": 19
+      "frequency": 19,
+      "Wing.Length": 413.6,
+      "Habitat": "Woodland",
+      "Mass": 1141.1
     },
     {
       "sciName": "Spilornis cheela",
@@ -68,7 +71,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "",
-      "frequency": 40
+      "frequency": 40,
+      "Wing.Length": 373.7,
+      "Habitat": "Forest",
+      "Mass": 597.7
     },
     {
       "sciName": "Accipiter trivirgatus",
@@ -88,7 +94,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 216.2,
+      "Habitat": "Forest",
+      "Mass": 265
     },
     {
       "sciName": "Accipiter badius",
@@ -109,7 +118,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 186.7,
+      "Habitat": "Shrubland",
+      "Mass": 131.2
     },
     {
       "sciName": "Glaucidium cuculoides",
@@ -129,7 +141,10 @@
       "familyComName": "Owls",
       "familySciName": "Strigidae",
       "notes": "",
-      "frequency": 25
+      "frequency": 25,
+      "Wing.Length": 147.8,
+      "Habitat": "Forest",
+      "Mass": 198.2
     },
     {
       "sciName": "Taenioptynx brodiei",
@@ -149,7 +164,10 @@
       "familyComName": "Owls",
       "familySciName": "Strigidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 92.6,
+      "Habitat": "Forest",
+      "Mass": 59.4
     },
     {
       "sciName": "Harpactes oreskios",
@@ -169,7 +187,10 @@
       "familyComName": "Trogons",
       "familySciName": "Trogonidae",
       "notes": "",
-      "frequency": 41
+      "frequency": 41,
+      "Wing.Length": 122.4,
+      "Habitat": "Forest",
+      "Mass": 57.3
     },
     {
       "sciName": "Harpactes erythrocephalus",
@@ -189,7 +210,10 @@
       "familyComName": "Trogons",
       "familySciName": "Trogonidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 144.8,
+      "Habitat": "Forest",
+      "Mass": 80.3
     },
     {
       "sciName": "Upupa epops",
@@ -213,7 +237,10 @@
       "familyComName": "Hoopoes",
       "familySciName": "Upupidae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 142.3,
+      "Habitat": "Grassland",
+      "Mass": 66.9
     },
     {
       "sciName": "Buceros bicornis",
@@ -233,7 +260,10 @@
       "familyComName": "Hornbills",
       "familySciName": "Bucerotidae",
       "notes": "",
-      "frequency": 49
+      "frequency": 49,
+      "Wing.Length": 509.4,
+      "Habitat": "Forest",
+      "Mass": 2790.8
     },
     {
       "sciName": "Anorrhinus tickelli",
@@ -254,7 +284,10 @@
       "familyComName": "Hornbills",
       "familySciName": "Bucerotidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 305.4,
+      "Habitat": "Forest",
+      "Mass": 792.6
     },
     {
       "sciName": "Anthracoceros albirostris",
@@ -275,7 +308,10 @@
       "familyComName": "Hornbills",
       "familySciName": "Bucerotidae",
       "notes": "",
-      "frequency": 67
+      "frequency": 67,
+      "Wing.Length": 284.9,
+      "Habitat": "Forest",
+      "Mass": 892.9
     },
     {
       "sciName": "Rhyticeros undulatus",
@@ -295,7 +331,10 @@
       "familyComName": "Hornbills",
       "familySciName": "Bucerotidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 438.8,
+      "Habitat": "Forest",
+      "Mass": 2214.6
     },
     {
       "sciName": "Alcedo atthis",
@@ -315,7 +354,10 @@
       "familyComName": "Kingfishers",
       "familySciName": "Alcedinidae",
       "notes": "",
-      "frequency": 8
+      "frequency": 8,
+      "Wing.Length": 73.3,
+      "Habitat": "Riverine",
+      "Mass": 31.1
     },
     {
       "sciName": "Ceyx erithaca",
@@ -336,7 +378,10 @@
       "familyComName": "Kingfishers",
       "familySciName": "Alcedinidae",
       "notes": "",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 58.2,
+      "Habitat": "Forest",
+      "Mass": 17.8
     },
     {
       "sciName": "Lacedo pulchella",
@@ -357,7 +402,10 @@
       "familyComName": "Kingfishers",
       "familySciName": "Alcedinidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 81.7,
+      "Habitat": "Forest",
+      "Mass": 47.3
     },
     {
       "sciName": "Halcyon smyrnensis",
@@ -378,7 +426,10 @@
       "familyComName": "Kingfishers",
       "familySciName": "Alcedinidae",
       "notes": "",
-      "frequency": 30
+      "frequency": 30,
+      "Wing.Length": 113.2,
+      "Habitat": "Human Modified",
+      "Mass": 91.4
     },
     {
       "sciName": "Halcyon pileata",
@@ -398,7 +449,10 @@
       "familyComName": "Kingfishers",
       "familySciName": "Alcedinidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 124,
+      "Habitat": "Riverine",
+      "Mass": 84
     },
     {
       "sciName": "Nyctyornis amictus",
@@ -418,7 +472,10 @@
       "familyComName": "Bee-eaters",
       "familySciName": "Meropidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 119.1,
+      "Habitat": "Forest",
+      "Mass": 71.9
     },
     {
       "sciName": "Nyctyornis athertoni",
@@ -438,7 +495,10 @@
       "familyComName": "Bee-eaters",
       "familySciName": "Meropidae",
       "notes": "",
-      "frequency": 23
+      "frequency": 23,
+      "Wing.Length": 135,
+      "Habitat": "Forest",
+      "Mass": 84.2
     },
     {
       "sciName": "Merops orientalis",
@@ -458,7 +518,10 @@
       "familyComName": "Bee-eaters",
       "familySciName": "Meropidae",
       "notes": "",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 91,
+      "Habitat": "Shrubland",
+      "Mass": 14.8
     },
     {
       "sciName": "Merops leschenaulti",
@@ -478,7 +541,10 @@
       "familyComName": "Bee-eaters",
       "familySciName": "Meropidae",
       "notes": "",
-      "frequency": 25
+      "frequency": 25,
+      "Wing.Length": 106.2,
+      "Habitat": "Woodland",
+      "Mass": 27.2
     },
     {
       "sciName": "Coracias affinis",
@@ -498,7 +564,10 @@
       "familyComName": "Rollers",
       "familySciName": "Coraciidae",
       "notes": "",
-      "frequency": 44
+      "frequency": 44,
+      "Wing.Length": 190.3,
+      "Habitat": "Human Modified",
+      "Mass": 157.5
     },
     {
       "sciName": "Eurystomus orientalis",
@@ -519,7 +588,10 @@
       "familyComName": "Rollers",
       "familySciName": "Coraciidae",
       "notes": "",
-      "frequency": 36
+      "frequency": 36,
+      "Wing.Length": 186.2,
+      "Habitat": "Woodland",
+      "Mass": 143
     }
   ]
 }

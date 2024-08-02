@@ -22,7 +22,10 @@
       "familyComName": "Ducks, Geese, and Waterfowl",
       "familySciName": "Anatidae",
       "notes": "Doi Inthanon.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 355.5,
+      "Habitat": "Wetland",
+      "Mass": 1235
     },
     {
       "sciName": "Arborophila rufogularis",
@@ -42,7 +45,10 @@
       "familyComName": "Pheasants, Grouse, and Allies",
       "familySciName": "Phasianidae",
       "notes": "Doi Inthanon. Mountaintop.",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 135,
+      "Habitat": "Forest",
+      "Mass": 344.5
     },
     {
       "sciName": "Syrmaticus humiae",
@@ -63,7 +69,10 @@
       "familyComName": "Pheasants, Grouse, and Allies",
       "familySciName": "Phasianidae",
       "notes": "Doi Sanju.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 212.4,
+      "Habitat": "Forest",
+      "Mass": 873.4
     },
     {
       "sciName": "Bambusicola fytchii",
@@ -84,7 +93,10 @@
       "familyComName": "Pheasants, Grouse, and Allies",
       "familySciName": "Phasianidae",
       "notes": "Doi Sanju & Doi Angkhang.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 142.8,
+      "Habitat": "Forest",
+      "Mass": 313.7
     },
     {
       "sciName": "Columba livia",
@@ -105,7 +117,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 219.6,
+      "Habitat": "Human Modified",
+      "Mass": 354.2
     },
     {
       "sciName": "Spilopelia chinensis",
@@ -149,7 +164,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 97,
+      "Habitat": "Woodland",
+      "Mass": 56.6
     },
     {
       "sciName": "Treron curvirostra",
@@ -169,7 +187,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 135.9,
+      "Habitat": "Forest",
+      "Mass": 134.5
     },
     {
       "sciName": "Treron apicauda",
@@ -189,7 +210,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "Chiang Dao.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 163.6,
+      "Habitat": "Forest",
+      "Mass": 217.2
     },
     {
       "sciName": "Ducula badia",
@@ -210,7 +234,10 @@
       "familyComName": "Pigeons and Doves",
       "familySciName": "Columbidae",
       "notes": "Doi Sanju.",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 231.1,
+      "Habitat": "Forest",
+      "Mass": 486
     },
     {
       "sciName": "Centropus sinensis",
@@ -230,7 +257,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 212.4,
+      "Habitat": "Woodland",
+      "Mass": 280.7
     },
     {
       "sciName": "Eudynamys scolopaceus",
@@ -251,7 +281,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 196.4,
+      "Habitat": "Woodland",
+      "Mass": 194.9
     },
     {
       "sciName": "Chrysococcyx maculatus",
@@ -271,7 +304,10 @@
       "familyComName": "Cuckoos",
       "familySciName": "Cuculidae",
       "notes": "Doi Inthanon.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 106.6,
+      "Habitat": "Forest",
+      "Mass": 27.4
     },
     {
       "sciName": "Apus cooki",
@@ -292,7 +328,10 @@
       "familyComName": "Swifts",
       "familySciName": "Apodidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 173,
+      "Habitat": "Woodland",
+      "Mass": 39.4
     },
     {
       "sciName": "Cypsiurus balasiensis",
@@ -313,7 +352,10 @@
       "familyComName": "Swifts",
       "familySciName": "Apodidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 114.7,
+      "Habitat": "Human Modified",
+      "Mass": 9.1
     },
     {
       "sciName": "Vanellus cinereus",
@@ -333,7 +375,10 @@
       "familyComName": "Plovers and Lapwings",
       "familySciName": "Charadriidae",
       "notes": "Doi Inthanon.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 239.8,
+      "Habitat": "Wetland",
+      "Mass": 270
     },
     {
       "sciName": "Vanellus indicus",
@@ -353,7 +398,10 @@
       "familyComName": "Plovers and Lapwings",
       "familySciName": "Charadriidae",
       "notes": "Doi Inthanon.",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 208.8,
+      "Habitat": "Wetland",
+      "Mass": 181
     },
     {
       "sciName": "Tringa glareola",
@@ -373,7 +421,10 @@
       "familyComName": "Sandpipers and Allies",
       "familySciName": "Scolopacidae",
       "notes": "Doi Inthanon.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 124,
+      "Habitat": "Wetland",
+      "Mass": 62.1
     },
     {
       "sciName": "Glareola lactea",
@@ -394,7 +445,10 @@
       "familyComName": "Pratincoles and Coursers",
       "familySciName": "Glareolidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 146.6,
+      "Habitat": "Riverine",
+      "Mass": 39.8
     },
     {
       "sciName": "Butorides striata",
@@ -417,7 +471,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 173.9,
+      "Habitat": "Wetland",
+      "Mass": 201.5
     },
     {
       "sciName": "Ardeola bacchus",
@@ -439,7 +496,10 @@
       "familyComName": "Herons, Egrets, and Bitterns",
       "familySciName": "Ardeidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 213,
+      "Habitat": "Wetland",
+      "Mass": 304.9
     },
     {
       "sciName": "Aviceda leuphotes",
@@ -459,7 +519,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "Doi Suthep.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 230.6,
+      "Habitat": "Forest",
+      "Mass": 194
     },
     {
       "sciName": "Circaetus gallicus",
@@ -480,7 +543,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "Doi Inthanon.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 537,
+      "Habitat": "Woodland",
+      "Mass": 1699.1
     },
     {
       "sciName": "Nisaetus nipalensis",
@@ -501,7 +567,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "Doi Sanju.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 438,
+      "Habitat": "Forest",
+      "Mass": 3005
     },
     {
       "sciName": "Clanga clanga",
@@ -521,7 +590,10 @@
       "familyComName": "Hawks, Eagles, and Kites",
       "familySciName": "Accipitridae",
       "notes": "Doi Inthanon.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 510.6,
+      "Habitat": "Wetland",
+      "Mass": 2154.3
     }
   ]
 }

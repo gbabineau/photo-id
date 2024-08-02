@@ -24,7 +24,10 @@
       "familyComName": "Swallows",
       "familySciName": "Hirundinidae",
       "notes": "",
-      "frequency": 37
+      "frequency": 37,
+      "Wing.Length": 115.8,
+      "Habitat": "Human Modified",
+      "Mass": 17.9
     },
     {
       "sciName": "Cecropis daurica",
@@ -45,7 +48,10 @@
       "familyComName": "Swallows",
       "familySciName": "Hirundinidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 122.5,
+      "Habitat": "Grassland",
+      "Mass": 22.2
     },
     {
       "sciName": "Alophoixus ochraceus",
@@ -65,7 +71,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 56
+      "frequency": 56,
+      "Wing.Length": 101.1,
+      "Habitat": "Forest",
+      "Mass": 41.5
     },
     {
       "sciName": "Iole viridescens",
@@ -86,7 +95,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 31
+      "frequency": 31,
+      "Wing.Length": 87,
+      "Habitat": "Forest",
+      "Mass": 25.9
     },
     {
       "sciName": "Hemixos flavala",
@@ -106,7 +118,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 95.3,
+      "Habitat": "Forest",
+      "Mass": 32.5
     },
     {
       "sciName": "Ixos mcclellandii",
@@ -126,7 +141,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 106,
+      "Habitat": "Woodland",
+      "Mass": 32.5
     },
     {
       "sciName": "Microtarsus melanocephalos",
@@ -166,7 +184,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 72
+      "frequency": 72,
+      "Wing.Length": 88.2,
+      "Habitat": "Forest",
+      "Mass": 29.3
     },
     {
       "sciName": "Pycnonotus conradi",
@@ -186,7 +207,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 40
+      "frequency": 40,
+      "Wing.Length": 83.1,
+      "Habitat": "Shrubland",
+      "Mass": 34.9
     },
     {
       "sciName": "Pycnonotus finlaysoni",
@@ -206,7 +230,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 44
+      "frequency": 44,
+      "Wing.Length": 80,
+      "Habitat": "Shrubland",
+      "Mass": 26.3
     },
     {
       "sciName": "Pycnonotus flavescens",
@@ -227,7 +254,10 @@
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 85.4,
+      "Habitat": "Forest",
+      "Mass": 28.9
     },
     {
       "sciName": "Phylloscopus inornatus",
@@ -247,7 +277,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "",
-      "frequency": 31
+      "frequency": 31,
+      "Wing.Length": 58.4,
+      "Habitat": "Woodland",
+      "Mass": 6.6
     },
     {
       "sciName": "Phylloscopus schwarzi",
@@ -267,7 +300,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 63.2,
+      "Habitat": "Shrubland",
+      "Mass": 11.4
     },
     {
       "sciName": "Phylloscopus plumbeitarsus",
@@ -287,7 +323,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 58.4,
+      "Habitat": "Forest",
+      "Mass": 8.6
     },
     {
       "sciName": "Phylloscopus tenellipes",
@@ -307,7 +346,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 59.9,
+      "Habitat": "Forest",
+      "Mass": 11.8
     },
     {
       "sciName": "Phylloscopus ricketti",
@@ -327,7 +369,10 @@
       "familyComName": "Leaf Warblers",
       "familySciName": "Phylloscopidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 55.7,
+      "Habitat": "Forest",
+      "Mass": 6.3
     },
     {
       "sciName": "Abroscopus superciliaris",
@@ -347,7 +392,10 @@
       "familyComName": "Bush Warblers and Allies",
       "familySciName": "Scotocercidae",
       "notes": "",
-      "frequency": 19
+      "frequency": 19,
+      "Wing.Length": 51.2,
+      "Habitat": "Shrubland",
+      "Mass": 6.5
     },
     {
       "sciName": "Mixornis gularis",
@@ -367,7 +415,10 @@
       "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
       "familySciName": "Timaliidae",
       "notes": "",
-      "frequency": 49
+      "frequency": 49,
+      "Wing.Length": 56.5,
+      "Habitat": "Forest",
+      "Mass": 11.8
     },
     {
       "sciName": "Cyanoderma chrysaeum",
@@ -387,7 +438,10 @@
       "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
       "familySciName": "Timaliidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 51.2,
+      "Habitat": "Shrubland",
+      "Mass": 9
     },
     {
       "sciName": "Cyanoderma rufifrons",
@@ -407,7 +461,10 @@
       "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
       "familySciName": "Timaliidae",
       "notes": "",
-      "frequency": 25
+      "frequency": 25,
+      "Wing.Length": 52.5,
+      "Habitat": "Forest",
+      "Mass": 10.6
     },
     {
       "sciName": "Pomatorhinus schisticeps",
@@ -427,7 +484,10 @@
       "familyComName": "Tree-Babblers, Scimitar-Babblers, and Allies",
       "familySciName": "Timaliidae",
       "notes": "",
-      "frequency": 24
+      "frequency": 24,
+      "Wing.Length": 93.4,
+      "Habitat": "Forest",
+      "Mass": 43
     },
     {
       "sciName": "Gampsorhynchus torquatus",
@@ -447,7 +507,10 @@
       "familyComName": "Ground Babblers and Allies",
       "familySciName": "Pellorneidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 98.8,
+      "Habitat": "Forest",
+      "Mass": 37
     },
     {
       "sciName": "Pellorneum ruficeps",
@@ -467,7 +530,10 @@
       "familyComName": "Ground Babblers and Allies",
       "familySciName": "Pellorneidae",
       "notes": "",
-      "frequency": 32
+      "frequency": 32,
+      "Wing.Length": 69,
+      "Habitat": "Shrubland",
+      "Mass": 26
     },
     {
       "sciName": "Malacocincla abbotti",
@@ -487,7 +553,10 @@
       "familyComName": "Ground Babblers and Allies",
       "familySciName": "Pellorneidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 73.2,
+      "Habitat": "Forest",
+      "Mass": 26.8
     },
     {
       "sciName": "Alcippe poioicephala",
@@ -507,7 +576,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 69.5,
+      "Habitat": "Forest",
+      "Mass": 20.7
     }
   ]
 }

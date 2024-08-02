@@ -22,7 +22,10 @@
       "familyComName": "Asian Barbets",
       "familySciName": "Megalaimidae",
       "notes": "",
-      "frequency": 33
+      "frequency": 33,
+      "Wing.Length": 80.6,
+      "Habitat": "Woodland",
+      "Mass": 44.5
     },
     {
       "sciName": "Psilopogon cyanotis",
@@ -62,7 +65,10 @@
       "familyComName": "Asian Barbets",
       "familySciName": "Megalaimidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 138.4,
+      "Habitat": "Forest",
+      "Mass": 202
     },
     {
       "sciName": "Psilopogon faiostrictus",
@@ -82,7 +88,10 @@
       "familyComName": "Asian Barbets",
       "familySciName": "Megalaimidae",
       "notes": "",
-      "frequency": 46
+      "frequency": 46,
+      "Wing.Length": 109.4,
+      "Habitat": "Forest",
+      "Mass": 93
     },
     {
       "sciName": "Psilopogon asiaticus",
@@ -102,7 +111,10 @@
       "familyComName": "Asian Barbets",
       "familySciName": "Megalaimidae",
       "notes": "",
-      "frequency": 29
+      "frequency": 29,
+      "Wing.Length": 103.6,
+      "Habitat": "Forest",
+      "Mass": 90.5
     },
     {
       "sciName": "Sasia ochracea",
@@ -122,7 +134,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 52.9,
+      "Habitat": "Forest",
+      "Mass": 9.7
     },
     {
       "sciName": "Hemicircus canente",
@@ -142,7 +157,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 94.6,
+      "Habitat": "Forest",
+      "Mass": 43
     },
     {
       "sciName": "Chrysocolaptes guttacristatus",
@@ -162,7 +180,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "",
-      "frequency": 42
+      "frequency": 42,
+      "Wing.Length": 165.6,
+      "Habitat": "Woodland",
+      "Mass": 166
     },
     {
       "sciName": "Dinopium javanense",
@@ -182,7 +203,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "",
-      "frequency": 36
+      "frequency": 36,
+      "Wing.Length": 134.1,
+      "Habitat": "Woodland",
+      "Mass": 72.8
     },
     {
       "sciName": "Picus canus",
@@ -203,7 +227,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 143.1,
+      "Habitat": "Forest",
+      "Mass": 137
     },
     {
       "sciName": "Chrysophlegma flavinucha",
@@ -223,7 +250,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "",
-      "frequency": 25
+      "frequency": 25,
+      "Wing.Length": 155,
+      "Habitat": "Forest",
+      "Mass": 176.8
     },
     {
       "sciName": "Mulleripicus pulverulentus",
@@ -243,7 +273,10 @@
       "familyComName": "Woodpeckers",
       "familySciName": "Picidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 238.6,
+      "Habitat": "Forest",
+      "Mass": 450.2
     },
     {
       "sciName": "Microhierax fringillarius",
@@ -263,7 +296,10 @@
       "familyComName": "Falcons and Caracaras",
       "familySciName": "Falconidae",
       "notes": "",
-      "frequency": 25
+      "frequency": 25,
+      "Wing.Length": 91.6,
+      "Habitat": "Forest",
+      "Mass": 42.9
     },
     {
       "sciName": "Loriculus vernalis",
@@ -284,7 +320,10 @@
       "familyComName": "Old World Parrots",
       "familySciName": "Psittaculidae",
       "notes": "",
-      "frequency": 32
+      "frequency": 32,
+      "Wing.Length": 86.8,
+      "Habitat": "Forest",
+      "Mass": 35.7
     },
     {
       "sciName": "Psarisomus dalhousiae",
@@ -304,7 +343,10 @@
       "familyComName": "Asian and Grauer's Broadbills",
       "familySciName": "Eurylaimidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 101.3,
+      "Habitat": "Forest",
+      "Mass": 67
     },
     {
       "sciName": "Corydon sumatranus",
@@ -324,7 +366,10 @@
       "familyComName": "Asian and Grauer's Broadbills",
       "familySciName": "Eurylaimidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 131.1,
+      "Habitat": "Forest",
+      "Mass": 140
     },
     {
       "sciName": "Serilophus lunatus",
@@ -344,7 +389,10 @@
       "familyComName": "Asian and Grauer's Broadbills",
       "familySciName": "Eurylaimidae",
       "notes": "",
-      "frequency": 28
+      "frequency": 28,
+      "Wing.Length": 83.4,
+      "Habitat": "Forest",
+      "Mass": 34
     },
     {
       "sciName": "Cymbirhynchus macrorhynchos",
@@ -364,7 +412,10 @@
       "familyComName": "Asian and Grauer's Broadbills",
       "familySciName": "Eurylaimidae",
       "notes": "",
-      "frequency": 17
+      "frequency": 17,
+      "Wing.Length": 101.4,
+      "Habitat": "Forest",
+      "Mass": 59.4
     },
     {
       "sciName": "Eurylaimus javanicus",
@@ -385,7 +436,10 @@
       "familyComName": "Asian and Grauer's Broadbills",
       "familySciName": "Eurylaimidae",
       "notes": "",
-      "frequency": 22
+      "frequency": 22,
+      "Wing.Length": 103.9,
+      "Habitat": "Forest",
+      "Mass": 78.2
     },
     {
       "sciName": "Eurylaimus ochromalus",
@@ -405,7 +459,10 @@
       "familyComName": "Asian and Grauer's Broadbills",
       "familySciName": "Eurylaimidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 78.8,
+      "Habitat": "Forest",
+      "Mass": 33.3
     },
     {
       "sciName": "Hydrornis cyaneus",
@@ -425,7 +482,10 @@
       "familyComName": "Pittas",
       "familySciName": "Pittidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 109.5,
+      "Habitat": "Forest",
+      "Mass": 109
     },
     {
       "sciName": "Pericrocotus speciosus",
@@ -445,7 +505,10 @@
       "familyComName": "Cuckooshrikes",
       "familySciName": "Campephagidae",
       "notes": "",
-      "frequency": 25
+      "frequency": 25,
+      "Wing.Length": 94.2,
+      "Habitat": "Forest",
+      "Mass": 23.3
     },
     {
       "sciName": "Pericrocotus divaricatus",
@@ -465,7 +528,10 @@
       "familyComName": "Cuckooshrikes",
       "familySciName": "Campephagidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 95.7,
+      "Habitat": "Forest",
+      "Mass": 24.6
     },
     {
       "sciName": "Pericrocotus cantonensis",
@@ -486,7 +552,10 @@
       "familyComName": "Cuckooshrikes",
       "familySciName": "Campephagidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 88.4,
+      "Habitat": "Forest",
+      "Mass": 16.3
     },
     {
       "sciName": "Pericrocotus roseus",
@@ -506,7 +575,10 @@
       "familyComName": "Cuckooshrikes",
       "familySciName": "Campephagidae",
       "notes": "",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 87.9,
+      "Habitat": "Forest",
+      "Mass": 19.2
     }
   ]
 }

@@ -23,7 +23,10 @@
       "familyComName": "Cuckooshrikes",
       "familySciName": "Campephagidae",
       "notes": "",
-      "frequency": 28
+      "frequency": 28,
+      "Wing.Length": 117.9,
+      "Habitat": "Forest",
+      "Mass": 43
     },
     {
       "sciName": "Pteruthius aeralatus",
@@ -43,7 +46,10 @@
       "familyComName": "Vireos, Shrike-Babblers, and Erpornis",
       "familySciName": "Vireonidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 70.1,
+      "Habitat": "Forest",
+      "Mass": 38.7
     },
     {
       "sciName": "Erpornis zantholeuca",
@@ -63,7 +69,10 @@
       "familyComName": "Vireos, Shrike-Babblers, and Erpornis",
       "familySciName": "Vireonidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 66.4,
+      "Habitat": "Forest",
+      "Mass": 11.8
     },
     {
       "sciName": "Oriolus chinensis",
@@ -83,7 +92,10 @@
       "familyComName": "Old World Orioles",
       "familySciName": "Oriolidae",
       "notes": "",
-      "frequency": 37
+      "frequency": 37,
+      "Wing.Length": 150.9,
+      "Habitat": "Forest",
+      "Mass": 82.6
     },
     {
       "sciName": "Artamus fuscus",
@@ -103,7 +115,10 @@
       "familyComName": "Woodswallows, Bellmagpies, and Allies",
       "familySciName": "Artamidae",
       "notes": "",
-      "frequency": 28
+      "frequency": 28,
+      "Wing.Length": 131.9,
+      "Habitat": "Woodland",
+      "Mass": 39.8
     },
     {
       "sciName": "Tephrodornis virgatus",
@@ -123,7 +138,10 @@
       "familyComName": "Vangas, Helmetshrikes, and Allies",
       "familySciName": "Vangidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 101,
+      "Habitat": "Forest",
+      "Mass": 37.8
     },
     {
       "sciName": "Hemipus picatus",
@@ -143,7 +161,10 @@
       "familyComName": "Vangas, Helmetshrikes, and Allies",
       "familySciName": "Vangidae",
       "notes": "",
-      "frequency": 27
+      "frequency": 27,
+      "Wing.Length": 60.7,
+      "Habitat": "Shrubland",
+      "Mass": 9
     },
     {
       "sciName": "Aegithina tiphia",
@@ -163,7 +184,10 @@
       "familyComName": "Ioras",
       "familySciName": "Aegithinidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 61.6,
+      "Habitat": "Forest",
+      "Mass": 12
     },
     {
       "sciName": "Aegithina lafresnayei",
@@ -183,7 +207,10 @@
       "familyComName": "Ioras",
       "familySciName": "Aegithinidae",
       "notes": "",
-      "frequency": 24
+      "frequency": 24,
+      "Wing.Length": 70.5,
+      "Habitat": "Forest",
+      "Mass": 12
     },
     {
       "sciName": "Dicrurus macrocercus",
@@ -203,7 +230,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 141,
+      "Habitat": "Shrubland",
+      "Mass": 48.3
     },
     {
       "sciName": "Dicrurus leucophaeus",
@@ -223,7 +253,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 60
+      "frequency": 60,
+      "Wing.Length": 134.8,
+      "Habitat": "Forest",
+      "Mass": 37.6
     },
     {
       "sciName": "Dicrurus aeneus",
@@ -243,7 +276,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 43
+      "frequency": 43,
+      "Wing.Length": 116.9,
+      "Habitat": "Forest",
+      "Mass": 26
     },
     {
       "sciName": "Dicrurus remifer",
@@ -263,7 +299,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 132.7,
+      "Habitat": "Forest",
+      "Mass": 43.1
     },
     {
       "sciName": "Dicrurus hottentottus",
@@ -285,7 +324,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 53
+      "frequency": 53,
+      "Wing.Length": 152.8,
+      "Habitat": "Forest",
+      "Mass": 79.2
     },
     {
       "sciName": "Dicrurus paradiseus",
@@ -305,7 +347,10 @@
       "familyComName": "Drongos",
       "familySciName": "Dicruridae",
       "notes": "",
-      "frequency": 51
+      "frequency": 51,
+      "Wing.Length": 142.9,
+      "Habitat": "Forest",
+      "Mass": 85.8
     },
     {
       "sciName": "Hypothymis azurea",
@@ -325,7 +370,10 @@
       "familyComName": "Monarch Flycatchers",
       "familySciName": "Monarchidae",
       "notes": "",
-      "frequency": 44
+      "frequency": 44,
+      "Wing.Length": 69.8,
+      "Habitat": "Forest",
+      "Mass": 11.1
     },
     {
       "sciName": "Terpsiphone affinis",
@@ -347,7 +395,10 @@
       "familyComName": "Monarch Flycatchers",
       "familySciName": "Monarchidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 91.3,
+      "Habitat": "Woodland",
+      "Mass": 19.2
     },
     {
       "sciName": "Lanius cristatus",
@@ -369,7 +420,10 @@
       "familyComName": "Shrikes",
       "familySciName": "Laniidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 85,
+      "Habitat": "Shrubland",
+      "Mass": 32.2
     },
     {
       "sciName": "Cissa chinensis",
@@ -390,7 +444,10 @@
       "familyComName": "Crows, Jays, and Magpies",
       "familySciName": "Corvidae",
       "notes": "",
-      "frequency": 23
+      "frequency": 23,
+      "Wing.Length": 145.8,
+      "Habitat": "Forest",
+      "Mass": 126.6
     },
     {
       "sciName": "Crypsirina temia",
@@ -410,7 +467,10 @@
       "familyComName": "Crows, Jays, and Magpies",
       "familySciName": "Corvidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 117.5,
+      "Habitat": "Forest",
+      "Mass": 129.5
     },
     {
       "sciName": "Temnurus temnurus",
@@ -430,7 +490,10 @@
       "familyComName": "Crows, Jays, and Magpies",
       "familySciName": "Corvidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 131.6,
+      "Habitat": "Forest",
+      "Mass": 138
     },
     {
       "sciName": "Culicicapa ceylonensis",
@@ -450,7 +513,10 @@
       "familyComName": "Fairy Flycatchers",
       "familySciName": "Stenostiridae",
       "notes": "",
-      "frequency": 36
+      "frequency": 36,
+      "Wing.Length": 58.4,
+      "Habitat": "Woodland",
+      "Mass": 7.7
     },
     {
       "sciName": "Melanochlora sultanea",
@@ -470,7 +536,10 @@
       "familyComName": "Tits, Chickadees, and Titmice",
       "familySciName": "Paridae",
       "notes": "",
-      "frequency": 40
+      "frequency": 40,
+      "Wing.Length": 106.3,
+      "Habitat": "Forest",
+      "Mass": 37.6
     },
     {
       "sciName": "Orthotomus sutorius",
@@ -490,7 +559,10 @@
       "familyComName": "Cisticolas and Allies",
       "familySciName": "Cisticolidae",
       "notes": "",
-      "frequency": 30
+      "frequency": 30,
+      "Wing.Length": 45.5,
+      "Habitat": "Shrubland",
+      "Mass": 7.5
     },
     {
       "sciName": "Orthotomus atrogularis",
@@ -510,7 +582,10 @@
       "familyComName": "Cisticolas and Allies",
       "familySciName": "Cisticolidae",
       "notes": "",
-      "frequency": 44
+      "frequency": 44,
+      "Wing.Length": 42.9,
+      "Habitat": "Forest",
+      "Mass": 7.7
     }
   ]
 }

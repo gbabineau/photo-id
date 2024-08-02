@@ -22,7 +22,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inthanon(Waterfall area).",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 90,
+      "Habitat": "Riverine",
+      "Mass": 31
     },
     {
       "sciName": "Myiomela leucura",
@@ -43,7 +46,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Angkhang.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 90.8,
+      "Habitat": "Forest",
+      "Mass": 26.8
     },
     {
       "sciName": "Ficedula hyperythra",
@@ -63,7 +69,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inthanon. Mountaintop",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 58.8,
+      "Habitat": "Forest",
+      "Mass": 8.2
     },
     {
       "sciName": "Ficedula westermanni",
@@ -83,7 +92,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 55,
+      "Habitat": "Forest",
+      "Mass": 7.8
     },
     {
       "sciName": "Ficedula albicilla",
@@ -105,7 +117,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 68.4,
+      "Habitat": "Woodland",
+      "Mass": 10.8
     },
     {
       "sciName": "Phoenicurus fuliginosus",
@@ -127,7 +142,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inthanon(Waterfall area).",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 73.6,
+      "Habitat": "Riverine",
+      "Mass": 20.3
     },
     {
       "sciName": "Phoenicurus leucocephalus",
@@ -148,7 +166,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inthanon(Waterfall area). (called white-capped water-redstart)",
-      "frequency": 4
+      "frequency": 4,
+      "Wing.Length": 89.6,
+      "Habitat": "Riverine",
+      "Mass": 30
     },
     {
       "sciName": "Phoenicurus auroreus",
@@ -168,7 +189,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Angkhang.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 72.5,
+      "Habitat": "Forest",
+      "Mass": 16.2
     },
     {
       "sciName": "Saxicola stejnegeri",
@@ -191,7 +215,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inthanon.",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 68.8,
+      "Habitat": "Shrubland",
+      "Mass": 15.4
     },
     {
       "sciName": "Saxicola caprata",
@@ -212,7 +239,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 70.1,
+      "Habitat": "Shrubland",
+      "Mass": 15.2
     },
     {
       "sciName": "Saxicola ferreus",
@@ -233,7 +263,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 66.3,
+      "Habitat": "Shrubland",
+      "Mass": 14.7
     },
     {
       "sciName": "Dicaeum minullum",
@@ -253,7 +286,10 @@
       "familyComName": "Flowerpeckers",
       "familySciName": "Dicaeidae",
       "notes": "Doi Inthanon. Foothills.",
-      "frequency": 2
+      "frequency": 2,
+      "Wing.Length": 44,
+      "Habitat": "Forest",
+      "Mass": 6.2
     },
     {
       "sciName": "Dicaeum cruentatum",
@@ -273,7 +309,10 @@
       "familyComName": "Flowerpeckers",
       "familySciName": "Dicaeidae",
       "notes": "Doi Inthanon. Foothills.",
-      "frequency": 8
+      "frequency": 8,
+      "Wing.Length": 47.3,
+      "Habitat": "Forest",
+      "Mass": 5.6
     },
     {
       "sciName": "Aethopyga saturata",
@@ -293,7 +332,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 51.3,
+      "Habitat": "Forest",
+      "Mass": 5.3
     },
     {
       "sciName": "Aethopyga gouldiae",
@@ -314,7 +356,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 54.5,
+      "Habitat": "Forest",
+      "Mass": 5
     },
     {
       "sciName": "Aethopyga nipalensis",
@@ -334,7 +379,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "Doi Inthanon. Mountaintop",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 49.8,
+      "Habitat": "Forest",
+      "Mass": 6.9
     },
     {
       "sciName": "Aethopyga siparaja",
@@ -354,7 +402,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "Fang Hot Spring & Mae Ai, Tha Ton Paddy.",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 50.4,
+      "Habitat": "Forest",
+      "Mass": 6.7
     },
     {
       "sciName": "Kurochkinegramma hypogrammicum",
@@ -375,7 +426,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "Chiang Dao.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 66.2,
+      "Habitat": "Forest",
+      "Mass": 11.4
     },
     {
       "sciName": "Arachnothera magna",
@@ -395,7 +449,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 88.7,
+      "Habitat": "Forest",
+      "Mass": 30.7
     },
     {
       "sciName": "Chloropsis aurifrons",
@@ -415,7 +472,10 @@
       "familyComName": "Leafbirds",
       "familySciName": "Chloropseidae",
       "notes": "Doi Suthep & Doi Inthanon. Foothills.",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 94.4,
+      "Habitat": "Forest",
+      "Mass": 32.3
     },
     {
       "sciName": "Lonchura punctulata",
@@ -435,7 +495,10 @@
       "familyComName": "Waxbills and Allies",
       "familySciName": "Estrildidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 52.6,
+      "Habitat": "Grassland",
+      "Mass": 13.6
     },
     {
       "sciName": "Lonchura striata",
@@ -455,7 +518,10 @@
       "familyComName": "Waxbills and Allies",
       "familySciName": "Estrildidae",
       "notes": "Doi Suthep.",
-      "frequency": 4
+      "frequency": 4,
+      "Wing.Length": 50.7,
+      "Habitat": "Shrubland",
+      "Mass": 12.3
     },
     {
       "sciName": "Amandava amandava",
@@ -475,7 +541,10 @@
       "familyComName": "Waxbills and Allies",
       "familySciName": "Estrildidae",
       "notes": "Doi Inthanon.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 47.4,
+      "Habitat": "Shrubland",
+      "Mass": 9
     },
     {
       "sciName": "Passer montanus",
@@ -495,7 +564,10 @@
       "familyComName": "Old World Sparrows",
       "familySciName": "Passeridae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 67.9,
+      "Habitat": "Woodland",
+      "Mass": 21.4
     },
     {
       "sciName": "Motacilla cinerea",
@@ -517,7 +589,10 @@
       "familyComName": "Wagtails and Pipits",
       "familySciName": "Motacillidae",
       "notes": "Doi Inthanon.",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 82.8,
+      "Habitat": "Riverine",
+      "Mass": 17.2
     }
   ]
 }

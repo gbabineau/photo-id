@@ -1,0 +1,702 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 2,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Nycticorax nycticorax",
+      "comName": "Black-crowned Night Heron",
+      "speciesCode": "bcnher",
+      "category": "species",
+      "taxonOrder": 7373.0,
+      "bandingCodes": [
+        "BCNH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "NYNY"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 14,
+      "Wing.Length": 285.7,
+      "Habitat": "Wetland",
+      "Mass": 810
+    },
+    {
+      "sciName": "Egretta sacra",
+      "comName": "Pacific Reef-Heron",
+      "speciesCode": "pacreh1",
+      "category": "species",
+      "taxonOrder": 7412.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "PARE",
+        "PREG",
+        "PRHE",
+        "PARH",
+        "REHE",
+        "EREG"
+      ],
+      "sciNameCodes": [
+        "EGSA"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 84,
+      "Wing.Length": 262.6,
+      "Habitat": "Coastal",
+      "Mass": 502
+    },
+    {
+      "sciName": "Egretta eulophotes",
+      "comName": "Chinese Egret",
+      "speciesCode": "chiegr",
+      "category": "species",
+      "taxonOrder": 7415.0,
+      "bandingCodes": [
+        "CHEG"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "EGEU"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 60,
+      "Wing.Length": 250.6,
+      "Habitat": "Coastal",
+      "Mass": 461.8
+    },
+    {
+      "sciName": "Egretta garzetta",
+      "comName": "Little Egret",
+      "speciesCode": "litegr",
+      "category": "species",
+      "taxonOrder": 7421.0,
+      "bandingCodes": [
+        "LIEG"
+      ],
+      "comNameCodes": [
+        "LEWR"
+      ],
+      "sciNameCodes": [
+        "EGGA"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 72,
+      "Wing.Length": 252.5,
+      "Habitat": "Wetland",
+      "Mass": 312
+    },
+    {
+      "sciName": "Butorides striata",
+      "comName": "Striated Heron",
+      "speciesCode": "strher",
+      "category": "species",
+      "taxonOrder": 7439.0,
+      "bandingCodes": [
+        "STRH"
+      ],
+      "comNameCodes": [
+        "STHE",
+        "GBHE"
+      ],
+      "sciNameCodes": [
+        "BUST"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 44,
+      "Wing.Length": 173.9,
+      "Habitat": "Wetland",
+      "Mass": 201.5
+    },
+    {
+      "sciName": "Ardeola bacchus",
+      "comName": "Chinese Pond-Heron",
+      "speciesCode": "chpher1",
+      "category": "species",
+      "taxonOrder": 7482.0,
+      "bandingCodes": [
+        "CHPH"
+      ],
+      "comNameCodes": [
+        "CPHE"
+      ],
+      "sciNameCodes": [
+        "ARBA"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 21,
+      "Wing.Length": 213,
+      "Habitat": "Wetland",
+      "Mass": 304.9
+    },
+    {
+      "sciName": "Ardeola speciosa",
+      "comName": "Javan Pond-Heron",
+      "speciesCode": "japher1",
+      "category": "species",
+      "taxonOrder": 7483.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "JAPH",
+        "JPHE"
+      ],
+      "sciNameCodes": [
+        "ARSP"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 19,
+      "Wing.Length": 190.2,
+      "Habitat": "Wetland",
+      "Mass": 253
+    },
+    {
+      "sciName": "Ardea alba",
+      "comName": "Great Egret",
+      "speciesCode": "greegr",
+      "category": "species",
+      "taxonOrder": 7491.0,
+      "bandingCodes": [
+        "GREG"
+      ],
+      "comNameCodes": [
+        "WHHE",
+        "GWEG"
+      ],
+      "sciNameCodes": [
+        "ARAL"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 82,
+      "Wing.Length": 378.8,
+      "Habitat": "Wetland",
+      "Mass": 871.3
+    },
+    {
+      "sciName": "Ardea intermedia",
+      "comName": "Medium Egret",
+      "speciesCode": "integr1",
+      "category": "species",
+      "taxonOrder": 7499.0,
+      "bandingCodes": [
+        "INEG"
+      ],
+      "comNameCodes": [
+        "YBEG",
+        "MEEG"
+      ],
+      "sciNameCodes": [
+        "ARIN"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 18,
+      "Wing.Length": 298.8,
+      "Habitat": "Wetland",
+      "Mass": 458.8
+    },
+    {
+      "sciName": "Ardea cinerea",
+      "comName": "Gray Heron",
+      "speciesCode": "graher1",
+      "category": "species",
+      "taxonOrder": 7507.0,
+      "bandingCodes": [
+        "GRAH"
+      ],
+      "comNameCodes": [
+        "GRHE"
+      ],
+      "sciNameCodes": [
+        "ARCI"
+      ],
+      "order": "Pelecaniformes",
+      "familyCode": "ardeid1",
+      "familyComName": "Herons, Egrets, and Bitterns",
+      "familySciName": "Ardeidae",
+      "notes": "",
+      "frequency": 17,
+      "Wing.Length": 441,
+      "Habitat": "Wetland",
+      "Mass": 1443
+    },
+    {
+      "sciName": "Haliastur indus",
+      "comName": "Brahminy Kite",
+      "speciesCode": "brakit1",
+      "category": "species",
+      "taxonOrder": 8178.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BRKI"
+      ],
+      "sciNameCodes": [
+        "HAIN"
+      ],
+      "order": "Accipitriformes",
+      "familyCode": "accipi1",
+      "familyComName": "Hawks, Eagles, and Kites",
+      "familySciName": "Accipitridae",
+      "notes": "",
+      "frequency": 56,
+      "Wing.Length": 399.8,
+      "Habitat": "Coastal",
+      "Mass": 529
+    },
+    {
+      "sciName": "Alcedo atthis",
+      "comName": "Common Kingfisher",
+      "speciesCode": "comkin1",
+      "category": "species",
+      "taxonOrder": 9629.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COKI"
+      ],
+      "sciNameCodes": [
+        "ALAT"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "alcedi1",
+      "familyComName": "Kingfishers",
+      "familySciName": "Alcedinidae",
+      "notes": "",
+      "frequency": 18,
+      "Wing.Length": 73.3,
+      "Habitat": "Riverine",
+      "Mass": 31.1
+    },
+    {
+      "sciName": "Halcyon smyrnensis",
+      "comName": "White-throated Kingfisher",
+      "speciesCode": "whtkin2",
+      "category": "species",
+      "taxonOrder": 9795.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WBKI",
+        "WTKI"
+      ],
+      "sciNameCodes": [
+        "HASM"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "alcedi1",
+      "familyComName": "Kingfishers",
+      "familySciName": "Alcedinidae",
+      "notes": "",
+      "frequency": 6,
+      "Wing.Length": 113.2,
+      "Habitat": "Human Modified",
+      "Mass": 91.4
+    },
+    {
+      "sciName": "Halcyon pileata",
+      "comName": "Black-capped Kingfisher",
+      "speciesCode": "blckin1",
+      "category": "species",
+      "taxonOrder": 9808.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BCKI"
+      ],
+      "sciNameCodes": [
+        "HAPI"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "alcedi1",
+      "familyComName": "Kingfishers",
+      "familySciName": "Alcedinidae",
+      "notes": "",
+      "frequency": 32,
+      "Wing.Length": 124,
+      "Habitat": "Riverine",
+      "Mass": 84
+    },
+    {
+      "sciName": "Todiramphus chloris",
+      "comName": "Collared Kingfisher",
+      "speciesCode": "colkin1",
+      "category": "species",
+      "taxonOrder": 9903.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "COKI"
+      ],
+      "sciNameCodes": [
+        "TOCH"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "alcedi1",
+      "familyComName": "Kingfishers",
+      "familySciName": "Alcedinidae",
+      "notes": "",
+      "frequency": 64,
+      "Wing.Length": 107.3,
+      "Habitat": "Woodland",
+      "Mass": 66.1
+    },
+    {
+      "sciName": "Merops orientalis",
+      "comName": "Asian Green Bee-eater",
+      "speciesCode": "grnbee3",
+      "category": "species",
+      "taxonOrder": 10088.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "AGBE"
+      ],
+      "sciNameCodes": [
+        "MEOR"
+      ],
+      "order": "Coraciiformes",
+      "familyCode": "meropi1",
+      "familyComName": "Bee-eaters",
+      "familySciName": "Meropidae",
+      "notes": "",
+      "frequency": 9,
+      "Wing.Length": 91,
+      "Habitat": "Shrubland",
+      "Mass": 14.8
+    },
+    {
+      "sciName": "Gerygone sulphurea",
+      "comName": "Golden-bellied Gerygone",
+      "speciesCode": "gobger1",
+      "category": "species",
+      "taxonOrder": 18131.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GBGE"
+      ],
+      "sciNameCodes": [
+        "GESU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "acanth2",
+      "familyComName": "Thornbills and Allies",
+      "familySciName": "Acanthizidae",
+      "notes": "",
+      "frequency": 27,
+      "Wing.Length": 54.4,
+      "Habitat": "Woodland",
+      "Mass": 5.6
+    },
+    {
+      "sciName": "Rhipidura javanica",
+      "comName": "Malaysian Pied-Fantail",
+      "speciesCode": "piefan1",
+      "category": "species",
+      "taxonOrder": 19896.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MAPF",
+        "MPFA",
+        "SPFA"
+      ],
+      "sciNameCodes": [
+        "RHJA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "rhipid1",
+      "familyComName": "Fantails",
+      "familySciName": "Rhipiduridae",
+      "notes": "",
+      "frequency": 29,
+      "Wing.Length": 68,
+      "Habitat": "Woodland",
+      "Mass": 12.5
+    },
+    {
+      "sciName": "Dicrurus macrocercus",
+      "comName": "Black Drongo",
+      "speciesCode": "bladro1",
+      "category": "species",
+      "taxonOrder": 20051.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "BLDR"
+      ],
+      "sciNameCodes": [
+        "DIMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "dicrur1",
+      "familyComName": "Drongos",
+      "familySciName": "Dicruridae",
+      "notes": "",
+      "frequency": 15,
+      "Wing.Length": 141,
+      "Habitat": "Shrubland",
+      "Mass": 48.3
+    },
+    {
+      "sciName": "Crypsirina temia",
+      "comName": "Racket-tailed Treepie",
+      "speciesCode": "rattre1",
+      "category": "species",
+      "taxonOrder": 21068.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RTTR"
+      ],
+      "sciNameCodes": [
+        "CRTE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 5,
+      "Wing.Length": 117.5,
+      "Habitat": "Forest",
+      "Mass": 129.5
+    },
+    {
+      "sciName": "Corvus macrorhynchos",
+      "comName": "Large-billed Crow",
+      "speciesCode": "labcro1",
+      "category": "species",
+      "taxonOrder": 21197.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "LBJJ",
+        "LBCR"
+      ],
+      "sciNameCodes": [
+        "COMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "notes": "",
+      "frequency": 9,
+      "Wing.Length": 318.6,
+      "Habitat": "Woodland",
+      "Mass": 513.1
+    },
+    {
+      "sciName": "Hirundo rustica",
+      "comName": "Barn Swallow",
+      "speciesCode": "barswa",
+      "category": "species",
+      "taxonOrder": 23772.0,
+      "bandingCodes": [
+        "BARS"
+      ],
+      "comNameCodes": [
+        "BASW"
+      ],
+      "sciNameCodes": [
+        "HIRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "notes": "",
+      "frequency": 45,
+      "Wing.Length": 115.8,
+      "Habitat": "Human Modified",
+      "Mass": 17.9
+    },
+    {
+      "sciName": "Pycnonotus conradi",
+      "comName": "Streak-eared Bulbul",
+      "speciesCode": "stebul2",
+      "category": "species",
+      "taxonOrder": 24271.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SEBU"
+      ],
+      "sciNameCodes": [
+        "PYCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "pycnon4",
+      "familyComName": "Bulbuls",
+      "familySciName": "Pycnonotidae",
+      "notes": "",
+      "frequency": 9,
+      "Wing.Length": 83.1,
+      "Habitat": "Shrubland",
+      "Mass": 34.9
+    },
+    {
+      "sciName": "Phylloscopus fuscatus",
+      "comName": "Dusky Warbler",
+      "speciesCode": "duswar",
+      "category": "species",
+      "taxonOrder": 24410.0,
+      "bandingCodes": [
+        "DUWA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PHFU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "phyllo4",
+      "familyComName": "Leaf Warblers",
+      "familySciName": "Phylloscopidae",
+      "notes": "",
+      "frequency": 6,
+      "Wing.Length": 62.3,
+      "Habitat": "Wetland",
+      "Mass": 8.7
+    },
+    {
+      "sciName": "Gracupica floweri",
+      "comName": "Siamese Pied Starling",
+      "speciesCode": "aspsta7",
+      "category": "species",
+      "taxonOrder": 27381.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "SPST",
+        "APST",
+        "SPMY"
+      ],
+      "sciNameCodes": [
+        "GRFL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "",
+      "frequency": 7
+    },
+    {
+      "sciName": "Acridotheres tristis",
+      "comName": "Common Myna",
+      "speciesCode": "commyn",
+      "category": "species",
+      "taxonOrder": 27402.0,
+      "bandingCodes": [
+        "COMY"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ACTR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "",
+      "frequency": 6,
+      "Wing.Length": 139.8,
+      "Habitat": "Human Modified",
+      "Mass": 116.4
+    },
+    {
+      "sciName": "Acridotheres grandis",
+      "comName": "Great Myna",
+      "speciesCode": "whvmyn1",
+      "category": "species",
+      "taxonOrder": 27424.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRMY"
+      ],
+      "sciNameCodes": [
+        "ACGR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "sturni1",
+      "familyComName": "Starlings",
+      "familySciName": "Sturnidae",
+      "notes": "",
+      "frequency": 9,
+      "Wing.Length": 134.6,
+      "Habitat": "Grassland",
+      "Mass": 98.9
+    },
+    {
+      "sciName": "Copsychus saularis",
+      "comName": "Oriental Magpie-Robin",
+      "speciesCode": "magrob",
+      "category": "species",
+      "taxonOrder": 28501.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ORMR",
+        "OMRO"
+      ],
+      "sciNameCodes": [
+        "COSA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "muscic3",
+      "familyComName": "Old World Flycatchers",
+      "familySciName": "Muscicapidae",
+      "notes": "",
+      "frequency": 21,
+      "Wing.Length": 97.5,
+      "Habitat": "Woodland",
+      "Mass": 36
+    },
+    {
+      "sciName": "Passer montanus",
+      "comName": "Eurasian Tree Sparrow",
+      "speciesCode": "eutspa",
+      "category": "species",
+      "taxonOrder": 31086.0,
+      "bandingCodes": [
+        "ETSP"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PAMO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer4",
+      "familyComName": "Old World Sparrows",
+      "familySciName": "Passeridae",
+      "notes": "",
+      "frequency": 7,
+      "Wing.Length": 67.9,
+      "Habitat": "Woodland",
+      "Mass": 21.4
+    }
+  ]
+}

@@ -22,7 +22,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "",
-      "frequency": 15
+      "frequency": 15,
+      "Wing.Length": 122.6,
+      "Habitat": "Forest",
+      "Mass": 83.7
     },
     {
       "sciName": "Garrulax leucolophus",
@@ -42,7 +45,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 131.1,
+      "Habitat": "Forest",
+      "Mass": 123.4
     },
     {
       "sciName": "Pterorhinus pectoralis",
@@ -62,7 +68,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 141.6,
+      "Habitat": "Forest",
+      "Mass": 145.1
     },
     {
       "sciName": "Sitta frontalis",
@@ -82,7 +91,10 @@
       "familyComName": "Nuthatches",
       "familySciName": "Sittidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 72.7,
+      "Habitat": "Forest",
+      "Mass": 16.5
     },
     {
       "sciName": "Ampeliceps coronatus",
@@ -102,7 +114,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 124.5,
+      "Habitat": "Forest",
+      "Mass": 87.9
     },
     {
       "sciName": "Acridotheres tristis",
@@ -122,7 +137,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "",
-      "frequency": 19
+      "frequency": 19,
+      "Wing.Length": 139.8,
+      "Habitat": "Human Modified",
+      "Mass": 116.4
     },
     {
       "sciName": "Acridotheres grandis",
@@ -142,7 +160,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 134.6,
+      "Habitat": "Grassland",
+      "Mass": 98.9
     },
     {
       "sciName": "Muscicapa sibirica",
@@ -162,7 +183,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 75.5,
+      "Habitat": "Forest",
+      "Mass": 13.2
     },
     {
       "sciName": "Muscicapa dauurica",
@@ -182,7 +206,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 30
+      "frequency": 30,
+      "Wing.Length": 70.5,
+      "Habitat": "Woodland",
+      "Mass": 9.8
     },
     {
       "sciName": "Copsychus saularis",
@@ -203,7 +230,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 18
+      "frequency": 18,
+      "Wing.Length": 97.5,
+      "Habitat": "Woodland",
+      "Mass": 36
     },
     {
       "sciName": "Copsychus malabaricus",
@@ -223,7 +253,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 57
+      "frequency": 57,
+      "Wing.Length": 95.6,
+      "Habitat": "Forest",
+      "Mass": 29.2
     },
     {
       "sciName": "Eumyias thalassinus",
@@ -243,7 +276,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 26
+      "frequency": 26,
+      "Wing.Length": 76.2,
+      "Habitat": "Forest",
+      "Mass": 18.1
     },
     {
       "sciName": "Cyornis hainanus",
@@ -264,7 +300,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 68.4,
+      "Habitat": "Forest",
+      "Mass": 14.4
     },
     {
       "sciName": "Cyornis whitei",
@@ -285,7 +324,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 17
+      "frequency": 17,
+      "Wing.Length": 71.8,
+      "Habitat": "Forest",
+      "Mass": 14.5
     },
     {
       "sciName": "Cyornis sumatrensis",
@@ -306,7 +348,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 13
+      "frequency": 13,
+      "Wing.Length": 72.2,
+      "Habitat": "Forest",
+      "Mass": 16.2
     },
     {
       "sciName": "Ficedula albicilla",
@@ -328,7 +373,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 40
+      "frequency": 40,
+      "Wing.Length": 68.4,
+      "Habitat": "Woodland",
+      "Mass": 10.8
     },
     {
       "sciName": "Dicaeum cruentatum",
@@ -348,7 +396,10 @@
       "familyComName": "Flowerpeckers",
       "familySciName": "Dicaeidae",
       "notes": "",
-      "frequency": 22
+      "frequency": 22,
+      "Wing.Length": 47.3,
+      "Habitat": "Forest",
+      "Mass": 5.6
     },
     {
       "sciName": "Chalcoparia singalensis",
@@ -368,7 +419,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "",
-      "frequency": 26
+      "frequency": 26,
+      "Wing.Length": 51.9,
+      "Habitat": "Forest",
+      "Mass": 8.2
     },
     {
       "sciName": "Cinnyris ornatus",
@@ -409,7 +463,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "",
-      "frequency": 14
+      "frequency": 14,
+      "Wing.Length": 51.3,
+      "Habitat": "Forest",
+      "Mass": 5.3
     },
     {
       "sciName": "Aethopyga siparaja",
@@ -429,7 +486,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "",
-      "frequency": 17
+      "frequency": 17,
+      "Wing.Length": 50.4,
+      "Habitat": "Forest",
+      "Mass": 6.7
     },
     {
       "sciName": "Arachnothera magna",
@@ -449,7 +509,10 @@
       "familyComName": "Sunbirds and Spiderhunters",
       "familySciName": "Nectariniidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 88.7,
+      "Habitat": "Forest",
+      "Mass": 30.7
     },
     {
       "sciName": "Irena puella",
@@ -470,7 +533,10 @@
       "familyComName": "Fairy-bluebirds",
       "familySciName": "Irenidae",
       "notes": "",
-      "frequency": 54
+      "frequency": 54,
+      "Wing.Length": 125.4,
+      "Habitat": "Forest",
+      "Mass": 64.9
     },
     {
       "sciName": "Chloropsis moluccensis",
@@ -510,7 +576,10 @@
       "familyComName": "Leafbirds",
       "familySciName": "Chloropseidae",
       "notes": "",
-      "frequency": 10
+      "frequency": 10,
+      "Wing.Length": 94.4,
+      "Habitat": "Forest",
+      "Mass": 32.3
     }
   ]
 }

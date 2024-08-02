@@ -22,7 +22,10 @@
       "familyComName": "Wagtails and Pipits",
       "familySciName": "Motacillidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 78.4,
+      "Habitat": "Forest",
+      "Mass": 16.4
     },
     {
       "sciName": "Motacilla cinerea",
@@ -44,7 +47,10 @@
       "familyComName": "Wagtails and Pipits",
       "familySciName": "Motacillidae",
       "notes": "",
-      "frequency": 28
+      "frequency": 28,
+      "Wing.Length": 82.8,
+      "Habitat": "Riverine",
+      "Mass": 17.2
     }
   ]
 }

@@ -1,10 +1,27 @@
 {
-    "start_month" : 5,
-    "end_month" : 6,
-    "location" : "",
-    "species" : [
-        {"comName" : "Common Chaffinch"},
-        {"comName" : "Brambling"},
-        {"comName" : "Ortolan Bunting"},
-        {"comName" : "Reed Bunting"}
-    ]}
+  "start_month": 5,
+  "end_month": 6,
+  "location": "",
+  "species": [
+    {
+      "comName": "Common Chaffinch",
+      "sciName": "Fringilla coelebs",
+      "Wing.Length": 85.9,
+      "Habitat": "Forest",
+      "Mass": 23.8
+    },
+    {
+      "comName": "Brambling",
+      "sciName": "Fringilla montifringilla",
+      "Wing.Length": 89.3,
+      "Habitat": "Forest",
+      "Mass": 23.2
+    },
+    {
+      "comName": "Ortolan Bunting"
+    },
+    {
+      "comName": "Reed Bunting"
+    }
+  ]
+}

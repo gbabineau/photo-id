@@ -22,7 +22,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Sanju.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 120.4,
+      "Habitat": "Forest",
+      "Mass": 42.4
     },
     {
       "sciName": "Heterophasia melanoleuca",
@@ -43,7 +46,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Inthanon.",
-      "frequency": 21
+      "frequency": 21,
+      "Wing.Length": 85.4,
+      "Habitat": "Forest",
+      "Mass": 32.6
     },
     {
       "sciName": "Actinodura strigula",
@@ -64,7 +70,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Inthanon. Mountaintop",
-      "frequency": 8
+      "frequency": 8,
+      "Wing.Length": 66.7,
+      "Habitat": "Forest",
+      "Mass": 19.2
     },
     {
       "sciName": "Actinodura ramsayi",
@@ -85,7 +94,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Inthanon & Doi Ham Pok.",
-      "frequency": 7
+      "frequency": 7,
+      "Wing.Length": 88.8,
+      "Habitat": "Forest",
+      "Mass": 38.4
     },
     {
       "sciName": "Leiothrix argentauris",
@@ -105,7 +117,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Suthep & Doi Inthanon.",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 73.5,
+      "Habitat": "Forest",
+      "Mass": 28.4
     },
     {
       "sciName": "Liocichla ripponi",
@@ -125,7 +140,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Ham Pok.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 86,
+      "Habitat": "Shrubland",
+      "Mass": 49
     },
     {
       "sciName": "Garrulax merulinus",
@@ -145,7 +163,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Sanju. (Sensitive Species)",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 95.6,
+      "Habitat": "Forest",
+      "Mass": 78.8
     },
     {
       "sciName": "Garrulax strepitans",
@@ -165,7 +186,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Angkhang.",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 133.8,
+      "Habitat": "Forest",
+      "Mass": 131.5
     },
     {
       "sciName": "Pterorhinus sannio",
@@ -185,7 +209,10 @@
       "familyComName": "Laughingthrushes and Allies",
       "familySciName": "Leiothrichidae",
       "notes": "Doi Angkhang.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 96.3,
+      "Habitat": "Forest",
+      "Mass": 67.8
     },
     {
       "sciName": "Sitta magna",
@@ -205,7 +232,10 @@
       "familyComName": "Nuthatches",
       "familySciName": "Sittidae",
       "notes": "Doi Angkhang.",
-      "frequency": 5
+      "frequency": 5,
+      "Wing.Length": 115.9,
+      "Habitat": "Woodland",
+      "Mass": 41.1
     },
     {
       "sciName": "Sitta nagaensis",
@@ -225,7 +255,10 @@
       "familyComName": "Nuthatches",
       "familySciName": "Sittidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 79.3,
+      "Habitat": "Forest",
+      "Mass": 14.7
     },
     {
       "sciName": "Sturnus vulgaris",
@@ -247,7 +280,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "Doi Inthanon.",
-      "frequency": 0
+      "frequency": 0,
+      "Wing.Length": 128.3,
+      "Habitat": "Human Modified",
+      "Mass": 77.1
     },
     {
       "sciName": "Gracupica nigricollis",
@@ -267,7 +303,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 158.1,
+      "Habitat": "Grassland",
+      "Mass": 156.9
     },
     {
       "sciName": "Gracupica floweri",
@@ -309,7 +348,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "",
-      "frequency": 19
+      "frequency": 19,
+      "Wing.Length": 139.8,
+      "Habitat": "Human Modified",
+      "Mass": 116.4
     },
     {
       "sciName": "Acridotheres grandis",
@@ -329,7 +371,10 @@
       "familyComName": "Starlings",
       "familySciName": "Sturnidae",
       "notes": "",
-      "frequency": 16
+      "frequency": 16,
+      "Wing.Length": 134.6,
+      "Habitat": "Grassland",
+      "Mass": 98.9
     },
     {
       "sciName": "Copsychus saularis",
@@ -350,7 +395,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 23
+      "frequency": 23,
+      "Wing.Length": 97.5,
+      "Habitat": "Woodland",
+      "Mass": 36
     },
     {
       "sciName": "Niltava grandis",
@@ -370,7 +418,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Sanju.",
-      "frequency": 9
+      "frequency": 9,
+      "Wing.Length": 97.3,
+      "Habitat": "Forest",
+      "Mass": 30.3
     },
     {
       "sciName": "Niltava macgrigoriae",
@@ -390,7 +441,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inathon.",
-      "frequency": 3
+      "frequency": 3,
+      "Wing.Length": 63.2,
+      "Habitat": "Forest",
+      "Mass": 12
     },
     {
       "sciName": "Niltava sundara",
@@ -410,7 +464,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inthanon.",
-      "frequency": 6
+      "frequency": 6,
+      "Wing.Length": 82,
+      "Habitat": "Forest",
+      "Mass": 21.1
     },
     {
       "sciName": "Eumyias thalassinus",
@@ -430,7 +487,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "",
-      "frequency": 12
+      "frequency": 12,
+      "Wing.Length": 76.2,
+      "Habitat": "Forest",
+      "Mass": 18.1
     },
     {
       "sciName": "Anthipes monileger",
@@ -450,7 +510,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inathon & Doi Sanju.",
-      "frequency": 4
+      "frequency": 4,
+      "Wing.Length": 61.5,
+      "Habitat": "Forest",
+      "Mass": 11
     },
     {
       "sciName": "Cyornis whitei",
@@ -471,7 +534,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Suthep.",
-      "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 71.8,
+      "Habitat": "Forest",
+      "Mass": 14.5
     },
     {
       "sciName": "Myophonus caeruleus",
@@ -492,7 +558,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inthanon(Waterfall area).",
-      "frequency": 23
+      "frequency": 23,
+      "Wing.Length": 169.4,
+      "Habitat": "Forest",
+      "Mass": 158
     },
     {
       "sciName": "Enicurus immaculatus",
@@ -512,7 +581,10 @@
       "familyComName": "Old World Flycatchers",
       "familySciName": "Muscicapidae",
       "notes": "Doi Inthanon(Waterfall area).",
-      "frequency": 1
+      "frequency": 1,
+      "Wing.Length": 89.5,
+      "Habitat": "Riverine",
+      "Mass": 25.5
     }
   ]
 }

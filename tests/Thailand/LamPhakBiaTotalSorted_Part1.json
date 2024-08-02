@@ -1,0 +1,601 @@
+{
+  "location": "TH",
+  "start_month": 1,
+  "end_month": 2,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Columba livia",
+      "comName": "Rock Pigeon",
+      "speciesCode": "rocpig",
+      "category": "species",
+      "taxonOrder": 1874.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ROPI",
+        "RODO"
+      ],
+      "sciNameCodes": [
+        "COLI"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "",
+      "frequency": 22,
+      "Wing.Length": 219.6,
+      "Habitat": "Human Modified",
+      "Mass": 354.2
+    },
+    {
+      "sciName": "Streptopelia tranquebarica",
+      "comName": "Red Collared-Dove",
+      "speciesCode": "recdov1",
+      "category": "species",
+      "taxonOrder": 2079.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "RCDO",
+        "RECD",
+        "RTDO",
+        "RETD"
+      ],
+      "sciNameCodes": [
+        "STTR"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "",
+      "frequency": 24,
+      "Wing.Length": 134.8,
+      "Habitat": "Woodland",
+      "Mass": 103
+    },
+    {
+      "sciName": "Spilopelia chinensis",
+      "comName": "Spotted Dove",
+      "speciesCode": "spodov",
+      "category": "species",
+      "taxonOrder": 2084.0,
+      "bandingCodes": [
+        "SPDO"
+      ],
+      "comNameCodes": [
+        "ESDO"
+      ],
+      "sciNameCodes": [
+        "SPCH"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "",
+      "frequency": 25
+    },
+    {
+      "sciName": "Geopelia striata",
+      "comName": "Zebra Dove",
+      "speciesCode": "zebdov",
+      "category": "species",
+      "taxonOrder": 2251.0,
+      "bandingCodes": [
+        "ZEBD"
+      ],
+      "comNameCodes": [
+        "ZEDO"
+      ],
+      "sciNameCodes": [
+        "GEST"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "notes": "",
+      "frequency": 13,
+      "Wing.Length": 97,
+      "Habitat": "Woodland",
+      "Mass": 56.6
+    },
+    {
+      "sciName": "Centropus sinensis",
+      "comName": "Greater Coucal",
+      "speciesCode": "grecou1",
+      "category": "species",
+      "taxonOrder": 3116.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "GRCO"
+      ],
+      "sciNameCodes": [
+        "CESI"
+      ],
+      "order": "Cuculiformes",
+      "familyCode": "cuculi1",
+      "familyComName": "Cuckoos",
+      "familySciName": "Cuculidae",
+      "notes": "",
+      "frequency": 11,
+      "Wing.Length": 212.4,
+      "Habitat": "Woodland",
+      "Mass": 280.7
+    },
+    {
+      "sciName": "Eudynamys scolopaceus",
+      "comName": "Asian Koel",
+      "speciesCode": "asikoe2",
+      "category": "species",
+      "taxonOrder": 3261.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ASKO",
+        "WEKO"
+      ],
+      "sciNameCodes": [
+        "EUSC"
+      ],
+      "order": "Cuculiformes",
+      "familyCode": "cuculi1",
+      "familyComName": "Cuckoos",
+      "familySciName": "Cuculidae",
+      "notes": "",
+      "frequency": 15,
+      "Wing.Length": 196.4,
+      "Habitat": "Woodland",
+      "Mass": 194.9
+    },
+    {
+      "sciName": "Aerodramus germani",
+      "comName": "Germain's Swiftlet",
+      "speciesCode": "gerswi1",
+      "category": "species",
+      "taxonOrder": 4042.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "ENSW",
+        "GESW"
+      ],
+      "sciNameCodes": [
+        "AEGE"
+      ],
+      "order": "Caprimulgiformes",
+      "familyCode": "apodid1",
+      "familyComName": "Swifts",
+      "familySciName": "Apodidae",
+      "notes": "",
+      "frequency": 30,
+      "Wing.Length": 116.5,
+      "Habitat": "Forest",
+      "Mass": 10.7
+    },
+    {
+      "sciName": "Himantopus himantopus",
+      "comName": "Black-winged Stilt",
+      "speciesCode": "bkwsti",
+      "category": "species",
+      "taxonOrder": 5734.0,
+      "bandingCodes": [
+        "BWST"
+      ],
+      "comNameCodes": [
+        "EBWS"
+      ],
+      "sciNameCodes": [
+        "HIHI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "recurv1",
+      "familyComName": "Stilts and Avocets",
+      "familySciName": "Recurvirostridae",
+      "notes": "",
+      "frequency": 12,
+      "Wing.Length": 225.6,
+      "Habitat": "Wetland",
+      "Mass": 176.8
+    },
+    {
+      "sciName": "Pluvialis squatarola",
+      "comName": "Black-bellied Plover",
+      "speciesCode": "bkbplo",
+      "category": "species",
+      "taxonOrder": 5782.0,
+      "bandingCodes": [
+        "BBPL"
+      ],
+      "comNameCodes": [
+        "GRPL"
+      ],
+      "sciNameCodes": [
+        "PLSQ"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "",
+      "frequency": 31,
+      "Wing.Length": 184.4,
+      "Habitat": "Grassland",
+      "Mass": 250
+    },
+    {
+      "sciName": "Pluvialis fulva",
+      "comName": "Pacific Golden-Plover",
+      "speciesCode": "pagplo",
+      "category": "species",
+      "taxonOrder": 5787.0,
+      "bandingCodes": [
+        "PAGP"
+      ],
+      "comNameCodes": [
+        "PGPL"
+      ],
+      "sciNameCodes": [
+        "PLFU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "",
+      "frequency": 15,
+      "Wing.Length": 159,
+      "Habitat": "Grassland",
+      "Mass": 134.9
+    },
+    {
+      "sciName": "Charadrius dubius",
+      "comName": "Little Ringed Plover",
+      "speciesCode": "lirplo",
+      "category": "species",
+      "taxonOrder": 5815.0,
+      "bandingCodes": [
+        "LRPL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CHDU"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "",
+      "frequency": 4,
+      "Wing.Length": 114.8,
+      "Habitat": "Wetland",
+      "Mass": 38.7
+    },
+    {
+      "sciName": "Anarhynchus atrifrons",
+      "comName": "Tibetan Sand-Plover",
+      "speciesCode": "lessap1",
+      "category": "species",
+      "taxonOrder": 5877.0,
+      "bandingCodes": [
+        "LSAP"
+      ],
+      "comNameCodes": [
+        "LSPL",
+        "TISD",
+        "LSDO",
+        "LESA",
+        "TISP",
+        "TSPL",
+        "TSDO"
+      ],
+      "sciNameCodes": [
+        "ANAT"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "",
+      "frequency": 70
+    },
+    {
+      "sciName": "Anarhynchus leschenaultii",
+      "comName": "Greater Sand-Plover",
+      "speciesCode": "grsplo",
+      "category": "species",
+      "taxonOrder": 5882.0,
+      "bandingCodes": [
+        "GSAP"
+      ],
+      "comNameCodes": [
+        "GRSA",
+        "GRSP",
+        "GSPL",
+        "GRSD",
+        "GSDO"
+      ],
+      "sciNameCodes": [
+        "ANLE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "",
+      "frequency": 55
+    },
+    {
+      "sciName": "Anarhynchus peronii",
+      "comName": "Malaysian Plover",
+      "speciesCode": "malplo1",
+      "category": "species",
+      "taxonOrder": 5913.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "MAPL"
+      ],
+      "sciNameCodes": [
+        "ANPE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "",
+      "frequency": 94
+    },
+    {
+      "sciName": "Anarhynchus alexandrinus",
+      "comName": "Kentish Plover",
+      "speciesCode": "kenplo1",
+      "category": "species",
+      "taxonOrder": 5920.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "KEPL"
+      ],
+      "sciNameCodes": [
+        "ANAL"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "",
+      "frequency": 86
+    },
+    {
+      "sciName": "Anarhynchus dealbatus",
+      "comName": "White-faced Plover",
+      "speciesCode": "whfplo2",
+      "category": "species",
+      "taxonOrder": 5926.0,
+      "bandingCodes": [],
+      "comNameCodes": [
+        "WFPL"
+      ],
+      "sciNameCodes": [
+        "ANDE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "charad1",
+      "familyComName": "Plovers and Lapwings",
+      "familySciName": "Charadriidae",
+      "notes": "",
+      "frequency": 77
+    },
+    {
+      "sciName": "Numenius phaeopus",
+      "comName": "Whimbrel",
+      "speciesCode": "whimbr",
+      "category": "species",
+      "taxonOrder": 5978.0,
+      "bandingCodes": [
+        "WHIM"
+      ],
+      "comNameCodes": [
+        "EUWH"
+      ],
+      "sciNameCodes": [
+        "NUPH"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 42,
+      "Wing.Length": 233,
+      "Habitat": "Grassland",
+      "Mass": 364.6
+    },
+    {
+      "sciName": "Numenius arquata",
+      "comName": "Eurasian Curlew",
+      "speciesCode": "eurcur",
+      "category": "species",
+      "taxonOrder": 5993.0,
+      "bandingCodes": [
+        "EUCU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "NUAR"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 17,
+      "Wing.Length": 292.2,
+      "Habitat": "Grassland",
+      "Mass": 803
+    },
+    {
+      "sciName": "Limosa lapponica",
+      "comName": "Bar-tailed Godwit",
+      "speciesCode": "batgod",
+      "category": "species",
+      "taxonOrder": 6000.0,
+      "bandingCodes": [
+        "BTGO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LILA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 14,
+      "Wing.Length": 210.1,
+      "Habitat": "Wetland",
+      "Mass": 291.7
+    },
+    {
+      "sciName": "Limosa limosa",
+      "comName": "Black-tailed Godwit",
+      "speciesCode": "bktgod",
+      "category": "species",
+      "taxonOrder": 6009.0,
+      "bandingCodes": [
+        "BLTG"
+      ],
+      "comNameCodes": [
+        "BTGO"
+      ],
+      "sciNameCodes": [
+        "LILI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 9,
+      "Wing.Length": 215.6,
+      "Habitat": "Wetland",
+      "Mass": 288.4
+    },
+    {
+      "sciName": "Xenus cinereus",
+      "comName": "Terek Sandpiper",
+      "speciesCode": "tersan",
+      "category": "species",
+      "taxonOrder": 6089.0,
+      "bandingCodes": [
+        "TESA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "XECI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 20,
+      "Wing.Length": 127.4,
+      "Habitat": "Grassland",
+      "Mass": 78.8
+    },
+    {
+      "sciName": "Actitis hypoleucos",
+      "comName": "Common Sandpiper",
+      "speciesCode": "comsan",
+      "category": "species",
+      "taxonOrder": 6090.0,
+      "bandingCodes": [
+        "COSA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ACHY"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 57,
+      "Wing.Length": 109.9,
+      "Habitat": "Wetland",
+      "Mass": 48
+    },
+    {
+      "sciName": "Tringa brevipes",
+      "comName": "Gray-tailed Tattler",
+      "speciesCode": "gyttat1",
+      "category": "species",
+      "taxonOrder": 6097.0,
+      "bandingCodes": [
+        "GTTA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TRBR"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 4,
+      "Wing.Length": 157.8,
+      "Habitat": "Wetland",
+      "Mass": 127
+    },
+    {
+      "sciName": "Tringa stagnatilis",
+      "comName": "Marsh Sandpiper",
+      "speciesCode": "marsan",
+      "category": "species",
+      "taxonOrder": 6100.0,
+      "bandingCodes": [
+        "MASA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TRST"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 12,
+      "Wing.Length": 133.4,
+      "Habitat": "Wetland",
+      "Mass": 77.5
+    },
+    {
+      "sciName": "Tringa totanus",
+      "comName": "Common Redshank",
+      "speciesCode": "comred1",
+      "category": "species",
+      "taxonOrder": 6102.0,
+      "bandingCodes": [
+        "CREH"
+      ],
+      "comNameCodes": [
+        "CORE"
+      ],
+      "sciNameCodes": [
+        "TRTO"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "notes": "",
+      "frequency": 12,
+      "Wing.Length": 156.9,
+      "Habitat": "Wetland",
+      "Mass": 129
+    }
+  ]
+}
