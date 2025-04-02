@@ -1,5 +1,5 @@
 """
-    Processes a quiz file
+Processes a quiz file
 """
 
 import json
@@ -21,14 +21,23 @@ def sorted_species(initial_list: list, taxonomy: list) -> list:
     Returns:
     list: A sorted list of species by their taxonomic order.
     """
-    result = []
+    result: typing.List[typing.Dict[str, typing.Any]] = []
     for species in initial_list:
-        entry = next((item for item in taxonomy if item["comName"].upper(
-        ) == species['comName'].upper()), None)
+        entry = next(
+            (
+                item
+                for item in taxonomy
+                if item["comName"].upper() == species["comName"].upper()
+            ),
+            None,
+        )
         if entry is None:
-            logging.info('Species not found %s', species["comName"])
-        elif any(res["comName"].upper() == entry["comName"].upper() for res in result):
-            logging.info('Duplicate species removed %s', species["comName"])
+            logging.info("Species not found %s", species["comName"])
+        elif any(
+            res["comName"].upper() == entry["comName"].upper()
+            for res in result
+        ):
+            logging.info("Duplicate species removed %s", species["comName"])
         else:
             entry = entry.copy()
             for key, value in species.items():
@@ -36,7 +45,7 @@ def sorted_species(initial_list: list, taxonomy: list) -> list:
                     entry[key] = value
             result.append(entry)
     # Sort
-    result = sorted(result, key=lambda x: x['taxonOrder'])
+    result = sorted(result, key=lambda x: x["taxonOrder"])
     return result
 
 
@@ -52,30 +61,32 @@ def process_quiz_file(name: str, taxonomy: list) -> dict:
     dict: A dictionary containing the quiz details including the sorted species.
     """
     result = {}
-    with open(name, encoding='utf-8', mode='rt') as file:
+    with open(name, encoding="utf-8", mode="rt") as file:
         file_data = json.load(file)
-    result['location'] = file_data['location']
-    result['start_month'] = file_data['start_month']
-    result['end_month'] = file_data['end_month']
-    result['notes'] = '' if 'notes' not in file_data.keys() else file_data['notes']
-    result['species'] = sorted_species(file_data['species'], taxonomy)
+    result["location"] = file_data["location"]
+    result["start_month"] = file_data["start_month"]
+    result["end_month"] = file_data["end_month"]
+    result["notes"] = (
+        "" if "notes" not in file_data.keys() else file_data["notes"]
+    )
+    result["species"] = sorted_species(file_data["species"], taxonomy)
     return result
 
 
-def sort_quiz(name: str, taxonomy: list) -> dict:
+def sort_quiz(name: str, taxonomy: list) -> None:
     """
     Sorts the species in a quiz file based on a given taxonomy and saves the result to a new file.
 
     Parameters:
     name (str): The name of the quiz file to process.
-    taxonomy (list): A list of dictionaries, each containing the common name and taxonomic order of a species.
+    taxonomy (list): A list of dicts, each with the common name and taxonomic order of a species.
     """
-    with open(name, encoding='utf-8', mode='rt') as file:
+    with open(name, encoding="utf-8", mode="rt") as file:
         result = json.load(file)
 
-    result['species'] = sorted_species(result['species'], taxonomy)
+    result["species"] = sorted_species(result["species"], taxonomy)
 
-    with open(name+'.sorted', encoding='utf-8', mode='wt') as file:
+    with open(name + ".sorted", encoding="utf-8", mode="wt") as file:
         json.dump(result, file, ensure_ascii=False, indent=4)
 
 
@@ -89,8 +100,8 @@ def build_quiz_from_target_species(
 ) -> None:
     """
     Accepts a target species url from eBird, sorted by frequency (descending)
-    Get this from an url
-    like https://ebird.org/targets?region=Oslo%2C+Norway+%28NO%29&r1=NO-03&bmo=5&emo=6&r2=NO-03&t2=day&mediaType=
+    Get this from an url like:
+    https://ebird.org/targets?region=Oslo%2C+Norway+%28NO%29&r1=NO-03&bmo=5&emo=6&r2=NO-03&t2=day&mediaType=
     then cut and paste the list of species and frequencies into a text file.
 
     in_file : input file
@@ -110,7 +121,7 @@ def build_quiz_from_target_species(
             return int(match.group(0))
         return -1
 
-    def read_species_and_frequency(file) ->typing.Dict[str, typing.Any]:
+    def read_species_and_frequency(file) -> typing.Dict[str, typing.Any]:
         species = file.readline().strip()
         while True:
             frequency_text = file.readline().strip()
@@ -156,55 +167,62 @@ def split_quiz(in_file: str, max_size: int, taxonomy) -> None:
     taxonomy (list): The taxonomy list used for sorting species.
     """
     quiz = process_quiz_file(name=in_file, taxonomy=taxonomy)
-    length = len(quiz['species'])
+    length = len(quiz["species"])
     part = 1
     start = 0
     end = 0
-    quiz['species'] = sorted_species(quiz['species'], taxonomy)
+    quiz["species"] = sorted_species(quiz["species"], taxonomy)
     while end < length:
         end = min(length, start + max_size)
-        split = {key: value for key, value in quiz.items() if key != 'species'}
-        split['species'] = quiz['species'][start:end]
+        split = {key: value for key, value in quiz.items() if key != "species"}
+        split["species"] = quiz["species"][start:end]
         file_name = (
             f"{pathlib.Path(in_file).parent.resolve()}/"
             f"{pathlib.Path(in_file).stem}_Part{part}"
             f"{pathlib.Path(in_file).suffix}"
         )
         start = end
-        with open(file_name, "wt", encoding='utf-8') as outfile:
+        with open(file_name, "wt", encoding="utf-8") as outfile:
             json.dump(split, outfile, indent=2)
         part += 1
+
 
 def apply_avonet_data(filename, avonet_data):
     """
     Apply Avonet data to quizzes
     """
     try:
-        with open(filename, encoding='utf-8', mode='rt') as file:
+        with open(filename, encoding="utf-8", mode="rt") as file:
             quiz = json.load(file)
     except FileNotFoundError:
         logging.error("The file %s was not found.", filename)
         sys.exit(1)
     except IOError:
-        logging.error("An I/O error occurred while reading the file %s.", filename)
+        logging.error(
+            "An I/O error occurred while reading the file %s.", filename
+        )
         sys.exit(1)
 
     except json.JSONDecodeError:
         logging.error("The file %s contains invalid JSON.", filename)
         sys.exit(1)
 
-
-    for species in quiz['species']:
-        if 'sciName' not in species:
-            logging.warning("The species %s does not have a scientific name.", species['comName'])
+    for species in quiz["species"]:
+        if "sciName" not in species:
+            logging.warning(
+                "The species %s does not have a scientific name.",
+                species["comName"],
+            )
             continue
-        species_name = species['sciName']
+        species_name = species["sciName"]
         avonet_info = avonet_data.get(species_name, {})
         species.update(avonet_info)
 
     try:
-        with open(filename, encoding='utf-8', mode='wt') as file:
+        with open(filename, encoding="utf-8", mode="wt") as file:
             json.dump(quiz, file, indent=2)
     except IOError:
-        logging.error("An I/O error occurred while writing to the file %s", filename)
+        logging.error(
+            "An I/O error occurred while writing to the file %s", filename
+        )
         sys.exit(1)

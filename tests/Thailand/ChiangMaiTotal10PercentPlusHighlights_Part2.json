@@ -348,7 +348,7 @@
       "familyCode": "falcon1",
       "familyComName": "Falcons and Caracaras",
       "familySciName": "Falconidae",
-      "notes": "Doi Inthanon. Dipterocarp forest.",
+      "notes": "Sensitive species. Doi Inthanon. Dipterocarp forest.",
       "frequency": 2,
       "Wing.Length": 102,
       "Habitat": "Forest",
@@ -541,27 +541,12 @@
       "Mass": 23.3
     },
     {
-      "sciName": "Coracina macei",
-      "comName": "Large Cuckooshrike",
-      "speciesCode": "larcus1",
-      "category": "species",
-      "taxonOrder": 18375.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "LACU",
-        "LACS",
-        "LCSH"
-      ],
-      "sciNameCodes": [
-        "COMA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "campep2",
-      "familyComName": "Cuckooshrikes",
-      "familySciName": "Campephagidae",
-      "notes": "Doi Sanju.",
+      "sciName": "Coracina javensis",
+      "comName": "Oriental Cuckooshrike",
+      "speciesCode": "javcus1",
       "frequency": 3,
       "Wing.Length": 166.7,
+      "notes": "Doi Sanju.",
       "Habitat": "Forest",
       "Mass": 105
     },

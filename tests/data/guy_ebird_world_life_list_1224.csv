@@ -1,0 +1,1407 @@
+Row #,Taxon Order,Category,Common Name,Scientific Name,Count,Location,S/P,Date,LocID,SubID,Exotic,Countable
+1,21260,species,Clark's Nutcracker,Nucifraga columbiana,2,Echo Lake & Lodge (not to include Mt. Blue Sky Rd),US-CO,22 Jul 2024,L342181,S188318086,,1
+2,4782,species,Broad-tailed Hummingbird,Selasphorus platycercus,1,Genesee Mountain Park--peak area only,US-CO,18 Jul 2024,L950265,S187602373,,1
+3,32750,species,Lark Bunting,Calamospiza melanocorys,1,Rocky Mountain Arsenal NWR-- East Auto Tour,US-CO,18 Jul 2024,L6806746,S187602468,,1
+4,25127,species,Greater Whitethroat,Curruca communis,1,Fornebu--Storøykilen,NO-02,12 Jun 2024,L6861886,S180942214,,1
+5,32273,species,European Goldfinch,Carduelis carduelis,4,Slottsparken,NO-03,09 Jun 2024,L3085239,S180275552,,1
+6,31815,species,Hawfinch,Coccothraustes coccothraustes,1,Slottsparken,NO-03,09 Jun 2024,L3085239,S180275552,,1
+7,6088,species,Spotted Redshank,Tringa erythropus,1,Vadsø--Ytrebyfjæra,NO-20,07 Jun 2024,L8998799,S179888086,,1
+8,6062,species,Terek Sandpiper,Xenus cinereus,1,Vadsø--Ytrebyfjæra,NO-20,07 Jun 2024,L8998799,S179888086,,1
+9,6855,species,Yellow-billed Loon,Gavia adamsii,1,Vardø--Østervågen,NO-19,06 Jun 2024,L10462936,S179744284,,1
+10,6354,species,Thick-billed Murre,Uria lomvia,,Vardø--Hornøya,NO-20,06 Jun 2024,L6827738,S179684298,,1
+11,6298,species,Pomarine Jaeger,Stercorarius pomarinus,1,Salttjern,NO-20,05 Jun 2024,L1120500,S179498842,,1
+12,28506,species,Ring Ouzel,Turdus torquatus,1,Kongsfjorddalen,NO-20,04 Jun 2024,L17598337,S179357791,,1
+13,31592,species,Red-throated Pipit,Anthus cervinus,2,Berlevåg havn,NO-20,04 Jun 2024,L1120095,S179308488,,1
+14,7336,species,European Shag,Gulosus aristotelis,20,Berlevåg havn,NO-20,04 Jun 2024,L1120095,S179308488,,1
+15,688,species,King Eider,Somateria spectabilis,4,Berlevåg havn,NO-20,04 Jun 2024,L1120095,S179308488,,1
+16,6384,species,Black-legged Kittiwake,Rissa tridactyla,30,"94 Primær Fylkesveg 891, Finnmark, NO (70.63, 29.703)",NO-20,03 Jun 2024,L32801740,S179169504,,1
+17,6296,species,Parasitic Jaeger,Stercorarius parasiticus,1,"94 Primær Fylkesveg 891, Finnmark, NO (70.63, 29.703)",NO-20,03 Jun 2024,L32801740,S179169504,,1
+18,5973,species,Bar-tailed Godwit,Limosa lapponica,2,Kongsfjordfjellet,NO-20,03 Jun 2024,L1121036,S179169848,,1
+19,6156,species,Little Stint,Calidris minuta,1,Geatnjajávri,NO-20,03 Jun 2024,L8999023,S179169949,,1
+20,32384,species,Lapland Longspur,Calcarius lapponicus,1,"Primær Fylkesveg 890, Finnmark, NO (70.48, 28.889)",NO-20,03 Jun 2024,L32802066,S179170234,,1
+21,6059,species,Red-necked Phalarope,Phalaropus lobatus,2,"Primær Fylkesveg 890, Finnmark, NO (70.48, 28.889)",NO-20,03 Jun 2024,L32802066,S179170234,,1
+22,6293,species,Long-tailed Jaeger,Stercorarius longicaudus,3,"Primær Fylkesveg 890, Finnmark, NO (70.48, 28.842)",NO-20,03 Jun 2024,L32802101,S179170345,,1
+23,1340,species,Rock Ptarmigan,Lagopus muta,1,"Primær Fylkesveg 890, Finnmark, NO (70.48, 28.842)",NO-20,03 Jun 2024,L32802101,S179170345,,1
+24,29137,species,Bluethroat,Luscinia svecica,2,Utsjoki--Ailigas,FI-10,03 Jun 2024,L2393874,S179097305,,1
+25,32194,species,Eurasian Linnet,Linaria cannabina,2,Utsjoki--Ailigas,FI-10,03 Jun 2024,L2393874,S179097371,,1
+26,1317,species,Willow Ptarmigan,Lagopus lagopus,2,Utsjoki--Ailigas,FI-10,03 Jun 2024,L2393874,S179097371,,1
+28,6003,species,Jack Snipe,Lymnocryptes minimus,2,"5389 Kaamasentie, Inari, Lappi, FI (69.31, 27.214)",FI-10,03 Jun 2024,L32784719,S179086823,,1
+29,32060,species,European Greenfinch,Chloris chloris,3,"Inari--Kaamanen, Neljän Tuulen Tupa",FI-10,03 Jun 2024,L3327845,S179085503,,1
+30,31945,species,Pine Grosbeak,Pinicola enucleator,3,"Inari--Kaamanen, Neljän Tuulen Tupa",FI-10,03 Jun 2024,L3327845,S179085503,,1
+31,5769,species,Eurasian Dotterel,Eudromias morinellus,1,Inari--Saariselkä Kaunispää,FI-10,02 Jun 2024,L2605532,S178833413,,1
+32,27409,species,White-throated Dipper,Cinclus cinclus,1,Kaylankoski,FI-14,01 Jun 2024,L32653115,S178516875,,1
+33,1385,species,Western Capercaillie,Tetrao urogallus,1,"52 Hiltusentie, Kuusamo, Pohjois-Pohjanmaa, FI (65.848, 29.363)",FI-14,01 Jun 2024,L32652006,S178511851,,1
+34,1400,species,Black Grouse,Lyrurus tetrix,1,"17 Hiltusentie, Kuusamo, Pohjois-Pohjanmaa, FI (65.875, 29.336)",FI-14,01 Jun 2024,L32652029,S178511902,,1
+35,31403,species,Gray Wagtail,Motacilla cinerea,1,"7 Ahon Jussintie, Kuusamo, Pohjois-Pohjanmaa, FI (66.173, 29.165)",FI-14,31 May 2024,L32622147,S178387071,,1
+36,727,species,Smew,Mergellus albellus,1,"Kuusamo, Pohjois-Pohjanmaa, FI (66.041, 29.132)",FI-14,31 May 2024,L32617809,S178368843,,1
+37,5755,species,European Golden-Plover,Pluvialis apricaria,4,"273 Vuotungintie, Kuusamo, Pohjois-Pohjanmaa, FI",FI-14,31 May 2024,L32613730,S178349056,,1
+38,711,species,Common Scoter,Melanitta nigra,2,Kuusamo--Vuotunki lintutorni,FI-14,31 May 2024,L4486734,S178349297,,1
+39,290,species,Taiga Bean-Goose,Anser fabalis,10,"44 Vapavaarantie, Kuusamo, Pohjois-Pohjanmaa, FI (66.183, 29.713)",FI-14,31 May 2024,L32613790,S178349411,,1
+40,31696,species,Brambling,Fringilla montifringilla,1,"5 Kalliosuontie, Kuusamo, Pohjois-Pohjanmaa, FI (66.171, 29.443)",FI-14,31 May 2024,L32607235,S178319899,,1
+41,29340,species,Common Redstart,Phoenicurus phoenicurus,1,"163 Virkkulantie, Kuusamo, Pohjois-Pohjanmaa, FI (66.166, 29.435)",FI-14,31 May 2024,L32607238,S178319911,,1
+42,32205,species,Redpoll,Acanthis flammea,2,"83 Vuosselintie, Kuusamo, Pohjois-Pohjanmaa, FI (66.19, 29.294)",FI-14,31 May 2024,L32606763,S178317630,,1
+43,29614,species,Bohemian Waxwing,Bombycilla garrulus,1,"83 Vuosselintie, Kuusamo, Pohjois-Pohjanmaa, FI (66.19, 29.294)",FI-14,31 May 2024,L32606763,S178317630,,1
+44,11878,species,Eurasian Kestrel,Falco tinnunculus,1,"74 Virkkulantie, Kuusamo, Pohjois-Pohjanmaa, FI (66.201, 29.279)",FI-14,31 May 2024,L32606502,S178316479,,1
+45,29214,species,Red-flanked Bluetail,Tarsiger cyanurus,3,Kuusamo--Konttainen,FI-14,31 May 2024,L3344359,S178316460,,1
+46,26607,species,Goldcrest,Regulus regulus,2,Kuusamo--Konttainen,FI-14,31 May 2024,L3344359,S178316460,,1
+47,31261,species,House Sparrow,Passer domesticus,1,"3 Kylpyläntie, Kuusamo, Pohjois-Pohjanmaa, FI (66.001, 29.164)",FI-14,31 May 2024,L32605303,S178311229,,1
+48,32548,species,Little Bunting,Emberiza pusilla,1,Kuusamo--Torankijärvi Jätäri lintutorni,FI-14,30 May 2024,L2941144,S178173410,,1
+49,6075,species,Wood Sandpiper,Tringa glareola,1,Kuusamo--Torankijärvi Jätäri lintutorni,FI-14,30 May 2024,L2941144,S178173410,,1
+50,6849,species,Arctic Loon,Gavia arctica,2,Kuusamo--Torankijärvi Jätäri lintutorni,FI-14,30 May 2024,L2941144,S178160201,,1
+51,8150,species,Eurasian Sparrowhawk,Accipiter nisus,1,"1431 Kuusamontie, Oulu, Pohjois-Pohjanmaa, FI (65.172, 26.061)",FI-14,30 May 2024,L32565008,S178134523,,1
+52,21817,species,Willow Tit,Poecile montanus,2,"69 Kiekonmajantie, Oulu, Pohjois-Pohjanmaa, FI (64.975, 25.662)",FI-14,30 May 2024,L32495963,S178129482,,1
+53,6063,species,Common Sandpiper,Actitis hypoleucos,1,Kempele--Vihiluoto,FI-14,29 May 2024,L4486599,S178009168,,1
+54,5430,species,Eurasian Coot,Fulica atra,1,Kempele--Vihiluoto,FI-14,29 May 2024,L4486599,S178009168,,1
+55,29513,species,Northern Wheatear,Oenanthe oenanthe,2,Oulu--Oritkari,FI-14,29 May 2024,L8447708,S177988533,,1
+56,6447,species,Common Gull,Larus canus,3,Oulu--Oritkari,FI-14,29 May 2024,L8447708,S177988533,,1
+57,31579,species,Tree Pipit,Anthus trivialis,1,Lumijoki--Sannanlahti,FI-14,29 May 2024,L4486596,S177932543,,1
+58,25070,species,Lesser Whitethroat,Curruca curruca,1,Lumijoki--Sannanlahti,FI-14,29 May 2024,L4486596,S177932543,,1
+59,25038,species,Garden Warbler,Sylvia borin,1,Lumijoki--Sannanlahti,FI-14,29 May 2024,L4486596,S177932543,,1
+60,24691,species,Greenish Warbler,Phylloscopus trochiloides,1,Lumijoki--Sannanlahti,FI-14,29 May 2024,L4486596,S177932543,,1
+61,20814,species,Red-backed Shrike,Lanius collurio,1,Lumijoki--Sannanlahti,FI-14,29 May 2024,L4486596,S177932543,,1
+62,7469,species,Eurasian Bittern,Botaurus stellaris,1,Lumijoki--Sannanlahti,FI-14,29 May 2024,L4486596,S177932543,,1
+63,32524,species,Reed Bunting,Emberiza schoeniclus,1,Liminka--Virkkula,FI-14,29 May 2024,L1044602,S177932676,,1
+64,31575,species,Meadow Pipit,Anthus pratensis,2,Liminka--Virkkula,FI-14,29 May 2024,L1044602,S177932676,,1
+65,23984,species,Western House-Martin,Delichon urbicum,2,Liminka--Virkkula,FI-14,29 May 2024,L1044602,S177932676,,1
+66,8268,species,White-tailed Eagle,Haliaeetus albicilla,2,Liminka--Virkkula,FI-14,29 May 2024,L1044602,S177932676,,1
+67,662,species,Tufted Duck,Aythya fuligula,2,Liminka--Virkkula,FI-14,29 May 2024,L1044602,S177932676,,1
+68,462,species,Garganey,Spatula querquedula,1,Liminka--Virkkula,FI-14,29 May 2024,L1044602,S177932676,,1
+69,6122,species,Temminck's Stint,Calidris temminckii,1,Kempele--Vihiluoto,FI-14,28 May 2024,L4486599,S177826317,,1
+70,32467,species,Ortolan Bunting,Emberiza hortulana,1,"13 Hirsikorventie, Tyrnävä, Pohjois-Pohjanmaa, FI (64.766, 25.705)",FI-14,28 May 2024,L32495995,S177826544,,1
+71,31407,species,Western Yellow Wagtail,Motacilla flava,1,"Hirvineva Lintutorni, Liminka",FI-14,28 May 2024,L4486591,S177829048,,1
+72,29396,species,Whinchat,Saxicola rubetra,1,"Hirvineva Lintutorni, Liminka",FI-14,28 May 2024,L4486591,S177829048,,1
+73,9130,species,Ural Owl,Strix uralensis,1,"Hirvineva Lintutorni, Liminka",FI-14,28 May 2024,L4486591,S177829048,,1
+74,8211,species,Western Marsh Harrier,Circus aeruginosus,1,"Soso Area. 2km Radius. Locationb
+obscured",FI-14,28 May 2024,L32482382,S177761988,,1
+75,31241,species,Dunnock,Prunella modularis,1,"2090 Kylmälänkyläntie, Muhos, Pohjois-Pohjanmaa, FI (64.647, 26.136)",FI-14,28 May 2024,L32479131,S177747307,,1
+76,24560,species,Wood Warbler,Phylloscopus sibilatrix,1,"2090 Kylmälänkyläntie, Muhos, Pohjois-Pohjanmaa, FI (64.647, 26.136)",FI-14,28 May 2024,L32479131,S177747307,,1
+77,11540,species,Gray-headed Woodpecker,Picus canus,1,"2090 Kylmälänkyläntie, Muhos, Pohjois-Pohjanmaa, FI (64.647, 26.136)",FI-14,28 May 2024,L32479131,S177747307,,1
+78,11264,species,Lesser Spotted Woodpecker,Dryobates minor,1,"2090 Kylmälänkyläntie, Muhos, Pohjois-Pohjanmaa, FI (64.647, 26.136)",FI-14,28 May 2024,L32479131,S177747307,,1
+79,11098,species,Eurasian Three-toed Woodpecker,Picoides tridactylus,2,"2090 Kylmälänkyläntie, Muhos, Pohjois-Pohjanmaa, FI (64.647, 26.136)",FI-14,28 May 2024,L32479131,S177747307,,1
+80,3389,species,Common Cuckoo,Cuculus canorus,1,"2090 Kylmälänkyläntie, Muhos, Pohjois-Pohjanmaa, FI (64.647, 26.136)",FI-14,28 May 2024,L32479131,S177747307,,1
+81,8188,species,Eurasian Goshawk,Astur gentilis,1,"605 Ylikiimingintie, Muhos, Pohjois-Pohjanmaa, FI (64.887, 25.973)",FI-14,28 May 2024,L32479144,S177747350,,1
+82,28177,species,Mistle Thrush,Turdus viscivorus,1,"432 Ylikiimingintie, Muhos, Pohjois-Pohjanmaa, FI (64.873, 25.965)",FI-14,28 May 2024,L32476813,S177737703,,1
+83,32315,species,Eurasian Siskin,Spinus spinus,2,"317 Ylikiimingintie, Muhos, Pohjois-Pohjanmaa, FI (64.865, 25.949)",FI-14,28 May 2024,L32476162,S177734860,,1
+84,28986,species,European Robin,Erithacus rubecula,1,"317 Ylikiimingintie, Muhos, Pohjois-Pohjanmaa, FI (64.865, 25.949)",FI-14,28 May 2024,L32476162,S177734860,,1
+85,21772,species,Crested Tit,Lophophanes cristatus,2,"317 Ylikiimingintie, Muhos, Pohjois-Pohjanmaa, FI (64.865, 25.949)",FI-14,28 May 2024,L32476162,S177734860,,1
+86,11669,species,Black Woodpecker,Dryocopus martius,1,"317 Ylikiimingintie, Muhos, Pohjois-Pohjanmaa, FI (64.865, 25.949)",FI-14,28 May 2024,L32476162,S177734860,,1
+87,1994,species,Eurasian Collared-Dove,Streptopelia decaocto,1,"317 Ylikiimingintie, Muhos, Pohjois-Pohjanmaa, FI (64.865, 25.949)",FI-14,28 May 2024,L32476162,S177734860,,1
+88,6005,species,Eurasian Woodcock,Scolopax rusticola,1,"2 Vähäsuontie, Oulu, Pohjois-Pohjanmaa, FI (64.975, 25.636)",FI-14,28 May 2024,L32474612,S177728016,,1
+89,21951,species,Great Tit,Parus major,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602586,,1
+90,5729,species,Eurasian Oystercatcher,Haematopus ostralegus,2,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602586,,1
+91,413,species,Common Shelduck,Tadorna tadorna,4,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602586,,1
+92,32451,species,Yellowhammer,Emberiza citrinella,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+93,31871,species,Common Rosefinch,Carpodacus erythrinus,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+94,29289,species,European Pied Flycatcher,Ficedula hypoleuca,2,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+95,28211,species,Redwing,Turdus iliacus,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+96,23433,species,Sedge Warbler,Acrocephalus schoenobaenus,3,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+97,21890,species,Eurasian Blue Tit,Cyanistes caeruleus,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+98,6793,species,Great Crested Grebe,Podiceps cristatus,10,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+99,6409,species,Black-headed Gull,Chroicocephalus ridibundus,10,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+100,6382,species,Little Gull,Hydrocoloeus minutus,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+101,6116,species,Broad-billed Sandpiper,Calidris falcinellus,5,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+102,6115,species,Ruff,Calidris pugnax,4,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+103,6090,species,Common Greenshank,Tringa nebularia,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+104,6076,species,Common Redshank,Tringa totanus,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+105,6037,species,Common Snipe,Gallinago gallinago,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+106,5982,species,Black-tailed Godwit,Limosa limosa,3,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+107,5966,species,Eurasian Curlew,Numenius arquata,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+108,5795,species,Northern Lapwing,Vanellus vanellus,6,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+109,5787,species,Little Ringed Plover,Thinornis dubius,2,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+110,5774,species,Common Ringed Plover,Charadrius hiaticula,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+111,5658,species,Common Crane,Grus grus,3,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+112,378,species,Whooper Swan,Cygnus cygnus,20,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+113,365,species,Mute Swan,Cygnus olor,1,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+114,310,species,Barnacle Goose,Branta leucopsis,8,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+115,264,species,Graylag Goose,Anser anser,22,Kempele--Vihiluoto,FI-14,27 May 2024,L4486599,S177602062,,1
+116,31670,species,Common Chaffinch,Fringilla coelebs,4,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+117,31445,species,White Wagtail,Motacilla alba,1,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+118,31329,species,Eurasian Tree Sparrow,Passer montanus,1,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+119,28558,species,Spotted Flycatcher,Muscicapa striata,1,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+120,28501,species,Fieldfare,Turdus pilaris,2,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+121,28232,species,Eurasian Blackbird,Turdus merula,9,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+122,28181,species,Song Thrush,Turdus philomelos,1,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+123,27008,species,Eurasian Wren,Troglodytes troglodytes,1,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+124,25032,species,Eurasian Blackcap,Sylvia atricapilla,4,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+125,24620,species,Common Chiffchaff,Phylloscopus collybita,2,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+126,24610,species,Willow Warbler,Phylloscopus trochilus,5,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+127,23423,species,Icterine Warbler,Hippolais icterina,2,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+128,22389,species,Eurasian Skylark,Alauda arvensis,2,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+129,21243,species,Eurasian Magpie,Pica pica,2,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+130,11236,species,Great Spotted Woodpecker,Dendrocopos major,1,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+131,1849,species,Common Wood-Pigeon,Columba palumbus,1,Store Røgler ravine,NO-02,26 May 2024,L23083706,S177311158,,1
+132,21330,species,Rook,Corvus frugilegus,2,Copenhagen Airport,DK-84,26 May 2024,L1612035,S177311226,,1
+133,21290,species,Eurasian Jackdaw,Coloeus monedula,4,Copenhagen Airport,DK-84,26 May 2024,L1612035,S177311226,,1
+134,7651,species,Gray Heron,Ardea cinerea,1,Copenhagen Airport,DK-84,26 May 2024,L1612035,S177311226,,1
+135,6478,species,European Herring Gull,Larus argentatus,2,Copenhagen Airport,DK-84,26 May 2024,L1612035,S177311226,,1
+136,4039,species,Common Swift,Apus apus,3,Copenhagen Airport,DK-84,26 May 2024,L1612035,S177311226,,1
+137,1817,species,Rock Pigeon,Columba livia,1,Copenhagen Airport,DK-84,26 May 2024,L1612035,S177311226,,1
+138,21354,species,Hooded Crow,Corvus cornix,1,Copenhagen Airport,DK-84,26 May 2024,L1612035,S177174635,,1
+140,5949,species,Upland Sandpiper,Bartramia longicauda,12,Corbina Road,US-LA,11 Apr 2024,L8952411,S168161360,,1
+142,5867,species,Wilson's Plover,Anarhynchus wilsonia,4,Bolivar Flats Shorebird Sanctuary,US-TX,09 Apr 2024,L248017,S167907907,,1
+143,16981,species,Streak-throated Bush-Tyrant,Myiotheretes striaticollis,3,San Jorge Ecolodge (Quito),EC-P,18 Feb 2024,L895012,S162013300,,1
+144,4451,species,Green-tailed Trainbearer,Lesbia nuna,1,San Jorge Ecolodge (Quito),EC-P,18 Feb 2024,L895012,S162013300,,1
+145,33205,species,Yellow-breasted Brushfinch,Atlapetes latinuchus,1,San Jorge Ecolodge (Quito),EC-P,18 Feb 2024,L895012,S161978876,,1
+146,16691,species,Olive-chested Flycatcher,Myiophobus cryptoxanthus,1,Loreto Road and E45 junction--vicinity,EC-N,17 Feb 2024,L1237971,S161904312,,1
+147,34781,species,Opal-rumped Tanager,Tangara velia,3,San Jorge de Sumaco Bajo,EC-D,17 Feb 2024,L5781818,S161809182,,1
+148,15524,species,Dwarf Tyrant-Manakin,Tyranneutes stolzmanni,1,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161732856,,1
+149,23727,species,Black-capped Donacobius,Donacobius atricapilla,2,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161780268,,1
+150,12882,species,Black-headed Parrot,Pionites melanocephalus,2,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161780268,,1
+151,7929,species,Black-and-white Hawk-Eagle,Spizaetus melanoleucus,1,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161684245,,1
+152,34770,species,Turquoise Tanager,Tangara mexicana,2,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161650824,,1
+153,33444,species,Orange-backed Troupial,Icterus croconotus,2,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161650824,,1
+154,27195,species,Thrush-like Wren,Campylorhynchus turdinus,1,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161650824,,1
+155,16502,species,Yellow-crowned Elaenia,Myiopagis flavivertex,1,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161650824,,1
+156,16387,species,White-lored Tyrannulet,Ornithion inerme,1,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161650824,,1
+157,10693,species,Gilded Barbet,Capito auratus,2,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161650824,,1
+158,4114,species,Lesser Swallow-tailed Swift,Panyptila cayennensis,2,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161650824,,1
+159,8714,species,Tropical Screech-Owl,Megascops choliba,1,San Jorge de Sumaco Bajo,EC-D,16 Feb 2024,L5781818,S161634124,,1
+160,31743,species,White-vented Euphonia,Euphonia minuta,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161633839,,1
+161,31740,species,Golden-bellied Euphonia,Euphonia chrysopasta,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161633839,,1
+162,11704,species,Chestnut Woodpecker,Celeus elegans,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161633839,,1
+163,5111,species,Glittering-throated Emerald,Chionomesa fimbriata,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161633839,,1
+164,35259,species,Chestnut-bellied Seed-Finch,Sporophila angolensis,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+165,34859,species,Yellow-bellied Dacnis,Dacnis flaviventer,2,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+166,34776,species,Paradise Tanager,Tangara chilensis,2,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+167,34733,species,Masked Tanager,Stilpnia nigrocincta,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+168,31790,species,Rufous-bellied Euphonia,Euphonia rufiventris,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+169,23897,species,White-banded Swallow,Atticora fasciata,30,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+170,19085,species,Yellow-green Vireo,Vireo flavoviridis,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+171,17234,species,Gray-capped Flycatcher,Myiozetetes granadensis,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+172,16346,species,Olive-faced Flatbill,Tolmomyias viridiceps,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+173,15795,species,Black-tailed Tityra,Tityra cayana,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+175,13003,species,Dusky-headed Parakeet,Aratinga weddellii,2,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+176,12852,species,Orange-winged Amazon,Amazona amazonica,4,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+177,12721,species,Cobalt-winged Parakeet,Brotogeris cyanoptera,16,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+178,11850,species,Red-throated Caracara,Ibycter americanus,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+179,11824,species,Laughing Falcon,Herpetotheres cachinnans,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+180,11046,species,Yellow-tufted Woodpecker,Melanerpes cruentatus,2,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+181,10822,species,White-throated Toucan,Ramphastos tucanus,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+182,8293,species,Plumbeous Kite,Ictinia plumbea,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+183,7731,species,Greater Yellow-headed Vulture,Cathartes melambrotus,2,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+184,6819,species,Hoatzin,Opisthocomus hoazin,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+185,3857,species,Short-tailed Swift,Chaetura brachyura,1,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+186,3826,species,Gray-rumped Swift,Chaetura cinereiventris,30,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+187,903,species,Blue-throated Piping-Guan,Pipile cumanensis,3,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+188,847,species,Speckled Chachalaca,Ortalis guttata,2,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,1
+189,34528,species,Masked Crimson Tanager,Ramphocelus nigrogularis,1,"E20, Orellana",EC-D,14 Feb 2024,L29259548,S161518766,,1
+190,17145,species,Short-crested Flycatcher,Myiarchus ferox,1,"E20, Orellana",EC-D,14 Feb 2024,L29259548,S161518766,,1
+191,15300,species,Orange-fronted Plushcrown,Metopothrix aurantiaca,1,"E20, Orellana",EC-D,14 Feb 2024,L29259548,S161518766,,1
+192,33563,species,Giant Cowbird,Molothrus oryzivorus,1,Centro de Comunicación Ambiental Wawa Sumaco,EC-N,14 Feb 2024,L10168669,S161518887,,1
+193,23893,species,White-thighed Swallow,Atticora tibialis,4,Centro de Comunicación Ambiental Wawa Sumaco,EC-N,14 Feb 2024,L10168669,S161518887,,1
+194,11854,species,Black Caracara,Daptrius ater,2,Centro de Comunicación Ambiental Wawa Sumaco,EC-N,14 Feb 2024,L10168669,S161518887,,1
+195,10918,species,Lafresnaye's Piculet,Picumnus lafresnayi,1,Centro de Comunicación Ambiental Wawa Sumaco,EC-N,14 Feb 2024,L10168669,S161518887,,1
+196,4378,species,Wire-crested Thorntail,Discosura popelairii,2,Centro de Comunicación Ambiental Wawa Sumaco,EC-N,14 Feb 2024,L10168669,S161518887,,1
+197,1950,species,Ruddy Pigeon,Patagioenas subvinacea,1,Centro de Comunicación Ambiental Wawa Sumaco,EC-N,14 Feb 2024,L10168669,S161518887,,1
+198,5090,species,Golden-tailed Sapphire,Chrysuronia oenone,6,Comedor Susanita y cascada Hollín,EC-N,14 Feb 2024,L1238015,S161518916,,1
+199,4973,species,Many-spotted Hummingbird,Taphrospilus hypostictus,5,Comedor Susanita y cascada Hollín,EC-N,14 Feb 2024,L1238015,S161518916,,1
+200,4932,species,Fork-tailed Woodnymph,Thalurania furcata,1,Comedor Susanita y cascada Hollín,EC-N,14 Feb 2024,L1238015,S161518916,,1
+201,4873,species,Violet-headed Hummingbird,Klais guimeti,2,Comedor Susanita y cascada Hollín,EC-N,14 Feb 2024,L1238015,S161518916,,1
+202,4643,species,Black-throated Brilliant,Heliodoxa schreibersii,1,Comedor Susanita y cascada Hollín,EC-N,14 Feb 2024,L1238015,S161518916,,1
+203,4635,species,Green-backed Hillstar,Urochroa leucura,6,Comedor Susanita y cascada Hollín,EC-N,14 Feb 2024,L1238015,S161518916,,1
+204,16365,species,Cliff Flycatcher,Hirundinea ferruginea,1,Loreto Road--km 13 (trail and Cliff Flycatcher spot),EC-N,14 Feb 2024,L2295267,S161518994,,1
+205,13081,species,White-eyed Parakeet,Psittacara leucophthalmus,2,"E20, Napo, EC (-0.73, -77.759)",EC-N,14 Feb 2024,L29259597,S161519090,,1
+206,13018,species,Chestnut-fronted Macaw,Ara severus,2,"E20, Napo, EC (-0.73, -77.759)",EC-N,14 Feb 2024,L29259597,S161519090,,1
+207,1910,species,Scaled Pigeon,Patagioenas speciosa,1,"E20, Napo, EC (-0.73, -77.759)",EC-N,14 Feb 2024,L29259597,S161519090,,1
+208,35524,species,Bluish-gray Saltator,Saltator coerulescens,3,Loreto Road and E45 junction--vicinity,EC-N,14 Feb 2024,L1237971,S161519116,,1
+209,34854,species,Black-faced Dacnis,Dacnis lineata,2,Loreto Road and E45 junction--vicinity,EC-N,14 Feb 2024,L1237971,S161519116,,1
+210,34364,species,Magpie Tanager,Cissopis leverianus,3,Loreto Road and E45 junction--vicinity,EC-N,14 Feb 2024,L1237971,S161519116,,1
+211,21000,species,Violaceous Jay,Cyanocorax violaceus,5,Loreto Road and E45 junction--vicinity,EC-N,14 Feb 2024,L1237971,S161519116,,1
+212,10790,species,Chestnut-eared Aracari,Pteroglossus castanotis,8,Loreto Road and E45 junction--vicinity,EC-N,14 Feb 2024,L1237971,S161519116,,1
+213,35242,species,Chestnut-bellied Seedeater,Sporophila castaneiventris,1,Vía a la estación de bombeo Sarayacu,EC-N,13 Feb 2024,L21240633,S161469662,,1
+214,34687,species,Spotted Tanager,Ixothraupis punctata,1,Vía a la estación de bombeo Sarayacu,EC-N,13 Feb 2024,L21240633,S161469662,,1
+215,34519,species,Silver-beaked Tanager,Ramphocelus carbo,5,Vía a la estación de bombeo Sarayacu,EC-N,13 Feb 2024,L21240633,S161469662,,1
+216,32678,species,Yellow-browed Sparrow,Ammodramus aurifrons,1,Vía a la estación de bombeo Sarayacu,EC-N,13 Feb 2024,L21240633,S161469662,,1
+217,15755,species,Amazonian Umbrellabird,Cephalopterus ornatus,1,Vía a la estación de bombeo Sarayacu,EC-N,13 Feb 2024,L21240633,S161469662,,1
+218,14714,species,Olive-backed Woodcreeper,Xiphorhynchus triangularis,1,Vía a la estación de bombeo Sarayacu,EC-N,13 Feb 2024,L21240633,S161469662,,1
+220,34371,species,White-capped Tanager,Sericossypha albocristata,3,San Jorge de Guacamayos,EC-N,13 Feb 2024,L10744652,S161469739,,1
+221,33367,species,Scarlet-rumped Cacique,Cacicus uropygialis,1,San Jorge de Guacamayos,EC-N,13 Feb 2024,L10744652,S161469739,,1
+222,31785,species,Bronze-green Euphonia,Euphonia mesochrysa,1,San Jorge de Guacamayos,EC-N,13 Feb 2024,L10744652,S161469739,,1
+223,8241,species,Semicollared Hawk,Microspizias collaris,1,San Jorge de Guacamayos,EC-N,13 Feb 2024,L10744652,S161469739,,1
+224,4646,species,Gould's Jewelfront,Heliodoxa aurescens,1,San Jorge de Guacamayos,EC-N,13 Feb 2024,L10744652,S161469739,,1
+225,35033,species,Deep-blue Flowerpiercer,Diglossa glauca,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+226,34818,species,Flame-faced Tanager,Tangara parzudakii,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+227,34813,species,Golden-eared Tanager,Tangara chrysotis,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+228,34638,species,Orange-eared Tanager,Chlorochrysa calliparaea,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+229,34628,species,Fawn-breasted Tanager,Pipraeidea melanonota,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+230,34537,species,Vermilion Tanager,Calochaetes coccineus,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+231,34380,species,Rufous-crested Tanager,Creurgops verticalis,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+232,32585,species,Common Chlorospingus,Chlorospingus flavopectus,4,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+233,28401,species,Glossy-black Thrush,Turdus serranus,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+234,28382,species,Chestnut-bellied Thrush,Turdus fulviventris,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+235,28359,species,Pale-eyed Thrush,Turdus leucops,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+236,15743,species,Olivaceous Piha,Snowornis cryptolophus,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+237,15737,species,Andean Cock-of-the-rock,Rupicola peruvianus,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+238,14285,species,Long-tailed Tapaculo,Scytalopus micropterus,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+239,12768,species,Speckle-faced Parrot,Pionus tumultuosus,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+240,11432,species,Powerful Woodpecker,Campephilus pollens,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+241,10753,species,Chestnut-tipped Toucanet,Aulacorhynchus derbianus,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+242,9410,species,Crested Quetzal,Pharomachrus antisianus,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+243,7933,species,Black-and-chestnut Eagle,Spizaetus isidori,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+244,4729,species,Gorgeted Woodstar,Chaetocercus heliodor,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+245,4657,species,Violet-fronted Brilliant,Heliodoxa leadbeateri,3,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+246,4629,species,Peruvian Racket-tail,Ocreatus peruanus,1,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+247,4620,species,Chestnut-breasted Coronet,Boissonneaua matthewsii,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+248,3460,species,Rufous-bellied Nighthawk,Lurocalis rufiventris,2,San Jorge de Guacamayos,EC-N,12 Feb 2024,L10744652,S161469800,,1
+249,34610,species,Buff-breasted Mountain Tanager,Dubusia taeniata,1,Cuyuja,EC-N,11 Feb 2024,L1820076,S161471896,,1
+250,34096,species,Spectacled Redstart,Myioborus melanocephalus,3,Cuyuja,EC-N,11 Feb 2024,L1820076,S161471896,,1
+251,35337,species,Paramo Seedeater,Catamenia homochroa,2,Papallacta--La Virgen y alrededores inmediatos (Pass and immediate vicinity),EC-N,11 Feb 2024,L1491931,S162668372,,1
+252,4663,species,Giant Hummingbird,Patagona gigas,1,Tambo Cóndor Bird Lodge,EC-P,10 Feb 2024,L3166153,S161154985,,1
+253,4604,species,Mountain Velvetbreast,Lafresnaya lafresnayi,1,Tambo Cóndor Bird Lodge,EC-P,10 Feb 2024,L3166153,S161154985,,1
+254,2264,species,Black-winged Ground Dove,Metriopelia melanoptera,1,PN Antisana--pradera de los ibis y alrededores,EC-N,10 Feb 2024,L2761741,S161155101,,1
+255,15239,species,Many-striped Canastero,Asthenes flammulata,1,"PN Antisana--Micacocha, control y alrededores",EC-N,10 Feb 2024,L635406,S161155206,,1
+256,14145,species,Tawny Antpitta,Grallaria quitensis,1,"PN Antisana--Micacocha, control y alrededores",EC-N,10 Feb 2024,L635406,S161155206,,1
+257,7403,species,Andean Ibis,Theristicus branickii,2,PN Antisana--pradera de los ibis y alrededores,EC-N,10 Feb 2024,L2761741,S161155292,,1
+258,16937,species,Plain-capped Ground-Tyrant,Muscisaxicola alpinus,1,PN Antisana--Quebrada S/N,EC-P,10 Feb 2024,L16414285,S161156055,,1
+259,14937,species,Chestnut-winged Cinclodes,Cinclodes albidiventris,2,PN Antisana--Quebrada S/N,EC-P,10 Feb 2024,L16414285,S161156100,,1
+260,4432,species,Ecuadorian Hillstar,Oreotrochilus chimborazo,1,PN Antisana--Quebrada S/N,EC-P,10 Feb 2024,L16414285,S161156100,,1
+261,11858,species,Carunculated Caracara,Daptrius carunculatus,2,Reserva Chakana--Mirador del Isco y alrededores,EC-P,10 Feb 2024,L4558019,S161155150,,1
+262,7715,species,Andean Condor,Vultur gryphus,2,Reserva Chakana--Mirador del Isco y alrededores,EC-P,10 Feb 2024,L4558019,S161155150,,1
+263,35097,species,Ash-breasted Sierra Finch,Geospizopsis plebejus,2,Aeropuerto Internacional Mariscal Sucre (UIO)--Reservorio de agua lluvia,EC-P,10 Feb 2024,L3157728,S161093515,,1
+264,32358,species,Hooded Siskin,Spinus magellanicus,1,Aeropuerto Internacional Mariscal Sucre (UIO)--Reservorio de agua lluvia,EC-P,10 Feb 2024,L3157728,S161093515,,1
+265,6405,species,Andean Gull,Chroicocephalus serranus,2,Aeropuerto Internacional Mariscal Sucre (UIO)--Reservorio de agua lluvia,EC-P,10 Feb 2024,L3157728,S161093515,,1
+266,5449,species,Slate-colored Coot,Fulica ardesiaca,8,Aeropuerto Internacional Mariscal Sucre (UIO)--Reservorio de agua lluvia,EC-P,10 Feb 2024,L3157728,S161093515,,1
+267,4717,species,Purple-collared Woodstar,Myrtis fanny,1,Aeropuerto Internacional Mariscal Sucre (UIO)--Reservorio de agua lluvia,EC-P,10 Feb 2024,L3157728,S161093515,,1
+268,582,species,Yellow-billed Pintail,Anas georgica,3,Aeropuerto Internacional Mariscal Sucre (UIO)--Reservorio de agua lluvia,EC-P,10 Feb 2024,L3157728,S161093515,,1
+269,34631,species,Blue-and-yellow Tanager,Rauenia bonariensis,2,San Jorge Ecolodge (Quito),EC-P,09 Feb 2024,L895012,S161048946,,1
+270,16441,species,Tufted Tit-Tyrant,Anairetes parulus,3,San Jorge Ecolodge (Quito),EC-P,09 Feb 2024,L895012,S161048946,,1
+271,4534,species,Sapphire-vented Puffleg,Eriocnemis luciani,2,San Jorge Ecolodge (Quito),EC-P,09 Feb 2024,L895012,S161048946,,1
+272,4447,species,Black-tailed Trainbearer,Lesbia victoriae,2,San Jorge Ecolodge (Quito),EC-P,09 Feb 2024,L895012,S161048946,,1
+273,6163,species,Pectoral Sandpiper,Calidris melanotos,3,Staunton View Public Use Area,US-VA,01 Oct 2023,L582793,S151171415,,1
+274,6687,species,Roseate Tern,Sterna dougallii,4,"Lobsterville Beach, Aquinnah",US-MA,19 Jul 2023,L4115986,S145119041,,1
+275,7126,species,Great Shearwater,Ardenna gravis,1,Lucy Vincent Beach,US-MA,16 Jul 2023,L1493549,S144781502,,1
+277,9202,species,Northern Saw-whet Owl,Aegolius acadicus,1,"Steep Slope Run, Davis, West Virginia",US-WV,26 May 2023,L24659994,S139276041,,1
+278,6706,species,Elegant Tern,Thalasseus elegans,3,Huntington Beach Pier,US-CA,12 May 2023,L500489,S137290721,,1
+279,4344,species,Green-throated Carib,Eulampis holosericeus,1,Virgin Islands NP--Annaberg Sugar Plantation Ruins,VI-SJ,10 Mar 2023,L1004429,S130612129,,1
+281,4880,species,Antillean Crested Hummingbird,Orthorhyncus cristatus,1,Virgin Islands NP--Cinn. Bay Trail,VI-SJ,09 Mar 2023,L1031737,S130519317,,1
+282,16565,species,Caribbean Elaenia,Elaenia martinica,1,Caneel Hill Trail,VI-SJ,08 Mar 2023,L22973616,S130519475,,1
+283,2284,species,Bridled Quail-Dove,Geotrygon mystacea,2,Virgin Islands NP--Reef Bay Trail,VI-SJ,07 Mar 2023,L869429,S130379988,,1
+284,19092,species,Black-whiskered Vireo,Vireo altiloquus,3,Francis Bay Salt Pond,VI-SJ,06 Mar 2023,L5445365,S130348737,,1
+285,564,species,White-cheeked Pintail,Anas bahamensis,16,Francis Bay Salt Pond,VI-SJ,06 Mar 2023,L5445365,S130348737,,1
+286,35423,species,Lesser Antillean Bullfinch,Loxigilla noctis,4,Virgin Islands NP--Salt Pond,VI-SJ,06 Mar 2023,L5112465,S130348766,,1
+287,17304,species,Gray Kingbird,Tyrannus dominicensis,2,Virgin Islands NP--Salt Pond,VI-SJ,06 Mar 2023,L5112465,S130348766,,1
+288,1911,species,Scaly-naped Pigeon,Patagioenas squamosa,1,Cruz Bay,VI-SJ,05 Mar 2023,L637273,S130261865,,1
+289,27767,species,Pearly-eyed Thrasher,Margarops fuscatus,3,Cruz Bay,VI-SJ,05 Mar 2023,L637273,S130257636,,1
+290,2354,species,Zenaida Dove,Zenaida aurita,1,Cruz Bay,VI-SJ,05 Mar 2023,L637273,S130257636,,1
+291,1586,species,Red Junglefowl,Gallus gallus,2,Blackbeard's Castle,VI-ST,05 Mar 2023,L4889524,S130348788,P,1
+292,8323,species,Savanna Hawk,Buteogallus meridionalis,1,"Avenida del Rio, CO (11.004, -74.776)",CO-MAG,07 Feb 2023,L22494915,S127809813,,1
+293,34949,species,Bicolored Conebill,Conirostrum bicolor,1,Via Parque Isla de Salamanca--Centro Administrativo Los Cocos,CO-MAG,07 Feb 2023,L1856337,S127809814,,1
+294,15389,species,Yellow-chinned Spinetail,Certhiaxis cinnamomeus,1,Via Parque Isla de Salamanca--Centro Administrativo Los Cocos,CO-MAG,07 Feb 2023,L1856337,S127809814,,1
+295,10280,species,Pied Puffbird,Notharchus tectus,2,Via Parque Isla de Salamanca--Centro Administrativo Los Cocos,CO-MAG,07 Feb 2023,L1856337,S127809814,,1
+296,10209,species,American Pygmy Kingfisher,Chloroceryle aenea,1,Via Parque Isla de Salamanca--Centro Administrativo Los Cocos,CO-MAG,07 Feb 2023,L1856337,S127809814,,1
+297,5099,species,Sapphire-bellied Hummingbird,Chrysuronia lilliae,1,Via Parque Isla de Salamanca--Centro Administrativo Los Cocos,CO-MAG,07 Feb 2023,L1856337,S127809814,,1
+298,5095,species,Sapphire-throated Hummingbird,Chrysuronia coeruleogularis,1,Via Parque Isla de Salamanca--Centro Administrativo Los Cocos,CO-MAG,07 Feb 2023,L1856337,S127809814,,1
+299,225,species,Northern Screamer,Chauna chavaria,2,"Avenida del Rio, CO (11.004, -74.776)",CO-MAG,06 Feb 2023,L22494915,S127795182,,1
+300,17192,species,Cattle Tyrant,Machetornis rixosa,1,"Cienaga-Barranquilla, Magdalena, CO (10.993, -74.7)",CO-MAG,06 Feb 2023,L22494911,S127795183,,1
+301,7728,species,Lesser Yellow-headed Vulture,Cathartes burrovianus,2,"Cienaga-Barranquilla, Magdalena, CO (10.993, -74.7)",CO-MAG,06 Feb 2023,L22494911,S127795183,,1
+302,834,species,Chestnut-winged Chachalaca,Ortalis garrula,1,"Troncal del Caribe, Magdalena, CO (11.032, -74.204)",CO-MAG,06 Feb 2023,L22491157,S127781606,,1
+303,34887,species,Red-legged Honeycreeper,Cyanerpes cyaneus,1,"Vía sin nombre, Magdalena, CO (11.256, -74.075)",CO-MAG,06 Feb 2023,L22490244,S127758492,,1
+304,16277,species,Black-headed Tody-Flycatcher,Todirostrum nigriceps,1,"Gaviotas, Palomino",CO-LAG,06 Feb 2023,L10143772,S127746443,,1
+305,16162,species,Southern Bentbill,Oncostoma olivaceum,1,"Gaviotas, Palomino",CO-LAG,06 Feb 2023,L10143772,S127746443,,1
+306,15535,species,Lance-tailed Manakin,Chiroxiphia lanceolata,2,"Gaviotas, Palomino",CO-LAG,06 Feb 2023,L10143772,S127746443,,1
+307,13878,species,White-bellied Antbird,Myrmeciza longipes,1,"Gaviotas, Palomino",CO-LAG,06 Feb 2023,L10143772,S127746443,,1
+308,9439,species,Gartered Trogon,Trogon caligatus,2,"Gaviotas, Palomino",CO-LAG,06 Feb 2023,L10143772,S127746443,,1
+309,31733,species,Trinidad Euphonia,Euphonia trinitatis,3,"Vía sin nombre, La Guajira, CO (11.25, -73.548)",CO-LAG,06 Feb 2023,L22487389,S127745352,,1
+310,17141,species,Panama Flycatcher,Myiarchus panamensis,1,"Vía sin nombre, La Guajira, CO (11.25, -73.548)",CO-LAG,06 Feb 2023,L22487389,S127745352,,1
+311,11443,species,Crimson-crested Woodpecker,Campephilus melanoleucos,1,"Vía sin nombre, La Guajira, CO (11.25, -73.548)",CO-LAG,06 Feb 2023,L22487389,S127745352,,1
+312,4327,species,Ruby-topaz Hummingbird,Chrysolampis mosquitus,2,"Vía sin nombre, La Guajira, CO (11.25, -73.548)",CO-LAG,06 Feb 2023,L22487389,S127745352,,1
+313,7380,species,Scarlet Ibis,Eudocimus ruber,1,SFF Los Flamencos--Resguardo Perratpu/Boca de Camarones,CO-LAG,05 Feb 2023,L2080823,S127690479,,1
+314,35434,species,Black-faced Grassquit,Melanospiza bicolor,1,Camarones--Casco Urbano,CO-LAG,05 Feb 2023,L2984973,S127690480,,1
+315,34664,species,Glaucous Tanager,Thraupis glaucocolpa,2,Camarones--Casco Urbano,CO-LAG,05 Feb 2023,L2984973,S127690480,,1
+316,16669,species,Slender-billed Tyrannulet,Inezia tenuirostris,2,Camarones--Casco Urbano,CO-LAG,05 Feb 2023,L2984973,S127690480,,1
+317,5677,species,Double-striped Thick-knee,Hesperoburhinus bistriatus,3,Camarones--Casco Urbano,CO-LAG,05 Feb 2023,L2984973,S127690480,,1
+318,2240,species,Scaled Dove,Columbina squammata,2,Camarones--Casco Urbano,CO-LAG,05 Feb 2023,L2984973,S127690480,,1
+319,35510,species,Orinocan Saltator,Saltator orenocensis,2,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+320,35346,species,Pileated Finch,Coryphospingus pileatus,2,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+321,34223,species,Vermilion Cardinal,Cardinalis phoeniceus,2,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+322,32707,species,Tocuyo Sparrow,Arremonops tocuyensis,1,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+323,27857,species,Tropical Mockingbird,Mimus gilvus,1,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+324,26858,species,Tropical Gnatcatcher,Polioptila plumbea,1,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+325,17166,species,Brown-crested Flycatcher,Myiarchus tyrannulus,2,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+326,16850,species,Northern Scrub-Flycatcher,Sublegatus arenarum,1,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+327,16674,species,Pale-tipped Tyrannulet,Inezia caudata,1,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+328,16195,species,Pearly-vented Tody-Tyrant,Hemitriccus margaritaceiventer,2,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+329,15488,species,White-whiskered Spinetail,Synallaxis candei,3,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+330,14883,species,Caribbean Hornero,Furnarius longirostris,1,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+331,13471,species,Black-backed Antshrike,Thamnophilus melanonotus,2,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+332,13350,species,Black-crested Antshrike,Sakesphorus canadensis,1,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+333,13040,species,Blue-crowned Parakeet,Thectocercus acuticaudatus,8,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+334,10990,species,Chestnut Piculet,Picumnus cinnamomeus,2,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+335,4839,species,Red-billed Emerald,Chlorostilbon gibsoni,1,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+336,1915,species,Bare-eyed Pigeon,Patagioenas corensis,2,"Vía sin nombre, La Guajira, CO (11.427, -73.049)",CO-LAG,05 Feb 2023,L22471332,S127654319,,1
+337,35513,species,Olive-gray Saltator,Saltator olivascens,2,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+338,33371,species,Yellow-rumped Cacique,Cacicus cela,4,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+339,27313,species,Buff-breasted Wren,Cantorchilus leucotis,2,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+340,16486,species,Forest Elaenia,Myiopagis gaimardii,4,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+341,16350,species,Ochre-lored Flatbill,Tolmomyias flaviventris,2,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+342,14720,species,Straight-billed Woodcreeper,Dendroplex picus,2,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+343,13700,species,Northern White-fringed Antwren,Formicivora intermedia,2,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+344,12981,species,Brown-throated Parakeet,Eupsittula pertinax,2,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+345,10303,species,Russet-throated Puffbird,Hypnelus ruficollis,2,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+346,5085,species,Shining-green Hummingbird,Chrysuronia goudoti,1,"Hukumeizi, La Guajira, CO (11.253, -73.547)",CO-LAG,04 Feb 2023,L21870595,S127625837,,1
+347,32402,species,Rosy Thrush-Tanager,Rhodinocichla rosea,2,"Santa Marta - MINCA- Rededor De La Reserva El Dorado , CO (11.101, -74.072)",CO-MAG,04 Feb 2023,L6329800,S127591422,,1
+348,19053,species,Brown-capped Vireo,Vireo leucophrys,2,"Santa Marta - MINCA- Rededor De La Reserva El Dorado , CO (11.101, -74.072)",CO-MAG,04 Feb 2023,L6329800,S127591422,,1
+349,16636,species,Spectacled Tyrannulet,Zimmerius improbus,1,"Santa Marta - MINCA- Rededor De La Reserva El Dorado , CO (11.101, -74.072)",CO-MAG,04 Feb 2023,L6329800,S127591422,,1
+350,15077,species,Santa Marta Foliage-gleaner,Clibanornis rufipectus,1,"Santa Marta - MINCA- Rededor De La Reserva El Dorado , CO (11.101, -74.072)",CO-MAG,04 Feb 2023,L6329800,S127591422,,1
+351,14284,species,Santa Marta Tapaculo,Scytalopus sanctaemartae,1,"Santa Marta - MINCA- Rededor De La Reserva El Dorado , CO (11.101, -74.072)",CO-MAG,04 Feb 2023,L6329800,S127591422,,1
+352,14207,species,Rusty-breasted Antpitta,Grallaricula ferrugineipectus,1,"Santa Marta - MINCA- Rededor De La Reserva El Dorado , CO (11.101, -74.072)",CO-MAG,04 Feb 2023,L6329800,S127591422,,1
+353,11828,species,Collared Forest-Falcon,Micrastur semitorquatus,1,"Santa Marta - MINCA- Rededor De La Reserva El Dorado , CO (11.101, -74.072)",CO-MAG,04 Feb 2023,L6329800,S127591422,,1
+354,10932,species,Scaled Piculet,Picumnus squamulatus,2,"Santa Marta - MINCA- Rededor De La Reserva El Dorado , CO (11.101, -74.072)",CO-MAG,04 Feb 2023,L6329800,S127591422,,1
+355,28383,species,Black-hooded Thrush,Turdus olivater,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127567818,,1
+356,15699,species,Golden-breasted Fruiteater,Pipreola aureopectus,,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127567818,,1
+357,34580,species,Black-cheeked Mountain Tanager,Anisognathus melanogenys,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+358,34255,species,Golden Grosbeak,Pheucticus chrysogaster,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+359,34092,species,Yellow-crowned Redstart,Myioborus flavivertex,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+360,34000,species,Santa Marta Warbler,Myiothlypis basilica,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+361,27387,species,Hermit Wood-Wren,Henicorhina anachoreta,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+362,15493,species,Rusty-headed Spinetail,Synallaxis fuscorufa,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+363,15360,species,Streak-capped Spinetail,Cranioleuca hellmayri,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+365,14314,species,Brown-rumped Tapaculo,Scytalopus latebricola,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+366,14124,species,Sierra Nevada Antpitta,Grallaria spatiator,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+367,14102,species,Santa Marta Antpitta,Grallaria bangsi,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+368,12756,species,Red-billed Parrot,Pionus sordidus,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+369,9167,species,Stygian Owl,Asio stygius,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+370,3496,species,Band-winged Nightjar,Systellura longirostris,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,1
+371,34040,species,White-lored Warbler,Myiothlypis conspicillata,4,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,02 Feb 2023,L10351922,S127541736,,1
+372,14410,species,Gray-throated Leaftosser,Sclerurus albigularis,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,02 Feb 2023,L10351922,S127541736,,1
+373,9407,species,White-tipped Quetzal,Pharomachrus fulgidus,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,02 Feb 2023,L10351922,S127541736,,1
+374,8779,species,Santa Marta Screech-Owl,Megascops gilesi,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,02 Feb 2023,L10351922,S127541736,,1
+375,4591,species,White-tailed Starfrontlet,Coeligena phalerata,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,02 Feb 2023,L10351922,S127541736,,1
+376,2341,species,Lined Quail-Dove,Zentrygon linearis,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,02 Feb 2023,L10351922,S127541736,,1
+377,35443,species,Dull-colored Grassquit,Asemospiza obscura,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+378,34705,species,Black-headed Tanager,Stilpnia cyanoptera,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+379,34448,species,Gray-headed Tanager,Eucometis penicillata,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+380,33179,species,Santa Marta Brushfinch,Atlapetes melanocephalus,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+381,32752,species,Sierra Nevada Brushfinch,Arremon basilicus,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+382,31710,species,Blue-naped Chlorophonia,Chlorophonia cyanea,5,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+383,28240,species,Yellow-legged Thrush,Turdus flavipes,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+384,28010,species,Orange-billed Nightingale-Thrush,Catharus aurantiirostris,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+385,13741,species,Santa Marta Antbird,Drymophila hellmayri,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+386,10748,species,Groove-billed Toucanet,Aulacorhynchus sulcatus,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+387,8174,species,Bicolored Hawk,Astur bicolor,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+388,4902,species,Lazuline Sabrewing,Campylopterus falcatus,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+389,4887,species,Santa Marta Blossomcrown,Anthocephala floriceps,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+390,4855,species,Coppery Emerald,Chlorostilbon russatus,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+391,4732,species,Santa Marta Woodstar,Chaetocercus astreans,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+392,858,species,Band-tailed Guan,Penelope argyrotis,2,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,11, -74,092)",CO-MAG,02 Feb 2023,L10970774,S127530823,,1
+393,34849,species,Swallow Tanager,Tersina viridis,1,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+394,33943,species,Chestnut-capped Warbler,Basileuterus delattrii,2,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+395,33346,species,Crested Oropendola,Psarocolius decumanus,2,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+396,32781,species,Golden-winged Sparrow,Arremon schlegeli,2,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+397,28247,species,Pale-breasted Thrush,Turdus leucomelas,2,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+398,27188,species,Bicolored Wren,Campylorhynchus griseus,2,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+399,18887,species,Scrub Greenlet,Hylophilus flavipes,1,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+400,17223,species,Social Flycatcher,Myiozetetes similis,2,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+401,17210,species,Boat-billed Flycatcher,Megarynchus pitangua,2,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+402,16156,species,Pale-eyed Pygmy-Tyrant,Atalotriccus pilaris,2,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+403,12718,species,Orange-chinned Parakeet,Brotogeris jugularis,4,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+404,10393,species,Rufous-tailed Jacamar,Galbula ruficauda,1,"(11.144, -74.109)",CO-MAG,02 Feb 2023,L7327164,S127530824,,1
+405,34158,species,White-winged Tanager,Piranga leucoptera,3,Parque Regional Ucumari--Otun Quimbaya al Cedral,CO-RIS,01 Feb 2023,L6171634,S127398361,,1
+406,32351,species,Yellow-bellied Siskin,Spinus xanthogastrus,2,Parque Regional Ucumari--Otun Quimbaya al Cedral,CO-RIS,01 Feb 2023,L6171634,S127398361,,1
+407,16611,species,Plumbeous-crowned Tyrannulet,Phyllomyias plumbeiceps,1,Parque Regional Ucumari--Otun Quimbaya al Cedral,CO-RIS,01 Feb 2023,L6171634,S127398361,,1
+408,16091,species,Variegated Bristle-Tyrant,Pogonotriccus poecilotis,3,Parque Regional Ucumari--Otun Quimbaya al Cedral,CO-RIS,01 Feb 2023,L6171634,S127398361,,1
+409,14871,species,Rusty-winged Barbtail,Premnornis guttuliger,3,Parque Regional Ucumari--Otun Quimbaya al Cedral,CO-RIS,01 Feb 2023,L6171634,S127398361,,1
+410,14598,species,Strong-billed Woodcreeper,Xiphocolaptes promeropirhynchus,1,Parque Regional Ucumari--Otun Quimbaya al Cedral,CO-RIS,01 Feb 2023,L6171634,S127398361,,1
+411,14571,species,Black-banded Woodcreeper,Dendrocolaptes picumnus,1,Parque Regional Ucumari--Otun Quimbaya al Cedral,CO-RIS,01 Feb 2023,L6171634,S127398361,,1
+412,14201,species,Hooded Antpitta,Grallaricula cucullata,1,Parque Regional Ucumari--Otun Quimbaya al Cedral,CO-RIS,01 Feb 2023,L6171634,S127398361,,1
+413,14068,species,Moustached Antpitta,Grallaria alleni,1,Parque Regional Ucumari--Otun Quimbaya al Cedral,CO-RIS,01 Feb 2023,L6171634,S127398361,,1
+414,33157,species,White-naped Brushfinch,Atlapetes albinucha,1,Vía Florida - Below the School,CO-RIS,31 Jan 2023,L15986407,S127361975,,1
+415,16579,species,Torrent Tyrannulet,Serpophaga cinerea,2,Vía Florida - Below the School,CO-RIS,31 Jan 2023,L15986407,S127361975,,1
+416,14280,species,White-crowned Tapaculo,Scytalopus atratus,1,Vía Florida - Below the School,CO-RIS,31 Jan 2023,L15986407,S127361975,,1
+417,891,species,Cauca Guan,Penelope perspicax,6,Vía Florida - Below the School,CO-RIS,31 Jan 2023,L15986407,S127361975,,1
+418,33612,species,Carib Grackle,Quiscalus lugubris,5,La Florida (pueblo),CO-RIS,31 Jan 2023,L5180996,S127361974,,1
+419,16692,species,Bran-colored Flycatcher,Myiophobus fasciatus,1,La Florida (pueblo),CO-RIS,31 Jan 2023,L5180996,S127361974,,1
+420,15748,species,Red-ruffed Fruitcrow,Pyroderus scutatus,1,La Florida (pueblo),CO-RIS,31 Jan 2023,L5180996,S127361974,,1
+421,1903,species,Pale-vented Pigeon,Patagioenas cayennensis,1,La Florida (pueblo),CO-RIS,31 Jan 2023,L5180996,S127361974,,1
+422,17022,species,Chestnut-bellied Chat-Tyrant,Ochthoeca cinnamomeiventris,1,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+423,16411,species,White-banded Tyrannulet,Mecocerculus stictopterus,2,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+424,15730,species,Red-crested Cotinga,Ampelion rubrocristatus,2,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+425,15696,species,Barred Fruiteater,Pipreola arcuata,2,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+426,14860,species,Streaked Tuftedcheek,Pseudocolaptes boissonneautii,1,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+427,14222,species,Crescent-faced Antpitta,Grallaricula lineifrons,1,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+428,14136,species,Equatorial Antpitta,Grallaria saturata,1,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+429,10764,species,Gray-breasted Mountain-Toucan,Andigena hypoglauca,4,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+430,4487,species,Tyrian Metaltail,Metallura tyrianthina,2,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+431,2336,species,White-throated Quail-Dove,Zentrygon frenata,2,Hacienda El Bosque,CO-CAL,31 Jan 2023,L7816358,S127338243,,1
+432,34548,species,Hooded Mountain Tanager,Buthraupis montana,3,Hotel Termales del Ruíz,CO-CAL,30 Jan 2023,L4057071,S127292868,,1
+433,14239,species,Ocellated Tapaculo,Acropternis orthonyx,1,Hotel Termales del Ruíz,CO-CAL,30 Jan 2023,L4057071,S127292868,,1
+434,4613,species,Great Sapphirewing,Pterophanes cyanopterus,3,Hotel Termales del Ruíz,CO-CAL,30 Jan 2023,L4057071,S127292868,,1
+435,4593,species,Buff-winged Starfrontlet,Coeligena lutetiae,3,Hotel Termales del Ruíz,CO-CAL,30 Jan 2023,L4057071,S127292868,,1
+436,4549,species,Shining Sunbeam,Aglaeactis cupripennis,5,Hotel Termales del Ruíz,CO-CAL,30 Jan 2023,L4057071,S127292868,,1
+437,4542,species,Golden-breasted Puffleg,Eriocnemis mosquera,2,Hotel Termales del Ruíz,CO-CAL,30 Jan 2023,L4057071,S127292868,,1
+438,35333,species,Plain-colored Seedeater,Catamenia inornata,3,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+439,35088,species,Plumbeous Sierra Finch,Geospizopsis unicolor,2,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+440,34994,species,Black Flowerpiercer,Diglossa humeralis,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+441,34987,species,Glossy Flowerpiercer,Diglossa lafresnayii,2,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+442,33201,species,Pale-naped Brushfinch,Atlapetes pallidinucha,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+443,27063,species,Grass Wren,Cistothorus platensis,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+444,17035,species,Brown-backed Chat-Tyrant,Ochthoeca fumicolor,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+445,16415,species,White-throated Tyrannulet,Mecocerculus leucophrys,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+446,15183,species,Andean Tit-Spinetail,Leptasthenura andicola,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+447,14953,species,Stout-billed Cinclodes,Cinclodes excelsior,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+448,14265,species,Paramo Tapaculo,Scytalopus opacus,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+449,8362,species,Black-chested Buzzard-Eagle,Geranoaetus melanoleucus,3,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+450,4531,species,Black-thighed Puffleg,Eriocnemis derbyi,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+451,4497,species,Viridian Metaltail,Metallura williami,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+452,4478,species,Buffy Helmetcrest,Oxypogon stuebelii,2,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+453,755,species,Andean Duck,Oxyura ferruginea,5,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+454,602,species,Andean Teal,Anas andium,1,PNN Los Nevados - Páramo,CO-CAL,30 Jan 2023,L1252507,S127275682,,1
+455,34388,species,Oleaginous Hemispingus,Sphenopsis frontalis,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127231344,,1
+456,17153,species,Pale-edged Flycatcher,Myiarchus cephalotes,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127231344,,1
+457,14492,species,Tyrannine Woodcreeper,Dendrocincla tyrannina,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127231344,,1
+458,11759,species,Crimson-mantled Woodpecker,Colaptes rivolii,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127231344,,1
+459,4612,species,Sword-billed Hummingbird,Ensifera ensifera,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127231344,,1
+461,35556,species,Masked Saltator,Saltator cinctus,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+462,35143,species,Gray-hooded Bush Tanager,Cnemoscopus rubrirostris,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+463,35051,species,Plushcap,Catamblyrhynchus diadema,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+464,34967,species,Capped Conebill,Conirostrum albifrons,4,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+465,34748,species,Blue-and-black Tanager,Tangara vassorii,4,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+466,34592,species,Scarlet-bellied Mountain Tanager,Anisognathus igniventris,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+467,34581,species,Lacrimose Mountain Tanager,Anisognathus lacrymosus,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+468,34566,species,Grass-green Tanager,Chlorornis riefferii,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+469,34416,species,Superciliaried Hemispingus,Thlypopsis superciliaris,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+470,34382,species,Black-capped Hemispingus,Kleinothraupis atropileus,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+471,34093,species,Golden-fronted Redstart,Myioborus ornatus,3,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+472,34017,species,Black-crested Warbler,Myiothlypis nigrocristata,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+473,33195,species,Northern Slaty Brushfinch,Atlapetes schistaceus,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+474,32759,species,Gray-browed Brushfinch,Arremon assimilis,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+475,26995,species,Mountain Wren,Troglodytes solstitialis,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+476,17027,species,Rufous-breasted Chat-Tyrant,Ochthoeca rufipectoralis,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+477,17014,species,Yellow-bellied Chat-Tyrant,Silvicultrix diadema,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+478,16985,species,Smoky Bush-Tyrant,Myiotheretes fumigatus,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+479,16622,species,Black-capped Tyrannulet,Tyranniscus nigrocapillus,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+480,16221,species,Rufous-crowned Tody-Flycatcher,Poecilotriccus ruficeps,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+481,16081,species,Rufous-breasted Flycatcher,Leptopogon rufipectus,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+482,15151,species,Pearled Treerunner,Margarornis squamiger,3,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+483,14832,species,Streaked Xenops,Xenops rutilans,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+484,14211,species,Slate-crowned Antpitta,Grallaricula nana,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+485,14149,species,Brown-banded Antpitta,Grallaria milleri,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+486,14126,species,Bicolored Antpitta,Grallaria rufocinerea,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+487,14093,species,Chestnut-crowned Antpitta,Grallaria ruficapilla,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+488,13742,species,Streak-headed Antbird,Drymophila striaticeps,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+489,13037,species,Golden-plumed Parakeet,Leptosittaca branickii,12,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+490,10769,species,Black-billed Mountain-Toucan,Andigena nigrirostris,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+491,8357,species,Variable Hawk,Geranoaetus polyosoma,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+492,7772,species,Hook-billed Kite,Chondrohierax uncinatus,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+493,4727,species,White-bellied Woodstar,Chaetocercus mulsant,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+494,4304,species,Lesser Violetear,Colibri cyanotus,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+495,4299,species,Sparkling Violetear,Colibri coruscans,2,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127274728,,1
+496,4670,species,Long-billed Starthroat,Heliomaster longirostris,1,Hacienda Venecia,CO-CAL,28 Jan 2023,L7828681,S127123889,,1
+497,35530,species,Streaked Saltator,Saltator striatipectus,1,Hotel Tinamú Birding Nature Reserve,CO-CAL,28 Jan 2023,L3218682,S127103962,,1
+498,27257,species,Speckle-breasted Wren,Pheugopedius sclateri,2,Hotel Tinamú Birding Nature Reserve,CO-CAL,28 Jan 2023,L3218682,S127103962,,1
+499,26913,species,Scaly-breasted Wren,Microcerculus marginatus,1,Hotel Tinamú Birding Nature Reserve,CO-CAL,28 Jan 2023,L3218682,S127103962,,1
+500,16606,species,Sooty-headed Tyrannulet,Phyllomyias griseiceps,2,Hotel Tinamú Birding Nature Reserve,CO-CAL,28 Jan 2023,L3218682,S127103962,,1
+501,16051,species,Ochre-bellied Flycatcher,Mionectes oleagineus,1,Hotel Tinamú Birding Nature Reserve,CO-CAL,28 Jan 2023,L3218682,S127103962,,1
+502,4909,species,White-vented Plumeleteer,Chalybura buffonii,1,Hotel Tinamú Birding Nature Reserve,CO-CAL,28 Jan 2023,L3218682,S127103962,,1
+503,2314,species,Gray-headed Dove,Leptotila plumbeiceps,2,Hotel Tinamú Birding Nature Reserve,CO-CAL,28 Jan 2023,L3218682,S127103962,,1
+504,14767,species,Streak-headed Woodcreeper,Lepidocolaptes souleyetii,1,Hotel Tinamú Birding Nature Reserve,CO-CAL,27 Jan 2023,L3218682,S127051537,,1
+505,34860,species,Turquoise Dacnis,Dacnis hartlaubi,1,Turquoise Dacnis spot - R 50,CO-RIS,27 Jan 2023,L22369713,S127069459,,1
+506,34739,species,Blue-necked Tanager,Stilpnia cyanicollis,1,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+507,34471,species,White-shouldered Tanager,Loriotus luctuosus,1,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+508,33335,species,Russet-backed Oropendola,Psarocolius angustifrons,8,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+509,32754,species,Black-headed Brushfinch,Arremon atricapillus,1,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+510,27433,species,White-capped Dipper,Cinclus leucocephalus,1,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+511,17254,species,Golden-bellied Flycatcher,Myiodynastes hemichrysus,2,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+512,17251,species,Lemon-browed Flycatcher,Conopias cinchoneti,2,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+513,15640,species,Club-winged Manakin,Machaeropterus deliciosus,1,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+514,13773,species,Parker's Antbird,Cercomacroides parkeri,2,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+515,13614,species,Slaty Antwren,Myrmotherula schisticolor,1,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+516,13502,species,Plain Antvireo,Dysithamnus mentalis,2,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+517,9476,species,Collared Trogon,Trogon collaris,1,Camino Montezuma--Río Claro,CO-RIS,27 Jan 2023,L8577529,S127027872,,1
+518,3698,species,Common Potoo,Nyctibius griseus,1,Camino Montezuma--Montezuma Rainforest Lodge,CO-RIS,26 Jan 2023,L8012829,S127056877,,1
+519,34201,species,Crested Ant-Tanager,Driophlox cristata,1,Camino Montezuma--La Clarita,CO-RIS,26 Jan 2023,L5041374,S127028663,,1
+520,34034,species,Choco Warbler,Myiothlypis chlorophrys,2,Camino Montezuma--La Clarita,CO-RIS,26 Jan 2023,L5041374,S127028663,,1
+521,27200,species,Sooty-headed Wren,Pheugopedius spadix,1,Camino Montezuma--La Clarita,CO-RIS,26 Jan 2023,L5041374,S127028663,,1
+522,19023,species,Choco Vireo,Vireo masteri,1,Camino Montezuma--La Clarita,CO-RIS,26 Jan 2023,L5041374,S127028663,,1
+523,16109,species,Rufous-browed Tyrannulet,Phylloscartes superciliaris,3,Camino Montezuma--La Clarita,CO-RIS,26 Jan 2023,L5041374,S127028663,,1
+524,12777,species,Bronze-winged Parrot,Pionus chalcopterus,1,Camino Montezuma--La Clarita,CO-RIS,26 Jan 2023,L5041374,S127028663,,1
+525,10328,species,Moustached Puffbird,Malacoptila mystacalis,1,Camino Montezuma--La Clarita,CO-RIS,26 Jan 2023,L5041374,S127028663,,1
+526,9778,species,Andean Motmot,Momotus aequatorialis,1,Camino Montezuma--La Clarita,CO-RIS,26 Jan 2023,L5041374,S127028663,,1
+527,15718,species,Scaled Fruiteater,Ampelioides tschudii,1,Camino Montezuma--Los Cajones,CO-RIS,26 Jan 2023,L5718946,S127034040,,1
+528,14531,species,Wedge-billed Woodcreeper,Glyphorynchus spirurus,1,Camino Montezuma--Los Cajones,CO-RIS,26 Jan 2023,L5718946,S127034040,,1
+529,14306,species,Tatama Tapaculo,Scytalopus alvarezlopezi,1,Camino Montezuma--Los Cajones,CO-RIS,26 Jan 2023,L5718946,S127034040,,1
+530,12856,species,Scaly-naped Amazon,Amazona mercenarius,12,Camino Montezuma--Los Cajones,CO-RIS,26 Jan 2023,L5718946,S127034040,,1
+531,21031,species,Black-chested Jay,Cyanocorax affinis,1,Camino Montezuma--Montezuma Rainforest Lodge,CO-RIS,25 Jan 2023,L8012829,S126929771,,1
+532,34542,species,Black-and-gold Tanager,Bangsia melanochlamys,4,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+533,27331,species,Rufous Wren,Cinnycerthia unirufa,1,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+534,16677,species,Flavescent Flycatcher,Myiophobus flavicans,1,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+535,16118,species,Bronze-olive Pygmy-Tyrant,Pseudotriccus pelzelni,1,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+536,16038,species,Streak-necked Flycatcher,Mionectes striaticollis,2,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+537,15703,species,Orange-breasted Fruiteater,Pipreola jucunda,3,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+538,14992,species,Scaly-throated Foliage-gleaner,Anabacerthia variegaticeps,2,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+539,14706,species,Spotted Woodcreeper,Xiphorhynchus erythropygius,1,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+540,11384,species,Yellow-vented Woodpecker,Dryobates dignus,2,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+541,9401,species,Golden-headed Quetzal,Pharomachrus auriceps,1,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+542,4566,species,Brown Inca,Coeligena wilsoni,2,Camino Montezuma--Los Cajones,CO-RIS,25 Jan 2023,L5718946,S126948510,,1
+543,35043,species,Masked Flowerpiercer,Diglossa cyanea,3,Camino Montezuma--Base Militar,CO-RIS,25 Jan 2023,L5718944,S126932888,,1
+544,34984,species,Chestnut-bellied Flowerpiercer,Diglossa gloriosissima,2,Camino Montezuma--Base Militar,CO-RIS,25 Jan 2023,L5718944,S126932888,,1
+545,27388,species,Munchique Wood-Wren,Henicorhina negreti,2,Camino Montezuma--Base Militar,CO-RIS,25 Jan 2023,L5718944,S126932888,,1
+546,27335,species,Sharpe's Wren,Cinnycerthia olivascens,3,Camino Montezuma--Base Militar,CO-RIS,25 Jan 2023,L5718944,S126932888,,1
+547,4651,species,Green-crowned Brilliant,Heliodoxa jacula,1,Camino Montezuma--Base Militar,CO-RIS,25 Jan 2023,L5718944,S126932888,,1
+548,4359,species,Tourmaline Sunangel,Heliangelus exortis,3,Camino Montezuma--Base Militar,CO-RIS,25 Jan 2023,L5718944,S126932888,,1
+549,35036,species,Bluish Flowerpiercer,Diglossa caerulescens,1,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+550,35018,species,Indigo Flowerpiercer,Diglossa indigotica,1,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+551,35004,species,White-sided Flowerpiercer,Diglossa albilatera,4,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+552,34617,species,Purplish-mantled Tanager,Iridosornis porphyrocephalus,2,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+553,34554,species,Blue-capped Tanager,Sporathraupis cyanocephala,1,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+554,34545,species,Gold-ringed Tanager,Bangsia aureocincta,2,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+555,32619,species,Dusky Chlorospingus,Chlorospingus semifuscus,7,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+556,31718,species,Chestnut-breasted Chlorophonia,Chlorophonia pyrrhophrys,2,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+557,28393,species,Great Thrush,Turdus fuscater,2,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+558,23905,species,Brown-bellied Swallow,Orochelidon murina,5,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+559,16379,species,Handsome Flycatcher,Nephelomyias pulcher,3,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+560,16207,species,Black-throated Tody-Tyrant,Hemitriccus granadensis,1,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+561,15494,species,Rufous Spinetail,Synallaxis unirufa,1,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+562,15150,species,Fulvous-dotted Treerunner,Margarornis stellatus,1,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+563,14859,species,Pacific Tuftedcheek,Pseudocolaptes johnsoni,1,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+564,4621,species,Velvet-purple Coronet,Boissonneaua jardini,7,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+565,4568,species,Collared Inca,Coeligena torquata,6,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+566,4513,species,Greenish Puffleg,Haplophaedia aureliae,2,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+567,4282,species,Green-fronted Lancebill,Doryfera ludovicae,1,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+568,4210,species,Tawny-bellied Hermit,Phaethornis syrmatophorus,1,Cerro Montezuma--Los Chorros,CO-RIS,25 Jan 2023,L6109719,S126932884,,1
+569,35296,species,Yellow-bellied Seedeater,Sporophila nigricollis,5,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+570,35222,species,Blue-black Grassquit,Volatinia jacarina,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+571,34916,species,Guira Tanager,Hemithraupis guira,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+572,34529,species,Crimson-backed Tanager,Ramphocelus dimidiatus,4,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+573,33787,species,Tropical Parula,Setophaga pitiayumi,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+574,33630,species,Oriole Blackbird,Gymnomystax mexicanus,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+575,33468,species,Yellow Oriole,Icterus nigrogularis,6,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+576,33316,species,Red-breasted Meadowlark,Leistes militaris,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+577,17260,species,Streaked Flycatcher,Myiodynastes maculatus,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+578,17149,species,Apical Flycatcher,Myiarchus apicalis,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+579,16993,species,Pied Water-Tyrant,Fluvicola pica,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+580,16530,species,Yellow-bellied Elaenia,Elaenia flavogaster,7,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+581,16485,species,Yellow-crowned Tyrannulet,Tyrannulus elatus,3,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+582,16312,species,Yellow-olive Flatbill,Tolmomyias sulphurescens,4,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+583,16247,species,Slate-headed Tody-Flycatcher,Poecilotriccus sylvia,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+584,15871,species,Cinereous Becard,Pachyramphus rufus,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+585,15427,species,Slaty Spinetail,Synallaxis brachyura,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+586,14670,species,Cocoa Woodcreeper,Xiphorhynchus susurrans,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+587,13800,species,Jet Antbird,Cercomacra nigricans,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+588,13393,species,Bar-crested Antshrike,Thamnophilus multistriatus,3,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+589,13339,species,Great Antshrike,Taraba major,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+590,12875,species,Spectacled Parrotlet,Forpus conspicillatus,21,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+591,11770,species,Spot-breasted Woodpecker,Colaptes punctigula,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+592,11639,species,Lineated Woodpecker,Dryocopus lineatus,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+593,11061,species,Red-crowned Woodpecker,Melanerpes rubricapillus,4,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+594,10208,species,Amazon Kingfisher,Chloroceryle amazona,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+595,8307,species,Snail Kite,Rostrhamus sociabilis,5,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+596,7667,species,Cocoi Heron,Ardea cocoi,3,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+597,7581,species,Striated Heron,Butorides striata,5,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+598,7399,species,Buff-necked Ibis,Theristicus caudatus,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+599,7393,species,Bare-faced Ibis,Phimosus infuscatus,13,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+600,6633,species,Large-billed Tern,Phaetusa simplex,3,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+601,5929,species,Wattled Jacana,Jacana jacana,4,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+602,5872,species,Collared Plover,Anarhynchus collaris,3,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+603,5355,species,Blackish Rail,Pardirallus nigricans,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+604,4329,species,Black-throated Mango,Anthracothorax nigricollis,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+605,3167,species,Dwarf Cuckoo,Coccycua pumila,1,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+606,2984,species,Smooth-billed Ani,Crotophaga ani,12,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+607,2983,species,Greater Ani,Crotophaga major,6,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+608,231,species,White-faced Whistling-Duck,Dendrocygna viduata,2,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+609,223,species,Horned Screamer,Anhima cornuta,3,RN Laguna de Sonso,CO-VAC,24 Jan 2023,L465353,S126857113,,1
+610,12815,species,Yellow-crowned Amazon,Amazona ochrocephala,10,Hotel Guadalajara,CO-VAC,24 Jan 2023,L1230528,S127056946,,1
+611,34704,species,Gray-and-gold Tanager,Poecilostreptus palmeri,2,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+612,34209,species,Ochre-breasted Tanager,Chlorothraupis stolzmanni,2,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+613,34018,species,Buff-rumped Warbler,Myiothlypis fulvicauda,1,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+614,18918,species,Slaty-capped Shrike-Vireo,Vireolanius leucotis,1,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+615,17271,species,Piratic Flycatcher,Legatus leucophaius,1,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+616,16309,species,Pacific Flatbill,Rhynchocyclus pacificus,1,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+617,16077,species,Slaty-capped Flycatcher,Leptopogon superciliaris,1,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+618,14819,species,Northern Plain-Xenops,Xenops mexicanus,1,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+619,8242,species,Double-toothed Kite,Harpagus bidentatus,1,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+620,4313,species,Purple-crowned Fairy,Heliothryx barroti,1,Alto Anchicayá - Quebrada Los Caleños,CO-VAC,23 Jan 2023,L4375599,S126857109,,1
+621,35278,species,Gray Seedeater,Sporophila intermedia,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+622,34842,species,Silver-throated Tanager,Tangara icterocephala,8,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+623,34800,species,Bay-headed Tanager,Tangara gyrola,4,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+624,34753,species,Beryl-spangled Tanager,Tangara nigroviridis,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+625,34676,species,Rufous-throated Tanager,Ixothraupis rufigula,5,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+626,34637,species,Glistening-green Tanager,Chlorochrysa phoenicotis,3,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+627,34609,species,Black-chinned Mountain Tanager,Anisognathus notabilis,4,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+628,33193,species,Choco Brushfinch,Atlapetes crassus,2,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+629,32565,species,Yellow-throated Chlorospingus,Chlorospingus flavigularis,5,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+630,23886,species,Southern Rough-winged Swallow,Stelgidopteryx ruficollis,3,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+631,18878,species,Black-billed Peppershrike,Cyclarhis nigrirostris,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+632,17104,species,Rufous Mourner,Rhytipterna holerythra,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+633,16729,species,Smoke-colored Pewee,Contopus fumigatus,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+634,16389,species,Southern Beardless-Tyrannulet,Camptostoma obsoletum,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+635,16372,species,Ornate Flycatcher,Myiotriccus ornatus,4,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+636,16356,species,Cinnamon Flycatcher,Pyrrhomyias cinnamomeus,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+637,16266,species,Common Tody-Flycatcher,Todirostrum cinereum,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+638,16142,species,Scale-crested Pygmy-Tyrant,Lophotriccus pileatus,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+639,15885,species,White-winged Becard,Pachyramphus polychopterus,2,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+640,15078,species,Uniform Treehunter,Thripadectes ignobilis,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+641,13918,species,Zeledon's Antbird,Hafferia zeledoni,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+642,13675,species,Yellow-breasted Antwren,Herpsilochmus axillaris,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+643,13308,species,Rufous-rumped Antwren,Euchrepomis callinota,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+644,10725,species,Toucan Barbet,Semnornis ramphastinus,5,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+645,4857,species,Western Emerald,Chlorostilbon melanorhynchus,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+646,4655,species,Empress Brilliant,Heliodoxa imperatrix,3,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+647,4636,species,Purple-bibbed Whitetip,Urosticte benjamini,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+648,4634,species,Rufous-gaped Hillstar,Urochroa bougueri,3,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+649,4423,species,Violet-tailed Sylph,Aglaiocercus coelestis,2,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+650,4383,species,Green Thorntail,Discosura conversii,7,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+651,4204,species,White-whiskered Hermit,Phaethornis yaruqui,3,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+652,3487,species,Lyre-tailed Nightjar,Uropsalis lyra,1,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+653,1943,species,Plumbeous Pigeon,Patagioenas plumbea,4,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+654,453,species,Torrent Duck,Merganetta armata,2,Alto Anchicayá,CO-VAC,23 Jan 2023,L4554284,S126823672,,1
+655,35494,species,Buff-throated Saltator,Saltator maximus,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+656,35272,species,Variable Seedeater,Sporophila corvina,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+657,34947,species,Scarlet-and-white Tanager,Chrysothlypis salmoni,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+658,34913,species,Scarlet-browed Tanager,Heterospingus xanthopygius,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+659,34881,species,Purple Honeycreeper,Cyanerpes caeruleus,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+660,34865,species,Blue Dacnis,Dacnis cayana,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+661,34826,species,Blue-whiskered Tanager,Tangara johannae,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+662,34766,species,Plain-colored Tanager,Tangara inornata,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+663,34734,species,Golden-hooded Tanager,Stilpnia larvata,3,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+664,34484,species,Tawny-crested Tanager,Tachyphonus delatrii,10,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+665,34109,species,Dusky-faced Tanager,Mitrospingus cassinii,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+666,33351,species,Chestnut-headed Oropendola,Psarocolius wagleri,16,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+667,31766,species,Fulvous-vented Euphonia,Euphonia fulvicrissa,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+668,31754,species,Thick-billed Euphonia,Euphonia laniirostris,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+669,27300,species,Bay Wren,Cantorchilus nigricapillus,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+670,26820,species,Tawny-faced Gnatwren,Microbates cinereiventris,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+671,23898,species,Blue-and-white Swallow,Pygochelidon cyanoleuca,6,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+672,23863,species,Gray-breasted Martin,Progne chalybea,12,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+673,17218,species,Rusty-margined Flycatcher,Myiozetetes cayanensis,4,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+674,16138,species,Black-capped Pygmy-Tyrant,Myiornis atricapillus,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+675,16044,species,Olive-striped Flycatcher,Mionectes galbinus,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+676,15961,species,Sulphur-rumped Flycatcher,Myiobius sulphureipygius,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+677,15874,species,Cinnamon Becard,Pachyramphus cinnamomeus,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+678,15806,species,Masked Tityra,Tityra semifasciata,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+679,15798,species,Black-crowned Tityra,Tityra inquisitor,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+680,15786,species,Black-tipped Cotinga,Carpodectes hopkei,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+681,15747,species,Purple-throated Fruitcrow,Querula purpurata,3,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+682,15672,species,Red-capped Manakin,Ceratopipra mentalis,4,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+683,15602,species,Golden-collared Manakin,Manacus vitellinus,7,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+684,15112,species,Western Woodhaunter,Automolus virgatus,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+685,14555,species,Northern Barred-Woodcreeper,Dendrocolaptes sanctithomae,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+686,14512,species,Plain-brown Woodcreeper,Dendrocincla fuliginosa,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+687,14155,species,Streak-chested Antpitta,Hylopezus perspicillatus,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+688,13966,species,Spotted Antbird,Hylophylax naevioides,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+689,13939,species,Bicolored Antbird,Gymnopithys bicolor,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+690,13883,species,Chestnut-backed Antbird,Poliocrania exsul,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+691,13598,species,Pacific Antwren,Myrmotherula pacifica,3,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+692,13560,species,Checker-throated Stipplethroat,Epinecrophylla fulviventris,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+693,13522,species,Spot-crowned Antvireo,Dysithamnus puncticeps,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+694,13411,species,Black-crowned Antshrike,Thamnophilus atrinucha,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+695,12771,species,Blue-headed Parrot,Pionus menstruus,3,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+696,11673,species,Cinnamon Woodpecker,Celeus loricatus,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+697,11049,species,Black-cheeked Woodpecker,Melanerpes pucherani,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+698,10830,species,Choco Toucan,Ramphastos brevis,3,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+699,10817,species,Yellow-throated Toucan,Ramphastos ambiguus,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+700,10778,species,Collared Aracari,Pteroglossus torquatus,3,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+701,10680,species,Spot-crowned Barbet,Capito maculicoronatus,4,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+702,10319,species,White-whiskered Puffbird,Malacoptila panamensis,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+703,10278,species,Black-breasted Puffbird,Notharchus pectoralis,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+704,9781,species,Rufous Motmot,Baryphthengus martii,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+705,9457,species,Choco Black-throated Trogon,Trogon cupreicauda,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+706,9436,species,White-tailed Trogon,Trogon chionurus,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+707,5133,species,Blue-chested Hummingbird,Polyerata amabilis,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+708,5053,species,Rufous-tailed Hummingbird,Amazilia tzacatl,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+709,4255,species,Stripe-throated Hermit,Phaethornis striigularis,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+710,4186,species,Bronzy Hermit,Glaucis aeneus,1,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+711,1964,species,Dusky Pigeon,Patagioenas goodsoni,2,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+712,863,species,Baudo Guan,Penelope ortoni,3,RN San Cipriano-Escalerete,CO-VAC,22 Jan 2023,L2711479,S126791565,,1
+713,9056,species,Mottled Owl,Strix virgata,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126824010,,1
+714,35026,species,Rusty Flowerpiercer,Diglossa sittoides,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+715,27941,species,Andean Solitaire,Myadestes ralloides,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+716,27371,species,Gray-breasted Wood-Wren,Henicorhina leucophrys,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+717,27215,species,Whiskered Wren,Pheugopedius mystacalis,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+718,26825,species,Long-billed Gnatwren,Ramphocaenus melanurus,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+719,18956,species,Rufous-naped Greenlet,Pachysylvia semibrunnea,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+720,16085,species,Marble-faced Bristle-Tyrant,Pogonotriccus ophthalmicus,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+721,15866,species,Barred Becard,Pachyramphus versicolor,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+722,15548,species,Golden-winged Manakin,Masius chrysopterus,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+723,15011,species,Lineated Foliage-gleaner,Syndactyla subalaris,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+724,14995,species,Montane Foliage-gleaner,Anabacerthia striaticollis,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+725,13065,species,Scarlet-fronted Parakeet,Psittacara wagleri,23,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+726,11737,species,Golden-olive Woodpecker,Colaptes rubiginosus,2,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+727,10738,species,Southern Emerald-Toucanet,Aulacorhynchus albivitta,2,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+728,5073,species,Andean Emerald,Uranomitra franciae,6,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+729,4740,species,Purple-throated Woodstar,Philodice mitchellii,3,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+730,4647,species,Fawn-breasted Brilliant,Heliodoxa rubinoides,3,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+731,4617,species,Buff-tailed Coronet,Boissonneaua flavescens,2,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+732,4559,species,Bronzy Inca,Coeligena coeligena,2,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+733,4416,species,Long-tailed Sylph,Aglaiocercus kingii,3,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+734,4405,species,Speckled Hummingbird,Adelomyia melanogenys,1,Km 18,CO-VAC,21 Jan 2023,L20103474,S126658958,,1
+735,35500,species,Black-winged Saltator,Saltator atripennis,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+736,35404,species,Yellow-faced Grassquit,Tiaris olivaceus,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+737,35188,species,Saffron Finch,Sicalis flaveola,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+738,34901,species,Green Honeycreeper,Chlorophanes spiza,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+739,34827,species,Golden Tanager,Tangara arthus,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+740,34814,species,Saffron-crowned Tanager,Tangara xanthocephala,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+741,34760,species,Metallic-green Tanager,Tangara labradorides,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+742,34732,species,Scrub Tanager,Stilpnia vitriolina,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+743,34711,species,Black-capped Tanager,Stilpnia heinei,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+744,34694,species,Golden-naped Tanager,Chalcothraupis ruficervix,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+745,34668,species,Palm Tanager,Thraupis palmarum,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+746,34644,species,Blue-gray Tanager,Thraupis episcopus,4,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+747,34643,species,Multicolored Tanager,Chlorochrysa nitidissima,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+748,34505,species,Flame-rumped Tanager,Ramphocelus flammigerus,5,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+749,34486,species,White-lined Tanager,Tachyphonus rufus,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+750,33540,species,Shiny Cowbird,Molothrus bonariensis,4,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+751,32876,species,Rufous-collared Sparrow,Zonotrichia capensis,3,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+752,32799,species,Chestnut-capped Brushfinch,Arremon brunneinucha,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+753,31773,species,Orange-bellied Euphonia,Euphonia xanthogaster,3,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+754,28373,species,Black-billed Thrush,Turdus ignobilis,4,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+755,26960,species,Southern House Wren,Troglodytes musculus,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+756,16639,species,Golden-faced Tyrannulet,Zimmerius chrysops,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+757,15134,species,Spotted Barbtail,Premnoplex brunnescens,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+758,11851,species,Yellow-headed Caracara,Daptrius chimachima,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+759,11342,species,Smoky-brown Woodpecker,Dryobates fumigatus,3,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+760,10987,species,Grayish Piculet,Picumnus granadensis,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+761,10758,species,Crimson-rumped Toucanet,Aulacorhynchus haematopygus,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+762,10711,species,Red-headed Barbet,Eubucco bourcierii,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+763,8334,species,Roadside Hawk,Rupornis magnirostris,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+764,5018,species,Steely-vented Hummingbird,Saucerottia saucerottei,3,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+765,4918,species,Crowned Woodnymph,Thalurania colombica,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+766,4623,species,White-booted Racket-tail,Ocreatus underwoodii,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+767,4302,species,Brown Violetear,Colibri delphinae,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+768,4205,species,Green Hermit,Phaethornis guy,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+769,4172,species,White-necked Jacobin,Florisuga mellivora,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+770,3790,species,White-collared Swift,Streptoprocne zonaris,5,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+771,3169,species,Squirrel Cuckoo,Piaya cayana,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+772,2361,species,Eared Dove,Zenaida auriculata,4,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+773,2275,species,Ruddy Quail-Dove,Geotrygon montana,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+774,2230,species,Ruddy Ground Dove,Columbina talpacoti,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+775,1127,species,Chestnut Wood-Quail,Odontophorus hyperythrus,6,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+776,914,species,Sickle-winged Guan,Chamaepetes goudotii,1,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+777,846,species,Colombian Chachalaca,Ortalis columbiana,3,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+778,78,species,Little Tinamou,Crypturellus soui,2,RNSC San Felipe,CO-VAC,21 Jan 2023,L12461912,S126658960,,1
+779,34598,species,Blue-winged Mountain Tanager,Anisognathus somptuosus,2,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+780,34069,species,Slate-throated Redstart,Myioborus miniatus,2,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+781,34044,species,Russet-crowned Warbler,Myiothlypis coronata,2,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+782,33980,species,Three-striped Warbler,Basileuterus tristriatus,3,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+783,32575,species,Ashy-throated Chlorospingus,Chlorospingus canigularis,2,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+784,27390,species,Northern Chestnut-breasted Wren,Cyphorhinus dichrous,1,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+785,15686,species,Green-and-black Fruiteater,Pipreola riefferii,1,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+786,15355,species,Red-faced Spinetail,Cranioleuca erythrops,2,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+787,15087,species,Streak-capped Treehunter,Thripadectes virgaticeps,1,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+788,14792,species,Montane Woodcreeper,Lepidocolaptes lacrymiger,1,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+789,14299,species,Nariño Tapaculo,Scytalopus vicinior,1,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+790,13455,species,Uniform Antshrike,Thamnophilus unicolor,1,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+791,9489,species,Masked Trogon,Trogon personatus,2,Km 18,CO-VAC,20 Jan 2023,L20103474,S126658955,,1
+792,17322,species,Fork-tailed Flycatcher,Tyrannus savana,1,"Cali-Cerrito, Valle del Cauca, CO (3.554, -76.422)",CO-VAC,20 Jan 2023,L22283486,S126602413,,1
+793,5835,species,Southern Lapwing,Vanellus chilensis,3,"Cali-Cerrito, Valle del Cauca, CO (3.554, -76.422)",CO-VAC,20 Jan 2023,L22283486,S126602413,,1
+794,24059,species,Cave Swallow,Petrochelidon fulva,2,Frog Pond WMA--Lucky Hammock,US-FL,12 Nov 2022,L405338,S122284623,,1
+795,8405,species,Short-tailed Hawk,Buteo brachyurus,1,Frog Pond WMA--Lucky Hammock,US-FL,12 Nov 2022,L405338,S122284623,,1
+797,27617,species,Common Myna,Acridotheres tristis,2,Agricultural Fields--SW 217th Ave. x SW 384th St.,US-FL,12 Nov 2022,L589105,S122275617,N,1
+798,3191,species,Mangrove Cuckoo,Coccyzus minor,1,Everglades NP--Snake Bight Trail,US-FL,11 Nov 2022,L127437,S122234350,,1
+799,6154,species,Baird's Sandpiper,Calidris bairdii,1,Willcox--Lake Cochise and Twin Lakes Golf Course,US-AZ,14 Aug 2022,L266875,S116935045,,1
+800,4999,species,Berylline Hummingbird,Saucerottia beryllina,1,Cave Creek Canyon--Southwestern Research Station,US-AZ,13 Aug 2022,L129102,S117036141,,1
+801,33920,species,Hermit Warbler,Setophaga occidentalis,2,Rustler Park,US-AZ,13 Aug 2022,L129069,S116859365,,1
+802,21864,species,Mexican Chickadee,Poecile sclateri,2,Rustler Park,US-AZ,13 Aug 2022,L129069,S116859365,,1
+803,4697,species,Blue-throated Mountain-gem,Lampornis clemenciae,3,Cave Creek Canyon--Southwestern Research Station,US-AZ,12 Aug 2022,L129102,S116805384,,1
+804,4744,species,Lucifer Hummingbird,Calothorax lucifer,4,Ash Canyon Bird Sanctuary (closed Thursday morning; formerly Ash Canyon B&B),US-AZ,09 Aug 2022,L199300,S116641598,,1
+805,16822,species,Buff-breasted Flycatcher,Empidonax fulvifrons,1,Miller Canyon Trail,US-AZ,09 Aug 2022,L129031,S116626498,,1
+806,16725,species,Greater Pewee,Contopus pertinax,1,Miller Canyon Trail,US-AZ,09 Aug 2022,L129031,S116626498,,1
+807,4861,species,White-eared Hummingbird,Basilinna leucotis,1,Miller Canyon Trail,US-AZ,09 Aug 2022,L129031,S116626498,,1
+808,33309,species,Chihuahuan Meadowlark,Sturnella lilianae,1,Las Cienegas NCA--Empire Gulch,US-AZ,08 Aug 2022,L765027,S116572900,,1
+809,32654,species,Cassin's Sparrow,Peucaea cassinii,3,Las Cienegas NCA--Empire Gulch,US-AZ,08 Aug 2022,L765027,S116572900,,1
+810,32642,species,Botteri's Sparrow,Peucaea botterii,1,Las Cienegas NCA--Empire Gulch,US-AZ,08 Aug 2022,L765027,S116572900,,1
+811,33460,species,Bullock's Oriole,Icterus bullockii,2,Patagonia Lake SP--Birding Trail,US-AZ,08 Aug 2022,L2064166,S116565530,,1
+812,8402,species,Zone-tailed Hawk,Buteo albonotatus,1,Patagonia Lake SP--Birding Trail,US-AZ,08 Aug 2022,L2064166,S116565530,,1
+813,3431,species,Lesser Nighthawk,Chordeiles acutipennis,4,"Madera Canyon Road, Green Valley, Arizona, US (31.819, -110.919)",US-AZ,08 Aug 2022,L20474069,S116565561,,1
+814,3563,species,Mexican Whip-poor-will,Antrostomus arizonae,3,Madera Canyon--Mt. Wrightson Picnic Area & Upper Canyon Trails,US-AZ,07 Aug 2022,L296633,S116531825,,1
+815,34122,species,Hepatic Tanager,Piranga flava,1,Madera Canyon--Carrie Nation Trail,US-AZ,07 Aug 2022,L2413068,S116502652,,1
+816,17117,species,Dusky-capped Flycatcher,Myiarchus tuberculifer,1,Madera Canyon--Carrie Nation Trail,US-AZ,07 Aug 2022,L2413068,S116502652,,1
+817,32733,species,Five-striped Sparrow,Amphispizopsis quinquestriata,1,Box Canyon,US-AZ,06 Aug 2022,L340405,S116481700,,1
+818,3535,species,Common Poorwill,Phalaenoptilus nuttallii,5,Box Canyon,US-AZ,06 Aug 2022,L340405,S116481700,,1
+819,17269,species,Sulphur-bellied Flycatcher,Myiodynastes luteiventris,4,Madera Canyon--Mt. Wrightson Picnic Area & Upper Canyon Trails,US-AZ,06 Aug 2022,L296633,S116481793,,1
+820,9465,species,Elegant Trogon,Trogon elegans,2,Madera Canyon--Mt. Wrightson Picnic Area & Upper Canyon Trails,US-AZ,06 Aug 2022,L296633,S116481793,,1
+822,18998,species,Bell's Vireo,Vireo bellii,3,"Box Canyon Road, Green Valley, Arizona, US (31.799, -110.798)",US-AZ,06 Aug 2022,L20455645,S116481626,,1
+823,34325,species,Varied Bunting,Passerina versicolor,1,Box Canyon,US-AZ,06 Aug 2022,L340405,S116481851,,1
+824,34268,species,Black-headed Grosbeak,Pheucticus melanocephalus,1,Mt. Lemmon--Molino Basin,US-AZ,05 Aug 2022,L129033,S116403934,,1
+825,33709,species,Virginia's Warbler,Leiothlypis virginiae,1,Mt. Lemmon--Molino Basin,US-AZ,05 Aug 2022,L129033,S116403934,,1
+826,33904,species,Grace's Warbler,Setophaga graciae,2,Mt. Lemmon--Rose Canyon and Lake,US-AZ,05 Aug 2022,L129068,S116404116,,1
+827,19032,species,Plumbeous Vireo,Vireo plumbeus,1,Mt. Lemmon--Rose Canyon and Lake,US-AZ,05 Aug 2022,L129068,S116404116,,1
+828,34059,species,Red-faced Warbler,Cardellina rubrifrons,1,Mt. Lemmon--Marshall Gulch,US-AZ,05 Aug 2022,L267654,S116404194,,1
+829,6659,species,Arctic Tern,Sterna paradisaea,6,Petit Manan NWR--Petit Manan Island,US-ME,07 Jun 2022,L234625,S112430372,,1
+830,6314,species,Atlantic Puffin,Fratercula arctica,1,"Steuben, Maine, US (44.374, -67.912)",US-ME,07 Jun 2022,L19525965,S112430383,,1
+831,7132,species,Sooty Shearwater,Ardenna grisea,1,"US (39.054, -74.666)",US-NJ,31 May 2022,L19392416,S111825105,,1
+832,6934,species,Wilson's Storm-Petrel,Oceanites oceanicus,1,"New Jersey, US (38.958, -74.771)",US-NJ,31 May 2022,L19392400,S111825052,,1
+833,8292,species,Mississippi Kite,Ictinia mississippiensis,1,Bridlepath Drive,US-VA,11 May 2022,L3300165,S109722261,,1
+837,32813,species,American Tree Sparrow,Spizelloides arborea,1,Mendon Ponds Park--Quaker Pond Trail,US-NY,06 Dec 2021,L803495,S98558579,,1
+839,32950,species,Nelson's Sparrow,Ammospiza nelsoni,1,Boardwalk Bridge,US-VA,24 Oct 2021,L2939514,S96643342,,1
+840,32940,species,Seaside Sparrow,Ammospiza maritima,1,Boardwalk Bridge,US-VA,24 Oct 2021,L2939514,S96643342,,1
+841,32220,species,Red Crossbill,Loxia curvirostra,5,Allegheny Front Migration Observatory--Red Creek CG,US-WV,02 Sep 2021,L994589,S94085948,,1
+844,8432,species,Rough-legged Hawk,Buteo lagopus,1,Sax-Zim Bog--north of Meadowlands,US-MN,16 Feb 2020,L361919,S64617871,,1
+845,9194,species,Boreal Owl,Aegolius funereus,1,Sax-Zim Bog--Admiral Rd. feeding station,US-MN,16 Feb 2020,L1393127,S64569708,,1
+846,11109,species,Black-backed Woodpecker,Picoides arcticus,1,Sax-Zim Bog--Winterberry Bog,US-MN,16 Feb 2020,L7038583,S64617936,,1
+847,11105,species,American Three-toed Woodpecker,Picoides dorsalis,1,Sax-Zim Bog--Winterberry Bog,US-MN,16 Feb 2020,L7038583,S64617936,,1
+848,31806,species,Evening Grosbeak,Coccothraustes vespertinus,3,Sax-Zim Bog,US-MN,14 Feb 2020,L241872,S64483138,,1
+849,20953,species,Canada Jay,Perisoreus canadensis,2,Sax-Zim Bog,US-MN,14 Feb 2020,L241872,S64483138,,1
+850,9141,species,Great Gray Owl,Strix nebulosa,1,Sax-Zim Bog,US-MN,14 Feb 2020,L241872,S64483138,,1
+851,8898,species,Northern Hawk Owl,Surnia ulula,1,Sax-Zim Bog,US-MN,14 Feb 2020,L241872,S64483138,,1
+852,6498,species,Glaucous Gull,Larus hyperboreus,1,CBBT--South Thimble Island (#1),US-VA,24 Jan 2020,L132236,S63738909,,1
+853,13004,species,Nanday Parakeet,Aratinga nenday,16,The Celery Fields,US-FL,03 Jan 2020,L234146,S62962244,N,1
+856,11017,species,Red-naped Sapsucker,Sphyrapicus nuchalis,1,Tijuana River Valley--Bird & Butterfly Garden (Myers Ranch),US-CA,27 Oct 2019,L418752,S60979254,,1
+858,11020,species,Red-breasted Sapsucker,Sphyrapicus ruber,1,Humber Park,US-CA,26 Oct 2019,L504543,S60957522,,1
+859,27918,species,Townsend's Solitaire,Myadestes townsendi,2,Idyllwild Nature Center,US-CA,26 Oct 2019,L383599,S60957527,,1
+860,11338,species,White-headed Woodpecker,Dryobates albolarvatus,2,Idyllwild Nature Center,US-CA,26 Oct 2019,L383599,S60957527,,1
+868,33910,species,Black-throated Gray Warbler,Setophaga nigrescens,1,"4062 Harney Street, San Diego, California, US (32.754, -117.195)",US-CA,04 Mar 2019,L8760003,S53399892,,1
+869,5199,species,Ridgway's Rail,Rallus obsoletus,2,Tijuana Slough NWR--Visitor Center Area,US-CA,04 Mar 2019,L3239468,S53396344,,1
+870,30801,species,Scaly-breasted Munia,Lonchura punctulata,4,Mission Trails Regional Park--Kumeyaay Lake & campground,US-CA,03 Mar 2019,L229936,S53361232,N,1
+871,1064,species,California Quail,Callipepla californica,1,Mission Trails Regional Park--Kumeyaay Lake & campground,US-CA,03 Mar 2019,L229936,S53361232,,1
+872,26935,species,Canyon Wren,Catherpes mexicanus,2,Mission Trails Regional Park--Visitor Center and loop trails,US-CA,03 Mar 2019,L713257,S53361203,,1
+873,6072,species,Wandering Tattler,Tringa incana,1,Goldfish Point & Coast Walk Trail,US-CA,03 Mar 2019,L3503035,S53361188,,1
+874,17295,species,Thick-billed Kingbird,Tyrannus crassirostris,1,Poggi Creek greenbelt & residential,US-CA,01 Mar 2019,L1096830,S53267516,,1
+875,26888,species,California Gnatcatcher,Polioptila californica,1,Upper Otay Reservoir ,US-CA,01 Mar 2019,L716932,S53267487,,1
+876,33093,species,Rufous-crowned Sparrow,Aimophila ruficeps,2,Lower Otay Reservoir--south arm & boat ramp,US-CA,01 Mar 2019,L716927,S53267455,,1
+877,12788,species,Lilac-crowned Amazon,Amazona finschi,2,"3023 Loma Riviera Drive, San Diego, California, US (32.755, -117.224)",US-CA,28 Feb 2019,L8713398,S53236825,N,1
+879,494,species,Eurasian Wigeon,Mareca penelope,1,San Diego River--estuary (Old Sea World Dr.),US-CA,28 Feb 2019,L757716,S53231942,,1
+881,27899,species,Mountain Bluebird,Sialia currucoides,6,Ramona Grasslands Preserve--Wildflower Loop,US-CA,27 Feb 2019,L1344876,S53201872,,1
+882,26675,species,Pygmy Nuthatch,Sitta pygmaea,2,Cuyamaca Rancho SP--Paso Picacho Campground,US-CA,27 Feb 2019,L672693,S53201856,,1
+883,21853,species,Mountain Chickadee,Poecile gambeli,1,Cuyamaca Rancho SP--Paso Picacho Campground,US-CA,27 Feb 2019,L672693,S53201856,,1
+885,33530,species,Tricolored Blackbird,Agelaius tricolor,2,"8510 Mizpah Lane, Descanso, California, US (32.86, -116.611)",US-CA,27 Feb 2019,L8708584,S53201806,,1
+886,13079,species,Red-masked Parakeet,Psittacara erythrogenys,3,San Diego River mudflats & Robb Field,US-CA,26 Feb 2019,L506275,S53175825,N,1
+887,5662,species,Whooping Crane,Grus americana,30,Aransas Bay--Rockport/Fulton to Aransas NWR by boat,US-TX,17 Nov 2018,L806695,S49998232,,1
+888,6636,species,Gull-billed Tern,Gelochelidon nilotica,2,"Paradise Pointe Drive, Port Aransas, Texas, US (private)",US-TX,16 Nov 2018,L8146173,S49969725,,1
+889,11975,species,Aplomado Falcon,Falco femoralis,2,Cameron Co.--TX100--Aplomado Viewing Area,US-TX,15 Nov 2018,L3322724,S49960517,,1
+892,8377,species,Gray Hawk,Buteo plagiatus,2,Bentsen-Rio Grande Val. SP WBC (Mission) (LTC 069),US-TX,12 Nov 2018,L128890,S49896862,,1
+893,13054,species,Green Parakeet,Psittacara holochlorus,275,McAllen--Parakeet roost (10th Str. N&S of Trenton rd.),US-TX,11 Nov 2018,L1210076,S49870672,N,1
+895,33483,species,Audubon's Oriole,Icterus graduacauda,2,Salineño Wildlife Preserve--DeWind's Yard,US-TX,10 Nov 2018,L287918,S49841644,,1
+896,33404,species,Hooded Oriole,Icterus cucullatus,2,Salineño Wildlife Preserve--DeWind's Yard,US-TX,10 Nov 2018,L287918,S49841644,,1
+897,32684,species,Olive Sparrow,Arremonops rufivirgatus,1,Salineño Wildlife Preserve--DeWind's Yard,US-TX,10 Nov 2018,L287918,S49841644,,1
+898,10197,species,Ringed Kingfisher,Megaceryle torquata,1,Salineño Wildlife Preserve--DeWind's Yard,US-TX,10 Nov 2018,L287918,S49841644,,1
+899,547,species,Mexican Duck,Anas diazi,9,Salineño Wildlife Preserve--DeWind's Yard,US-TX,10 Nov 2018,L287918,S49841644,,1
+901,12825,species,White-fronted Amazon,Amazona albifrons,20,"Oliveira Park, Brownsville",US-TX,09 Nov 2018,L1918641,S49813936,P,1
+902,12787,species,Red-crowned Amazon,Amazona viridigenalis,30,"Oliveira Park, Brownsville",US-TX,09 Nov 2018,L1918641,S49813936,N,1
+903,7265,species,Masked Booby,Sula dactylatra,1,Laguna Madre--Port Isabel Channel & Bay Boat trip,US-TX,09 Nov 2018,L612849,S49819062,,1
+905,7233,species,Magnificent Frigatebird,Fregata magnificens,1,South Padre Is.--WBC/Conv. Center/Laguna Madre Trail (LTC 035),US-TX,09 Nov 2018,L283726,S49819064,,1
+906,239,species,Fulvous Whistling-Duck,Dendrocygna bicolor,1,Estero Llano Grande SP WBC (LTC 054),US-TX,08 Nov 2018,L259855,S49765089,,1
+907,33960,species,Golden-crowned Warbler,Basileuterus culicivorus,1,Frontera Audubon Center (LTC 058),US-TX,08 Nov 2018,L209876,S49762513,,1
+908,28294,species,Clay-colored Thrush,Turdus grayi,2,Frontera Audubon Center (LTC 058),US-TX,08 Nov 2018,L209876,S49762513,,1
+909,33476,species,Altamira Oriole,Icterus gularis,1,Estero Llano Grande SP WBC (LTC 054),US-TX,08 Nov 2018,L259855,S49762529,,1
+910,27798,species,Long-billed Thrasher,Toxostoma longirostre,2,Estero Llano Grande SP WBC (LTC 054),US-TX,08 Nov 2018,L259855,S49762529,,1
+911,6770,species,Least Grebe,Tachybaptus dominicus,2,Estero Llano Grande SP WBC (LTC 054),US-TX,08 Nov 2018,L259855,S49762529,,1
+913,3474,species,Common Pauraque,Nyctidromus albicollis,1,Estero Llano Grande SP WBC (LTC 054),US-TX,08 Nov 2018,L259855,S49762529,,1
+914,828,species,Plain Chachalaca,Ortalis vetula,4,Estero Llano Grande SP WBC (LTC 054),US-TX,08 Nov 2018,L259855,S49762529,,1
+915,33549,species,Bronzed Cowbird,Molothrus aeneus,16,Harlingen Convention Center,US-TX,07 Nov 2018,L816225,S49746883,,1
+917,31611,species,Sprague's Pipit,Anthus spragueii,8,King Ranch--Norias Division (Kenedy Co.),US-TX,07 Nov 2018,L507911,S49770413,,1
+918,17290,species,Couch's Kingbird,Tyrannus couchii,3,King Ranch--Norias Division (Kenedy Co.),US-TX,07 Nov 2018,L507911,S49770413,,1
+919,16388,species,Northern Beardless-Tyrannulet,Camptostoma imberbe,2,King Ranch--Norias Division (Kenedy Co.),US-TX,07 Nov 2018,L507911,S49770413,,1
+920,8936,species,Ferruginous Pygmy-Owl,Glaucidium brasilianum,3,King Ranch--Norias Division (Kenedy Co.),US-TX,07 Nov 2018,L507911,S49770413,,1
+921,8353,species,White-tailed Hawk,Geranoaetus albicaudatus,6,King Ranch--Norias Division (Kenedy Co.),US-TX,07 Nov 2018,L507911,S49770413,,1
+922,21939,species,Black-crested Titmouse,Baeolophus atricristatus,1,Hugh Ramsey Park (Harlingen Arroyo Colorado) WBC (LTC 026),US-TX,06 Nov 2018,L273764,S49726034,,1
+923,21005,species,Green Jay,Cyanocorax yncas,6,Hugh Ramsey Park (Harlingen Arroyo Colorado) WBC (LTC 026),US-TX,06 Nov 2018,L273764,S49726034,,1
+924,17199,species,Great Kiskadee,Pitangus sulphuratus,4,Hugh Ramsey Park (Harlingen Arroyo Colorado) WBC (LTC 026),US-TX,06 Nov 2018,L273764,S49726034,,1
+925,11072,species,Golden-fronted Woodpecker,Melanerpes aurifrons,3,Hugh Ramsey Park (Harlingen Arroyo Colorado) WBC (LTC 026),US-TX,06 Nov 2018,L273764,S49726034,,1
+926,5048,species,Buff-bellied Hummingbird,Amazilia yucatanensis,3,Hugh Ramsey Park (Harlingen Arroyo Colorado) WBC (LTC 026),US-TX,06 Nov 2018,L273764,S49726034,,1
+927,2286,species,White-tipped Dove,Leptotila verreauxi,1,Hugh Ramsey Park (Harlingen Arroyo Colorado) WBC (LTC 026),US-TX,06 Nov 2018,L273764,S49726034,,1
+928,233,species,Black-bellied Whistling-Duck,Dendrocygna autumnalis,2,Hugh Ramsey Park (Harlingen Arroyo Colorado) WBC (LTC 026),US-TX,06 Nov 2018,L273764,S49726034,,1
+929,8349,species,Harris's Hawk,Parabuteo unicinctus,1,"125 Texas 141, Alice, Texas, US (27.551, -98.099)",US-TX,06 Nov 2018,L8112754,S49719803,,1
+930,11847,species,Crested Caracara,Caracara plancus,1,"Farm to Market Road 799, George West, Texas, US (28.353, -98.078)",US-TX,06 Nov 2018,L8112622,S49718807,,1
+931,32714,species,Clay-colored Sparrow,Spizella pallida,1,Albemarle County Community Park,US-VA,28 Oct 2018,L879463,S49526912,,1
+933,17283,species,Tropical Kingbird,Tyrannus melancholicus,2,Entradero Park,US-CA,09 Oct 2018,L3121882,S49089300,,1
+934,7748,species,White-tailed Kite,Elanus leucurus,1,Ballona Freshwater Marsh,US-CA,08 Oct 2018,L160935,S49066609,,1
+935,5880,species,Snowy Plover,Anarhynchus nivosus,20,Malibu Lagoon--State Beach including Lagoon,US-CA,08 Oct 2018,L597658,S49066621,,1
+936,6158,species,White-rumped Sandpiper,Calidris fuscicollis,4,Rankin Bottoms,US-TN,20 Sep 2018,L281763,S48639647,,1
+937,21085,species,Woodhouse's Scrub-Jay,Aphelocoma woodhouseii,5,Kays Creek Trail,US-UT,10 Sep 2018,L190705,S48415192,,1
+938,8408,species,Swainson's Hawk,Buteo swainsoni,2,Bird Refuge Rd.,US-UT,09 Sep 2018,L770872,S48401991,,1
+939,7383,species,White-faced Ibis,Plegadis chihi,2,Bird Refuge Rd.,US-UT,09 Sep 2018,L770872,S48401991,,1
+940,33916,species,Townsend's Warbler,Setophaga townsendi,2,Antelope Island SP--Garr Ranch,US-UT,09 Sep 2018,L212071,S48401905,,1
+941,33728,species,MacGillivray's Warbler,Geothlypis tolmiei,1,Antelope Island SP--Garr Ranch,US-UT,09 Sep 2018,L212071,S48401905,,1
+942,12019,species,Prairie Falcon,Falco mexicanus,1,"Antelope Island Road, Syracuse, Utah, US (40.997, -112.198)",US-UT,09 Sep 2018,L7910898,S48401882,,1
+943,34316,species,Lazuli Bunting,Passerina amoena,2,Antelope Island SP--Garr Ranch,US-UT,08 Sep 2018,L212071,S48378995,,1
+944,1444,species,Ring-necked Pheasant,Phasianus colchicus,3,Antelope Island SP--Garr Ranch,US-UT,08 Sep 2018,L212071,S48378995,N,1
+945,32725,species,Brewer's Sparrow,Spizella breweri,3,Antelope Island SP--Buffalo Point,US-UT,08 Sep 2018,L5518420,S48368948,,1
+946,27827,species,Sage Thrasher,Oreoscoptes montanus,2,Antelope Island SP--Buffalo Point,US-UT,08 Sep 2018,L5518420,S48368948,,1
+948,6812,species,Clark's Grebe,Aechmophorus clarkii,10,Antelope Island SP--Buffalo Point,US-UT,08 Sep 2018,L5518420,S48368948,,1
+949,1729,species,Chukar,Alectoris chukar,2,Antelope Island SP--Buffalo Point,US-UT,08 Sep 2018,L5518420,S48368948,N,1
+950,9032,species,Burrowing Owl,Athene cunicularia,6,"Antelope Island Road, Syracuse, Utah, US (41.053, -112.244)",US-UT,07 Sep 2018,L7904667,S48361233,,1
+951,33287,species,Western Meadowlark,Sturnella neglecta,1,Antelope Island SP--Garr Ranch,US-UT,07 Sep 2018,L212071,S48361280,,1
+952,21252,species,Black-billed Magpie,Pica hudsonia,4,Antelope Island SP--Visitor Center & Loop Rd.,US-UT,07 Sep 2018,L1210098,S48361302,,1
+953,19024,species,Cassin's Vireo,Vireo cassinii,1,Antelope Island SP--Garr Ranch,US-UT,07 Sep 2018,L212071,S48361357,,1
+954,16808,species,Western Flycatcher,Empidonax difficilis,1,Antelope Island SP--Garr Ranch,US-UT,07 Sep 2018,L212071,S48361357,,1
+955,16799,species,Dusky Flycatcher,Empidonax oberholseri,1,Antelope Island SP--Garr Ranch,US-UT,07 Sep 2018,L212071,S48361357,,1
+956,16798,species,Gray Flycatcher,Empidonax wrightii,2,Antelope Island SP--Garr Ranch,US-UT,07 Sep 2018,L212071,S48361357,,1
+957,16745,species,Western Wood-Pewee,Contopus sordidulus,1,Antelope Island SP--Garr Ranch,US-UT,07 Sep 2018,L212071,S48361357,,1
+959,6428,species,Franklin's Gull,Leucophaeus pipixcan,100,Antelope Island SP--Causeway,US-UT,07 Sep 2018,L151122,S48361343,,1
+960,7826,species,Swallow-tailed Kite,Elanoides forficatus,1,"1001 Rustling Oaks Drive, Charlottesville, Virginia, US (38.084, -78.543)",US-VA,06 Sep 2018,L7899764,S48330926,,1
+963,6121,species,Stilt Sandpiper,Calidris himantopus,1,Ottawa NWR--Wildlife Drive (Ottawa Co.),US-OH,13 May 2018,L913533,S45640773,,1
+964,5713,species,Black-necked Stilt,Himantopus mexicanus,2,Ottawa NWR--Wildlife Drive (Ottawa Co.),US-OH,11 May 2018,L913533,S45555560,,1
+965,32990,species,Henslow's Sparrow,Centronyx henslowii,1,Oak Openings--Girdham Rd. @ Reed Rd.,US-OH,11 May 2018,L2185875,S45548813,,1
+967,3541,species,Chuck-will's-widow,Antrostomus carolinensis,1,Secretarys Road,US-VA,05 May 2018,L5693271,S45327848,,1
+970,702,species,Harlequin Duck,Histrionicus histrionicus,4,Silver Point,US-OR,05 Apr 2018,L985991,S44276545,,1
+971,6313,species,Tufted Puffin,Fratercula cirrhata,2,Haystack Rock,US-OR,05 Apr 2018,L548476,S44276529,,1
+972,6359,species,Common Murre,Uria aalge,6,Tillamook Bay--Barview Jetty,US-OR,04 Apr 2018,L286501,S44258025,,1
+973,25194,species,Wrentit,Chamaea fasciata,3,Bayocean Spit--bay (east) side,US-OR,04 Apr 2018,L285627,S44254567,,1
+974,6526,species,Glaucous-winged Gull,Larus glaucescens,10,Nehalem Sewage Ponds,US-OR,03 Apr 2018,L814926,S44229241,,1
+976,27427,species,American Dipper,Cinclus mexicanus,1,N. Fork Nehalem Fish Hatchery,US-OR,03 Apr 2018,L3830886,S44233401,,1
+977,7307,species,Pelagic Cormorant,Urile pelagicus,4,Cape Meares SP--Lighthouse,US-OR,03 Apr 2018,L763526,S44225323,,1
+978,6339,species,Pigeon Guillemot,Cepphus columba,100,Cape Meares SP--Lighthouse,US-OR,03 Apr 2018,L763526,S44225323,,1
+979,6453,species,Short-billed Gull,Larus brachyrhynchus,10,"5390 Netarts Oceanside Highway West, Tillamook, Oregon, US (45.456, -123.967)",US-OR,03 Apr 2018,L7166533,S44225356,,1
+980,21870,species,Chestnut-backed Chickadee,Poecile rufescens,1,Mt. Tabor Park,US-OR,02 Apr 2018,L447381,S44189934,,1
+981,23844,species,Violet-green Swallow,Tachycineta thalassina,50,Oaks Bottom Wildlife Refuge,US-OR,01 Apr 2018,L453974,S44171732,,1
+982,28003,species,Varied Thrush,Ixoreus naevius,1,Bird Alliance of Oregon Sanctuary (formerly Portland Audubon),US-OR,01 Apr 2018,L285943,S44156320,,1
+983,21046,species,Steller's Jay,Cyanocitta stelleri,3,Bird Alliance of Oregon Sanctuary (formerly Portland Audubon),US-OR,01 Apr 2018,L285943,S44156320,,1
+984,27038,species,Pacific Wren,Troglodytes pacificus,2,"3173-3199 Northwest Cornell Road, Portland, Oregon, US (45.532, -122.716)",US-OR,31 Mar 2018,L7151839,S44138424,,1
+985,5458,species,Purple Gallinule,Porphyrio martinica,10,Orlando Wetlands Park,US-FL,08 Feb 2018,L452007,S42601477,,1
+986,5215,species,King Rail,Rallus elegans,1,"""Viera"" Ritch Grissom Memorial Wetlands",US-FL,06 Feb 2018,L376186,S42552793,,1
+987,5614,species,Limpkin,Aramus guarauna,2,"""Viera"" Ritch Grissom Memorial Wetlands",US-FL,05 Feb 2018,L376186,S42525869,,1
+988,21073,species,Florida Scrub-Jay,Aphelocoma coerulescens,6,Merritt Island NWR--Scrub Trail,US-FL,05 Feb 2018,L619944,S42517920,,1
+989,6790,species,Red-necked Grebe,Podiceps grisegena,1,"Irondequoit Bay outlet: pier, beach and boat ramp",US-NY,14 Jan 2018,L131149,S41901959,,1
+990,8810,species,Snowy Owl,Bubo scandiacus,1,Braddock Bay--North Marina,US-NY,12 Jan 2018,L389569,S41842858,,1
+992,27062,species,Sedge Wren,Cistothorus stellaris,1,Chincoteague NWR--Service Road,US-VA,19 Nov 2017,L1153462,S40606650,,1
+994,32392,species,Snow Bunting,Plectrophenax nivalis,3,Kiptopeke SP--Fishing Pier,US-VA,17 Nov 2017,L1133976,S40554724,,1
+998,7969,species,Golden Eagle,Aquila chrysaetos,1,Rockfish Gap Hawk Watch,US-VA,08 Sep 2017,L391,S39072106,,1
+999,705,species,White-winged Scoter,Melanitta deglandi,5,Lucy Vincent Beach,US-MA,27 Jul 2017,L1493549,S38351272,,1
+1002,12701,species,Monk Parakeet,Myiopsitta monachus,5,US-Illinois-Lombard-Great Western Trail - 41.894x-88.047,US-IL,12 Jul 2017,L6081050,S38106101,N,1
+1003,7478,species,Least Bittern,Botaurus exilis,1,Montezuma NWR--Wildlife Drive,US-NY,18 Jun 2017,L267814,S37668694,,1
+1004,6651,species,Black Tern,Chlidonias niger,3,Montezuma NWR--Wildlife Drive,US-NY,18 Jun 2017,L267814,S37668694,,1
+1005,33687,species,Swainson's Warbler,Limnothlypis swainsonii,1,Washington Ditch Road,US-VA,27 May 2017,L5905042,S37246676,,1
+1006,11313,species,Red-cockaded Woodpecker,Dryobates borealis,3,"8833–9261 Beaver Dam Rd, Waverly US-VA (36.9800,-77.0943)",US-VA,27 May 2017,L5890802,S37244439,,1
+1009,17156,species,Ash-throated Flycatcher,Myiarchus cinerascens,2,Sweetwater Wetlands,US-AZ,04 Mar 2017,L208918,S34966681,,1
+1010,5240,species,Virginia Rail,Rallus limicola,1,Sweetwater Wetlands,US-AZ,04 Mar 2017,L208918,S34966681,,1
+1011,11799,species,Gilded Flicker,Colaptes chrysoides,1,US-Arizona-Tucson-8600-9410 West Snyder Hill Road - 32.16x-111.126,US-AZ,04 Mar 2017,L5537979,S34954760,,1
+1012,4986,species,Violet-crowned Hummingbird,Ramosomyia violiceps,1,Paton Center for Hummingbirds (Patons' Yard),US-AZ,02 Mar 2017,L247122,S34920739,,1
+1013,2205,species,Inca Dove,Columbina inca,4,Paton Center for Hummingbirds (Patons' Yard),US-AZ,02 Mar 2017,L247122,S34920739,,1
+1014,10212,species,Green Kingfisher,Chloroceryle americana,1,Patagonia Lake SP--Birding Trail,US-AZ,02 Mar 2017,L2064166,S34917976,,1
+1017,21350,species,Chihuahuan Raven,Corvus cryptoleucus,4,Quail Creek Veterans Municipal Park,US-AZ,01 Mar 2017,L1327826,S34925934,,1
+1018,4668,species,Rivoli's Hummingbird,Eugenes fulgens,1,Madera Canyon--Madera Kubo B&B,US-AZ,01 Mar 2017,L296632,S34925939,,1
+1019,4810,species,Broad-billed Hummingbird,Cynanthus latirostris,3,Madera Canyon--Santa Rita Lodge,US-AZ,01 Mar 2017,L268114,S34925941,,1
+1020,19005,species,Hutton's Vireo,Vireo huttoni,1,Madera Canyon--Proctor Rd.,US-AZ,01 Mar 2017,L211809,S34925943,,1
+1021,34066,species,Painted Redstart,Myioborus pictus,1,Florida Canyon--lower,US-AZ,01 Mar 2017,L720787,S34925946,,1
+1022,32716,species,Black-chinned Sparrow,Spizella atrogularis,1,Florida Canyon--lower,US-AZ,01 Mar 2017,L720787,S34925946,,1
+1023,26892,species,Black-capped Gnatcatcher,Polioptila nigriceps,1,Florida Canyon--lower,US-AZ,01 Mar 2017,L720787,S34925946,,1
+1024,21921,species,Bridled Titmouse,Baeolophus wollweberi,14,Florida Canyon--lower,US-AZ,01 Mar 2017,L720787,S34925946,,1
+1025,21097,species,Mexican Jay,Aphelocoma wollweberi,12,Florida Canyon--lower,US-AZ,01 Mar 2017,L720787,S34925946,,1
+1026,16797,species,Hammond's Flycatcher,Empidonax hammondii,1,Florida Canyon--lower,US-AZ,01 Mar 2017,L720787,S34925946,,1
+1027,11349,species,Arizona Woodpecker,Dryobates arizonae,2,Florida Canyon--lower,US-AZ,01 Mar 2017,L720787,S34925946,,1
+1028,11299,species,Ladder-backed Woodpecker,Dryobates scalaris,2,Florida Canyon--lower,US-AZ,01 Mar 2017,L720787,S34925946,,1
+1029,33107,species,Green-tailed Towhee,Pipilo chlorurus,2,Florida Wash--FR 488,US-AZ,01 Mar 2017,L3051855,S34925948,,1
+1030,33048,species,Canyon Towhee,Melozone fusca,1,Florida Wash--FR 488,US-AZ,01 Mar 2017,L3051855,S34925948,,1
+1031,34244,species,Pyrrhuloxia,Cardinalis sinuatus,1,Continental Wash,US-AZ,01 Mar 2017,L290800,S34925949,,1
+1032,32628,species,Rufous-winged Sparrow,Peucaea carpalis,2,Continental Wash,US-AZ,01 Mar 2017,L290800,S34925949,,1
+1033,27782,species,Curve-billed Thrasher,Toxostoma curvirostre,1,Continental Wash,US-AZ,01 Mar 2017,L290800,S34925949,,1
+1034,27171,species,Cactus Wren,Campylorhynchus brunneicapillus,2,Continental Wash,US-AZ,01 Mar 2017,L290800,S34925949,,1
+1035,7349,species,Neotropic Cormorant,Nannopterum brasilianum,6,Sahuarita Lake,US-AZ,28 Feb 2017,L854962,S34876822,,1
+1036,16862,species,Vermilion Flycatcher,Pyrocephalus rubinus,3,Sahuarita--North Santa Cruz Park,US-AZ,28 Feb 2017,L2438871,S34876181,,1
+1037,33285,species,Yellow-headed Blackbird,Xanthocephalus xanthocephalus,1,road between coranado and lunch,US-AZ,28 Feb 2017,L5526384,S34879708,,1
+1038,11066,species,Gila Woodpecker,Melanerpes uropygialis,2,road between coranado and lunch,US-AZ,28 Feb 2017,L5526384,S34879708,,1
+1039,32866,species,Yellow-eyed Junco,Junco phaeonotus,20,"Mt. Lemmon--Bear Canyon (Cypress, Middle Bear, Chihuahua Pine Picnic Areas)",US-AZ,28 Feb 2017,L128888,S34879445,,1
+1040,30421,species,Olive Warbler,Peucedramus taeniatus,1,"Mt. Lemmon--Bear Canyon (Cypress, Middle Bear, Chihuahua Pine Picnic Areas)",US-AZ,28 Feb 2017,L128888,S34879445,,1
+1041,11036,species,Acorn Woodpecker,Melanerpes formicivorus,2,"Mt. Lemmon--Bear Canyon (Cypress, Middle Bear, Chihuahua Pine Picnic Areas)",US-AZ,28 Feb 2017,L128888,S34879445,,1
+1042,26901,species,Rock Wren,Salpinctes obsoletus,1,Mt. Lemmon--Molino Basin,US-AZ,28 Feb 2017,L129033,S34991922,,1
+1043,32736,species,Black-throated Sparrow,Amphispiza bilineata,3,Mt. Lemmon--Molino Canyon Vista,US-AZ,28 Feb 2017,L836152,S34879259,,1
+1045,7313,species,Great Cormorant,Phalacrocorax carbo,6,Chesapeake Bay Bridge-Tunnel (Northampton Co.),US-VA,04 Feb 2017,L718370,S34210902,,1
+1046,6145,species,Purple Sandpiper,Calidris maritima,4,Chesapeake Bay Bridge-Tunnel (Northampton Co.),US-VA,04 Feb 2017,L718370,S34210902,,1
+1047,716,species,Long-tailed Duck,Clangula hyemalis,35,Chesapeake Bay Bridge-Tunnel (Northampton Co.),US-VA,04 Feb 2017,L718370,S34210902,,1
+1049,302,species,Brant,Branta bernicla,2,Chesapeake Bay Bridge-Tunnel (Northampton Co.),US-VA,04 Feb 2017,L718370,S34210902,,1
+1050,6351,species,Dovekie,Alle alle,1,Little Island Park,US-VA,04 Feb 2017,L718573,S34144158,,1
+1051,6347,species,Razorbill,Alca torda,50,Little Island Park,US-VA,04 Feb 2017,L718573,S34144158,,1
+1052,405,species,Egyptian Goose,Alopochen aegyptiaca,2,Sepulveda Basin--East of Woodley Ave,US-CA,01 Feb 2017,L194688,S34088453,P,1
+1053,9174,species,Short-eared Owl,Asio flammeus,5,Green Springs Historic District--East Jack Jouett Road,US-VA,28 Dec 2016,L1355816,S33256913,,1
+1054,372,species,Tundra Swan,Cygnus columbianus,1,Lickinghole Creek,US-VA,21 Dec 2016,L1397102,S33132002,,1
+1057,20872,species,Northern Shrike,Lanius borealis,1,Sully Woodlands,US-VA,02 Nov 2016,L552673,S32339160,,1
+1059,7251,species,Northern Gannet,Morus bassanus,10,Boat between Monhegan to Boothbay Harbor,US-ME,02 Oct 2016,L4963418,S31858353,,1
+1060,6331,species,Black Guillemot,Cepphus grylle,3,Boat between Monhegan to Boothbay Harbor,US-ME,02 Oct 2016,L4963418,S31858353,,1
+1061,6848,species,Red-throated Loon,Gavia stellata,1,Fort Popham & Kennebec River,US-ME,01 Oct 2016,L480187,S31845383,,1
+1062,7382,species,Glossy Ibis,Plegadis falcinellus,4,Chincoteague NWR--Wildlife Loop,US-VA,17 Sep 2016,L660064,S31628953,,1
+1064,6126,species,Buff-breasted Sandpiper,Calidris subruficollis,2,Chincoteague NWR--Service Road,US-VA,17 Sep 2016,L1153462,S31620565,,1
+1065,5951,species,Whimbrel,Numenius phaeopus,1,Chincoteague NWR--Service Road,US-VA,17 Sep 2016,L1153462,S31620565,,1
+1066,5758,species,American Golden-Plover,Pluvialis dominica,1,Chincoteague NWR--Service Road,US-VA,17 Sep 2016,L1153462,S31620565,,1
+1069,32935,species,Vesper Sparrow,Pooecetes gramineus,1,Chilmark,US-MA,29 Jul 2016,L3836613,S30891283,,1
+1070,712,species,Black Scoter,Melanitta americana,10,Lucy Vincent Beach,US-MA,26 Jul 2016,L1493549,S30861470,,1
+1071,33729,species,Mourning Warbler,Geothlypis philadelphia,1,Maumee Bay SP--East End,US-OH,15 May 2016,L2842384,S29686313,,1
+1072,33679,species,Golden-winged Warbler,Vermivora chrysoptera,1,Maumee Bay SP--East End,US-OH,15 May 2016,L2842384,S29686313,,1
+1074,19044,species,Philadelphia Vireo,Vireo philadelphicus,1,Pipe Creek Wildlife Area,US-OH,15 May 2016,L248904,S29765570,,1
+1075,16785,species,Willow Flycatcher,Empidonax traillii,1,Pipe Creek Wildlife Area,US-OH,15 May 2016,L248904,S29765570,,1
+1076,7473,species,American Bittern,Botaurus lentiginosus,1,Mallard Club Marsh Wildlife Area,US-OH,14 May 2016,L285821,S29641192,,1
+1077,6120,species,Curlew Sandpiper,Calidris ferruginea,1,Sandhill Crane Wetlands,US-OH,13 May 2016,L4400936,S29614166,,1
+1078,6057,species,Wilson's Phalarope,Phalaropus tricolor,1,Sandhill Crane Wetlands,US-OH,13 May 2016,L4400936,S29614166,,1
+1079,370,species,Trumpeter Swan,Cygnus buccinator,2,Ottawa NWR--Crane Creek Estuary (Ottawa Co.),US-OH,13 May 2016,L691061,S29609168,,1
+1080,16782,species,Yellow-bellied Flycatcher,Empidonax flaviventris,1,Magee Marsh--Boardwalk,US-OH,13 May 2016,L275986,S29609166,,1
+1081,33804,species,Bay-breasted Warbler,Setophaga castanea,3,Magee Marsh--Boardwalk,US-OH,12 May 2016,L275986,S29597141,,1
+1082,33780,species,Kirtland's Warbler,Setophaga kirtlandii,1,Magee Marsh--Boardwalk,US-OH,12 May 2016,L275986,S29597141,,1
+1083,33695,species,Tennessee Warbler,Leiothlypis peregrina,2,Magee Marsh--Boardwalk,US-OH,12 May 2016,L275986,S29597141,,1
+1084,33676,species,Northern Waterthrush,Parkesia noveboracensis,1,Magee Marsh--Boardwalk,US-OH,12 May 2016,L275986,S29597141,,1
+1085,28066,species,Gray-cheeked Thrush,Catharus minimus,1,Magee Marsh--Boardwalk,US-OH,12 May 2016,L275986,S29597141,,1
+1086,3193,species,Black-billed Cuckoo,Coccyzus erythropthalmus,1,Magee Marsh--Boardwalk,US-OH,12 May 2016,L275986,S29597141,,1
+1088,33782,species,Cerulean Warbler,Setophaga cerulea,6,Heards,US-VA,07 May 2016,L1163145,S29458001,,1
+1089,33281,species,Yellow-breasted Chat,Icteria virens,1,Heards,US-VA,07 May 2016,L1163145,S29458001,,1
+1090,28072,species,Swainson's Thrush,Catharus ustulatus,2,Saunders-Monticello Trail,US-VA,06 May 2016,L718608,S29438851,,1
+1092,22484,species,Horned Lark,Eremophila alpestris,3,Greenfield Farm Entrance,US-VA,30 Apr 2016,L1167652,S29304478,,1
+1093,3561,species,Eastern Whip-poor-will,Antrostomus vociferus,1,Greenfield Farm Entrance,US-VA,30 Apr 2016,L1167652,S29304478,,1
+1094,19021,species,Yellow-throated Vireo,Vireo flavifrons,1,Race Road,US-MD,27 Apr 2016,L500729,S29239744,,1
+1095,33734,species,Kentucky Warbler,Geothlypis formosa,1,James River Rd Scottsville to Howardsville,US-VA,24 Apr 2016,L3608017,S29170667,,1
+1096,8383,species,Broad-winged Hawk,Buteo platypterus,1,Observatory Mountain,US-VA,22 Apr 2016,L159364,S29117529,,1
+1098,33571,species,Rusty Blackbird,Euphagus carolinus,4,Lickinghole Creek,US-VA,03 Apr 2016,L1397102,S28717600,,1
+1099,6042,species,Wilson's Snipe,Gallinago delicata,12,Bellair Farm (restricted access),US-VA,12 Mar 2016,L4575739,S28116442,,1
+1102,5997,species,Short-billed Dowitcher,Limnodromus griseus,1,J. N. Ding Darling NWR (please consider using a more precise location),US-FL,25 Feb 2016,L127397,S27819417,,1
+1103,6104,species,Red Knot,Calidris canutus,2,US-Florida-Sanibel-3287 W Gulf Dr - 26.426x-82.101,US-FL,24 Feb 2016,L4297190,S27800421,,1
+1104,6701,species,Sandwich Tern,Thalasseus sandvicensis,5,US-Florida-Sanibel-3287 W Gulf Dr - 26.426x-82.101,US-FL,23 Feb 2016,L4297190,S27781889,,1
+1105,8770,species,Eastern Screech-Owl,Megascops asio,1,J. N. Ding Darling NWR (please consider using a more precise location),US-FL,23 Feb 2016,L127397,S27778920,,1
+1106,7504,species,Yellow-crowned Night Heron,Nyctanassa violacea,4,J. N. Ding Darling NWR (please consider using a more precise location),US-FL,22 Feb 2016,L127397,S27800307,,1
+1107,7446,species,Roseate Spoonbill,Platalea ajaja,10,J. N. Ding Darling NWR (please consider using a more precise location),US-FL,22 Feb 2016,L127397,S27800307,,1
+1108,2206,species,Common Ground Dove,Columbina passerina,2,J. N. Ding Darling NWR (please consider using a more precise location),US-FL,22 Feb 2016,L127397,S27800307,,1
+1109,554,species,Mottled Duck,Anas fulvigula,6,J. N. Ding Darling NWR (please consider using a more precise location),US-FL,22 Feb 2016,L127397,S27800307,,1
+1110,6508,species,Lesser Black-backed Gull,Larus fuscus,3,US-Florida-Sanibel-3287 W Gulf Dr - 26.426x-82.101,US-FL,21 Feb 2016,L4297190,S27737577,,1
+1111,7547,species,Reddish Egret,Egretta rufescens,2,J. N. Ding Darling NWR (please consider using a more precise location),US-FL,21 Feb 2016,L127397,S27735735,,1
+1112,431,species,Muscovy Duck,Cairina moschata,1,Walmart Parking Lot,US-FL,21 Feb 2016,L4312850,S27832336,N,1
+1113,21926,species,Oak Titmouse,Baeolophus inornatus,3,"34.096x-118.586 - Jan 27, 2016 2:45 PM",US-CA,27 Jan 2016,L4200085,S27186291,,1
+1114,11297,species,Nuttall's Woodpecker,Dryobates nuttallii,1,Serrania Avenue Park,US-CA,26 Jan 2016,L439236,S27133687,,1
+1115,1929,species,Band-tailed Pigeon,Patagioenas fasciata,2,Serrania Avenue Park,US-CA,26 Jan 2016,L439236,S27133687,,1
+1116,26683,species,Brown-headed Nuthatch,Sitta pusilla,1,Falls Lake--Cheek Road Causeway (Durham Co.),US-NC,16 Jan 2016,L998120,S26923657,,1
+1117,5643,species,Sandhill Crane,Antigone canadensis,2,Green Springs Historic District--East Jack Jouett Road,US-VA,09 Jan 2016,L1355816,S26793078,,1
+1118,7258,species,Brown Booby,Sula leucogaster,1,"stakeout Brown Booby, Baltimore Harbor (2015, 2017, 2020)",US-MD,07 Nov 2015,L3919366,S25731862,,1
+1119,17318,species,Scissor-tailed Flycatcher,Tyrannus forficatus,10,"Faulkner Park, Tyler",US-TX,09 Oct 2015,L3451525,S25379425,,1
+1120,34337,species,Dickcissel,Spiza americana,1,Road to Lake Tawakoni,US-TX,08 Oct 2015,L3951655,S25373973,,1
+1121,33781,species,Cape May Warbler,Setophaga tigrina,2,Ivy Creek Natural Area,US-VA,01 Oct 2015,L159326,S25251127,,1
+1122,33704,species,Nashville Warbler,Leiothlypis ruficapilla,1,Ivy Creek Natural Area,US-VA,30 Sep 2015,L159326,S25240000,,1
+1124,19045,species,Warbling Vireo,Vireo gilvus,1,Stony Point Pass,US-VA,07 Sep 2015,L3892567,S24935450,,1
+1125,3439,species,Common Nighthawk,Chordeiles minor,19,Rockfish Gap Hawk Watch,US-VA,05 Sep 2015,L391,S24904398,,1
+1126,34055,species,Wilson's Warbler,Cardellina pusilla,1,Santa Fe Dam Rec. Area,US-CA,03 Sep 2015,L459816,S24879584,,1
+1127,17298,species,Western Kingbird,Tyrannus verticalis,2,Santa Fe Dam Rec. Area,US-CA,03 Sep 2015,L459816,S24879584,,1
+1128,27891,species,Western Bluebird,Sialia mexicana,1,Sepulveda Basin--East of Woodley Ave,US-CA,02 Sep 2015,L194688,S24859810,,1
+1129,17292,species,Cassin's Kingbird,Tyrannus vociferans,1,Sepulveda Basin--East of Woodley Ave,US-CA,02 Sep 2015,L194688,S24859810,,1
+1130,4748,species,Black-chinned Hummingbird,Archilochus alexandri,1,Sepulveda Basin--East of Woodley Ave,US-CA,02 Sep 2015,L194688,S24859810,,1
+1132,33068,species,California Towhee,Melozone crissalis,4,Sepulveda Basin--East of Woodley Ave,US-CA,01 Sep 2015,L194688,S24855074,,1
+1133,25018,species,Bushtit,Psaltriparus minimus,3,Sepulveda Basin--East of Woodley Ave,US-CA,01 Sep 2015,L194688,S24855074,,1
+1135,34148,species,Western Tanager,Piranga ludoviciana,1,Sand Dune Park,US-CA,01 Sep 2015,L152141,S24848071,,1
+1136,32330,species,Lesser Goldfinch,Spinus psaltria,2,Sand Dune Park,US-CA,01 Sep 2015,L152141,S24848071,,1
+1137,33680,species,Blue-winged Warbler,Vermivora cyanoptera,2,Ivy Creek Natural Area,US-VA,31 Aug 2015,L159326,S24834795,,1
+1138,6067,species,Solitary Sandpiper,Tringa solitaria,3,Ivy Creek Natural Area,US-VA,23 Aug 2015,L159326,S24729548,,1
+1139,5779,species,Piping Plover,Charadrius melodus,2,Lucy Vincent Beach,US-MA,15 Aug 2015,L1493549,S24629910,,1
+1140,6168,species,Semipalmated Sandpiper,Calidris pusilla,2,Menemsha Pond,US-MA,13 Aug 2015,L2399631,S24604861,,1
+1141,32956,species,Saltmarsh Sparrow,Ammospiza caudacuta,2,Chilmark,US-MA,13 Aug 2015,L3836613,S24604906,,1
+1144,690,species,Common Eider,Somateria mollissima,5,Shining Sea Bike Path,US-MA,06 Aug 2015,L1777804,S24517131,,1
+1145,7631,species,Western Cattle-Egret,Ardea ibis,1,"Severna Park, 51 West Earleigh Heights Road",US-MD,28 Jun 2015,L3755346,S24077814,,1
+1146,32661,species,Grasshopper Sparrow,Ammodramus savannarum,2,Canaan Valley NWR--Timberline Rd.,US-WV,07 Jun 2015,L1133110,S23821462,,1
+1147,26942,species,Northern House Wren,Troglodytes aedon,1,Canaan Valley NWR--Timberline Rd.,US-WV,07 Jun 2015,L1133110,S23821462,,1
+1148,8228,species,Northern Harrier,Circus hudsonius,1,Camp 70 North Trails,US-WV,06 Jun 2015,L3704720,S23821273,,1
+1149,1251,species,Ruffed Grouse,Bonasa umbellus,1,Camp 70 North Trails,US-WV,06 Jun 2015,L3704720,S23821273,,1
+1150,33286,species,Bobolink,Dolichonyx oryzivorus,,Canaan Valley NWR--Freeland Rd. Tract,US-WV,05 Jun 2015,L144527,S23820958,,1
+1151,16784,species,Alder Flycatcher,Empidonax alnorum,1,Canaan Valley NWR--Freeland Rd. Tract,US-WV,05 Jun 2015,L144527,S23820958,,1
+1152,21841,species,Black-capped Chickadee,Poecile atricapillus,1,Dolly Sods Rohrbaugh Trail,US-WV,05 Jun 2015,L3704663,S23820738,,1
+1153,26688,species,Red-breasted Nuthatch,Sitta canadensis,1,Canaan Valley SP--Abe Run Trail,US-WV,04 Jun 2015,L144534,S23820581,,1
+1154,33856,species,Black-throated Blue Warbler,Setophaga caerulescens,3,Seneca Rocks--Seneca Rocks Trail,US-WV,04 Jun 2015,L2209711,S23820472,,1
+1155,33673,species,Worm-eating Warbler,Helmitheros vermivorum,1,Seneca Rocks--Seneca Rocks Trail,US-WV,04 Jun 2015,L2209711,S23820472,,1
+1156,33669,species,Ovenbird,Seiurus aurocapilla,1,Ragged Mountain Natural Area,US-VA,24 May 2015,L422642,S23611279,,1
+1158,16783,species,Acadian Flycatcher,Empidonax virescens,1,James River Rd Scottsville to Howardsville,US-VA,22 May 2015,L3608017,S23582706,,1
+1159,3188,species,Yellow-billed Cuckoo,Coccyzus americanus,2,James River Rd Scottsville to Howardsville,US-VA,22 May 2015,L3608017,S23582706,,1
+1160,999,species,Northern Bobwhite,Colinus virginianus,1,James River Rd Scottsville to Howardsville,US-VA,22 May 2015,L3608017,S23582706,,1
+1161,33853,species,Blackpoll Warbler,Setophaga striata,1,Shenandoah NP--Skyline Drive MM 58.5,US-VA,16 May 2015,L1536583,S23477503,,1
+1162,34054,species,Canada Warbler,Cardellina canadensis,2,Shenandoah NP--Pocosin Cabin,US-VA,16 May 2015,L757322,S23481099,,1
+1163,33800,species,Magnolia Warbler,Setophaga magnolia,2,Shenandoah NP--Pocosin Cabin,US-VA,16 May 2015,L757322,S23481099,,1
+1164,28095,species,Wood Thrush,Hylocichla mustelina,3,Shenandoah NP--Pocosin Cabin,US-VA,16 May 2015,L757322,S23481099,,1
+1165,28061,species,Veery,Catharus fuscescens,1,Shenandoah NP--Pocosin Cabin,US-VA,16 May 2015,L757322,S23481099,,1
+1166,34141,species,Summer Tanager,Piranga rubra,2,Calvert Cliffs State Park,US-MD,06 May 2015,L285147,S23277471,,1
+1167,33778,species,Hooded Warbler,Setophaga citrina,1,Calvert Cliffs State Park,US-MD,06 May 2015,L285147,S23277471,,1
+1168,33849,species,Chestnut-sided Warbler,Setophaga pensylvanica,1,Observatory Mountain,US-VA,04 May 2015,L159364,S23220383,,1
+1169,33779,species,American Redstart,Setophaga ruticilla,2,Observatory Mountain,US-VA,04 May 2015,L159364,S23220383,,1
+1170,19027,species,Blue-headed Vireo,Vireo solitarius,1,Observatory Mountain,US-VA,04 May 2015,L159364,S23220383,,1
+1171,17165,species,Great Crested Flycatcher,Myiarchus crinitus,1,Observatory Mountain,US-VA,04 May 2015,L159364,S23220383,,1
+1173,33784,species,Northern Parula,Setophaga americana,2,Bridlepath Drive,US-VA,03 May 2015,L3300165,S23202331,,1
+1174,23821,species,Bank Swallow,Riparia riparia,1,Bridlepath Drive,US-VA,03 May 2015,L3300165,S23202331,,1
+1175,9117,species,Barred Owl,Strix varia,1,Bridlepath Drive,US-VA,03 May 2015,L3300165,S23202331,,1
+1177,33805,species,Blackburnian Warbler,Setophaga fusca,2,James River Rd Scottsville to Howardsville,US-VA,02 May 2015,L3608017,S23186734,,1
+1178,33401,species,Orchard Oriole,Icterus spurius,2,James River Rd Scottsville to Howardsville,US-VA,02 May 2015,L3608017,S23186734,,1
+1179,34317,species,Indigo Bunting,Passerina cyanea,1,Bridlepath Yard,US-VA,02 May 2015,L4032849,S23186782,,1
+1180,16796,species,Least Flycatcher,Empidonax minimus,2,Observatory Mountain,US-VA,26 Apr 2015,L159364,S23186440,,1
+1181,34266,species,Rose-breasted Grosbeak,Pheucticus ludovicianus,1,Warren Ferry (Albemarle Co.),US-VA,25 Apr 2015,L1508121,S23049885,,1
+1182,23851,species,Purple Martin,Progne subis,3,Warren Ferry (Albemarle Co.),US-VA,25 Apr 2015,L1508121,S23049885,,1
+1183,34145,species,Scarlet Tanager,Piranga olivacea,2,Pine Knot Cabin,US-VA,25 Apr 2015,L3589424,S23050350,,1
+1184,19067,species,Red-eyed Vireo,Vireo olivaceus,2,Pine Knot Cabin,US-VA,25 Apr 2015,L3589424,S23050350,,1
+1185,17302,species,Eastern Kingbird,Tyrannus tyrannus,2,Chris Greene Lake,US-VA,24 Apr 2015,L879912,S23035728,,1
+1186,33574,species,Brewer's Blackbird,Euphagus cyanocephalus,3,Ballona Lagoon,US-CA,16 Apr 2015,L22632489,S22890094,,1
+1187,7305,species,Brandt's Cormorant,Urile penicillatus,,Ballona Lagoon,US-CA,16 Apr 2015,L22632489,S22890094,,1
+1188,5961,species,Long-billed Curlew,Numenius americanus,1,Ballona Lagoon,US-CA,16 Apr 2015,L22632489,S22890094,,1
+1189,5777,species,Semipalmated Plover,Charadrius semipalmatus,4,Ballona Lagoon,US-CA,16 Apr 2015,L22632489,S22890094,,1
+1190,4769,species,Rufous Hummingbird,Selasphorus rufus,1,Ballona Lagoon,US-CA,16 Apr 2015,L22632489,S22890094,,1
+1191,6461,species,Western Gull,Larus occidentalis,2,"Marina del Rey, 4100 Admiralty Way",US-CA,15 Apr 2015,L3566552,S22883699,,1
+1192,33807,species,Yellow Warbler,Setophaga petechia,1,Ballona Lagoon,US-CA,15 Apr 2015,L22632489,S22874431,,1
+1193,5991,species,Marbled Godwit,Limosa fedoa,1,Ballona Lagoon,US-CA,15 Apr 2015,L22632489,S22874431,,1
+1196,6809,species,Western Grebe,Aechmophorus occidentalis,3,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,1
+1197,6644,species,Caspian Tern,Hydroprogne caspia,1,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,1
+1198,6522,species,California Gull,Larus californicus,1,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,1
+1199,6446,species,Heermann's Gull,Larus heermanni,,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,1
+1200,6112,species,Surfbird,Calidris virgata,31,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,1
+1201,6102,species,Black Turnstone,Arenaria melanocephala,3,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,1
+1202,5749,species,Black Oystercatcher,Haematopus bachmani,2,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,1
+1203,4774,species,Allen's Hummingbird,Selasphorus sasin,2,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,1
+1204,703,species,Surf Scoter,Melanitta perspicillata,3,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,1
+1205,33675,species,Louisiana Waterthrush,Parkesia motacilla,2,Ivy Creek Natural Area,US-VA,12 Apr 2015,L159326,S22830780,,1
+1206,6064,species,Spotted Sandpiper,Actitis macularius,3,Huntington Beach SP,US-SC,11 Apr 2015,L124353,S22798312,,1
+1207,5754,species,Black-bellied Plover,Pluvialis squatarola,3,Huntington Beach SP,US-SC,11 Apr 2015,L124353,S22798312,,1
+1208,5219,species,Clapper Rail,Rallus crepitans,2,Huntington Beach SP,US-SC,11 Apr 2015,L124353,S22798312,,1
+1209,6397,species,Bonaparte's Gull,Chroicocephalus philadelphia,1,Huntington Beach SP,US-SC,10 Apr 2015,L124353,S22788329,,1
+1210,6099,species,Ruddy Turnstone,Arenaria interpres,1,Huntington Beach SP,US-SC,10 Apr 2015,L124353,S22788329,,1
+1211,33686,species,Prothonotary Warbler,Protonotaria citrea,1,Huntington Beach SP,US-SC,09 Apr 2015,L124353,S22777380,,1
+1213,675,species,Lesser Scaup,Aythya affinis,5,Huntington Beach SP,US-SC,09 Apr 2015,L124353,S22777380,,1
+1214,18966,species,White-eyed Vireo,Vireo griseus,1,Brookgreen Botanical Gardens (please do not report captive birds),US-SC,09 Apr 2015,L723908,S22771604,,1
+1215,33896,species,Prairie Warbler,Setophaga discolor,2,Huntington Beach SP,US-SC,09 Apr 2015,L124353,S22772826,,1
+1216,33749,species,Common Yellowthroat,Geothlypis trichas,2,Huntington Beach SP,US-SC,09 Apr 2015,L124353,S22772826,,1
+1217,33685,species,Black-and-white Warbler,Mniotilta varia,2,Huntington Beach SP,US-SC,09 Apr 2015,L124353,S22772826,,1
+1219,6167,species,Western Sandpiper,Calidris mauri,8,Huntington Beach SP,US-SC,09 Apr 2015,L124353,S22772826,,1
+1220,7377,species,White Ibis,Eudocimus albus,46,Huntington Beach SP,US-SC,08 Apr 2015,L124353,S22758003,,1
+1221,6625,species,Least Tern,Sternula antillarum,3,Huntington Beach SP,US-SC,08 Apr 2015,L124353,S22758003,,1
+1222,5742,species,American Oystercatcher,Haematopus palliatus,2,Murrells Inlet-Marsh Walk,US-SC,08 Apr 2015,L3548977,S22758067,,1
+1223,34331,species,Painted Bunting,Passerina ciris,1,Huntington Beach SP,US-SC,07 Apr 2015,L124353,S22738065,,1
+1224,745,species,Red-breasted Merganser,Mergus serrator,1,Huntington Beach SP,US-SC,07 Apr 2015,L124353,S22738065,,1
+1225,6130,species,Dunlin,Calidris alpina,2,Huntington Beach SP,US-SC,06 Apr 2015,L124353,S22729356,,1
+1226,6127,species,Sanderling,Calidris alba,1,Huntington Beach SP,US-SC,06 Apr 2015,L124353,S22729356,,1
+1227,7542,species,Little Blue Heron,Egretta caerulea,1,Brookgreen Botanical Gardens (please do not report captive birds),US-SC,06 Apr 2015,L723908,S22724127,,1
+1228,6424,species,Laughing Gull,Leucophaeus atricilla,1,Litchfield Beach,US-SC,06 Apr 2015,L1857543,S22724096,,1
+1229,7611,species,Green Heron,Butorides virescens,6,Huntington Beach SP,US-SC,06 Apr 2015,L124353,S22723982,,1
+1230,6674,species,Common Tern,Sterna hirundo,2,Huntington Beach SP,US-SC,06 Apr 2015,L124353,S22723982,,1
+1231,6657,species,Forster's Tern,Sterna forsteri,3,Huntington Beach SP,US-SC,06 Apr 2015,L124353,S22723982,,1
+1233,33581,species,Boat-tailed Grackle,Quiscalus major,4,Huntington Beach SP,US-SC,05 Apr 2015,L124353,S22704163,,1
+1234,6714,species,Royal Tern,Thalasseus maximus,2,Huntington Beach SP,US-SC,05 Apr 2015,L124353,S22704163,,1
+1235,6092,species,Greater Yellowlegs,Tringa melanoleuca,1,Huntington Beach SP,US-SC,05 Apr 2015,L124353,S22704163,,1
+1236,6085,species,Willet,Tringa semipalmata,,Huntington Beach SP,US-SC,05 Apr 2015,L124353,S22704163,,1
+1237,6083,species,Lesser Yellowlegs,Tringa flavipes,1,Huntington Beach SP,US-SC,05 Apr 2015,L124353,S22704163,,1
+1239,27795,species,Brown Thrasher,Toxostoma rufum,1,"Asheboro, 737 Albemarle Road",US-NC,05 Apr 2015,L3539819,S22693895,,1
+1240,6536,species,Iceland Gull,Larus glaucoides,1,Fort McHenry NM,US-MD,01 Apr 2015,L449294,S22628151,,1
+1241,8811,species,Great Horned Owl,Bubo virginianus,2,Bridlepath Yard,US-VA,15 Mar 2015,L4032849,S22371117,,1
+1243,6004,species,American Woodcock,Scolopax minor,2,Bridlepath Yard,US-VA,14 Mar 2015,L4032849,S22352050,,1
+1245,33696,species,Orange-crowned Warbler,Leiothlypis celata,1,Henderson Bird Viewing Preserve,US-NV,01 Mar 2015,L209342,S22124747,,1
+1246,23834,species,Tree Swallow,Tachycineta bicolor,,Henderson Bird Viewing Preserve,US-NV,01 Mar 2015,L209342,S22124747,,1
+1247,20860,species,Loggerhead Shrike,Lanius ludovicianus,1,Henderson Bird Viewing Preserve,US-NV,01 Mar 2015,L209342,S22124747,,1
+1248,5398,species,Sora,Porzana carolina,1,Henderson Bird Viewing Preserve,US-NV,01 Mar 2015,L209342,S22124747,,1
+1249,468,species,Blue-winged Teal,Spatula discors,1,Henderson Bird Viewing Preserve,US-NV,01 Mar 2015,L209342,S22124747,,1
+1250,33108,species,Spotted Towhee,Pipilo maculatus,3,Joshua Tree NP--Fortynine Palms Oasis,US-CA,28 Feb 2015,L677831,S22113456,,1
+1251,29638,species,Phainopepla,Phainopepla nitens,2,Joshua Tree NP--Fortynine Palms Oasis,US-CA,28 Feb 2015,L677831,S22113456,,1
+1252,32914,species,Golden-crowned Sparrow,Zonotrichia atricapilla,9,Big Morongo Canyon Preserve & Covington Park,US-CA,28 Feb 2015,L420195,S22108476,,1
+1253,27812,species,California Thrasher,Toxostoma redivivum,2,Big Morongo Canyon Preserve & Covington Park,US-CA,28 Feb 2015,L420195,S22108476,,1
+1254,27088,species,Marsh Wren,Cistothorus palustris,1,Big Morongo Canyon Preserve & Covington Park,US-CA,28 Feb 2015,L420195,S22108476,,1
+1255,21075,species,California Scrub-Jay,Aphelocoma californica,3,Big Morongo Canyon Preserve & Covington Park,US-CA,28 Feb 2015,L420195,S22108476,,1
+1257,4103,species,White-throated Swift,Aeronautes saxatalis,1,Big Morongo Canyon Preserve & Covington Park,US-CA,28 Feb 2015,L420195,S22108476,,1
+1258,2350,species,White-winged Dove,Zenaida asiatica,3,Moorten Botanical Gardens,US-CA,27 Feb 2015,L822274,S22096709,,1
+1259,27121,species,Bewick's Wren,Thryomanes bewickii,1,Sunnylands Center & Gardens,US-CA,27 Feb 2015,L2853286,S22093565,,1
+1260,4758,species,Anna's Hummingbird,Calypte anna,2,Sunnylands Center & Gardens,US-CA,27 Feb 2015,L2853286,S22093565,,1
+1261,2996,species,Greater Roadrunner,Geococcyx californianus,2,Sunnylands Center & Gardens,US-CA,27 Feb 2015,L2853286,S22093565,,1
+1262,33587,species,Great-tailed Grackle,Quiscalus mexicanus,3,Henderson Bird Viewing Preserve,US-NV,25 Feb 2015,L209342,S22119265,,1
+1263,33062,species,Abert's Towhee,Melozone aberti,1,Henderson Bird Viewing Preserve,US-NV,25 Feb 2015,L209342,S22119265,,1
+1264,26884,species,Black-tailed Gnatcatcher,Polioptila melanura,,Henderson Bird Viewing Preserve,US-NV,25 Feb 2015,L209342,S22119265,,1
+1265,22045,species,Verdin,Auriparus flaviceps,,Henderson Bird Viewing Preserve,US-NV,25 Feb 2015,L209342,S22119265,,1
+1266,7513,species,Black-crowned Night Heron,Nycticorax nycticorax,1,Henderson Bird Viewing Preserve,US-NV,25 Feb 2015,L209342,S22119265,,1
+1267,32905,species,White-crowned Sparrow,Zonotrichia leucophrys,,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1268,23876,species,Northern Rough-winged Swallow,Stelgidopteryx serripennis,2,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1269,16843,species,Say's Phoebe,Sayornis saya,1,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1270,16831,species,Black Phoebe,Sayornis nigricans,2,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1271,6797,species,Eared Grebe,Podiceps nigricollis,3,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1272,6162,species,Least Sandpiper,Calidris minutilla,20,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1273,6001,species,Long-billed Dowitcher,Limnodromus scolopaceus,1,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1274,5723,species,American Avocet,Recurvirostra americana,8,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1275,5411,species,Common Gallinule,Gallinula galeata,,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1276,4761,species,Costa's Hummingbird,Calypte costae,,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1277,1075,species,Gambel's Quail,Callipepla gambelii,12,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1278,483,species,Northern Shoveler,Spatula clypeata,,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1279,469,species,Cinnamon Teal,Spatula cyanoptera,,Henderson Bird Viewing Preserve,US-NV,24 Feb 2015,L209342,S22119250,,1
+1280,33290,species,Eastern Meadowlark,Sturnella magna,1,Bridlepath Yard,US-VA,23 Feb 2015,L4032849,S22040680,,1
+1282,16840,species,Eastern Phoebe,Sayornis phoebe,1,The Hogwaller,US-VA,13 Feb 2015,L3362954,S21808365,,1
+1283,737,species,Common Merganser,Mergus merganser,2,Middle Branch Park,US-MD,09 Feb 2015,L482622,S21749770,,1
+1284,32316,species,Pine Siskin,Spinus pinus,1,Bridlepath Drive,US-VA,07 Feb 2015,L3300165,S22012871,,1
+1286,33028,species,Lincoln's Sparrow,Melospiza lincolnii,1,Fort McHenry NM,US-MD,04 Feb 2015,L449294,S21673391,,1
+1287,641,species,Canvasback,Aythya valisineria,1,Old Trail Golf Course,US-VA,01 Feb 2015,L611191,S21628221,,1
+1288,11947,species,Merlin,Falco columbarius,1,Bridlepath Drive,US-VA,31 Jan 2015,L3300165,S21616199,,1
+1289,33868,species,Pine Warbler,Setophaga pinus,1,Bridlepath Drive,US-VA,27 Jan 2015,L3300165,S21570454,,1
+1291,6494,species,Great Black-backed Gull,Larus marinus,4,Middle Branch Park,US-MD,19 Jan 2015,L482622,S21413167,,1
+1292,6787,species,Horned Grebe,Podiceps auritus,2,Monticello High School,US-VA,18 Jan 2015,L3301624,S21403355,,1
+1293,718,species,Common Goldeneye,Bucephala clangula,2,Chris Greene Lake,US-VA,15 Jan 2015,L879912,S21358783,,1
+1294,26874,species,Blue-gray Gnatcatcher,Polioptila caerulea,1,Airport Lakes Park,US-FL,13 Jan 2015,L2492944,S21358956,,1
+1295,7557,species,Snowy Egret,Egretta thula,2,Airport Lakes Park,US-FL,13 Jan 2015,L2492944,S21358956,,1
+1296,7224,species,Wood Stork,Mycteria americana,2,Airport Lakes Park,US-FL,13 Jan 2015,L2492944,S21358956,,1
+1297,497,species,American Wigeon,Mareca americana,4,Old Fishersville Quarry,US-VA,11 Jan 2015,L1433255,S21301681,,1
+1298,11035,species,Red-headed Woodpecker,Melanerpes erythrocephalus,1,Badger Road,US-VA,10 Jan 2015,L1401005,S21287063,,1
+1300,11913,species,American Kestrel,Falco sparverius,2,Spottswood Rd pond,US-VA,10 Jan 2015,L2486606,S21287026,,1
+1302,6455,species,Ring-billed Gull,Larus delawarensis,1,Old Fishersville Quarry,US-VA,10 Jan 2015,L1433255,S21286973,,1
+1303,753,species,Ruddy Duck,Oxyura jamaicensis,3,Old Fishersville Quarry,US-VA,10 Jan 2015,L1433255,S21286973,,1
+1304,669,species,Greater Scaup,Aythya marila,1,Old Fishersville Quarry,US-VA,10 Jan 2015,L1433255,S21286973,,1
+1305,642,species,Redhead,Aythya americana,20,Old Fishersville Quarry,US-VA,10 Jan 2015,L1433255,S21286973,,1
+1306,487,species,Gadwall,Mareca strepera,6,Old Fishersville Quarry,US-VA,10 Jan 2015,L1433255,S21286973,,1
+1307,319,species,Cackling Goose,Branta hutchinsii,9,Old Fishersville Quarry,US-VA,10 Jan 2015,L1433255,S21286973,,1
+1308,276,species,Greater White-fronted Goose,Anser albifrons,2,Old Fishersville Quarry,US-VA,10 Jan 2015,L1433255,S21286973,,1
+1309,261,species,Ross's Goose,Anser rossii,12,Old Fishersville Quarry,US-VA,10 Jan 2015,L1433255,S21286973,,1
+1310,257,species,Snow Goose,Anser caerulescens,11,Old Fishersville Quarry,US-VA,10 Jan 2015,L1433255,S21286973,,1
+1311,648,species,Ring-necked Duck,Aythya collaris,1,Chris Greene Lake,US-VA,09 Jan 2015,L879912,S21269109,,1
+1312,571,species,Northern Pintail,Anas acuta,1,Chris Greene Lake,US-VA,09 Jan 2015,L879912,S21269109,,1
+1313,6776,species,Pied-billed Grebe,Podilymbus podiceps,3,Chris Greene Lake,US-VA,01 Jan 2015,L879912,S21124986,,1
+1314,717,species,Bufflehead,Bucephala albeola,1,Chris Greene Lake,US-VA,31 Dec 2014,L879912,S21105371,,1
+1315,588,species,Green-winged Teal,Anas crecca,2,Chris Greene Lake,US-VA,31 Dec 2014,L879912,S21105371,,1
+1316,32720,species,Field Sparrow,Spizella pusilla,3,Pen Park,US-VA,14 Dec 2014,L3245894,S21069556,,1
+1317,33928,species,Black-throated Green Warbler,Setophaga virens,,Acadia NP--Sieur de Monts Spring and Wild Gardens,US-ME,03 Jul 2014,L517908,S21380827,,1
+1318,16723,species,Olive-sided Flycatcher,Contopus cooperi,,Acadia NP--Sieur de Monts Spring and Wild Gardens,US-ME,03 Jul 2014,L517908,S21380827,,1
+1319,7737,species,Osprey,Pandion haliaetus,,Acadia NP--Sieur de Monts Spring and Wild Gardens,US-ME,03 Jul 2014,L517908,S21380827,,1
+1320,550,species,American Black Duck,Anas rubripes,,Acadia NP--Sieur de Monts Spring and Wild Gardens,US-ME,03 Jul 2014,L517908,S21380827,,1
+1321,441,species,Wood Duck,Aix sponsa,,Acadia NP--Sieur de Monts Spring and Wild Gardens,US-ME,03 Jul 2014,L517908,S21380827,,1
+1322,7543,species,Tricolored Heron,Egretta tricolor,1,Jekyll Island (please consider using more specific locations),US-GA,08 Apr 2012,L140461,S53655329,,1
+1323,5770,species,Killdeer,Charadrius vociferus,,Savannah NWR,US-SC,03 Apr 2012,L8822485,S53655408,,1
+1324,5443,species,American Coot,Fulica americana,,Savannah NWR,US-SC,03 Apr 2012,L8822485,S53655408,,1
+1325,34308,species,Blue Grosbeak,Passerina caerulea,,Prude Ranch,US-TX,10 May 2010,L1289120,S21059181,,1
+1326,32747,species,Lark Sparrow,Chondestes grammacus,,Prude Ranch,US-TX,10 May 2010,L1289120,S21059181,,1
+1327,32034,species,House Finch,Haemorhous mexicanus,,Prude Ranch,US-TX,10 May 2010,L1289120,S21059181,,1
+1328,23957,species,Barn Swallow,Hirundo rustica,,Prude Ranch,US-TX,10 May 2010,L1289120,S21059181,,1
+1329,8994,species,Elf Owl,Micrathene whitneyi,,Prude Ranch,US-TX,10 May 2010,L1289120,S21059181,,1
+1330,33863,species,Palm Warbler,Setophaga palmarum,4,Gator Hook Trail,US-FL,30 Mar 2003,L10986621,S122470606,,1
+1331,7635,species,Great Egret,Ardea alba,2,Gator Hook Trail,US-FL,30 Mar 2003,L10986621,S122470606,,1
+1332,12820,species,Yellow-shouldered Amazon,Amazona barbadensis,3,Bonaire Salt Ponds,BQ-BO,01 Mar 1994,L1119183,S21059258,,1
+1333,6732,species,American Flamingo,Phoenicopterus ruber,100,Bonaire Salt Ponds,BQ-BO,01 Mar 1994,L1119183,S21059258,,1
+1334,35357,species,Bananaquit,Coereba flaveola,2,Divi Flamingo Beach Resort,BQ-BO,01 Mar 1994,L8410005,S51569170,,1
+1335,6974,species,Leach's Storm-Petrel,Hydrobates leucorhous,1,"Kent Island. New Bruswick, CA",CA-NB,20 Aug 1982,L3264198,S21181361,,1
+1336,34224,species,Northern Cardinal,Cardinalis cardinalis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1337,33883,species,Yellow-throated Warbler,Setophaga dominica,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1338,33874,species,Yellow-rumped Warbler,Setophaga coronata,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1339,33576,species,Common Grackle,Quiscalus quiscula,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1340,33556,species,Brown-headed Cowbird,Molothrus ater,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1341,33500,species,Red-winged Blackbird,Agelaius phoeniceus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1342,33491,species,Baltimore Oriole,Icterus galbula,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1343,33136,species,Eastern Towhee,Pipilo erythrophthalmus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1344,33033,species,Swamp Sparrow,Melospiza georgiana,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1345,32995,species,Song Sparrow,Melospiza melodia,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1346,32962,species,Savannah Sparrow,Passerculus sandwichensis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1347,32919,species,White-throated Sparrow,Zonotrichia albicollis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1348,32842,species,Dark-eyed Junco,Junco hyemalis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1349,32817,species,Fox Sparrow,Passerella iliaca,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1350,32708,species,Chipping Sparrow,Spizella passerina,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1351,32338,species,American Goldfinch,Spinus tristis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1352,32048,species,Purple Finch,Haemorhous purpureus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1353,31605,species,American Pipit,Anthus rubescens,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1354,29618,species,Cedar Waxwing,Bombycilla cedrorum,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1355,28313,species,American Robin,Turdus migratorius,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1356,28081,species,Hermit Thrush,Catharus guttatus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1357,27881,species,Eastern Bluebird,Sialia sialis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1358,27870,species,Northern Mockingbird,Mimus polyglottos,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1359,27758,species,Gray Catbird,Dumetella carolinensis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1360,27571,species,European Starling,Sturnus vulgaris,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,N,1
+1361,27107,species,Carolina Wren,Thryothorus ludovicianus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1362,27054,species,Winter Wren,Troglodytes hiemalis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1363,26777,species,Brown Creeper,Certhia americana,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1364,26640,species,White-breasted Nuthatch,Sitta carolinensis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1365,26599,species,Golden-crowned Kinglet,Regulus satrapa,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1366,26595,species,Ruby-crowned Kinglet,Corthylio calendula,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1367,24051,species,Cliff Swallow,Petrochelidon pyrrhonota,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1368,21936,species,Tufted Titmouse,Baeolophus bicolor,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1369,21836,species,Carolina Chickadee,Poecile carolinensis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1370,21400,species,Common Raven,Corvus corax,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1371,21346,species,Fish Crow,Corvus ossifragus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1372,21333,species,American Crow,Corvus brachyrhynchos,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1373,21066,species,Blue Jay,Cyanocitta cristata,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1374,16757,species,Eastern Wood-Pewee,Contopus virens,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1375,11997,species,Peregrine Falcon,Falco peregrinus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1376,11785,species,Northern Flicker,Colaptes auratus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1377,11647,species,Pileated Woodpecker,Dryocopus pileatus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1378,11314,species,Hairy Woodpecker,Dryobates villosus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1379,11287,species,Downy Woodpecker,Dryobates pubescens,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1380,11088,species,Red-bellied Woodpecker,Melanerpes carolinus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1381,11016,species,Yellow-bellied Sapsucker,Sphyrapicus varius,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1382,10202,species,Belted Kingfisher,Megaceryle alcyon,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1383,8537,species,American Barn Owl,Tyto furcata,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1384,8410,species,Red-tailed Hawk,Buteo jamaicensis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1385,8391,species,Red-shouldered Hawk,Buteo lineatus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1386,8271,species,Bald Eagle,Haliaeetus leucocephalus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1387,8183,species,Cooper's Hawk,Astur cooperii,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1388,8161,species,Sharp-shinned Hawk,Accipiter striatus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1389,7720,species,Turkey Vulture,Cathartes aura,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1390,7716,species,Black Vulture,Coragyps atratus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1391,7697,species,Brown Pelican,Pelecanus occidentalis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1392,7696,species,American White Pelican,Pelecanus erythrorhynchos,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1393,7658,species,Great Blue Heron,Ardea herodias,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1394,7342,species,Double-crested Cormorant,Nannopterum auritum,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1395,7283,species,Anhinga,Anhinga anhinga,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1396,6854,species,Common Loon,Gavia immer,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1397,6551,species,Black Skimmer,Rynchops niger,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1398,6472,species,American Herring Gull,Larus smithsonianus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1399,4747,species,Ruby-throated Hummingbird,Archilochus colubris,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1400,3842,species,Chimney Swift,Chaetura pelagica,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1401,2373,species,Mourning Dove,Zenaida macroura,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1402,1242,species,Wild Turkey,Meleagris gallopavo,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1403,729,species,Hooded Merganser,Lophodytes cucullatus,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1404,525,species,Mallard,Anas platyrhynchos,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1405,330,species,Canada Goose,Branta canadensis,1,Virginia,US-VA,01 Jan 1900,L108999,S21059140,,1
+1101,367,species,Black Swan,Cygnus atratus,1,Lickinghole Creek,US-VA,11 Mar 2016,L1397102,S28099409,X,0
+854,557,hybrid,Mallard x Mottled Duck (hybrid),Anas platyrhynchos x fulvigula,15,The Celery Fields,US-FL,03 Jan 2020,L234146,S62962244,,0
+1242,533,hybrid,Northern Shoveler x Mallard (hybrid),Spatula clypeata x Anas platyrhynchos,1,Bridlepath Drive,US-VA,15 Mar 2015,L3300165,S22359498,,0
+1301,552,hybrid,Mallard x American Black Duck (hybrid),Anas platyrhynchos x rubripes,1,Willow Lake,US-VA,10 Jan 2015,L1123878,S21286996,,0
+27,25143,spuh,old world warbler sp.,Passeriformes sp. (Old World warbler sp.),1,Utsjoki--Mantojärvi,FI-10,03 Jun 2024,L2840957,S179097381,,0
+139,21348,slash,American/Fish Crow,Corvus brachyrhynchos/ossifragus,1,Brumley Nature Preserve--North,US-NC,19 Apr 2024,L7984234,S169282905,,0
+141,33601,slash,Boat-tailed/Great-tailed Grackle,Quiscalus major/mexicanus,4,Peveto Woods--Baton Rouge Audubon Society Sanctuary,US-LA,10 Apr 2024,L210301,S168063393,,0
+174,13036,spuh,large macaw sp.,Ara sp.,2,San Jorge de Sumaco Bajo,EC-D,15 Feb 2024,L5781818,S161590218,,0
+219,34948,spuh,tanager sp. (Thraupidae sp.),Thraupidae sp. (tanager sp.),1,San Jorge de Guacamayos,EC-N,13 Feb 2024,L10744652,S161469739,,0
+276,7181,spuh,shearwater sp.,Procellariidae sp. (shearwater sp.),2,"Gay Head, Martha's Vineyard",US-MA,11 Jul 2023,L784930,S144284905,,0
+280,6846,spuh,tropicbird sp.,Phaethon sp.,3,Virgin Islands NP--Cinn. Bay Trail,VI-SJ,09 Mar 2023,L1031737,S130519317,,0
+364,14814,spuh,woodcreeper sp.,Dendrocolaptinae sp.,1,"Santa Marta - Cerro Kenedy, Magdalena, CO (11,101, -74,072)",CO-MAG,03 Feb 2023,L10351922,S127531627,,0
+460,4144,spuh,swift sp.,Apodidae sp.,1,Reserva Ecológica Río Blanco,CO-CAL,29 Jan 2023,L2241379,S127231344,,0
+796,7687,spuh,heron sp.,Ardeidae sp.,1,Frog Pond WMA--Lucky Hammock,US-FL,12 Nov 2022,L405338,S122284623,,0
+821,17300,slash,Cassin's/Western Kingbird,Tyrannus vociferans/verticalis,1,Florida Canyon--lower,US-AZ,06 Aug 2022,L720787,S116481813,,0
+834,32732,spuh,Spizella sp.,Spizella sp.,1,Chris Greene Lake,US-VA,01 Apr 2022,L879912,S106005486,,0
+835,33622,spuh,grackle sp.,Quiscalus sp.,1,Sea Pines Forest Preserve,US-SC,06 Feb 2022,L8946026,S102124625,,0
+836,553,slash,Mallard/American Black Duck,Anas platyrhynchos/rubripes,1,Bellair Farm (restricted access),US-VA,15 Jan 2022,L4575739,S100813613,,0
+838,32960,slash,Nelson's/Saltmarsh Sparrow (Sharp-tailed Sparrow),Ammospiza nelsoni/caudacuta,1,Boardwalk Bridge,US-VA,24 Oct 2021,L2939514,S96643342,,0
+842,6681,slash,Forster's/Common Tern,Sterna forsteri/hirundo,30,Cape Island--Cape May Point SP (CMPSP),US-NJ,17 May 2021,L109132,S88419592,,0
+843,5236,slash,King/Clapper Rail,Rallus elegans/crepitans,1,"Unnamed Road, Nags Head, North Carolina, US (35.815, -75.564)",US-NC,24 Jan 2021,L13384019,S79850559,,0
+855,11027,spuh,sapsucker sp.,Sphyrapicus sp.,1,Tijuana River Valley--Bird & Butterfly Garden (Myers Ranch),US-CA,27 Oct 2019,L418752,S60984677,,0
+857,26899,spuh,gnatcatcher sp.,Polioptila sp.,1,Salton Sea SRA--Headquarters and Campground,US-CA,26 Oct 2019,L658353,S60957476,,0
+861,32346,spuh,new world goldfinch sp.,Spinus sp. (goldfinch sp.),4,Big Morongo Canyon Preserve & Covington Park,US-CA,25 Oct 2019,L420195,S60927342,,0
+862,32381,spuh,Acanthis/Spinus sp.,Acanthis/Spinus sp.,4,"IRWD San Joaquin Marsh & Wildlife Sanctuary, Irvine",US-CA,21 Oct 2019,L109339,S60834403,,0
+863,629,spuh,teal sp.,Anatidae sp. (teal sp.),3,"IRWD San Joaquin Marsh & Wildlife Sanctuary, Irvine",US-CA,21 Oct 2019,L109339,S60834403,,0
+864,19052,slash,Philadelphia/Warbling Vireo,Vireo philadelphicus/gilvus,1,Menemsha Hills Reservation (TTOR),US-MA,17 Sep 2019,L1756769,S59911155,,0
+865,35564,spuh,bird sp.,Aves sp.,1,Lake Monticello (gated community/restricted access)--Marina,US-VA,06 Jul 2019,L6591623,S57980267,,0
+866,33933,spuh,Setophaga sp.,Setophaga sp.,2,Rappahannock River Valley NWR--Wilna Unit,US-VA,09 Jun 2019,L417475,S57222412,,0
+867,5604,spuh,rail/crake sp.,Rallidae sp. (rail/crake sp.),1,Princess Anne WMA--Whitehurst Tract,US-VA,12 May 2019,L473385,S56197971,,0
+878,4781,slash,Rufous/Allen's Hummingbird,Selasphorus rufus/sasin,1,Famosa Slough,US-CA,28 Feb 2019,L246035,S53236813,,0
+880,13090,spuh,large parakeet sp. (former Aratinga sp.),Eupsittula/Aratinga/Thectocercus/Psittacara sp.,8,Mission Bay--Dana Landing,US-CA,28 Feb 2019,L990039,S53231940,P,0
+884,33531,slash,Red-winged/Tricolored Blackbird,Agelaius phoeniceus/tricolor,10,"8510 Mizpah Lane, Descanso, California, US (32.86, -116.611)",US-CA,27 Feb 2019,L8708584,S53201806,,0
+890,17291,slash,Tropical/Couch's Kingbird,Tyrannus melancholicus/couchii,1,South Padre Is.--WBC/Conv. Center/Laguna Madre Trail (LTC 035),US-TX,13 Nov 2018,L283726,S49922814,,0
+891,6728,spuh,tern sp.,Sterninae sp.,1,South Padre Is.--WBC/Conv. Center/Laguna Madre Trail (LTC 035),US-TX,13 Nov 2018,L283726,S49922814,,0
+894,33562,slash,Bronzed/Brown-headed Cowbird,Molothrus aeneus/ater,15,Santa Ana NWR (LTC 059),US-TX,11 Nov 2018,L129085,S49870892,,0
+900,13092,spuh,parrot sp.,Psittaciformes sp. (parrot sp.),150,"Oliveira Park, Brownsville",US-TX,09 Nov 2018,L1918641,S49813936,X,0
+904,684,spuh,Aythya sp.,Aythya sp.,85,Laguna Madre--Port Isabel Channel & Bay Boat trip,US-TX,09 Nov 2018,L612849,S49819062,,0
+912,4751,slash,Ruby-throated/Black-chinned Hummingbird,Archilochus colubris/alexandri,1,Estero Llano Grande SP WBC (LTC 054),US-TX,08 Nov 2018,L259855,S49762529,,0
+916,33308,slash,Western/Eastern Meadowlark,Sturnella neglecta/magna,55,King Ranch--Norias Division (Kenedy Co.),US-TX,07 Nov 2018,L507911,S49770413,,0
+932,3194,slash,Yellow-billed/Black-billed Cuckoo,Coccyzus americanus/erythropthalmus,1,Hidden Swamp- Albemarle County,US-VA,20 Oct 2018,L1169916,S49323905,,0
+947,6816,slash,Western/Clark's Grebe,Aechmophorus occidentalis/clarkii,100,Antelope Island SP--Buffalo Point,US-UT,08 Sep 2018,L5518420,S48368948,,0
+958,6547,spuh,Larus sp.,Larus sp.,500,Antelope Island SP--Causeway,US-UT,07 Sep 2018,L151122,S48361343,,0
+961,21852,slash,Carolina/Black-capped Chickadee,Poecile carolinensis/atricapillus,3,"Unnamed Road, Mouth of Wilson, Virginia, US (36.675, -81.497)",US-VA,28 Jul 2018,L7761535,S47502528,,0
+962,9299,spuh,owl sp.,Strigiformes sp.,1,"172 Fletcher Road, Stanardsville, Virginia, US (38.396, -78.43)",US-VA,25 May 2018,L7463439,S46004562,,0
+966,33677,slash,Louisiana/Northern Waterthrush,Parkesia motacilla/noveboracensis,1,Magee Marsh--Boardwalk,US-OH,10 May 2018,L275986,S45526186,,0
+968,7519,slash,Yellow-crowned/Black-crowned Night Heron,Nycticorax nycticorax/Nyctanassa violacea,3,**HUNTLEY MEADOWS PARK,US-VA,02 May 2018,L718525,S45237539,,0
+969,21889,spuh,chickadee sp.,Poecile sp.,5,Cape Meares SP--Lighthouse,US-OR,06 Apr 2018,L763526,S44311713,,0
+975,351,slash,Cackling/Canada Goose,Branta hutchinsii/canadensis,10,Nehalem Sewage Ponds,US-OR,03 Apr 2018,L814926,S44229241,,0
+991,7688,spuh,white egret sp.,Egretta/Ardea sp.,1,Chincoteague NWR--Wildlife Loop,US-VA,19 Nov 2017,L660064,S40606559,,0
+993,6002,slash,Short-billed/Long-billed Dowitcher,Limnodromus griseus/scolopaceus,6,Chincoteague NWR--Service Road,US-VA,19 Nov 2017,L1153462,S40606650,,0
+995,12024,spuh,falcon sp.,Falco sp.,1,RWSA field,US-VA,15 Oct 2017,L5157727,S39934882,,0
+996,19104,spuh,vireo sp.,Vireo sp.,1,Chris Greene Lake,US-VA,02 Oct 2017,L879912,S39522324,,0
+997,33855,slash,Bay-breasted/Blackpoll Warbler,Setophaga castanea/striata,1,Stony Point Pass,US-VA,16 Sep 2017,L1770268,S39208968,,0
+1000,715,spuh,scoter sp.,Melanitta sp.,2,Menemsha Hills,US-MA,24 Jul 2017,L4816733,S38319168,,0
+1001,300,domestic,Domestic goose sp. (Domestic type),Anser sp. (Domestic type),1,Dyke Marsh Wildlife Preserve,US-VA,22 Jul 2017,L159300,S38262516,X,0
+1007,11337,slash,Downy/Hairy Woodpecker,Dryobates pubescens/villosus,1,Warbler Rd rt 768 portion,US-VA,20 May 2017,L5863896,S37017957,,0
+1008,19040,slash,Cassin's/Plumbeous Vireo,Vireo cassinii/plumbeus,1,Sweetwater Wetlands,US-AZ,04 Mar 2017,L208918,S34966681,,0
+1015,7353,slash,Double-crested/Neotropic Cormorant,Nannopterum auritum/brasilianum,17,Patagonia Lake SP--Birding Trail,US-AZ,02 Mar 2017,L2064166,S34917976,,0
+1016,21409,spuh,raven sp.,Corvus sp. (raven sp.),1,Quail Creek Veterans Municipal Park,US-AZ,01 Mar 2017,L1327826,S34925934,,0
+1044,549,slash,Mallard/Mexican Duck,Anas platyrhynchos/diazi,4,Sweetwater Wetlands,US-AZ,28 Feb 2017,L208918,S34879175,,0
+1048,713,slash,Surf/Black Scoter,Melanitta perspicillata/americana,27,Chesapeake Bay Bridge-Tunnel (Northampton Co.),US-VA,04 Feb 2017,L718370,S34210902,,0
+1055,32052,slash,House/Purple Finch,Haemorhous mexicanus/purpureus,7,Bridlepath Yard,US-VA,17 Dec 2016,L4032849,S33057246,,0
+1056,382,spuh,swan sp.,Cygnus sp.,1,King Family Vineyard (view from Roseland Farm Lane only),US-VA,09 Dec 2016,L856848,S32931592,X,0
+1058,7121,slash,Cory's/Scopoli's Shearwater,Calonectris borealis/diomedea,1,Boat between Monhegan to Boothbay Harbor,US-ME,02 Oct 2016,L4963418,S31858393,,0
+1063,16791,slash,Alder/Willow Flycatcher (Traill's Flycatcher),Empidonax alnorum/traillii,1,Chincoteague NWR--Service Road,US-VA,17 Sep 2016,L1153462,S31620565,,0
+1067,17329,spuh,new world flycatcher sp.,Tyrannidae sp.,2,Stony Point Pass,US-VA,11 Sep 2016,L1770268,S31525477,,0
+1068,27405,spuh,wren sp.,Troglodytidae sp.,1,Observatory Mountain,US-VA,28 Aug 2016,L159364,S31320730,,0
+1073,28094,spuh,Catharus sp.,Catharus sp.,1,Pipe Creek Wildlife Area,US-OH,15 May 2016,L248904,S29765570,,0
+1087,6291,spuh,shorebird sp.,Charadriiformes sp. (shorebird sp.),6,Bellair Farm (restricted access),US-VA,08 May 2016,L4575739,S29494400,,0
+1091,34167,spuh,tanager sp. (Piranga sp.),Piranga sp.,1,Observatory Mountain,US-VA,06 May 2016,L159364,S29435557,,0
+1097,8184,slash,Sharp-shinned/Cooper's Hawk,Accipiter striatus/Astur cooperii,1,Observatory Mountain,US-VA,22 Apr 2016,L159364,S29117529,,0
+1100,11819,spuh,woodpecker sp.,Picidae sp.,2,Mint Springs Valley Park,US-VA,11 Mar 2016,L618810,S28093545,,0
+1123,8477,spuh,Buteo sp.,Buteo sp.,1,Ivy Creek Natural Area,US-VA,30 Sep 2015,L159326,S25240000,,0
+1131,35563,spuh,passerine sp.,Passeriformes sp.,2,Sepulveda Basin--East of Woodley Ave,US-CA,01 Sep 2015,L194688,S24855074,,0
+1134,630,spuh,dabbling duck sp.,Anatidae sp. (dabbling duck sp.),3,Sepulveda Basin--East of Woodley Ave,US-CA,01 Sep 2015,L194688,S24855074,,0
+1142,6700,spuh,Sterna sp.,Sterna sp.,,Chilmark,US-MA,08 Aug 2015,L3836613,S24535066,,0
+1143,6171,spuh,peep sp.,Calidris sp. (peep sp.),5,Shining Sea Bike Path,US-MA,06 Aug 2015,L1777804,S24517131,,0
+1157,16830,spuh,Empidonax sp.,Empidonax sp.,2,Ragged Mountain Natural Area,US-VA,24 May 2015,L422642,S23611279,,0
+1172,8209,spuh,Accipitrine hawk sp. (former Accipiter sp.),Aerospiza/Tachyspiza/Accipiter/Astur sp.,1,Chris Greene Lake,US-VA,03 May 2015,L879912,S23208888,,0
+1176,34106,spuh,new world warbler sp.,Parulidae sp.,2,James River Rd Scottsville to Howardsville,US-VA,02 May 2015,L3608017,S23186734,,0
+1194,7375,spuh,cormorant sp.,Phalacrocoracidae sp.,,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,0
+1195,6858,spuh,loon sp.,Gavia sp.,2,Ballona Lagoon,US-CA,13 Apr 2015,L22632489,S22852272,,0
+1212,24075,spuh,swallow sp.,Hirundinidae sp.,20,Huntington Beach SP,US-SC,09 Apr 2015,L124353,S22777380,,0
+1218,6548,spuh,gull sp.,Larinae sp.,1,Huntington Beach SP,US-SC,09 Apr 2015,L124353,S22772826,,0
+1232,6093,slash,Lesser/Greater Yellowlegs,Tringa flavipes/melanoleuca,6,Huntington Beach SP,US-SC,06 Apr 2015,L124353,S22723982,,0
+1238,33241,spuh,new world sparrow sp.,Passerellidae sp.,2,"Asheboro, 737 Albemarle Road",US-NC,05 Apr 2015,L3539819,S22693895,,0
+1244,33667,spuh,blackbird sp.,Icteridae sp.,1,Lake Hollymead,US-VA,07 Mar 2015,L1027265,S22213735,,0
+1256,5157,spuh,hummingbird sp.,Trochilidae sp.,2,Big Morongo Canyon Preserve & Covington Park,US-CA,28 Feb 2015,L420195,S22108476,,0
+1281,767,spuh,duck sp.,Anatidae (duck sp.),1,Chris Greene Lake,US-VA,15 Feb 2015,L879912,S21871186,,0
+1285,683,slash,Greater/Lesser Scaup,Aythya marila/affinis,1,Chris Greene Lake,US-VA,07 Feb 2015,L879912,S21715362,,0
+1290,8480,spuh,hawk sp.,Accipitridae sp. (hawk sp.),1,Rockfish Valley Trail,US-VA,25 Jan 2015,L955139,S21530950,,0
+1299,21396,spuh,crow sp.,Corvus sp. (crow sp.),5,Bells Lane,US-VA,10 Jan 2015,L525829,S21287056,,0

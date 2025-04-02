@@ -938,7 +938,7 @@
       "familyCode": "falcon1",
       "familyComName": "Falcons and Caracaras",
       "familySciName": "Falconidae",
-      "notes": "Doi Inthanon. Dipterocarp forest.",
+      "notes": "Doi Inthanon. Dipterocarp forest. Sensitive.",
       "frequency": 2,
       "Wing.Length": 102,
       "Habitat": "Forest",
@@ -1131,27 +1131,12 @@
       "Mass": 23.3
     },
     {
-      "sciName": "Coracina macei",
-      "comName": "Large Cuckooshrike",
-      "speciesCode": "larcus1",
-      "category": "species",
-      "taxonOrder": 18375.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "LACU",
-        "LACS",
-        "LCSH"
-      ],
-      "sciNameCodes": [
-        "COMA"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "campep2",
-      "familyComName": "Cuckooshrikes",
-      "familySciName": "Campephagidae",
-      "notes": "Doi Sanju.",
+      "sciName": "Coracina javensis",
+      "comName": "Oriental Cuckooshrike",
+      "speciesCode": "javcus1",
       "frequency": 3,
       "Wing.Length": 166.7,
+      "notes": "Doi Sanju.",
       "Habitat": "Forest",
       "Mass": 105
     },
@@ -1669,21 +1654,10 @@
       "Mass": 7.7
     },
     {
-      "sciName": "Parus minor",
-      "comName": "Japanese Tit",
-      "speciesCode": "gretit4",
+      "sciName": "Parus cinereus",
+      "comName": "Asian Tit",
       "category": "species",
       "taxonOrder": 21817.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "GRTI",
-        "JATI"
-      ],
-      "sciNameCodes": [
-        "PAMI"
-      ],
-      "order": "Passeriformes",
-      "familyCode": "parida1",
       "familyComName": "Tits, Chickadees, and Titmice",
       "familySciName": "Paridae",
       "notes": "",
@@ -1989,7 +1963,7 @@
       "familyCode": "pycnon4",
       "familyComName": "Bulbuls",
       "familySciName": "Pycnonotidae",
-      "notes": "",
+      "notes": "Sensitive Species",
       "frequency": 26,
       "Wing.Length": 86.8,
       "Habitat": "Shrubland",

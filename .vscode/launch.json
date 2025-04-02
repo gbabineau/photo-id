@@ -14,7 +14,7 @@
             "args": [
                 "--verbose",
                 "--have_list",
-                "tests/data/guy_ebird_world_life_list_0823.csv"
+                "tests/data/guy_ebird_world_life_list_1224.csv"
             ]
         },
         {

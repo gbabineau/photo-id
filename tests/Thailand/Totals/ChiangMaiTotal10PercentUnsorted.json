@@ -224,9 +224,17 @@
 	    "frequency": 11
     },
     {
-      "comName": "Japanese Tit",
+      "sciName": "Parus cinereus",
+      "comName": "Asian Tit",
+      "category": "species",
+      "taxonOrder": 21817.0,
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
       "notes": "",
-	    "frequency": 11
+      "frequency": 11,
+      "Wing.Length": 66,
+      "Habitat": "Woodland",
+      "Mass": 15.5
     },
     {
       "comName": "Brown Shrike",
@@ -524,9 +532,14 @@
 	    "frequency": 3
     },
     {
-      "comName": "Large Cuckooshrike",
+      "sciName": "Coracina javensis",
+      "comName": "Oriental Cuckooshrike",
+      "speciesCode": "javcus1",
+      "frequency": 3,
+      "Wing.Length": 166.7,
       "notes": "Doi Sanju.",
-	    "frequency": 3
+      "Habitat": "Forest",
+      "Mass": 105
     },
     {
       "comName": "Chestnut-crowned Warbler",
@@ -670,7 +683,7 @@
     },
     {
       "comName": "Collared Falconet",
-      "notes": "Doi Inthanon. Dipterocarp forest.",
+      "notes": "Sensitive species. Doi Inthanon. Dipterocarp forest.",
 	    "frequency": 2
     },
     {
