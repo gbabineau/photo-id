@@ -6,6 +6,7 @@ plumages.
 
 import argparse
 import logging
+import tomllib
 
 from tkinter import messagebox, Tk, Menu, filedialog, simpledialog
 from photo_id import get_taxonomy
@@ -194,8 +195,15 @@ def main():
     arg_parser = argparse.ArgumentParser(
         prog="photo-id", description="Quiz on photo id."
     )
+    with open("pyproject.toml", "rb") as f:
+        pyproject_data = tomllib.load(f)
+    version = (
+        pyproject_data.get("tool", {})
+        .get("poetry", {})
+        .get("version", "0.0.0")
+    )
     arg_parser.add_argument(
-        "--version", action="version", version="%(prog)s 0.0.0"
+        "--version", action="version", version=f"%(prog)s {version}"
     )
     arg_parser.add_argument(
         "--verbose", action="store_true", help="increase verbosity"
