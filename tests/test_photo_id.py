@@ -1,7 +1,6 @@
 import logging
 import unittest
 from unittest.mock import patch, MagicMock
-from tkinter import Tk
 from photo_id.photo_id import MainWindow
 
 
@@ -11,10 +10,12 @@ class MockFrame(MagicMock):
         self.children = {"!canvas": MagicMock(), "!scrollbar": MagicMock()}
         self.interior = MagicMock()
 
+
 class MockRoot(MagicMock):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.title = "title"
+
 
 class MockTK(MagicMock):
     def __init__(self, *args, **kwargs):
@@ -22,7 +23,7 @@ class MockTK(MagicMock):
         self.root = MockRoot()
 
     def title(self, title):
-        pass # do nothing
+        pass  # do nothing
 
     def quit(self):
         pass  # do nothing
@@ -40,8 +41,9 @@ class MockTK(MagicMock):
 class MockMenu(MagicMock):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+
     def add_command(self, label, command):
-        pass # do nothing
+        pass  # do nothing
 
     def add_cascade(self, label, menu):
         pass  # do nothing
@@ -51,7 +53,6 @@ class MockMenu(MagicMock):
 
 
 class TestMainWindow(unittest.TestCase):
-
     @patch("photo_id.photo_id.get_taxonomy.ebird_taxonomy", return_value=[])
     @patch("photo_id.photo_id.get_have_list.get_have_list", return_value=[])
     @patch("photo_id.photo_id.Tk", spec=MockTK)
@@ -67,7 +68,8 @@ class TestMainWindow(unittest.TestCase):
         self.assertEqual(self.main_window.taxonomy, [])
 
     @patch(
-        "photo_id.photo_id.filedialog.askopenfilename", return_value="test_quiz.json"
+        "photo_id.photo_id.filedialog.askopenfilename",
+        return_value="test_quiz.json",
     )
     @patch("photo_id.photo_id.match_window.MatchWindow")
     def test_match_open(self, mock_match_window, mock_askopenfilename):
@@ -75,7 +77,8 @@ class TestMainWindow(unittest.TestCase):
         mock_match_window.assert_called_once_with("test_quiz.json", [], [])
 
     @patch(
-        "photo_id.photo_id.filedialog.askopenfilename", return_value="test_quiz.json"
+        "photo_id.photo_id.filedialog.askopenfilename",
+        return_value="test_quiz.json",
     )
     @patch("photo_id.photo_id.process_quiz.sort_quiz")
     def test_sort_quiz(self, mock_sort_quiz, mock_askopenfilename):
@@ -83,12 +86,16 @@ class TestMainWindow(unittest.TestCase):
         mock_sort_quiz.assert_called_once_with("test_quiz.json", [])
 
     @patch(
-        "photo_id.photo_id.filedialog.askopenfilename", return_value="test_target.txt"
+        "photo_id.photo_id.filedialog.askopenfilename",
+        return_value="test_target.txt",
     )
-    @patch("photo_id.photo_id.simpledialog.askinteger", side_effect=[10, 1, 12])
+    @patch(
+        "photo_id.photo_id.simpledialog.askinteger", side_effect=[10, 1, 12]
+    )
     @patch("photo_id.photo_id.simpledialog.askstring", return_value="NO")
     @patch(
-        "photo_id.photo_id.filedialog.asksaveasfilename", return_value="test_quiz.json"
+        "photo_id.photo_id.filedialog.asksaveasfilename",
+        return_value="test_quiz.json",
     )
     @patch("photo_id.photo_id.process_quiz.build_quiz_from_target_species")
     def test_create_quiz(
@@ -117,10 +124,13 @@ class TestMainWindow(unittest.TestCase):
         self.assertEqual(self.main_window.have_list, ["species1", "species2"])
 
     @patch(
-        "photo_id.photo_id.filedialog.askopenfilename", return_value="test_quiz.json"
+        "photo_id.photo_id.filedialog.askopenfilename",
+        return_value="test_quiz.json",
     )
     @patch("photo_id.photo_id.process_quiz.split_quiz")
-    def test_break_quiz_into_parts(self, mock_split_quiz, mock_askopenfilename):
+    def test_break_quiz_into_parts(
+        self, mock_split_quiz, mock_askopenfilename
+    ):
         self.main_window.break_quiz_into_parts()
         mock_split_quiz.assert_called_once_with("test_quiz.json", 25, [])
 
@@ -133,7 +143,6 @@ class TestMainWindow(unittest.TestCase):
 
 
 class TestMainFunction(unittest.TestCase):
-
     @patch("photo_id.photo_id.MainWindow")
     @patch("photo_id.photo_id.argparse.ArgumentParser")
     def test_main_default(self, mock_arg_parser, mock_main_window):
@@ -155,7 +164,9 @@ class TestMainFunction(unittest.TestCase):
     @patch("photo_id.photo_id.MainWindow")
     @patch("photo_id.photo_id.argparse.ArgumentParser")
     @patch("photo_id.photo_id.logging.basicConfig")
-    def test_main_verbose(self, mock_logging, mock_arg_parser, mock_main_window):
+    def test_main_verbose(
+        self, mock_logging, mock_arg_parser, mock_main_window
+    ):
         # Setup mock for argparse
         mock_args = MagicMock()
         mock_args.verbose = True

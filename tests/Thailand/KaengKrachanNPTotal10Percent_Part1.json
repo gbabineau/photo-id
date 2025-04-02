@@ -378,23 +378,11 @@
       "Mass": 13.4
     },
     {
-      "sciName": "Aerodramus germani",
-      "comName": "Germain's Swiftlet",
-      "speciesCode": "gerswi1",
-      "category": "species",
+      "sciName": "Aerodramus fuciphagus",
+      "comName": "White-nest Swiftlet",
+      "speciesCode": "y00731",
       "taxonOrder": 4042.0,
-      "bandingCodes": [],
-      "comNameCodes": [
-        "ENSW",
-        "GESW"
-      ],
-      "sciNameCodes": [
-        "AEGE"
-      ],
-      "order": "Caprimulgiformes",
-      "familyCode": "apodid1",
-      "familyComName": "Swifts",
-      "familySciName": "Apodidae",
+
       "notes": "",
       "frequency": 15,
       "Wing.Length": 116.5,

@@ -1,20 +1,30 @@
+"""
+Module: get_size_data
+
+This module provides functions to handle data extraction and processing from Excel files,
+as well as downloading and extracting files from the internet.
+"""
+
 import json
 import logging
 import os
-import requests
 import sys
 import zipfile
+
 import openpyxl
+import requests
 
 
-def read_xlsx_to_dict(file_path: str, sheet_name: str, columns: list = None) -> dict:
+def read_xlsx_to_dict(
+    file_path: str, sheet_name: str, columns: list = None
+) -> dict:
     """
     Read data from an Excel file and convert it to a dictionary.
 
     Args:
         file_path (str): The path to the Excel file.
         sheet_name (str): The name of the sheet to read.
-        columns (list, optional): A list of column names to include in the dictionary. Defaults to None.
+        columns (list, optional): A list of columns to include in the dictionary. Defaults to None.
 
     Returns:
         dict: The data read from the Excel file as a dictionary.
@@ -28,8 +38,7 @@ def read_xlsx_to_dict(file_path: str, sheet_name: str, columns: list = None) -> 
         sys.exit(1)
     except KeyError:
         logging.error(
-            "Error: The sheet '%s' does not exist in the workbook.",
-            sheet_name
+            "Error: The sheet '%s' does not exist in the workbook.", sheet_name
         )
         sys.exit(1)
 
@@ -76,8 +85,6 @@ def read_xlsx_to_dict(file_path: str, sheet_name: str, columns: list = None) -> 
     else:
         logging.error("There must be at least 2 columns to read.")
         sys.exit(1)
-
-
     return data_dict
 
 
@@ -96,7 +103,9 @@ def download_file(url: str, dest_path: str):
         # Raise an exception if the request was unsuccessful
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
-        logging.error("Failed to download the file from %s. Reason: %s", url, str(e))
+        logging.error(
+            "Failed to download the file from %s. Reason: %s", url, str(e)
+        )
         sys.exit(1)
 
     try:
@@ -105,7 +114,9 @@ def download_file(url: str, dest_path: str):
             file.write(response.content)
     except IOError as e:
         logging.error(
-            "Error: Failed to write the file to %s. Reason: %s", dest_path, str(e)
+            "Error: Failed to write the file to %s. Reason: %s",
+            dest_path,
+            str(e),
         )
         sys.exit(1)
 
@@ -135,7 +146,8 @@ def extract_file_from_zip(zip_path: str, file_name: str, dest_dir: str):
 
     except KeyError:
         logging.error(
-            "Error: The file '%s' does not exist in the ZIP archive.", file_name
+            "Error: The file '%s' does not exist in the ZIP archive.",
+            file_name,
         )
         sys.exit(1)
 
@@ -168,7 +180,9 @@ def write_dict_to_json(data: dict, file_path: str):
             logging.info("Dictionary successfully written to '%s'", file_path)
     except IOError as e:
         logging.error(
-            "Error: Failed to write to the file '%s'. Reason: %s", file_path, str(e)
+            "Error: Failed to write to the file '%s'. Reason: %s",
+            file_path,
+            str(e),
         )
 
 
@@ -191,7 +205,9 @@ def read_dict_from_json(file_path: str) -> dict:
             return data
     except IOError as e:
         logging.error(
-            "Error: Failed to read the file '%s'. Reason: %s", file_path, str(e)
+            "Error: Failed to read the file '%s'. Reason: %s",
+            file_path,
+            str(e),
         )
     except json.JSONDecodeError as e:
         logging.error(

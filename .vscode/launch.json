@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Python: Photo ID",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "module": "photo_id.photo_id",
             "console": "integratedTerminal",
@@ -14,12 +14,23 @@
             "args": [
                 "--verbose",
                 "--have_list",
-                "tests/data/guy_ebird_world_life_list_0823.csv"
+                "tests/data/guy_ebird_world_life_list_1224.csv"
+            ]
+        },
+        {
+            "name": "Photo ID - Version",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "photo_id.photo_id",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--version",
             ]
         },
         {
             "name": "rest read",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "photo_id/process_quiz.py",
             "console": "integratedTerminal",
