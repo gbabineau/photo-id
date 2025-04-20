@@ -29,7 +29,7 @@ class MainWindow:
         self.have_list = []
         self.avonet_data = {}
         self.ebird_api_key = get_ebird_api_key.get_ebird_api_key()
-        self.taxonomy = get_taxonomy.get_taxonomy(self.ebird_api_key)
+        self.taxonomy = get_taxonomy.ebird_taxonomy(self.ebird_api_key)
         if default_have_list != "":
             self.have_list = get_have_list.get_have_list(default_have_list)
         self.root = Tk()

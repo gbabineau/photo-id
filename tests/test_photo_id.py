@@ -53,8 +53,12 @@ class MockMenu(MagicMock):
 
 
 class TestMainWindow(unittest.TestCase):
-    @patch("photo_id.photo_id.get_taxonomy.ebird_taxonomy", return_value=[])
-    @patch("photo_id.photo_id.get_have_list.get_have_list", return_value=[])
+    @patch(
+        "photo_id.photo_id.get_taxonomy.ebird_taxonomy", return_value=["taxa"]
+    )
+    @patch(
+        "photo_id.photo_id.get_have_list.get_have_list", return_value=["have"]
+    )
     @patch("photo_id.photo_id.Tk", spec=MockTK)
     @patch("photo_id.photo_id.Menu", spec=MockMenu)
     def setUp(self, mock_menu, mock_tk, mock_get_have_list, mock_get_taxonomy):
@@ -64,8 +68,8 @@ class TestMainWindow(unittest.TestCase):
         self.main_window.root.destroy()
 
     def test_initialization(self):
-        self.assertEqual(self.main_window.have_list, unittest.mock.ANY)
-        self.assertEqual(self.main_window.taxonomy, unittest.mock.ANY)
+        self.assertEqual(self.main_window.have_list, ["have"])
+        self.assertEqual(self.main_window.taxonomy, ["taxa"])
 
     @patch(
         "photo_id.photo_id.filedialog.askopenfilename",
@@ -75,7 +79,7 @@ class TestMainWindow(unittest.TestCase):
     def test_match_open(self, mock_match_window, mock_askopenfilename):
         self.main_window.match_open()
         mock_match_window.assert_called_once_with(
-            "test_quiz.json", unittest.mock.ANY, []
+            "test_quiz.json", unittest.mock.ANY, unittest.mock.ANY
         )
 
     @patch(
