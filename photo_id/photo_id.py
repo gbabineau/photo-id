@@ -6,14 +6,18 @@ plumages.
 
 import argparse
 import logging
+from tkinter import Menu, Tk, filedialog, messagebox, simpledialog
+
 import tomllib
 
-from tkinter import messagebox, Tk, Menu, filedialog, simpledialog
-from photo_id import get_taxonomy
-from photo_id import get_have_list
-from photo_id import get_size_data
-from photo_id import match_window
-from photo_id import process_quiz
+from photo_id import (
+    get_ebird_api_key,
+    get_have_list,
+    get_size_data,
+    match_window,
+    process_quiz,
+    get_taxonomy,
+)
 
 
 class MainWindow:
@@ -24,7 +28,8 @@ class MainWindow:
     def __init__(self, default_have_list: str):
         self.have_list = []
         self.avonet_data = {}
-        self.taxonomy = get_taxonomy.ebird_taxonomy()
+        self.ebird_api_key = get_ebird_api_key.get_ebird_api_key()
+        self.taxonomy = get_taxonomy.get_taxonomy(self.ebird_api_key)
         if default_have_list != "":
             self.have_list = get_have_list.get_have_list(default_have_list)
         self.root = Tk()
@@ -66,6 +71,11 @@ class MainWindow:
             command=self.apply_avonet_data_to_quizzes,
         )
         file_menu.add_separator()
+        file_menu.add_command(
+            label="Process Trip Data",
+            command=self.process_trip,
+        )
+        file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
         menubar.add_cascade(label="File", menu=file_menu)
 
@@ -98,6 +108,10 @@ class MainWindow:
         )
         if filename != "":
             process_quiz.sort_quiz(filename, self.taxonomy)
+
+    def process_trip(self) -> None:
+        """Open a trip definition and build out a quiz from it."""
+        logging.info("Processing trip data")
 
     def read_avonet_data(self) -> None:
         """Read the avonet data from the cache file."""

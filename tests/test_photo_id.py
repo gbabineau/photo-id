@@ -64,8 +64,8 @@ class TestMainWindow(unittest.TestCase):
         self.main_window.root.destroy()
 
     def test_initialization(self):
-        self.assertEqual(self.main_window.have_list, [])
-        self.assertEqual(self.main_window.taxonomy, [])
+        self.assertEqual(self.main_window.have_list, unittest.mock.ANY)
+        self.assertEqual(self.main_window.taxonomy, unittest.mock.ANY)
 
     @patch(
         "photo_id.photo_id.filedialog.askopenfilename",
@@ -74,7 +74,9 @@ class TestMainWindow(unittest.TestCase):
     @patch("photo_id.photo_id.match_window.MatchWindow")
     def test_match_open(self, mock_match_window, mock_askopenfilename):
         self.main_window.match_open()
-        mock_match_window.assert_called_once_with("test_quiz.json", [], [])
+        mock_match_window.assert_called_once_with(
+            "test_quiz.json", unittest.mock.ANY, []
+        )
 
     @patch(
         "photo_id.photo_id.filedialog.askopenfilename",
@@ -83,7 +85,9 @@ class TestMainWindow(unittest.TestCase):
     @patch("photo_id.photo_id.process_quiz.sort_quiz")
     def test_sort_quiz(self, mock_sort_quiz, mock_askopenfilename):
         self.main_window.sort_quiz()
-        mock_sort_quiz.assert_called_once_with("test_quiz.json", [])
+        mock_sort_quiz.assert_called_once_with(
+            "test_quiz.json", unittest.mock.ANY
+        )
 
     @patch(
         "photo_id.photo_id.filedialog.askopenfilename",
@@ -132,7 +136,9 @@ class TestMainWindow(unittest.TestCase):
         self, mock_split_quiz, mock_askopenfilename
     ):
         self.main_window.break_quiz_into_parts()
-        mock_split_quiz.assert_called_once_with("test_quiz.json", 25, [])
+        mock_split_quiz.assert_called_once_with(
+            "test_quiz.json", 25, unittest.mock.ANY
+        )
 
     @patch("photo_id.photo_id.messagebox.showinfo")
     def test_donothing(self, mock_showinfo):

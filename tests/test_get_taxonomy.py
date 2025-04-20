@@ -22,7 +22,7 @@ class TestGetTaxonomy(unittest.TestCase):
         ) as mock_get_taxonomy:
             mock_isfile.return_value = True
             mock_get_taxonomy.return_value = test_json
-            taxonomy = photo_id.get_taxonomy.ebird_taxonomy()
+            taxonomy = photo_id.get_taxonomy.ebird_taxonomy("key")
             mock_file.assert_called_with(
                 ".cache/taxonomy", encoding="utf-8", mode="rt"
             )
@@ -37,7 +37,7 @@ class TestGetTaxonomy(unittest.TestCase):
         ) as mock_get_taxonomy:
             mock_isfile.return_value = False
             mock_get_taxonomy.return_value = test_json
-            taxonomy = photo_id.get_taxonomy.ebird_taxonomy()
+            taxonomy = photo_id.get_taxonomy.ebird_taxonomy("key")
             mock_file.assert_called_with(
                 ".cache/taxonomy", encoding="utf-8", mode="wt"
             )

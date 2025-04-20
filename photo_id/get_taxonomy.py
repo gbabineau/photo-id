@@ -6,9 +6,11 @@ import sys
 ebird_api_key_name = "EBIRDAPIKEY"
 
 
-def ebird_taxonomy() -> list:
+def ebird_taxonomy(ebird_api_key) -> list:
     """
     Retrieves the ebird taxonomy.
+    Args:
+        ebird_api_key (str): The ebird API key.
 
     Returns:
         list: The ebird taxonomy.
@@ -16,7 +18,6 @@ def ebird_taxonomy() -> list:
     taxonomy = []
     cache_file = ".cache/taxonomy"
     if not os.path.isfile(cache_file):
-        ebird_api_key = os.getenv(ebird_api_key_name)
         if ebird_api_key == "0":
             sys.exit(
                 "ebird API key must be specified in the "

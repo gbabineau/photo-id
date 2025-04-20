@@ -18,26 +18,13 @@
             ]
         },
         {
-            "name": "Photo ID - Version",
+            "name": "Process Trip",
             "type": "debugpy",
             "request": "launch",
-            "module": "photo_id.photo_id",
+            "program": "tests/integration/integration_process_trip.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": [
-                "--version",
-            ]
-        },
-        {
-            "name": "rest read",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "photo_id/process_quiz.py",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "args": [
-                "--verbose"
-            ]
+
         }
     ]
 }

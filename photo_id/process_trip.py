@@ -1,0 +1,239 @@
+import json
+import logging
+import sys
+from urllib.error import HTTPError
+from xml.etree.ElementTree import ParseError as XMLParseError
+from selenium import webdriver
+from bs4 import BeautifulSoup
+
+
+def get_species_from_hotspot_website(
+    hotspot_name: str,
+    hotspot_id: str,
+    ebird_username: str,
+    ebird_password: str,
+) -> list:
+    website = f"https://ebird.org/targets?region={hotspot_name}&r1={hotspot_id}&bmo=2&emo=2&r2=L604642&t2=year&mediaType="
+    website = website.replace(" ", "%20")
+    species = []
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+
+    driver = webdriver.Chrome(options=options)
+    try:
+        driver.get(website)
+        driver.implicitly_wait(10)
+        username = driver.find_element("id", "input-user-name")
+        username.send_keys(ebird_username)
+        password = driver.find_element("id", "input-password")
+        password.send_keys(ebird_password)
+        button = driver.find_element("id", "form-submit")
+
+        # Click the button
+        button.click()
+        driver.implicitly_wait(10)
+
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        species_list = soup.find_all(
+            "li",
+            class_="ResultsStats ResultsStats--action ResultsStats--toEdge",
+        )  # Replace with actual class name
+
+        for species_item in species_list:
+            species_name = species_item.find("div", "ResultsStats-title").text
+            species_name = species_name.strip()
+            species_frequency = species_item.find(
+                "div", "ResultsStats-stats"
+            ).text
+            species_frequency = species_frequency.strip()
+            species_frequency = float(species_frequency.split("%")[0].strip())
+            species.append(
+                {"comName": species_name, "frequency": species_frequency}
+            )
+    except (HTTPError, AttributeError, XMLParseError) as e:
+        logging.error(
+            "Error parsing website for hotspot '%s': %s", hotspot_name, str(e)
+        )
+    finally:
+        driver.quit()
+    return species
+
+
+def process_trip(trip_file: str) -> dict:
+    """
+    Processes a trip file and returns a dictionary with trip details and sorted species.
+
+    Parameters:
+    trip_file : The name of the trip file to process."
+    taxonomy : A list of dicts, each containing the common name and taxonomic order of a species."
+    """
+    try:
+        with open(trip_file, "rt", encoding="utf-8") as file:
+            trip_data = json.load(file)
+    except FileNotFoundError:
+        logging.error("The file '%s' was not found.", trip_file)
+        sys.exit(1)
+    except json.JSONDecodeError:
+        logging.error("Error decoding JSON from the file '%s'.", trip_file)
+        sys.exit(1)
+
+    # Check if the trip data is in the expected format
+    if not isinstance(trip_data, dict) or "itinerary" not in trip_data:
+        logging.error("Invalid trip data format in '%s'.", trip_file)
+        sys.exit(1)
+    return trip_data
+
+
+def get_ebird_data(
+    trip_data: dict, ebird_username: str, ebird_password: str
+) -> dict:
+    result = {
+        "name": trip_data["name"],
+        "location": trip_data["location"],
+        "description": trip_data["description"],
+        "website": trip_data["website"],
+        "date": trip_data["date"],
+        "start_month": trip_data["start_month"],
+        "end_month": trip_data["end_month"],
+    }
+    # Process the trip data to get the species
+    days = []
+    itinerary = trip_data["itinerary"]
+    for day in itinerary:
+        day["hotspot species"] = []
+        for hotspot in day.get("hotspots", []):
+            species_list = get_species_from_hotspot_website(
+                hotspot["name"],
+                hotspot["hotspotId"],
+                ebird_username,
+                ebird_password,
+            )
+            for species in species_list:
+                if species["comName"] not in [
+                    s["comName"] for s in day["hotspot species"]
+                ]:
+                    day["hotspot species"].append(
+                        {
+                            "comName": species["comName"],
+                            "frequency": [species["frequency"]],
+                        }
+                    )
+                else:
+                    for existing_species in day["hotspot species"]:
+                        if existing_species["comName"] == species["comName"]:
+                            existing_species["frequency"].append(
+                                species["frequency"]
+                            )
+                            break
+        # Average the frequencies for each species
+        for species_in_day in day["hotspot species"]:
+            species_in_day["frequency"] = sum(
+                species_in_day["frequency"]
+            ) / len(species_in_day["frequency"])
+
+        days.append(day)
+    result["itinerary"] = days
+
+    return result
+
+
+def add_taxonomy(with_ebird_species_data: list, taxonomy: list) -> list:
+    """Add taxonomy data to the species in the trip data.
+    Args:
+        with_ebird_species_data (list): The trip data with eBird species data.
+        taxonomy (list): The taxonomy data to add.
+    Returns:
+        list: The trip data with added taxonomy data.
+    """
+    for day in with_ebird_species_data:
+        for species in day["hotspot species"]:
+            for taxon in taxonomy:
+                if species["comName"] == taxon["comName"]:
+                    for key in taxon.keys():
+                        if key not in species.keys():
+                            species[key] = taxon[key]
+                    break
+    return with_ebird_species_data
+
+
+def add_mentions(trip_data: list, taxonomy: list) -> list:
+    for day in trip_data:
+        for species in day.get("mentioned", []):
+            taxon_entry = next(
+                (taxon for taxon in taxonomy if taxon["comName"] == species),
+                None,
+            )
+            if not taxon_entry:
+                logging.warning(
+                    "Taxon entry for '%s' not found in taxonomy.", species
+                )
+            else:
+                found = False
+                for hotspot_species in day["hotspot species"]:
+                    if species == hotspot_species["comName"]:
+                        hotspot_species["notes"] = "Mentioned in trip data"
+                        found = True
+                        break
+                if not found:
+                    day["hotspot species"].append(
+                        {"comName": species, "notes": "Mentioned in trip data"}
+                    )
+    return trip_data
+
+
+def keep_high_frequency(trip_data: list, frequency: float) -> list:
+    for day in trip_data:
+        day["hotspot species"] = [
+            species
+            for species in day["hotspot species"]
+            if species.get("frequency", 100.0) / 100 >= frequency
+        ]
+    return trip_data
+
+
+def sort_species_by_taxonomy(trip_data: list) -> list:
+    for day in trip_data:
+        day["hotspot species"] = sorted(
+            day["hotspot species"], key=lambda x: x.get("taxonOrder", 0)
+        )
+    return trip_data
+
+
+def split_quiz(trip_data: dict) -> list:
+    quizzes = []
+    trip_location = trip_data.get("location", None)
+    trip_start_month = trip_data.get("start_month", 1)
+    trip_end_month = trip_data.get("end_month", 12)
+    for day in trip_data["itinerary"]:
+        quiz = {
+            "start_month": trip_start_month
+            if trip_start_month
+            else day.get("start_month", 1),
+            "end_month": trip_end_month
+            if trip_end_month
+            else day.get("end_month", 12),
+            "location": trip_location
+            if trip_location
+            else day.get("location", None),
+            "basis": "Trip data automatically generated from trip file",
+            "species": day["hotspot species"],
+            "day": day.get("day", 1),
+        }
+        if day.get("AM_title"):
+            quiz["title"] = (
+                f"Morning: {day['AM_title']}. Afternoon: {day.get('PM_title', '')}"
+            )
+        else:
+            quiz["title"] = f"Full: {day.get('Full day title', '')}."
+        quizzes.append(quiz)
+
+    return quizzes
+
+
+def write_quiz_to_file(quiz: dict, output_file: str) -> None:
+    with open(output_file, "wt", encoding="utf-8") as file:
+        json.dump(quiz, file, indent=4)
+    print(f"Quiz data written to {output_file}")
