@@ -44,6 +44,7 @@ def get_species_from_hotspot_website(
 
         for species_item in species_list:
             species_name = species_item.find("div", "ResultsStats-title").text
+            species_name = species_name.split("Exotic")[0].strip()
             species_name = species_name.strip()
             species_frequency = species_item.find(
                 "div", "ResultsStats-stats"
@@ -237,3 +238,37 @@ def write_quiz_to_file(quiz: dict, output_file: str) -> None:
     with open(output_file, "wt", encoding="utf-8") as file:
         json.dump(quiz, file, indent=4)
     print(f"Quiz data written to {output_file}")
+
+
+def _find_and_remove_shared_species(day, next_day):
+    """Helper function to remove shared species between two days."""
+    to_remove_from_next_day = []
+    to_remove_from_day = []
+
+    for species in day["hotspot species"]:
+        com_name = species["comName"]
+        for next_species in next_day["hotspot species"]:
+            if com_name == next_species["comName"]:
+                if species.get("frequency", 0) > next_species.get(
+                    "frequency", 0
+                ):
+                    to_remove_from_next_day.append(next_species)
+                else:
+                    to_remove_from_day.append(species)
+                break
+
+    for species in to_remove_from_next_day:
+        next_day["hotspot species"].remove(species)
+    for species in to_remove_from_day:
+        if species in day["hotspot species"]:
+            day["hotspot species"].remove(species)
+
+
+def remove_species_shared_in_common(trip_data: list) -> list:
+    """Remove species that are shared in common between days, keeping only the occurrence with the highest probability."""
+
+    for i, day in enumerate(trip_data):
+        for j in range(i + 1, len(trip_data)):
+            _find_and_remove_shared_species(day, trip_data[j])
+
+    return trip_data
