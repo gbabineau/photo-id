@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 import sys
 from urllib.error import HTTPError
 from xml.etree.ElementTree import ParseError as XMLParseError
@@ -13,7 +14,12 @@ def get_species_from_hotspot_website(
     ebird_username: str,
     ebird_password: str,
 ) -> list:
-    website = f"https://ebird.org/targets?region={hotspot_name}&r1={hotspot_id}&bmo=2&emo=2&r2=L604642&t2=year&mediaType="
+    logging.info(
+        "Getting species from hotspot website: %s (%s)",
+        hotspot_name,
+        hotspot_id,
+    )
+    website = f"https://ebird.org/targets?r1={hotspot_id}&bmo=2&emo=2&r2=L604642&t2=year&mediaType="
     website = website.replace(" ", "%20")
     species = []
     options = webdriver.ChromeOptions()
@@ -23,9 +29,9 @@ def get_species_from_hotspot_website(
     options.add_argument("--disable-dev-shm-usage")
 
     driver = webdriver.Chrome(options=options)
+    driver.implicitly_wait(300)
     try:
         driver.get(website)
-        driver.implicitly_wait(10)
         username = driver.find_element("id", "input-user-name")
         username.send_keys(ebird_username)
         password = driver.find_element("id", "input-password")
@@ -34,13 +40,20 @@ def get_species_from_hotspot_website(
 
         # Click the button
         button.click()
-        driver.implicitly_wait(10)
 
         soup = BeautifulSoup(driver.page_source, "html.parser")
         species_list = soup.find_all(
             "li",
             class_="ResultsStats ResultsStats--action ResultsStats--toEdge",
         )  # Replace with actual class name
+        if len(species_list) == 0:
+            logging.error(
+                "No species found for hotspot '%s' with ID '%s'.",
+                hotspot_name,
+                hotspot_id,
+            )
+            driver.save_screenshot("no_species_found.png")
+            sys.exit(1)
 
         for species_item in species_list:
             species_name = species_item.find("div", "ResultsStats-title").text
@@ -60,6 +73,37 @@ def get_species_from_hotspot_website(
         )
     finally:
         driver.quit()
+
+    logging.info(
+        "Found %d species for hotspot '%s' with ID '%s'.",
+        len(species),
+        hotspot_name,
+        hotspot_id,
+    )
+    return species
+
+
+def get_cached_species_from_hotspot_website(
+    cache_directory: str,
+    hotspot_name: str,
+    hotspot_id: str,
+    ebird_username: str,
+    ebird_password: str,
+) -> list:
+    cache_subdirectory = os.path.join(cache_directory, "hotspots")
+    if not os.path.exists(cache_subdirectory):
+        os.makedirs(cache_subdirectory, exist_ok=True)
+    cache_name = f"{os.path.join(cache_subdirectory, hotspot_id)}.json"
+    if not os.path.exists(cache_name):
+        species = get_species_from_hotspot_website(
+            hotspot_name, hotspot_id, ebird_username, ebird_password
+        )
+        if len(species) > 0:
+            with open(cache_name, "wt", encoding="utf-8") as file:
+                json.dump(species, file)
+    else:
+        with open(cache_name, "rt", encoding="utf-8") as file:
+            species = json.load(file)
     return species
 
 
@@ -89,7 +133,10 @@ def process_trip(trip_file: str) -> dict:
 
 
 def get_ebird_data(
-    trip_data: dict, ebird_username: str, ebird_password: str
+    trip_data: dict,
+    ebird_username: str,
+    ebird_password: str,
+    cache_directory: str,
 ) -> dict:
     result = {
         "name": trip_data["name"],
@@ -106,7 +153,8 @@ def get_ebird_data(
     for day in itinerary:
         day["hotspot species"] = []
         for hotspot in day.get("hotspots", []):
-            species_list = get_species_from_hotspot_website(
+            species_list = get_cached_species_from_hotspot_website(
+                cache_directory,
                 hotspot["name"],
                 hotspot["hotspotId"],
                 ebird_username,
@@ -203,7 +251,7 @@ def sort_species_by_taxonomy(trip_data: list) -> list:
     return trip_data
 
 
-def split_quiz(trip_data: dict) -> list:
+def split_trip(trip_data: dict) -> list:
     quizzes = []
     trip_location = trip_data.get("location", None)
     trip_start_month = trip_data.get("start_month", 1)
@@ -249,7 +297,15 @@ def _find_and_remove_shared_species(day, next_day):
         com_name = species["comName"]
         for next_species in next_day["hotspot species"]:
             if com_name == next_species["comName"]:
-                if species.get("frequency", 0) > next_species.get(
+                # if it is mentioned on the first day, remove it from the next day
+                if species.get("notes"):
+                    to_remove_from_next_day.append(next_species)
+                elif next_species.get("notes"):
+                    # if it is mentioned on the next day, remove it from the first day
+                    to_remove_from_day.append(species)
+                # otherwise if the first one has a higher or equal frequency, remove the next one
+                # else remove the first one
+                elif species.get("frequency", 0) >= next_species.get(
                     "frequency", 0
                 ):
                     to_remove_from_next_day.append(next_species)

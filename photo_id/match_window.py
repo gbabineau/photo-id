@@ -173,7 +173,9 @@ class SpeciesFrame(ttk.Frame):
         current_row = current_row + 1
         if species_frequency > 0:
             self.bird_frequency = Label(
-                self, text=f"Frequency: {species_frequency}%", justify="left"
+                self,
+                text=f"Frequency: {species_frequency:.2f}%",
+                justify="left",
             )
             self.bird_frequency.grid(row=current_row, column=0)
             current_row = current_row + 1

@@ -1,7 +1,7 @@
 import json
+import logging
 import os
 import photo_id.process_trip as process_trip
-import photo_id.process_quiz as process_quiz
 
 import photo_id.get_taxonomy as get_taxonomy
 
@@ -42,6 +42,7 @@ class Cache:
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     ebird_api_key = get_ebird_api_key()
     ebird_username = os.getenv("EBIRD_USERNAME")
     ebird_password = os.getenv("EBIRD_PASSWORD")
@@ -59,7 +60,10 @@ if __name__ == "__main__":
 
     if (new_data := trip_cache.available("EBIRD")) == {}:
         trip_data = process_trip.get_ebird_data(
-            trip_data, ebird_username, ebird_password
+            trip_data,
+            ebird_username,
+            ebird_password,
+            cache_directory=cache_directory,
         )
         trip_cache.update("EBIRD", trip_data)
     else:
@@ -93,14 +97,8 @@ if __name__ == "__main__":
     )
 
     # break this into quizzes by day
-    max_size = 30
-
-    quizzes = process_trip.split_quiz(trip_data)
-    os.makedirs(f"{cache_directory}/quizzes", exist_ok=True)
+    quizzes = process_trip.split_trip(trip_data)
+    os.makedirs(f"{trip_directory}/generated_quizzes", exist_ok=True)
     for quiz in quizzes:
-        output_file = (
-            f"{cache_directory}/quizzes/{trip_title}-Day-{quiz['day']}.json"
-        )
+        output_file = f"{trip_directory}/generated_quizzes/Day {quiz['day']} with {len(quiz['species'])} species.json"
         process_trip.write_quiz_to_file(quiz, output_file)
-        if len(quiz["species"]) > max_size:
-            process_quiz.split_quiz(output_file, max_size, taxonomy)
