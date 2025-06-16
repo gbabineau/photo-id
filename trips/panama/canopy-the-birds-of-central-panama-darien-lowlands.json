@@ -6,6 +6,7 @@
     "location" : "PA",
     "start_month": 2,
     "end_month": 2,
+    "minimum_frequency" : 9.0,
     "itinerary" : [
         {
             "day" : "1",

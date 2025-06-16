@@ -288,11 +288,11 @@ def split_trip(trip_data: dict) -> list:
             "day": day.get("day", 1),
         }
         if day.get("AM_title"):
-            quiz["title"] = (
+            quiz["notes"] = (
                 f"Morning: {day['AM_title']}. Afternoon: {day.get('PM_title', '')}"
             )
         else:
-            quiz["title"] = f"Full: {day.get('Full day title', '')}."
+            quiz["notes"] = f"Full: {day.get('Full day title', '')}."
         quizzes.append(quiz)
 
     return quizzes
