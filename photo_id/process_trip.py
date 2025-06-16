@@ -13,13 +13,15 @@ def get_species_from_hotspot_website(
     hotspot_id: str,
     ebird_username: str,
     ebird_password: str,
+    begin_month: int,
+    end_month: int,
 ) -> list:
     logging.info(
         "Getting species from hotspot website: %s (%s)",
         hotspot_name,
         hotspot_id,
     )
-    website = f"https://ebird.org/targets?r1={hotspot_id}&bmo=2&emo=2&r2=L604642&t2=year&mediaType="
+    website = f"https://ebird.org/targets?r1={hotspot_id}&bmo={begin_month}&emo={end_month}&r2={hotspot_id}&t2=year&mediaType="
     website = website.replace(" ", "%20")
     species = []
     options = webdriver.ChromeOptions()
@@ -89,6 +91,8 @@ def get_cached_species_from_hotspot_website(
     hotspot_id: str,
     ebird_username: str,
     ebird_password: str,
+    begin_month: int,
+    end_month: int,
 ) -> list:
     cache_subdirectory = os.path.join(cache_directory, "hotspots")
     if not os.path.exists(cache_subdirectory):
@@ -96,7 +100,12 @@ def get_cached_species_from_hotspot_website(
     cache_name = f"{os.path.join(cache_subdirectory, hotspot_id)}.json"
     if not os.path.exists(cache_name):
         species = get_species_from_hotspot_website(
-            hotspot_name, hotspot_id, ebird_username, ebird_password
+            hotspot_name,
+            hotspot_id,
+            ebird_username,
+            ebird_password,
+            begin_month=begin_month,
+            end_month=end_month,
         )
         if len(species) > 0:
             with open(cache_name, "wt", encoding="utf-8") as file:
@@ -146,6 +155,7 @@ def get_ebird_data(
         "date": trip_data["date"],
         "start_month": trip_data["start_month"],
         "end_month": trip_data["end_month"],
+        "minimum_frequency": trip_data.get("minimum_frequency", 0.0),
     }
     # Process the trip data to get the species
     days = []
@@ -159,24 +169,30 @@ def get_ebird_data(
                 hotspot["hotspotId"],
                 ebird_username,
                 ebird_password,
+                begin_month=trip_data["start_month"],
+                end_month=trip_data["end_month"],
             )
             for species in species_list:
-                if species["comName"] not in [
-                    s["comName"] for s in day["hotspot species"]
-                ]:
-                    day["hotspot species"].append(
-                        {
-                            "comName": species["comName"],
-                            "frequency": [species["frequency"]],
-                        }
-                    )
-                else:
-                    for existing_species in day["hotspot species"]:
-                        if existing_species["comName"] == species["comName"]:
-                            existing_species["frequency"].append(
-                                species["frequency"]
-                            )
-                            break
+                if species["frequency"] >= trip_data["minimum_frequency"]:
+                    if species["comName"] not in [
+                        s["comName"] for s in day["hotspot species"]
+                    ]:
+                        day["hotspot species"].append(
+                            {
+                                "comName": species["comName"],
+                                "frequency": [species["frequency"]],
+                            }
+                        )
+                    else:
+                        for existing_species in day["hotspot species"]:
+                            if (
+                                existing_species["comName"]
+                                == species["comName"]
+                            ):
+                                existing_species["frequency"].append(
+                                    species["frequency"]
+                                )
+                                break
         # Average the frequencies for each species
         for species_in_day in day["hotspot species"]:
             species_in_day["frequency"] = sum(

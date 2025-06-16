@@ -46,9 +46,9 @@ if __name__ == "__main__":
     ebird_api_key = get_ebird_api_key()
     ebird_username = os.getenv("EBIRD_USERNAME")
     ebird_password = os.getenv("EBIRD_PASSWORD")
-    trip_directory = "trips/panama"
+    trip_directory = "trips/Colorado"
     cache_directory = ".cache"
-    trip_title = "canopy-the-birds-of-central-panama-darien-lowlands"
+    trip_title = "colorado-rocky-mountain-arsenal-nwr-and-rocky-mountain-np"
     taxonomy = []
     trip_cache = Cache(cache_directory, trip_title)
     if (trip_data := trip_cache.available("ITINERARY")) == {}:
