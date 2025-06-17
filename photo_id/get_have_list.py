@@ -8,8 +8,8 @@ range of your list, then downloading the list through
 the “Download (csv)” link near the upper-right corner of the page.
 """
 
-import logging
 import csv
+import logging
 
 
 def get_have_list(name: str) -> list:

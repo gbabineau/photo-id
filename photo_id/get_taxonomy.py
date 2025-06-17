@@ -1,7 +1,8 @@
-from ebird.api import get_taxonomy
 import json
 import os
 import sys
+
+from ebird.api import get_taxonomy
 
 ebird_api_key_name = "EBIRDAPIKEY"
 

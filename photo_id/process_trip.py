@@ -4,8 +4,9 @@ import os
 import sys
 from urllib.error import HTTPError
 from xml.etree.ElementTree import ParseError as XMLParseError
-from selenium import webdriver
+
 from bs4 import BeautifulSoup
+from selenium import webdriver
 
 
 def get_species_from_hotspot_website(
@@ -343,4 +344,5 @@ def remove_species_shared_in_common(trip_data: list) -> list:
         for j in range(i + 1, len(trip_data)):
             _find_and_remove_shared_species(day, trip_data[j])
 
+    return trip_data
     return trip_data

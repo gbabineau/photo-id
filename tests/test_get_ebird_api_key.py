@@ -1,5 +1,6 @@
 import pytest
-from photo_id.get_ebird_api_key import get_ebird_api_key, ebird_api_key_name
+
+from photo_id.get_ebird_api_key import ebird_api_key_name, get_ebird_api_key
 
 
 def test_get_ebird_api_key_valid(monkeypatch):
@@ -20,4 +21,5 @@ def test_get_ebird_api_key_invalid(monkeypatch):
     with pytest.raises(SystemExit) as excinfo:
         get_ebird_api_key()
     assert excinfo.type is SystemExit
+    assert "ebird API key must be specified" in str(excinfo.value)
     assert "ebird API key must be specified" in str(excinfo.value)

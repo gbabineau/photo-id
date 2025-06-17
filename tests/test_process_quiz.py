@@ -137,11 +137,13 @@ class TestProcessQuizFile(unittest.TestCase):
             ],
         }
         # Now Test
-        with mock.patch(
-            "photo_id.process_quiz.logging.info"
-        ) as mock_logging, mock.patch(
-            "builtins.open", mock.mock_open(read_data=json.dumps(test_json))
-        ) as mock_file:
+        with (
+            mock.patch("photo_id.process_quiz.logging.info") as mock_logging,
+            mock.patch(
+                "builtins.open",
+                mock.mock_open(read_data=json.dumps(test_json)),
+            ) as mock_file,
+        ):
             result = photo_id.process_quiz.process_quiz_file(
                 "quiz.json", taxonomy
             )
@@ -415,9 +417,7 @@ class TestApplyAvonetData(unittest.TestCase):
     )
     def test_apply_avonet_data_file_not_found(self, mock_json_load, mock_open):
         with self.assertRaises(SystemExit):
-            photo_id.process_quiz.apply_avonet_data(
-                "nonexistent_file.json", {}
-            )
+            photo_id.process_quiz.apply_avonet_data("nonexistent_file.json", {})
         mock_open.assert_called_once_with(
             "nonexistent_file.json", encoding="utf-8", mode="rt"
         )
@@ -502,9 +502,7 @@ class TestApplyAvonetData(unittest.TestCase):
     def test_apply_avonet_data_missing_sci_name(
         self, mock_logging_warning, mock_json_load, mock_open
     ):
-        mock_json_load.return_value = {
-            "species": [{"comName": "Unknown Bird"}]
-        }
+        mock_json_load.return_value = {"species": [{"comName": "Unknown Bird"}]}
         avonet_data = {}
         photo_id.process_quiz.apply_avonet_data(
             "file_with_missing_sci_name.json", avonet_data

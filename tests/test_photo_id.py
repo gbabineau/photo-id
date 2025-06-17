@@ -1,6 +1,7 @@
 import logging
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
+
 from photo_id.photo_id import MainWindow
 
 
@@ -97,9 +98,7 @@ class TestMainWindow(unittest.TestCase):
         "photo_id.photo_id.filedialog.askopenfilename",
         return_value="test_target.txt",
     )
-    @patch(
-        "photo_id.photo_id.simpledialog.askinteger", side_effect=[10, 1, 12]
-    )
+    @patch("photo_id.photo_id.simpledialog.askinteger", side_effect=[10, 1, 12])
     @patch("photo_id.photo_id.simpledialog.askstring", return_value="NO")
     @patch(
         "photo_id.photo_id.filedialog.asksaveasfilename",
@@ -136,9 +135,7 @@ class TestMainWindow(unittest.TestCase):
         return_value="test_quiz.json",
     )
     @patch("photo_id.photo_id.process_quiz.split_quiz")
-    def test_break_quiz_into_parts(
-        self, mock_split_quiz, mock_askopenfilename
-    ):
+    def test_break_quiz_into_parts(self, mock_split_quiz, mock_askopenfilename):
         self.main_window.break_quiz_into_parts()
         mock_split_quiz.assert_called_once_with(
             "test_quiz.json", 25, unittest.mock.ANY
@@ -209,4 +206,5 @@ class TestMainFunction(unittest.TestCase):
 
         # Assertions
         mock_arg_parser.return_value.parse_args.assert_called_once()
+        mock_main_window.assert_called_once_with("test_have_list.csv")
         mock_main_window.assert_called_once_with("test_have_list.csv")

@@ -6,8 +6,8 @@ import json
 import logging
 import pathlib
 import re
-import typing
 import sys
+import typing
 
 
 def sorted_species(initial_list: list, taxonomy: list) -> list:
@@ -34,8 +34,7 @@ def sorted_species(initial_list: list, taxonomy: list) -> list:
         if entry is None:
             logging.info("Species not found %s", species["comName"])
         elif any(
-            res["comName"].upper() == entry["comName"].upper()
-            for res in result
+            res["comName"].upper() == entry["comName"].upper() for res in result
         ):
             logging.info("Duplicate species removed %s", species["comName"])
         else:

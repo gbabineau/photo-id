@@ -1,18 +1,20 @@
 import json
-import requests
 import unittest
 import zipfile
 from unittest import mock
 from unittest.mock import MagicMock
+
+import requests
+
 from photo_id.get_size_data import (
-    read_xlsx_to_dict,
     download_file,
     extract_file_from_zip,
-    write_dict_to_json,
-    read_dict_from_json,
     get_new_avonet_data,
     process_avonet_data,
     read_cached_avonet_data,
+    read_dict_from_json,
+    read_xlsx_to_dict,
+    write_dict_to_json,
 )
 
 
@@ -337,9 +339,7 @@ class TestReadDictFromJson(unittest.TestCase):
         side_effect=json.JSONDecodeError("Expecting value", "doc", 0),
     )
     @mock.patch("photo_id.get_size_data.logging.error")
-    def test_json_decode_error(
-        self, mock_log_error, mock_json_load, mock_open
-    ):
+    def test_json_decode_error(self, mock_log_error, mock_json_load, mock_open):
         result = read_dict_from_json("dummy_path")
         self.assertEqual(result, {})
         mock_log_error.assert_called_with(
@@ -505,9 +505,7 @@ class TestReadCachedAvonetData(unittest.TestCase):
         side_effect=json.JSONDecodeError("Expecting value", "doc", 0),
     )
     @mock.patch("photo_id.get_size_data.logging.error")
-    def test_json_decode_error(
-        self, mock_log_error, mock_json_load, mock_open
-    ):
+    def test_json_decode_error(self, mock_log_error, mock_json_load, mock_open):
         result = read_cached_avonet_data()
         self.assertEqual(result, {})
         mock_log_error.assert_called_with(

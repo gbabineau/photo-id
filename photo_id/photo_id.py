@@ -6,17 +6,16 @@ plumages.
 
 import argparse
 import logging
-from tkinter import Menu, Tk, filedialog, messagebox, simpledialog
-
 import tomllib
+from tkinter import Menu, Tk, filedialog, messagebox, simpledialog
 
 from photo_id import (
     get_ebird_api_key,
     get_have_list,
     get_size_data,
+    get_taxonomy,
     match_window,
     process_quiz,
-    get_taxonomy,
 )
 
 
@@ -212,9 +211,7 @@ def main():
     with open("pyproject.toml", "rb") as f:
         pyproject_data = tomllib.load(f)
     version = (
-        pyproject_data.get("tool", {})
-        .get("poetry", {})
-        .get("version", "0.0.0")
+        pyproject_data.get("tool", {}).get("poetry", {}).get("version", "0.0.0")
     )
     arg_parser.add_argument(
         "--version", action="version", version=f"%(prog)s {version}"
