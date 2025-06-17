@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import pathlib
 import sys
 from urllib.error import HTTPError
 from xml.etree.ElementTree import ParseError as XMLParseError
@@ -51,12 +52,12 @@ def get_species_from_hotspot_website(
         )  # Replace with actual class name
         if len(species_list) == 0:
             logging.error(
-                "No species found for hotspot '%s' with ID '%s'.",
+                "No species found for hotspot '%s' with ID '%s'. Will retry.",
                 hotspot_name,
                 hotspot_id,
             )
             driver.save_screenshot("no_species_found.png")
-            sys.exit(1)
+            return []
 
         for species_item in species_list:
             species_name = species_item.find("div", "ResultsStats-title").text
@@ -95,19 +96,30 @@ def get_cached_species_from_hotspot_website(
     begin_month: int,
     end_month: int,
 ) -> list:
+    """Retrieves species data from a cached file or fetches it from the eBird website."""
     cache_subdirectory = os.path.join(cache_directory, "hotspots")
     if not os.path.exists(cache_subdirectory):
         os.makedirs(cache_subdirectory, exist_ok=True)
     cache_name = f"{os.path.join(cache_subdirectory, hotspot_id)}.json"
     if not os.path.exists(cache_name):
-        species = get_species_from_hotspot_website(
-            hotspot_name,
-            hotspot_id,
-            ebird_username,
-            ebird_password,
-            begin_month=begin_month,
-            end_month=end_month,
-        )
+        attempts = 0
+        species = []
+        while attempts < 3 and not species:
+            species = get_species_from_hotspot_website(
+                hotspot_name,
+                hotspot_id,
+                ebird_username,
+                ebird_password,
+                begin_month=begin_month,
+                end_month=end_month,
+            )
+            attempts += 1
+        if attempts >= 3:
+            logging.error(
+                "Failed to retrieve species for hotspot '%s' after 3 attempts.",
+                hotspot_name,
+            )
+            sys.exit(1)
         if len(species) > 0:
             with open(cache_name, "wt", encoding="utf-8") as file:
                 json.dump(species, file)
@@ -392,3 +404,91 @@ def remove_species_shared_in_common(trip_data: list) -> list:
             _find_and_remove_shared_species(day, trip_data[j])
 
     return trip_data
+
+
+cache_valid = True
+
+
+class Cache:
+    """A class to manage caching of trip data."""
+
+    def __init__(self, directory, title, starting_valid=True):
+        self.cache_valid = starting_valid
+        self.cache_directory = directory
+        self.trip_title = title
+
+    def available(self, cache_type) -> dict:
+        """
+        Check if the cache file is available and return its content if it exists.
+        """
+        cache_file = os.path.join(
+            self.cache_directory, f"{self.trip_title}_{cache_type}.json"
+        )
+        if cache_valid and os.path.exists(cache_file):
+            with open(cache_file, "rt", encoding="utf-8") as input_file:
+                return json.load(input_file)
+        return {}
+
+    def update(self, cache_type, data) -> None:
+        """
+        Update the cache file with the given data.
+        """
+        os.makedirs(self.cache_directory, exist_ok=True)
+        cache_file = os.path.join(
+            self.cache_directory, f"{self.trip_title}_{cache_type}.json"
+        )
+        with open(cache_file, "wt", encoding="utf-8") as output_file:
+            json.dump(data, output_file, indent=4)
+        self.cache_valid = False
+
+
+def create_quizes_from_trip_data(
+    trip_file: pathlib.Path, username: str, password: str, taxonomy: list
+) -> None:
+    """Create quizzes from trip data by processing the trip file and generating
+    quizzes for each day."""
+    trip_title = trip_file.stem
+    trip_directory = trip_file.parent.resolve()
+    cache_directory = ".cache"
+    trip_cache = Cache(cache_directory, trip_title)
+    if (trip_data := trip_cache.available("ITINERARY")) == {}:
+        trip_data = process_trip(
+            str(trip_file.resolve()),
+        )
+
+        trip_cache.update("ITINERARY", trip_data)
+
+    if (new_data := trip_cache.available("EBIRD")) == {}:
+        trip_data = get_ebird_data(
+            trip_data,
+            username,
+            password,
+            cache_directory=cache_directory,
+        )
+        trip_cache.update("EBIRD", trip_data)
+    else:
+        trip_data = new_data
+
+    trip_data["itinerary"] = add_mentions(trip_data["itinerary"], taxonomy)
+
+    if (new_data := trip_cache.available("TAXONOMY")) == {}:
+        trip_data["itinerary"] = add_taxonomy(trip_data["itinerary"], taxonomy)
+
+        trip_cache.update("TAXONOMY", trip_data)
+    else:
+        trip_data = new_data
+
+    trip_data["itinerary"] = keep_high_frequency(trip_data["itinerary"], 0.01)
+
+    trip_data["itinerary"] = sort_species_by_taxonomy(trip_data["itinerary"])
+
+    trip_data["itinerary"] = remove_species_shared_in_common(
+        trip_data["itinerary"]
+    )
+
+    # break this into quizzes by day
+    quizzes = split_trip(trip_data)
+    os.makedirs(f"{trip_directory}/generated_quizzes", exist_ok=True)
+    for quiz in quizzes:
+        output_file = f"{trip_directory}/generated_quizzes/Day {quiz['day']} with {len(quiz['species'])} species.json"
+        write_quiz_to_file(quiz, output_file)

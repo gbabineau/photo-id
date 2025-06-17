@@ -6,6 +6,8 @@ plumages.
 
 import argparse
 import logging
+import os
+import pathlib
 import tomllib
 from tkinter import Menu, Tk, filedialog, messagebox, simpledialog
 
@@ -16,6 +18,7 @@ from photo_id import (
     get_taxonomy,
     match_window,
     process_quiz,
+    process_trip,
 )
 
 
@@ -28,6 +31,8 @@ class MainWindow:
         self.have_list = []
         self.avonet_data = {}
         self.ebird_api_key = get_ebird_api_key.get_ebird_api_key()
+        self.ebird_username = os.getenv("EBIRD_USERNAME")
+        self.ebird_password = os.getenv("EBIRD_PASSWORD")
         self.taxonomy = get_taxonomy.ebird_taxonomy(self.ebird_api_key)
         if default_have_list != "":
             self.have_list = get_have_list.get_have_list(default_have_list)
@@ -40,9 +45,13 @@ class MainWindow:
         )
         file_menu.add_separator()
         file_menu.add_command(
-            label="Open Have List", command=self.have_list_open
+            label="Process Trip Data",
+            command=self.process_trip,
         )
         file_menu.add_separator()
+        file_menu.add_command(
+            label="Open Have List", command=self.have_list_open
+        )
         file_menu.add_command(
             label="Taxonomic Sort Quiz", command=self.sort_quiz
         )
@@ -69,11 +78,7 @@ class MainWindow:
             label="Add Avonet data to quiz(s)",
             command=self.apply_avonet_data_to_quizzes,
         )
-        file_menu.add_separator()
-        file_menu.add_command(
-            label="Process Trip Data",
-            command=self.process_trip,
-        )
+
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
         menubar.add_cascade(label="File", menu=file_menu)
@@ -110,7 +115,18 @@ class MainWindow:
 
     def process_trip(self) -> None:
         """Open a trip definition and build out a quiz from it."""
-        logging.info("Processing trip data")
+        filename = filedialog.askopenfilename(
+            title="Select a Have List File",
+            initialdir="trips",
+            filetypes=[("JSON files", "*.json")],
+        )
+        if filename != "":
+            process_trip.create_quizes_from_trip_data(
+                pathlib.Path(filename),
+                username=self.ebird_username,
+                password=self.ebird_password,
+                taxonomy=self.taxonomy,
+            )
 
     def read_avonet_data(self) -> None:
         """Read the avonet data from the cache file."""
@@ -233,4 +249,5 @@ def main():
 
 
 if __name__ == "__main__":
+    main()
     main()
