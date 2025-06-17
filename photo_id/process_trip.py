@@ -142,6 +142,57 @@ def process_trip(trip_file: str) -> dict:
     return trip_data
 
 
+def update_species_frequency(
+    species: dict, trip_data: dict, hotspot_species: list
+) -> None:
+    if species["frequency"] >= trip_data["minimum_frequency"]:
+        if species["comName"] not in [s["comName"] for s in hotspot_species]:
+            hotspot_species.append(
+                {
+                    "comName": species["comName"],
+                    "frequency": [species["frequency"]],
+                }
+            )
+        else:
+            for existing_species in hotspot_species:
+                if existing_species["comName"] == species["comName"]:
+                    existing_species["frequency"].append(species["frequency"])
+                    break
+
+
+def get_hotspot_species(
+    hotspots, trip_data, cache_directory, ebird_username, ebird_password
+) -> list:
+    hotspot_species = []
+    for hotspot in hotspots:
+        species_list = get_cached_species_from_hotspot_website(
+            cache_directory,
+            hotspot["name"],
+            hotspot["hotspotId"],
+            ebird_username,
+            ebird_password,
+            begin_month=trip_data["start_month"],
+            end_month=trip_data["end_month"],
+        )
+        for species in species_list:
+            update_species_frequency(
+                species=species,
+                trip_data=trip_data,
+                hotspot_species=hotspot_species,
+            )
+
+    # Average the frequencies for each species
+    for species_in_day in hotspot_species:
+        species_in_day["frequency"] = round(
+            sum(species_in_day["frequency"]) / len(species_in_day["frequency"]),
+            2,
+        )
+    return hotspot_species
+
+
+HOTSPOT_SPECIES_KEY = "hotspot species"
+
+
 def get_ebird_data(
     trip_data: dict,
     ebird_username: str,
@@ -162,48 +213,42 @@ def get_ebird_data(
     days = []
     itinerary = trip_data["itinerary"]
     for day in itinerary:
-        day["hotspot species"] = []
-        for hotspot in day.get("hotspots", []):
-            species_list = get_cached_species_from_hotspot_website(
-                cache_directory,
-                hotspot["name"],
-                hotspot["hotspotId"],
-                ebird_username,
-                ebird_password,
-                begin_month=trip_data["start_month"],
-                end_month=trip_data["end_month"],
-            )
-            for species in species_list:
-                if species["frequency"] >= trip_data["minimum_frequency"]:
-                    if species["comName"] not in [
-                        s["comName"] for s in day["hotspot species"]
-                    ]:
-                        day["hotspot species"].append(
-                            {
-                                "comName": species["comName"],
-                                "frequency": [species["frequency"]],
-                            }
-                        )
-                    else:
-                        for existing_species in day["hotspot species"]:
-                            if (
-                                existing_species["comName"]
-                                == species["comName"]
-                            ):
-                                existing_species["frequency"].append(
-                                    species["frequency"]
-                                )
-                                break
-        # Average the frequencies for each species
-        for species_in_day in day["hotspot species"]:
-            species_in_day["frequency"] = sum(
-                species_in_day["frequency"]
-            ) / len(species_in_day["frequency"])
+        day[HOTSPOT_SPECIES_KEY] = get_hotspot_species(
+            day.get("hotspots", []),
+            trip_data,
+            cache_directory,
+            ebird_username,
+            ebird_password,
+        )
 
         days.append(day)
     result["itinerary"] = days
 
     return result
+
+
+def updates_species_with_taxonomy(species: dict, taxonomy: list) -> None:
+    for taxon in taxonomy:
+        if species["comName"] == taxon["comName"]:
+            for key in taxon.keys():
+                if key not in species.keys():
+                    species[key] = taxon[key]
+            break
+
+
+def update_species_with_information_mentioned_in_trip(
+    hotspot_species_list: list, species: str
+) -> None:
+    found = False
+    for hotspot_species in hotspot_species_list:
+        if species == hotspot_species["comName"]:
+            hotspot_species["notes"] = "Mentioned in trip data"
+            found = True
+            break
+    if not found:
+        hotspot_species_list.append(
+            {"comName": species, "notes": "Mentioned in trip data"}
+        )
 
 
 def add_taxonomy(with_ebird_species_data: list, taxonomy: list) -> list:
@@ -215,13 +260,8 @@ def add_taxonomy(with_ebird_species_data: list, taxonomy: list) -> list:
         list: The trip data with added taxonomy data.
     """
     for day in with_ebird_species_data:
-        for species in day["hotspot species"]:
-            for taxon in taxonomy:
-                if species["comName"] == taxon["comName"]:
-                    for key in taxon.keys():
-                        if key not in species.keys():
-                            species[key] = taxon[key]
-                    break
+        for species in day[HOTSPOT_SPECIES_KEY]:
+            updates_species_with_taxonomy(species, taxonomy)
     return with_ebird_species_data
 
 
@@ -237,24 +277,19 @@ def add_mentions(trip_data: list, taxonomy: list) -> list:
                     "Taxon entry for '%s' not found in taxonomy.", species
                 )
             else:
-                found = False
-                for hotspot_species in day["hotspot species"]:
-                    if species == hotspot_species["comName"]:
-                        hotspot_species["notes"] = "Mentioned in trip data"
-                        found = True
-                        break
-                if not found:
-                    day["hotspot species"].append(
-                        {"comName": species, "notes": "Mentioned in trip data"}
-                    )
+                update_species_with_information_mentioned_in_trip(
+                    hotspot_species_list=day[HOTSPOT_SPECIES_KEY],
+                    species=species,
+                )
+
     return trip_data
 
 
 def keep_high_frequency(trip_data: list, frequency: float) -> list:
     for day in trip_data:
-        day["hotspot species"] = [
+        day[HOTSPOT_SPECIES_KEY] = [
             species
-            for species in day["hotspot species"]
+            for species in day[HOTSPOT_SPECIES_KEY]
             if species.get("frequency", 100.0) / 100 >= frequency
         ]
     return trip_data
@@ -262,8 +297,8 @@ def keep_high_frequency(trip_data: list, frequency: float) -> list:
 
 def sort_species_by_taxonomy(trip_data: list) -> list:
     for day in trip_data:
-        day["hotspot species"] = sorted(
-            day["hotspot species"], key=lambda x: x.get("taxonOrder", 0)
+        day[HOTSPOT_SPECIES_KEY] = sorted(
+            day[HOTSPOT_SPECIES_KEY], key=lambda x: x.get("taxonOrder", 0)
         )
     return trip_data
 
@@ -285,7 +320,7 @@ def split_trip(trip_data: dict) -> list:
             if trip_location
             else day.get("location", None),
             "basis": "Trip data automatically generated from trip file",
-            "species": day["hotspot species"],
+            "species": day[HOTSPOT_SPECIES_KEY],
             "day": day.get("day", 1),
         }
         if day.get("AM_title"):
@@ -300,9 +335,33 @@ def split_trip(trip_data: dict) -> list:
 
 
 def write_quiz_to_file(quiz: dict, output_file: str) -> None:
+    """Write the quiz data to a JSON file."""
     with open(output_file, "wt", encoding="utf-8") as file:
         json.dump(quiz, file, indent=4)
     print(f"Quiz data written to {output_file}")
+
+
+def _get_species_to_remove(
+    species, next_day_species, to_remove_from_day, to_remove_from_next_day
+):
+    """Helper function to determine which species to remove from day to day
+    based on frequency."""
+    for next_species in next_day_species:
+        if species["comName"] == next_species["comName"]:
+            # if it is mentioned on the first day, remove it from the next day
+            if species.get("notes"):
+                to_remove_from_next_day.append(next_species)
+            elif next_species.get("notes"):
+                # if it is mentioned on the next day, remove it from the first day
+                to_remove_from_day.append(species)
+            # otherwise if the first one has a higher or equal frequency, remove the next one
+            elif species.get("frequency", 0) >= next_species.get(
+                "frequency", 0
+            ):
+                to_remove_from_next_day.append(next_species)
+            else:
+                to_remove_from_day.append(species)
+            break
 
 
 def _find_and_remove_shared_species(day, next_day):
@@ -310,31 +369,19 @@ def _find_and_remove_shared_species(day, next_day):
     to_remove_from_next_day = []
     to_remove_from_day = []
 
-    for species in day["hotspot species"]:
-        com_name = species["comName"]
-        for next_species in next_day["hotspot species"]:
-            if com_name == next_species["comName"]:
-                # if it is mentioned on the first day, remove it from the next day
-                if species.get("notes"):
-                    to_remove_from_next_day.append(next_species)
-                elif next_species.get("notes"):
-                    # if it is mentioned on the next day, remove it from the first day
-                    to_remove_from_day.append(species)
-                # otherwise if the first one has a higher or equal frequency, remove the next one
-                # else remove the first one
-                elif species.get("frequency", 0) >= next_species.get(
-                    "frequency", 0
-                ):
-                    to_remove_from_next_day.append(next_species)
-                else:
-                    to_remove_from_day.append(species)
-                break
+    for species in day[HOTSPOT_SPECIES_KEY]:
+        _get_species_to_remove(
+            species,
+            next_day[HOTSPOT_SPECIES_KEY],
+            to_remove_from_day,
+            to_remove_from_next_day,
+        )
 
     for species in to_remove_from_next_day:
-        next_day["hotspot species"].remove(species)
+        next_day[HOTSPOT_SPECIES_KEY].remove(species)
     for species in to_remove_from_day:
-        if species in day["hotspot species"]:
-            day["hotspot species"].remove(species)
+        if species in day[HOTSPOT_SPECIES_KEY]:
+            day[HOTSPOT_SPECIES_KEY].remove(species)
 
 
 def remove_species_shared_in_common(trip_data: list) -> list:
@@ -344,5 +391,4 @@ def remove_species_shared_in_common(trip_data: list) -> list:
         for j in range(i + 1, len(trip_data)):
             _find_and_remove_shared_species(day, trip_data[j])
 
-    return trip_data
     return trip_data
