@@ -1,5 +1,6 @@
 import unittest
 from unittest.mock import mock_open, patch
+
 from photo_id.get_have_list import get_have_list
 
 
@@ -14,9 +15,10 @@ class TestGetHaveList(unittest.TestCase):
 
     def test_get_have_list_invalid_header(self):
         mock_data = "Incorrect header"
-        with patch("builtins.open", mock_open(read_data=mock_data)), patch(
-            "logging.error"
-        ) as mocked_log:
+        with (
+            patch("builtins.open", mock_open(read_data=mock_data)),
+            patch("logging.error") as mocked_log,
+        ):
             get_have_list("invalid_header.csv")
             mocked_log.assert_called_once()
 

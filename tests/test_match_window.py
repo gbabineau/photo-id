@@ -1,14 +1,13 @@
-import requests
 import unittest
-
 from unittest.mock import MagicMock, patch
 
+import requests
 
 from photo_id.match_window import (
+    MatchWindow,
     SpeciesFrame,
     VerticalScrolledFrame,
     web_browser_callback,
-    MatchWindow,
 )
 
 
@@ -103,11 +102,12 @@ class TestSpeciesFrame(unittest.TestCase):
         self.start_month = "6"
         self.end_month = "8"
         self.image_width = 300
-        with patch(
-            "photo_id.match_window.VerticalScrolledFrame"
-        ) as mock_vsframe, patch.object(
-            SpeciesFrame, "update_image"
-        ) as mock_update:
+        with (
+            patch(
+                "photo_id.match_window.VerticalScrolledFrame"
+            ) as mock_vsframe,
+            patch.object(SpeciesFrame, "update_image") as mock_update,
+        ):
             mock_vsframe.tk = MagicMock()
             self.sf = SpeciesFrame(
                 self.base,

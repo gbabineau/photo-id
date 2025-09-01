@@ -6,14 +6,20 @@ plumages.
 
 import argparse
 import logging
+import os
+import pathlib
 import tomllib
+from tkinter import Menu, Tk, filedialog, messagebox, simpledialog
 
-from tkinter import messagebox, Tk, Menu, filedialog, simpledialog
-from photo_id import get_taxonomy
-from photo_id import get_have_list
-from photo_id import get_size_data
-from photo_id import match_window
-from photo_id import process_quiz
+from photo_id import (
+    get_ebird_api_key,
+    get_have_list,
+    get_size_data,
+    get_taxonomy,
+    match_window,
+    process_quiz,
+    process_trip,
+)
 
 
 class MainWindow:
@@ -24,7 +30,10 @@ class MainWindow:
     def __init__(self, default_have_list: str):
         self.have_list = []
         self.avonet_data = {}
-        self.taxonomy = get_taxonomy.ebird_taxonomy()
+        self.ebird_api_key = get_ebird_api_key.get_ebird_api_key()
+        self.ebird_username = os.getenv("EBIRD_USERNAME")
+        self.ebird_password = os.getenv("EBIRD_PASSWORD")
+        self.taxonomy = get_taxonomy.ebird_taxonomy(self.ebird_api_key)
         if default_have_list != "":
             self.have_list = get_have_list.get_have_list(default_have_list)
         self.root = Tk()
@@ -36,9 +45,13 @@ class MainWindow:
         )
         file_menu.add_separator()
         file_menu.add_command(
-            label="Open Have List", command=self.have_list_open
+            label="Process Trip Data",
+            command=self.process_trip,
         )
         file_menu.add_separator()
+        file_menu.add_command(
+            label="Open Have List", command=self.have_list_open
+        )
         file_menu.add_command(
             label="Taxonomic Sort Quiz", command=self.sort_quiz
         )
@@ -65,6 +78,7 @@ class MainWindow:
             label="Add Avonet data to quiz(s)",
             command=self.apply_avonet_data_to_quizzes,
         )
+
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit)
         menubar.add_cascade(label="File", menu=file_menu)
@@ -98,6 +112,21 @@ class MainWindow:
         )
         if filename != "":
             process_quiz.sort_quiz(filename, self.taxonomy)
+
+    def process_trip(self) -> None:
+        """Open a trip definition and build out a quiz from it."""
+        filename = filedialog.askopenfilename(
+            title="Select a Have List File",
+            initialdir="trips",
+            filetypes=[("JSON files", "*.json")],
+        )
+        if filename != "":
+            process_trip.create_quizes_from_trip_data(
+                pathlib.Path(filename),
+                username=self.ebird_username,
+                password=self.ebird_password,
+                taxonomy=self.taxonomy,
+            )
 
     def read_avonet_data(self) -> None:
         """Read the avonet data from the cache file."""
@@ -198,9 +227,7 @@ def main():
     with open("pyproject.toml", "rb") as f:
         pyproject_data = tomllib.load(f)
     version = (
-        pyproject_data.get("tool", {})
-        .get("poetry", {})
-        .get("version", "0.0.0")
+        pyproject_data.get("tool", {}).get("poetry", {}).get("version", "0.0.0")
     )
     arg_parser.add_argument(
         "--version", action="version", version=f"%(prog)s {version}"
@@ -222,4 +249,5 @@ def main():
 
 
 if __name__ == "__main__":
+    main()
     main()

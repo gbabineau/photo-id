@@ -6,35 +6,34 @@ import io
 import logging
 import random
 import re
+import sys
 import webbrowser
-
 from tkinter import (
-    ttk,
-    Label,
-    StringVar,
-    Toplevel,
+    Button,
     Canvas,
+    Label,
     Message,
     Scrollbar,
-    Button,
+    StringVar,
+    Toplevel,
+    ttk,
 )
 from tkinter.constants import (
-    VERTICAL,
-    FALSE,
-    RIGHT,
-    LEFT,
     BOTH,
-    TRUE,
-    Y,
+    FALSE,
+    LEFT,
     NW,
     RIDGE,
+    RIGHT,
+    TRUE,
+    VERTICAL,
+    Y,
 )
 
 import requests
 from PIL import Image, ImageTk
-from photo_id import process_quiz
-import sys
 
+from photo_id import process_quiz
 
 REQUIRED_IMAGES = 2
 IMAGES_TO_USE = 12
@@ -173,7 +172,9 @@ class SpeciesFrame(ttk.Frame):
         current_row = current_row + 1
         if species_frequency > 0:
             self.bird_frequency = Label(
-                self, text=f"Frequency: {species_frequency}%", justify="left"
+                self,
+                text=f"Frequency: {species_frequency:.2f}%",
+                justify="left",
             )
             self.bird_frequency.grid(row=current_row, column=0)
             current_row = current_row + 1
@@ -318,9 +319,7 @@ class SpeciesFrame(ttk.Frame):
                 result.raise_for_status()
                 return result  # Exit loop if request is successful
             except requests.exceptions.RequestException as e:
-                logging.warning(
-                    "Get failed with %s, %d times", str(e), retries
-                )
+                logging.warning("Get failed with %s, %d times", str(e), retries)
                 if retries == 4:
                     sys.exit(1)  # Exit if all retries fail
 
@@ -369,9 +368,7 @@ class SpeciesFrame(ttk.Frame):
 
         if len(image_list) > 0:
             try:
-                result = requests.get(
-                    image_list[self.image_number], timeout=10
-                )
+                result = requests.get(image_list[self.image_number], timeout=10)
                 result.raise_for_status()
                 img_bytes = result.content
                 image = Image.open(io.BytesIO(img_bytes))

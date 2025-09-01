@@ -1,0 +1,43 @@
+{
+    "name" : "Colorado Rocky Mountain Arsenal NWR and Rocky Mountain NP",
+    "description" : "",
+    "website" : "NA",
+    "date" : "2026-07-15",
+    "location" : "US-CO",
+    "start_month": 7,
+    "end_month": 7,
+    "minimum_frequency" : 7.0,
+    "itinerary" : [
+        {
+            "day" : "1",
+            "Full day title" : "Rocky Mountain Arsenal NWR",
+            "Full day description" : "General area.",
+            "hotspots" : [
+                {"name": "Rocky Mountain Arsenal NWR", "hotspotId": "L167924"}
+            ],
+            "mentioned" : []
+        },
+        {
+            "day" : "2",
+            "Full day title" : "Rocky Mountain National Park",
+            "Full day description" : "Combining several hotspots.",
+            "hotspots" : [
+                {"name": "Rocky Mountain NP--Endovalley/Fall River", "hotspotId": "L339971"},
+                {"name": "Rocky Mountain NP (Grand Co) (Please use more specific locations)", "hotspotId": "L2604587"},
+                {"name": "Rocky Mountain NP--Dream & Emerald Lakes", "hotspotId": "L342625"},
+                {"name": "Rocky Mountain NP--Tundra Communities Trail & Rock Cut Area", "hotspotId": "L748652"}
+            ],
+            "mentioned" : []
+        },
+        {
+            "day" : "3",
+            "Full day title" : "Matthews-Reeser Bird Sanctuary",
+            "Full day description" : "Near Estes Park, CO.",
+            "hotspots" : [
+                {"name": "Matthews-Reeser Bird Sanctuary", "hotspotId": "L793543"},
+                {"name": "Lake Estes", "hotspotId": "L131422"}
+            ],
+            "mentioned" : []
+        }
+    ]
+}

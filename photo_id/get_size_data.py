@@ -61,8 +61,7 @@ def read_xlsx_to_dict(
 
     if len(selected_indices) != len(columns):
         logging.error(
-            "Some columns were not found in the sheet. "
-            "Columns found: %s, Columns expected: %s",
+            "Some columns were not found in the sheet. Columns found: %s, Columns expected: %s",
             [header[i] for i in selected_indices],
             columns,
         )

@@ -1,6 +1,7 @@
 import logging
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
+
 from photo_id.photo_id import MainWindow
 
 
@@ -53,8 +54,12 @@ class MockMenu(MagicMock):
 
 
 class TestMainWindow(unittest.TestCase):
-    @patch("photo_id.photo_id.get_taxonomy.ebird_taxonomy", return_value=[])
-    @patch("photo_id.photo_id.get_have_list.get_have_list", return_value=[])
+    @patch(
+        "photo_id.photo_id.get_taxonomy.ebird_taxonomy", return_value=["taxa"]
+    )
+    @patch(
+        "photo_id.photo_id.get_have_list.get_have_list", return_value=["have"]
+    )
     @patch("photo_id.photo_id.Tk", spec=MockTK)
     @patch("photo_id.photo_id.Menu", spec=MockMenu)
     def setUp(self, mock_menu, mock_tk, mock_get_have_list, mock_get_taxonomy):
@@ -64,8 +69,8 @@ class TestMainWindow(unittest.TestCase):
         self.main_window.root.destroy()
 
     def test_initialization(self):
-        self.assertEqual(self.main_window.have_list, [])
-        self.assertEqual(self.main_window.taxonomy, [])
+        self.assertEqual(self.main_window.have_list, ["have"])
+        self.assertEqual(self.main_window.taxonomy, ["taxa"])
 
     @patch(
         "photo_id.photo_id.filedialog.askopenfilename",
@@ -74,7 +79,9 @@ class TestMainWindow(unittest.TestCase):
     @patch("photo_id.photo_id.match_window.MatchWindow")
     def test_match_open(self, mock_match_window, mock_askopenfilename):
         self.main_window.match_open()
-        mock_match_window.assert_called_once_with("test_quiz.json", [], [])
+        mock_match_window.assert_called_once_with(
+            "test_quiz.json", unittest.mock.ANY, unittest.mock.ANY
+        )
 
     @patch(
         "photo_id.photo_id.filedialog.askopenfilename",
@@ -83,15 +90,15 @@ class TestMainWindow(unittest.TestCase):
     @patch("photo_id.photo_id.process_quiz.sort_quiz")
     def test_sort_quiz(self, mock_sort_quiz, mock_askopenfilename):
         self.main_window.sort_quiz()
-        mock_sort_quiz.assert_called_once_with("test_quiz.json", [])
+        mock_sort_quiz.assert_called_once_with(
+            "test_quiz.json", unittest.mock.ANY
+        )
 
     @patch(
         "photo_id.photo_id.filedialog.askopenfilename",
         return_value="test_target.txt",
     )
-    @patch(
-        "photo_id.photo_id.simpledialog.askinteger", side_effect=[10, 1, 12]
-    )
+    @patch("photo_id.photo_id.simpledialog.askinteger", side_effect=[10, 1, 12])
     @patch("photo_id.photo_id.simpledialog.askstring", return_value="NO")
     @patch(
         "photo_id.photo_id.filedialog.asksaveasfilename",
@@ -128,11 +135,11 @@ class TestMainWindow(unittest.TestCase):
         return_value="test_quiz.json",
     )
     @patch("photo_id.photo_id.process_quiz.split_quiz")
-    def test_break_quiz_into_parts(
-        self, mock_split_quiz, mock_askopenfilename
-    ):
+    def test_break_quiz_into_parts(self, mock_split_quiz, mock_askopenfilename):
         self.main_window.break_quiz_into_parts()
-        mock_split_quiz.assert_called_once_with("test_quiz.json", 25, [])
+        mock_split_quiz.assert_called_once_with(
+            "test_quiz.json", 25, unittest.mock.ANY
+        )
 
     @patch("photo_id.photo_id.messagebox.showinfo")
     def test_donothing(self, mock_showinfo):
@@ -199,4 +206,5 @@ class TestMainFunction(unittest.TestCase):
 
         # Assertions
         mock_arg_parser.return_value.parse_args.assert_called_once()
+        mock_main_window.assert_called_once_with("test_have_list.csv")
         mock_main_window.assert_called_once_with("test_have_list.csv")

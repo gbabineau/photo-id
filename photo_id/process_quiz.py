@@ -6,8 +6,8 @@ import json
 import logging
 import pathlib
 import re
-import typing
 import sys
+import typing
 
 
 def sorted_species(initial_list: list, taxonomy: list) -> list:
@@ -34,8 +34,7 @@ def sorted_species(initial_list: list, taxonomy: list) -> list:
         if entry is None:
             logging.info("Species not found %s", species["comName"])
         elif any(
-            res["comName"].upper() == entry["comName"].upper()
-            for res in result
+            res["comName"].upper() == entry["comName"].upper() for res in result
         ):
             logging.info("Duplicate species removed %s", species["comName"])
         else:
@@ -90,6 +89,34 @@ def sort_quiz(name: str, taxonomy: list) -> None:
         json.dump(result, file, ensure_ascii=False, indent=4)
 
 
+def _parse_line(line: str) -> bool:
+    """Checks if a line starts with a number followed by a period."""
+    return re.match(r"\d+\.", line) is not None
+
+
+def _parse_frequency(frequency_text: str) -> int:
+    """Parses the frequency text to extract the frequency number."""
+    match = re.match(r"^\d+", frequency_text)
+    if match:
+        return int(match.group(0))
+    return -1
+
+
+def _read_species_and_frequency(file) -> typing.Dict[str, typing.Any]:
+    """Reads a species name and its frequency from the file.
+    Returns a dictionary with the species name, frequency, and an empty notes field."""
+    species = file.readline().strip()
+    while True:
+        frequency_text = file.readline().strip()
+        if not frequency_text:
+            logging.error("Incorrectly formatted file %s", file.name)
+            raise ValueError("Incorrectly formatted file")
+        frequency = _parse_frequency(frequency_text)
+        if frequency >= 0:
+            break
+    return {"comName": species, "frequency": frequency, "notes": ""}
+
+
 def build_quiz_from_target_species(
     in_file: str,
     min_frequency: int,
@@ -111,28 +138,6 @@ def build_quiz_from_target_species(
     end_month : ending month
     location_code : 2 letter location code
     """
-
-    def parse_line(line: str) -> bool:
-        return re.match(r"\d+\.", line) is not None
-
-    def parse_frequency(frequency_text: str) -> int:
-        match = re.match(r"^\d+", frequency_text)
-        if match:
-            return int(match.group(0))
-        return -1
-
-    def read_species_and_frequency(file) -> typing.Dict[str, typing.Any]:
-        species = file.readline().strip()
-        while True:
-            frequency_text = file.readline().strip()
-            if not frequency_text:
-                logging.error("Incorrectly formatted file %s", in_file)
-                raise ValueError("Incorrectly formatted file")
-            frequency = parse_frequency(frequency_text)
-            if frequency >= 0:
-                break
-        return {"comName": species, "frequency": frequency, "notes": ""}
-
     result = {
         "start_month": start_month,
         "end_month": end_month,
@@ -145,9 +150,9 @@ def build_quiz_from_target_species(
             line = target_file.readline()
             if not line:
                 break
-            if parse_line(line):
+            if _parse_line(line):
                 try:
-                    species_info = read_species_and_frequency(target_file)
+                    species_info = _read_species_and_frequency(target_file)
                     if species_info["frequency"] >= min_frequency:
                         result["species"].append(species_info)
                 except ValueError:
