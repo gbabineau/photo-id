@@ -396,6 +396,7 @@ class MatchWindow:
 
     def __init__(self, file: str, taxonomy: dict, have_list: list):
         self.root = Toplevel()
+        logging.info("Processing images for %s.", file)
         quiz_data = process_quiz.process_quiz_file(file, taxonomy)
         species_list = quiz_data["species"]
 
@@ -443,5 +444,5 @@ class MatchWindow:
 
             if species_number >= len(species_list):
                 break
-        logging.info("Finished processing images")
+        logging.info("Finished processing images for %s.", file)
         self.root.state("zoomed")
