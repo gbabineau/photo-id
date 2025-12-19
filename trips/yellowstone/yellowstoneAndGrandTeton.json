@@ -1,0 +1,38 @@
+{
+    "name" : "Yellowtone and Grand Teton National Parks",
+    "description" : "",
+    "website" : "NA",
+    "date" : "2025-10-10",
+    "location" : "US-WY",
+    "start_month": 10,
+    "end_month": 10,
+    "minimum_frequency" : 5.0,
+    "itinerary" : [
+        {
+            "day" : "1",
+            "Full day title" : "Yellowstone National Park",
+            "Full day description" : "General area.",
+            "hotspots" : [
+                {"name": "Yellowstone NP--Lamar Valley (please use more precise locations)", "hotspotId": "L1626786"},
+                {"name": "Yellowstone NP--Mammoth Hot Springs area", "hotspotId": "L299762"},
+                {"name": "Beck & Alkali Lakes", "hotspotId": "L421073"},
+                {"name": "Yellowstone NP--Hayden Valley", "hotspotId": "L1873949"},
+                {"name": "Yellowstone NP--Pelican Creek", "hotspotId": "L1627403"},
+                {"name": "Yellowstone NP--LeHardy Rapids", "hotspotId": "L1283588"},
+                {"name": "Yellowstone NP--Swan Lake", "hotspotId": "L302479"}
+            ],
+            "mentioned" : []
+        },
+        {
+            "day" : "2",
+            "Full day title" : "Grand Teton National Park",
+            "Full day description" : "Combining several hotspots.",
+            "hotspots" : [
+                {"name": "Grand Teton NP--Jackson Lake Dam area", "hotspotId": "L771915"},
+                {"name": "Grand Teton NP--Jenny Lake CG & Visitor Center", "hotspotId": "L3092740"},
+                {"name": "Grand Teton NP--Cascade Canyon Trail", "hotspotId": "L1239027"}
+            ],
+            "mentioned" : ["Barrow's Goldeneye", "Ferruginous Hawk"]
+        }
+    ]
+}

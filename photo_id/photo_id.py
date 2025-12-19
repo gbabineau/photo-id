@@ -197,7 +197,7 @@ class MainWindow:
             filetypes=[self.json_files],
         )
         if filename != "":
-            process_quiz.split_quiz(filename, 25, self.taxonomy)
+            process_quiz.split_quiz(filename, 30, self.taxonomy)
 
     def apply_avonet_data_to_quizzes(self) -> None:
         """Apply avonet data to quizzes."""

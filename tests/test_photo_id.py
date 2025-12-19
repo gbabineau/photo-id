@@ -138,7 +138,7 @@ class TestMainWindow(unittest.TestCase):
     def test_break_quiz_into_parts(self, mock_split_quiz, mock_askopenfilename):
         self.main_window.break_quiz_into_parts()
         mock_split_quiz.assert_called_once_with(
-            "test_quiz.json", 25, unittest.mock.ANY
+            "test_quiz.json", 30, unittest.mock.ANY
         )
 
     @patch("photo_id.photo_id.messagebox.showinfo")

@@ -31,7 +31,7 @@ from tkinter.constants import (
 )
 
 import requests
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk, JpegImagePlugin
 
 from photo_id import process_quiz
 
@@ -341,7 +341,7 @@ class SpeciesFrame(ttk.Frame):
         location: str,
         start_month: int,
         end_month: int,
-    ) -> None:
+    ) -> JpegImagePlugin.JpegImageFile:
         """Gets a requested image and displays it."""
         # e.g. display_image('comchi1', 'NO', 6 )
         image_list = self.get_image_list(
@@ -394,8 +394,9 @@ class MatchWindow:
     quiz_species = {}
     quiz_species_list = []
 
-    def __init__(self, file: str, taxonomy: dict, have_list: list):
+    def __init__(self, file: str, taxonomy: dict, _: list):
         self.root = Toplevel()
+        logging.info("Processing images for %s.", file)
         quiz_data = process_quiz.process_quiz_file(file, taxonomy)
         species_list = quiz_data["species"]
 
@@ -443,5 +444,5 @@ class MatchWindow:
 
             if species_number >= len(species_list):
                 break
-        logging.info("Finished processing images")
+        logging.info("Finished processing images for %s.", file)
         self.root.state("zoomed")
