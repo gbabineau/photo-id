@@ -1,0 +1,632 @@
+{
+  "location": "US-WA",
+  "start_month": 7,
+  "end_month": 7,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Sphyrapicus ruber",
+      "comName": "Red-breasted Sapsucker",
+      "speciesCode": "rebsap",
+      "category": "species",
+      "taxonOrder": 11020.0,
+      "bandingCodes": [
+        "RBSA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "SPRU"
+      ],
+      "order": "Piciformes",
+      "familyCode": "picida1",
+      "familyComName": "Woodpeckers",
+      "familySciName": "Picidae",
+      "frequency": 2,
+      "notes": ""
+    },
+    {
+      "sciName": "Contopus cooperi",
+      "comName": "Olive-sided Flycatcher",
+      "speciesCode": "olsfly",
+      "category": "species",
+      "taxonOrder": 16723.0,
+      "bandingCodes": [
+        "OSFL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "COCO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "tyrann2",
+      "familyComName": "Tyrant Flycatchers",
+      "familySciName": "Tyrannidae",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "sciName": "Contopus sordidulus",
+      "comName": "Western Wood-Pewee",
+      "speciesCode": "wewpew",
+      "category": "species",
+      "taxonOrder": 16745.0,
+      "bandingCodes": [
+        "WEWP"
+      ],
+      "comNameCodes": [
+        "WWPE"
+      ],
+      "sciNameCodes": [
+        "COSO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "tyrann2",
+      "familyComName": "Tyrant Flycatchers",
+      "familySciName": "Tyrannidae",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "sciName": "Empidonax traillii",
+      "comName": "Willow Flycatcher",
+      "speciesCode": "wilfly",
+      "category": "species",
+      "taxonOrder": 16785.0,
+      "bandingCodes": [
+        "WIFL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "EMTR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "tyrann2",
+      "familyComName": "Tyrant Flycatchers",
+      "familySciName": "Tyrannidae",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "sciName": "Empidonax hammondii",
+      "comName": "Hammond's Flycatcher",
+      "speciesCode": "hamfly",
+      "category": "species",
+      "taxonOrder": 16797.0,
+      "bandingCodes": [
+        "HAFL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "EMHA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "tyrann2",
+      "familyComName": "Tyrant Flycatchers",
+      "familySciName": "Tyrannidae",
+      "frequency": 3,
+      "notes": ""
+    },
+    {
+      "sciName": "Empidonax difficilis",
+      "comName": "Western Flycatcher",
+      "speciesCode": "wesfly",
+      "category": "species",
+      "taxonOrder": 16808.0,
+      "bandingCodes": [
+        "WEFL"
+      ],
+      "comNameCodes": [
+        "PSFL"
+      ],
+      "sciNameCodes": [
+        "EMDI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "tyrann2",
+      "familyComName": "Tyrant Flycatchers",
+      "familySciName": "Tyrannidae",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "sciName": "Vireo huttoni",
+      "comName": "Hutton's Vireo",
+      "speciesCode": "hutvir",
+      "category": "species",
+      "taxonOrder": 19005.0,
+      "bandingCodes": [
+        "HUVI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "VIHU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "vireon1",
+      "familyComName": "Vireos, Shrike-Babblers, and Erpornis",
+      "familySciName": "Vireonidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Vireo cassinii",
+      "comName": "Cassin's Vireo",
+      "speciesCode": "casvir",
+      "category": "species",
+      "taxonOrder": 19024.0,
+      "bandingCodes": [
+        "CAVI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "VICA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "vireon1",
+      "familyComName": "Vireos, Shrike-Babblers, and Erpornis",
+      "familySciName": "Vireonidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Perisoreus canadensis",
+      "comName": "Canada Jay",
+      "speciesCode": "gryjay",
+      "category": "species",
+      "taxonOrder": 20953.0,
+      "bandingCodes": [
+        "CAJA"
+      ],
+      "comNameCodes": [
+        "GRJA"
+      ],
+      "sciNameCodes": [
+        "PECA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "frequency": 4,
+      "notes": ""
+    },
+    {
+      "sciName": "Cyanocitta stelleri",
+      "comName": "Steller's Jay",
+      "speciesCode": "stejay",
+      "category": "species",
+      "taxonOrder": 21046.0,
+      "bandingCodes": [
+        "STJA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CYST"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "sciName": "Aphelocoma californica",
+      "comName": "California Scrub-Jay",
+      "speciesCode": "cowscj1",
+      "category": "species",
+      "taxonOrder": 21075.0,
+      "bandingCodes": [
+        "CASJ"
+      ],
+      "comNameCodes": [
+        "CSJA",
+        "WSJA"
+      ],
+      "sciNameCodes": [
+        "APCA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "corvid1",
+      "familyComName": "Crows, Jays, and Magpies",
+      "familySciName": "Corvidae",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "sciName": "Poecile gambeli",
+      "comName": "Mountain Chickadee",
+      "speciesCode": "mouchi",
+      "category": "species",
+      "taxonOrder": 21853.0,
+      "bandingCodes": [
+        "MOCH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "POGA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Poecile rufescens",
+      "comName": "Chestnut-backed Chickadee",
+      "speciesCode": "chbchi",
+      "category": "species",
+      "taxonOrder": 21870.0,
+      "bandingCodes": [
+        "CBCH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PORU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "parida1",
+      "familyComName": "Tits, Chickadees, and Titmice",
+      "familySciName": "Paridae",
+      "frequency": 30,
+      "notes": ""
+    },
+    {
+      "sciName": "Riparia riparia",
+      "comName": "Bank Swallow",
+      "speciesCode": "banswa",
+      "category": "species",
+      "taxonOrder": 23821.0,
+      "bandingCodes": [
+        "BANS"
+      ],
+      "comNameCodes": [
+        "SAMA",
+        "BASW",
+        "CSMA"
+      ],
+      "sciNameCodes": [
+        "RIRI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Tachycineta thalassina",
+      "comName": "Violet-green Swallow",
+      "speciesCode": "vigswa",
+      "category": "species",
+      "taxonOrder": 23844.0,
+      "bandingCodes": [
+        "VGSW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TATH"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "frequency": 18,
+      "notes": ""
+    },
+    {
+      "sciName": "Petrochelidon pyrrhonota",
+      "comName": "Cliff Swallow",
+      "speciesCode": "cliswa",
+      "category": "species",
+      "taxonOrder": 24051.0,
+      "bandingCodes": [
+        "CLSW"
+      ],
+      "comNameCodes": [
+        "ACSW"
+      ],
+      "sciNameCodes": [
+        "PEPY"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "hirund2",
+      "familyComName": "Swallows",
+      "familySciName": "Hirundinidae",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "sciName": "Psaltriparus minimus",
+      "comName": "Bushtit",
+      "speciesCode": "bushti",
+      "category": "species",
+      "taxonOrder": 25018.0,
+      "bandingCodes": [
+        "BUSH"
+      ],
+      "comNameCodes": [
+        "AMBU"
+      ],
+      "sciNameCodes": [
+        "PSMI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "aegith2",
+      "familyComName": "Long-tailed Tits",
+      "familySciName": "Aegithalidae",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "sciName": "Regulus satrapa",
+      "comName": "Golden-crowned Kinglet",
+      "speciesCode": "gockin",
+      "category": "species",
+      "taxonOrder": 26599.0,
+      "bandingCodes": [
+        "GCKI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "RESA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "reguli1",
+      "familyComName": "Kinglets",
+      "familySciName": "Regulidae",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "sciName": "Certhia americana",
+      "comName": "Brown Creeper",
+      "speciesCode": "brncre",
+      "category": "species",
+      "taxonOrder": 26777.0,
+      "bandingCodes": [
+        "BRCR"
+      ],
+      "comNameCodes": [
+        "AMTR",
+        "ABCR"
+      ],
+      "sciNameCodes": [
+        "CEAM"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "certhi2",
+      "familyComName": "Treecreepers",
+      "familySciName": "Certhiidae",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "sciName": "Troglodytes pacificus",
+      "comName": "Pacific Wren",
+      "speciesCode": "pacwre1",
+      "category": "species",
+      "taxonOrder": 27038.0,
+      "bandingCodes": [
+        "PAWR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "TRPA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "troglo1",
+      "familyComName": "Wrens",
+      "familySciName": "Troglodytidae",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "sciName": "Cistothorus palustris",
+      "comName": "Marsh Wren",
+      "speciesCode": "marwre",
+      "category": "species",
+      "taxonOrder": 27088.0,
+      "bandingCodes": [
+        "MAWR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CIPA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "troglo1",
+      "familyComName": "Wrens",
+      "familySciName": "Troglodytidae",
+      "frequency": 2,
+      "notes": ""
+    },
+    {
+      "sciName": "Thryomanes bewickii",
+      "comName": "Bewick's Wren",
+      "speciesCode": "bewwre",
+      "category": "species",
+      "taxonOrder": 27121.0,
+      "bandingCodes": [
+        "BEWR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "THBE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "troglo1",
+      "familyComName": "Wrens",
+      "familySciName": "Troglodytidae",
+      "frequency": 9,
+      "notes": ""
+    },
+    {
+      "sciName": "Sialia currucoides",
+      "comName": "Mountain Bluebird",
+      "speciesCode": "moublu",
+      "category": "species",
+      "taxonOrder": 27899.0,
+      "bandingCodes": [
+        "MOBL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "SICU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Myadestes townsendi",
+      "comName": "Townsend's Solitaire",
+      "speciesCode": "towsol",
+      "category": "species",
+      "taxonOrder": 27918.0,
+      "bandingCodes": [
+        "TOSO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "MYTO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Ixoreus naevius",
+      "comName": "Varied Thrush",
+      "speciesCode": "varthr",
+      "category": "species",
+      "taxonOrder": 28003.0,
+      "bandingCodes": [
+        "VATH"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "IXNA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "frequency": 4,
+      "notes": ""
+    },
+    {
+      "sciName": "Catharus ustulatus",
+      "comName": "Swainson's Thrush",
+      "speciesCode": "swathr",
+      "category": "species",
+      "taxonOrder": 28072.0,
+      "bandingCodes": [
+        "SWTH"
+      ],
+      "comNameCodes": [
+        "RBTH"
+      ],
+      "sciNameCodes": [
+        "CAUS"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "turdid1",
+      "familyComName": "Thrushes and Allies",
+      "familySciName": "Turdidae",
+      "frequency": 29,
+      "notes": ""
+    },
+    {
+      "sciName": "Anthus rubescens",
+      "comName": "American Pipit",
+      "speciesCode": "amepip",
+      "category": "species",
+      "taxonOrder": 31605.0,
+      "bandingCodes": [
+        "AMPI"
+      ],
+      "comNameCodes": [
+        "BBPI"
+      ],
+      "sciNameCodes": [
+        "ANRU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "motaci1",
+      "familyComName": "Wagtails and Pipits",
+      "familySciName": "Motacillidae",
+      "frequency": 2,
+      "notes": ""
+    },
+    {
+      "sciName": "Coccothraustes vespertinus",
+      "comName": "Evening Grosbeak",
+      "speciesCode": "evegro",
+      "category": "species",
+      "taxonOrder": 31806.0,
+      "bandingCodes": [
+        "EVGR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "COVE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "sciName": "Leucosticte tephrocotis",
+      "comName": "Gray-crowned Rosy-Finch",
+      "speciesCode": "gcrfin",
+      "category": "species",
+      "taxonOrder": 32020.0,
+      "bandingCodes": [
+        "GCRF"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LETE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Haemorhous purpureus",
+      "comName": "Purple Finch",
+      "speciesCode": "purfin",
+      "category": "species",
+      "taxonOrder": 32048.0,
+      "bandingCodes": [
+        "PUFI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "HAPU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "frequency": 10,
+      "notes": ""
+    }
+  ]
+}
