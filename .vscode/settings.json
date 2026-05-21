@@ -19,6 +19,8 @@
     "sonarlint.connectedMode.project": {
         "connectionId": "gbabineau",
         "projectKey": "gbabineau_photo-id"
-    }
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:poetry",
+    "python-envs.defaultPackageManager": "ms-python.python:poetry"
 
 }

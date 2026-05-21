@@ -1,0 +1,363 @@
+{
+  "location": "US-WA",
+  "start_month": 7,
+  "end_month": 7,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Loxia curvirostra",
+      "comName": "Red Crossbill",
+      "speciesCode": "redcro",
+      "category": "species",
+      "taxonOrder": 32220.0,
+      "bandingCodes": [
+        "RECR"
+      ],
+      "comNameCodes": [
+        "COCR"
+      ],
+      "sciNameCodes": [
+        "LOCU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "sciName": "Spinus pinus",
+      "comName": "Pine Siskin",
+      "speciesCode": "pinsis",
+      "category": "species",
+      "taxonOrder": 32316.0,
+      "bandingCodes": [
+        "PISI"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "SPPI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "sciName": "Spinus tristis",
+      "comName": "American Goldfinch",
+      "speciesCode": "amegfi",
+      "category": "species",
+      "taxonOrder": 32338.0,
+      "bandingCodes": [
+        "AGOL"
+      ],
+      "comNameCodes": [
+        "AMGO"
+      ],
+      "sciNameCodes": [
+        "SPTR"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "fringi1",
+      "familyComName": "Finches, Euphonias, and Allies",
+      "familySciName": "Fringillidae",
+      "frequency": 28,
+      "notes": ""
+    },
+    {
+      "sciName": "Passerella iliaca",
+      "comName": "Fox Sparrow",
+      "speciesCode": "foxspa",
+      "category": "species",
+      "taxonOrder": 32817.0,
+      "bandingCodes": [
+        "FOSP"
+      ],
+      "comNameCodes": [
+        "FSSP"
+      ],
+      "sciNameCodes": [
+        "PAIL"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer3",
+      "familyComName": "New World Sparrows",
+      "familySciName": "Passerellidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Zonotrichia leucophrys",
+      "comName": "White-crowned Sparrow",
+      "speciesCode": "whcspa",
+      "category": "species",
+      "taxonOrder": 32905.0,
+      "bandingCodes": [
+        "WCSP"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ZOLE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer3",
+      "familyComName": "New World Sparrows",
+      "familySciName": "Passerellidae",
+      "frequency": 30,
+      "notes": ""
+    },
+    {
+      "sciName": "Passerculus sandwichensis",
+      "comName": "Savannah Sparrow",
+      "speciesCode": "savspa",
+      "category": "species",
+      "taxonOrder": 32962.0,
+      "bandingCodes": [
+        "SAVS"
+      ],
+      "comNameCodes": [
+        "SASP",
+        "SBBS"
+      ],
+      "sciNameCodes": [
+        "PASA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer3",
+      "familyComName": "New World Sparrows",
+      "familySciName": "Passerellidae",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "sciName": "Pipilo maculatus",
+      "comName": "Spotted Towhee",
+      "speciesCode": "spotow",
+      "category": "species",
+      "taxonOrder": 33108.0,
+      "bandingCodes": [
+        "SPTO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PIMA"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "passer3",
+      "familyComName": "New World Sparrows",
+      "familySciName": "Passerellidae",
+      "frequency": 32,
+      "notes": ""
+    },
+    {
+      "sciName": "Icterus bullockii",
+      "comName": "Bullock's Oriole",
+      "speciesCode": "bulori",
+      "category": "species",
+      "taxonOrder": 33460.0,
+      "bandingCodes": [
+        "BUOR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ICBU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "icteri1",
+      "familyComName": "Troupials and Allies",
+      "familySciName": "Icteridae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Euphagus cyanocephalus",
+      "comName": "Brewer's Blackbird",
+      "speciesCode": "brebla",
+      "category": "species",
+      "taxonOrder": 33574.0,
+      "bandingCodes": [
+        "BRBL"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "EUCY"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "icteri1",
+      "familyComName": "Troupials and Allies",
+      "familySciName": "Icteridae",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "sciName": "Leiothlypis celata",
+      "comName": "Orange-crowned Warbler",
+      "speciesCode": "orcwar",
+      "category": "species",
+      "taxonOrder": 33696.0,
+      "bandingCodes": [
+        "OCWA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LECE"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "paruli1",
+      "familyComName": "New World Warblers",
+      "familySciName": "Parulidae",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "sciName": "Geothlypis tolmiei",
+      "comName": "MacGillivray's Warbler",
+      "speciesCode": "macwar",
+      "category": "species",
+      "taxonOrder": 33728.0,
+      "bandingCodes": [
+        "MGWA"
+      ],
+      "comNameCodes": [
+        "MAWA"
+      ],
+      "sciNameCodes": [
+        "GETO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "paruli1",
+      "familyComName": "New World Warblers",
+      "familySciName": "Parulidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Setophaga nigrescens",
+      "comName": "Black-throated Gray Warbler",
+      "speciesCode": "btywar",
+      "category": "species",
+      "taxonOrder": 33910.0,
+      "bandingCodes": [
+        "BTYW"
+      ],
+      "comNameCodes": [
+        "BTGW"
+      ],
+      "sciNameCodes": [
+        "SENI"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "paruli1",
+      "familyComName": "New World Warblers",
+      "familySciName": "Parulidae",
+      "frequency": 2,
+      "notes": ""
+    },
+    {
+      "sciName": "Setophaga townsendi",
+      "comName": "Townsend's Warbler",
+      "speciesCode": "towwar",
+      "category": "species",
+      "taxonOrder": 33916.0,
+      "bandingCodes": [
+        "TOWA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "SETO"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "paruli1",
+      "familyComName": "New World Warblers",
+      "familySciName": "Parulidae",
+      "frequency": 2,
+      "notes": ""
+    },
+    {
+      "sciName": "Cardellina pusilla",
+      "comName": "Wilson's Warbler",
+      "speciesCode": "wlswar",
+      "category": "species",
+      "taxonOrder": 34055.0,
+      "bandingCodes": [
+        "WIWA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAPU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "paruli1",
+      "familyComName": "New World Warblers",
+      "familySciName": "Parulidae",
+      "frequency": 13,
+      "notes": ""
+    },
+    {
+      "sciName": "Piranga ludoviciana",
+      "comName": "Western Tanager",
+      "speciesCode": "westan",
+      "category": "species",
+      "taxonOrder": 34148.0,
+      "bandingCodes": [
+        "WETA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PILU"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cardin1",
+      "familyComName": "Cardinals and Allies",
+      "familySciName": "Cardinalidae",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "sciName": "Pheucticus melanocephalus",
+      "comName": "Black-headed Grosbeak",
+      "speciesCode": "bkhgro",
+      "category": "species",
+      "taxonOrder": 34268.0,
+      "bandingCodes": [
+        "BHGR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "PHME"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cardin1",
+      "familyComName": "Cardinals and Allies",
+      "familySciName": "Cardinalidae",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "sciName": "Passerina amoena",
+      "comName": "Lazuli Bunting",
+      "speciesCode": "lazbun",
+      "category": "species",
+      "taxonOrder": 34316.0,
+      "bandingCodes": [
+        "LAZB"
+      ],
+      "comNameCodes": [
+        "LABU"
+      ],
+      "sciNameCodes": [
+        "PAAM"
+      ],
+      "order": "Passeriformes",
+      "familyCode": "cardin1",
+      "familyComName": "Cardinals and Allies",
+      "familySciName": "Cardinalidae",
+      "frequency": 4,
+      "notes": ""
+    }
+  ]
+}

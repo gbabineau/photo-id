@@ -1,0 +1,630 @@
+{
+  "location": "US-WA",
+  "start_month": 7,
+  "end_month": 7,
+  "notes": "",
+  "species": [
+    {
+      "sciName": "Histrionicus histrionicus",
+      "comName": "Harlequin Duck",
+      "speciesCode": "harduc",
+      "category": "species",
+      "taxonOrder": 702.0,
+      "bandingCodes": [
+        "HADU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "HIHI"
+      ],
+      "order": "Anseriformes",
+      "familyCode": "anatid1",
+      "familyComName": "Ducks, Geese, and Waterfowl",
+      "familySciName": "Anatidae",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "sciName": "Callipepla californica",
+      "comName": "California Quail",
+      "speciesCode": "calqua",
+      "category": "species",
+      "taxonOrder": 1064.0,
+      "bandingCodes": [
+        "CAQU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CACA"
+      ],
+      "order": "Galliformes",
+      "familyCode": "odonto1",
+      "familyComName": "New World Quail",
+      "familySciName": "Odontophoridae",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "sciName": "Dendragapus fuliginosus",
+      "comName": "Sooty Grouse",
+      "speciesCode": "soogro1",
+      "category": "species",
+      "taxonOrder": 1288.0,
+      "bandingCodes": [
+        "SOGR"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "DEFU"
+      ],
+      "order": "Galliformes",
+      "familyCode": "phasia1",
+      "familyComName": "Pheasants, Grouse, and Allies",
+      "familySciName": "Phasianidae",
+      "frequency": 3,
+      "notes": ""
+    },
+    {
+      "sciName": "Patagioenas fasciata",
+      "comName": "Band-tailed Pigeon",
+      "speciesCode": "batpig1",
+      "category": "species",
+      "taxonOrder": 1929.0,
+      "bandingCodes": [
+        "BTPI"
+      ],
+      "comNameCodes": [
+        "NBTP"
+      ],
+      "sciNameCodes": [
+        "PAFA"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "sciName": "Streptopelia decaocto",
+      "comName": "Eurasian Collared-Dove",
+      "speciesCode": "eucdov",
+      "category": "species",
+      "taxonOrder": 1994.0,
+      "bandingCodes": [
+        "EUCD"
+      ],
+      "comNameCodes": [
+        "CODO",
+        "ECDO"
+      ],
+      "sciNameCodes": [
+        "STDE"
+      ],
+      "order": "Columbiformes",
+      "familyCode": "columb2",
+      "familyComName": "Pigeons and Doves",
+      "familySciName": "Columbidae",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "sciName": "Cypseloides niger",
+      "comName": "Black Swift",
+      "speciesCode": "blkswi",
+      "category": "species",
+      "taxonOrder": 3773.0,
+      "bandingCodes": [
+        "BLSW"
+      ],
+      "comNameCodes": [
+        "ABSW"
+      ],
+      "sciNameCodes": [
+        "CYNI"
+      ],
+      "order": "Apodiformes",
+      "familyCode": "apodid1",
+      "familyComName": "Swifts",
+      "familySciName": "Apodidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Chaetura vauxi",
+      "comName": "Vaux's Swift",
+      "speciesCode": "vauswi",
+      "category": "species",
+      "taxonOrder": 3843.0,
+      "bandingCodes": [
+        "VASW"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CHVA"
+      ],
+      "order": "Apodiformes",
+      "familyCode": "apodid1",
+      "familyComName": "Swifts",
+      "familySciName": "Apodidae",
+      "frequency": 4,
+      "notes": ""
+    },
+    {
+      "sciName": "Calypte anna",
+      "comName": "Anna's Hummingbird",
+      "speciesCode": "annhum",
+      "category": "species",
+      "taxonOrder": 4758.0,
+      "bandingCodes": [
+        "ANHU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAAN"
+      ],
+      "order": "Apodiformes",
+      "familyCode": "trochi1",
+      "familyComName": "Hummingbirds",
+      "familySciName": "Trochilidae",
+      "frequency": 16,
+      "notes": ""
+    },
+    {
+      "sciName": "Selasphorus rufus",
+      "comName": "Rufous Hummingbird",
+      "speciesCode": "rufhum",
+      "category": "species",
+      "taxonOrder": 4769.0,
+      "bandingCodes": [
+        "RUHU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "SERU"
+      ],
+      "order": "Apodiformes",
+      "familyCode": "trochi1",
+      "familyComName": "Hummingbirds",
+      "familySciName": "Trochilidae",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "sciName": "Haematopus bachmani",
+      "comName": "Black Oystercatcher",
+      "speciesCode": "blkoys",
+      "category": "species",
+      "taxonOrder": 5749.0,
+      "bandingCodes": [
+        "BLOY"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "HABA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "haemat1",
+      "familyComName": "Oystercatchers",
+      "familySciName": "Haematopodidae",
+      "frequency": 7,
+      "notes": ""
+    },
+    {
+      "sciName": "Arenaria melanocephala",
+      "comName": "Black Turnstone",
+      "speciesCode": "blktur",
+      "category": "species",
+      "taxonOrder": 6102.0,
+      "bandingCodes": [
+        "BLTU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "ARME"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Calidris minutilla",
+      "comName": "Least Sandpiper",
+      "speciesCode": "leasan",
+      "category": "species",
+      "taxonOrder": 6162.0,
+      "bandingCodes": [
+        "LESA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAMI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "sciName": "Calidris mauri",
+      "comName": "Western Sandpiper",
+      "speciesCode": "wessan",
+      "category": "species",
+      "taxonOrder": 6167.0,
+      "bandingCodes": [
+        "WESA"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CAMA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "scolop2",
+      "familyComName": "Sandpipers and Allies",
+      "familySciName": "Scolopacidae",
+      "frequency": 10,
+      "notes": ""
+    },
+    {
+      "sciName": "Cerorhinca monocerata",
+      "comName": "Rhinoceros Auklet",
+      "speciesCode": "rhiauk",
+      "category": "species",
+      "taxonOrder": 6312.0,
+      "bandingCodes": [
+        "RHAU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CEMO"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "alcida1",
+      "familyComName": "Auks, Murres, and Puffins",
+      "familySciName": "Alcidae",
+      "frequency": 12,
+      "notes": ""
+    },
+    {
+      "sciName": "Fratercula cirrhata",
+      "comName": "Tufted Puffin",
+      "speciesCode": "tufpuf",
+      "category": "species",
+      "taxonOrder": 6313.0,
+      "bandingCodes": [
+        "TUPU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "FRCI"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "alcida1",
+      "familyComName": "Auks, Murres, and Puffins",
+      "familySciName": "Alcidae",
+      "frequency": 3,
+      "notes": ""
+    },
+    {
+      "sciName": "Brachyramphus marmoratus",
+      "comName": "Marbled Murrelet",
+      "speciesCode": "marmur",
+      "category": "species",
+      "taxonOrder": 6330.0,
+      "bandingCodes": [
+        "MAMU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "BRMA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "alcida1",
+      "familyComName": "Auks, Murres, and Puffins",
+      "familySciName": "Alcidae",
+      "frequency": 4,
+      "notes": ""
+    },
+    {
+      "sciName": "Cepphus columba",
+      "comName": "Pigeon Guillemot",
+      "speciesCode": "piggui",
+      "category": "species",
+      "taxonOrder": 6339.0,
+      "bandingCodes": [
+        "PIGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CECO"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "alcida1",
+      "familyComName": "Auks, Murres, and Puffins",
+      "familySciName": "Alcidae",
+      "frequency": 19,
+      "notes": ""
+    },
+    {
+      "sciName": "Uria aalge",
+      "comName": "Common Murre",
+      "speciesCode": "commur",
+      "category": "species",
+      "taxonOrder": 6359.0,
+      "bandingCodes": [
+        "COMU"
+      ],
+      "comNameCodes": [
+        "COGU"
+      ],
+      "sciNameCodes": [
+        "URAA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "alcida1",
+      "familyComName": "Auks, Murres, and Puffins",
+      "familySciName": "Alcidae",
+      "frequency": 5,
+      "notes": ""
+    },
+    {
+      "sciName": "Chroicocephalus philadelphia",
+      "comName": "Bonaparte's Gull",
+      "speciesCode": "bongul",
+      "category": "species",
+      "taxonOrder": 6397.0,
+      "bandingCodes": [
+        "BOGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "CHPH"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "frequency": 3,
+      "notes": ""
+    },
+    {
+      "sciName": "Larus heermanni",
+      "comName": "Heermann's Gull",
+      "speciesCode": "heegul",
+      "category": "species",
+      "taxonOrder": 6446.0,
+      "bandingCodes": [
+        "HEEG"
+      ],
+      "comNameCodes": [
+        "HEGU"
+      ],
+      "sciNameCodes": [
+        "LAHE"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "frequency": 8,
+      "notes": ""
+    },
+    {
+      "sciName": "Larus brachyrhynchus",
+      "comName": "Short-billed Gull",
+      "speciesCode": "mewgul2",
+      "category": "species",
+      "taxonOrder": 6453.0,
+      "bandingCodes": [
+        "SBIG"
+      ],
+      "comNameCodes": [
+        "MEGU",
+        "SBGU"
+      ],
+      "sciNameCodes": [
+        "LABR"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Larus occidentalis",
+      "comName": "Western Gull",
+      "speciesCode": "wesgul",
+      "category": "species",
+      "taxonOrder": 6461.0,
+      "bandingCodes": [
+        "WEGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LAOC"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "frequency": 6,
+      "notes": ""
+    },
+    {
+      "sciName": "Larus californicus",
+      "comName": "California Gull",
+      "speciesCode": "calgul",
+      "category": "species",
+      "taxonOrder": 6522.0,
+      "bandingCodes": [
+        "CAGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LACA"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "frequency": 15,
+      "notes": ""
+    },
+    {
+      "sciName": "Larus glaucescens",
+      "comName": "Glaucous-winged Gull",
+      "speciesCode": "glwgul",
+      "category": "species",
+      "taxonOrder": 6526.0,
+      "bandingCodes": [
+        "GWGU"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "LAGL"
+      ],
+      "order": "Charadriiformes",
+      "familyCode": "larida1",
+      "familyComName": "Gulls, Terns, and Skimmers",
+      "familySciName": "Laridae",
+      "frequency": 24,
+      "notes": ""
+    },
+    {
+      "sciName": "Gavia stellata",
+      "comName": "Red-throated Loon",
+      "speciesCode": "retloo",
+      "category": "species",
+      "taxonOrder": 6848.0,
+      "bandingCodes": [
+        "RTLO"
+      ],
+      "comNameCodes": [
+        "RTDI"
+      ],
+      "sciNameCodes": [
+        "GAST"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Gavia pacifica",
+      "comName": "Pacific Loon",
+      "speciesCode": "pacloo",
+      "category": "species",
+      "taxonOrder": 6852.0,
+      "bandingCodes": [
+        "PALO"
+      ],
+      "comNameCodes": [
+        "PADI"
+      ],
+      "sciNameCodes": [
+        "GAPA"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "frequency": 1,
+      "notes": ""
+    },
+    {
+      "sciName": "Gavia immer",
+      "comName": "Common Loon",
+      "speciesCode": "comloo",
+      "category": "species",
+      "taxonOrder": 6854.0,
+      "bandingCodes": [
+        "COLO"
+      ],
+      "comNameCodes": [
+        "GNDI"
+      ],
+      "sciNameCodes": [
+        "GAIM"
+      ],
+      "order": "Gaviiformes",
+      "familyCode": "gaviid1",
+      "familyComName": "Loons",
+      "familySciName": "Gaviidae",
+      "frequency": 4,
+      "notes": ""
+    },
+    {
+      "sciName": "Urile penicillatus",
+      "comName": "Brandt's Cormorant",
+      "speciesCode": "bracor",
+      "category": "species",
+      "taxonOrder": 7305.0,
+      "bandingCodes": [
+        "BRAC"
+      ],
+      "comNameCodes": [
+        "BRCO"
+      ],
+      "sciNameCodes": [
+        "URPE"
+      ],
+      "order": "Suliformes",
+      "familyCode": "phalac1",
+      "familyComName": "Cormorants and Shags",
+      "familySciName": "Phalacrocoracidae",
+      "frequency": 2,
+      "notes": ""
+    },
+    {
+      "sciName": "Urile pelagicus",
+      "comName": "Pelagic Cormorant",
+      "speciesCode": "pelcor",
+      "category": "species",
+      "taxonOrder": 7307.0,
+      "bandingCodes": [
+        "PECO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "URPE"
+      ],
+      "order": "Suliformes",
+      "familyCode": "phalac1",
+      "familyComName": "Cormorants and Shags",
+      "familySciName": "Phalacrocoracidae",
+      "frequency": 14,
+      "notes": ""
+    },
+    {
+      "sciName": "Nannopterum auritum",
+      "comName": "Double-crested Cormorant",
+      "speciesCode": "doccor",
+      "category": "species",
+      "taxonOrder": 7342.0,
+      "bandingCodes": [
+        "DCCO"
+      ],
+      "comNameCodes": [],
+      "sciNameCodes": [
+        "NAAU"
+      ],
+      "order": "Suliformes",
+      "familyCode": "phalac1",
+      "familyComName": "Cormorants and Shags",
+      "familySciName": "Phalacrocoracidae",
+      "frequency": 6,
+      "notes": ""
+    }
+  ]
+}

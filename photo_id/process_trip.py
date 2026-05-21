@@ -72,7 +72,7 @@ def get_species_from_hotspot_website(
                 {"comName": species_name, "frequency": species_frequency}
             )
     except (HTTPError, AttributeError, XMLParseError) as e:
-        logging.error(
+        logging.exception(
             "Error parsing website for hotspot '%s': %s", hotspot_name, str(e)
         )
     finally:
@@ -243,7 +243,7 @@ def updates_species_with_taxonomy(species: dict, taxonomy: list) -> None:
     for taxon in taxonomy:
         if species["comName"] == taxon["comName"]:
             for key in taxon.keys():
-                if key not in species.keys():
+                if key not in species:
                     species[key] = taxon[key]
             break
 

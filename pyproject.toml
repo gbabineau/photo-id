@@ -15,8 +15,6 @@ openpyxl = "^3.1.5"
 beautifulsoup4 = "^4.13.3"
 selenium = "^4.31.0"
 
-[tool.poetry.dev-dependencies]
-
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.1.0"
 coverage = "^7.3.1"
