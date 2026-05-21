@@ -5,7 +5,6 @@ name: Python package
 
 on:
   push:
-    branches:
 
   pull_request:
     types: [opened, synchronize, reopened]
@@ -32,19 +31,11 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install poetry
         poetry install --with dev
-  # with pre=commit this is not needed
-    # - name: Lint with flake8
-    #   run: |
-    #     # stop the build if there are Python syntax errors or undefined names
-    #     poetry run flake8 . --extend-exclude=.venv --count --select=E9,F63,F7,F82 --show-source --statistics
-    #     # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-    #     poetry run flake8 . --extend-exclude=.venv --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test
       run: |
         poetry run coverage run
         poetry run coverage xml
-    - name: SonarCloud Scan
-      uses: sonarsource/sonarcloud-github-action@master
+    - name: SonarQube Scan
+      uses: SonarSource/sonarqube-scan-action@v6
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
