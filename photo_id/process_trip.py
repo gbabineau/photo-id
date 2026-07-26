@@ -2,7 +2,9 @@ import json
 import logging
 import os
 import pathlib
+import re
 import sys
+import datetime
 from urllib.error import HTTPError
 from xml.etree.ElementTree import ParseError as XMLParseError
 
@@ -100,6 +102,11 @@ def get_cached_species_from_hotspot_website(
     cache_subdirectory = os.path.join(cache_directory, "hotspots")
     if not os.path.exists(cache_subdirectory):
         os.makedirs(cache_subdirectory, exist_ok=True)
+
+    hotspot_id_matches = re.findall(r"L\d+", hotspot_id)
+    if hotspot_id_matches:
+        hotspot_id = hotspot_id_matches[-1]
+
     cache_name = f"{os.path.join(cache_subdirectory, hotspot_id)}.json"
     if not os.path.exists(cache_name):
         attempts = 0
@@ -114,7 +121,7 @@ def get_cached_species_from_hotspot_website(
                 end_month=end_month,
             )
             attempts += 1
-        if attempts >= 3:
+        if attempts > 3:
             logging.error(
                 "Failed to retrieve species for hotspot '%s' after 3 attempts.",
                 hotspot_name,
@@ -152,6 +159,20 @@ def process_trip(trip_file: str) -> dict:
         logging.error("Invalid trip data format in '%s'.", trip_file)
         sys.exit(1)
     return trip_data
+
+
+def get_file_modification_time(file_path: pathlib.Path) -> str:
+    """Return the file modification time for the given path."""
+    try:
+        mtime = file_path.stat().st_mtime
+        return datetime.datetime.fromtimestamp(mtime).isoformat(
+            sep=" ", timespec="seconds"
+        )
+    except (OSError, FileNotFoundError) as e:
+        logging.warning(
+            "Unable to get modification time for %s: %s", file_path, str(e)
+        )
+        return ""
 
 
 def update_species_frequency(
@@ -412,21 +433,39 @@ cache_valid = True
 class Cache:
     """A class to manage caching of trip data."""
 
-    def __init__(self, directory, title, starting_valid=True):
+    def __init__(self, directory, title, trip_update_time, starting_valid=True):
         self.cache_valid = starting_valid
         self.cache_directory = directory
         self.trip_title = title
+        self.trip_update_time = trip_update_time
 
     def available(self, cache_type) -> dict:
         """
-        Check if the cache file is available and return its content if it exists.
+        Check if the cache file is available and not dated and return its
+        content if so.
         """
-        cache_file = os.path.join(
-            self.cache_directory, f"{self.trip_title}_{cache_type}.json"
+        cache_path = pathlib.Path(
+            os.path.join(
+                self.cache_directory, f"{self.trip_title}_{cache_type}.json"
+            )
         )
-        if cache_valid and os.path.exists(cache_file):
-            with open(cache_file, "rt", encoding="utf-8") as input_file:
-                return json.load(input_file)
+        if cache_valid and cache_path.exists():
+            cache_update_time = get_file_modification_time(cache_path)
+            if cache_update_time < self.trip_update_time:
+                logging.info(
+                    "Not using cache for %s %s as it is older than the trip data.",
+                    self.trip_title,
+                    cache_type,
+                )
+                cache_path.unlink(missing_ok=True)
+                return {}
+
+            else:
+                logging.info(
+                    "Using cache for %s %s", self.trip_title, cache_type
+                )
+                with cache_path.open("rt", encoding="utf-8") as input_file:
+                    return json.load(input_file)
         return {}
 
     def update(self, cache_type, data) -> None:
@@ -450,7 +489,14 @@ def create_quizes_from_trip_data(
     trip_title = trip_file.stem
     trip_directory = trip_file.parent.resolve()
     cache_directory = ".cache"
-    trip_cache = Cache(cache_directory, trip_title)
+    file_update_time = get_file_modification_time(trip_file)
+    logging.info(
+        "Trip file '%s' last updated: %s",
+        trip_file,
+        file_update_time,
+    )
+    trip_last_update_time = get_file_modification_time(trip_file)
+    trip_cache = Cache(cache_directory, trip_title, trip_last_update_time)
     if (trip_data := trip_cache.available("ITINERARY")) == {}:
         trip_data = process_trip(
             str(trip_file.resolve()),

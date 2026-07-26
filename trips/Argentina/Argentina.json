@@ -1,0 +1,375 @@
+{
+    "name": "Argentina and Chile January 2027",
+    "description": "",
+    "website": "NA",
+    "date": "2027-01-22",
+    "location": "AR",
+    "start_month": 1,
+    "end_month": 2,
+    "minimum_frequency": 10.0,
+    "itinerary": [
+        {
+            "day": "0",
+            "Full day title": "Buenos Aires Reserva Ecológica Costanera Sur - closed mondays",
+            "Full day description": "Buenos Aires Reserva Ecológica Costanera Sur - closed mondays",
+            "hotspots": [
+                {
+                    "name": "Reserva Ecológica Costanera Sur",
+                    "hotspotId": "https://ebird.org/hotspot/L472208"
+                }
+            ],
+            "mentioned": []
+        },
+        {
+            "day": "1",
+            "Full day title": "Punta Tombo Natural Reserve, Isla Escondida",
+            "Full day description": "Punta Tombo Natural Reserve, Isla Escondida",
+            "hotspots": [
+                {
+                    "name": "ANP Punta Tombo",
+                    "hotspotId": "L485324"
+                },
+                {
+                    "name": "Playa Isla Escondida",
+                    "hotspotId": "https://ebird.org/hotspot/L11130062"
+                }
+            ],
+            "mentioned": [
+                "Elegant Crested-Tinamou",
+                "Lesser Rhea",
+                "Sharp-billed Canastero",
+                "Patagonian Mockingbird",
+                "Scale-throated Earthcreeper",
+                "Mourning Sierra Finch",
+                "Gray-hooded Sierra Finch",
+                "Diuca Finch",
+                "Long-tailed Meadowlark",
+                "White-headed Steamer-Duck",
+                "Great Grebe",
+                "Chilean Skua",
+                "Southern Giant-Petrel",
+                "Carbonated Sierra Finch",
+                "Hudson's Black-Tyrant",
+                "Austral Thrush",
+                "Chiguanco Thrush",
+                "Black-chinned Siskin"
+            ]
+        },
+        {
+            "day": "2-3",
+            "Full day title": "Peninsula Valdes natural reserve",
+            "Full day description": "Peninsula Valdes natural reserve",
+            "hotspots": [
+                {
+                    "name": "ANP Península Valdés--Centro de Visitantes",
+                    "hotspotId": "L2470224"
+                },
+                {
+                    "name": "ANP Península Valdés--Puerto Pirámide",
+                    "hotspotId": "L682247"
+                }
+            ],
+            "mentioned": [
+                "Lake Duck",
+                "Black-headed Duck",
+                "Red Shoveler",
+                "Silvery Grebe",
+                "Cinereous Harrier",
+                "Variable Hawk",
+                "Rusty-backed Monjita",
+                "Gray-bellied Shrike-Tyrant",
+                "Patagonian Yellow-Finch",
+                "Snowy Sheathbill",
+                "Magellanic Cormorant",
+                "Dolphin Gull",
+                "Band-tailed Earthcreeper",
+                "Patagonian Canastero",
+                "Tufted Tit-Tyrant",
+                "Plain-mantled Tit-Spinetail",
+                "Darwin's Nothura"
+            ]
+        },
+        {
+            "day": "4",
+            "Full day title": "Las Grutas",
+            "Full day description": "Las Grutas",
+            "hotspots": [
+                {
+                    "name": "Las Grutas",
+                    "hotspotId": "L2763383"
+                }
+            ],
+            "mentioned": [
+                "Sandy Gallito",
+                "White-throated Cacholote",
+                "Cinnamon Warbling Finch",
+                "Black-crowned Monjita",
+                "Yellow-billed Tit-Tyrant",
+                "Greater Yellowlegs",
+                "Lesser Yellowlegs",
+                "White-rumped Sandpiper",
+                "Sanderling",
+                "Two-banded Plover",
+                "Crested Duck"
+            ]
+        },
+        {
+            "day": "5",
+            "Full day title": " San Matias gulf Pelagic",
+            "Full day description": " San Matias gulf Pelagic",
+            "hotspots": [],
+            "mentioned": [
+                "Kelp Gull",
+                "Snowy-crowned Tern",
+                "South American Tern",
+                "Royal Tern",
+                "Imperial Cormorant",
+                "Southern Giant-Petrel",
+                "Brown-hooded Gull",
+                "Black-browed Albatross",
+                "Atlantic Yellow-nosed Albatross",
+                "White-chinned Petrel",
+                "Sooty Shearwater",
+                "Great Shearwater",
+                "Manx Shearwater",
+                "Magellanic Penguin",
+                "Chilean Flamingo"
+            ]
+        },
+        {
+            "day": "6",
+            "Full day title": "General Conesa",
+            "Full day description": "General Conesa",
+            "hotspots": [
+                {
+                    "name": "Valle de Conesa",
+                    "hotspotId": "L3623692"
+                }
+            ],
+            "mentioned": [
+                "Yellow Cardinal",
+                "Crested Gallito",
+                "Spot-winged Falconet",
+                "Greater Rhea",
+                "Brushland Tinamou",
+                "Brown Cacholote",
+                "Tufted Tit-Spinetail",
+                "Lesser Shrike-Tyrant",
+                "Ringed Warbling Finch",
+                "Chaco Earthcreeper",
+                "White-tipped Plantcutter",
+                "White Monjita"
+            ]
+        },
+        {
+            "day": "7-8",
+            "Full day title": "El Condor",
+            "Full day description": "El Condor",
+            "hotspots": [
+                {
+                    "name": "Villa Marítima El Cóndor",
+                    "hotspotId": "L1064900"
+                }
+            ],
+            "mentioned": [
+                "Burrowing Parakeet",
+                "Long-winged Harrier",
+                "Firewood-gatherer"
+            ]
+        },
+        {
+            "day": "9",
+            "Full day title": "Collon Cura",
+            "Full day description": "Collon Cura",
+            "hotspots": [
+                {
+                    "name": "Valle del Río Collón Cura",
+                    "hotspotId": "L3239326"
+                }
+            ],
+            "mentioned": []
+        },
+        {
+            "day": "10",
+            "Full day title": "Lanin National Park",
+            "Full day description": "Lanin National Park",
+            "hotspots": [
+                {
+                    "name": "PN Lanín--Sendero a la base del Volcán Lanín",
+                    "hotspotId": "L14991387"
+                },
+                {
+                    "name": "PN Lanín--Área Lago Tromen",
+                    "hotspotId": "L2098975"
+                },
+                {
+                    "name": "PN Lanín--Playa oriental del Lago Huechulafquen",
+                    "hotspotId": "https://ebird.org/hotspot/L13404177"
+                },
+                {
+                    "name": "PN Lanín--Lago Ruca Choroy",
+                    "hotspotId": "https://ebird.org/hotspot/L14138110"
+                },
+                {
+                    "name": "PN Lanín--Lago Curruhué Grande",
+                    "hotspotId": "https://ebird.org/hotspot/L4102747"
+                },
+                {
+                    "name": "PN Lanín--Laguna Verde",
+                    "hotspotId": "https://ebird.org/hotspot/L4102753"
+                },
+                {
+                    "name": "PN Lanín--Lago Ruca Choroy",
+                    "hotspotId": "https://ebird.org/hotspot/L14138110"
+                }
+            ],
+            "mentioned": [
+                "Austral Parakeet",
+                "Magellanic Woodpecker",
+                "Striped Woodpecker",
+                "Chilean Flicker",
+                "Patagonian Forest Earthcreeper",
+                "Des Murs's Wiretail",
+                "Thorn-tailed Rayadito",
+                "Chucao Tapaculo",
+                "White-crested Elaenia",
+                "Patagonian Tyrant",
+                "Great Shrike-Tyrant",
+                "Fire-eyed Diucon",
+                "Rufous-tailed Plantcutter",
+                "Patagonian Sierra Finch",
+                "Austral Blackbird",
+                "Upland Goose",
+                "Ashy-headed Goose",
+                "Black-faced Ibis"
+            ]
+        },
+        {
+            "day": "11",
+            "Full day title": "San Martin de los Andes",
+            "Full day description": "San Martin de los Andes",
+            "hotspots": [
+                {
+                    "name": "Valle del Río Collón Cura",
+                    "hotspotId": "https://ebird.org/hotspot/L3239326"
+                }
+            ],
+            "mentioned": [
+                "Ochre-flanked Tapaculo",
+                "Chilean Hawk",
+                "Magellanic Tapaculo",
+                "Black-throated Huet-huet",
+                "White-throated Treerunner",
+                "Dark-bellied Cinclodes",
+                "Green-backed Firecrown",
+                "Variable Hawk",
+                "Austral Pygmy-Owl",
+                "Rufous-legged Owl"
+            ]
+        },
+        {
+            "day": "12",
+            "Full day title": "Laguna Rosales & Paso Hua-hum",
+            "Full day description": "Laguna Rosales & Paso Hua-hum",
+            "hotspots": [
+                {
+                    "name": "San Martín de los Andes--Laguna Rosales",
+                    "hotspotId": "https://ebird.org/hotspot/L4102703"
+                },
+                {
+                    "name": "PN Lanín--Cabecera Río Huahum",
+                    "hotspotId": "https://ebird.org/hotspot/L10578428"
+                }
+            ],
+            "mentioned": []
+        },
+        {
+            "day": "13",
+            "Full day title": "Cerro Chapelco & Bariloche Lakes",
+            "Full day description": "Cerro Chapelco & Bariloche Lakes",
+            "hotspots": [
+                {
+                    "name": "Cerro Chapelco--Tercera Reserva",
+                    "hotspotId": "https://ebird.org/hotspot/L3285145"
+                },
+                {
+                    "name": "Bariloche--Laguna El Trébol",
+                    "hotspotId": "https://ebird.org/hotspot/L2762975"
+                }
+            ],
+            "mentioned": [
+                "White-throated Caracara",
+                "White-sided Hillstar",
+                "Black-billed Shrike-Tyrant",
+                "Yellow-bridled Finch",
+                "White-browed Ground-Tyrant",
+                "Cinereous Ground-Tyrant",
+                "Ochre-naped Ground-Tyrant",
+                "Plumbeous Sierra Finch",
+                "Yellow-bridled Finch"
+            ]
+        },
+        {
+            "day": "14",
+            "Full day title": "Puerto Blest",
+            "Full day description": "Puerto Blest",
+            "hotspots": [
+                {
+                    "name": "PN Nahuel Huapi--Puerto Blest",
+                    "hotspotId": "https://ebird.org/hotspot/L4105362"
+                }
+            ],
+            "mentioned": []
+        },
+        {
+            "day": "16",
+            "Full day title": "Chiloe Island with boat tour in Puñihuil Islands",
+            "Full day description": "Chiloe Island with boat tour in Puñihuil Islands",
+            "hotspots": [
+                {
+                    "name": "MN Islotes de Puñihuil",
+                    "hotspotId": "https://ebird.org/hotspot/L571412"
+                }
+            ],
+            "mentioned": [
+                "Peruvian Pelican",
+                "Flightless Steamer-Duck",
+                "Hudsonian Godwit",
+                "Hudsonian Whimbrel",
+                "Baird's Sandpiper",
+                "Franklin's Gull",
+                "Slender-billed Parakeet",
+                "Ochre-flanked Tapaculo",
+                "Des Murs's Wiretail",
+                "Humboldt Penguin",
+                "Magellanic Penguin",
+                "Kelp Goose",
+                "Red-legged Cormorant"
+            ]
+        },
+        {
+            "day": "17",
+            "Full day title": "Puerto Montt Chile",
+            "Full day description": "Puerto Montt Chile",
+            "hotspots": [
+                {
+                    "name": "Chamiza--Humedal",
+                    "hotspotId": "https://ebird.org/hotspot/L7964305"
+                }
+            ],
+            "mentioned": []
+        },
+        {
+            "day": "18",
+            "Full day title": "Santiago - Parque Metropolitano (Cerro San Cristóbal)",
+            "Full day description": "Santiago - Parque Metropolitano (Cerro San Cristóbal)",
+            "hotspots": [
+                {
+                    "name": "Parquemet--Cerro San Cristóbal--Sendero Metropolitano",
+                    "hotspotId": "https://ebird.org/hotspot/L12412615"
+                }
+            ],
+            "mentioned": []
+        }
+    ]
+}
