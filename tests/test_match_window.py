@@ -102,6 +102,7 @@ class TestSpeciesFrame(unittest.TestCase):
         self.start_month = "6"
         self.end_month = "8"
         self.image_width = 300
+        self.life_list = True
         with (
             patch(
                 "photo_id.match_window.VerticalScrolledFrame"
@@ -117,9 +118,10 @@ class TestSpeciesFrame(unittest.TestCase):
                 self.start_month,
                 self.end_month,
                 self.image_width,
+                self.life_list,
             )
             self.assertEqual(mock_button.call_count, 2)
-            self.assertEqual(mock_label.call_count, 4)
+            self.assertEqual(mock_label.call_count, 5)
             mock_update.assert_called_once()
 
     def test_initialization(self):
@@ -129,6 +131,7 @@ class TestSpeciesFrame(unittest.TestCase):
         self.assertEqual(self.sf.start_month, "6")
         self.assertEqual(self.sf.end_month, "8")
         self.assertEqual(self.sf.image_width, 300)
+        self.assertTrue(self.life_list)
 
     @patch("photo_id.match_window.ImageTk.PhotoImage")
     @patch.object(SpeciesFrame, "get_image")
@@ -394,6 +397,7 @@ class TestMatchWindow(unittest.TestCase):
             self.quiz_data["start_month"],
             self.quiz_data["end_month"],
             420,
+            False,
         )
 
     def test_image_display(self):
@@ -415,4 +419,5 @@ class TestMatchWindow(unittest.TestCase):
                     self.quiz_data["start_month"],
                     self.quiz_data["end_month"],
                     420,
+                    False,
                 )

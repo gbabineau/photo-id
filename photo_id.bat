@@ -12,4 +12,4 @@
 @REM Example:
 @REM Double-click the photo_id.bat file or run the following command in the command line:
 @REM C:\Users\Guy\GitProjects\photo-id\photo_id.bat
-C:\Users\Guy\GitProjects\photo-id\.venv\Scripts\python.exe -m photo_id.photo_id --verbose --have_list  C:\Users\Guy\GitProjects\photo-id\tests\data\guy_ebird_world_life_list_1224.csv
+C:\Users\Guy\GitProjects\photo-id\.venv\Scripts\python.exe -m photo_id.photo_id --verbose --have_list  C:\Users\Guy\GitProjects\photo-id\tests\data\ebird_world_life_list.csv

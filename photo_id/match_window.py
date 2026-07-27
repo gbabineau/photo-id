@@ -112,6 +112,7 @@ class SpeciesFrame(ttk.Frame):
         start_month: str,
         end_month: str,
         image_width: int,
+        life_list: bool,
     ):
         ttk.Frame.__init__(self, base, borderwidth=2, relief=RIDGE)
         species_data = large_species_list[species_number]
@@ -136,7 +137,7 @@ class SpeciesFrame(ttk.Frame):
 
         position_in_list = species_number
         choices = min(len(self.full_species_list), 7)
-        choice = random.randrange(choices)
+        choice = random.randrange(choices)  # NOSONAR
 
         if position_in_list + choices >= len(self.full_species_list):
             first = max(0, position_in_list - choices + 1)
@@ -145,12 +146,12 @@ class SpeciesFrame(ttk.Frame):
         elif position_in_list == 0:
             first = 0
         else:
-            first = random.randrange(position_in_list)
+            first = random.randrange(position_in_list)  # NOSONAR
 
         species_list = self.full_species_list[first : first + choices]
         # Opting for this method over shuffling the entire list to maintain
         # a taxonomic order. This makes the selection less predictable.
-        random.shuffle(species_list)
+        random.shuffle(species_list)  # NOSONAR
 
         common_names = [species.get("comName", "") for species in species_list]
         self.what_is_it = ttk.Combobox(
@@ -211,6 +212,18 @@ class SpeciesFrame(ttk.Frame):
                 f"https://ebird.org/species/{self.species_code}"
             ),
         )
+        if life_list:
+            link2 = Label(
+                self,
+                text="On Life list",
+                fg="blue",
+                cursor="hand2",
+            )
+            link2.grid(row=current_row, column=1)
+            link2.bind(
+                "<Button-1>",
+                lambda e: web_browser_callback("https://ebird.org/lifelist/"),
+            )
         current_row = current_row + 1
 
         self.image_display.grid(row=current_row, column=0, columnspan=3)
@@ -394,8 +407,9 @@ class MatchWindow:
     quiz_species = {}
     quiz_species_list = []
 
-    def __init__(self, file: str, taxonomy: dict, _: list):
+    def __init__(self, file: str, taxonomy: dict, have_list: list):
         self.root = Toplevel()
+        self.have_list = have_list
         logging.info("Processing images for %s.", file)
         quiz_data = process_quiz.process_quiz_file(file, taxonomy)
         species_list = quiz_data["species"]
@@ -430,6 +444,14 @@ class MatchWindow:
                 )
                 if species_number >= len(species_list):
                     break
+                species_name = species_list[species_number]["comName"]
+                # determine if species is in have_list
+                in_have_list = any(
+                    (d.get("comName") if isinstance(d, dict) else None)
+                    == species_name
+                    for d in self.have_list
+                )
+
                 self.image_display[row][column] = SpeciesFrame(
                     self.frame.interior,
                     species_number,
@@ -438,6 +460,7 @@ class MatchWindow:
                     quiz_data["start_month"],
                     quiz_data["end_month"],
                     image_width,
+                    in_have_list,
                 )
                 self.image_display[row][column].grid(row=row, column=column)
                 species_number = species_number + 1

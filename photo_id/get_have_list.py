@@ -20,7 +20,7 @@ def get_have_list(name: str) -> list:
     name (str): The name of the CSV file to read.
 
     Returns:
-    list: A list of dictionaries, each containing 'comName' and 'taxonOrder'.
+    list: A list of dictionaries, each containing 'comName', 'taxonOrder'
     """
     result = []
     with open(name, encoding="utf-8", mode="rt") as f:
