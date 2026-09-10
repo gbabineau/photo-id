@@ -26,9 +26,9 @@ class URLCache:
 
     def _get_cache_path(self, url: str) -> Path:
         """Generates a unique, filesystem-safe filename using MD5 hash of the URL."""
-        url_hash = hashlib.md5(
+        url_hash = hashlib.md5(  # NOSONAR hashing is safe
             url.encode("utf-8")
-        ).hexdigest()  # NOSONAR hashing is safe
+        ).hexdigest()
         return self.cache_dir / f"{url_hash}.html"
 
     def get(self, url: str) -> Optional[bytes]:

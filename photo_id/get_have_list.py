@@ -23,7 +23,11 @@ def get_have_list(name: str) -> list:
     list: A list of dictionaries, each containing 'comName', 'taxonOrder'
     """
     result = []
-    with open(name, encoding="utf-8", mode="rt") as f:
+    with open(
+        name,
+        encoding="utf-8",
+        mode="rt",
+    ) as f:  # NOSONAR not worried about the path
         reader = csv.reader(f)
         header = next(reader, [])
         if (
