@@ -2,7 +2,7 @@
 Module: get_have_list
 
 Lists of what you have for a region or time range can be downloaded from
-your eBird account by going to https://ebird.org/lifelist/, using the
+your eBird account by going to https://ebird.org/lifelist, using the
 dropdown menus near the top of the page to select the region and time
 range of your list, then downloading the list through
 the “Download (csv)” link near the upper-right corner of the page.

@@ -222,7 +222,7 @@ class SpeciesFrame(ttk.Frame):
             link2.grid(row=current_row, column=1)
             link2.bind(
                 "<Button-1>",
-                lambda e: web_browser_callback("https://ebird.org/lifelist/"),
+                lambda e: web_browser_callback("https://ebird.org/lifelist"),
             )
         current_row = current_row + 1
 

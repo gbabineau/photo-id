@@ -65,6 +65,6 @@ Then a generated_quiz will be created for each day that can be used as a quiz
 
 ## Have list
 
-Your life list can be downloaded from your eBird account by going to [https://ebird.org/lifelist/], then downloading the list through the “Download (csv)” link near the upper-right corner of the page.
+Your life list can be downloaded from your eBird account by going to [https://ebird.org/lifelist], then downloading the list through the “Download (csv)” link near the upper-right corner of the page.
 
 By default, store this at `tests\data\ebird_world_life_list.csv` and it will be used in the quizzes
