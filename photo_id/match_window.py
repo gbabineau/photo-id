@@ -30,10 +30,11 @@ from tkinter.constants import (
     Y,
 )
 
+import playwright
 import requests
 from PIL import Image, ImageTk, JpegImagePlugin
 
-from photo_id import process_quiz
+from photo_id import process_quiz, url_cache
 
 REQUIRED_IMAGES = 2
 IMAGES_TO_USE = 12
@@ -299,7 +300,7 @@ class SpeciesFrame(ttk.Frame):
                 species_code, location_param, time_param
             )
             result = self._fetch_images(get_string)
-            self.cached_image_list = self._extract_images(result.content)
+            self.cached_image_list = self._extract_images(result)
 
         return self.cached_image_list
 
@@ -324,23 +325,51 @@ class SpeciesFrame(ttk.Frame):
             f"&sort=rating_rank_desc&mediaType=photo{location_param}{time_param}"
         )
 
-    def _fetch_images(self, get_string: str) -> requests.Response:
-        """Fetches images from the eBird API."""
-        for retries in range(5):
-            try:
-                result = requests.get(get_string, timeout=20)
-                result.raise_for_status()
-                return result  # Exit loop if request is successful
-            except requests.exceptions.RequestException as e:
-                logging.warning("Get failed with %s, %d times", str(e), retries)
-                if retries == 4:
-                    sys.exit(1)  # Exit if all retries fail
+    def _fetch_images(self, get_string: str) -> str:
+        """Fetches images from the eBird"""
+        cache = url_cache.URLCache()
+        content = cache.get(get_string)
+        if content is None:
+            with playwright.sync_api.sync_playwright() as p:
+                for retries in range(5):
+                    try:
+                        # 1. Launch a headless Chromium browser
+                        browser = p.chromium.launch(headless=True)
+
+                        # Set a realistic user agent to look like a standard desktop browser
+                        context = browser.new_context(
+                            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                        )
+                        page = context.new_page()
+
+                        # 2. Increase default timeout (60s) to give Anubis time to solve the PoW
+                        page.set_default_timeout(60000)
+                        page.goto(get_string)
+
+                        # 3. Wait for Anubis to complete and redirect to the actual target element
+                        logging.info(
+                            "Waiting for Anubis Proof-of-Work to resolve."
+                        )
+                        page.wait_for_load_state("networkidle")
+
+                        # 4. Grab the information needed
+                        content = page.locator("ol.ResultsGrid").inner_html()
+                        browser.close()
+                        cache.set(get_string, content)
+                        break
+                    except playwright.sync_api.Error as e:
+                        logging.warning(
+                            "Get failed with %s, %d times", str(e), retries
+                        )
+                        if retries == 4:
+                            sys.exit(1)  # Exit if all retries fail
+        return content
 
     def _extract_images(self, content: str) -> list:
         """Extracts image URLs from the eBird API response."""
         content_str = str(content)
         images = re.findall(
-            r"https://cdn\.download\.ams\.birds\.cornell\.edu/api/v\d/asset/\d+/1200",
+            r"https://cdn\.download\.ams\.birds\.cornell\.edu/api/v\d/asset/\d+/640",
             content_str,
         )
         # Filter and limit images based on requirements
@@ -380,10 +409,17 @@ class SpeciesFrame(ttk.Frame):
                 image_list = self.get_image_list(species_code, "", 1, 12)
 
         if len(image_list) > 0:
+            cache = url_cache.URLCache()
             try:
-                result = requests.get(image_list[self.image_number], timeout=10)
-                result.raise_for_status()
-                img_bytes = result.content
+                image_url = image_list[self.image_number]
+                img_bytes = cache.get(image_url)
+                if img_bytes is None:
+                    result = requests.get(image_url, timeout=10)
+                    result.raise_for_status()
+                    img_bytes = result.content
+                    cache.set(image_url, img_bytes)
+                else:
+                    logging.info("Using cached image")
                 image = Image.open(io.BytesIO(img_bytes))
             except requests.exceptions.RequestException as e:
                 logging.warning("Get failed with %s", str(e))
