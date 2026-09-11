@@ -8,11 +8,11 @@ from typing import Optional, Union
 class URLCache:
     _instance = None
     _lock = threading.Lock()
-    cache_dir = ""
+    cache_dir = Path()
     max_age_seconds = 0
 
     def __new__(
-        cls, cache_dir: str = "./.cache/pages", max_age_days: int = 120
+        cls, cache_dir: Path = Path("./.cache/pages"), max_age_days: int = 180
     ):
         # Thread-safe Singleton initialization
         with cls._lock:
@@ -22,7 +22,22 @@ class URLCache:
                 cls._instance.cache_dir = Path(cache_dir)
                 cls._instance.max_age_seconds = max_age_days * 86400
                 cls._instance.cache_dir.mkdir(parents=True, exist_ok=True)
+                cls._instance._cleanup_expired_files()
         return cls._instance
+
+    def _cleanup_expired_files(self) -> None:
+        """Deletes cached files older than max_age  during initialization."""
+        if not self.cache_dir.exists():
+            return
+
+        now = time.time()
+        for cache_path in self.cache_dir.glob("*.html"):
+            try:
+                file_age = now - cache_path.stat().st_mtime
+                if file_age > self.max_age_seconds:
+                    cache_path.unlink(missing_ok=True)
+            except OSError:
+                continue
 
     def _get_cache_path(self, url: str) -> Path:
         """Generates a unique, filesystem-safe filename using MD5 hash of the URL."""
