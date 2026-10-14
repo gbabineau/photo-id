@@ -9,6 +9,9 @@ import logging
 import os
 import pathlib
 import tomllib
+import subprocess
+import sys
+from playwright.sync_api import sync_playwright
 from tkinter import Menu, Tk, filedialog, messagebox, simpledialog
 
 from photo_id import (
@@ -20,6 +23,25 @@ from photo_id import (
     process_quiz,
     process_trip,
 )
+
+
+def ensure_playwright_browsers():
+    """Programmatically ensures Chromium is installed."""
+    try:
+        # Check if browser binaries exist by attempting a quick launch
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            browser.close()
+    except Exception:
+        print(
+            "Playwright browsers not found. Installing Chromium programmatically..."
+        )
+        # Executes 'playwright install chromium' using the current Python executable
+        subprocess.run(
+            [sys.executable, "-m", "playwright", "install", "chromium"],
+            check=True,
+        )
+        print("Chromium installation complete.")
 
 
 class MainWindow:
@@ -244,7 +266,7 @@ def main():
 
     if args.verbose:
         logging.basicConfig(level=logging.INFO)
-
+    ensure_playwright_browsers()
     MainWindow(args.have_list)
 
 

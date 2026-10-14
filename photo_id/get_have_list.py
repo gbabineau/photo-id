@@ -2,7 +2,7 @@
 Module: get_have_list
 
 Lists of what you have for a region or time range can be downloaded from
-your eBird account by going to https://ebird.org/lifelist/, using the
+your eBird account by going to https://ebird.org/lifelist, using the
 dropdown menus near the top of the page to select the region and time
 range of your list, then downloading the list through
 the “Download (csv)” link near the upper-right corner of the page.
@@ -10,6 +10,8 @@ the “Download (csv)” link near the upper-right corner of the page.
 
 import csv
 import logging
+
+from photo_id.safe_path import safe_path
 
 
 def get_have_list(name: str) -> list:
@@ -20,10 +22,15 @@ def get_have_list(name: str) -> list:
     name (str): The name of the CSV file to read.
 
     Returns:
-    list: A list of dictionaries, each containing 'comName' and 'taxonOrder'.
+    list: A list of dictionaries, each containing 'comName', 'taxonOrder'
     """
     result = []
-    with open(name, encoding="utf-8", mode="rt") as f:
+    safe_name = safe_path(name)
+    with open(
+        safe_name,
+        encoding="utf-8",
+        mode="rt",
+    ) as f:
         reader = csv.reader(f)
         header = next(reader, [])
         if (
