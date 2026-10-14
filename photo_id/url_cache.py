@@ -2,7 +2,7 @@ import hashlib
 import threading
 import time
 from pathlib import Path
-from typing import Optional, Union
+from typing import Optional
 
 
 class URLCache:
@@ -63,7 +63,7 @@ class URLCache:
 
         return cache_path.read_bytes()
 
-    def set(self, url: str, content: Union[str, bytes, bytearray]) -> None:
+    def set(self, url: str, content: str | bytes | bytearray) -> None:
         """Saves content bytes to the cache directory. Accepts text as UTF-8 bytes too."""
         cache_path = self._get_cache_path(url)
 

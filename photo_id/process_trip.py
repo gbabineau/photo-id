@@ -168,7 +168,7 @@ def get_file_modification_time(file_path: pathlib.Path) -> str:
         return datetime.datetime.fromtimestamp(mtime).isoformat(
             sep=" ", timespec="seconds"
         )
-    except (OSError, FileNotFoundError) as e:
+    except OSError as e:
         logging.warning(
             "Unable to get modification time for %s: %s", file_path, str(e)
         )
@@ -178,6 +178,7 @@ def get_file_modification_time(file_path: pathlib.Path) -> str:
 def update_species_frequency(
     species: dict, trip_data: dict, hotspot_species: list
 ) -> None:
+    """Updates the frequency for display"""
     if species["frequency"] >= trip_data["minimum_frequency"]:
         if species["comName"] not in [s["comName"] for s in hotspot_species]:
             hotspot_species.append(

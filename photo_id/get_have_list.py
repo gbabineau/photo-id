@@ -11,6 +11,8 @@ the “Download (csv)” link near the upper-right corner of the page.
 import csv
 import logging
 
+from photo_id.safe_path import safe_path
+
 
 def get_have_list(name: str) -> list:
     """
@@ -23,11 +25,12 @@ def get_have_list(name: str) -> list:
     list: A list of dictionaries, each containing 'comName', 'taxonOrder'
     """
     result = []
+    safe_name = safe_path(name)
     with open(
-        name,
+        safe_name,
         encoding="utf-8",
         mode="rt",
-    ) as f:  # NOSONAR not worried about the path
+    ) as f:
         reader = csv.reader(f)
         header = next(reader, [])
         if (
