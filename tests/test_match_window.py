@@ -57,6 +57,24 @@ class TestVerticalScrolledFrame(unittest.TestCase):
             0, 0, window=unittest.mock.ANY, anchor="nw"
         )
 
+    def test_resize_callbacks_update_canvas_and_interior(self):
+        canvas = self.mock_canvas.return_value
+        interior = self.vs_frame.interior
+        interior.winfo_reqwidth.return_value = 200
+        interior.winfo_reqheight.return_value = 300
+        canvas.winfo_width.return_value = 100
+        interior_configure = getattr(interior.bind, "call_args").args[1]
+        canvas_configure = canvas.bind.call_args.args[1]
+
+        interior_configure(None)
+        canvas_configure(None)
+
+        canvas.config.assert_any_call(scrollregion="0 0 200 300")
+        canvas.config.assert_any_call(width=200)
+        canvas.itemconfigure.assert_called_once_with(
+            canvas.create_window.return_value, width=100
+        )
+
 
 class TestWebBrowserCallback(unittest.TestCase):
     @patch("photo_id.match_window.webbrowser.open_new")
@@ -141,6 +159,92 @@ class TestSpeciesFrame(unittest.TestCase):
         mock_get_image.assert_called_once_with("comchi1", "NO", "6", "8")
         mock_photo_image.assert_called_once()
         mock_scale.assert_called_once()
+
+    def test_scale_image_width_preserves_aspect_ratio(self):
+        from PIL import Image
+
+        self.sf.image_width = 100
+        image = Image.new("RGB", (200, 80))
+
+        scaled_image = self.sf.scale_image_width(image)
+
+        self.assertEqual(scaled_image.size, (100, 40))
+
+    @patch.object(SpeciesFrame, "_extract_images", return_value=["image-url"])
+    @patch.object(SpeciesFrame, "_fetch_images", return_value="page-content")
+    def test_get_image_list_builds_query_and_caches_result(
+        self, mock_fetch, mock_extract
+    ):
+        result = self.sf.get_image_list("comchi1", "NO", 6, 8)
+
+        self.assertEqual(result, ["image-url"])
+        mock_fetch.assert_called_once_with(
+            "https://media.ebird.org/catalog?view=grid&taxonCode=comchi1"
+            "&sort=rating_rank_desc&mediaType=photo&regionCode=NO"
+            "&beginMonth=6&endMonth=8"
+        )
+        mock_extract.assert_called_once_with("page-content")
+        self.assertEqual(self.sf.get_image_list("comchi1", "NO", 6, 8), result)
+        mock_fetch.assert_called_once()
+
+    @patch.object(SpeciesFrame, "_fetch_images")
+    def test_get_image_list_extracts_only_enough_image_results(
+        self, mock_fetch
+    ):
+        image_urls = [
+            f"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/{i}/640"
+            for i in range(6)
+        ]
+        mock_fetch.side_effect = [
+            " ".join(image_urls),
+            " ".join(image_urls[:4]),
+        ]
+
+        self.assertEqual(
+            self.sf.get_image_list("comchi1", "", 1, 12),
+            [image_urls[2], image_urls[4]],
+        )
+        self.sf.cached_image_list = []
+        self.assertEqual(self.sf.get_image_list("comchi1", "", 1, 12), [])
+
+    @patch("photo_id.match_window.url_cache.URLCache")
+    def test_image_list_fetch_uses_cached_content(self, mock_url_cache):
+        image_urls = [
+            f"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/{i}/640"
+            for i in range(6)
+        ]
+        mock_url_cache.return_value.get.return_value = " ".join(image_urls)
+
+        result = self.sf.get_image_list("comchi1", "", 1, 12)
+
+        self.assertEqual(result, [image_urls[2], image_urls[4]])
+        mock_url_cache.return_value.set.assert_not_called()
+
+    @patch("photo_id.match_window.playwright")
+    @patch("photo_id.match_window.url_cache.URLCache")
+    def test_fetch_images_loads_and_caches_page_content(
+        self, mock_url_cache, mock_playwright
+    ):
+        mock_url_cache.return_value.get.return_value = None
+        page = mock_playwright.sync_api.sync_playwright.return_value.__enter__.return_value
+        browser = page.chromium.launch.return_value
+        image_urls = [
+            f"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/{i}/640"
+            for i in range(6)
+        ]
+        page_content = " ".join(image_urls)
+        browser.new_context.return_value.new_page.return_value.locator.return_value.inner_html.return_value = page_content
+
+        result = self.sf.get_image_list("comchi1", "", 1, 12)
+
+        self.assertEqual(result, [image_urls[2], image_urls[4]])
+        page.chromium.launch.assert_called_once_with(headless=True)
+        browser.close.assert_called_once()
+        mock_url_cache.return_value.set.assert_called_once_with(
+            "https://media.ebird.org/catalog?view=grid&taxonCode=comchi1"
+            "&sort=rating_rank_desc&mediaType=photo",
+            page_content,
+        )
 
     @patch("photo_id.match_window.Toplevel")
     @patch("photo_id.match_window.Message")
@@ -236,6 +340,34 @@ class TestSpeciesFrame(unittest.TestCase):
             "photo_id/resources/Banner__Under_Construction__version_2.jpg"
         )
         self.assertEqual(image, "default_image")
+
+    @patch("photo_id.match_window.Image.open")
+    @patch("photo_id.match_window.requests.get")
+    @patch("photo_id.match_window.url_cache.URLCache")
+    @patch.object(SpeciesFrame, "get_image_list")
+    def test_get_image_downloads_and_caches_image(
+        self,
+        mock_get_image_list,
+        mock_url_cache,
+        mock_requests_get,
+        mock_image_open,
+    ):
+        mock_get_image_list.return_value = ["https://example.test/image.jpg"]
+        mock_url_cache.return_value.get.return_value = None
+        mock_requests_get.return_value.content = b"image-bytes"
+        mock_image_open.return_value = "image"
+
+        result = self.sf.get_image("comchi1", "NO", 6, 8)
+
+        self.assertEqual(result, "image")
+        mock_requests_get.assert_called_once_with(
+            "https://example.test/image.jpg", timeout=10
+        )
+        mock_requests_get.return_value.raise_for_status.assert_called_once()
+        mock_url_cache.return_value.set.assert_called_once_with(
+            "https://example.test/image.jpg", b"image-bytes"
+        )
+        mock_image_open.assert_called_once()
 
 
 class TestMatchWindow(unittest.TestCase):
